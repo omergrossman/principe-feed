@@ -59,6 +59,22 @@
   .muted { color: var(--ink-300); font-style: italic; font-size: 13px; margin: 0; }
   .err { background: #fdecea; color: var(--danger); border-radius: 8px; padding: .5rem .75rem; font-size: 12.5px; margin-bottom: 1rem; }
   .pill { display: inline-block; background: var(--flare-soft); color: var(--flare); font-size: 11px; font-weight: 600; padding: 1px 8px; border-radius: 999px; vertical-align: middle; }
+  .hint { color: var(--ink-300); font-size: 12px; margin: -.4rem 0 .9rem; }
+  .status { font-size: 11px; font-weight: 600; padding: 1px 8px; border-radius: 999px; vertical-align: middle; }
+  .status.ok { background: #e7f3ea; color: #1f7a3d; }
+  .status.no { background: #f3f1ec; color: var(--ink-500); }
+  input[type=password] { flex: 1; height: 38px; padding: 0 .8rem; border: 1px solid var(--border); border-radius: 8px; font-size: 13.5px; outline: none; }
+  input[type=password]:focus { border-color: var(--flare); }
+  .builds li { cursor: pointer; border-radius: 6px; padding: .35rem .4rem; }
+  .builds li:hover { background: #faf8f4; }
+  .builds li.open .label { color: var(--flare); }
+  .chev { color: var(--ink-300); flex-shrink: 0; }
+  .detail { margin-top: .4rem; padding: .2rem .4rem 0; }
+  .detail .dh { font-size: 12px; color: var(--ink-500); font-weight: 600; margin: .5rem 0; }
+  .entry { border-top: 1px solid var(--border); padding: .8rem 0; }
+  .entry-meta { font-size: 11px; color: var(--ink-300); font-family: ui-monospace, monospace; margin-bottom: .25rem; }
+  .entry-title { font-weight: 600; font-size: 13.5px; margin-bottom: .3rem; }
+  .entry-summary { font-size: 13px; color: var(--ink-700); line-height: 1.5; }
 </style>
 </head>
 <body>
@@ -94,8 +110,18 @@
   </section>
 
   <section class="card">
-    <h3>Recent builds</h3>
-    <ul class="list mono" id="builds"></ul>
+    <h3>Recent builds — click one to see what it published</h3>
+    <ul class="list mono builds" id="builds"></ul>
+    <div class="detail" id="buildDetail"></div>
+  </section>
+
+  <section class="card">
+    <h2>Feed's Anthropic key <span class="status no" id="akStatus">…</span></h2>
+    <p class="hint">Distils the daily feed. This is the feed's own key — it doesn't have to match your Príncipe instance's.</p>
+    <form class="row" id="akForm">
+      <input id="akInput" type="password" placeholder="sk-ant-…" autocomplete="off" />
+      <button class="btn primary" id="akBtn" type="submit" disabled>Save key</button>
+    </form>
   </section>
 </main>
 
@@ -127,8 +153,34 @@ function render(s) {
     const li = document.createElement("li");
     const d = document.createElement("span"); d.className = "date"; d.textContent = new Date(b.date).toLocaleDateString();
     const m = document.createElement("span"); m.className = "label"; m.textContent = b.message;
-    li.append(d, m); builds.append(li);
+    const c = document.createElement("span"); c.className = "chev"; c.textContent = "›";
+    li.append(d, m, c);
+    li.onclick = () => loadBuild(b.sha, b.date, li);
+    builds.append(li);
   }
+  const ak = $("akStatus"), a = s.anthropic || {};
+  if (a.set) { ak.className = "status ok"; ak.textContent = "set" + (a.updatedAt ? " · " + new Date(a.updatedAt).toLocaleDateString() : ""); ak.title = ""; }
+  else { ak.className = "status no"; ak.textContent = a.error ? "gh not ready" : "not set"; ak.title = a.error || ""; }
+}
+
+function esc(s) { return (s || "").replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c])); }
+function entryHtml(e) {
+  const tags = [e.category, e.region, ...(e.industries || [])].filter(Boolean).join(" · ");
+  const badge = e.tier === "foundational" ? "🏛️ foundational" : "📰 event";
+  return '<div class="entry"><div class="entry-meta">' + badge + (tags ? "  ·  " + esc(tags) : "") +
+    '</div><div class="entry-title">' + esc(e.title) + '</div><div class="entry-summary">' + esc(e.summary) + "</div></div>";
+}
+async function loadBuild(sha, date, li) {
+  const detail = $("buildDetail");
+  document.querySelectorAll(".builds li").forEach((x) => x.classList.remove("open"));
+  li.classList.add("open");
+  detail.innerHTML = '<div class="dh">Loading…</div>';
+  try {
+    const r = await fetch("/api/build?sha=" + encodeURIComponent(sha)); const d = await r.json();
+    if (!d.ok) throw new Error(d.error || "failed");
+    detail.innerHTML = '<div class="dh">Feed of ' + new Date(date).toLocaleDateString() + " · " + d.entries.length + " entries</div>" +
+      (d.entries.length ? d.entries.map(entryHtml).join("") : '<p class="muted">No entries in this build.</p>');
+  } catch (e) { detail.innerHTML = '<div class="dh">' + esc(e.message) + "</div>"; }
 }
 
 async function load() {
@@ -157,6 +209,12 @@ $("file").addEventListener("change", async (e) => {
   const b64 = await new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(r.result.split(",")[1] || ""); r.onerror = rej; r.readAsDataURL(f); });
   await action({ action: "add-file", name: f.name, contentBase64: b64 });
   $("uploadLabel").textContent = "Upload file…"; e.target.value = "";
+});
+
+$("akInput").addEventListener("input", (e) => { $("akBtn").disabled = !e.target.value.trim().startsWith("sk-ant-"); });
+$("akForm").addEventListener("submit", async (e) => {
+  e.preventDefault(); const v = $("akInput").value.trim(); if (!v.startsWith("sk-ant-")) return;
+  await action({ action: "set-anthropic", value: v }); $("akInput").value = ""; $("akBtn").disabled = true;
 });
 
 load();
