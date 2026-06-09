@@ -31,8 +31,13 @@ export const sha = (s: string): string => crypto.createHash("sha256").update(s).
 /** Production ingester — RSS/Atom via rss-parser, with a browser-ish UA. */
 export function makeRssIngest(): IngestFn {
   const parser = new Parser({
-    timeout: 12_000,
-    headers: { "User-Agent": "Mozilla/5.0 (compatible; Principe-FeedBot/1.0; +https://principe.ai)" },
+    timeout: 20_000, // some regulator feeds (ACSC) are slow
+    // Browser-like UA — several feeds (e.g. analyst sites) 403 a "bot" UA.
+    headers: {
+      "User-Agent":
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      Accept: "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+    },
   });
   return async (source) => {
     assertAllowedHost(source.url);

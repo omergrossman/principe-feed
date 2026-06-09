@@ -59,11 +59,29 @@ export async function runPipeline(deps: RunDeps): Promise<RunResult> {
   const seen = loadSeen(join(rootDir, SEEN_PATH));
   const freshRaw = items.filter((r) => isNew(seen, r.url));
 
-  // 3. Cap new EVENT articles per run; foundational uncapped.
+  // 3. Cap new EVENT articles per run, ROUND-ROBIN across sources so one
+  //    prolific feed (e.g. CISA's advisory firehose) can't crowd out
+  //    regulation/strategy/analyst items from quieter feeds. Foundational
+  //    is uncapped.
   const isEvent = (r: RawItem) => sourceByKey.get(r.sourceKey)!.tier === "event";
   const freshEvents = freshRaw.filter(isEvent);
-  const toProcess = [...freshEvents.slice(0, MAX_ITEMS_PER_DAY), ...freshRaw.filter((r) => !isEvent(r))];
-  const capped = freshEvents.length - Math.min(freshEvents.length, MAX_ITEMS_PER_DAY);
+  const queues = new Map<string, RawItem[]>();
+  for (const r of freshEvents) {
+    const q = queues.get(r.sourceKey) ?? [];
+    q.push(r);
+    queues.set(r.sourceKey, q);
+  }
+  const lanes = [...queues.values()];
+  const pickedEvents: RawItem[] = [];
+  for (let round = 0; pickedEvents.length < MAX_ITEMS_PER_DAY && lanes.some((q) => q.length); round++) {
+    for (const q of lanes) {
+      if (pickedEvents.length >= MAX_ITEMS_PER_DAY) break;
+      const item = q.shift();
+      if (item) pickedEvents.push(item);
+    }
+  }
+  const toProcess = [...pickedEvents, ...freshRaw.filter((r) => !isEvent(r))];
+  const capped = freshEvents.length - pickedEvents.length;
 
   // 4. Distill each fresh article.
   const distilled: { entry: FeedEntry; raw: RawItem }[] = [];
