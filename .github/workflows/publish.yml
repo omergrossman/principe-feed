@@ -1,0 +1,35 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Publish: when a daily snapshot lands on main (merged PR in review mode,
+# or direct push in auto mode), sign it with the real build-bundle and
+# upload to the rolling "latest" GitHub Release. The signing key lives
+# ONLY in this repo's secrets — never in principe-oss.
+name: publish-feed
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "knowledge/**"
+      - "feed-metadata.json"
+
+permissions:
+  contents: write
+
+jobs:
+  sign-and-release:
+    runs-on: ubuntu-latest
+    env:
+      PRINCIPE_OSS_DIR: vendor/principe-oss
+      PRINCIPE_UPDATES_PRIVATE_KEY: ${{ secrets.PRINCIPE_UPDATES_PRIVATE_KEY }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm install --frozen-lockfile --dir vendor/principe-oss
+      - name: Sign + release
+        run: node --import tsx scripts/publish.ts

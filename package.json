@@ -1,0 +1,18 @@
+{
+  "name": "principe-feed",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily cyber-news feed publisher for the Príncipe CISO panel (producer side).",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "daily": "tsx src/run-daily.ts",
+    "verify": "tsx scripts/verify-roundtrip.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.7.0"
+  }
+}

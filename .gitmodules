@@ -1,0 +1,3 @@
+[submodule "vendor/principe-oss"]
+	path = vendor/principe-oss
+	url = https://github.com/omergrossman/principe-oss
