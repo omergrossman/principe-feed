@@ -80,6 +80,8 @@
   .runbar { display: flex; align-items: center; gap: .8rem; margin: 0 0 1.4rem; }
   .runstatus { font-size: 12.5px; color: var(--ink-500); }
   .runstatus a { color: var(--flare); text-decoration: none; }
+  .toast { position: fixed; top: 1.3rem; left: 50%; transform: translateX(-50%) translateY(-8px); background: #1f7a3d; color: #fff; font-size: 13px; font-weight: 600; padding: .55rem 1.1rem; border-radius: 999px; box-shadow: 0 6px 20px rgba(0,0,0,.18); opacity: 0; transition: opacity .22s, transform .22s; z-index: 100; pointer-events: none; }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 </style>
 </head>
 <body>
@@ -133,6 +135,8 @@
       <button class="btn primary" id="akBtn" type="submit" disabled>Save key</button>
     </form>
   </section>
+
+  <div class="toast" id="toast"></div>
 </main>
 
 <script>
@@ -155,7 +159,7 @@ function render(s) {
     const li = document.createElement("li");
     const span = document.createElement("span"); span.className = "label"; span.textContent = it.label;
     const btn = document.createElement("button"); btn.className = "rm"; btn.textContent = "remove";
-    btn.onclick = () => action(it.kind === "url" ? { action: "remove-url", url: it.key } : { action: "remove-file", name: it.key, sha: it.sha });
+    btn.onclick = () => action(it.kind === "url" ? { action: "remove-url", url: it.key } : { action: "remove-file", name: it.key, sha: it.sha }).then((ok) => ok && flash("✓ Removed"));
     li.append(span, btn); pending.append(li);
   }
   const builds = $("builds"); builds.innerHTML = "";
@@ -201,30 +205,39 @@ async function load() {
 }
 
 async function action(payload) {
-  if (busy) return; busy = true; setErr(null);
+  if (busy) return false; busy = true; setErr(null);
   try {
     const r = await fetch("/api/action", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(payload) });
-    const d = await r.json(); if (!d.ok) throw new Error(d.error || "failed"); render(d);
-  } catch (e) { setErr(e.message); } finally { busy = false; }
+    const d = await r.json(); if (!d.ok) throw new Error(d.error || "failed"); render(d); return true;
+  } catch (e) { setErr(e.message); return false; } finally { busy = false; }
+}
+
+let toastTimer;
+function flash(msg) {
+  const t = $("toast"); t.textContent = msg; t.classList.add("show");
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove("show"), 2600);
 }
 
 $("url").addEventListener("input", (e) => { $("addBtn").disabled = !e.target.value.trim(); });
 $("urlForm").addEventListener("submit", async (e) => {
   e.preventDefault(); const u = $("url").value.trim(); if (!u) return;
-  await action({ action: "add-url", url: u }); $("url").value = ""; $("addBtn").disabled = true;
+  if (await action({ action: "add-url", url: u })) { $("url").value = ""; $("addBtn").disabled = true; flash("✓ URL added — it'll be digested in the next build"); }
 });
 $("file").addEventListener("change", async (e) => {
   const f = e.target.files[0]; if (!f) return;
   $("uploadLabel").textContent = "Uploading…";
   const b64 = await new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(r.result.split(",")[1] || ""); r.onerror = rej; r.readAsDataURL(f); });
-  await action({ action: "add-file", name: f.name, contentBase64: b64 });
+  if (await action({ action: "add-file", name: f.name, contentBase64: b64 })) flash("✓ " + f.name + " uploaded");
   $("uploadLabel").textContent = "Upload file…"; e.target.value = "";
 });
 
 $("akInput").addEventListener("input", (e) => { $("akBtn").disabled = !e.target.value.trim().startsWith("sk-ant-"); });
 $("akForm").addEventListener("submit", async (e) => {
   e.preventDefault(); const v = $("akInput").value.trim(); if (!v.startsWith("sk-ant-")) return;
-  await action({ action: "set-anthropic", value: v }); $("akInput").value = ""; $("akBtn").disabled = true;
+  $("akBtn").disabled = true; $("akBtn").textContent = "Saving…";
+  const ok = await action({ action: "set-anthropic", value: v });
+  $("akBtn").textContent = "Save key";
+  if (ok) { $("akInput").value = ""; flash("✓ Anthropic key saved"); } else { $("akBtn").disabled = false; }
 });
 
 $("runBtn").addEventListener("click", async () => {
