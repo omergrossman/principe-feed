@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Príncipe Feed Console</title>
+<link rel="icon" type="image/svg+xml" href="/icon.svg" />
 <style>
   :root {
     --bg: #f7f5f0; --card: #fff; --border: #ece9e2;
@@ -19,6 +20,7 @@
   .wrap { max-width: 720px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
   header { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: .25rem; }
   .brand { font-size: 1.5rem; font-weight: 700; letter-spacing: -.01em; }
+  .glyph { vertical-align: -4px; margin-right: 7px; }
   .brand span { font-weight: 400; color: var(--ink-500); }
   .repo { font: 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--ink-300); }
   .lede { color: var(--ink-500); font-size: 13.5px; margin: .5rem 0 1.5rem; }
@@ -75,12 +77,15 @@
   .entry-meta { font-size: 11px; color: var(--ink-300); font-family: ui-monospace, monospace; margin-bottom: .25rem; }
   .entry-title { font-weight: 600; font-size: 13.5px; margin-bottom: .3rem; }
   .entry-summary { font-size: 13px; color: var(--ink-700); line-height: 1.5; }
+  .runbar { display: flex; align-items: center; gap: .8rem; margin: 0 0 1.4rem; }
+  .runstatus { font-size: 12.5px; color: var(--ink-500); }
+  .runstatus a { color: var(--flare); text-decoration: none; }
 </style>
 </head>
 <body>
 <main class="wrap">
   <header>
-    <div class="brand">Príncipe <span>Feed Console</span> <span class="pill">publisher</span></div>
+    <div class="brand"><img src="/icon.svg" class="glyph" width="24" height="24" alt="" />Príncipe <span>Feed Console</span> <span class="pill">publisher</span></div>
     <div class="repo" id="repo"></div>
   </header>
   <p class="lede">
@@ -89,6 +94,11 @@
     before publishing. <span id="live"></span>
   </p>
   <div class="err" id="err" hidden></div>
+
+  <div class="runbar">
+    <button class="btn primary" id="runBtn">⚡ Run build now</button>
+    <span class="runstatus" id="runStatus"></span>
+  </div>
 
   <section class="card">
     <h2>Add a source</h2>
@@ -151,7 +161,7 @@ function render(s) {
   const builds = $("builds"); builds.innerHTML = "";
   for (const b of s.recentBuilds) {
     const li = document.createElement("li");
-    const d = document.createElement("span"); d.className = "date"; d.textContent = new Date(b.date).toLocaleDateString();
+    const d = document.createElement("span"); d.className = "date"; d.textContent = new Date(b.date).toLocaleString([], { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
     const m = document.createElement("span"); m.className = "label"; m.textContent = b.message;
     const c = document.createElement("span"); c.className = "chev"; c.textContent = "›";
     li.append(d, m, c);
@@ -178,7 +188,7 @@ async function loadBuild(sha, date, li) {
   try {
     const r = await fetch("/api/build?sha=" + encodeURIComponent(sha)); const d = await r.json();
     if (!d.ok) throw new Error(d.error || "failed");
-    detail.innerHTML = '<div class="dh">Feed of ' + new Date(date).toLocaleDateString() + " · " + d.entries.length + " entries</div>" +
+    detail.innerHTML = '<div class="dh">Feed of ' + new Date(date).toLocaleString([], { dateStyle: "medium", timeStyle: "short" }) + " · " + d.entries.length + " entries</div>" +
       (d.entries.length ? d.entries.map(entryHtml).join("") : '<p class="muted">No entries in this build.</p>');
   } catch (e) { detail.innerHTML = '<div class="dh">' + esc(e.message) + "</div>"; }
 }
@@ -215,6 +225,18 @@ $("akInput").addEventListener("input", (e) => { $("akBtn").disabled = !e.target.
 $("akForm").addEventListener("submit", async (e) => {
   e.preventDefault(); const v = $("akInput").value.trim(); if (!v.startsWith("sk-ant-")) return;
   await action({ action: "set-anthropic", value: v }); $("akInput").value = ""; $("akBtn").disabled = true;
+});
+
+$("runBtn").addEventListener("click", async () => {
+  $("runBtn").disabled = true; $("runStatus").textContent = "Triggering…";
+  try {
+    const r = await fetch("/api/action", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ action: "run-build" }) });
+    const d = await r.json(); if (!d.ok) throw new Error(d.error || "failed");
+    $("runStatus").innerHTML = "✓ Build triggered — it will open a review PR and email you (~5 min). " +
+      '<a href="https://github.com/' + (d.repo || "") + '/actions" target="_blank">view runs ›</a>';
+    render(d);
+  } catch (e) { $("runStatus").textContent = "⚠ " + e.message; }
+  finally { setTimeout(() => { $("runBtn").disabled = false; }, 5000); }
 });
 
 load();

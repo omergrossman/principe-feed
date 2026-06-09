@@ -23,7 +23,9 @@ function gh(args: string[], allowFail = false): void {
 }
 
 async function main() {
-  const version = process.argv[2] ?? new Date().toISOString().slice(0, 10);
+  // Version includes UTC time (YYYY-MM-DD-HHMM) so two builds on the same
+  // day are distinct — the consumer keys "update available" on the version.
+  const version = process.argv[2] ?? new Date().toISOString().slice(0, 16).replace("T", "-").replace(":", "");
   const keyPem = process.env.PRINCIPE_UPDATES_PRIVATE_KEY;
   if (!keyPem) throw new Error("PRINCIPE_UPDATES_PRIVATE_KEY secret is required");
 

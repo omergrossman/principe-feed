@@ -58,14 +58,14 @@ async function main() {
   const fresh = store.filter((e) => new Date(e.ingestedAt).getTime() >= cutoff);
   const exp = Date.now() + EXP_MS;
 
-  const date = new Date().toISOString().slice(0, 10);
-  const subject = `Príncipe daily brief — ${date}${fresh.length ? ` (${fresh.length} new)` : ""}`;
+  const stamp = new Date().toISOString().slice(0, 16).replace("T", " ") + " UTC";
+  const subject = `Príncipe daily brief — ${stamp}${fresh.length ? ` (${fresh.length} new)` : ""}`;
   const btn = (href: string, color: string, label: string) =>
     `<a href="${href}" style="display:inline-block;background:${color};color:#fff;text-decoration:none;border-radius:.6rem;padding:.8rem 1.6rem;font-weight:600;margin:.3rem">${label}</a>`;
 
   const html =
     `<div style="font-family:system-ui,-apple-system,sans-serif;max-width:34rem;margin:0 auto;color:#111">` +
-    `<h2 style="font-size:1.15rem">Príncipe daily brief — ${date}</h2>` +
+    `<h2 style="font-size:1.15rem">Príncipe daily brief — ${stamp}</h2>` +
     `<p style="color:#555;font-size:.9rem">${fresh.length} new entr${fresh.length === 1 ? "y" : "ies"} · ${store.length} live in the panel. Review and approve below — the diff IS the digest.</p>` +
     (fresh.length ? fresh.map(entryHtml).join("") : `<p style="color:#6b7280">No new entries today — nothing to publish.</p>`) +
     `<div style="text-align:center;margin:1.5rem 0">${btn(link("approve", exp), "#16a34a", "✅ Approve & Publish")}${btn(link("skip", exp), "#6b7280", "✕ Skip today")}</div>` +
