@@ -4,3 +4,4 @@ dist/
 key.pem
 .DS_Store
 .wrangler/
+.deploy.env
