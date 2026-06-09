@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.2.2",
   "description": "Daily cyber-news feed publisher for the Príncipe CISO panel (producer side).",
   "license": "AGPL-3.0-or-later",
   "scripts": {
