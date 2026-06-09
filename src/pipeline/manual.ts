@@ -26,8 +26,15 @@ function stripHtml(s: string): string {
 async function pdfToText(buf: Buffer): Promise<string> {
   // Import the lib entry directly to avoid pdf-parse's debug self-test.
   // @ts-expect-error — no types for the lib subpath; shape asserted below.
-  const pdf = (await import("pdf-parse/lib/pdf-parse.js")).default as (b: Buffer) => Promise<{ text: string }>;
-  return (await pdf(buf)).text;
+  const pdf = (await import("pdf-parse/lib/pdf-parse.js")).default as (b: Buffer, o?: { max?: number }) => Promise<{ text: string }>;
+  // Cap pages — an eBook can be hundreds of pages; the first ~25 carry the
+  // key points and the distiller only reads the first few thousand chars
+  // anyway. Time-box it so a problematic PDF can never hang the build.
+  const parsed = await Promise.race([
+    pdf(buf, { max: 25 }),
+    new Promise<{ text: string }>((_, reject) => setTimeout(() => reject(new Error("PDF parse timed out (45s)")), 45_000)),
+  ]);
+  return parsed.text;
 }
 
 async function extractText(path: string): Promise<string> {
