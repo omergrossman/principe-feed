@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Príncipe Feed Console</title>
+<style>
+  :root {
+    --bg: #f7f5f0; --card: #fff; --border: #ece9e2;
+    --ink-900: #1c1c28; --ink-700: #3b3b49; --ink-500: #6b7280; --ink-300: #a8a6a0;
+    --flare: #e2691f; --flare-soft: #fbecdd; --danger: #c2410c;
+    --radius: 12px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink-900);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+  header { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: .25rem; }
+  .brand { font-size: 1.5rem; font-weight: 700; letter-spacing: -.01em; }
+  .brand span { font-weight: 400; color: var(--ink-500); }
+  .repo { font: 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--ink-300); }
+  .lede { color: var(--ink-500); font-size: 13.5px; margin: .5rem 0 1.5rem; }
+  .lede b { color: var(--ink-700); }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 1.25rem 1.4rem; margin-bottom: 1.1rem;
+  }
+  h2 { font-size: 1rem; margin: 0 0 .9rem; }
+  h3 { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-300); font-weight: 600; margin: 0 0 .7rem; }
+  .row { display: flex; gap: .6rem; margin-bottom: .9rem; }
+  input[type=url] {
+    flex: 1; height: 38px; padding: 0 .8rem; border: 1px solid var(--border); border-radius: 8px;
+    font-size: 13.5px; color: var(--ink-900); background: #fff; outline: none;
+  }
+  input[type=url]:focus { border-color: var(--flare); }
+  input[type=url]::placeholder { color: var(--ink-300); }
+  .btn {
+    height: 38px; padding: 0 1.1rem; border: 0; border-radius: 8px; font-size: 13.5px; font-weight: 600;
+    cursor: pointer; white-space: nowrap;
+  }
+  .btn.primary { background: var(--flare); color: #fff; }
+  .btn.primary:disabled { background: #e8b692; cursor: default; }
+  .upload { display: inline-flex; align-items: center; gap: .7rem; cursor: pointer; }
+  .upload span {
+    display: inline-flex; align-items: center; height: 38px; padding: 0 1rem;
+    border: 1px dashed var(--ink-300); border-radius: 8px; color: var(--ink-700); font-size: 13.5px;
+  }
+  .upload:hover span { border-color: var(--flare); }
+  .upload em { color: var(--ink-300); font-size: 11px; font-style: normal; font-family: ui-monospace, monospace; }
+  .list { list-style: none; margin: 0; padding: 0; }
+  .list li { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .35rem 0; font-size: 13px; }
+  .list .label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink-700); font-family: ui-monospace, monospace; }
+  .list.mono li { color: var(--ink-500); font-family: ui-monospace, monospace; font-size: 12px; }
+  .list .date { color: var(--ink-300); flex-shrink: 0; }
+  .rm { background: none; border: 0; color: var(--ink-300); cursor: pointer; font-size: 12px; flex-shrink: 0; }
+  .rm:hover { color: var(--danger); }
+  .muted { color: var(--ink-300); font-style: italic; font-size: 13px; margin: 0; }
+  .err { background: #fdecea; color: var(--danger); border-radius: 8px; padding: .5rem .75rem; font-size: 12.5px; margin-bottom: 1rem; }
+  .pill { display: inline-block; background: var(--flare-soft); color: var(--flare); font-size: 11px; font-weight: 600; padding: 1px 8px; border-radius: 999px; vertical-align: middle; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="brand">Príncipe <span>Feed Console</span> <span class="pill">publisher</span></div>
+    <div class="repo" id="repo"></div>
+  </header>
+  <p class="lede">
+    Add your own URLs or files for the daily build to <b>digest</b> — key points,
+    never verbatim — into the knowledge package. They ride the normal review flow
+    before publishing. <span id="live"></span>
+  </p>
+  <div class="err" id="err" hidden></div>
+
+  <section class="card">
+    <h2>Add a source</h2>
+    <form class="row" id="urlForm">
+      <input id="url" type="url" placeholder="https://…  a report or article to digest" />
+      <button class="btn primary" id="addBtn" type="submit" disabled>Add URL</button>
+    </form>
+    <label class="upload">
+      <span id="uploadLabel">Upload file…</span>
+      <input id="file" type="file" accept=".pdf,.txt,.md,.markdown,.html,.htm" hidden />
+      <em>PDF · TXT · MD · HTML</em>
+    </label>
+  </section>
+
+  <section class="card">
+    <h3>Waiting for the next build</h3>
+    <ul class="list" id="pending"></ul>
+    <p class="muted" id="empty" hidden>No pending inputs — add a URL or file above.</p>
+  </section>
+
+  <section class="card">
+    <h3>Recent builds</h3>
+    <ul class="list mono" id="builds"></ul>
+  </section>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let busy = false;
+
+function setErr(m) { const e = $("err"); if (m) { e.textContent = m; e.hidden = false; } else e.hidden = true; }
+
+function render(s) {
+  $("repo").textContent = s.repo;
+  $("live").textContent = s.liveCount != null ? `${s.liveCount} live in the feed.` : "";
+  const pending = $("pending"), empty = $("empty");
+  pending.innerHTML = "";
+  const items = [
+    ...s.urls.map((u) => ({ kind: "url", label: "🔗 " + u, key: u })),
+    ...s.files.map((f) => ({ kind: "file", label: "📄 " + f.name, key: f.name, sha: f.sha })),
+  ];
+  empty.hidden = items.length > 0;
+  for (const it of items) {
+    const li = document.createElement("li");
+    const span = document.createElement("span"); span.className = "label"; span.textContent = it.label;
+    const btn = document.createElement("button"); btn.className = "rm"; btn.textContent = "remove";
+    btn.onclick = () => action(it.kind === "url" ? { action: "remove-url", url: it.key } : { action: "remove-file", name: it.key, sha: it.sha });
+    li.append(span, btn); pending.append(li);
+  }
+  const builds = $("builds"); builds.innerHTML = "";
+  for (const b of s.recentBuilds) {
+    const li = document.createElement("li");
+    const d = document.createElement("span"); d.className = "date"; d.textContent = new Date(b.date).toLocaleDateString();
+    const m = document.createElement("span"); m.className = "label"; m.textContent = b.message;
+    li.append(d, m); builds.append(li);
+  }
+}
+
+async function load() {
+  try {
+    const r = await fetch("/api/state"); const d = await r.json();
+    if (!d.ok) throw new Error(d.error || "load failed"); setErr(null); render(d);
+  } catch (e) { setErr(e.message); }
+}
+
+async function action(payload) {
+  if (busy) return; busy = true; setErr(null);
+  try {
+    const r = await fetch("/api/action", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(payload) });
+    const d = await r.json(); if (!d.ok) throw new Error(d.error || "failed"); render(d);
+  } catch (e) { setErr(e.message); } finally { busy = false; }
+}
+
+$("url").addEventListener("input", (e) => { $("addBtn").disabled = !e.target.value.trim(); });
+$("urlForm").addEventListener("submit", async (e) => {
+  e.preventDefault(); const u = $("url").value.trim(); if (!u) return;
+  await action({ action: "add-url", url: u }); $("url").value = ""; $("addBtn").disabled = true;
+});
+$("file").addEventListener("change", async (e) => {
+  const f = e.target.files[0]; if (!f) return;
+  $("uploadLabel").textContent = "Uploading…";
+  const b64 = await new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(r.result.split(",")[1] || ""); r.onerror = rej; r.readAsDataURL(f); });
+  await action({ action: "add-file", name: f.name, contentBase64: b64 });
+  $("uploadLabel").textContent = "Upload file…"; e.target.value = "";
+});
+
+load();
+</script>
+</body>
+</html>
