@@ -23,18 +23,44 @@ function stripHtml(s: string): string {
   return s.replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/gi, " ").replace(/\s+/g, " ").trim();
 }
 
+async function pdfToText(buf: Buffer): Promise<string> {
+  // Import the lib entry directly to avoid pdf-parse's debug self-test.
+  // @ts-expect-error — no types for the lib subpath; shape asserted below.
+  const pdf = (await import("pdf-parse/lib/pdf-parse.js")).default as (b: Buffer) => Promise<{ text: string }>;
+  return (await pdf(buf)).text;
+}
+
 async function extractText(path: string): Promise<string> {
   const ext = extname(path).toLowerCase();
-  if (ext === ".pdf") {
-    // Import the lib entry directly to avoid pdf-parse's debug self-test.
-    // @ts-expect-error — no types for the lib subpath; shape asserted below.
-    const pdf = (await import("pdf-parse/lib/pdf-parse.js")).default as (b: Buffer) => Promise<{ text: string }>;
-    return (await pdf(readFileSync(path))).text;
-  }
+  if (ext === ".pdf") return pdfToText(readFileSync(path));
   const raw = readFileSync(path, "utf8");
   if (HTML_EXT.has(ext)) return stripHtml(raw);
   if (TEXT_EXT.has(ext)) return raw;
   return raw; // best-effort for anything else textual
+}
+
+function isPdfUrl(url: string): boolean {
+  return /\.pdf(\?|#|$)/i.test(url);
+}
+
+/** Fetch a PDF URL's bytes + extract its text (the HTML fetcher garbles a
+ *  binary PDF). Manual URLs are operator-added, so a direct fetch is fine. */
+async function extractPdfFromUrl(url: string): Promise<string> {
+  const res = await fetch(url, {
+    headers: { "user-agent": "Mozilla/5.0 (compatible; Principe-FeedBot/1.0)" },
+    signal: AbortSignal.timeout(25_000),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return pdfToText(Buffer.from(await res.arrayBuffer()));
+}
+
+function titleFromUrl(url: string): string {
+  try {
+    const n = new URL(url).pathname.split("/").pop() || "document";
+    return n.replace(/\.[a-z0-9]+$/i, "").replace(/[-_]+/g, " ").trim().slice(0, 80) || "document";
+  } catch {
+    return "document";
+  }
 }
 
 export type ManualUrlFetch = (url: string) => Promise<{ text: string; title: string | null; publishedAt: Date | null }>;
@@ -66,11 +92,17 @@ export async function loadManualItems(
     for (const url of urls) {
       if (isSeen(url)) continue; // already digested in a prior build
       try {
-        const f = await fetchUrl(url);
-        if (f.text?.trim()) {
-          items.push({ sourceKey: "manual", url, title: f.title ?? url, rawText: f.text, publishedAt: f.publishedAt ? f.publishedAt.toISOString() : null });
+        if (isPdfUrl(url)) {
+          const text = (await extractPdfFromUrl(url)).trim();
+          if (text) items.push({ sourceKey: "manual", url, title: titleFromUrl(url), rawText: text, publishedAt: null });
+          else failures.push({ key: `manual:${url}`, reason: "no text from PDF" });
         } else {
-          failures.push({ key: `manual:${url}`, reason: "empty fetch" });
+          const f = await fetchUrl(url);
+          if (f.text?.trim()) {
+            items.push({ sourceKey: "manual", url, title: f.title ?? url, rawText: f.text, publishedAt: f.publishedAt ? f.publishedAt.toISOString() : null });
+          } else {
+            failures.push({ key: `manual:${url}`, reason: "empty fetch" });
+          }
         }
       } catch (e) {
         failures.push({ key: `manual:${url}`, reason: e instanceof Error ? e.message : String(e) });
