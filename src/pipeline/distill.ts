@@ -120,7 +120,10 @@ export function makeRealDistiller(): Distiller {
         messages: [{ role: "user", content: `${DISTILL_PROMPT}\n\nSOURCE: ${source.key}\nTITLE: ${raw.title}\nTEXT:\n${raw.rawText.slice(0, 6000)}` }],
       }),
     });
-    if (!res.ok) return null;
+    if (!res.ok) {
+      console.warn(`[distill] Anthropic ${res.status} (${source.key}) — ${(await res.text()).slice(0, 140)}`);
+      return null;
+    }
     const data = (await res.json()) as { content?: { text?: string }[] };
     const text = data.content?.[0]?.text ?? "";
     let parsed: { title: string; summary: string; category: string; region: string | null; industries: string[] };
