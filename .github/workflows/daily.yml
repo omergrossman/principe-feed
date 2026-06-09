@@ -50,18 +50,19 @@ jobs:
             echo "no changes today"; exit 0
           fi
           DATE=$(date -u +%F)
+          TS=$(date -u +'%Y-%m-%d %H:%M UTC')   # includes time — several builds can happen in a day
           if [ "$PUBLISH_MODE" = "auto" ]; then
             git add knowledge feed-metadata.json state
-            git commit -m "feed: daily snapshot $DATE (auto)"
+            git commit -m "feed: snapshot $TS (auto)"
             git push origin HEAD:main
           else
             BR="feed/$DATE-$GITHUB_RUN_NUMBER"   # unique per run — no same-day collisions
             git checkout -b "$BR"
             git add knowledge feed-metadata.json state
-            git commit -m "feed: daily snapshot $DATE"
+            git commit -m "feed: snapshot $TS"
             git push origin "$BR"
             URL=$(gh pr create --base main --head "$BR" \
-              --title "Daily feed snapshot $DATE" \
+              --title "Daily feed snapshot $TS" \
               --body "Review the diff — it IS the digest. Merge to publish, close to skip.")
             echo "pr=${URL##*/}" >> "$GITHUB_OUTPUT"
           fi

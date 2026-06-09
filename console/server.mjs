@@ -155,10 +155,12 @@ function readBody(req) {
 }
 
 const HTML = readFileSync(join(here, "index.html"), "utf8");
+const ICON = readFileSync(join(here, "icon.svg"), "utf8");
 
 const server = createServer(async (req, res) => {
   try {
     if (req.method === "GET" && req.url === "/") { res.writeHead(200, { "content-type": "text/html; charset=utf-8" }); res.end(HTML); return; }
+    if (req.method === "GET" && req.url === "/icon.svg") { res.writeHead(200, { "content-type": "image/svg+xml" }); res.end(ICON); return; }
     if (req.method === "GET" && req.url === "/api/state") return json(res, 200, { ok: true, ...(await getState()) });
     if (req.method === "GET" && req.url.startsWith("/api/build")) {
       const sha = new URL(req.url, "http://x").searchParams.get("sha");
@@ -184,6 +186,11 @@ const server = createServer(async (req, res) => {
           setAnthropic(key);
           break;
         }
+        case "run-build":
+          // Trigger the daily feed workflow now (digests pending manual
+          // inputs + scrapes). Uses local gh auth (Actions: write).
+          ghCli(["workflow", "run", "daily.yml", "--repo", REPO]);
+          break;
         default: return json(res, 400, { ok: false, error: "unknown action" });
       }
       return json(res, 200, { ok: true, ...(await getState()) });
