@@ -1,0 +1,3 @@
+TeamPCP Supply Chain Campaign Expands: CISA Response and Copycat Attacks via Open-Sourced Framework
+
+The TeamPCP supply chain campaign has progressed into a second phase, with CISA formally adding tracking vulnerabilities to its Known Exploited Vulnerabilities catalog in late May 2026 and issuing a standalone advisory on the Nx Console and GitHub repository compromises. Following the open-sourcing of the Mini Shai-Hulud framework, copycat attackers have begun leveraging the toolkit, demonstrated by npm-based worm variants (Miasma and Phantom Gyp) targeting Red Hat packages, suggesting the campaign's tradecraft now operates independent of the original threat actor.

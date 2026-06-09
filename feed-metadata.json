@@ -7,5 +7,15 @@
     ],
     "category": "attack",
     "publishedAt": "2026-06-09T10:35:21.289Z"
+  },
+  "knowledge/sans-isc-ad093be218.md": {
+    "region": "us",
+    "industries": [
+      "software",
+      "cloud",
+      "open source"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-09T10:52:06.285Z"
   }
 }

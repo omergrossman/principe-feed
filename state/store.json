@@ -14,5 +14,22 @@
     "publishedAt": "2026-06-09T10:35:21.289Z",
     "contentHash": "38380e91ba78e2599180d53130692271e66810689a917b9b9b06df1713e1159b",
     "ingestedAt": "2026-06-09T10:35:01.039Z"
+  },
+  {
+    "id": "knowledge:sans-isc-ad093be218",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "software",
+      "cloud",
+      "open source"
+    ],
+    "title": "TeamPCP Supply Chain Campaign Expands: CISA Response and Copycat Attacks via Open-Sourced Framework",
+    "summary": "The TeamPCP supply chain campaign has progressed into a second phase, with CISA formally adding tracking vulnerabilities to its Known Exploited Vulnerabilities catalog in late May 2026 and issuing a standalone advisory on the Nx Console and GitHub repository compromises. Following the open-sourcing of the Mini Shai-Hulud framework, copycat attackers have begun leveraging the toolkit, demonstrated by npm-based worm variants (Miasma and Phantom Gyp) targeting Red Hat packages, suggesting the campaign's tradecraft now operates independent of the original threat actor.",
+    "sourceUrl": "https://isc.sans.edu/rssfeed_full.xml",
+    "publishedAt": "2026-06-09T10:52:06.285Z",
+    "contentHash": "ad093be218f019602d97dd87dad622d3ea8252765fdaf19e463b73c65748b7cf",
+    "ingestedAt": "2026-06-09T10:51:28.857Z"
   }
 ]
