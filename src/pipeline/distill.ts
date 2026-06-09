@@ -111,15 +111,23 @@ export function makeRealDistiller(): Distiller {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return stubDistiller;
   return async (raw, source) => {
-    const res = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST",
-      headers: { "content-type": "application/json", "x-api-key": apiKey, "anthropic-version": "2023-06-01" },
-      body: JSON.stringify({
-        model: "claude-haiku-4-5",
-        max_tokens: 500,
-        messages: [{ role: "user", content: `${DISTILL_PROMPT}\n\nSOURCE: ${source.key}\nTITLE: ${raw.title}\nTEXT:\n${raw.rawText.slice(0, 6000)}` }],
-      }),
-    });
+    let res: Response;
+    try {
+      res = await fetch("https://api.anthropic.com/v1/messages", {
+        method: "POST",
+        headers: { "content-type": "application/json", "x-api-key": apiKey, "anthropic-version": "2023-06-01" },
+        body: JSON.stringify({
+          model: "claude-haiku-4-5",
+          max_tokens: 500,
+          messages: [{ role: "user", content: `${DISTILL_PROMPT}\n\nSOURCE: ${source.key}\nTITLE: ${raw.title}\nTEXT:\n${raw.rawText.slice(0, 6000)}` }],
+        }),
+        // Hard timeout so one stalled request can't hang the whole sequential run.
+        signal: AbortSignal.timeout(30_000),
+      });
+    } catch (e) {
+      console.warn(`[distill] request failed/timed out (${source.key}): ${e instanceof Error ? e.message : String(e)}`);
+      return null;
+    }
     if (!res.ok) {
       console.warn(`[distill] Anthropic ${res.status} (${source.key}) — ${(await res.text()).slice(0, 140)}`);
       return null;
