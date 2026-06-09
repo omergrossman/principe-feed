@@ -10,7 +10,8 @@
 //     https://github.com/<owner>/principe-feed/releases/download/latest
 
 import { execFileSync } from "node:child_process";
-import { writeFileSync, rmSync } from "node:fs";
+import { writeFileSync, rmSync, mkdirSync, cpSync, copyFileSync, existsSync } from "node:fs";
+import { join } from "node:path";
 import { signBundle } from "../src/pipeline/sign.js";
 
 function gh(args: string[], allowFail = false): void {
@@ -29,8 +30,19 @@ async function main() {
   const keyPath = "key.pem";
   writeFileSync(keyPath, keyPem, { mode: 0o600 });
   try {
+    // Stage ONLY the bundle content into a clean dir — build-bundle walks
+    // its input dir recursively, so feeding it the repo root would recurse
+    // node_modules/vendor symlink cycles (stack overflow).
+    const stage = "dist-input";
+    rmSync(stage, { recursive: true, force: true });
+    mkdirSync(stage, { recursive: true });
+    cpSync("knowledge", join(stage, "knowledge"), { recursive: true });
+    if (existsSync("feed-metadata.json")) {
+      copyFileSync("feed-metadata.json", join(stage, "feed-metadata.json"));
+    }
+
     process.env.BUNDLE_FLAT = "1"; // flat asset layout for Release hosting
-    signBundle(version, ".", "dist", keyPath);
+    signBundle(version, stage, "dist", keyPath);
 
     const assets = ["dist/latest.json", "dist/latest.json.sig", `dist/${version}.tar.gz`];
     // Recreate the rolling "latest" release so the asset URLs stay stable.
