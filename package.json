@@ -9,6 +9,7 @@
   "scripts": {
     "daily": "tsx src/run-daily.ts",
     "verify": "tsx scripts/verify-roundtrip.ts",
+    "console": "node console/server.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
