@@ -26,6 +26,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive # vendor/principe-oss (SSRF fetch + build-bundle)
+          # principe-oss is private; the default job token is scoped to this
+          # repo only. SUBMODULE_TOKEN (a PAT with read access to
+          # principe-oss) authenticates the submodule clone.
+          token: ${{ secrets.SUBMODULE_TOKEN || github.token }}
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: pnpm }
