@@ -1,1 +1,210 @@
-[]
+[
+  {
+    "id": "knowledge:cisa-64f06b0440",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds SolarWinds Serv-U Vulnerability to Known Exploited Vulnerabilities Catalog",
+    "summary": "CISA has cataloged CVE-2026-28318, a denial-of-service vulnerability in SolarWinds Serv-U, as actively exploited. The vulnerability joins CISA's Known Exploited Vulnerabilities Catalog, which tracks CVEs posing significant risk to federal systems. CISA recommends all organizations prioritize remediation of catalog vulnerabilities as part of standard vulnerability management practices.",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "publishedAt": "2026-06-05T12:00:00.000Z",
+    "contentHash": "3a9e1faf835cc488d6768511a4cf6595ec99e1cc5c3ec5b8a9ec3c5c6c1d1d29",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:cisa-55801e5b34",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "information technology"
+    ],
+    "title": "NAVTOR NavBox Hard-coded Credentials Vulnerability (CVE-2026-21404)",
+    "summary": "NAVTOR NavBox versions up to 4.16.1.20 contain hard-coded credentials in their SOAP/WCF implementation, allowing local attackers with low privileges to extract credentials and access privileged methods for file manipulation. NAVTOR released a patch in April 2026 (version 4.17.2.6+) with automatic updates for active connections. The vulnerability requires local access and high attack complexity; no public exploitation has been reported.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-01",
+    "publishedAt": "2026-06-04T12:00:00.000Z",
+    "contentHash": "5aff9e7749adb9a9e62ffeec0f2bb8b3fea49b5ff229a5b938a529e86c13ec0d",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:cisa-23544328fc",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy",
+      "water and wastewater",
+      "critical infrastructure"
+    ],
+    "title": "Hitachi Energy RTU500 Multiple Vulnerabilities in CMU Firmware",
+    "summary": "CISA disclosed multiple vulnerabilities affecting Hitachi Energy RTU500 series CMU firmware versions 12.7.1 through 13.8.1, including null pointer dereferences and integer overflow issues in PKCS#12 processing and libexpat XML parsing. Exploitation primarily causes denial of service, with potential secondary impacts on confidentiality and integrity when IEC 61850 functionality or PKI client features are configured. Hitachi Energy recommends updating to CMU firmware 13.8.2 or 13.7.9.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04",
+    "publishedAt": "2026-06-04T12:00:00.000Z",
+    "contentHash": "f94a29068fb9e974317508b25860a2dd95f7cbedc4d57a86987c38893f71affc",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:cisa-be77410d45",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "energy",
+      "transportation systems",
+      "water and wastewater",
+      "commercial facilities"
+    ],
+    "title": "B&R PPT30 Operating System OPC-UA Server Denial of Service Vulnerability",
+    "summary": "A resource exhaustion vulnerability (CVE-2025-11482, CVSS 7.5) in B&R PPT30 Operating System versions prior to 1.8.0 allows unauthenticated network-based attackers to render the OPC-UA server inaccessible. The vulnerability requires network access and affects industrial automation systems deployed across critical infrastructure sectors globally. B&R has released version 1.8.0 as a fix; mitigation includes disabling the OPC-UA server by default and restricting network access via firewalls.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03",
+    "publishedAt": "2026-06-04T12:00:00.000Z",
+    "contentHash": "8e444cce204837b393135ffd8d86b1d323415f2a77ebe315f36cb433d4280129",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:cisa-e8284b47c1",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy"
+    ],
+    "title": "Hitachi Energy ITT600 Explorer Vulnerabilities (CVE-2024-8176, CVE-2025-59375)",
+    "summary": "Hitachi Energy disclosed two stack overflow and resource allocation vulnerabilities in ITT600 Explorer versions prior to 2.1 SP6, affecting the libexpat library used for IEC61850 simulation functionality. Both vulnerabilities carry a CVSS 3.1 base score of 7.5 and can enable denial-of-service attacks; exploitation requires local access or network connectivity to affected IEC61850 server simulation features. Remediation includes updating to version 2.1 SP6 HF1 or awaiting version 2.2.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02",
+    "publishedAt": "2026-06-04T12:00:00.000Z",
+    "contentHash": "864f37468a2acfeda202d1b4ac4c58feb7b7ed959e81f870493e0a419f8a5d53",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:cisa-7eee7dd8b9",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds Mirasvit Cache Plugin Deserialization Flaw to Known Exploited Vulnerabilities Catalog",
+    "summary": "CISA has cataloged CVE-2026-45247, a deserialization vulnerability in Mirasvit Full Page Cache Warmer, following confirmed evidence of active exploitation. The vulnerability poses material risk to federal systems and triggers mandatory remediation requirements under BOD 22-01 for civilian executive branch agencies. CISA recommends all organizations prioritize patching this and other KEV-listed flaws as part of standard vulnerability management.",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "publishedAt": "2026-06-03T12:00:00.000Z",
+    "contentHash": "58e1a6d8d5a3b8bcc5e554e049e29c1ca0e1c81836093d6ef9be66793945ebd3",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:cisa-9384b2bfab",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds Oracle WebLogic Server Vulnerability to Known Exploited Vulnerabilities Catalog",
+    "summary": "CISA has added CVE-2024-21182, an Oracle WebLogic Server vulnerability, to its Known Exploited Vulnerabilities Catalog following evidence of active exploitation. Federal agencies are required under BOD 22-01 to remediate the flaw by a specified deadline. CISA recommends all organizations prioritize patching KEV Catalog vulnerabilities as part of standard vulnerability management.",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "publishedAt": "2026-06-01T12:00:00.000Z",
+    "contentHash": "91c1844b6d9850b0967194544b0269b50fdfd6479b24f28c0a90dae58fc32c87",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:cisa-933e271924",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds Palo Alto Networks PAN-OS Authentication Bypass to Known Exploited Vulnerabilities Catalog",
+    "summary": "CISA has added CVE-2026-0257, an authentication bypass vulnerability in Palo Alto Networks PAN-OS, to its Known Exploited Vulnerabilities Catalog following evidence of active exploitation. Federal agencies are required under BOD 22-01 to remediate the vulnerability by a specified deadline, while CISA recommends all organizations prioritize patching to reduce attack surface.",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "publishedAt": "2026-05-29T12:00:00.000Z",
+    "contentHash": "59a1f9c98f52995b815588c181e7769551c2e91d8f4ce336862a7634721e91e2",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:krebs-4f9660b7e3",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "social media",
+      "government"
+    ],
+    "title": "Hackers Exploited Meta's AI Support Bot to Compromise High-Profile Instagram Accounts",
+    "summary": "High-profile Instagram accounts, including those of the Obama White House and U.S. Space Force leadership, were temporarily compromised after attackers circulated Telegram instructions for manipulating Meta's AI support assistant to reset account passwords. The defaced accounts displayed pro-Iranian content before being restored, exposing a vulnerability in Meta's account recovery mechanism.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+    "publishedAt": "2026-06-01T17:32:50.000Z",
+    "contentHash": "31a4e327fd44d2877f1dfed602159e412ff7c13dfe1d7886116103288b009e5d",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:krebs-138181572c",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "title": "Netherlands Arrests Hosting Company Operators for Supporting Russian Cyber Operations",
+    "summary": "Dutch authorities arrested two individuals who co-owned internet hosting firms that provided infrastructure for Russian state-sponsored cyberattacks, influence operations, and disinformation targeting the EU. The companies had taken control of technical systems previously operated by Stark Industries Solutions, an EU-sanctioned ISP linked to Russian intelligence agencies.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+    "publishedAt": "2026-05-25T13:21:49.000Z",
+    "contentHash": "f25c901d4baa22bb86f46dff132254e282594fa4422ad590aaee912d09590aa7",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:krebs-bcbce45b9a",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Congressional Oversight Initiated Following CISA Contractor Data Exposure",
+    "summary": "A CISA contractor deliberately exposed AWS GovCloud credentials and sensitive agency data on a public GitHub repository, prompting congressional inquiries from both chambers. CISA is currently working to revoke the compromised credentials and assess the scope of the incident.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+    "publishedAt": "2026-05-22T16:34:24.000Z",
+    "contentHash": "d133425b68712eb5dc5d7f82e2e2b414c0ea875a85e8c08a4fd3f9942d793163",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:krebs-9c50addc32",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "Kimwolf Botnet Operator Arrested in US and Canada",
+    "summary": "A 23-year-old Ottawa resident was arrested on charges related to operating Kimwolf, an IoT botnet that compromised millions of devices to conduct large-scale DDoS attacks over a six-month period. The suspect faces criminal hacking charges in both Canadian and US jurisdictions following prior DDoS, doxing, and swatting campaigns.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+    "publishedAt": "2026-05-21T21:50:25.000Z",
+    "contentHash": "b3792496777674395e43d2c2c756d197721c8d4d18e38f8e02904d4780d1d0bc",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:krebs-7645ab8ebf",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "title": "CISA Contractor Exposed AWS GovCloud Credentials and Internal Systems via Public GitHub Repository",
+    "summary": "A CISA contractor maintained a publicly accessible GitHub repository containing privileged AWS GovCloud account credentials and documentation of CISA's internal software development, testing, and deployment processes. The repository was removed over the weekend following discovery. Security researchers characterized the exposure as among the most significant U.S. government data leaks in recent years.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+    "publishedAt": "2026-05-18T20:48:21.000Z",
+    "contentHash": "f28ccfc66dec517bd9bf55056c8460965c2ceee612baeebb4f4bf72fafd0418e",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:krebs-f42d900629",
+    "tier": "event",
+    "category": "product-release",
+    "title": "May 2026 Patch Tuesday: Record Vulnerability Fixes Across Major Software Vendors",
+    "summary": "Major software vendors including Apple, Google, Microsoft, Mozilla, and Oracle released unusually high volumes of security patches this month, reflecting increased vulnerability discovery facilitated by AI-assisted code analysis. The uptick demonstrates both the effectiveness of machine learning in identifying flaws and the scale of security debt across widely-deployed platforms.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+    "publishedAt": "2026-05-12T21:46:45.000Z",
+    "contentHash": "701fc36e44e8a6e16542745879d26f178a88d1e0b61e4a54ddd4fced80c873cc",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  },
+  {
+    "id": "knowledge:krebs-c521ba313d",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "telecommunications",
+      "cybersecurity services"
+    ],
+    "title": "Brazilian Anti-DDoS Firm Linked to DDoS Botnet Operations",
+    "summary": "A Brazilian cybersecurity firm specializing in DDoS mitigation was found to have facilitated a botnet conducting large-scale DDoS attacks against competing Brazilian ISPs. The company's leadership attributed the activity to a security breach, suggesting competitor sabotage rather than deliberate misconduct.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+    "publishedAt": "2026-04-30T14:04:26.000Z",
+    "contentHash": "fdec2b61956b34a33d3561c17b67ded6cdb844bf69ada3536f9be36ec0edd5d0",
+    "ingestedAt": "2026-06-09T13:39:29.512Z"
+  }
+]
