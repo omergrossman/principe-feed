@@ -1,0 +1,15 @@
+{
+  "name": "principe-feed-approver",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cloudflare Worker that merges/closes the daily-brief PR from a signed email magic link.",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250101.0",
+    "wrangler": "^4.0.0"
+  }
+}

@@ -3,3 +3,4 @@ dist/
 *.pem
 key.pem
 .DS_Store
+.wrangler/

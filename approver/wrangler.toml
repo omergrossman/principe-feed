@@ -1,0 +1,8 @@
+name = "principe-feed-approver"
+main = "src/index.ts"
+compatibility_date = "2026-06-01"
+
+# Non-secret config. Secrets (GH_TOKEN, APPROVE_HMAC_SECRET) are set with
+# `wrangler secret put <NAME>` — never commit them.
+[vars]
+GH_REPO = "omergrossman/principe-feed"

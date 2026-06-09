@@ -40,6 +40,7 @@ jobs:
         run: node --import tsx src/run-daily.ts
 
       - name: Publish snapshot (PR in review mode, push in auto mode)
+        id: publish
         run: |
           set -e
           if [ "$FEED_PAUSED" = "1" ]; then echo "kill-switch active"; exit 0; fi
@@ -59,7 +60,19 @@ jobs:
             git add knowledge feed-metadata.json state
             git commit -m "feed: daily snapshot $DATE"
             git push origin "$BR"
-            gh pr create --base main --head "$BR" \
+            URL=$(gh pr create --base main --head "$BR" \
               --title "Daily feed snapshot $DATE" \
-              --body "Review the diff — it IS the digest. Merge to publish, close to skip."
+              --body "Review the diff — it IS the digest. Merge to publish, close to skip.")
+            echo "pr=${URL##*/}" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Email the brief (tap-to-approve)
+        if: steps.publish.outputs.pr != ''
+        env:
+          PR_NUMBER: ${{ steps.publish.outputs.pr }}
+          APPROVER_URL: ${{ secrets.APPROVER_URL }}
+          APPROVE_HMAC_SECRET: ${{ secrets.APPROVE_HMAC_SECRET }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ vars.EMAIL_TO }}
+        run: node --import tsx scripts/send-brief.ts
