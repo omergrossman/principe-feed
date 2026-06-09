@@ -1,0 +1,95 @@
+{
+  "knowledge/cisa-718ab308d6.md": {
+    "region": "us",
+    "category": "threat-intel",
+    "publishedAt": "2026-06-08T12:00:00.000Z"
+  },
+  "knowledge/krebs-4f9660b7e3.md": {
+    "region": "us",
+    "category": "attack",
+    "publishedAt": "2026-06-01T17:32:50.000Z"
+  },
+  "knowledge/thehackernews-0359f2d74d.md": {
+    "region": "uk",
+    "industries": [
+      "government",
+      "critical infrastructure"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-09T12:26:10.000Z"
+  },
+  "knowledge/darkreading-ccbdf12d57.md": {
+    "region": "us",
+    "industries": [
+      "legal services"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-08T20:59:52.000Z"
+  },
+  "knowledge/sans-isc-2e920aec7a.md": {
+    "category": "news",
+    "publishedAt": "2026-06-09T02:00:03.000Z"
+  },
+  "knowledge/ncsc-uk-027dcfe9b3.md": {
+    "region": "uk",
+    "category": "strategy",
+    "publishedAt": "2026-06-04T12:00:00.000Z"
+  },
+  "knowledge/krebs-138181572c.md": {
+    "region": "eu-west",
+    "category": "attack",
+    "publishedAt": "2026-05-25T13:21:49.000Z"
+  },
+  "knowledge/bleeping-545835ab2b.md": {
+    "region": "eu-west",
+    "industries": [
+      "government"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-09T10:53:00.000Z"
+  },
+  "knowledge/thehackernews-b533fe5a2c.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-09T11:59:03.000Z"
+  },
+  "knowledge/darkreading-487cd3ce7d.md": {
+    "category": "attack",
+    "publishedAt": "2026-06-08T20:28:35.000Z"
+  },
+  "knowledge/sans-isc-4d17c54955.md": {
+    "region": "us",
+    "category": "threat-intel",
+    "publishedAt": "2026-06-08T17:07:37.000Z"
+  },
+  "knowledge/ncsc-uk-9aa8ccfadf.md": {
+    "region": "uk",
+    "category": "strategy",
+    "publishedAt": "2026-05-27T12:00:00.000Z"
+  },
+  "knowledge/krebs-bcbce45b9a.md": {
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "category": "news",
+    "publishedAt": "2026-05-22T16:34:24.000Z"
+  },
+  "knowledge/bleeping-c29032fa40.md": {
+    "region": "us",
+    "category": "regulation",
+    "publishedAt": "2026-06-09T08:18:39.000Z"
+  },
+  "knowledge/thehackernews-adbab8ad22.md": {
+    "category": "product-release",
+    "publishedAt": "2026-06-09T11:58:49.000Z"
+  },
+  "knowledge/darkreading-bb15f6d05a.md": {
+    "region": "global",
+    "category": "regulation",
+    "publishedAt": "2026-06-08T19:07:48.000Z"
+  },
+  "knowledge/sans-isc-95a4b5b81d.md": {
+    "category": "news",
+    "publishedAt": "2026-06-08T02:00:03.000Z"
+  }
+}

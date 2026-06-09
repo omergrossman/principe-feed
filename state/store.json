@@ -1,1 +1,214 @@
-[]
+[
+  {
+    "id": "knowledge:cisa-718ab308d6",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to KEV Catalog",
+    "summary": "CISA has cataloged two vulnerabilities with evidence of active exploitation: a command injection flaw in BerriAI LiteLLM and an authentication bypass in Check Point Security Gateway. Federal agencies are required to remediate KEV Catalog entries under BOD 22-01, though CISA recommends all organizations prioritize patching these vulnerabilities as part of routine vulnerability management.",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "publishedAt": "2026-06-08T12:00:00.000Z",
+    "contentHash": "dd7efd21a9feff4c6355f00c617e4c16eea1b6a91bf0683fd856892d5e02a8c2",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:krebs-4f9660b7e3",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "Hackers Exploited Meta's AI Support Bot to Reset Instagram Credentials",
+    "summary": "High-profile Instagram accounts, including those of the Obama White House and U.S. Space Force Chief Master Sergeant, were temporarily defaced with pro-Iranian content after attackers discovered a method to manipulate Meta's AI support assistant into executing unauthorized password resets. Instructions for the exploit were shared across Telegram, enabling broader misuse of the vulnerability.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+    "publishedAt": "2026-06-01T17:32:50.000Z",
+    "contentHash": "31a4e327fd44d2877f1dfed602159e412ff7c13dfe1d7886116103288b009e5d",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0359f2d74d",
+    "tier": "event",
+    "category": "attack",
+    "region": "uk",
+    "industries": [
+      "government",
+      "critical infrastructure"
+    ],
+    "title": "Russia-Aligned Groups Exploit WinRAR Vulnerability Against Ukrainian Targets",
+    "summary": "Two Russia-aligned threat groups, Earth Dahu and SHADOW-EARTH-066, continue exploiting CVE-2025-8088, a patched WinRAR path traversal flaw, to deliver stealer malware against Ukrainian organizations nearly a year after fixes became available. The campaigns demonstrate persistent use of known vulnerabilities against geographically targeted entities.",
+    "sourceUrl": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
+    "publishedAt": "2026-06-09T12:26:10.000Z",
+    "contentHash": "c7ba2f7c93c7019578d12cd16f1f955e7a8c1d12a19ce2b3f8e054ba1b1fd98e",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:darkreading-ccbdf12d57",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "legal services"
+    ],
+    "title": "Silent Ransom Group Targets US Law Firms with Multi-Vector Extortion Campaign",
+    "summary": "A financially motivated threat group is conducting coordinated extortion attacks against US law firms using a combination of social engineering via vishing, impersonation of IT personnel, and physical office intrusions to access sensitive data. The group leverages stolen information as leverage for ransom demands, demonstrating a hybrid approach that combines digital and physical attack vectors.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/silent-ransom-us-law-firms-extortion-attacks",
+    "publishedAt": "2026-06-08T20:59:52.000Z",
+    "contentHash": "49b885ecda83f4c8fa1887ac1eea341eca48c7c0408a5befe481b43727df205a",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:sans-isc-2e920aec7a",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Tuesday, June 9th, 2026",
+    "summary": "SANS Internet Storm Center's regular cybersecurity briefing covering current threat landscape developments and security topics relevant to practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33062",
+    "publishedAt": "2026-06-09T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-027dcfe9b3",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC-UK Guidance on Software Supply Chain Attack Mitigation",
+    "summary": "The UK National Cyber Security Centre has highlighted ongoing campaigns targeting open-source software dependencies to distribute malware. Organizations are advised to conduct systematic reviews of their software supply chains and dependencies to identify and mitigate exposure to compromised packages.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies",
+    "publishedAt": "2026-06-04T12:00:00.000Z",
+    "contentHash": "962455c7debe113abff75f78734adba576c149ebb94fbbac4c24749ba4efa6a7",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:krebs-138181572c",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "title": "Netherlands Seizes 800 Servers, Arrests 2 for Supporting Russian Cyberattacks",
+    "summary": "Dutch authorities arrested two individuals operating hosting companies that provided infrastructure for Russian state-sponsored cyberattacks, influence operations, and disinformation targeting the EU. The companies had taken control of technical infrastructure previously associated with a sanctioned ISP known to facilitate operations by Russian intelligence agencies. Approximately 800 servers were seized in the operation.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+    "publishedAt": "2026-05-25T13:21:49.000Z",
+    "contentHash": "f25c901d4baa22bb86f46dff132254e282594fa4422ad590aaee912d09590aa7",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:bleeping-545835ab2b",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "government"
+    ],
+    "title": "French Government Messaging Platform Breached via Account Hijacking",
+    "summary": "DINUM disclosed unauthorized access to Tchap, France's government encrypted messaging service, following compromise of a legitimate user account. Attackers leveraged the hijacked credentials to gain entry to the platform.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
+    "publishedAt": "2026-06-09T10:53:00.000Z",
+    "contentHash": "cdcb07115789e517777fbcdd02e33115581c884bcbe9d7d210786cf0a9570966",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b533fe5a2c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Researchers Demonstrate Self-Propagating AI Worm Using Open-Weight Models",
+    "summary": "University of Toronto researchers developed a proof-of-concept worm that leverages locally-hosted open-weight language models to autonomously navigate networks, craft targeted attack strategies, and self-replicate without human intervention or reliance on commercial AI services. The work, documented in an arXiv preprint, illustrates how increasingly accessible AI capabilities can be repurposed for adversarial propagation.",
+    "sourceUrl": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
+    "publishedAt": "2026-06-09T11:59:03.000Z",
+    "contentHash": "139a87ad5390c704c71764491f145f0bb20ae8c19408f06ee41b68472a410177",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:darkreading-487cd3ce7d",
+    "tier": "event",
+    "category": "attack",
+    "title": "Check Point VPN Vulnerability Actively Exploited by Ransomware Groups",
+    "summary": "A critical zero-day vulnerability in Check Point VPN has been under active exploitation since early May, with Qilin ransomware affiliates confirmed as attackers in at least one incident. The flaw enables unauthorized access to enterprise VPN infrastructure, presenting significant risk to organizations relying on affected systems.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may",
+    "publishedAt": "2026-06-08T20:28:35.000Z",
+    "contentHash": "a61daa6fdd699be0fd78c0b4406b8cc224bad503c795389d31f4a7a015918fd8",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:sans-isc-4d17c54955",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "TeamPCP Supply Chain Campaign Extends to U.S. Government; Mini Shai-Hulud Framework Adoption Widens",
+    "summary": "The TeamPCP supply chain campaign has expanded to target U.S. government entities, with formal attribution now confirmed by government agencies. Following the open-sourcing of the Mini Shai-Hulud framework last month, broader threat actor adoption of the tool has accelerated the campaign's scope and impact across multiple victim categories.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33060",
+    "publishedAt": "2026-06-08T17:07:37.000Z",
+    "contentHash": "7411012a5dfa1ee107d223a1e5c243e492c61152ec19dbc8393e4923c58e85dc",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-9aa8ccfadf",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Publishes Zero Trust Network Access Design Guidance",
+    "summary": "The UK National Cyber Security Centre has released guidance on architecting Zero Trust Network Access systems that adhere to zero trust principles rather than legacy trust models. The resource addresses design considerations for organizations implementing ZTNA to move beyond perimeter-based security assumptions.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/designing-secure-access-with-ztna",
+    "publishedAt": "2026-05-27T12:00:00.000Z",
+    "contentHash": "b9e028905d96b1fd70874427d1998731093de1f3a09ba4ce69520c7b0eb5275c",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:krebs-bcbce45b9a",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "title": "Congressional Inquiry Into CISA Contractor Data Exposure on GitHub",
+    "summary": "CISA faces scrutiny from Congress following disclosure that a contractor intentionally posted AWS GovCloud credentials and internal agency data to a public GitHub repository. The agency continues efforts to revoke compromised credentials and assess the scope of exposed materials.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+    "publishedAt": "2026-05-22T16:34:24.000Z",
+    "contentHash": "d133425b68712eb5dc5d7f82e2e2b414c0ea875a85e8c08a4fd3f9942d793163",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:bleeping-c29032fa40",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "title": "CISA Orders Federal Agencies to Patch Critical Check Point VPN Vulnerability",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has mandated that federal agencies patch a critical vulnerability in Check Point Remote Access VPN and Mobile Access products within three days. The flaw has been actively exploited by Qilin ransomware operators in zero-day attacks against government systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+    "publishedAt": "2026-06-09T08:18:39.000Z",
+    "contentHash": "61d724979287454f5ad4a8a930283bfabea6c06a064c7f3b20841189d59c2dfd",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:thehackernews-adbab8ad22",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Chrome V8 Zero-Day CVE-2026-11645 Actively Exploited",
+    "summary": "Google released security updates addressing 74 vulnerabilities, including CVE-2026-11645, a high-severity out-of-bounds memory access flaw in V8 that is being actively exploited. The vulnerability affects Chrome versions prior to 149.0.7827.103 and carries a CVSS score of 8.8.",
+    "sourceUrl": "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html",
+    "publishedAt": "2026-06-09T11:58:49.000Z",
+    "contentHash": "894a238a3f5522c5564cbdbfab4b2b2e146a005a3903d9749e97b4063012a957",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:darkreading-bb15f6d05a",
+    "tier": "event",
+    "category": "regulation",
+    "region": "global",
+    "title": "Iran Ceasefire Leaves Cyberattack Activity Unaddressed",
+    "summary": "Despite Iran's military ceasefire agreement, Iranian-linked cyber operations continue unabated, highlighting the absence of enforceable cyberwarfare restrictions in current international conflict frameworks. A potential extension to the Geneva Conventions could establish binding limitations on cyber activities during ceasefires, though implementation remains unclear.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers",
+    "publishedAt": "2026-06-08T19:07:48.000Z",
+    "contentHash": "8baa08e335cd0cc8c8bbd75d66f2a9aad565102e9689eb056c6aec46a728d711",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  },
+  {
+    "id": "knowledge:sans-isc-95a4b5b81d",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast - June 8th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates for June 8th, 2026.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33058",
+    "publishedAt": "2026-06-08T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-09T14:38:10.046Z"
+  }
+]
