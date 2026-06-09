@@ -13,6 +13,7 @@
 
 import { createServer } from "node:http";
 import { readFileSync, existsSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
@@ -89,7 +90,7 @@ async function getState() {
     const c = await commitsR.json();
     recentBuilds = c.map((x) => ({ date: x.commit.author.date, message: x.commit.message.split("\n")[0], sha: x.sha.slice(0, 7) }));
   }
-  return { repo: REPO, urls, files, liveCount, recentBuilds };
+  return { repo: REPO, urls, files, liveCount, recentBuilds, anthropic: anthropicStatus() };
 }
 
 async function addUrl(url) {
@@ -114,6 +115,36 @@ async function removeFile(name, sha) {
   await delFile(`${INBOX}/${name}`, sha, `feed: remove manual file ${name} via console`);
 }
 
+// --- The feed's OWN Anthropic key (separate from Príncipe's). Stored as the
+//     repo's ANTHROPIC_API_KEY Actions secret, set via the local gh CLI so
+//     it never passes through here as plaintext-in-URL or needs extra token
+//     scopes. The daily workflow's distill step uses it. ---
+function ghCli(args, input) {
+  return execFileSync("gh", args, { input, encoding: "utf8" });
+}
+function anthropicStatus() {
+  try {
+    const list = JSON.parse(ghCli(["secret", "list", "--repo", REPO, "--json", "name,updatedAt"]));
+    const s = list.find((x) => x.name === "ANTHROPIC_API_KEY");
+    return s ? { set: true, updatedAt: s.updatedAt } : { set: false };
+  } catch (e) {
+    return { set: false, error: "gh CLI not available/authed — " + String(e.message || "").split("\n")[0] };
+  }
+}
+function setAnthropic(value) {
+  ghCli(["secret", "set", "ANTHROPIC_API_KEY", "--repo", REPO], value);
+}
+
+// Entries published in a past build — store.json at that commit, rendered
+// like the approval email.
+async function getBuildEntries(sha) {
+  const r = await gh(`contents/${STORE}?ref=${encodeURIComponent(sha)}`);
+  if (!r.ok) throw new Error(`build ${sha}: ${r.status}`);
+  const j = await r.json();
+  const store = JSON.parse(Buffer.from(j.content, "base64").toString("utf8"));
+  return store.map((e) => ({ tier: e.tier, category: e.category, region: e.region, industries: e.industries || [], title: e.title, summary: e.summary, sourceUrl: e.sourceUrl }));
+}
+
 function json(res, code, obj) { res.writeHead(code, { "content-type": "application/json" }); res.end(JSON.stringify(obj)); }
 function readBody(req) {
   return new Promise((resolve) => {
@@ -129,6 +160,11 @@ const server = createServer(async (req, res) => {
   try {
     if (req.method === "GET" && req.url === "/") { res.writeHead(200, { "content-type": "text/html; charset=utf-8" }); res.end(HTML); return; }
     if (req.method === "GET" && req.url === "/api/state") return json(res, 200, { ok: true, ...(await getState()) });
+    if (req.method === "GET" && req.url.startsWith("/api/build")) {
+      const sha = new URL(req.url, "http://x").searchParams.get("sha");
+      if (!sha) return json(res, 400, { ok: false, error: "sha required" });
+      return json(res, 200, { ok: true, entries: await getBuildEntries(sha) });
+    }
     if (req.method === "POST" && req.url === "/api/action") {
       const b = await readBody(req);
       switch (b.action) {
@@ -142,6 +178,12 @@ const server = createServer(async (req, res) => {
           await addFile(b.name, b.contentBase64);
           break;
         case "remove-file": await removeFile((b.name || "").trim(), (b.sha || "").trim()); break;
+        case "set-anthropic": {
+          const key = (b.value || "").trim();
+          if (!key.startsWith("sk-ant-")) return json(res, 400, { ok: false, error: "Enter a valid Anthropic key (sk-ant-…)." });
+          setAnthropic(key);
+          break;
+        }
         default: return json(res, 400, { ok: false, error: "unknown action" });
       }
       return json(res, 200, { ok: true, ...(await getState()) });
