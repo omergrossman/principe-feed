@@ -104,6 +104,13 @@ export async function runPipeline(deps: RunDeps): Promise<RunResult> {
     if (entry) distilled.push({ entry, raw });
   }
 
+  // Guard: if there were fresh items but EVERY distillation failed, the
+  // distiller (usually a bad ANTHROPIC_API_KEY) is down — fail the run
+  // instead of silently publishing an empty feed.
+  if (toProcess.length > 0 && distilled.length === 0) {
+    throw new Error(`all ${toProcess.length} distillations failed — check ANTHROPIC_API_KEY (the distiller logs the API status above)`);
+  }
+
   // 5. Legal gate (FR-9).
   let legalRejected = 0;
   const legal = distilled.filter(({ entry, raw }) => {
