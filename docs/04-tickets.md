@@ -75,7 +75,11 @@
 
 ---
 
-## Later epics (stubbed — groom before the sprint that starts them)
+## Later epics — ✅ DELIVERED 2026-06-09 (principe-feed repo, initial commit)
+
+> Built directly (not stubbed). EP-02 pipeline (fetch/distill/dedup/cap/quality), EP-03 two-tier lifecycle + FR-9 legal safeguards, EP-04 publish + B→A mode flag + kill-switch + GitHub Releases, EP-05 end-to-end verification (`scripts/verify-roundtrip.ts`, 20 checks: real signing → real consumer verify, lifecycle, legal). principe-oss pinned as the `vendor/principe-oss` submodule. **Remaining = operational secrets only** (generate signing keypair → repo secret + consumer public key; ANTHROPIC_API_KEY; set PUBLISH_MODE=review; point an instance's PRINCIPE_UPDATES_URL at the release).
+
+### (original epic stubs below — all delivered)
 
 ### EP-02 — Publisher pipeline core (`principe-feed`)
 **DoD:** a daily Action fetches the source list, distills each item, dedups against the committed index, quality-filters, caps, and writes entries in bundle layout — output verified against the Sprint-1 fixture shape.
