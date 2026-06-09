@@ -56,8 +56,14 @@ function baseEntry(
   const contentHash = sha256(raw.rawText);
   const publishedAt = raw.publishedAt ?? new Date().toISOString();
   if (tier === "foundational") {
-    // Stable subject = source + category domain (e.g. "gartner-newsroom-analyst").
-    const subjectKey = `${source.key}-${slugify(fields.category)}`;
+    // Stable subject. Analyst sources key by source+category domain (e.g.
+    // "gartner-newsroom-analyst") so a new report supersedes the old. Manual
+    // items key PER-ITEM (by link/file) so each persists independently and
+    // re-adding the same one updates it.
+    const subjectKey =
+      source.key === "manual"
+        ? `manual-${sha256(raw.url).slice(0, 12)}`
+        : `${source.key}-${slugify(fields.category)}`;
     return {
       id: `knowledge:${subjectKey}`,
       tier, category: fields.category, region: fields.region, industries: fields.industries,

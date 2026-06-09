@@ -1,0 +1,10 @@
+# Manual URLs for the daily feed.
+#
+# One URL per line. Lines starting with # are ignored.
+# The daily build FETCHES each, DIGESTS it (extracts the key points — never
+# the raw text), and folds it into the knowledge package. Each URL is
+# remembered after the first build, so you can leave it here without it
+# being re-ingested. Persistent (won't expire) since you added it on purpose.
+#
+# Example:
+# https://www.example.com/some-report-or-article

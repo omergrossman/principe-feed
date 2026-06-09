@@ -8,6 +8,8 @@
 // which is the SSRF boundary on the producer side.
 
 import crypto from "node:crypto";
+import { resolve } from "node:path";
+import { pathToFileURL } from "node:url";
 import Parser from "rss-parser";
 import type { RawItem } from "../types.js";
 import { ALLOWED_HOSTS, SOURCES, type SourceDef } from "../config/sources.js";
@@ -20,6 +22,14 @@ const MAX_ITEMS_PER_SOURCE = 12; // recent articles to consider per feed/run
 export function assertAllowedHost(url: string): void {
   const host = new URL(url).host;
   if (!ALLOWED_HOSTS.has(host)) throw new Error(`host not in source allowlist: ${host}`);
+}
+
+/** Single-URL SSRF-safe fetch (submoduled), for operator-added manual URLs. */
+export async function makeRealUrlFetch(): Promise<(url: string) => Promise<{ text: string; title: string | null; publishedAt: Date | null }>> {
+  const dir = process.env.PRINCIPE_OSS_DIR ?? "../principe-oss";
+  const target = pathToFileURL(resolve(dir, "apps/principe/src/lib/sources/fetch.ts")).href;
+  const mod = await import(target);
+  return mod.fetchUrlAsText as (url: string) => Promise<{ text: string; title: string | null; publishedAt: Date | null }>;
 }
 
 function stripHtml(s: string): string {

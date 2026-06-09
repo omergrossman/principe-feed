@@ -10,14 +10,15 @@
 // Pure pipeline; no git/network side effects beyond fetch + distill.
 
 import { join } from "node:path";
-import { makeRssIngest, fetchAllSources } from "./pipeline/fetch.js";
+import { makeRssIngest, fetchAllSources, makeRealUrlFetch } from "./pipeline/fetch.js";
+import { loadManualItems, archiveProcessed, type ManualUrlFetch } from "./pipeline/manual.js";
 import { makeRealDistiller } from "./pipeline/distill.js";
 import { checkEntry } from "./pipeline/legal.js";
 import { loadSeen, isNew, updateSeen, saveSeen } from "./pipeline/dedup.js";
 import { loadStore, applyToStore, saveStore } from "./pipeline/lifecycle.js";
 import { emitBundleInput } from "./pipeline/emit.js";
 import { resolvePublishPlan } from "./publish/mode.js";
-import { SOURCES, MAX_ITEMS_PER_DAY } from "./config/sources.js";
+import { SOURCES, MAX_ITEMS_PER_DAY, MANUAL_SOURCE } from "./config/sources.js";
 import type { FeedEntry, RawItem } from "./types.js";
 import type { Distiller } from "./pipeline/distill.js";
 import type { IngestFn } from "./pipeline/fetch.js";
@@ -33,6 +34,9 @@ export interface RunDeps {
   rootDir: string;
   /** Override the source list (the round-trip test injects fixtures). */
   sources?: SourceDef[];
+  /** Single-URL fetch for operator-added manual URLs (prod injects the
+   * submoduled SSRF fetcher; tests can omit it — no manual/ dir = no calls). */
+  manualFetch?: ManualUrlFetch;
 }
 
 export interface RunResult {
@@ -49,14 +53,24 @@ export interface RunResult {
 export async function runPipeline(deps: RunDeps): Promise<RunResult> {
   const { ingest, distiller, nowISO, rootDir } = deps;
   const sources = deps.sources ?? SOURCES;
-  const sourceByKey = new Map(sources.map((s) => [s.key, s]));
+  const sourceByKey = new Map([...sources, MANUAL_SOURCE].map((s) => [s.key, s]));
 
-  // 1. Ingest every source into individual articles.
-  const { items, failures } = await fetchAllSources(ingest, sources);
+  // 1. Ingest RSS sources into individual articles.
+  const { items: rssItems, failures: rssFailures } = await fetchAllSources(ingest, sources);
+
+  const seen = loadSeen(join(rootDir, SEEN_PATH));
+
+  // 1b. Operator-added URLs/files — digested into the package (key points,
+  //     never verbatim). Skip URLs already digested; processed inbox files
+  //     are archived after a successful build.
+  const manual = deps.manualFetch
+    ? await loadManualItems(rootDir, deps.manualFetch, (k) => !isNew(seen, k))
+    : { items: [], processedFiles: [], failures: [] };
+  const items = [...rssItems, ...manual.items];
+  const failures = [...rssFailures, ...manual.failures];
 
   // 2. Dedup by stable article link BEFORE distilling (saves LLM calls and
   //    is what prevents the same story re-appearing as the feed shifts).
-  const seen = loadSeen(join(rootDir, SEEN_PATH));
   const freshRaw = items.filter((r) => isNew(seen, r.url));
 
   // 3. Cap new EVENT articles per run, ROUND-ROBIN across sources so one
@@ -108,6 +122,7 @@ export async function runPipeline(deps: RunDeps): Promise<RunResult> {
   emitBundleInput(snapshot, rootDir);
   saveStore(join(rootDir, STORE_PATH), snapshot);
   saveSeen(join(rootDir, SEEN_PATH), updateSeen(seen, toProcess.map((r) => r.url), nowISO));
+  archiveProcessed(rootDir, manual.processedFiles); // move ingested files out of the inbox
 
   return {
     fetched: items.length,
@@ -129,6 +144,7 @@ async function main() {
   const result = await runPipeline({
     ingest: makeRssIngest(),
     distiller: makeRealDistiller(),
+    manualFetch: await makeRealUrlFetch(),
     nowISO: new Date().toISOString(),
     rootDir: ".",
   });

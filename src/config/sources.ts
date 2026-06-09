@@ -18,11 +18,25 @@ export interface SourceDef {
   region?: string;
   /**
    * `public` = an allowlisted public surface, safe for foundational/analyst
-   * summaries (vendor "named a Leader" pages, public analyst summaries,
-   * press releases). Foundational entries MUST come from a `public` source.
+   * summaries. `manual` = operator-added URL/file (their own material) —
+   * exempt from the public-source allowlist gate, still digested + verbatim-
+   * checked. Foundational entries must be `public` OR `manual`.
    */
-  trust: "public";
+  trust: "public" | "manual";
 }
+
+/**
+ * Synthetic source for operator-added URLs/files (see pipeline/manual.ts).
+ * Manual items are foundational (persistent — deliberately curated) and
+ * carry a per-item subjectKey so re-adding the same source updates it.
+ */
+export const MANUAL_SOURCE: SourceDef = {
+  key: "manual",
+  url: "manual://local",
+  defaultCategory: "reference",
+  tier: "foundational",
+  trust: "manual",
+};
 
 export const SOURCES: SourceDef[] = [
   { key: "cisa", url: "https://www.cisa.gov/cybersecurity-advisories/all.xml", defaultCategory: "regulation", tier: "event", region: "us", trust: "public" },

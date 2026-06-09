@@ -39,8 +39,10 @@ export interface LegalVerdict {
 }
 
 export function checkEntry(entry: FeedEntry, raw: RawItem, source: SourceDef): LegalVerdict {
-  // 1. Tier/source gate: foundational content must be a public surface.
-  if (entry.tier === "foundational" && source.trust !== "public") {
+  // 1. Tier/source gate: scraped foundational content must be a public
+  //    surface. Operator-added (`manual`) content is exempt — it's their own
+  //    material — but is still digested + verbatim-checked below.
+  if (entry.tier === "foundational" && source.trust !== "public" && source.trust !== "manual") {
     return { ok: false, reason: "foundational entry from non-public source" };
   }
   // 2. Length cap.
