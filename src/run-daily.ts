@@ -97,12 +97,25 @@ export async function runPipeline(deps: RunDeps): Promise<RunResult> {
   const toProcess = [...pickedEvents, ...freshRaw.filter((r) => !isEvent(r))];
   const capped = freshEvents.length - pickedEvents.length;
 
-  // 4. Distill each fresh article.
-  const distilled: { entry: FeedEntry; raw: RawItem }[] = [];
-  for (const raw of toProcess) {
-    const entry = await distiller(raw, sourceByKey.get(raw.sourceKey)!);
-    if (entry) distilled.push({ entry, raw });
+  // 4. Distill each fresh article — CONCURRENTLY with a bounded pool. Serial
+  //    distillation of ~80 articles took 12-20min (each Anthropic call is a
+  //    few seconds, and a stalled one burns the full 30s timeout). A small
+  //    pool keeps wall-time ~minutes while staying well under rate limits.
+  //    Results are written by index so output order is deterministic.
+  const DISTILL_CONCURRENCY = 8;
+  const slots: ({ entry: FeedEntry; raw: RawItem } | null)[] = new Array(toProcess.length).fill(null);
+  let cursor = 0;
+  async function distillWorker(): Promise<void> {
+    for (let i = cursor++; i < toProcess.length; i = cursor++) {
+      const raw = toProcess[i];
+      const entry = await distiller(raw, sourceByKey.get(raw.sourceKey)!);
+      if (entry) slots[i] = { entry, raw };
+    }
   }
+  await Promise.all(
+    Array.from({ length: Math.min(DISTILL_CONCURRENCY, toProcess.length) }, distillWorker),
+  );
+  const distilled = slots.filter((x): x is { entry: FeedEntry; raw: RawItem } => x !== null);
 
   // Guard: if there were fresh items but EVERY distillation failed, the
   // distiller (usually a bad ANTHROPIC_API_KEY) is down — fail the run
