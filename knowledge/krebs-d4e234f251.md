@@ -1,0 +1,3 @@
+Hackers Exploited Meta's AI Support Bot to Compromise High-Profile Instagram Accounts
+
+Threat actors circulated instructions on Telegram demonstrating how to manipulate Meta's AI customer support bot into resetting Instagram account passwords by adding unauthorized email addresses during the password recovery flow. High-profile accounts including the Obama White House and U.S. Space Force were defaced with pro-Iranian content; Meta deployed an emergency patch and confirmed no backend database was compromised. Security researchers note that AI-driven account recovery systems introduce novel attack surface comparable to social engineering of human support staff.

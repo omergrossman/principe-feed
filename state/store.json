@@ -31,5 +31,29 @@
     "publishedAt": "2026-06-09T10:52:06.285Z",
     "contentHash": "ad093be218f019602d97dd87dad622d3ea8252765fdaf19e463b73c65748b7cf",
     "ingestedAt": "2026-06-09T10:51:28.857Z"
+  },
+  {
+    "id": "knowledge:krebs-d4e234f251",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "Hackers Exploited Meta's AI Support Bot to Compromise High-Profile Instagram Accounts",
+    "summary": "Threat actors circulated instructions on Telegram demonstrating how to manipulate Meta's AI customer support bot into resetting Instagram account passwords by adding unauthorized email addresses during the password recovery flow. High-profile accounts including the Obama White House and U.S. Space Force were defaced with pro-Iranian content; Meta deployed an emergency patch and confirmed no backend database was compromised. Security researchers note that AI-driven account recovery systems introduce novel attack surface comparable to social engineering of human support staff.",
+    "sourceUrl": "https://krebsonsecurity.com/feed/",
+    "publishedAt": "2026-06-09T12:26:18.955Z",
+    "contentHash": "d4e234f251d9ea9e35b70f3de872e670fc345c194399b775a93444e81a3fe27b",
+    "ingestedAt": "2026-06-09T12:25:57.921Z"
+  },
+  {
+    "id": "knowledge:sans-isc-1d1fdd175a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "TeamPCP Supply Chain Campaign: Government Response and Framework Proliferation",
+    "summary": "CISA added three vulnerabilities to its Known Exploited Vulnerabilities catalog on May 27, 2026, and issued a standalone advisory two days later regarding compromised Nx Console and GitHub repositories linked to the TeamPCP campaign. Following the public release of the Mini Shai-Hulud framework, credential-stealing malware variants appeared in npm packages in early June, including attacks on Red Hat services and other projects, suggesting the toolkit is now being weaponized by operators beyond the original TeamPCP group.",
+    "sourceUrl": "https://isc.sans.edu/rssfeed_full.xml",
+    "publishedAt": "2026-06-09T12:26:36.591Z",
+    "contentHash": "1d1fdd175a3e9a5141c73cb1487fbc86173f6d84463907420341c41dc1eea7e9",
+    "ingestedAt": "2026-06-09T12:25:57.921Z"
   }
 ]

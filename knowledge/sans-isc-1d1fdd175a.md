@@ -1,0 +1,3 @@
+TeamPCP Supply Chain Campaign: Government Response and Framework Proliferation
+
+CISA added three vulnerabilities to its Known Exploited Vulnerabilities catalog on May 27, 2026, and issued a standalone advisory two days later regarding compromised Nx Console and GitHub repositories linked to the TeamPCP campaign. Following the public release of the Mini Shai-Hulud framework, credential-stealing malware variants appeared in npm packages in early June, including attacks on Red Hat services and other projects, suggesting the toolkit is now being weaponized by operators beyond the original TeamPCP group.
