@@ -55,7 +55,7 @@ jobs:
             git commit -m "feed: daily snapshot $DATE (auto)"
             git push origin HEAD:main
           else
-            BR="feed/$DATE"
+            BR="feed/$DATE-$GITHUB_RUN_NUMBER"   # unique per run — no same-day collisions
             git checkout -b "$BR"
             git add knowledge feed-metadata.json state
             git commit -m "feed: daily snapshot $DATE"
