@@ -65,8 +65,10 @@ function baseEntry(
       contentHash, subjectKey, reportDate: publishedAt, ingestedAt: new Date().toISOString(),
     };
   }
+  // Event id is STABLE per article (hash of the link), so the same story
+  // never re-adds as a near-duplicate when the feed shifts during the day.
   return {
-    id: `knowledge:${source.key}-${contentHash.slice(0, 10)}`,
+    id: `knowledge:${source.key}-${sha256(raw.url).slice(0, 10)}`,
     tier, category: fields.category, region: fields.region, industries: fields.industries,
     title: fields.title, summary: fields.summary, sourceUrl: raw.url, publishedAt,
     contentHash, ingestedAt: new Date().toISOString(),

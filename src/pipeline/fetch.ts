@@ -1,74 +1,73 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 //
-// Fetch seam. The SSRF-safe fetcher is REUSED from principe-oss (the
-// submodule), never reimplemented — `fetchUrlAsText` re-runs the SSRF
-// guard on every redirect hop. We depend on it through this seam so the
-// pipeline is testable with fixtures and the security primitive stays
-// single-sourced (ADR decision).
+// Source ingestion. Each source is an RSS/Atom feed; we parse it into
+// INDIVIDUAL articles (not one blob) so (a) dedup is stable per article
+// and (b) the whole feed's diversity — regulation, strategy, analyst,
+// not just the lead incident — flows downstream. Hosts are constrained to
+// the curated allowlist (the producer never fetches a user-supplied URL),
+// which is the SSRF boundary on the producer side.
 
-import { resolve } from "node:path";
-import { pathToFileURL } from "node:url";
+import crypto from "node:crypto";
+import Parser from "rss-parser";
 import type { RawItem } from "../types.js";
 import { ALLOWED_HOSTS, SOURCES, type SourceDef } from "../config/sources.js";
 
-/** Fetch one source URL → cleaned text. Injected so tests use fixtures. */
-export type FetchFn = (url: string) => Promise<{
-  text: string;
-  contentHash: string;
-  title: string | null;
-  publishedAt: Date | null;
-}>;
+/** Pull one source into its recent articles. Injected so tests use fixtures. */
+export type IngestFn = (source: SourceDef) => Promise<RawItem[]>;
 
-/**
- * Production adapter — lazily imports the submoduled SSRF-safe fetcher.
- * PRINCIPE_OSS_DIR points at the principe-oss checkout (a git submodule
- * in CI; the sibling repo locally).
- */
-export async function realFetchFn(): Promise<FetchFn> {
-  const dir = process.env.PRINCIPE_OSS_DIR ?? "../principe-oss";
-  // Resolve to an absolute file:// URL — a bare/relative specifier like
-  // "vendor/principe-oss/..." would be read as a package name by Node's
-  // ESM resolver.
-  const target = pathToFileURL(resolve(dir, "apps/principe/src/lib/sources/fetch.ts")).href;
-  const mod = await import(target);
-  return mod.fetchUrlAsText as FetchFn;
-}
+const MAX_ITEMS_PER_SOURCE = 12; // recent articles to consider per feed/run
 
-/** Allowlist gate — refuse any host not derived from the source config. */
 export function assertAllowedHost(url: string): void {
   const host = new URL(url).host;
-  if (!ALLOWED_HOSTS.has(host)) {
-    throw new Error(`host not in source allowlist: ${host}`);
-  }
+  if (!ALLOWED_HOSTS.has(host)) throw new Error(`host not in source allowlist: ${host}`);
 }
 
-/**
- * Pull every configured source into RawItems. One item per source here
- * (the source URL is treated as the article); a real RSS parser would
- * expand each feed into N items — that refinement is isolated to this
- * function and doesn't touch the rest of the pipeline.
- */
+function stripHtml(s: string): string {
+  return s.replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/gi, " ").replace(/\s+/g, " ").trim();
+}
+
+export const sha = (s: string): string => crypto.createHash("sha256").update(s).digest("hex");
+
+/** Production ingester — RSS/Atom via rss-parser, with a browser-ish UA. */
+export function makeRssIngest(): IngestFn {
+  const parser = new Parser({
+    timeout: 12_000,
+    headers: { "User-Agent": "Mozilla/5.0 (compatible; Principe-FeedBot/1.0; +https://principe.ai)" },
+  });
+  return async (source) => {
+    assertAllowedHost(source.url);
+    const feed = await parser.parseURL(source.url);
+    return (feed.items ?? [])
+      .slice(0, MAX_ITEMS_PER_SOURCE)
+      .map((it): RawItem | null => {
+        const title = (it.title ?? "").trim();
+        const body = stripHtml(it.contentSnippet ?? it.content ?? (it as { summary?: string }).summary ?? "");
+        const url = it.link ?? it.guid ?? "";
+        if (!title || !url) return null;
+        return {
+          sourceKey: source.key,
+          url,
+          title,
+          rawText: body || title,
+          publishedAt: it.isoDate ?? null,
+        };
+      })
+      .filter((r): r is RawItem => r !== null);
+  };
+}
+
+/** Pull every configured source into a flat RawItem[] (+ per-source failures). */
 export async function fetchAllSources(
-  fetchFn: FetchFn,
+  ingest: IngestFn,
   sources: SourceDef[] = SOURCES,
 ): Promise<{ items: RawItem[]; failures: { key: string; reason: string }[] }> {
   const items: RawItem[] = [];
   const failures: { key: string; reason: string }[] = [];
   for (const s of sources) {
     try {
-      assertAllowedHost(s.url);
-      const r = await fetchFn(s.url);
-      if (!r.text || r.text.trim().length === 0) {
-        failures.push({ key: s.key, reason: "empty fetch" });
-        continue;
-      }
-      items.push({
-        sourceKey: s.key,
-        url: s.url,
-        title: r.title ?? s.key,
-        rawText: r.text,
-        publishedAt: r.publishedAt ? r.publishedAt.toISOString() : null,
-      });
+      const got = await ingest(s);
+      if (got.length === 0) failures.push({ key: s.key, reason: "no items" });
+      else items.push(...got);
     } catch (e) {
       failures.push({ key: s.key, reason: e instanceof Error ? e.message : String(e) });
     }

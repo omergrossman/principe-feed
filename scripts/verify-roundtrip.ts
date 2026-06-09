@@ -21,7 +21,7 @@ import { SOURCES, type SourceDef } from "../src/config/sources.js";
 import { stubDistiller } from "../src/pipeline/distill.js";
 import { checkEntry } from "../src/pipeline/legal.js";
 import { signBundle } from "../src/pipeline/sign.js";
-import type { FetchFn } from "../src/pipeline/fetch.js";
+import type { IngestFn } from "../src/pipeline/fetch.js";
 import type { FeedEntry, RawItem } from "../src/types.js";
 import { SUMMARY_MAX_CHARS } from "../src/config/sources.js";
 
@@ -40,13 +40,9 @@ function sha256(s: string | Buffer): string {
 
 const src = (key: string): SourceDef => SOURCES.find((s) => s.key === key)!;
 
-/** Build a fetchFn that serves canned text per source URL. */
-function fixtureFetch(map: Record<string, { title: string; text: string; publishedAt: string }>): FetchFn {
-  return async (url: string) => {
-    const f = map[url];
-    if (!f) throw new Error(`no fixture for ${url}`);
-    return { text: f.text, contentHash: sha256(f.text), title: f.title, publishedAt: new Date(f.publishedAt) };
-  };
+/** Build an IngestFn that serves canned articles per source. */
+function fixtureIngest(map: Record<string, RawItem[]>): IngestFn {
+  return async (source) => map[source.key] ?? [];
 }
 
 async function main() {
@@ -66,13 +62,13 @@ async function main() {
   // ---- Run 1 ----
   console.log("\nRun 1 — fetch → distill → legal → dedup → lifecycle → emit");
   const run1Sources = [src("cisa"), src("acsc-anz"), src("gartner-newsroom"), src("bleeping")];
-  const fetch1 = fixtureFetch({
-    [src("cisa").url]: { title: "Ransomware disrupts hospital patient care systems", text: "A ransomware operator disrupted hospital patient health record systems across several US providers this week, affecting clinical workflows.", publishedAt: T0 },
-    [src("acsc-anz").url]: { title: "ANZ tightens mandatory breach reporting windows", text: "Australian authorities shortened the mandatory data breach notification window for regulated entities operating in the region.", publishedAt: T0 },
-    [src("gartner-newsroom").url]: { title: "Gartner names 2026 Leaders in endpoint protection", text: "Gartner announced the vendors recognized as Leaders in its public 2026 endpoint protection evaluation in a press release.", publishedAt: "2026-01-15T00:00:00Z" },
-    [src("bleeping").url]: { title: "Infostealer malware trend continues to grow", text: "Researchers observed a continued rise in infostealer malware distributed through malicious advertising over the past quarter.", publishedAt: T0 },
+  const fetch1 = fixtureIngest({
+    cisa: [{ sourceKey: "cisa", url: "https://www.cisa.gov/a/hospital-ransomware", title: "Ransomware disrupts hospital patient care systems", rawText: "A ransomware operator disrupted hospital patient health record systems across several US providers this week, affecting clinical workflows.", publishedAt: T0 }],
+    "acsc-anz": [{ sourceKey: "acsc-anz", url: "https://www.cyber.gov.au/a/breach-window", title: "ANZ tightens mandatory breach reporting windows", rawText: "Australian authorities shortened the mandatory data breach notification window for regulated entities operating in the region.", publishedAt: T0 }],
+    "gartner-newsroom": [{ sourceKey: "gartner-newsroom", url: "https://www.gartner.com/a/mq-2026-v1", title: "Gartner names 2026 Leaders in endpoint protection", rawText: "Gartner announced the vendors recognized as Leaders in its public 2026 endpoint protection evaluation in a press release.", publishedAt: "2026-01-15T00:00:00Z" }],
+    bleeping: [{ sourceKey: "bleeping", url: "https://www.bleepingcomputer.com/a/infostealer", title: "Infostealer malware trend continues to grow", rawText: "Researchers observed a continued rise in infostealer malware distributed through malicious advertising over the past quarter.", publishedAt: T0 }],
   });
-  const r1 = await runPipeline({ fetchFn: fetch1, distiller: stubDistiller, nowISO: T0, rootDir: root, sources: run1Sources });
+  const r1 = await runPipeline({ ingest: fetch1, distiller: stubDistiller, nowISO: T0, rootDir: root, sources: run1Sources });
   check("run1: 4 fetched", r1.fetched === 4);
   check("run1: 0 legal rejects", r1.legalRejected === 0);
   check("run1: snapshot = 4 entries", r1.snapshotSize === 4);
@@ -115,11 +111,11 @@ async function main() {
   console.log("Run 2 — supersession + expiry (T0 + 31d)");
   const T1 = new Date(new Date(T0).getTime() + 31 * 86_400_000).toISOString();
   const run2Sources = [src("gartner-newsroom"), src("krebs")];
-  const fetch2 = fixtureFetch({
-    [src("gartner-newsroom").url]: { title: "Gartner 2026 H2 update revises endpoint Leaders", text: "Gartner published a mid-year revision to its public endpoint protection Leaders recognition, adding two vendors in a press release.", publishedAt: T1 },
-    [src("krebs").url]: { title: "New supply-chain compromise hits build pipelines", text: "A newly disclosed supply-chain compromise targeted software build pipelines, injecting malicious dependencies during continuous integration.", publishedAt: T1 },
+  const fetch2 = fixtureIngest({
+    "gartner-newsroom": [{ sourceKey: "gartner-newsroom", url: "https://www.gartner.com/a/mq-2026-v2", title: "Gartner 2026 H2 update revises endpoint Leaders", rawText: "Gartner published a mid-year revision to its public endpoint protection Leaders recognition, adding two vendors in a press release.", publishedAt: T1 }],
+    krebs: [{ sourceKey: "krebs", url: "https://krebsonsecurity.com/a/supply-chain", title: "New supply-chain compromise hits build pipelines", rawText: "A newly disclosed supply-chain compromise targeted software build pipelines, injecting malicious dependencies during continuous integration.", publishedAt: T1 }],
   });
-  const r2 = await runPipeline({ fetchFn: fetch2, distiller: stubDistiller, nowISO: T1, rootDir: root, sources: run2Sources });
+  const r2 = await runPipeline({ ingest: fetch2, distiller: stubDistiller, nowISO: T1, rootDir: root, sources: run2Sources });
   check("run2: snapshot = 2 (foundational persists + 1 new event; 3 stale events expired)", r2.snapshotSize === 2);
 
   const store2 = JSON.parse(readFileSync(join(root, "state", "store.json"), "utf8")) as FeedEntry[];

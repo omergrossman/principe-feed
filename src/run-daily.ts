@@ -10,7 +10,7 @@
 // Pure pipeline; no git/network side effects beyond fetch + distill.
 
 import { join } from "node:path";
-import { realFetchFn, fetchAllSources } from "./pipeline/fetch.js";
+import { makeRssIngest, fetchAllSources } from "./pipeline/fetch.js";
 import { makeRealDistiller } from "./pipeline/distill.js";
 import { checkEntry } from "./pipeline/legal.js";
 import { loadSeen, isNew, updateSeen, saveSeen } from "./pipeline/dedup.js";
@@ -20,14 +20,14 @@ import { resolvePublishPlan } from "./publish/mode.js";
 import { SOURCES, MAX_ITEMS_PER_DAY } from "./config/sources.js";
 import type { FeedEntry, RawItem } from "./types.js";
 import type { Distiller } from "./pipeline/distill.js";
-import type { FetchFn } from "./pipeline/fetch.js";
+import type { IngestFn } from "./pipeline/fetch.js";
 import type { SourceDef } from "./config/sources.js";
 
 const SEEN_PATH = "state/seen.json";
 const STORE_PATH = "state/store.json";
 
 export interface RunDeps {
-  fetchFn: FetchFn;
+  ingest: IngestFn;
   distiller: Distiller;
   nowISO: string;
   rootDir: string;
@@ -47,51 +47,55 @@ export interface RunResult {
 
 /** The pipeline as a pure-ish function so the round-trip test can drive it. */
 export async function runPipeline(deps: RunDeps): Promise<RunResult> {
-  const { fetchFn, distiller, nowISO, rootDir } = deps;
+  const { ingest, distiller, nowISO, rootDir } = deps;
   const sources = deps.sources ?? SOURCES;
-
-  const { items, failures } = await fetchAllSources(fetchFn, sources);
-
   const sourceByKey = new Map(sources.map((s) => [s.key, s]));
+
+  // 1. Ingest every source into individual articles.
+  const { items, failures } = await fetchAllSources(ingest, sources);
+
+  // 2. Dedup by stable article link BEFORE distilling (saves LLM calls and
+  //    is what prevents the same story re-appearing as the feed shifts).
+  const seen = loadSeen(join(rootDir, SEEN_PATH));
+  const freshRaw = items.filter((r) => isNew(seen, r.url));
+
+  // 3. Cap new EVENT articles per run; foundational uncapped.
+  const isEvent = (r: RawItem) => sourceByKey.get(r.sourceKey)!.tier === "event";
+  const freshEvents = freshRaw.filter(isEvent);
+  const toProcess = [...freshEvents.slice(0, MAX_ITEMS_PER_DAY), ...freshRaw.filter((r) => !isEvent(r))];
+  const capped = freshEvents.length - Math.min(freshEvents.length, MAX_ITEMS_PER_DAY);
+
+  // 4. Distill each fresh article.
   const distilled: { entry: FeedEntry; raw: RawItem }[] = [];
-  for (const raw of items) {
-    const source = sourceByKey.get(raw.sourceKey)!;
-    const entry = await distiller(raw, source);
+  for (const raw of toProcess) {
+    const entry = await distiller(raw, sourceByKey.get(raw.sourceKey)!);
     if (entry) distilled.push({ entry, raw });
   }
 
-  // Legal gate (FR-9).
+  // 5. Legal gate (FR-9).
   let legalRejected = 0;
   const legal = distilled.filter(({ entry, raw }) => {
     const v = checkEntry(entry, raw, sourceByKey.get(raw.sourceKey)!);
     if (!v.ok) { legalRejected++; console.warn(`[legal] reject ${entry.id}: ${v.reason}`); }
     return v.ok;
   });
+  const incoming = legal.map((x) => x.entry);
 
-  // Dedup vs the rolling index.
-  const seen = loadSeen(join(rootDir, SEEN_PATH));
-  const fresh = legal.filter(({ entry }) => isNew(seen, entry.contentHash));
-
-  // Cap new EVENT entries; foundational uncapped.
-  const freshEvents = fresh.filter(({ entry }) => entry.tier === "event").slice(0, MAX_ITEMS_PER_DAY);
-  const freshFoundational = fresh.filter(({ entry }) => entry.tier === "foundational");
-  const capped = fresh.filter(({ entry }) => entry.tier === "event").length - freshEvents.length;
-  const incoming = [...freshEvents, ...freshFoundational].map((x) => x.entry);
-
-  // Lifecycle / snapshot.
+  // 6. Lifecycle / snapshot.
   const store = loadStore(join(rootDir, STORE_PATH));
   const snapshot = applyToStore(store, incoming, nowISO);
 
-  // Emit + persist state.
+  // 7. Emit + persist. Mark every ATTEMPTED article seen (incl. legal/distill
+  //    failures) so we don't re-process them daily.
   emitBundleInput(snapshot, rootDir);
   saveStore(join(rootDir, STORE_PATH), snapshot);
-  saveSeen(join(rootDir, SEEN_PATH), updateSeen(seen, incoming.map((e) => e.contentHash), nowISO));
+  saveSeen(join(rootDir, SEEN_PATH), updateSeen(seen, toProcess.map((r) => r.url), nowISO));
 
   return {
     fetched: items.length,
     distilled: distilled.length,
     legalRejected,
-    fresh: fresh.length,
+    fresh: freshRaw.length,
     capped,
     snapshotSize: snapshot.length,
     failures,
@@ -105,7 +109,7 @@ async function main() {
     return;
   }
   const result = await runPipeline({
-    fetchFn: await realFetchFn(),
+    ingest: makeRssIngest(),
     distiller: makeRealDistiller(),
     nowISO: new Date().toISOString(),
     rootDir: ".",
