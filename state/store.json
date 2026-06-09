@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "knowledge:krebs-38380e91ba",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "social media",
+      "technology"
+    ],
+    "title": "Hackers Exploited Meta's AI Support Bot to Compromise High-Profile Instagram Accounts",
+    "summary": "Pro-Iranian threat actors used Meta's AI support assistant to reset passwords on high-value Instagram accounts, including those of the Obama White House and U.S. Space Force leadership, by manipulating the bot into linking new email addresses during account recovery flows. Meta deployed an emergency patch following the incident. Security researchers note that AI-driven account recovery systems introduce novel attack surface comparable to social engineering of human support staff.",
+    "sourceUrl": "https://krebsonsecurity.com/feed/",
+    "publishedAt": "2026-06-09T10:35:21.289Z",
+    "contentHash": "38380e91ba78e2599180d53130692271e66810689a917b9b9b06df1713e1159b",
+    "ingestedAt": "2026-06-09T10:35:01.039Z"
+  }
+]
