@@ -14,6 +14,7 @@ import crypto from "node:crypto";
 import { mkdtempSync, mkdirSync, readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
+import { pathToFileURL } from "node:url";
 import { execFileSync } from "node:child_process";
 import { runPipeline } from "../src/run-daily.js";
 import { SOURCES, type SourceDef } from "../src/config/sources.js";
@@ -24,7 +25,7 @@ import type { FetchFn } from "../src/pipeline/fetch.js";
 import type { FeedEntry, RawItem } from "../src/types.js";
 import { SUMMARY_MAX_CHARS } from "../src/config/sources.js";
 
-const ossDir = process.env.PRINCIPE_OSS_DIR ?? resolve("../principe-oss");
+const ossDir = resolve(process.env.PRINCIPE_OSS_DIR ?? "../principe-oss");
 
 let passed = 0;
 function check(label: string, cond: boolean) {
@@ -90,8 +91,8 @@ async function main() {
   const manifest = JSON.parse(manifestBytes.toString("utf8"));
 
   // Consumer-side verification (imported from principe-oss).
-  const verify = await import(`${ossDir}/apps/principe/src/lib/updates/verify.ts`);
-  const manifestMod = await import(`${ossDir}/apps/principe/src/lib/updates/manifest.ts`);
+  const verify = await import(pathToFileURL(join(ossDir, "apps/principe/src/lib/updates/verify.ts")).href);
+  const manifestMod = await import(pathToFileURL(join(ossDir, "apps/principe/src/lib/updates/manifest.ts")).href);
   check("bundle: ed25519 signature verifies", verify.verifyManifestSignature(manifestBytes, sig) === true);
   check("bundle: passes isBundleManifest", manifestMod.isBundleManifest(manifest) === true);
 

@@ -6,6 +6,8 @@
 // pipeline is testable with fixtures and the security primitive stays
 // single-sourced (ADR decision).
 
+import { resolve } from "node:path";
+import { pathToFileURL } from "node:url";
 import type { RawItem } from "../types.js";
 import { ALLOWED_HOSTS, SOURCES, type SourceDef } from "../config/sources.js";
 
@@ -24,7 +26,11 @@ export type FetchFn = (url: string) => Promise<{
  */
 export async function realFetchFn(): Promise<FetchFn> {
   const dir = process.env.PRINCIPE_OSS_DIR ?? "../principe-oss";
-  const mod = await import(`${dir}/apps/principe/src/lib/sources/fetch.ts`);
+  // Resolve to an absolute file:// URL — a bare/relative specifier like
+  // "vendor/principe-oss/..." would be read as a package name by Node's
+  // ESM resolver.
+  const target = pathToFileURL(resolve(dir, "apps/principe/src/lib/sources/fetch.ts")).href;
+  const mod = await import(target);
   return mod.fetchUrlAsText as FetchFn;
 }
 
