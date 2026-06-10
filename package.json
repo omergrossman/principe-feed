@@ -10,7 +10,8 @@
     "daily": "tsx src/run-daily.ts",
     "verify": "tsx scripts/verify-roundtrip.ts",
     "console": "node console/server.mjs",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
   },
   "dependencies": {
     "nodemailer": "^8.0.11",
@@ -22,6 +23,7 @@
     "@types/nodemailer": "^8.0.0",
     "@types/pdf-parse": "^1.1.4",
     "tsx": "^4.22.4",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.8"
   }
 }
