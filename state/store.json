@@ -175,5 +175,201 @@
     "publishedAt": "2026-06-08T17:07:37.000Z",
     "contentHash": "7411012a5dfa1ee107d223a1e5c243e492c61152ec19dbc8393e4923c58e85dc",
     "ingestedAt": "2026-06-09T18:21:31.740Z"
+  },
+  {
+    "id": "knowledge:krebs-a02b18501d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "The Gentlemen Ransomware Group: Operational Profile and Leadership Analysis",
+    "summary": "The Gentlemen has become the second most active ransomware operation by victim volume, leveraging a 90% affiliate payout model to recruit skilled operators. The group's administrative structure and potential leadership identities are examined through available investigative indicators.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+    "publishedAt": "2026-06-10T14:03:44.000Z",
+    "contentHash": "6052fc4213543fa41b6c6334fdbca7c2f41e3a16ebfdeaa97fd44ab83d4f218b",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:bleeping-328985d6bc",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "defense",
+      "government"
+    ],
+    "title": "JDY botnet linked to Chinese actors expands U.S. military network reconnaissance",
+    "summary": "The JDY botnet, attributed to Chinese threat actors previously associated with Volt Typhoon, has broadened its targeting scope and reconnaissance activities. The expansion indicates increased focus on U.S. military infrastructure as part of ongoing espionage operations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
+    "publishedAt": "2026-06-10T15:00:00.000Z",
+    "contentHash": "98e2ddb53d6d1bf306790d453d94488e08c6b4b6ec896af5f5e690e3e8f079cf",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:thehackernews-944a2c7b61",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "China-Linked JDY Botnet Expands to 1,500+ Compromised Devices",
+    "summary": "Researchers have identified a resurgence of the JDY botnet, attributed to China-nexus state-sponsored actors, now comprising over 1,500 SOHO and IoT devices. The botnet functions as a centralized reconnaissance platform designed to discover, fingerprint, and continuously map exposed services across networks at scale.",
+    "sourceUrl": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
+    "publishedAt": "2026-06-10T16:08:42.000Z",
+    "contentHash": "5de60468827c2028ce1ed9259bad052f9a302739aabad110007d40f6e2623ee6",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:darkreading-652357f6bc",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Nightmare-Eclipse Releases Additional Windows Defender Exploit",
+    "summary": "A researcher operating under the Nightmare-Eclipse moniker has disclosed a proof-of-concept exploit targeting Windows Defender, enabling potential system compromise. The release represents a continuation of their documented disputes with Microsoft, with no indication of cessation.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-microsoft-exploit-rogueplanet",
+    "publishedAt": "2026-06-10T16:31:02.000Z",
+    "contentHash": "9c58c414ee266a339ddbf8bb53020b5d273ada756a1f8a03563fc3666da26cb9",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:sans-isc-4d8b4dc584",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Adoption Trends of Framing Protection Headers Over Three Years",
+    "summary": "Analysis of the top 1 million domains reveals how deployment of X-Frame-Options and CSP frame-ancestors directives has evolved since 2023. The study provides comparative metrics on security header adoption rates and configuration patterns across the internet's most popular properties.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33068",
+    "publishedAt": "2026-06-10T08:29:21.000Z",
+    "contentHash": "bb086f87157b56fdbf55cc041ea443523a8518d23ac494d30fdb844b9aee5c84",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-b130e5fa18",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Advises Cautious Approach to Agentic AI Adoption",
+    "summary": "The UK's National Cyber Security Centre recommends organisations establish foundational capabilities and governance frameworks before deploying autonomous AI systems. The guidance emphasizes understanding operational requirements and security implications rather than pursuing rapid implementation.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
+    "publishedAt": "2026-05-15T12:00:00.000Z",
+    "contentHash": "ef2d161a24ff8fa40c526328b0e520c68dc5eaabd350ef7be67e41b4ed208689",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:krebs-ea6cfaf1ee",
+    "tier": "event",
+    "category": "product-release",
+    "region": "global",
+    "title": "Microsoft Releases Record 200 Security Patches in June 2026 Patch Tuesday",
+    "summary": "Microsoft addressed approximately 200 vulnerabilities across Windows and supported software in its June Patch Tuesday release, marking a record volume for the monthly cycle. Roughly 30 flaws received critical severity ratings, with proof-of-concept exploits already disclosed for at least three of the vulnerabilities.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+    "publishedAt": "2026-06-09T22:07:28.000Z",
+    "contentHash": "178c745bb648cc16a4c895785aadd1c90096e3ed3de074e2db1d45d7965471e8",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:bleeping-f95085924c",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Five Best Practices for Secure Identity Verification",
+    "summary": "Attackers are exploiting weaknesses in authentication mechanisms including phishing, MFA fatigue attacks, and social engineering targeting service desks. Specops Software outlines five best practices to strengthen identity verification and access control posture.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
+    "publishedAt": "2026-06-10T14:05:15.000Z",
+    "contentHash": "b6bbc7000c6133518d4fdcfcf75bbbc822d3b019e8347f462563938861679d73",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:darkreading-5a9dff47d2",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "healthcare",
+      "energy",
+      "utilities"
+    ],
+    "title": "The Invisible Battlefield: How Cyber War Is Reshaping Everyday Life",
+    "summary": "Former National Cyber Director Chris Inglis highlights ongoing vulnerabilities in critical infrastructure sectors including healthcare and energy, where cyber operations pose material risks to service continuity. The commentary underscores the broadening scope of cyber threats beyond traditional IT environments into systems supporting public welfare.",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/invisible-battlefield-cyber-war-reshaping-everyday-life",
+    "publishedAt": "2026-06-09T21:57:11.000Z",
+    "contentHash": "ee97e41f754dd71232d562e528402d3094f710fb99713fc8ea2fb1c83917864b",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9820ae8e6c",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Daily Podcast - June 10th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The episode provides analysis of ongoing security incidents and emerging vulnerabilities relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33066",
+    "publishedAt": "2026-06-10T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-647c28ddd6",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Guidance on Security Considerations for AI-Based Vulnerability Detection",
+    "summary": "The UK's National Cyber Security Centre has published guidance addressing security implications when deploying AI models for vulnerability discovery. The resource provides a framework of key questions organizations should evaluate before implementing AI-driven vulnerability detection tools.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/10-questions-ask-using-ai-models-find-vulnerabilities",
+    "publishedAt": "2026-05-11T12:00:00.000Z",
+    "contentHash": "098fc2f6a8cee1cb3bd4cd65f338715893648c6a2cb5578492253f83e07bdddd",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:cisa-64f06b0440",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds SolarWinds Serv-U Vulnerability to Known Exploited Vulnerabilities Catalog",
+    "summary": "CISA has cataloged CVE-2026-28318, a denial-of-service vulnerability in SolarWinds Serv-U, as an actively exploited vulnerability. The addition reinforces BOD 22-01 requirements for federal agencies to remediate known exploited vulnerabilities by established deadlines. CISA recommends all organizations prioritize patching KEV Catalog vulnerabilities as part of standard vulnerability management.",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "publishedAt": "2026-06-05T12:00:00.000Z",
+    "contentHash": "3a9e1faf835cc488d6768511a4cf6595ec99e1cc5c3ec5b8a9ec3c5c6c1d1d29",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:bleeping-2b1ea9e057",
+    "tier": "event",
+    "category": "attack",
+    "title": "Microsoft patches Exchange Server zero-day exploited in attacks",
+    "summary": "Microsoft released a patch for an actively exploited Exchange Server vulnerability enabling arbitrary JavaScript execution through cross-site scripting attacks against Outlook Web Access users. The flaw allowed threat actors to conduct client-side attacks on affected deployments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
+    "publishedAt": "2026-06-10T13:44:19.000Z",
+    "contentHash": "8eceae2fd9a975434ef93bbef169b3f855fd7598600ec607d9554daa44793dc4",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:thehackernews-efdaae8518",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software",
+      "ai"
+    ],
+    "title": "Langflow CVE-2026-5027 Unauthenticated RCE Exploited in Active Campaigns",
+    "summary": "An unpatched high-severity path traversal vulnerability (CVE-2026-5027, CVSS 8.8) in Langflow, an open-source low-code AI application platform, is being actively exploited to achieve unauthenticated remote code execution. The flaw permits attackers to write files to arbitrary system locations, as documented by VulnCheck.",
+    "sourceUrl": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+    "publishedAt": "2026-06-10T15:00:59.000Z",
+    "contentHash": "c8f9319895aa25962dd1fc7e651a66d0ac9504213482253b5c2749f1b3c69acc",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:darkreading-3688d78a40",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Patch Tuesday Reaches 206 CVEs; AI-Driven Vulnerability Discovery Expected to Accelerate Patch Volume",
+    "summary": "Microsoft's November Patch Tuesday disclosed 206 CVEs, marking a record monthly volume. Security researchers attribute the increase to AI-assisted vulnerability discovery tools, which are identifying flaws at greater scale and speed than traditional methods. This trend suggests elevated patch frequencies may become standard across the industry.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/blame-ai-patch-tuesday-record-206-cves",
+    "publishedAt": "2026-06-09T21:42:57.000Z",
+    "contentHash": "afb54da1691d9fba60b98e3766f2e3d7da110b4a45315200245ffb12e42801cc",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:sans-isc-95a4b5b81d",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Monday, June 8th, 2026",
+    "summary": "SANS Internet Storm Center published their regular security podcast episode covering current threat landscape developments and defensive guidance for the week of June 8th, 2026.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33058",
+    "publishedAt": "2026-06-08T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-10T16:51:52.714Z"
   }
 ]
