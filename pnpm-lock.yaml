@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       nodemailer:
-        specifier: ^6.9.16
-        version: 6.10.1
+        specifier: ^8.0.11
+        version: 8.0.11
       pdf-parse:
         specifier: ^1.1.1
         version: 1.1.4
@@ -22,8 +22,8 @@ importers:
         specifier: ^22.10.0
         version: 22.19.20
       '@types/nodemailer':
-        specifier: ^6.4.17
-        version: 6.4.23
+        specifier: ^8.0.0
+        version: 8.0.0
       '@types/pdf-parse':
         specifier: ^1.1.4
         version: 1.1.5
@@ -195,8 +195,8 @@ packages:
   '@types/node@22.19.20':
     resolution: {integrity: sha512-6tELRwSDYWW9EdZhbeZmYGZ1/7Djkt+Ah3/ScEYT9cDord7UJzasR/4D3VONg9tQI5CDp+/CZC1AXj2pCFOvpw==}
 
-  '@types/nodemailer@6.4.23':
-    resolution: {integrity: sha512-aFV3/NsYFLSx9mbb5gtirBSXJnAlrusoKNuPbxsASWc7vrKLmIrTQRpdcxNcSFL3VW2A2XpeLEavwb2qMi6nlQ==}
+  '@types/nodemailer@8.0.0':
+    resolution: {integrity: sha512-fyf8jWULsCo0d0BuoQ75i6IeoHs47qcqxWc7yUdUcV0pOZGjUTTOvwdG1PRXUDqN/8A64yQdQdnA2pZgcdi+cA==}
 
   '@types/pdf-parse@1.1.5':
     resolution: {integrity: sha512-kBfrSXsloMnUJOKi25s3+hRmkycHfLK6A09eRGqF/N8BkQoPUmaCr+q8Cli5FnfohEz/rsv82zAiPz/LXtOGhA==}
@@ -217,8 +217,8 @@ packages:
   node-ensure@0.0.0:
     resolution: {integrity: sha512-DRI60hzo2oKN1ma0ckc6nQWlHU69RH6xN0sjQTjMpChPfTYvKZdcQFfdYK2RWbJcKyUizSIy/l8OTGxMAM1QDw==}
 
-  nodemailer@6.10.1:
-    resolution: {integrity: sha512-Z+iLaBGVaSjbIzQ4pX6XV41HrooLsQ10ZWPUehGmuantvzWoDVBnmsdUcOIDM1t+yPor5pDhVlDESgOMEGxhHA==}
+  nodemailer@8.0.11:
+    resolution: {integrity: sha512-nrO/pDAUKl+wXX+lx16tDLbnm0fW6sK/x8mgohaCpg+CdCEl482bD4tCuAZk2DyliruiNTIZxRCoWkDqJEnAiA==}
     engines: {node: '>=6.0.0'}
 
   pdf-parse@1.1.4:
@@ -337,7 +337,7 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/nodemailer@6.4.23':
+  '@types/nodemailer@8.0.0':
     dependencies:
       '@types/node': 22.19.20
 
@@ -381,7 +381,7 @@ snapshots:
 
   node-ensure@0.0.0: {}
 
-  nodemailer@6.10.1: {}
+  nodemailer@8.0.11: {}
 
   pdf-parse@1.1.4:
     dependencies:
