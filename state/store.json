@@ -371,5 +371,207 @@
     "publishedAt": "2026-06-08T02:00:03.000Z",
     "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
     "ingestedAt": "2026-06-10T16:51:52.714Z"
+  },
+  {
+    "id": "knowledge:krebs-7645ab8ebf",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "title": "CISA Contractor Exposed AWS GovCloud Credentials and Internal Systems via Public GitHub Repository",
+    "summary": "A CISA contractor maintained a publicly accessible GitHub repository containing privileged AWS GovCloud credentials and documentation of CISA's internal software development, testing, and deployment processes. The exposed materials were discovered and remediated over the past weekend. Security researchers characterized the incident as among the most significant government data exposures in recent years.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+    "publishedAt": "2026-05-18T20:48:21.000Z",
+    "contentHash": "f28ccfc66dec517bd9bf55056c8460965c2ceee612baeebb4f4bf72fafd0418e",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c97d2a8851",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "The Gentlemen Ransomware Operation Claims 478 Victims with Worm-like Propagation Capability",
+    "summary": "The Gentlemen threat group, initially operating as a ransomware affiliate leveraging LockBit, Qilin, and Medusa RaaS platforms, has evolved into an independent operation claiming 478 victims. The group employs double extortion tactics and has developed capabilities enabling worm-like spread across compromised networks.",
+    "sourceUrl": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
+    "publishedAt": "2026-06-11T16:50:47.000Z",
+    "contentHash": "90bf39d32cdc3a2e901ba758edce359c8a6f0c738464ca28d8a164427c87ea2c",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:darkreading-354c35c576",
+    "tier": "event",
+    "category": "strategy",
+    "industries": [
+      "manufacturing",
+      "energy",
+      "utilities",
+      "critical-infrastructure"
+    ],
+    "title": "Segmentation Works for OT If Operators Are Paying Attention",
+    "summary": "Network segmentation is an effective control for operational technology environments, but its efficacy depends on active monitoring and operator engagement. Best practice implementations alone are insufficient without sustained attention to implementation details and anomaly detection.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/segmentation-works-for-ot-if-operators-are-paying-attention",
+    "publishedAt": "2026-06-11T14:51:48.000Z",
+    "contentHash": "1ec04d1aba37139134c21ec834aea6600d8b71d0788291d2a376512651ba7628",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:sans-isc-2e3610d401",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast - June 11th, 2026",
+    "summary": "SANS Internet Storm Center released their daily security briefing covering emerging threats and defensive measures. The podcast format provides analysts with timely updates on current cybersecurity developments and incident patterns.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33070",
+    "publishedAt": "2026-06-11T02:25:21.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-f7729e2fe3",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Advises Preparation for Significant Vulnerability Patch Cycle",
+    "summary": "The UK's National Cyber Security Centre has warned organisations to prepare operational and technical readiness for an anticipated large-scale patch release addressing accumulated technical debt. The advisory emphasises advance planning for deployment processes, testing procedures, and resource allocation to manage the volume of updates effectively.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/prepare-for-vulnerability-patch-wave",
+    "publishedAt": "2026-05-01T12:00:00.000Z",
+    "contentHash": "be310cc63fecf34d0020deef39f776b5ef5ad5d58eddce8db16d27502cd18259",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:cisa-d0f355805f",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "consumer electronics",
+      "smart home"
+    ],
+    "title": "Multiple Critical Vulnerabilities in Naxclow IoT Platform",
+    "summary": "CISA disclosed five vulnerabilities affecting all versions of Naxclow's IoT devices including smart doorbells, home hubs, and cameras. Flaws include hardcoded cryptographic keys, missing authorization checks, non-rotating credentials, and predictable device identifiers that collectively enable device takeover, credential harvesting, and communication interception. Naxclow did not respond to CISA coordination attempts; affected users should contact the vendor directly.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-02",
+    "publishedAt": "2026-06-11T12:00:00.000Z",
+    "contentHash": "84cda462577b8b3b9825665c37df242b69c37d74d02f4668da90a81d70a0fcfb",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:krebs-f42d900629",
+    "tier": "event",
+    "category": "product-release",
+    "title": "May 2026 Patch Tuesday: Record Vulnerability Fixes Across Major Software Vendors",
+    "summary": "Major software vendors including Apple, Google, Microsoft, Mozilla, and Oracle released patches for exceptionally high volumes of security vulnerabilities this month, with some achieving near-record fix counts. The surge in patched bugs reflects improved vulnerability detection capabilities, including AI-assisted code analysis tools that are proving effective at identifying flaws in production software.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+    "publishedAt": "2026-05-12T21:46:45.000Z",
+    "contentHash": "701fc36e44e8a6e16542745879d26f178a88d1e0b61e4a54ddd4fced80c873cc",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:bleeping-1017c919b0",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI-driven threats expose gaps in fragmented MSP security architectures",
+    "summary": "AI-enabled attacks are revealing inadequacies in distributed security tool stacks commonly deployed by managed service providers, particularly around response coordination and remediation speed. Integrated security platforms with automation capabilities are increasingly viewed as necessary to address these operational limitations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
+    "publishedAt": "2026-06-11T14:00:10.000Z",
+    "contentHash": "7768f824930954477d7a5c98746f0fb23460c4ac00ab34d36c4089a656cca380",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:thehackernews-643346c947",
+    "tier": "event",
+    "category": "news",
+    "title": "Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories",
+    "summary": "The 2026 Cybersecurity Stars Awards recognized winners across 95 subcategories spanning four main award categories. The awards acknowledge security products, incident response teams, and organizations whose contributions often operate without public visibility. The program addresses the recognition gap for foundational cybersecurity work that prevents incidents and closes vulnerabilities.",
+    "sourceUrl": "https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html",
+    "publishedAt": "2026-06-11T13:26:13.000Z",
+    "contentHash": "2d848934e94dc7dc8fd20194b312fd623c90e5860525f9f4debfd5a8fdec682a",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:darkreading-9004ee598c",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "industries": [
+      "financial services"
+    ],
+    "title": "Chinese and North Korean Threat Groups Expanding Operations in Asia-Pacific",
+    "summary": "State-sponsored cyber threat actors from North Korea and China are intensifying operations across the Asia-Pacific region, with North Korean groups generating significant revenue through attacks on financial institutions and commercial targets. These campaigns demonstrate sustained focus on high-value sectors as part of broader economic activity.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success",
+    "publishedAt": "2026-06-11T00:01:00.000Z",
+    "contentHash": "2d57eb4dab070d2d686a4e0b0347776ac3538811700475282d1d1dd36fe6cbea",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:sans-isc-0332f8377e",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "MSI-Embedded Payload Technique Resurfaces in Email Campaigns",
+    "summary": "Malicious payloads continue to be distributed via MSI installers disguised as MSI-branded backgrounds, with recent samples delivered through email links to file transfer services. The technique, which embeds executable code within image files, appears to be gaining adoption among threat actors as a delivery mechanism.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33054",
+    "publishedAt": "2026-06-05T06:47:26.000Z",
+    "contentHash": "0dd723a62388258b4e4193193b6c786c2659622af6bf994ac6ae39a57d51fb1e",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-bc61fd3c86",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Guidance on Security Operations Center Metrics",
+    "summary": "The NCSC highlights how poorly selected performance metrics can undermine SOC effectiveness, even when operational fundamentals are sound. Appropriate measurement frameworks are essential to ensure security teams focus on outcomes that meaningfully reduce organizational risk.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/could-your-choice-of-metrics-be-harming-your-soc",
+    "publishedAt": "2026-04-27T12:00:00.000Z",
+    "contentHash": "95b3fa7cabf3815bcc156b2426fd41e3eb578303896d22be8468f0c5ca0b74f7",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:bleeping-0793213cc0",
+    "tier": "event",
+    "category": "regulation",
+    "region": "apac",
+    "industries": [
+      "e-commerce"
+    ],
+    "title": "Coupang fined record $409M by South Korean regulator for data breach",
+    "summary": "South Korea's Personal Information Protection Commission imposed a 624.6 billion won fine on e-commerce platform Coupang following a breach that exposed personal information of over 37 million customers. The penalty represents the largest enforcement action by the Korean data protection authority to date.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
+    "publishedAt": "2026-06-11T12:52:41.000Z",
+    "contentHash": "5c775d6c15ae3a30c56b91b8e4919db102fc356897b6c2abc6c05df3f862ca08",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a22c3f1dab",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Weekly Threat Roundup: Leaked Worm Code, AI Agent Vulnerabilities, and Polished Attack Infrastructure",
+    "summary": "A weekly threat digest highlighted several concerning developments including publicly accessible supply chain attack tooling, a commercial RAT offering browser cloning capabilities, and research demonstrating that AI agents can be manipulated into exposing legitimate credentials. The landscape shows increasing professionalization of attack infrastructure, with mule networks operating with SaaS-like efficiency.",
+    "sourceUrl": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
+    "publishedAt": "2026-06-11T13:20:41.000Z",
+    "contentHash": "faefe228da86a349e3de6c899dc4efc7d1b8ac2bcb5f233bcf09d6fa1fcc772d",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:darkreading-e1231c5fe6",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "title": "CISA Updates Federal Patching Directive for AI-Era Vulnerabilities",
+    "summary": "CISA has revised its patching requirements for federal agencies, establishing a three-day remediation window for critical vulnerabilities while allowing extended timelines for lower-severity issues. The updated directive reflects evolving threat landscapes and the need to prioritize response efforts across government systems.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era",
+    "publishedAt": "2026-06-10T21:17:12.000Z",
+    "contentHash": "4f73c8009884aa2a59776700d9bb224abd9e2f43b929d46c99416a6655eaa959",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:sans-isc-14d8898c39",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Friday, June 5th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast covering current cybersecurity topics and threat landscape analysis for security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33050",
+    "publishedAt": "2026-06-05T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-11T17:55:09.843Z"
   }
 ]
