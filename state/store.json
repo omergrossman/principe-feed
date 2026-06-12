@@ -779,5 +779,232 @@
     "publishedAt": "2026-06-10T20:07:53.000Z",
     "contentHash": "96b7018f796f3d0f619e2f9becdcf185dc3af8c4a9411c584083cf48af9e8706",
     "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:bleeping-18edde89fb",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Maine Takes Data Breach Portal Offline Following Fraudulent Disclosures",
+    "summary": "Maine's public data breach notification portal was disabled after unauthorized parties published false breach disclosures on the state website. The state is conducting a procedural review to implement controls that prevent similar misuse of the reporting system.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
+    "publishedAt": "2026-06-12T19:33:32.000Z",
+    "contentHash": "f7bad6fa6d3858aa94d616386de23e2992691252b397dcd30a89137ce01c9173",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:darkreading-90c2326a2f",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "higher education"
+    ],
+    "title": "ShinyHunters Exploits Oracle ERP Zero-Day Targeting Higher Education",
+    "summary": "ShinyHunters threat actors have leveraged a previously unknown vulnerability in Oracle's ERP software to conduct widespread data theft operations against U.S. universities. The exploit has resulted in significant breaches across multiple academic institutions, highlighting systemic exposure in commonly deployed enterprise resource planning systems within the higher education sector.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
+    "publishedAt": "2026-06-12T20:26:32.000Z",
+    "contentHash": "13e223638e0f406e3dbd54349bc57eeb4aa8415d29d610c1108779f266a00a03",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-2e1efd250b",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Advisory: Mitigating China-Nexus Covert Device Networks",
+    "summary": "The UK National Cyber Security Centre has issued guidance on defending against compromised device networks with alleged China connections. Organizations are advised to establish baseline traffic profiles for edge devices, particularly VPN and remote access points, and implement dynamic threat intelligence filtering using indicators associated with these covert networks.",
+    "sourceUrl": "https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices",
+    "publishedAt": "2026-04-23T12:00:00.000Z",
+    "contentHash": "4cac777317c15b1e72b9d66a0ae47da67a92622f528d05285adf8fa47957853b",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:bleeping-7407a5b5da",
+    "tier": "event",
+    "category": "product-release",
+    "title": "phpBB Patches Decade-Old Authentication Bypass Vulnerability",
+    "summary": "A authentication bypass flaw affecting phpBB forum software has been remediated; the vulnerability allowed attackers to gain unauthorized access to user accounts, including administrative privileges. The issue persisted undetected for approximately ten years before discovery and patching.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
+    "publishedAt": "2026-06-12T18:19:34.000Z",
+    "contentHash": "42d39a1e0258ded469183402d5c74f3733ca79367971c19c82d615b63b24ada4",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8f8a91d163",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "Google Takes Legal Action Against Chinese Smishing Network Leveraging Gemini AI",
+    "summary": "Google filed suit against a Chinese cybercrime group accused of exploiting Gemini AI to conduct smishing campaigns targeting U.S. residents. The threat actors developed and operated Outsider, a phishing-as-a-service platform that integrated the company's generative AI capabilities for scale and sophistication.",
+    "sourceUrl": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
+    "publishedAt": "2026-06-12T18:59:32.000Z",
+    "contentHash": "3724173fe495ae1e582254b34ffd0950d901ce11f893f71b1540e607c969fdc9",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:darkreading-7b26b97ca9",
+    "tier": "event",
+    "category": "strategy",
+    "industries": [
+      "insurance",
+      "technology"
+    ],
+    "title": "Insurance Industry Grapples with AI Risk Coverage Gaps",
+    "summary": "Insurance providers are taking divergent approaches to AI-related risks, with some carriers excluding AI coverage entirely while others develop frameworks to assess and underwrite these exposures. The industry is working to establish which AI risks are insurable versus those requiring mitigation at the enterprise level.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/ai-risk-worries-insurers-businesses-alike",
+    "publishedAt": "2026-06-10T19:34:43.000Z",
+    "contentHash": "e9f9ce8408fc71b6fa7c9425788bb78e46d01b446f1d8c92818024f8d0da651b",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-ab360cea4b",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "uk",
+    "title": "NCSC Guidance on Defending Against China-Nexus Compromised Device Networks",
+    "summary": "The UK's National Cyber Security Centre has published guidance addressing a documented shift in adversarial tactics toward deploying covert networks of compromised infrastructure. The advisory outlines defensive strategies and detection approaches tailored to this evolving threat model.",
+    "sourceUrl": "https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices",
+    "publishedAt": "2026-04-23T12:00:00.000Z",
+    "contentHash": "89c75c98e8c7407e69da32c5d45ef0a9bececeee031be8afedd5201e6e37f915",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:bleeping-5613fab1f4",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "Ukrainian national pleads guilty to Conti ransomware conspiracy charges",
+    "summary": "A Ukrainian citizen extradited from Ireland has entered a guilty plea for conspiracy related to the Conti ransomware group's operations. The case represents continued law enforcement action against individuals involved in the financially motivated cybercriminal organization.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+    "publishedAt": "2026-06-12T17:54:28.000Z",
+    "contentHash": "14e6aab0faa4b020a6da9d5e553a7d48e5747ec2a8e0cf86d48ad0256ffbf960",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5dff8089bf",
+    "tier": "event",
+    "category": "attack",
+    "title": "China-Linked Group Maintained Long-Term Access via Compromised Linux Authentication Components",
+    "summary": "Researchers tracking a China-nexus threat actor discovered a nearly decade-long compromise of PAM and OpenSSH modules on targeted Linux systems, enabling persistent authentication bypass. The group, tracked as Velvet Ant, leveraged the deep integration of these login components to evade typical remediation and detection efforts.",
+    "sourceUrl": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
+    "publishedAt": "2026-06-12T18:17:55.000Z",
+    "contentHash": "4265a8762bd07f04ccce08344a7edb97365a4f580a4f82d3a3d7e36d88012e90",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-79ee1ebac1",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Endorses Passkeys as Superior Authentication Method",
+    "summary": "The UK's National Cyber Security Centre affirms that passkeys provide stronger security compared to password-based authentication while improving user experience. The technology is now widely supported across contemporary devices and platforms.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in",
+    "publishedAt": "2026-04-23T12:00:00.000Z",
+    "contentHash": "a447ce9e17f923c76c8606e7ea041f7d2ca185f7b18e92560b75f4a8bddfb228",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:bleeping-a36831d1aa",
+    "tier": "event",
+    "category": "attack",
+    "title": "Over 400 Arch Linux AUR Packages Compromised with Rootkit and Infostealer",
+    "summary": "More than 400 packages in the Arch User Repository were found to distribute a Linux rootkit and infostealer capable of harvesting credentials and access tokens. The compromise represents a significant supply chain attack vector affecting the Arch Linux ecosystem.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
+    "publishedAt": "2026-06-12T17:03:55.000Z",
+    "contentHash": "60e72f859c62ef884d5382bc67302fc5afba5df4b57a5b4f8e154e4fe7222ea2",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9e0f80cd4c",
+    "tier": "event",
+    "category": "news",
+    "region": "eu-west",
+    "title": "Europol Disrupts AudiA6 Cryptocurrency Laundering Service",
+    "summary": "European authorities have shut down AudiA6, a cryptocurrency laundering platform that facilitated financial flows for ransomware operators and other cybercriminal groups. The service had processed an estimated €336 million in illicit proceeds, representing a significant disruption to criminal money-laundering infrastructure.",
+    "sourceUrl": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
+    "publishedAt": "2026-06-12T06:38:41.000Z",
+    "contentHash": "b99b4d6c47b57b63388d821c90b80ca72e7a3e24016c02e82f22827b756982ef",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:bleeping-5c095d0195",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "government"
+    ],
+    "title": "Over 73,000 French Government Employees Affected in Tchap Messenger Breach",
+    "summary": "The French government disclosed a breach of its Tchap encrypted messaging platform that compromised accounts belonging to more than 73,000 public sector employees. The incident affected the government's internal communication infrastructure used across multiple agencies.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
+    "publishedAt": "2026-06-12T07:09:11.000Z",
+    "contentHash": "4df70287306f5168249b955cf57770916395fd4117f532180ef27a67a8753adc",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:thehackernews-04ac9e56c9",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "higher education",
+      "technology"
+    ],
+    "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day to Breach Universities",
+    "summary": "ShinyHunters (tracked as UNC6240 by Mandiant) exploited an unpatched Oracle PeopleSoft vulnerability to compromise enterprise systems and extract data, with universities as primary targets. The threat actor conducted extortion campaigns between late May and early June 2026. Oracle's advisory was published after the active exploitation window, indicating a zero-day exposure period.",
+    "sourceUrl": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+    "publishedAt": "2026-06-11T20:29:23.000Z",
+    "contentHash": "50f64453ca6c712082946d4c63f5d4adc913e4b10d759e9f67de06dbdfa44c10",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:bleeping-c6421974de",
+    "tier": "event",
+    "category": "news",
+    "region": "apac",
+    "industries": [
+      "energy",
+      "utilities"
+    ],
+    "title": "Japanese Energy Firm Discloses Physical Security Incident Affecting 10.9 Million Customers",
+    "summary": "Kyushu Electric Power Co. reported a physical security incident resulting in unauthorized access to personal data of over 10.9 million customers. The breach stemmed from inadequate physical controls over data storage devices. The company has initiated notification procedures and is conducting a comprehensive security review.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
+    "publishedAt": "2026-06-11T23:14:16.000Z",
+    "contentHash": "f8121636b790020974429af6bacb30b156cefa0fa5c33fbcc3fb99b73d0388e3",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0826b044b0",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "OpenClaw AI Agent Vulnerable to Prompt Injection Attacks",
+    "summary": "Security researchers at Imperva and Varonis independently demonstrated that OpenClaw, a self-hosted AI agent, can be manipulated into executing arbitrary code or exposing sensitive information through concealed instructions embedded in benign-appearing data formats such as vCards and location metadata. The attacks exploit the agent's interpretation of user inputs without adequate safeguards against prompt injection techniques.",
+    "sourceUrl": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+    "publishedAt": "2026-06-11T17:46:32.000Z",
+    "contentHash": "33cd9c274df54ffdc8d6938d8688b3c79b1e47f2e6b2361b4f728ec892a41da9",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:bleeping-b4e5383749",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "Maine breach portal abused to publish fake data breach disclosures",
+    "summary": "Fraudulent breach notifications were submitted to Maine's official data breach disclosure portal and published without verification, leading affected companies to issue public denials. The incident highlights gaps in the portal's validation procedures for incoming breach reports.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
+    "publishedAt": "2026-06-11T22:44:58.000Z",
+    "contentHash": "c48c6547f5ed070cef90e75286a52d3e919bfdc8e46ab695a8adeb3251fe33af",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c11d806ac4",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "GreatXML Exploit Enables BitLocker Bypass via Recovery Partition",
+    "summary": "A researcher has disclosed GreatXML, a method to bypass Windows BitLocker encryption by manipulating XML files in the recovery partition. The technique was discovered incidentally and released publicly following a separate Microsoft Defender exploit disclosure by the same researcher.",
+    "sourceUrl": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+    "publishedAt": "2026-06-11T17:43:52.000Z",
+    "contentHash": "d1a9198ab4ef5b0f5bfa08f40206e20010f8eb72956dd151674f53419cc12414",
+    "ingestedAt": "2026-06-12T20:45:00.401Z"
   }
 ]
