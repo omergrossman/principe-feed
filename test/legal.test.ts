@@ -93,4 +93,24 @@ describe("checkEntry — FR-9 legal gate", () => {
     expect(v.ok).toBe(false);
     expect(v.reason).toMatch(/overlap/);
   });
+
+  it("exempts manual (operator's own) content from the overlap backstop", () => {
+    const v = checkEntry(
+      entry({ summary: "kappa lambda epsilon delta theta gamma" }),
+      raw({ rawText: "alpha beta gamma delta epsilon zeta theta iota kappa lambda" }),
+      source({ trust: "manual" }),
+    );
+    expect(v.ok).toBe(true);
+  });
+
+  it("still blocks a literal 10-word copy-paste even for manual content", () => {
+    const run = "the threat actor exploited a misconfigured storage bucket to exfiltrate records";
+    const v = checkEntry(
+      entry({ summary: `Note: ${run}.` }),
+      raw({ rawText: `In the doc, ${run} over weeks.` }),
+      source({ trust: "manual" }),
+    );
+    expect(v.ok).toBe(false);
+    expect(v.reason).toMatch(/verbatim/);
+  });
 });
