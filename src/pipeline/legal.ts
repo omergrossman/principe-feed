@@ -63,8 +63,11 @@ export function checkEntry(entry: FeedEntry, raw: RawItem, source: SourceDef): L
     }
   }
   // 3b. Coarse bag-of-words overlap backstop (catches near-verbatim that
-  // dodges the shingle test by light edits).
-  if (tokenOverlap(entry.summary, raw.rawText) >= VERBATIM_MAX_OVERLAP) {
+  // dodges the shingle test by light edits). Skipped for operator-added
+  // `manual` content: it's the operator's OWN material, and a faithful
+  // summary of a dense briefing doc legitimately reuses its key terms —
+  // the 10-word shingle check above still blocks literal copy-paste.
+  if (source.trust !== "manual" && tokenOverlap(entry.summary, raw.rawText) >= VERBATIM_MAX_OVERLAP) {
     return { ok: false, reason: `token overlap ≥ ${VERBATIM_MAX_OVERLAP}` };
   }
   return { ok: true };
