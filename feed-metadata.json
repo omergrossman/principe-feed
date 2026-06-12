@@ -251,5 +251,92 @@
   "knowledge/sans-isc-14d8898c39.md": {
     "category": "news",
     "publishedAt": "2026-06-05T02:00:02.000Z"
+  },
+  "knowledge/krebs-c521ba313d.md": {
+    "region": "anz",
+    "industries": [
+      "telecommunications",
+      "cybersecurity"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-04-30T14:04:26.000Z"
+  },
+  "knowledge/bleeping-66fffad54c.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-12T14:01:11.000Z"
+  },
+  "knowledge/thehackernews-f5ac281a31.md": {
+    "industries": [
+      "software development",
+      "devops"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-12T12:04:33.000Z"
+  },
+  "knowledge/darkreading-95fc6c0396.md": {
+    "category": "product-release",
+    "publishedAt": "2026-06-12T13:01:00.000Z"
+  },
+  "knowledge/sans-isc-9ca8f39b60.md": {
+    "category": "news",
+    "publishedAt": "2026-06-12T12:30:10.000Z"
+  },
+  "knowledge/ncsc-uk-cd216e1fe5.md": {
+    "region": "uk",
+    "category": "strategy",
+    "publishedAt": "2026-04-23T12:00:00.000Z"
+  },
+  "knowledge/bleeping-1118387053.md": {
+    "category": "product-release",
+    "publishedAt": "2026-06-12T11:44:58.000Z"
+  },
+  "knowledge/thehackernews-87fcd2c17b.md": {
+    "category": "strategy",
+    "publishedAt": "2026-06-12T11:00:00.000Z"
+  },
+  "knowledge/darkreading-1c2488509a.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-12T00:58:07.000Z"
+  },
+  "knowledge/ncsc-uk-fbf1ed62d8.md": {
+    "region": "global",
+    "category": "threat-intel",
+    "publishedAt": "2026-04-23T12:00:00.000Z"
+  },
+  "knowledge/bleeping-e700f630cf.md": {
+    "region": "eu-west",
+    "industries": [
+      "pharmaceuticals",
+      "healthcare"
+    ],
+    "category": "news",
+    "publishedAt": "2026-06-12T10:13:19.000Z"
+  },
+  "knowledge/thehackernews-b65eff504a.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-12T09:50:36.000Z"
+  },
+  "knowledge/darkreading-d602c8b0f1.md": {
+    "category": "attack",
+    "publishedAt": "2026-06-11T18:43:57.000Z"
+  },
+  "knowledge/ncsc-uk-830804ebc1.md": {
+    "region": "uk",
+    "category": "strategy",
+    "publishedAt": "2026-04-23T12:00:00.000Z"
+  },
+  "knowledge/bleeping-97865ac01a.md": {
+    "region": "us",
+    "category": "regulation",
+    "publishedAt": "2026-06-12T08:26:55.000Z"
+  },
+  "knowledge/thehackernews-0cc97dc7a2.md": {
+    "region": "mea",
+    "category": "attack",
+    "publishedAt": "2026-06-12T08:52:55.000Z"
+  },
+  "knowledge/darkreading-2261a7c388.md": {
+    "category": "news",
+    "publishedAt": "2026-06-10T20:07:53.000Z"
   }
 }

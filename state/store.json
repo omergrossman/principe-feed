@@ -573,5 +573,211 @@
     "publishedAt": "2026-06-05T02:00:02.000Z",
     "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
     "ingestedAt": "2026-06-11T17:55:09.843Z"
+  },
+  {
+    "id": "knowledge:krebs-c521ba313d",
+    "tier": "event",
+    "category": "attack",
+    "region": "anz",
+    "industries": [
+      "telecommunications",
+      "cybersecurity"
+    ],
+    "title": "Brazilian Anti-DDoS Firm Implicated in DDoS Attack Campaign",
+    "summary": "A Brazilian cybersecurity firm specializing in DDoS mitigation was found to be operating a botnet conducting large-scale DDoS attacks against competing ISPs in the country. The firm's leadership attributed the activity to a security breach and alleged competitive sabotage rather than deliberate participation.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+    "publishedAt": "2026-04-30T14:04:26.000Z",
+    "contentHash": "fdec2b61956b34a33d3561c17b67ded6cdb844bf69ada3536f9be36ec0edd5d0",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:bleeping-66fffad54c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Dark Web Markets Reveal Early Indicators of Supply-Chain Attack Activity",
+    "summary": "Underground forums and dark web marketplaces trade in compromised GitHub credentials, exposed repositories, and stolen API keys that can serve as entry points for supply-chain attacks. Security researchers analyzing these channels have identified patterns that signal elevated risk of downstream software compromise before attacks materialize in public environments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
+    "publishedAt": "2026-06-12T14:01:11.000Z",
+    "contentHash": "e77fa80640bdf19a4e9fb7c229e17b1868c94bd3d8c54756b10de39e6b93f874",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f5ac281a31",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "devops"
+    ],
+    "title": "Agentjacking: AI Coding Agents Manipulated to Execute Arbitrary Code",
+    "summary": "Researchers have identified a new attack class targeting AI coding agents, wherein specially crafted error reports delivered through Sentry can be weaponized to trigger execution of arbitrary code on developer systems. The attack leverages the agent's tendency to process and respond to error signals without sufficient validation of source legitimacy.",
+    "sourceUrl": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
+    "publishedAt": "2026-06-12T12:04:33.000Z",
+    "contentHash": "7c89dc3f8df4c84c511f265c1f82b854949ab63f40a81ff65a78e8a8ec8c10d9",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:darkreading-95fc6c0396",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Anthropic's Claude Fable 5 Positions Safety-Focused Model Variant",
+    "summary": "Anthropic has clarified the positioning of Claude Fable 5 as a safety-hardened variant of its Mythos model line, designed for broader deployment. The release maintains Mythos Preview as a distinct offering while Fable 5 emphasizes security-centric modifications for general-purpose use cases.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/claude-fable-5-doesnt-change-mythos-security-story",
+    "publishedAt": "2026-06-12T13:01:00.000Z",
+    "contentHash": "556463bfa6db4cfc23fc1feb30e71849381759d300ad91d357353075e800ef56",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9ca8f39b60",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Friday, June 12th, 2026",
+    "summary": "SANS Internet Storm Center published their regular Stormcast podcast episode. The episode covers recent cybersecurity developments and threat intelligence updates relevant to defensive practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33074",
+    "publishedAt": "2026-06-12T12:30:10.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-cd216e1fe5",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Endorses Passkeys as Default Authentication Method",
+    "summary": "The UK's National Cyber Security Centre recommends transitioning from traditional passwords to passkeys as the standard authentication approach for consumer services. Passkeys are positioned as offering improved security posture while reducing user friction compared to password-based systems.",
+    "sourceUrl": "https://www.ncsc.gov.uk/news/ncsc-leave-passwords-in-the-past-passkeys-are-the-future",
+    "publishedAt": "2026-04-23T12:00:00.000Z",
+    "contentHash": "c1d76b6101fa9c68fdafd909eb22d80fe189efd23f7109bff7d816d5f24115c5",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:bleeping-1118387053",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft resolves Windows Update installation failures via WUSA",
+    "summary": "Microsoft addressed a defect affecting Windows updates released from May 2025 onwards when deployed through the Windows Update Standalone Installer from network locations. The fix restores reliable update distribution for organizations using WUSA for centralized patch management.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/",
+    "publishedAt": "2026-06-12T11:44:58.000Z",
+    "contentHash": "d801ab47b55d9303a2d7464bb80378bec2fb0f72e4c16b404d2f362ad15ecc5d",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:thehackernews-87fcd2c17b",
+    "tier": "event",
+    "category": "strategy",
+    "title": "MDR Model Under Pressure as AI-Enabled Threats Accelerate",
+    "summary": "Managed detection and response services, historically designed to address analyst staffing shortages and alert fatigue, face growing challenges as adversaries leverage AI to increase attack velocity and sophistication. The traditional MDR model may require fundamental restructuring to keep pace with AI-augmented threat actors.",
+    "sourceUrl": "https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html",
+    "publishedAt": "2026-06-12T11:00:00.000Z",
+    "contentHash": "49327a2c018cc8890b651d9700b89b4babe63a522d71c8a6ecad9e1b08051846",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:darkreading-1c2488509a",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Phishing Attack Volume Down 20%, But Risk Still Rising",
+    "summary": "Phishing attack volumes have declined 20% as threat actors shift toward quality-focused campaigns enhanced by AI tools rather than broad-based attacks. Despite lower message volumes, the sophistication and effectiveness of phishing threats continue to increase, suggesting attackers are optimizing for higher success rates with fewer attempts.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk-rising",
+    "publishedAt": "2026-06-12T00:58:07.000Z",
+    "contentHash": "209bf880aa226765e830f42978457fe032942af02e7334e0131e857654639e74",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-fbf1ed62d8",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "International cyber agencies share fresh advice to defend against China-linked covert networks",
+    "summary": "An international advisory details defensive measures against tactics employed by China-linked threat actors to conceal malicious cyber operations. The guidance addresses technical and operational methods used to evade detection and maintain persistence within compromised networks.",
+    "sourceUrl": "https://www.ncsc.gov.uk/news/international-cyber-agencies-fresh-advice-defend-against-china-linked-covert-networks",
+    "publishedAt": "2026-04-23T12:00:00.000Z",
+    "contentHash": "ad07ee78c6deb5851f4b903e073452d7cee87f0de772f2bf930bd30451069c53",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:bleeping-e700f630cf",
+    "tier": "event",
+    "category": "news",
+    "region": "eu-west",
+    "industries": [
+      "pharmaceuticals",
+      "healthcare"
+    ],
+    "title": "Novo Nordisk discloses clinical trials data breach",
+    "summary": "Novo Nordisk, a major pharmaceutical manufacturer, confirmed unauthorized access to patient data associated with certain clinical trial programs. The company has initiated investigation and notification procedures in accordance with applicable data protection requirements.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
+    "publishedAt": "2026-06-12T10:13:19.000Z",
+    "contentHash": "9a1f04d9ec3fdf669e82b00a0185c12554ae9a19634f983e2d0daf8365bfb475",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b65eff504a",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "LangGraph Framework Patched for Critical RCE Vulnerability Chain",
+    "summary": "Three security vulnerabilities affecting LangGraph, an open-source framework for building multi-agent AI applications, have been disclosed and patched. The flaws included a critical vulnerability chain capable of enabling remote code execution in self-hosted deployments, with SQL injection identified as a component of the attack vector.",
+    "sourceUrl": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html",
+    "publishedAt": "2026-06-12T09:50:36.000Z",
+    "contentHash": "6366d43100707986ea107bd4547eeba9fc2775bceeb04852cea67eec0a483366",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:darkreading-d602c8b0f1",
+    "tier": "event",
+    "category": "attack",
+    "title": "Max-Severity Ivanti Flaw Exploited Within 24 Hours of Disclosure",
+    "summary": "A critical Ivanti vulnerability was actively exploited by attackers within one day of public disclosure, indicating pre-existing reconnaissance of target environments. Threat actors demonstrated rapid weaponization capability, suggesting advance knowledge of affected infrastructure.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours",
+    "publishedAt": "2026-06-11T18:43:57.000Z",
+    "contentHash": "d531c49399835907812908f2bf14a2f10ac5f9d309882d0a941df6396d8442f7",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-830804ebc1",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Outlines Framework for AI Integration in UK Cyber Defence",
+    "summary": "The UK National Cyber Security Centre has published guidance on adopting artificial intelligence for defensive cyber operations, emphasizing that successful implementation demands sustained investment, capability development, and robust governance structures. The framework addresses the need for careful oversight mechanisms to manage risks alongside operational benefits.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/supporting-ai-adoption-for-uk-cyber-defence",
+    "publishedAt": "2026-04-23T12:00:00.000Z",
+    "contentHash": "96885c71533e3ab75d84724ff4a066c4cec666d7ad9b6e8521d743ffd87f7d91",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:bleeping-97865ac01a",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "title": "CISA Issues Binding Operational Directive for Actively Exploited Ivanti Sentry Vulnerability",
+    "summary": "CISA has issued Binding Operational Directive 26-04 requiring U.S. federal agencies to remediate an actively exploited vulnerability in Ivanti Sentry within three days. The directive reflects the agency's response to in-the-wild exploitation of the flaw affecting government systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
+    "publishedAt": "2026-06-12T08:26:55.000Z",
+    "contentHash": "a01d97d92efbf47c05b14b3796a015994c796036237ec161cf0026e0c97fb88b",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0cc97dc7a2",
+    "tier": "event",
+    "category": "attack",
+    "region": "mea",
+    "title": "INTERPOL Operation Dismantles Sniper Dz Phishing-as-a-Service Platform",
+    "summary": "An INTERPOL-coordinated operation spanning October 2025 to February 2026 disrupted Sniper Dz, a phishing-as-a-service platform active for over a decade. The effort, designated Operation Ramz, involved law enforcement from 13 Middle Eastern and North African nations and resulted in 201 arrests, including the platform's primary administrator.",
+    "sourceUrl": "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
+    "publishedAt": "2026-06-12T08:52:55.000Z",
+    "contentHash": "9da6cac447304d0f62578f37463f5cd51f6c8ee8ded762d4bb9c1704f2c47bd7",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
+  },
+  {
+    "id": "knowledge:darkreading-2261a7c388",
+    "tier": "event",
+    "category": "news",
+    "title": "Bug Bounty Research Triggers ServiceNow Security Alert",
+    "summary": "Security researchers conducting bug bounty work on ServiceNow inadvertently triggered security alerts across customer organizations, creating false breach notifications. The incident highlights the challenge of distinguishing between legitimate security research and actual threat activity within enterprise systems.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert",
+    "publishedAt": "2026-06-10T20:07:53.000Z",
+    "contentHash": "96b7018f796f3d0f619e2f9becdcf185dc3af8c4a9411c584083cf48af9e8706",
+    "ingestedAt": "2026-06-12T16:33:35.104Z"
   }
 ]
