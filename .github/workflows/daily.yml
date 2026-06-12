@@ -9,6 +9,15 @@ on:
     - cron: "17 5 * * *" # 05:17 UTC daily
   workflow_dispatch: {}
 
+# Only one feed build at a time. A second trigger (e.g. an impatient
+# double-click of "Run build now", or the daily cron firing while a manual
+# run is mid-flight) cancels the in-progress one instead of running both —
+# two concurrent runs rate-limit each other on the Anthropic API and can
+# race on the push to main.
+concurrency:
+  group: daily-feed
+  cancel-in-progress: true
+
 permissions:
   contents: write
   pull-requests: write
