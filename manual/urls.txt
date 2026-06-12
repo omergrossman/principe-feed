@@ -9,3 +9,4 @@
 # Example:
 # https://www.example.com/some-report-or-article
 https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a1611a04085d7cd3dadc924_Claude-eBook-Zero-Trust-for-AI-Agents-05182026.pdf
+https://www.helpnetsecurity.com/2026/06/11/report-cloud-insider-threats/
