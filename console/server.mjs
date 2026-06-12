@@ -40,6 +40,7 @@ const GH = "https://api.github.com";
 const URLS_PATH = "manual/urls.txt";
 const INBOX = "manual/inbox";
 const STORE = "state/store.json";
+const SEEN = "state/seen.json";
 
 function gh(path, init) {
   return fetch(`${GH}/repos/${REPO}/${path}`, {
@@ -71,13 +72,21 @@ async function delFile(path, sha, message) {
 }
 
 async function getState() {
-  const [urlsF, inboxR, storeF, commitsR] = await Promise.all([
+  const [urlsF, inboxR, storeF, commitsR, seenF] = await Promise.all([
     readFile(URLS_PATH),
     gh(`contents/${INBOX}`),
     readFile(STORE),
     gh(`commits?path=${STORE}&per_page=6`),
+    readFile(SEEN),
   ]);
-  const urls = (urlsF?.content || "").split("\n").map((l) => l.trim()).filter((l) => l && !l.startsWith("#"));
+  // A build records every digested URL in seen.json (keyed by the URL). Hide
+  // those from the "waiting" list so it shows only inputs not yet processed —
+  // urls.txt itself is left intact (the URL stays a saved source).
+  let seen = {};
+  try { seen = seenF ? JSON.parse(seenF.content) : {}; } catch { /* ignore */ }
+  const urls = (urlsF?.content || "").split("\n").map((l) => l.trim())
+    .filter((l) => l && !l.startsWith("#"))
+    .filter((u) => !(u in seen));
   let files = [];
   if (inboxR.ok) {
     const a = await inboxR.json();
