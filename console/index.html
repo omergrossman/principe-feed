@@ -142,10 +142,12 @@
 <script>
 const $ = (id) => document.getElementById(id);
 let busy = false;
+let lastState = null;
 
 function setErr(m) { const e = $("err"); if (m) { e.textContent = m; e.hidden = false; } else e.hidden = true; }
 
 function render(s) {
+  lastState = s;
   $("repo").textContent = s.repo;
   $("live").textContent = s.liveCount != null ? `${s.liveCount} live in the feed.` : "";
   const pending = $("pending"), empty = $("empty");
@@ -241,16 +243,44 @@ $("akForm").addEventListener("submit", async (e) => {
 });
 
 $("runBtn").addEventListener("click", async () => {
+  setErr(null); // clear any stale error banner from a previous attempt
   $("runBtn").disabled = true; $("runStatus").textContent = "Triggering…";
+  const beforeSha = lastState?.recentBuilds?.[0]?.sha || null;
   try {
     const r = await fetch("/api/action", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ action: "run-build" }) });
     const d = await r.json(); if (!d.ok) throw new Error(d.error || "failed");
-    $("runStatus").innerHTML = "✓ Build triggered — it will open a review PR and email you (~5 min). " +
+    $("runStatus").innerHTML = "✓ Build triggered — digesting your inputs and publishing (~5 min). " +
       '<a href="https://github.com/' + (d.repo || "") + '/actions" target="_blank">view runs ›</a>';
     render(d);
+    pollAfterBuild(beforeSha); // auto-refresh so pending files clear when it lands
   } catch (e) { $("runStatus").textContent = "⚠ " + e.message; }
   finally { setTimeout(() => { $("runBtn").disabled = false; }, 5000); }
 });
+
+// The build runs remotely (~5 min). Poll until a new snapshot commit lands,
+// then re-render so the pending inbox FILES disappear (the build archives
+// them). Saved URLs persist in manual/urls.txt by design and stay listed.
+let pollTimer;
+function pollAfterBuild(beforeSha) {
+  clearInterval(pollTimer);
+  let tries = 0;
+  pollTimer = setInterval(async () => {
+    tries++;
+    try {
+      const r = await fetch("/api/state"); const d = await r.json();
+      if (d.ok) {
+        render(d);
+        const sha = d.recentBuilds?.[0]?.sha;
+        if (sha && sha !== beforeSha) {
+          clearInterval(pollTimer);
+          $("runStatus").textContent = "✓ Build complete — feed updated.";
+          flash("✓ Build complete — feed updated");
+        }
+      }
+    } catch { /* keep polling */ }
+    if (tries >= 16) clearInterval(pollTimer); // ~7 min cap
+  }, 25000);
+}
 
 load();
 </script>
