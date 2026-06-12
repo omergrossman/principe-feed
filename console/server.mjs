@@ -119,8 +119,21 @@ async function removeFile(name, sha) {
 //     repo's ANTHROPIC_API_KEY Actions secret, set via the local gh CLI so
 //     it never passes through here as plaintext-in-URL or needs extra token
 //     scopes. The daily workflow's distill step uses it. ---
+// Resolve `gh` to an absolute path + augment PATH for spawned processes. The
+// console is often launched by the desktop app with a minimal PATH that omits
+// Homebrew's bin, so a bare `execFileSync("gh", …)` fails with ENOENT even
+// though gh is installed. Find it in the common locations, fall back to PATH.
+const GH_BIN = ["/opt/homebrew/bin/gh", "/usr/local/bin/gh", "/usr/bin/gh"]
+  .find((p) => existsSync(p)) || "gh";
+const GH_PATH = ["/opt/homebrew/bin", "/usr/local/bin", "/usr/bin", "/bin", process.env.PATH || ""]
+  .filter(Boolean).join(":");
 function ghCli(args, input) {
-  return execFileSync("gh", args, { input, encoding: "utf8" });
+  // gh shells out to git, so it needs the augmented PATH too.
+  return execFileSync(GH_BIN, args, {
+    input,
+    encoding: "utf8",
+    env: { ...process.env, PATH: GH_PATH },
+  });
 }
 function anthropicStatus() {
   try {
