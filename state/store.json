@@ -1006,5 +1006,33 @@
     "publishedAt": "2026-06-11T17:43:52.000Z",
     "contentHash": "d1a9198ab4ef5b0f5bfa08f40206e20010f8eb72956dd151674f53419cc12414",
     "ingestedAt": "2026-06-12T20:45:00.401Z"
+  },
+  {
+    "id": "knowledge:bleeping-4cbfecd7ae",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "title": "US Government Restricts Foreign National Access to Anthropic Models",
+    "summary": "US authorities directed Anthropic to prevent foreign nationals from accessing Fable 5 and Mythos 5, prompting the company to suspend both models globally. Anthropic is complying with the directive while challenging the regulatory rationale, contending the identified vulnerability is limited in scope and comparable capabilities exist in other systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
+    "publishedAt": "2026-06-13T10:01:32.000Z",
+    "contentHash": "456f280d918bb1e14908a26d5dd1c51c211512c417f5b7add3cb1d39a7f3e676",
+    "ingestedAt": "2026-06-13T12:03:44.465Z"
+  },
+  {
+    "id": "knowledge:thehackernews-27dc7af05e",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "industries": [
+      "artificial intelligence",
+      "software"
+    ],
+    "title": "U.S. Government Orders Anthropic to Restrict Advanced AI Model Access for Foreign Nationals",
+    "summary": "Anthropic announced it will disable Claude Fable 5 and Mythos 5 models for all users following a U.S. government directive to suspend foreign national access on national security grounds. The company received the order on Friday evening and indicated the models will be made unavailable rather than implementing targeted access controls.",
+    "sourceUrl": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
+    "publishedAt": "2026-06-13T05:42:50.000Z",
+    "contentHash": "1296de832c3e2031381e7c9add74a87bb583f621c50c3c15e5bc2b55b1ba7d44",
+    "ingestedAt": "2026-06-13T12:03:44.465Z"
   }
 ]

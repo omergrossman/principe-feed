@@ -439,5 +439,19 @@
   "knowledge/thehackernews-c11d806ac4.md": {
     "category": "threat-intel",
     "publishedAt": "2026-06-11T17:43:52.000Z"
+  },
+  "knowledge/bleeping-4cbfecd7ae.md": {
+    "region": "us",
+    "category": "regulation",
+    "publishedAt": "2026-06-13T10:01:32.000Z"
+  },
+  "knowledge/thehackernews-27dc7af05e.md": {
+    "region": "us",
+    "industries": [
+      "artificial intelligence",
+      "software"
+    ],
+    "category": "regulation",
+    "publishedAt": "2026-06-13T05:42:50.000Z"
   }
 }
