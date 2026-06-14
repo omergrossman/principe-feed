@@ -1034,5 +1034,56 @@
     "publishedAt": "2026-06-13T05:42:50.000Z",
     "contentHash": "1296de832c3e2031381e7c9add74a87bb583f621c50c3c15e5bc2b55b1ba7d44",
     "ingestedAt": "2026-06-13T12:03:44.465Z"
+  },
+  {
+    "id": "knowledge:bleeping-80cdc99fe3",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "education"
+    ],
+    "title": "Former IT Employee Sentenced for School District Cyberattack",
+    "summary": "An ex-IT staff member at an Iowa school district received a 21-month prison sentence for conducting sustained cyberattacks against the district. The intrusions disrupted educational operations, eliminated user accounts, and inflicted financial losses in the tens of thousands of dollars.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
+    "publishedAt": "2026-06-13T20:53:13.000Z",
+    "contentHash": "0ea214a2ad981297637e95f86d5bd33ada4ba89aa32c688536a8f06202892e02",
+    "ingestedAt": "2026-06-14T12:24:54.293Z"
+  },
+  {
+    "id": "knowledge:thehackernews-d8843f92a0",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution",
+    "summary": "Splunk has patched a critical vulnerability (CVE-2026-20253, CVSS 9.8) in Enterprise versions prior to 10.2.4 and 10.0.7 that permits unauthenticated attackers to perform arbitrary file operations and execute remote code. Organizations running affected versions should prioritize deployment of available security updates.",
+    "sourceUrl": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+    "publishedAt": "2026-06-13T13:23:03.000Z",
+    "contentHash": "f716d09942fe63e08adce7bb7ada3bf5ffa92149aa0d375056a746fae985a8e4",
+    "ingestedAt": "2026-06-14T12:24:54.293Z"
+  },
+  {
+    "id": "knowledge:bleeping-6e0d58baa5",
+    "tier": "event",
+    "category": "attack",
+    "title": "Chinese threat actors maintain decade-long persistence via compromised authentication infrastructure",
+    "summary": "Threat actors of suspected Chinese origin compromised an organization's authentication systems, enabling sustained access to administrative functions across a ten-year period. The attackers maintained persistent visibility into privileged user activities, suggesting exploitation of core identity infrastructure without detection.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
+    "publishedAt": "2026-06-13T14:06:42.000Z",
+    "contentHash": "bc3f4e05cb3b7041d746a8256383bf482d010fc3c642d332d614e327f35b7151",
+    "ingestedAt": "2026-06-14T12:24:54.293Z"
+  },
+  {
+    "id": "knowledge:manual-e7f6f5336c6a",
+    "tier": "foundational",
+    "category": "regulation",
+    "region": "us",
+    "title": "NSPM-12: National Policy for Cybersecurity of National Security Systems",
+    "summary": "The White House issued NSPM-12 on June 12, 2026, establishing a new cybersecurity governance framework for U.S. national security systems across the Department of Defense, Intelligence Community, and Federal civilian agencies. The memorandum rescind earlier directives, re-establishes the Committee on National Security Systems (CNSS) with the NSA Director as National Manager, and mandates cybersecurity requirements equivalent to or exceeding those in Executive Order 14306, with clear accountability structures for agency heads.",
+    "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-12/",
+    "publishedAt": "2026-06-12T19:19:12.000Z",
+    "contentHash": "504be8416722487730e905f187f5b7ee395fdb19ac2683f764d1949ef0c6d5e3",
+    "subjectKey": "manual-e7f6f5336c6a",
+    "reportDate": "2026-06-12T19:19:12.000Z",
+    "ingestedAt": "2026-06-14T12:24:54.293Z"
   }
 ]
