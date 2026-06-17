@@ -785,5 +785,76 @@
   "knowledge/thehackernews-2f89dbfc90.md": {
     "category": "product-release",
     "publishedAt": "2026-06-16T06:05:58.000Z"
+  },
+  "knowledge/bleeping-46079806e3.md": {
+    "region": "global",
+    "category": "threat-intel",
+    "publishedAt": "2026-06-17T15:12:57.000Z"
+  },
+  "knowledge/thehackernews-538b5a7de0.md": {
+    "region": "eu-west",
+    "industries": [
+      "automotive"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-17T16:00:56.000Z"
+  },
+  "knowledge/darkreading-bcf776d584.md": {
+    "region": "global",
+    "category": "attack",
+    "publishedAt": "2026-06-17T14:06:34.000Z"
+  },
+  "knowledge/sans-isc-974240ca41.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-17T16:01:33.000Z"
+  },
+  "knowledge/ncsc-uk-8eb3ab1fe2.md": {
+    "region": "uk",
+    "industries": [
+      "critical infrastructure",
+      "energy",
+      "water",
+      "transport",
+      "communications"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-17T12:00:00.000Z"
+  },
+  "knowledge/bleeping-468752dd08.md": {
+    "category": "strategy",
+    "publishedAt": "2026-06-17T14:00:10.000Z"
+  },
+  "knowledge/thehackernews-c66e201a15.md": {
+    "category": "strategy",
+    "publishedAt": "2026-06-17T11:58:00.000Z"
+  },
+  "knowledge/bleeping-661022f4ef.md": {
+    "region": "apac",
+    "industries": [
+      "telecommunications"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-17T13:12:45.000Z"
+  },
+  "knowledge/thehackernews-8b42903fcc.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-17T10:30:00.000Z"
+  },
+  "knowledge/bleeping-9239b85dd3.md": {
+    "category": "news",
+    "publishedAt": "2026-06-17T11:54:21.000Z"
+  },
+  "knowledge/bleeping-3ad8c13d51.md": {
+    "region": "us",
+    "category": "regulation",
+    "publishedAt": "2026-06-17T10:09:24.000Z"
+  },
+  "knowledge/manual-2a922f79cded.md": {
+    "category": "strategy",
+    "publishedAt": "2026-06-17T17:11:47.275Z"
+  },
+  "knowledge/manual-ab703ffd94b7.md": {
+    "category": "strategy",
+    "publishedAt": "2026-06-17T17:11:47.592Z"
   }
 }

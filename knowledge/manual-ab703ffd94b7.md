@@ -1,0 +1,3 @@
+Runtime Cloud Security in 2025: Moving Beyond CNAPPs to Cloud Application Detection & Response
+
+A security analyst argues that Cloud Native Application Protection Platforms (CNAPPs) fail to adequately protect cloud applications due to weak code analysis capabilities and rudimentary runtime detection, treating containers as simple Linux servers rather than complex cloud-native workloads. The author advocates for Cloud Application Detection & Response (CADR) as a purpose-built approach to runtime security, illustrating detection gaps through the MoveIT vulnerability case study, which spanned SQL injection, webshell execution, and unauthorized cloud data access across multiple architectural

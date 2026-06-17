@@ -1812,5 +1812,171 @@
     "publishedAt": "2026-06-16T06:05:58.000Z",
     "contentHash": "175d3325474e092a7a5dcd8304eaee4a005189ab60b93128f14197f40e27d90c",
     "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:bleeping-46079806e3",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices",
+    "summary": "A data leak designated FortiBleed has disclosed VPN credentials associated with approximately 74,000 Fortinet FortiGate firewall instances across global organizations. The exposed credentials potentially enable unauthorized access to corporate network perimeters. The scope and attribution of the leaked dataset remain under investigation.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+    "publishedAt": "2026-06-17T15:12:57.000Z",
+    "contentHash": "d0eaf9b6b69b89f3a07105cfe9004dcb01d1d167b5810fb27586ba137bcc5414",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:thehackernews-538b5a7de0",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "automotive"
+    ],
+    "title": "Attacker Established Persistent Access Using Tailscale and OpenSSH After C2 Infrastructure Failure",
+    "summary": "An attacker who compromised a French automotive company installed legitimate remote access tools (OpenSSH and Tailscale) on victim systems as a fallback persistence mechanism independent of their command-and-control infrastructure. The tactic allowed continued unauthorized access even after the attacker's primary C2 server went offline, demonstrating operational resilience through abuse of standard administration tools.",
+    "sourceUrl": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
+    "publishedAt": "2026-06-17T16:00:56.000Z",
+    "contentHash": "1a9f8b5dddd4bb092aab4e47076094503eee527e344bfa4d419e6685d62f4c00",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:darkreading-bcf776d584",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Credential-Harvesting Campaign Targets 30K+ Fortinet Devices Globally",
+    "summary": "Threat actors are conducting a large-scale credential-harvesting operation against Fortinet devices across approximately 200 countries, with attackers having obtained working credentials for over 30,000 compromised systems. The campaign affects multiple industry sectors, indicating a broad targeting strategy rather than vertical-specific focus.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices",
+    "publishedAt": "2026-06-17T14:06:34.000Z",
+    "contentHash": "040216de8f3102fa16d253c92d0dafa5e28ab5f851a70de3f700f707423bddb8",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:sans-isc-974240ca41",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Browser-based security tool limitations and detection gaps",
+    "summary": "A security researcher examines detection and blocking limitations in browser-based protection mechanisms, highlighting discrepancies between expected and actual coverage. The analysis suggests organizations may have gaps in their security tool implementations despite believing threats are being blocked.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33084",
+    "publishedAt": "2026-06-17T16:01:33.000Z",
+    "contentHash": "538b3a2f4250d44fb432a050baf7d69df9cfbbcf7c16f1303acc28c2a5dd7c81",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-8eb3ab1fe2",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "uk",
+    "industries": [
+      "critical infrastructure",
+      "energy",
+      "water",
+      "transport",
+      "communications"
+    ],
+    "title": "NCSC CEO: Hostile states attributed to majority of UK critical infrastructure cyber attacks",
+    "summary": "The UK's National Cyber Security Centre reports that state-sponsored actors are responsible for approximately three-quarters of cyber attacks targeting critical infrastructure systems. This assessment was presented at RUSI's annual security conference by NCSC leadership, underscoring the prevalence of nation-state threat activity against essential services.",
+    "sourceUrl": "https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks",
+    "publishedAt": "2026-06-17T12:00:00.000Z",
+    "contentHash": "e806ce542eb43a9975c9fcda351101a243174cd744aaf74d0a6eff314970a7c7",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:bleeping-468752dd08",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Account Takeovers Rising: Defense Strategies Through Device Trust and Continuous Verification",
+    "summary": "Account takeover incidents are increasing as adversaries circumvent conventional security controls via phishing, session hijacking, and multi-factor authentication fatigue attacks. Specops Software outlines mitigation approaches centered on device trust verification and continuous authentication mechanisms to lower organizational exposure to credential compromise.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
+    "publishedAt": "2026-06-17T14:00:10.000Z",
+    "contentHash": "6a909bcdf1e1158ac4f6092a41a7888addeb1d7e134793dd69dd26845a20c384",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c66e201a15",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
+    "summary": "Security teams face a validation challenge where the volume of findings exceeds their ability to prioritize effectively, shifting the focus from visibility to determining which risks genuinely require remediation. The core issue is distinguishing actionable threats from noise while managing incomplete information and operational constraints.",
+    "sourceUrl": "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
+    "publishedAt": "2026-06-17T11:58:00.000Z",
+    "contentHash": "b68ca5179fcceee4369182266a0870978fa35d508dc1f6e6060246d57cfd8858",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:bleeping-661022f4ef",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "telecommunications"
+    ],
+    "title": "India's Telegram ban extends to UAE through BGP disruption",
+    "summary": "India imposed a temporary ban on Telegram through June 22 following circulation of leaked examination materials via the platform. Telegram's CEO attributed the disruption to BGP hijacking by telecom provider Reliance, which affected service availability beyond India into the UAE. The incident highlights how routing-layer attacks can create unintended geographic service disruptions.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
+    "publishedAt": "2026-06-17T13:12:45.000Z",
+    "contentHash": "a09d25ad86baf758e1c9237b89bebd89a4159f33e5eaf8cf978e4040bc694a7f",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8b42903fcc",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Top 10 Attack Surface Exposures in 2026",
+    "summary": "Analysis identifies common entry points for breaches beyond zero-days, including weak authentication on exposed interfaces and credential reuse from prior incidents. Recent vulnerabilities such as memory-disclosure flaws demonstrate how internet-facing systems face immediate risk when exploitable conditions emerge, emphasizing the importance of baseline hygiene controls.",
+    "sourceUrl": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
+    "publishedAt": "2026-06-17T10:30:00.000Z",
+    "contentHash": "cb628925230043468302af4356ed0e625103f26eb5a837aaad6e85eb35855f7a",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:bleeping-9239b85dd3",
+    "tier": "event",
+    "category": "news",
+    "title": "Microsoft Investigating Office Launch Issues Following June Updates",
+    "summary": "Microsoft is addressing a reported problem where third-party applications cannot successfully launch Microsoft Office applications or open Office documents on recently updated Windows systems. The issue affects users running the latest patches distributed in June.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
+    "publishedAt": "2026-06-17T11:54:21.000Z",
+    "contentHash": "1c5cbbe684cd0c69a2e34ad3b94e50f8db251bd7a5ae5dd1bcf29f0aa5e06c7a",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:bleeping-3ad8c13d51",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "title": "CISA mandates federal patching for critical Joomla plugin vulnerability",
+    "summary": "CISA has issued a directive requiring U.S. federal agencies to remediate a maximum-severity vulnerability in the Widget Factory Joomla Content Editor plugin by Friday, citing active exploitation. The flaw poses significant risk to government systems relying on the affected Joomla extension.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
+    "publishedAt": "2026-06-17T10:09:24.000Z",
+    "contentHash": "e2164fea053383da727e8a036d4037786d1404f4f77d253f60c42417ef361023",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:manual-2a922f79cded",
+    "tier": "foundational",
+    "category": "strategy",
+    "title": "Major cloud security vendors pivot away from CNAPP as market consolidates around Wiz",
+    "summary": "Check Point and Palo Alto Networks are repositioning their cloud security offerings, with Check Point partnering with Wiz and transitioning CloudGuard to focus on WAF, while Palo Alto shifts from Prisma Cloud to Cortex Cloud as a SOC-oriented platform. The moves reflect market acknowledgment that cloud posture scanning has become a commoditized space dominated by Wiz, prompting established vendors to pursue adjacent markets including runtime detection, vulnerability management, and AI security.",
+    "sourceUrl": "https://pulse.latio.tech/p/the-great-cnapp-re-bundle",
+    "publishedAt": "2026-06-17T17:11:47.275Z",
+    "contentHash": "339b696e75858c3f09c3ecc3036c49bb9e209244675ba7c3cf0d95baf843491e",
+    "subjectKey": "manual-2a922f79cded",
+    "reportDate": "2026-06-17T17:11:47.275Z",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:manual-ab703ffd94b7",
+    "tier": "foundational",
+    "category": "strategy",
+    "title": "Runtime Cloud Security in 2025: Moving Beyond CNAPPs to Cloud Application Detection & Response",
+    "summary": "A security analyst argues that Cloud Native Application Protection Platforms (CNAPPs) fail to adequately protect cloud applications due to weak code analysis capabilities and rudimentary runtime detection, treating containers as simple Linux servers rather than complex cloud-native workloads. The author advocates for Cloud Application Detection & Response (CADR) as a purpose-built approach to runtime security, illustrating detection gaps through the MoveIT vulnerability case study, which spanned SQL injection, webshell execution, and unauthorized cloud data access across multiple architectural",
+    "sourceUrl": "https://pulse.latio.tech/p/runtime-cloud-security-in-2025",
+    "publishedAt": "2026-06-17T17:11:47.592Z",
+    "contentHash": "37bc46595d07ac93fd0bf92bee50b1dd25c4e69fe9366885562b2290e024c368",
+    "subjectKey": "manual-ab703ffd94b7",
+    "reportDate": "2026-06-17T17:11:47.592Z",
+    "ingestedAt": "2026-06-17T17:11:21.419Z"
   }
 ]
