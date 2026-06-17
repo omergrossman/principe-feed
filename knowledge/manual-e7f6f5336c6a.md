@@ -1,0 +1,3 @@
+NSPM-12: National Policy for Cybersecurity of National Security Systems
+
+The White House issued NSPM-12 on June 12, 2026, establishing a new cybersecurity governance framework for U.S. national security systems across the Department of Defense, Intelligence Community, and Federal civilian agencies. The memorandum rescind earlier directives, re-establishes the Committee on National Security Systems (CNSS) with the NSA Director as National Manager, and mandates cybersecurity requirements equivalent to or exceeding those in Executive Order 14306, with clear accountability structures for agency heads.
