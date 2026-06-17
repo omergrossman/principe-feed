@@ -10,3 +10,17 @@
 # https://www.example.com/some-report-or-article
 https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a1611a04085d7cd3dadc924_Claude-eBook-Zero-Trust-for-AI-Agents-05182026.pdf
 https://www.helpnetsecurity.com/2026/06/11/report-cloud-insider-threats/
+
+# ── Independent, unbiased security-product analysis (enrich vendor "buy" reasoning) ──
+# Primary lab report pages (cyberratings.org, selabs.uk, gartner.com) block bots
+# and/or render via JS — the no-JS fetcher can't read them. So we point at the
+# labs' PUBLIC, server-rendered results ANNOUNCEMENTS (already key-points form,
+# legally clean to digest). For the full reports, drop the PDF in manual/inbox/.
+https://www.prnewswire.com/news-releases/cyberratingsorg-and-nss-labs-announce-2025-enterprise-firewall-test-results-302605181.html
+https://www.prnewswire.com/news-releases/av-comparatives-publishes-2025-endpoint-prevention--response-epr-test--the-most-comprehensive-enterprise-cybersecurity-evaluation-to-date-302562363.html
+https://www.av-comparatives.org/news/edr-detection-validation-2026/
+# Bot-blocked / JS-rendered primaries — fetch the public PDF and drop in inbox/ instead:
+#   https://cyberratings.org/resources/                 (NGFW / SSE / cloud-firewall effectiveness)
+#   https://selabs.uk/reports/                          (enterprise EDR / endpoint / email)
+#   https://www.gartner.com/reviews/market/             (Peer Insights "Voice of the Customer" — crowd reviews)
+#   https://evals.mitre.org/enterprise/er7              (MITRE ATT&CK Eval Enterprise R7 — JS-rendered)
