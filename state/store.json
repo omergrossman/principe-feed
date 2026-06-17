@@ -1315,5 +1315,284 @@
     "publishedAt": "2026-06-15T13:00:00.000Z",
     "contentHash": "bbea8293f2025a0f95167ca32dae34e7e78fc5d701f76ec9d2d4a1b92058a6eb",
     "ingestedAt": "2026-06-15T19:35:10.821Z"
+  },
+  {
+    "id": "knowledge:bleeping-1487c83ab1",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development"
+    ],
+    "title": "Malicious JetBrains Marketplace plugins target developer AI API keys",
+    "summary": "Security researchers identified at least 15 malicious plugins distributed through the official JetBrains Marketplace that were engineered to exfiltrate AI API keys from developer environments. The plugins exploited the trusted marketplace distribution channel to gain access to sensitive credentials commonly used for third-party AI services.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
+    "publishedAt": "2026-06-16T21:54:50.000Z",
+    "contentHash": "5877919a71c29833eaa9488323ab06c1a2445e03ad766c947c54be1587cebf01",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:thehackernews-eedf6d2505",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds Actively Exploited Joomla JCE Vulnerability to KEV Catalog",
+    "summary": "CISA has catalogued a critical access control flaw (CVE-2026-48907, CVSS 10.0) in the Joomla Content Editor plugin as actively exploited in the wild. The vulnerability enables arbitrary code execution through improper authorization controls. Organizations using the affected JCE component should prioritize patching.",
+    "sourceUrl": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
+    "publishedAt": "2026-06-17T05:50:46.000Z",
+    "contentHash": "97349a739ba302cad2976c6a846c530d8d5bfb2113dd49ccbbd7850616f64e6e",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:darkreading-14ea4a2bec",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Fileless Phantom Stealer Targets Browser Credentials",
+    "summary": "A fileless malware variant operates exclusively in memory to evade traditional file-based detection while stealing browser credentials. The infection chain employs multiple anti-analysis techniques to obstruct security tools and reverse engineering efforts.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials",
+    "publishedAt": "2026-06-16T22:26:34.000Z",
+    "contentHash": "f1dc30e08449c29f7ad1a8e957891911b041f19c1d2789dd8e407e559197d01d",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:sans-isc-760b0da934",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast - June 17th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The episode discusses emerging threats and defensive practices relevant to security operations professionals.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33082",
+    "publishedAt": "2026-06-17T02:00:04.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:cisa-a532b41623",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "energy",
+      "food and agriculture",
+      "water and wastewater"
+    ],
+    "title": "Rockwell Automation RSLinx Classic Stack-Based Buffer Overflow Vulnerability",
+    "summary": "CISA disclosed a stack-based buffer overflow vulnerability (CVE-2020-13573) in Rockwell Automation RSLinx Classic versions 4.50.00 and earlier, affecting critical manufacturing and energy sectors globally. The flaw allows remote code execution with a CVSS v3.1 score of 7.5. Rockwell recommends upgrading to version 4.60.00 or later, or applying patch BF31213 for systems unable to upgrade immediately.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02",
+    "publishedAt": "2026-06-16T12:00:00.000Z",
+    "contentHash": "a21367bb48a43a223f7522c4f62e06bff3e063b07678eddee9d1e207842f188a",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:bleeping-0561978f0a",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "banking",
+      "financial services",
+      "cryptocurrency"
+    ],
+    "title": "Rokarolla Android Banking Trojan Targets 217 Financial Apps",
+    "summary": "Security researchers identified Rokarolla, an Android banking trojan capable of targeting 217 banking and cryptocurrency applications through a sophisticated command infrastructure. The malware operates with 137 distinct commands enabling credential theft and fraudulent transactions across multiple financial platforms.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
+    "publishedAt": "2026-06-16T20:04:11.000Z",
+    "contentHash": "87aa334f2074c8a4bf622e5c8c886652841ac9d826d6b4752329f2d2630ad62c",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:thehackernews-dab97eb1ab",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "cloud",
+      "machine learning",
+      "software development"
+    ],
+    "title": "Google Vertex AI SDK Vulnerability Enables Model Upload Hijacking via Bucket Squatting",
+    "summary": "A flaw in Google Cloud's Vertex AI Python SDK allowed unauthenticated attackers to intercept machine learning model uploads through bucket name collision and execute code within Google's infrastructure. Palo Alto Networks Unit 42 identified and reported the vulnerability through Google's bug bounty program; no active exploitation has been observed.",
+    "sourceUrl": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
+    "publishedAt": "2026-06-16T19:05:41.000Z",
+    "contentHash": "24e8cbe15c1119adeb534d7d6067e52ebc7fda4421c0d99df70d8264e86fb37e",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:darkreading-78c2e6dbb9",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "title": "Security Experts Challenge US Export Restrictions on AI Models",
+    "summary": "A coalition of security researchers has publicly opposed government-imposed export controls affecting Anthropic's Claude Fable 5 and Mythos 5 AI models. The signatories argue the restrictions may hinder collaborative security research and international threat intelligence sharing.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable",
+    "publishedAt": "2026-06-16T22:00:06.000Z",
+    "contentHash": "a1bf1ea70bc0034ae5fbf748f45b0ea9a0ef82ef36ee38a395fb8c2992230a9a",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:sans-isc-ad68685bc7",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "VHDX File Weaponized to Distribute Remcos RAT",
+    "summary": "Security researchers identified a malicious ZIP archive containing a VHDX file that automatically mounts on modern Windows systems, exposing embedded malicious JavaScript designed to deploy Remcos remote access trojan. The delivery method exploits Windows' native handling of virtual disk images to bypass traditional file-based detection.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33080",
+    "publishedAt": "2026-06-16T07:09:13.000Z",
+    "contentHash": "4a85218292b41afc24b8cfba723b078694d817f4d635267a86e0d08411d5c950",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:cisa-59af5c3f01",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "title": "Rockwell Automation FLEX I/O EtherNet/IP Adapters Vulnerabilities",
+    "summary": "CISA disclosed two vulnerabilities in Rockwell Automation FLEX I/O EtherNet/IP Adapters (models 1794-AENTR and 1794-AENTRXT V2.012): a denial-of-service issue from improper memory handling of CIP protocol requests, and an authentication bypass allowing unauthenticated modification of device passwords. Rockwell Automation released firmware version 2.013 to address both issues, with CVSS scores reaching 9.4 for the authentication vulnerability.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05",
+    "publishedAt": "2026-06-16T12:00:00.000Z",
+    "contentHash": "8539946b30900fda2fd638ecfc9f1c5bb028a75d70294fd1757dc42ccdd3d8d5",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:bleeping-a3798f6d4c",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Steam Workshop exploited to distribute malware through Wallpaper Engine",
+    "summary": "Threat actors are leveraging Steam Workshop to distribute malware by disguising it within wallpaper packages for the Wallpaper Engine application. The attack vector exploits the platform's community content distribution system, which allows users to download user-created materials with minimal friction.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
+    "publishedAt": "2026-06-16T18:27:55.000Z",
+    "contentHash": "0fd2cfd017194b764b7bf651ef4c130ac40c7243b4089132efd21b11336d8757",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:darkreading-7ed50a6224",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "government"
+    ],
+    "title": "SprySOCKS Windows Variant Deployed by FishMonger Against Government Targets",
+    "summary": "FishMonger, a China-linked threat actor, has deployed a previously undocumented Windows variant of the SprySOCKS backdoor that leverages kernel drivers to circumvent detection mechanisms. The malware has been observed targeting government entities across Honduras, Taiwan, Thailand, and Pakistan, representing a notable expansion of this tool's operational scope.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers",
+    "publishedAt": "2026-06-16T20:11:48.000Z",
+    "contentHash": "66329822b46109886cb79c1d370fea1d37a0b4aa6a56121548bb86b00dfdf6ed",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:sans-isc-ec4172b372",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast - June 16th, 2026",
+    "summary": "SANS Internet Storm Center's daily security briefing covering recent threat landscape developments and cybersecurity topics of interest to security professionals.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33078",
+    "publishedAt": "2026-06-16T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:bleeping-236888d673",
+    "tier": "event",
+    "category": "regulation",
+    "region": "uk",
+    "title": "UK to Require Identity or Age-Verification Scan for Social Media Account Creation",
+    "summary": "The UK government plans to mandate identity verification or facial age-scanning technology for new social media accounts, enforcing a prohibition on under-16 users starting spring 2027. Security researchers have raised concerns that such verification methods present circumvention opportunities and introduce additional data breach exposure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
+    "publishedAt": "2026-06-16T14:38:49.000Z",
+    "contentHash": "16a3c17dc41412c943afbd5e980a5af973a6bf962d6dbe814ffa4f90aee32724",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f9af2533fd",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "financial services",
+      "cryptocurrency"
+    ],
+    "title": "Rokarolla Android Banking Trojan Targets 217 Financial Applications",
+    "summary": "Zimperium researchers identified Rokarolla, an Android banking trojan capable of compromising 217 banking and cryptocurrency applications through 137 remote commands. The malware intercepts lock-screen PINs, exfiltrates SMS messages, manipulates clipboard data to redirect cryptocurrency transfers, and disables Google Play Protect.",
+    "sourceUrl": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
+    "publishedAt": "2026-06-16T13:10:17.000Z",
+    "contentHash": "b442dc988b98a276ff82a66fcccccb130abfc821067d6734a0f0885e8ce8fe5a",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:darkreading-1724b58bf9",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Rokarolla Android Trojan Expands Capabilities with Device Control and Persistence",
+    "summary": "Rokarolla, an Android trojan distributed through counterfeit TikTok and Chrome applications, has evolved to combine banking fraud with comprehensive device surveillance and remote control functionality. The malware demonstrates increasing sophistication in maintaining persistence on infected devices while enabling attackers to monitor user activity and conduct financial operations.",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/rokarolla-android-trojan",
+    "publishedAt": "2026-06-16T17:32:32.000Z",
+    "contentHash": "9f51b34c8fce7f3988d90e91c37ecfcd5b73998699811f738e16412b00975565",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:manual-f8e5b0d15159",
+    "tier": "foundational",
+    "category": "strategy",
+    "title": "CISO Version 2.0: Evolution from Reactive Security to Strategic Business Leadership",
+    "summary": "A strategic framework describes the evolution of the CISO role from reactive IT security management (Version 1.0) to proactive business leadership (Version 2.0). CISO 2.0 characteristics include operating as business executives integrated into organizational strategy, maintaining deep technical knowledge to enable defensible systems, and demonstrating long-term commitment to cultural transformation. Execution differentiates CISO 2.0 through coherent strategy, organizational flywheels, rapid escalation culture, and emerging expanded roles as Chief Technology Security Officers or Chief Digital R",
+    "sourceUrl": "https://www.philvenables.com/post/ciso-version-2-0",
+    "publishedAt": "2026-06-12T13:05:15.100Z",
+    "contentHash": "19bfe270241e1e77f1c5dbc47001ea928f00eb22ee2e3a394bfbde75fea5b8de",
+    "subjectKey": "manual-f8e5b0d15159",
+    "reportDate": "2026-06-12T13:05:15.100Z",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:manual-9e4c1064a5dc",
+    "tier": "foundational",
+    "category": "analyst",
+    "title": "CyberRatings.org and NSS Labs Release 2025 Enterprise Firewall Evaluation Results",
+    "summary": "NSS Labs evaluated seven enterprise firewalls using encrypted workloads and over 26,000 attack samples, revealing significant performance variance with security effectiveness ranging from 46.37% to 99.59%. The assessment identified critical evasion vulnerabilities in widely deployed products, with only three firewalls earning a Recommended rating, and highlighted that encrypted traffic inspection remains a key differentiator among vendors.",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/cyberratingsorg-and-nss-labs-announce-2025-enterprise-firewall-test-results-302605181.html",
+    "publishedAt": "2025-11-05T11:00:00.000Z",
+    "contentHash": "42dae6df992f325a9b4f9ea69099c4dc9d5fc201de68c6218a10590adcd694ac",
+    "subjectKey": "manual-9e4c1064a5dc",
+    "reportDate": "2025-11-05T11:00:00.000Z",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:manual-6362623c2752",
+    "tier": "foundational",
+    "category": "analyst",
+    "title": "AV-Comparatives Releases 2025 Endpoint Prevention & Response Test Results",
+    "summary": "AV-Comparatives published its 2025 EPR test results, evaluating enterprise endpoint solutions against 50 advanced attack scenarios mapped to MITRE ATT&CK, with assessment spanning prevention, detection, response, and financial impact. Ten vendors achieved EPR Certification 2025, including Bitdefender, CrowdStrike, Palo Alto Networks, and others, while two failed certification. The evaluation combines technical effectiveness with operational and cost-efficiency modeling to provide enterprises with comparative benchmarking for endpoint security selection.",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/av-comparatives-publishes-2025-endpoint-prevention--response-epr-test--the-most-comprehensive-enterprise-cybersecurity-evaluation-to-date-302562363.html",
+    "publishedAt": "2025-09-22T15:00:00.000Z",
+    "contentHash": "4bd63bf6e232d811d1e594a49347728bb66cb92fc067f048e4e71d95ddd3e3bb",
+    "subjectKey": "manual-6362623c2752",
+    "reportDate": "2025-09-22T15:00:00.000Z",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:manual-654bfd99a51c",
+    "tier": "foundational",
+    "category": "analyst",
+    "title": "AV-Comparatives EDR Detection Validation 2026 Results",
+    "summary": "AV-Comparatives published results from its 2026 EDR detection validation test, evaluating seven enterprise cybersecurity solutions against advanced threat scenarios comprising 14 attack steps plus signal-to-noise assessment. Nine products achieved certification under the independent evaluation methodology, including solutions from Bitdefender, ESET, Fortinet, G Data, Genian, Kaspersky, ManageEngine, Palo Alto Networks, and Sangfor.",
+    "sourceUrl": "https://www.av-comparatives.org/news/edr-detection-validation-2026/",
+    "publishedAt": "2026-06-17T06:54:17.033Z",
+    "contentHash": "ddfbb8acc519280fcf8fdec27e4acfe57b1110fd1d506bb7ec74bf046ba8a68c",
+    "subjectKey": "manual-654bfd99a51c",
+    "reportDate": "2026-06-17T06:54:17.033Z",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:manual-fa1c2296aba4",
+    "tier": "foundational",
+    "category": "analyst",
+    "region": "uk",
+    "title": "SE Labs Enterprise Endpoint Security Comparative Test Report (January-March 2026)",
+    "summary": "SE Labs conducted standardized testing of enterprise endpoint security products against a mix of targeted attacks and public email/web-based threats to measure real-world protection effectiveness. Products demonstrated strong performance against commodity threats but showed variable results against targeted attack techniques, with performance differentiation evident across the tested vendor portfolio. The evaluation used repeatable test scenarios exposing each product to identical threat conditions to enable direct comparison.",
+    "sourceUrl": "manual:file:selabs-enterprise-endpoint-comparative-2026.pdf",
+    "publishedAt": "2026-06-17T06:54:17.950Z",
+    "contentHash": "6ebd3346c6fd62f609fe4934ca0ba5598588f723256e1bb528b9fbbb2f8a93df",
+    "subjectKey": "manual-fa1c2296aba4",
+    "reportDate": "2026-06-17T06:54:17.950Z",
+    "ingestedAt": "2026-06-17T06:53:46.694Z"
   }
 ]

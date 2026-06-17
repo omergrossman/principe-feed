@@ -1,0 +1,3 @@
+SE Labs Enterprise Endpoint Security Comparative Test Report (January-March 2026)
+
+SE Labs conducted standardized testing of enterprise endpoint security products against a mix of targeted attacks and public email/web-based threats to measure real-world protection effectiveness. Products demonstrated strong performance against commodity threats but showed variable results against targeted attack techniques, with performance differentiation evident across the tested vendor portfolio. The evaluation used repeatable test scenarios exposing each product to identical threat conditions to enable direct comparison.

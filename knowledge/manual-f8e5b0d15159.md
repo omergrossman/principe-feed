@@ -1,0 +1,3 @@
+CISO Version 2.0: Evolution from Reactive Security to Strategic Business Leadership
+
+A strategic framework describes the evolution of the CISO role from reactive IT security management (Version 1.0) to proactive business leadership (Version 2.0). CISO 2.0 characteristics include operating as business executives integrated into organizational strategy, maintaining deep technical knowledge to enable defensible systems, and demonstrating long-term commitment to cultural transformation. Execution differentiates CISO 2.0 through coherent strategy, organizational flywheels, rapid escalation culture, and emerging expanded roles as Chief Technology Security Officers or Chief Digital R
