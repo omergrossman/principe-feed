@@ -59,5 +59,9 @@ export const ALLOWED_HOSTS: Set<string> = new Set(
 // Pipeline tunables (overridable via env in the Action).
 export const TTL_DAYS = Number(process.env.FEED_TTL_DAYS ?? 30); // event tier only
 export const MAX_ITEMS_PER_DAY = Number(process.env.FEED_MAX_ITEMS ?? 20); // new event entries/run
-export const SUMMARY_MAX_CHARS = Number(process.env.FEED_SUMMARY_MAX ?? 600); // legal length cap
+export const SUMMARY_MAX_CHARS = Number(process.env.FEED_SUMMARY_MAX ?? 600); // event-tier legal length cap
+// Operator-curated MANUAL items (foundational, added on purpose) get a fuller digest so
+// concrete specifics — named vendors, figures, frameworks — survive instead of being cut
+// mid-sentence. Still paraphrased + verbatim-checked; this is the legal upper bound.
+export const MANUAL_SUMMARY_MAX_CHARS = Number(process.env.FEED_MANUAL_SUMMARY_MAX ?? 1500);
 export const VERBATIM_MAX_OVERLAP = Number(process.env.FEED_VERBATIM_MAX ?? 0.5); // ≥ this token overlap w/ source = reject
