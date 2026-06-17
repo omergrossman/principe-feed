@@ -1952,5 +1952,31 @@
     "publishedAt": "2026-06-17T10:09:24.000Z",
     "contentHash": "e2164fea053383da727e8a036d4037786d1404f4f77d253f60c42417ef361023",
     "ingestedAt": "2026-06-17T17:11:21.419Z"
+  },
+  {
+    "id": "knowledge:manual-2a922f79cded",
+    "tier": "foundational",
+    "category": "analyst",
+    "title": "The Great CNAPP Re-bundle",
+    "summary": "Major cloud security vendors are restructuring their CNAPP portfolios away from integrated posture platforms toward specialized solutions. Check Point is transitioning CloudGuard to CloudGuard WAF and partnering with Wiz for posture capabilities, while Palo Alto is shifting focus from Prisma Cloud to Cortex Cloud—a runtime-centric data lake for SOC teams. The analyst argues that posture scanning and asset vulnerability work have consolidated around Wiz and competitors like Aqua, Orca, and Sysdig, prompting larger vendors to pursue adjacent markets including AI security, runtime detection/response (CDR/CADR), continuous threat exposure management (CTEM), and application security posture management (ASPM). The market is effectively unbundling CNAPP into separate tools targeting distinct personas: developers (ASPM), security operations (CDR), and vulnerability management (CTEM), rather than maintaining an all-in-one platform.",
+    "sourceUrl": "https://pulse.latio.tech/p/the-great-cnapp-re-bundle",
+    "publishedAt": "2026-06-17T17:45:37.477Z",
+    "contentHash": "339b696e75858c3f09c3ecc3036c49bb9e209244675ba7c3cf0d95baf843491e",
+    "subjectKey": "manual-2a922f79cded",
+    "reportDate": "2026-06-17T17:45:37.477Z",
+    "ingestedAt": "2026-06-17T17:45:10.928Z"
+  },
+  {
+    "id": "knowledge:manual-ab703ffd94b7",
+    "tier": "foundational",
+    "category": "strategy",
+    "title": "Runtime Cloud Security in 2025 - Cloud Application Detection & Response (CADR) Framework",
+    "summary": "Cloud Native Application Protection Platforms (CNAPPs) have failed to deliver adequate runtime protection for cloud applications, treating them as an afterthought rather than building detection systems from the ground up. Current tools struggle with multi-layer attack detection: vulnerability scanning identifies known issues slowly, workload-layer EDR agents produce low-context alerts requiring coordination with development teams, and cloud-layer anomaly detection often goes unnoticed when legitimate workloads access storage. The MoveIT SQL injection attack illustrates the gap—only Application Detection & Response (ADR) tools could have provided timely blocking, yet even ADR misses post-exploitation behaviors across workload and cloud layers. A new category, Cloud Application Detection & Response (CADR), is proposed to unify visibility across application, workload, and cloud layers, enabling security teams to detect attack chains that span multiple infrastructure components, as seen in XZ Utils, Log4j, Spring4Shell, and other recent breaches.",
+    "sourceUrl": "https://pulse.latio.tech/p/runtime-cloud-security-in-2025",
+    "publishedAt": "2026-06-17T17:45:37.322Z",
+    "contentHash": "37bc46595d07ac93fd0bf92bee50b1dd25c4e69fe9366885562b2290e024c368",
+    "subjectKey": "manual-ab703ffd94b7",
+    "reportDate": "2026-06-17T17:45:37.322Z",
+    "ingestedAt": "2026-06-17T17:45:10.928Z"
   }
 ]
