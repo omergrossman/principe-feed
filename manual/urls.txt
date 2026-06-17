@@ -26,3 +26,13 @@ https://www.av-comparatives.org/news/edr-detection-validation-2026/
 #   https://selabs.uk/reports/                          (enterprise EDR / endpoint / email)
 #   https://www.gartner.com/reviews/market/             (Peer Insights "Voice of the Customer" — crowd reviews)
 #   https://evals.mitre.org/enterprise/er7              (MITRE ATT&CK Eval Enterprise R7 — JS-rendered)
+
+# ── CNAPP / cloud security — independent public analysis ──
+# Latio Pulse (James Berthoty) — vendor-neutral cloud-security analyst. FREE Substack posts
+# below (his full annual market report is paywalled, so only the free posts are used).
+https://pulse.latio.tech/p/the-great-cnapp-re-bundle
+https://pulse.latio.tech/p/runtime-cloud-security-in-2025
+# NOT added on purpose: Gartner Peer Insights "Voice of the Customer" for CNAPP is Gartner-
+# copyrighted (only a licensed vendor reprint or the bot-blocked gartner.com page). Per the
+# 2026-06-17 licensed-content cleanup, no Gartner/Forrester licensed material goes in the
+# public feed. (PeerSpot CNAPP reviews are an option if a fetch check passes.)
