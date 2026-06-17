@@ -1594,5 +1594,223 @@
     "subjectKey": "manual-fa1c2296aba4",
     "reportDate": "2026-06-17T06:54:17.950Z",
     "ingestedAt": "2026-06-17T06:53:46.694Z"
+  },
+  {
+    "id": "knowledge:bleeping-32507156c2",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Microsoft Developing Patch for RoguePlanet Defender Zero-Day",
+    "summary": "Microsoft is developing a security update to address RoguePlanet, a zero-day vulnerability in Windows Defender that was publicly disclosed one week prior. The company has confirmed the issue and is working toward a resolution through its standard patching process.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
+    "publishedAt": "2026-06-17T08:32:29.000Z",
+    "contentHash": "12dd68645b15c16ba59e98be2dd967d8325dd6e0d0453aa787f3570fa018ef76",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1d5a81ae1b",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "technology"
+    ],
+    "title": "Malicious JetBrains Plugins Target AI API Keys Through Fake Coding Assistants",
+    "summary": "Researchers identified a coordinated campaign distributing at least 15 malicious plugins on the JetBrains Marketplace. The plugins masquerade as AI coding assistants leveraging DeepSeek and other LLMs while stealing API credentials and sensitive data from development environments.",
+    "sourceUrl": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+    "publishedAt": "2026-06-17T09:38:46.000Z",
+    "contentHash": "f670a81cccebc580071fa2bde7db269e374b73a52c0e185d8817b83bf897e6b5",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:darkreading-3fce92e23d",
+    "tier": "event",
+    "category": "regulation",
+    "region": "uk",
+    "title": "UK Social Media Ban for Minors Raises Privacy Implementation Concerns",
+    "summary": "The UK has announced legislation to prohibit users under 16 from accessing peer-to-peer social media platforms. Privacy advocates have flagged concerns about the age-verification mechanisms required for enforcement, questioning whether identity confirmation processes will adequately protect user data while achieving the regulatory objective.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/uk-social-media-ban-privacy-experts-worried",
+    "publishedAt": "2026-06-17T08:00:00.000Z",
+    "contentHash": "6d3180b433a019cf85bb8d972f3512dfb2209fe26c427de7535c232bee59ed0c",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:bleeping-84f2a605f6",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "imaging",
+      "technology"
+    ],
+    "title": "Kodak confirms data breach following ShinyHunters extortion claim",
+    "summary": "Kodak acknowledged a security incident in which threat actors obtained access to company data and subsequently made extortion demands. The organization is conducting an investigation with external security consultants to assess the scope and nature of the compromise.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
+    "publishedAt": "2026-06-17T07:07:56.000Z",
+    "contentHash": "16a853289171a5b8590414ede79d51afc87d5e2e1d6bab6dd65c418c6fc9ec93",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:thehackernews-44495b28d6",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "artificial intelligence"
+    ],
+    "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
+    "summary": "A compromised npm contributor account resulted in malicious versions of 144 packages in the Mastra namespace being published to the registry. Mastra is a framework for building AI applications in JavaScript and TypeScript. The attack, tracked as easy-day-js, was identified by multiple security vendors including JFrog, SafeDep, Socket, and StepSecurity.",
+    "sourceUrl": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+    "publishedAt": "2026-06-17T07:38:24.000Z",
+    "contentHash": "f39f53d593ce5fac28aed4c7bf08cc3ec4b6aa614ce5225d0f645b83c9a8abd0",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:darkreading-2e972db766",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "'Lorem Ipsum' Malware Pivots to ClickFix Delivery",
+    "summary": "A malware campaign leveraging compromised WordPress sites has shifted to ClickFix delivery mechanisms. Analysis suggests potential attribution to Vice Society, a group known for ransomware and data extortion operations.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery",
+    "publishedAt": "2026-06-16T15:10:48.000Z",
+    "contentHash": "322d0f051c7bc297f219f3f2612ee4181eecad6d0913146d65fc12595aa2b161",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:bleeping-50c8b7b402",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "GhostTree Attack Exploits Windows Junctions to Evade Defender Scanning",
+    "summary": "A technique called GhostTree leverages recursive NTFS junctions to create numerous valid file paths that can cause Windows Defender's folder scanning operations to hang indefinitely. This method potentially allows malware to persist undetected by preventing completion of security scans.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/",
+    "publishedAt": "2026-06-16T14:17:27.000Z",
+    "contentHash": "fb7ed89f31e85436c215929113c30b68a63b17074d595c8000e02587a0ecde9c",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:thehackernews-33ab805fdf",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure; Organizations Remain Reactive",
+    "summary": "A survey indicates that anonymized infrastructure is present in 94% of security incidents, yet organizations struggle to identify threat actors despite access to extensive IP enrichment data. Security teams continue operating reactively, unable to effectively leverage available intelligence feeds and geolocation services to correlate infrastructure artifacts and attribute incidents.",
+    "sourceUrl": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
+    "publishedAt": "2026-06-16T11:30:00.000Z",
+    "contentHash": "66a5467ab3470dafe839bde2b492b7095bae229650621ce05515b45424b54b30",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:darkreading-a708510456",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "telecommunications",
+      "healthcare"
+    ],
+    "title": "HTTP/2 Bomb DoS Attacks Leverage Protocol Design Features",
+    "summary": "A denial-of-service vulnerability in HTTP/2 exploits compression and multiplexing features intended to optimize bandwidth usage, enabling amplification attacks. Telecommunications and healthcare organizations face particular risk due to their reliance on HTTP/2-based infrastructure and services.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/http-2-bomb-attacks-telcos-healthcare",
+    "publishedAt": "2026-06-15T19:31:37.000Z",
+    "contentHash": "a26a19fac787d73294ff633f06a8a184f10063165e7a082396619526a2eb5255",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:bleeping-cb8465fdf6",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "FTC Reports Record Imposter Scam Losses Reaching $3.5 Billion in 2025",
+    "summary": "The Federal Trade Commission documented $3.5 billion in losses attributed to imposter scams during 2025, reflecting a significant upward trend in fraud severity over the past five years. Reported losses have nearly tripled since 2020, indicating an expanding attack surface and evolving social engineering tactics that continue to impact U.S. consumers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/",
+    "publishedAt": "2026-06-16T13:42:19.000Z",
+    "contentHash": "e757d9bf1481abff31d0bd082ccb5f8ab2789e243e5d83f0fd2187edbd515720",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c86e0f6679",
+    "tier": "event",
+    "category": "attack",
+    "title": "Fortinet FortiSandbox Vulnerabilities Under Active Exploitation",
+    "summary": "Threat researchers have identified active exploitation of three vulnerabilities in Fortinet FortiSandbox, including a critical path traversal flaw in the JRPC API with a CVSS score of 9.1. One of the affected vulnerabilities was patched by Fortinet within the preceding week, suggesting rapid weaponization of disclosed flaws.",
+    "sourceUrl": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
+    "publishedAt": "2026-06-16T10:30:41.000Z",
+    "contentHash": "637c08d858da41bdd10177ff50a7d10dcd8076b061316de51fa44d0847772ba4",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:darkreading-f159ba9d5d",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Copilot SearchLeak Attack Exploited Prompt Injection to Enable Data Theft",
+    "summary": "A three-stage prompt injection vulnerability in Copilot allowed attackers to extract sensitive data through crafted hidden URLs and variables, requiring minimal user interaction. Microsoft has patched the flaw, which represents one of several emerging AI-focused attack vectors targeting similar injection weaknesses across prompt-based systems.",
+    "sourceUrl": "https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft",
+    "publishedAt": "2026-06-15T19:27:48.000Z",
+    "contentHash": "e0a4f471836c97b0a357303a6226d55bca77c3a328a27d038f24f825ce97f727",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:bleeping-d252676560",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Issues Directive on Actively Exploited cPanel LiteSpeed Plugin Vulnerability",
+    "summary": "CISA has notified U.S. federal agencies of an active exploitation campaign targeting CVE-2026-54420, a vulnerability in the LiteSpeed cPanel user-end plugin, with a three-day remediation deadline. The flaw is being leveraged in the wild and poses risks to government infrastructure relying on affected cPanel deployments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
+    "publishedAt": "2026-06-16T10:47:59.000Z",
+    "contentHash": "f03613e2428b8f117482498f03ce1bc049fd611a081845828226c60bde9448ce",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b433f44e8c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "SprySOCKS Backdoor Expands to Windows Platform with Driver-Based Variants",
+    "summary": "ESET researchers identified two previously undocumented Windows variants of the SprySOCKS backdoor, internally designated WIN_DRV and WIN_PLUS, extending what was previously thought to be a Linux-only threat. Both variants feature embedded command-and-control configurations and support multiple communication protocols including TCP and UDP.",
+    "sourceUrl": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+    "publishedAt": "2026-06-16T09:44:34.000Z",
+    "contentHash": "cc8dbd4d8627db1429b9765a75b97001895142ebc0f6a4f85b2f08cf3d97be66",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:bleeping-b52d1f7b18",
+    "tier": "event",
+    "category": "attack",
+    "title": "DragonForce Ransomware Leverages Microsoft Teams Infrastructure for C2 Communications",
+    "summary": "The DragonForce ransomware group deployed a custom backdoor named Backdoor.Turn to conceal command-and-control traffic by routing it through Microsoft Teams relay infrastructure. This technique exploits legitimate cloud services to evade network detection and filtering mechanisms commonly used by defenders.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
+    "publishedAt": "2026-06-16T10:18:48.000Z",
+    "contentHash": "e387c8428b40648c328072e3179c52185d2d669e8a6db233aeece0fcbb737730",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:thehackernews-954607137e",
+    "tier": "event",
+    "category": "attack",
+    "title": "ScarCruft Deploys NarwhalRAT via Fake Microsoft Security Alerts",
+    "summary": "North Korean-linked threat actor ScarCruft (APT37) is conducting spear-phishing campaigns using fraudulent Microsoft Account security notifications to distribute NarwhalRAT malware. The socially-engineered emails impersonate legitimate security warnings to trick recipients into executing the payload.",
+    "sourceUrl": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+    "publishedAt": "2026-06-16T08:14:55.000Z",
+    "contentHash": "7d356194b65a91ee12a5abcea55486912ddef7ae0fc7e032d21afa664d1193d3",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:bleeping-972bfd5a8e",
+    "tier": "event",
+    "category": "attack",
+    "title": "Critical Fortinet FortiSandbox Vulnerabilities Under Active Exploitation",
+    "summary": "Multiple critical vulnerabilities in Fortinet's FortiSandbox threat detection platform are being actively exploited by attackers, according to threat intelligence findings. The flaws affect a widely-deployed security appliance, creating potential exposure for organizations relying on this detection capability.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/",
+    "publishedAt": "2026-06-16T09:19:51.000Z",
+    "contentHash": "9126f607a003efa55a0f8508a43d7b4faa7add52b878c354226334270be317ec",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
+  },
+  {
+    "id": "knowledge:thehackernews-2f89dbfc90",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Vulnerability",
+    "summary": "Cisco has issued patches for CVE-2026-20262, a medium-severity flaw in Catalyst SD-WAN Manager that is actively exploited in the field. The vulnerability, with a CVSS score of 6.5, allows authenticated remote attackers to perform unauthorized actions through the web UI.",
+    "sourceUrl": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
+    "publishedAt": "2026-06-16T06:05:58.000Z",
+    "contentHash": "175d3325474e092a7a5dcd8304eaee4a005189ab60b93128f14197f40e27d90c",
+    "ingestedAt": "2026-06-17T10:03:50.977Z"
   }
 ]
