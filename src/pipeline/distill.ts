@@ -12,7 +12,7 @@
 import crypto from "node:crypto";
 import type { RawItem, FeedEntry, Tier } from "../types.js";
 import type { SourceDef } from "../config/sources.js";
-import { SUMMARY_MAX_CHARS } from "../config/sources.js";
+import { SUMMARY_MAX_CHARS, MANUAL_SUMMARY_MAX_CHARS } from "../config/sources.js";
 
 export type Distiller = (raw: RawItem, source: SourceDef) => Promise<FeedEntry | null>;
 
@@ -106,11 +106,30 @@ Rules:
 - For analyst/foundational sources: summarize the PUBLIC announcement only; do not reproduce any report body.
 Output JSON only, no markdown fence.`;
 
+// Operator-curated MANUAL items get a fuller digest: more sentences + room to retain the
+// concrete specifics a CISO buyer needs (named vendors/products, figures, frameworks),
+// instead of being clipped at 2-3 sentences. Still paraphrased, never verbatim.
+const DISTILL_PROMPT_MANUAL = `You summarize a curated cybersecurity source for a panel of synthetic CISOs.
+Return STRICT JSON only: { "title": string, "summary": string, "category": one of [attack, threat-intel, strategy, product-release, regulation, news, analyst], "region": one of [global, us, eu-west, uk, eu-central, apac, anz, mea] or null, "industries": string[] (lowercased sectors, or []) }.
+Rules:
+- summary: 4-8 FACTUAL sentences, <= ${MANUAL_SUMMARY_MAX_CHARS} chars. RETAIN concrete specifics a CISO buyer needs — named vendors/products, market structure, figures, frameworks. PARAPHRASE; never copy sentences verbatim from the source.
+- Tone: measured and analytical. NEVER alarmist; no "urgent"/"breaking"/"act now".
+- region/industries: set ONLY when the item is genuinely specific to them; otherwise null/[].
+- For analyst/foundational sources: summarize the PUBLIC announcement/positioning only; do not reproduce any report body.
+Output JSON only, no markdown fence.`;
+
 /** Anthropic-backed distiller. Falls back to stub if no key configured. */
 export function makeRealDistiller(): Distiller {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return stubDistiller;
   return async (raw, source) => {
+    // Curated MANUAL items get a fuller digest (more input read, more output tokens, a
+    // longer summary cap) so specifics like vendor lists survive; event RSS stays lean.
+    const isManual = source.key === "manual";
+    const prompt = isManual ? DISTILL_PROMPT_MANUAL : DISTILL_PROMPT;
+    const inputCap = isManual ? 16_000 : 6_000;
+    const maxTokens = isManual ? 1_200 : 500;
+    const summaryCap = isManual ? MANUAL_SUMMARY_MAX_CHARS : SUMMARY_MAX_CHARS;
     let res: Response;
     try {
       res = await fetch("https://api.anthropic.com/v1/messages", {
@@ -118,8 +137,8 @@ export function makeRealDistiller(): Distiller {
         headers: { "content-type": "application/json", "x-api-key": apiKey, "anthropic-version": "2023-06-01" },
         body: JSON.stringify({
           model: "claude-haiku-4-5",
-          max_tokens: 500,
-          messages: [{ role: "user", content: `${DISTILL_PROMPT}\n\nSOURCE: ${source.key}\nTITLE: ${raw.title}\nTEXT:\n${raw.rawText.slice(0, 6000)}` }],
+          max_tokens: maxTokens,
+          messages: [{ role: "user", content: `${prompt}\n\nSOURCE: ${source.key}\nTITLE: ${raw.title}\nTEXT:\n${raw.rawText.slice(0, inputCap)}` }],
         }),
         // Hard timeout so one stalled request can't hang the whole sequential run.
         signal: AbortSignal.timeout(30_000),
@@ -142,7 +161,7 @@ export function makeRealDistiller(): Distiller {
     }
     return baseEntry(raw, source, {
       title: parsed.title || raw.title,
-      summary: (parsed.summary || "").slice(0, SUMMARY_MAX_CHARS),
+      summary: (parsed.summary || "").slice(0, summaryCap),
       category: parsed.category || source.defaultCategory,
       region: parsed.region ?? source.region,
       industries: parsed.industries?.length ? parsed.industries : undefined,

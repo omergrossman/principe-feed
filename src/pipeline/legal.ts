@@ -8,7 +8,7 @@
 //      with the source text is rejected (no copy-paste of report body).
 
 import type { FeedEntry, RawItem } from "../types.js";
-import { SUMMARY_MAX_CHARS, VERBATIM_MAX_OVERLAP } from "../config/sources.js";
+import { SUMMARY_MAX_CHARS, MANUAL_SUMMARY_MAX_CHARS, VERBATIM_MAX_OVERLAP } from "../config/sources.js";
 import type { SourceDef } from "../config/sources.js";
 
 const SHINGLE_N = 10; // a shared run of 10+ words = verbatim copying
@@ -45,9 +45,10 @@ export function checkEntry(entry: FeedEntry, raw: RawItem, source: SourceDef): L
   if (entry.tier === "foundational" && source.trust !== "public" && source.trust !== "manual") {
     return { ok: false, reason: "foundational entry from non-public source" };
   }
-  // 2. Length cap.
-  if (entry.summary.length > SUMMARY_MAX_CHARS) {
-    return { ok: false, reason: `summary over ${SUMMARY_MAX_CHARS} chars` };
+  // 2. Length cap — manual (curated) items get a larger cap for a fuller digest.
+  const lenCap = source.trust === "manual" ? MANUAL_SUMMARY_MAX_CHARS : SUMMARY_MAX_CHARS;
+  if (entry.summary.length > lenCap) {
+    return { ok: false, reason: `summary over ${lenCap} chars` };
   }
   if (entry.summary.trim().length === 0) {
     return { ok: false, reason: "empty summary" };

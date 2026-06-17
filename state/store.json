@@ -1952,31 +1952,5 @@
     "publishedAt": "2026-06-17T10:09:24.000Z",
     "contentHash": "e2164fea053383da727e8a036d4037786d1404f4f77d253f60c42417ef361023",
     "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:manual-2a922f79cded",
-    "tier": "foundational",
-    "category": "strategy",
-    "title": "Major cloud security vendors pivot away from CNAPP as market consolidates around Wiz",
-    "summary": "Check Point and Palo Alto Networks are repositioning their cloud security offerings, with Check Point partnering with Wiz and transitioning CloudGuard to focus on WAF, while Palo Alto shifts from Prisma Cloud to Cortex Cloud as a SOC-oriented platform. The moves reflect market acknowledgment that cloud posture scanning has become a commoditized space dominated by Wiz, prompting established vendors to pursue adjacent markets including runtime detection, vulnerability management, and AI security.",
-    "sourceUrl": "https://pulse.latio.tech/p/the-great-cnapp-re-bundle",
-    "publishedAt": "2026-06-17T17:11:47.275Z",
-    "contentHash": "339b696e75858c3f09c3ecc3036c49bb9e209244675ba7c3cf0d95baf843491e",
-    "subjectKey": "manual-2a922f79cded",
-    "reportDate": "2026-06-17T17:11:47.275Z",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:manual-ab703ffd94b7",
-    "tier": "foundational",
-    "category": "strategy",
-    "title": "Runtime Cloud Security in 2025: Moving Beyond CNAPPs to Cloud Application Detection & Response",
-    "summary": "A security analyst argues that Cloud Native Application Protection Platforms (CNAPPs) fail to adequately protect cloud applications due to weak code analysis capabilities and rudimentary runtime detection, treating containers as simple Linux servers rather than complex cloud-native workloads. The author advocates for Cloud Application Detection & Response (CADR) as a purpose-built approach to runtime security, illustrating detection gaps through the MoveIT vulnerability case study, which spanned SQL injection, webshell execution, and unauthorized cloud data access across multiple architectural",
-    "sourceUrl": "https://pulse.latio.tech/p/runtime-cloud-security-in-2025",
-    "publishedAt": "2026-06-17T17:11:47.592Z",
-    "contentHash": "37bc46595d07ac93fd0bf92bee50b1dd25c4e69fe9366885562b2290e024c368",
-    "subjectKey": "manual-ab703ffd94b7",
-    "reportDate": "2026-06-17T17:11:47.592Z",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
   }
 ]
