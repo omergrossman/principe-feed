@@ -1978,5 +1978,106 @@
     "subjectKey": "manual-ab703ffd94b7",
     "reportDate": "2026-06-17T17:45:37.322Z",
     "ingestedAt": "2026-06-17T17:45:10.928Z"
+  },
+  {
+    "id": "knowledge:bleeping-f44667b2ac",
+    "tier": "event",
+    "category": "product-release",
+    "title": "OpenAI Testing ChatGPT Subscription Tier for Science Applications",
+    "summary": "OpenAI is conducting internal trials of a specialized ChatGPT subscription product designed for scientific research and workflows. The scope of eventual availability and access criteria remain undefined at this stage.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/",
+    "publishedAt": "2026-06-18T01:30:08.000Z",
+    "contentHash": "8ae1092f5146d92f6b6d0d36a2f2f4c4161ae2a7a4ede85ac86c158de58d37a2",
+    "ingestedAt": "2026-06-18T09:45:43.557Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f8eb106079",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "cryptocurrency",
+      "financial services"
+    ],
+    "title": "Crypto Clipper Campaign Uses Multi-Platform Distribution With Fake Reviews and AI Content",
+    "summary": "A threat actor is distributing cryptocurrency clipboard replacement malware through coordinated campaigns spanning legitimate news site advertisements, dedicated phishing infrastructure, and open-source repositories. The operation employs fake user reviews, AI-generated narration, and fraudulent social media accounts to create perceived legitimacy across YouTube, GitHub, and SourceForge.",
+    "sourceUrl": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
+    "publishedAt": "2026-06-17T18:14:24.000Z",
+    "contentHash": "f91b25c835f6f4308a6e910d9d92427885b5d887b35c0804859ab1066910f3ec",
+    "ingestedAt": "2026-06-18T09:45:43.557Z"
+  },
+  {
+    "id": "knowledge:darkreading-1e2f84f737",
+    "tier": "event",
+    "category": "strategy",
+    "region": "eu-west",
+    "industries": [
+      "telecommunications"
+    ],
+    "title": "EU Initiates 6G Network Security Framework with AI and Digital Twin Technologies",
+    "summary": "The EU-backed Shield-6G project aims to establish security mechanisms for next-generation 6G networks by integrating artificial intelligence-driven threat detection, digital twin simulations, and honeypot systems. The initiative seeks to address anticipated security challenges in 6G infrastructure before widespread deployment.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/eu-6g-network-security",
+    "publishedAt": "2026-06-18T07:00:00.000Z",
+    "contentHash": "94fb9e4515bc13b3e05ac327b02e8d237bed9f8d6c6d899f3da689d576591f3a",
+    "ingestedAt": "2026-06-18T09:45:43.557Z"
+  },
+  {
+    "id": "knowledge:sans-isc-e917bf8294",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast For Thursday, June 18th, 2026",
+    "summary": "SANS Internet Storm Center publishes daily podcast briefings covering current cybersecurity threats, vulnerabilities, and defensive practices. The episode provides analysis of recent security incidents and emerging attack vectors relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33088",
+    "publishedAt": "2026-06-18T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-18T09:45:43.557Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-63327485de",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC-UK Guidance on Risk-Calibrated Oversight for AI-Assisted Code Development",
+    "summary": "NCSC-UK provides guidance on implementing differentiated security oversight for AI-assisted software development, recommending that organisations calibrate their approach based on code risk levels rather than applying uniform controls. The framework suggests matching oversight intensity to the criticality and sensitivity of different code components.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development",
+    "publishedAt": "2026-06-18T12:00:00.000Z",
+    "contentHash": "49f5e638a74960f375941613007f465188851a55e3895f9249ff44793288a2bc",
+    "ingestedAt": "2026-06-18T09:45:43.557Z"
+  },
+  {
+    "id": "knowledge:bleeping-619a4e07fb",
+    "tier": "event",
+    "category": "strategy",
+    "region": "eu-west",
+    "title": "Google to Enable IP-Based Ad Personalization in UK and EU Markets",
+    "summary": "Google announced it will leverage IP addresses from UK, EEA, and Swiss users for ad measurement and personalization starting August 2026. The shift occurs as regulators reassess consent frameworks and reverses Google's prior position that IP-based device identification raised privacy concerns.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
+    "publishedAt": "2026-06-17T21:02:42.000Z",
+    "contentHash": "4a10d9336723a053bf076b68afea1ee6baa924b8cdcd0e89abca5a7a8b66eada",
+    "ingestedAt": "2026-06-18T09:45:43.557Z"
+  },
+  {
+    "id": "knowledge:darkreading-4e6b07fe22",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "INC Ransomware Group Demonstrates Effectiveness Through Targeting High-Pressure Sectors",
+    "summary": "INC ransomware operators have achieved sustained success by concentrating attacks on industries where operational disruption carries acute financial consequences, particularly healthcare. The group's approach emphasizes fundamental attack methodologies rather than technical sophistication, exploiting sector-specific vulnerabilities to maximize ransom payment likelihood.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-thrives-by-mastering-the-basics",
+    "publishedAt": "2026-06-17T19:46:25.000Z",
+    "contentHash": "df409e097672023e9a8e6c66f49a92594d58e09a27fd953a2eac0eb2fe76e52e",
+    "ingestedAt": "2026-06-18T09:45:43.557Z"
+  },
+  {
+    "id": "knowledge:sans-isc-98e2f7443d",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Coordinated SSH Brute Force Attack Patterns Observed Over Three-Month Period",
+    "summary": "Analysis of SSH brute force activity over a recent three-month window reveals patterns consistent with coordinated attack campaigns. The research documents behavioral characteristics and temporal trends in these distributed authentication attacks against exposed SSH services.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33086",
+    "publishedAt": "2026-06-18T01:49:29.000Z",
+    "contentHash": "539c6d75a85d68c711b4f470c2e05dea6a1b55028693d7d181ba541e51c37ee9",
+    "ingestedAt": "2026-06-18T09:45:43.557Z"
   }
 ]
