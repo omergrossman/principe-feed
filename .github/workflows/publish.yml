@@ -11,6 +11,9 @@ on:
     paths:
       - "knowledge/**"
       - "feed-metadata.json"
+      # The signed release now also carries the in-app news feed
+      # (news.json + .sig), so republish when an operator publishes news.
+      - "news/items.json"
   workflow_dispatch: {}
 
 permissions:
