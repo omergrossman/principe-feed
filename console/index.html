@@ -125,6 +125,7 @@
       <div class="row"><textarea id="nBody" placeholder="Body — markdown ok (**bold**, *italic*, [links](https://…))"></textarea></div>
       <div class="row">
         <input id="nLink" type="url" placeholder="Link (optional) — blog post, source article, or a video URL" />
+        <button class="btn" id="nClear" type="button" style="background:#fff;color:var(--ink-500);border:1px solid var(--border)">Clear</button>
         <button class="btn primary" id="nBtn" type="submit" disabled>Publish</button>
       </div>
     </form>
@@ -212,12 +213,12 @@ function render(s) {
   }
   const sl = $("suggestList");
   if (sl) {
-    sl.innerHTML = ""; window._sug = {};
+    sl.innerHTML = ""; window._sug = {}; const _edits = getEdits();
     for (const it of (s.suggestions || [])) {
-      window._sug[it.id] = it;
+      window._sug[it.id] = it; const _ed = _edits[it.id];
       const li = document.createElement("li");
       const span = document.createElement("span"); span.className = "label"; span.style.cursor = "pointer";
-      span.textContent = "💡 " + it.title + "  ·  " + it.tag; span.title = it.why || "Use this suggestion";
+      span.textContent = "💡 " + ((_ed && _ed.title) || it.title) + (_ed ? "  ·  ✎ edited" : "  ·  " + it.tag); span.title = it.why || "Use this suggestion";
       span.onclick = () => useSuggestion(it.id);
       const btn = document.createElement("button"); btn.className = "rm"; btn.textContent = "dismiss";
       btn.onclick = () => action({ action: "dismiss-suggestion", id: it.id }).then((ok) => ok && flash("✓ Dismissed"));
@@ -349,26 +350,41 @@ $("nTag").innerHTML = ["feature", "calibration", "security", "release", "researc
 $("nChannel").innerHTML = ["both", "web", "app"].map((c) => `<option value="${c}">${c}</option>`).join("");
 $("nDate").value = new Date().toISOString().slice(0, 10);
 const newsValid = () => $("nTitle").value.trim() && $("nBody").value.trim();
-let currentSuggestionId = null;
-$("nTitle").addEventListener("input", () => { currentSuggestionId = null; $("nBtn").disabled = !newsValid(); });
-$("nBody").addEventListener("input", () => { $("nBtn").disabled = !newsValid(); });
-function useSuggestion(id) {
-  const it = (window._sug || {})[id]; if (!it) return;
+const LS_EDITS = "principe_news_edits";
+const getEdits = () => { try { return JSON.parse(localStorage.getItem(LS_EDITS) || "{}"); } catch (e) { return {}; } };
+const setEdits = (m) => { try { localStorage.setItem(LS_EDITS, JSON.stringify(m)); } catch (e) {} };
+const NFIELDS = ["nTitle", "nTag", "nChannel", "nDate", "nSummary", "nBody", "nLink"];
+const formState = () => ({ title: $("nTitle").value, tag: $("nTag").value, channel: $("nChannel").value, date: $("nDate").value, summary: $("nSummary").value, body: $("nBody").value, link: $("nLink").value });
+function fillForm(it) {
   $("nTitle").value = it.title || ""; $("nTag").value = it.tag || "feature"; $("nChannel").value = it.channel || "both";
   $("nDate").value = it.date || new Date().toISOString().slice(0, 10);
   $("nSummary").value = it.summary || ""; $("nBody").value = it.body || ""; $("nLink").value = it.link || "";
+}
+let currentSuggestionId = null;
+// Auto-save: while a suggestion is loaded, every edit is kept (localStorage) so you
+// can jump between suggestions without losing work — Publish uses the edited version.
+function onFormEdit() {
+  $("nBtn").disabled = !newsValid();
+  if (currentSuggestionId) { const m = getEdits(); m[currentSuggestionId] = formState(); setEdits(m); }
+}
+NFIELDS.forEach((id) => { $(id).addEventListener("input", onFormEdit); $(id).addEventListener("change", onFormEdit); });
+function useSuggestion(id) {
+  const orig = (window._sug || {})[id]; if (!orig) return;
+  const edited = getEdits()[id];
+  fillForm(edited || orig);
   currentSuggestionId = id; $("nBtn").disabled = !newsValid();
   $("nTitle").scrollIntoView({ behavior: "smooth", block: "center" }); $("nTitle").focus();
-  flash("Loaded suggestion — review, then Publish");
+  flash(edited ? "Loaded your edited draft — review, then Publish" : "Loaded suggestion — review, then Publish");
 }
+$("nClear").addEventListener("click", () => { fillForm({}); currentSuggestionId = null; $("nBtn").disabled = true; });
 $("newsForm").addEventListener("submit", async (e) => {
   e.preventDefault(); if (!newsValid()) return;
   $("nBtn").disabled = true; $("nBtn").textContent = "Publishing…";
-  const ok = await action({ action: "add-news", title: $("nTitle").value, tag: $("nTag").value, channel: $("nChannel").value, date: $("nDate").value, summary: $("nSummary").value, body: $("nBody").value, link: $("nLink").value });
+  const ok = await action({ action: "add-news", ...formState() });
   $("nBtn").textContent = "Publish";
   if (ok) {
-    ["nTitle", "nSummary", "nBody", "nLink"].forEach((id) => $(id).value = ""); $("nBtn").disabled = true;
-    if (currentSuggestionId) { await action({ action: "dismiss-suggestion", id: currentSuggestionId }); currentSuggestionId = null; } // published → drop from suggestions
+    fillForm({}); $("nBtn").disabled = true;
+    if (currentSuggestionId) { await action({ action: "dismiss-suggestion", id: currentSuggestionId }); const m = getEdits(); delete m[currentSuggestionId]; setEdits(m); currentSuggestionId = null; } // published → drop suggestion + its saved edit
     flash("✓ News published — live shortly");
   } else { $("nBtn").disabled = false; }
 });
