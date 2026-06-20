@@ -1,5 +1,14 @@
 [
   {
+    "id": "run-30-to-200-cisos-your-call",
+    "date": "2026-06-20",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Run 30 to 200 CISOs — your call",
+    "summary": "Panel size is a dial: 30 for a fast read, up to 200 for a tighter one. The floor of 30 keeps every answer statistically honest.",
+    "body": "Choose your N. A smaller panel is faster and cheaper; a larger one narrows the confidence band. Below 30 the product refuses — that's the line where the statistics stop being meaningful."
+  },
+  {
     "id": "news-center-launch",
     "date": "2026-06-20",
     "tag": "feature",
