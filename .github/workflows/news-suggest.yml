@@ -1,0 +1,43 @@
+name: Suggest news
+
+# Drafts candidate news updates from recent product changes (principe-oss merged
+# PRs) using the feed's Anthropic key, into news/suggestions.json for review in
+# the Console. Triggered by the Console's "Suggest" button (workflow_dispatch)
+# or a weekly schedule — it only writes when there's something worth announcing.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * 1" # Mondays 09:00 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-suggest
+  cancel-in-progress: true
+
+jobs:
+  suggest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Draft suggestions
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/suggest-news.mjs
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain news/suggestions.json)" ]; then
+            git config user.name "principe-feed-bot"
+            git config user.email "bot@users.noreply.github.com"
+            git add news/suggestions.json
+            git commit -m "feed: refresh news suggestions [skip ci]"
+            git push
+          else
+            echo "no new suggestions"
+          fi

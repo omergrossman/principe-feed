@@ -41,6 +41,8 @@ const URLS_PATH = "manual/urls.txt";
 const INBOX = "manual/inbox";
 const STORE = "state/store.json";
 const SEEN = "state/seen.json";
+const NEWS_PATH = "news/items.json";
+const SUGGEST_PATH = "news/suggestions.json";
 
 function gh(path, init) {
   return fetch(`${GH}/repos/${REPO}/${path}`, {
@@ -72,12 +74,14 @@ async function delFile(path, sha, message) {
 }
 
 async function getState() {
-  const [urlsF, inboxR, storeF, commitsR, seenF] = await Promise.all([
+  const [urlsF, inboxR, storeF, commitsR, seenF, newsF, sugF] = await Promise.all([
     readFile(URLS_PATH),
     gh(`contents/${INBOX}`),
     readFile(STORE),
     gh(`commits?path=${STORE}&per_page=6`),
     readFile(SEEN),
+    readFile(NEWS_PATH),
+    readFile(SUGGEST_PATH),
   ]);
   // A build records every digested URL in seen.json (keyed by the URL). Hide
   // those from the "waiting" list so it shows only inputs not yet processed —
@@ -99,7 +103,11 @@ async function getState() {
     const c = await commitsR.json();
     recentBuilds = c.map((x) => ({ date: x.commit.author.date, message: x.commit.message.split("\n")[0], sha: x.sha.slice(0, 7) }));
   }
-  return { repo: REPO, urls, files, liveCount, recentBuilds, anthropic: anthropicStatus() };
+  let news = [];
+  try { news = newsF ? JSON.parse(newsF.content).map((x) => ({ id: x.id, date: x.date, tag: x.tag, title: x.title, channel: x.channel || "both" })) : []; } catch { /* ignore */ }
+  let suggestions = [];
+  try { suggestions = sugF ? JSON.parse(sugF.content) : []; } catch { /* ignore */ }
+  return { repo: REPO, urls, files, liveCount, recentBuilds, news, suggestions, anthropic: anthropicStatus() };
 }
 
 async function addUrl(url) {
@@ -122,6 +130,46 @@ async function addFile(name, b64) {
 }
 async function removeFile(name, sha) {
   await delFile(`${INBOX}/${name}`, sha, `feed: remove manual file ${name} via console`);
+}
+
+// --- News (operator-authored product updates; published verbatim, not digested).
+//     Writes news/items.json → the news.yml workflow rebuilds news.json for the site;
+//     the app gets news through the signed bundle. ---
+function slugify(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48) || "update"; }
+async function readNews() {
+  const e = await readFile(NEWS_PATH);
+  if (!e) return { items: [], sha: undefined };
+  try { return { items: JSON.parse(e.content), sha: e.sha }; } catch { return { items: [], sha: e.sha }; }
+}
+async function addNews(b) {
+  const { items, sha } = await readNews();
+  const ids = new Set(items.map((x) => x.id));
+  let base = slugify(b.title), id = base, n = 2;
+  while (ids.has(id)) id = `${base}-${n++}`;
+  const item = {
+    id,
+    date: /^\d{4}-\d{2}-\d{2}$/.test(b.date || "") ? b.date : new Date().toISOString().slice(0, 10),
+    tag: b.tag,
+    channel: ["app", "web", "both"].includes(b.channel) ? b.channel : "both",
+    title: b.title.trim(),
+    ...(b.summary && b.summary.trim() ? { summary: b.summary.trim() } : {}),
+    body: b.body.trim(),
+    ...(b.link && b.link.trim() ? { link: b.link.trim() } : {}),
+  };
+  await putFile(NEWS_PATH, Buffer.from(JSON.stringify([item, ...items], null, 2) + "\n").toString("base64"), `feed: add news "${item.title}" via console`, sha);
+}
+async function removeNews(id) {
+  const { items, sha } = await readNews();
+  if (sha == null) return;
+  const next = items.filter((x) => x.id !== id);
+  await putFile(NEWS_PATH, Buffer.from(JSON.stringify(next, null, 2) + "\n").toString("base64"), `feed: remove news ${id} via console`, sha);
+}
+async function dismissSuggestion(id) {
+  const e = await readFile(SUGGEST_PATH);
+  if (!e) return;
+  let items = [];
+  try { items = JSON.parse(e.content); } catch { return; }
+  await putFile(SUGGEST_PATH, Buffer.from(JSON.stringify(items.filter((x) => x.id !== id), null, 2) + "\n").toString("base64"), `feed: dismiss suggestion ${id} via console`, e.sha);
 }
 
 // --- The feed's OWN Anthropic key (separate from Príncipe's). Stored as the
@@ -202,6 +250,22 @@ const server = createServer(async (req, res) => {
           await addFile(b.name, b.contentBase64);
           break;
         case "remove-file": await removeFile((b.name || "").trim(), (b.sha || "").trim()); break;
+        case "add-news": {
+          const title = (b.title || "").trim(), body = (b.body || "").trim();
+          if (!title) return json(res, 400, { ok: false, error: "Title is required." });
+          if (!body) return json(res, 400, { ok: false, error: "Body is required." });
+          if (!["feature", "calibration", "security", "release", "research", "tip"].includes(b.tag))
+            return json(res, 400, { ok: false, error: "Pick a valid tag." });
+          await addNews(b);
+          break;
+        }
+        case "remove-news": await removeNews((b.id || "").trim()); break;
+        case "suggest-news":
+          // Draft fresh suggestions from recent product changes (uses the feed's
+          // Anthropic secret in the workflow; ~1–2 min, like Run build).
+          ghCli(["workflow", "run", "news-suggest.yml", "--repo", REPO]);
+          break;
+        case "dismiss-suggestion": await dismissSuggestion((b.id || "").trim()); break;
         case "set-anthropic": {
           const key = (b.value || "").trim();
           if (!key.startsWith("sk-ant-")) return json(res, 400, { ok: false, error: "Enter a valid Anthropic key (sk-ant-…)." });

@@ -67,6 +67,15 @@
   .status.no { background: #f3f1ec; color: var(--ink-500); }
   input[type=password] { flex: 1; height: 38px; padding: 0 .8rem; border: 1px solid var(--border); border-radius: 8px; font-size: 13.5px; outline: none; }
   input[type=password]:focus { border-color: var(--flare); }
+  input[type=text], input[type=date], select, textarea {
+    flex: 1; width: 100%; padding: .5rem .8rem; border: 1px solid var(--border); border-radius: 8px;
+    font: inherit; font-size: 13.5px; color: var(--ink-900); background: #fff; outline: none;
+  }
+  input[type=text], input[type=date], select { height: 38px; }
+  input[type=text]:focus, input[type=date]:focus, select:focus, textarea:focus { border-color: var(--flare); }
+  textarea { min-height: 92px; resize: vertical; line-height: 1.5; }
+  .newsgrid { display: flex; gap: .6rem; margin-bottom: .9rem; }
+  .newsgrid > * { flex: 1; }
   .builds li { cursor: pointer; border-radius: 6px; padding: .35rem .4rem; }
   .builds li:hover { background: #faf8f4; }
   .builds li.open .label { color: var(--flare); }
@@ -96,6 +105,33 @@
     before publishing. <span id="live"></span>
   </p>
   <div class="err" id="err" hidden></div>
+
+  <section class="card">
+    <h2>Publish a news update <span class="pill">app + web</span></h2>
+    <p class="hint">Shown in the app's What's New and on the website. Published <b>verbatim</b> — not digested. Add a link only if it fronts something richer (a post, a source article, or a video).</p>
+    <div class="runbar" style="margin:.2rem 0 .8rem">
+      <button class="btn" id="suggestBtn" style="background:var(--flare-soft);color:var(--flare)">💡 Suggest updates</button>
+      <span class="runstatus" id="suggestStatus"></span>
+    </div>
+    <ul class="list" id="suggestList"></ul>
+    <form id="newsForm">
+      <div class="row"><input id="nTitle" type="text" placeholder="Title" /></div>
+      <div class="newsgrid">
+        <select id="nTag" title="Topic"></select>
+        <select id="nChannel" title="Where it shows"></select>
+        <input id="nDate" type="date" title="Date" />
+      </div>
+      <div class="row"><input id="nSummary" type="text" placeholder="One-line summary (optional)" /></div>
+      <div class="row"><textarea id="nBody" placeholder="Body — markdown ok (**bold**, *italic*, [links](https://…))"></textarea></div>
+      <div class="row">
+        <input id="nLink" type="url" placeholder="Link (optional) — blog post, source article, or a video URL" />
+        <button class="btn primary" id="nBtn" type="submit" disabled>Publish</button>
+      </div>
+    </form>
+    <h3 style="margin-top:1.2rem">Published updates</h3>
+    <ul class="list" id="newsList"></ul>
+    <p class="muted" id="newsEmpty" hidden>No news yet — publish your first update above.</p>
+  </section>
 
   <div class="runbar">
     <button class="btn primary" id="runBtn">⚡ Run build now</button>
@@ -173,6 +209,32 @@ function render(s) {
     li.append(d, m, c);
     li.onclick = () => loadBuild(b.sha, b.date, li);
     builds.append(li);
+  }
+  const sl = $("suggestList");
+  if (sl) {
+    sl.innerHTML = ""; window._sug = {};
+    for (const it of (s.suggestions || [])) {
+      window._sug[it.id] = it;
+      const li = document.createElement("li");
+      const span = document.createElement("span"); span.className = "label"; span.style.cursor = "pointer";
+      span.textContent = "💡 " + it.title + "  ·  " + it.tag; span.title = it.why || "Use this suggestion";
+      span.onclick = () => useSuggestion(it.id);
+      const btn = document.createElement("button"); btn.className = "rm"; btn.textContent = "dismiss";
+      btn.onclick = () => action({ action: "dismiss-suggestion", id: it.id }).then((ok) => ok && flash("✓ Dismissed"));
+      li.append(span, btn); sl.append(li);
+    }
+  }
+  const nl = $("newsList"), ne = $("newsEmpty");
+  nl.innerHTML = "";
+  const news = s.news || [];
+  ne.hidden = news.length > 0;
+  for (const it of news) {
+    const li = document.createElement("li");
+    const span = document.createElement("span"); span.className = "label";
+    span.textContent = `${it.date} · ${it.tag} — ${it.title}` + (it.channel && it.channel !== "both" ? `  [${it.channel}]` : "");
+    const btn = document.createElement("button"); btn.className = "rm"; btn.textContent = "remove";
+    btn.onclick = () => action({ action: "remove-news", id: it.id }).then((ok) => ok && flash("✓ Removed"));
+    li.append(span, btn); nl.append(li);
   }
   const ak = $("akStatus"), a = s.anthropic || {};
   if (a.set) { ak.className = "status ok"; ak.textContent = "set" + (a.updatedAt ? " · " + new Date(a.updatedAt).toLocaleDateString() : ""); ak.title = ""; }
@@ -281,6 +343,42 @@ function pollAfterBuild(beforeSha) {
     if (tries >= 16) clearInterval(pollTimer); // ~7 min cap
   }, 25000);
 }
+
+// News card
+$("nTag").innerHTML = ["feature", "calibration", "security", "release", "research", "tip"].map((t) => `<option value="${t}">${t}</option>`).join("");
+$("nChannel").innerHTML = ["both", "web", "app"].map((c) => `<option value="${c}">${c}</option>`).join("");
+$("nDate").value = new Date().toISOString().slice(0, 10);
+const newsValid = () => $("nTitle").value.trim() && $("nBody").value.trim();
+let currentSuggestionId = null;
+$("nTitle").addEventListener("input", () => { currentSuggestionId = null; $("nBtn").disabled = !newsValid(); });
+$("nBody").addEventListener("input", () => { $("nBtn").disabled = !newsValid(); });
+function useSuggestion(id) {
+  const it = (window._sug || {})[id]; if (!it) return;
+  $("nTitle").value = it.title || ""; $("nTag").value = it.tag || "feature"; $("nChannel").value = it.channel || "both";
+  $("nDate").value = it.date || new Date().toISOString().slice(0, 10);
+  $("nSummary").value = it.summary || ""; $("nBody").value = it.body || ""; $("nLink").value = it.link || "";
+  currentSuggestionId = id; $("nBtn").disabled = !newsValid();
+  $("nTitle").scrollIntoView({ behavior: "smooth", block: "center" }); $("nTitle").focus();
+  flash("Loaded suggestion — review, then Publish");
+}
+$("newsForm").addEventListener("submit", async (e) => {
+  e.preventDefault(); if (!newsValid()) return;
+  $("nBtn").disabled = true; $("nBtn").textContent = "Publishing…";
+  const ok = await action({ action: "add-news", title: $("nTitle").value, tag: $("nTag").value, channel: $("nChannel").value, date: $("nDate").value, summary: $("nSummary").value, body: $("nBody").value, link: $("nLink").value });
+  $("nBtn").textContent = "Publish";
+  if (ok) {
+    ["nTitle", "nSummary", "nBody", "nLink"].forEach((id) => $(id).value = ""); $("nBtn").disabled = true;
+    if (currentSuggestionId) { await action({ action: "dismiss-suggestion", id: currentSuggestionId }); currentSuggestionId = null; } // published → drop from suggestions
+    flash("✓ News published — live shortly");
+  } else { $("nBtn").disabled = false; }
+});
+$("suggestBtn").addEventListener("click", async () => {
+  $("suggestBtn").disabled = true; $("suggestStatus").textContent = "Drafting from recent changes… (~1–2 min)";
+  const ok = await action({ action: "suggest-news" });
+  if (ok) { flash("💡 Drafting suggestions — they'll appear here shortly"); setTimeout(load, 90000); }
+  else { $("suggestStatus").textContent = ""; }
+  setTimeout(() => { $("suggestBtn").disabled = false; }, 5000);
+});
 
 load();
 </script>
