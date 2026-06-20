@@ -36,6 +36,15 @@ function inferKind(link: string): "video" | "external" | "blog" {
   return "blog";
 }
 
+// The marketing site that hosts blog posts + demo assets. Authored links
+// are relative (the website resolves them against its own origin), but the
+// app runs on a different origin, so app-channel links must be ABSOLUTE.
+const SITE_ORIGIN = "https://www.principe.cloud";
+function absolutize(link: string): string {
+  if (/^https?:\/\//i.test(link)) return link;
+  return `${SITE_ORIGIN}/${link.replace(/^\//, "")}`;
+}
+
 /**
  * Build + sign the app-channel news artifact (news.json + news.json.sig)
  * from the authored master (news/items.json). The in-app "What's New"
@@ -61,7 +70,9 @@ function buildSignedNews(version: string, keyPem: string): string[] {
         title: it.title.trim(),
         summary: (it.summary || it.body).trim().split("\n")[0].slice(0, 220),
         body: it.body.trim(),
-        ...(it.link ? { link: it.link, kind: it.kind || inferKind(it.link) } : {}),
+        ...(it.link
+          ? { link: absolutize(it.link), kind: it.kind || inferKind(it.link) }
+          : {}),
         ...(it.expires ? { expires: it.expires } : {}),
       }));
   }
