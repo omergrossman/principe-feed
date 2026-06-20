@@ -10,16 +10,6 @@
     "why": "Major capability that isn't announced in the news center yet."
   },
   {
-    "id": "decision-grade-output",
-    "date": "2026-06-20",
-    "tag": "feature",
-    "channel": "both",
-    "title": "Decision-grade output: a stance, the objections, and the dissent",
-    "summary": "Not a vibe and a number — a clear stance, the ranked objections that block it, and the segment most against you.",
-    "body": "Every panel run returns a decision-grade read: a stance, the objections ranked by how much they block adoption, the most-opposed segment, and a statistical check on whether the panel was even the right shape for the question.",
-    "why": "Core output format, not yet called out as an update."
-  },
-  {
     "id": "variable-n-panel",
     "date": "2026-06-20",
     "tag": "feature",
