@@ -1,0 +1,32 @@
+[
+  {
+    "id": "daily-knowledge-feed",
+    "date": "2026-06-20",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Your panel now updates itself daily",
+    "summary": "A signed cyber-news feed refreshes the panel daily, so every persona reacts to this week's breaches, regulation, and vendor moves.",
+    "body": "Each CISO is grounded in the world that touches their seat. A daily pipeline scrapes public security sources, digests them (key points, never verbatim), signs the bundle, and your instance verifies and applies it — tagged by region and industry so the right personas react to the right news.",
+    "why": "Major capability that isn't announced in the news center yet."
+  },
+  {
+    "id": "decision-grade-output",
+    "date": "2026-06-20",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Decision-grade output: a stance, the objections, and the dissent",
+    "summary": "Not a vibe and a number — a clear stance, the ranked objections that block it, and the segment most against you.",
+    "body": "Every panel run returns a decision-grade read: a stance, the objections ranked by how much they block adoption, the most-opposed segment, and a statistical check on whether the panel was even the right shape for the question.",
+    "why": "Core output format, not yet called out as an update."
+  },
+  {
+    "id": "variable-n-panel",
+    "date": "2026-06-20",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Run 30 to 200 CISOs — your call",
+    "summary": "Panel size is a dial: 30 for a fast read, up to 200 for a tighter one. The floor of 30 keeps every answer statistically honest.",
+    "body": "Choose your N. A smaller panel is faster and cheaper; a larger one narrows the confidence band. Below 30 the product refuses — that's the line where the statistics stop being meaningful.",
+    "why": "Differentiator (variable-N) worth surfacing to users."
+  }
+]

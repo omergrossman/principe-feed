@@ -1,0 +1,69 @@
+[
+  {
+    "id": "news-center-launch",
+    "date": "2026-06-20",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Introducing the Príncipe news center",
+    "summary": "Product updates now reach you in two places: in-app, and here on the site.",
+    "body": "We're adding a single place to follow what's changing in Príncipe — feature updates, calibration improvements, security and release notes.\n\nOne source, two channels: every update appears **in the app** (delivered through the same signed knowledge feed that updates your panel) and **here on the site**. You'll see what's new without hunting through release notes."
+  },
+  {
+    "id": "demo-walkthrough",
+    "date": "2026-06-18",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Watch a question become a decision",
+    "summary": "A two-minute run, recorded live against a self-hosted instance.",
+    "body": "See a real security question go in and a calibrated decision come out — stance, the segments that split, the objections that block it, and an honest read on confidence.",
+    "kind": "video",
+    "link": "assets/principe-demo.mp4"
+  },
+  {
+    "id": "sharper-verdicts",
+    "date": "2026-06-17",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Sharper verdicts — stance now reflects the full split",
+    "summary": "A verdict can no longer read 'strong no' when only a small minority objects. Neutrality isn't opposition.",
+    "body": "The decision stance now derives from the **balance** between support and opposition, not support alone. A *Strong* verdict requires a clear majority *and* a wide net margin; abstentions and neutrals no longer count as 'against'.\n\nSo if only 8% of the panel objects, you'll never see a 'strong no'. Existing reports were backfilled, and the on-screen summary and the PDF export now always agree with the buy-rate."
+  },
+  {
+    "id": "vs-naive-writeup",
+    "date": "2026-06-16",
+    "tag": "research",
+    "channel": "both",
+    "title": "New write-up: Príncipe vs naive N-shot",
+    "summary": "Is the panel real signal, or the same prompt sampled 100 times? A controlled experiment against 9,600+ real CISO responses.",
+    "body": "Three conditions on 10 benchmark questions. Full Príncipe missed by 14pp; naive N-shot by 35pp — a 21-point gap the null hypothesis can't explain.",
+    "kind": "blog",
+    "link": "blog/principe-vs-naive.html"
+  },
+  {
+    "id": "calibration-47-to-18",
+    "date": "2026-06-14",
+    "tag": "calibration",
+    "channel": "both",
+    "title": "Panel recalibrated — mean error 47 → 18 points",
+    "summary": "A panel-layer fix plus type-aware calibration cut the gap to real CISO opinion by more than half.",
+    "body": "We measured the panel against real CISO surveys and closed the gap step by step — overall mean error fell from **47 to 18 points**.\n\nThe biggest lever was panel heterogeneity: personas now carry a business-pragmatist disposition alongside the security-purist one, so the room *splits* where real CISOs split instead of collapsing to 0% or 100%. Where a question type still isn't calibrated, the answer comes back marked *directional* — honest about its own confidence."
+  },
+  {
+    "id": "one-command-install",
+    "date": "2026-06-09",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Self-host in one command",
+    "summary": "One line installs Docker if needed, clones the repo, and boots the whole stack.",
+    "body": "A first-run wizard takes your API key and brings up Postgres, the Bayesian statistician, and the web app. Pick your OS on the download page and paste a single command."
+  },
+  {
+    "id": "open-source-launch",
+    "date": "2026-06-08",
+    "tag": "release",
+    "channel": "both",
+    "title": "Príncipe is now open source (AGPL-3.0)",
+    "summary": "The whole engine — personas, calibration, statistics — is public and self-hostable.",
+    "body": "Príncipe is released under **AGPL-3.0**: run it entirely on your own machine, bring your own API key, nothing sent to us. The community licence keeps it open for everyone while preventing closed white-labelling."
+  }
+]

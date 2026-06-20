@@ -1,0 +1,40 @@
+name: Build news.json
+
+# Operator-authored product news. When news/items.json changes, rebuild the
+# public web view (news.json) the marketing site reads. App delivery (news in
+# the signed bundle) is handled by the daily/publish pipeline separately.
+
+on:
+  push:
+    branches: [main]
+    paths: ["news/items.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-news
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build news.json
+        run: node scripts/build-news.mjs
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain news.json)" ]; then
+            git config user.name "principe-feed-bot"
+            git config user.email "bot@users.noreply.github.com"
+            git add news.json
+            git commit -m "feed: rebuild news.json [skip ci]"
+            git push
+          else
+            echo "news.json unchanged"
+          fi
