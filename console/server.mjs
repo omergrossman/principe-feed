@@ -136,40 +136,50 @@ async function removeFile(name, sha) {
 //     Writes news/items.json → the news.yml workflow rebuilds news.json for the site;
 //     the app gets news through the signed bundle. ---
 function slugify(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48) || "update"; }
-async function readNews() {
-  const e = await readFile(NEWS_PATH);
-  if (!e) return { items: [], sha: undefined };
-  try { return { items: JSON.parse(e.content), sha: e.sha }; } catch { return { items: [], sha: e.sha }; }
+
+// Read a JSON array, apply `transform`, write it back — retrying on a 409
+// (stale sha): GitHub's contents API can hand back an out-of-date sha, and a
+// concurrent write can move it, so we re-read the fresh sha and retry.
+async function mutateJson(path, transform, message) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const e = await readFile(path);
+    let cur = [];
+    if (e) { try { cur = JSON.parse(e.content); } catch { cur = []; } }
+    const next = transform(cur);
+    if (next == null) return;
+    const r = await gh(`contents/${path}`, {
+      method: "PUT",
+      body: JSON.stringify({ message, content: Buffer.from(JSON.stringify(next, null, 2) + "\n").toString("base64"), ...(e?.sha ? { sha: e.sha } : {}) }),
+    });
+    if (r.ok) return;
+    if (r.status === 409 && attempt < 2) continue; // stale sha — re-read + retry
+    throw new Error(`write ${path}: ${r.status} ${(await r.text()).slice(0, 200)}`);
+  }
 }
+
 async function addNews(b) {
-  const { items, sha } = await readNews();
-  const ids = new Set(items.map((x) => x.id));
-  let base = slugify(b.title), id = base, n = 2;
-  while (ids.has(id)) id = `${base}-${n++}`;
-  const item = {
-    id,
-    date: /^\d{4}-\d{2}-\d{2}$/.test(b.date || "") ? b.date : new Date().toISOString().slice(0, 10),
-    tag: b.tag,
-    channel: ["app", "web", "both"].includes(b.channel) ? b.channel : "both",
-    title: b.title.trim(),
-    ...(b.summary && b.summary.trim() ? { summary: b.summary.trim() } : {}),
-    body: b.body.trim(),
-    ...(b.link && b.link.trim() ? { link: b.link.trim() } : {}),
-  };
-  await putFile(NEWS_PATH, Buffer.from(JSON.stringify([item, ...items], null, 2) + "\n").toString("base64"), `feed: add news "${item.title}" via console`, sha);
+  await mutateJson(NEWS_PATH, (items) => {
+    const ids = new Set(items.map((x) => x.id));
+    let base = slugify(b.title), id = base, n = 2;
+    while (ids.has(id)) id = `${base}-${n++}`;
+    const item = {
+      id,
+      date: /^\d{4}-\d{2}-\d{2}$/.test(b.date || "") ? b.date : new Date().toISOString().slice(0, 10),
+      tag: b.tag,
+      channel: ["app", "web", "both"].includes(b.channel) ? b.channel : "both",
+      title: b.title.trim(),
+      ...(b.summary && b.summary.trim() ? { summary: b.summary.trim() } : {}),
+      body: b.body.trim(),
+      ...(b.link && b.link.trim() ? { link: b.link.trim() } : {}),
+    };
+    return [item, ...items];
+  }, `feed: add news "${b.title.trim()}" via console`);
 }
 async function removeNews(id) {
-  const { items, sha } = await readNews();
-  if (sha == null) return;
-  const next = items.filter((x) => x.id !== id);
-  await putFile(NEWS_PATH, Buffer.from(JSON.stringify(next, null, 2) + "\n").toString("base64"), `feed: remove news ${id} via console`, sha);
+  await mutateJson(NEWS_PATH, (items) => items.filter((x) => x.id !== id), `feed: remove news ${id} via console`);
 }
 async function dismissSuggestion(id) {
-  const e = await readFile(SUGGEST_PATH);
-  if (!e) return;
-  let items = [];
-  try { items = JSON.parse(e.content); } catch { return; }
-  await putFile(SUGGEST_PATH, Buffer.from(JSON.stringify(items.filter((x) => x.id !== id), null, 2) + "\n").toString("base64"), `feed: dismiss suggestion ${id} via console`, e.sha);
+  await mutateJson(SUGGEST_PATH, (items) => items.filter((x) => x.id !== id), `feed: dismiss suggestion ${id} via console`);
 }
 
 // --- The feed's OWN Anthropic key (separate from Príncipe's). Stored as the
