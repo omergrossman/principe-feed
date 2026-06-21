@@ -10,16 +10,6 @@
     "why": "Drafted from a recent product change."
   },
   {
-    "id": "two-security-fixes-ssrf-bypass-project-privilege",
-    "date": "2026-06-21",
-    "tag": "security",
-    "channel": "both",
-    "title": "Two security fixes: SSRF bypass + project privilege escalation",
-    "summary": "An IPv6-mapped SSRF bypass and a horizontal privilege-escalation path across projects are both patched.",
-    "body": "The SSRF filter was missing IPv4-mapped IPv6 addresses (e.g. `::ffff:127.0.0.1`), allowing a bypass of the private-IP block. Separately, a missing ownership check let a user read another project's data by manipulating request parameters. Both are fixed in this release. The member-invite feature has also been removed to eliminate an invite-token account-takeover vector until a proper design is in place.",
-    "why": "Drafted from a recent product change."
-  },
-  {
     "id": "daily-knowledge-feed",
     "date": "2026-06-20",
     "tag": "feature",
