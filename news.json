@@ -1,7 +1,15 @@
 {
-  "updated": "2026-06-20",
+  "updated": "2026-06-21",
   "count": 7,
   "items": [
+    {
+      "id": "run-30-to-200-cisos-your-call",
+      "date": "2026-06-20",
+      "tag": "feature",
+      "title": "Run 30 to 200 CISOs — your call",
+      "summary": "Panel size is a dial: 30 for a fast read, up to 200 for a tighter one. The floor of 30 keeps every answer statistically honest.",
+      "body": "Choose your N. A smaller panel is faster and cheaper; a larger one narrows the confidence band. Below 30 the product refuses — that's the line where the statistics stop being meaningful."
+    },
     {
       "id": "news-center-launch",
       "date": "2026-06-20",
@@ -53,14 +61,6 @@
       "title": "Self-host in one command",
       "summary": "One line installs Docker if needed, clones the repo, and boots the whole stack.",
       "body": "A first-run wizard takes your API key and brings up Postgres, the Bayesian statistician, and the web app. Pick your OS on the download page and paste a single command."
-    },
-    {
-      "id": "open-source-launch",
-      "date": "2026-06-08",
-      "tag": "release",
-      "title": "Príncipe is now open source (AGPL-3.0)",
-      "summary": "The whole engine — personas, calibration, statistics — is public and self-hostable.",
-      "body": "Príncipe is released under **AGPL-3.0**: run it entirely on your own machine, bring your own API key, nothing sent to us. The community licence keeps it open for everyone while preventing closed white-labelling."
     }
   ]
 }
