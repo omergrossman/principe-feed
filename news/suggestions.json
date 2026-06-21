@@ -1,5 +1,45 @@
 [
   {
+    "id": "pr-ncipe-v1-0-0",
+    "date": "2026-06-21",
+    "tag": "release",
+    "channel": "both",
+    "title": "Príncipe v1.0.0",
+    "summary": "The first stable release is tagged and the version is now visible in the app.",
+    "body": "v1.0.0 is now the named release. You'll see the version number on the launch splash and in the About footer — both linked to the release notes on GitHub. Single-sourced from `package.json` and the git tag, so it stays in sync automatically.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "pdf-exports-now-match-what-you-see-on-screen",
+    "date": "2026-06-21",
+    "tag": "feature",
+    "channel": "both",
+    "title": "PDF exports now match what you see on screen",
+    "summary": "Ranked objections, blind spot, contested flag, and fixed text formatting all land in the exported report.",
+    "body": "The PDF was lagging the UI — it showed a single objection and printed `*emphasis*` as literal asterisks. Now the export renders the top-3 ranked objections, the 'What the panel almost missed' blind spot, and the Contested minority-stronger flag. Single- and double-asterisk emphasis both render as bold, matching the on-screen cards.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "synthesis-upgraded-to-sonnet-reports-hit-harder",
+    "date": "2026-06-21",
+    "tag": "calibration",
+    "channel": "both",
+    "title": "Synthesis upgraded to Sonnet — reports hit harder",
+    "summary": "The narrative pass (executive summary, pros/cons, insights) now runs on Claude Sonnet and is tuned for directness.",
+    "body": "The synthesis model that writes the decision report's narrative has been upgraded and prompted for more direct, impactful prose. The change affects both the in-app result and the PDF export identically. No action needed — your next run will reflect the updated output.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "two-security-fixes-ssrf-bypass-project-privilege",
+    "date": "2026-06-21",
+    "tag": "security",
+    "channel": "both",
+    "title": "Two security fixes: SSRF bypass + project privilege escalation",
+    "summary": "An IPv6-mapped SSRF bypass and a horizontal privilege-escalation path across projects are both patched.",
+    "body": "The SSRF filter was missing IPv4-mapped IPv6 addresses (e.g. `::ffff:127.0.0.1`), allowing a bypass of the private-IP block. Separately, a missing ownership check let a user read another project's data by manipulating request parameters. Both are fixed in this release. The member-invite feature has also been removed to eliminate an invite-token account-takeover vector until a proper design is in place.",
+    "why": "Drafted from a recent product change."
+  },
+  {
     "id": "daily-knowledge-feed",
     "date": "2026-06-20",
     "tag": "feature",
