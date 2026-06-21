@@ -10,16 +10,6 @@
     "why": "Drafted from a recent product change."
   },
   {
-    "id": "pdf-exports-now-match-what-you-see-on-screen",
-    "date": "2026-06-21",
-    "tag": "feature",
-    "channel": "both",
-    "title": "PDF exports now match what you see on screen",
-    "summary": "Ranked objections, blind spot, contested flag, and fixed text formatting all land in the exported report.",
-    "body": "The PDF was lagging the UI — it showed a single objection and printed `*emphasis*` as literal asterisks. Now the export renders the top-3 ranked objections, the 'What the panel almost missed' blind spot, and the Contested minority-stronger flag. Single- and double-asterisk emphasis both render as bold, matching the on-screen cards.",
-    "why": "Drafted from a recent product change."
-  },
-  {
     "id": "synthesis-upgraded-to-sonnet-reports-hit-harder",
     "date": "2026-06-21",
     "tag": "calibration",
