@@ -901,5 +901,103 @@
   "knowledge/sans-isc-98e2f7443d.md": {
     "category": "threat-intel",
     "publishedAt": "2026-06-18T01:49:29.000Z"
+  },
+  "knowledge/bleeping-e357e12ae5.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-20T15:23:46.000Z"
+  },
+  "knowledge/darkreading-6c209a0106.md": {
+    "category": "news",
+    "publishedAt": "2026-06-19T13:00:00.000Z"
+  },
+  "knowledge/ncsc-uk-5f26de0c58.md": {
+    "region": "uk",
+    "category": "threat-intel",
+    "publishedAt": "2026-06-18T12:00:00.000Z"
+  },
+  "knowledge/cisa-3fd67a8e01.md": {
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-18T12:00:00.000Z"
+  },
+  "knowledge/bleeping-2e719dabd7.md": {
+    "region": "global",
+    "industries": [
+      "software development",
+      "cloud services"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-20T14:09:19.000Z"
+  },
+  "knowledge/thehackernews-800b7492fc.md": {
+    "region": "global",
+    "industries": [
+      "consumer electronics",
+      "mobile"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-19T18:37:41.000Z"
+  },
+  "knowledge/darkreading-ec7acd8f0e.md": {
+    "industries": [
+      "healthcare",
+      "pharmaceuticals"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-18T20:05:47.000Z"
+  },
+  "knowledge/cisa-7d77cc6c9e.md": {
+    "region": "apac",
+    "industries": [
+      "healthcare"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-18T12:00:00.000Z"
+  },
+  "knowledge/bleeping-7c642ede84.md": {
+    "industries": [
+      "software",
+      "saas"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-19T22:31:04.000Z"
+  },
+  "knowledge/thehackernews-b837220888.md": {
+    "category": "attack",
+    "publishedAt": "2026-06-19T18:33:07.000Z"
+  },
+  "knowledge/darkreading-0c2f1f05bd.md": {
+    "region": "mea",
+    "category": "threat-intel",
+    "publishedAt": "2026-06-18T19:09:21.000Z"
+  },
+  "knowledge/bleeping-935783570e.md": {
+    "category": "attack",
+    "publishedAt": "2026-06-19T20:25:02.000Z"
+  },
+  "knowledge/thehackernews-d79c0ae880.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-19T15:30:47.000Z"
+  },
+  "knowledge/darkreading-2dfb346fb0.md": {
+    "region": "global",
+    "industries": [
+      "media",
+      "sports",
+      "broadcasting"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-18T18:20:07.000Z"
+  },
+  "knowledge/bleeping-4bb1ee2d2a.md": {
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-19T16:12:41.000Z"
   }
 }

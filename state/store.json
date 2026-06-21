@@ -2079,5 +2079,208 @@
     "publishedAt": "2026-06-18T01:49:29.000Z",
     "contentHash": "539c6d75a85d68c711b4f470c2e05dea6a1b55028693d7d181ba541e51c37ee9",
     "ingestedAt": "2026-06-18T09:45:43.557Z"
+  },
+  {
+    "id": "knowledge:bleeping-e357e12ae5",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Prinz Eugen ransomware prioritizes recent files for encryption",
+    "summary": "A newly identified ransomware variant named Prinz Eugen targets recently modified files for encryption rather than encrypting entire systems indiscriminately. The operation does not leave ransom notes, suggesting a possible focus on targeted attacks or data exfiltration over traditional extortion.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+    "publishedAt": "2026-06-20T15:23:46.000Z",
+    "contentHash": "4ab3d957fa6a2c595604897131ad3cfdbad51863a998ea0bc44689f27d6974ea",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:darkreading-6c209a0106",
+    "tier": "event",
+    "category": "news",
+    "title": "Evolving Threat Landscape and AI Integration Drive Cybersecurity Team Restructuring",
+    "summary": "CISOs report that expanding threat surfaces and artificial intelligence adoption are increasing operational complexity within security teams. Despite these pressures, demand for cybersecurity expertise remains robust, with organizations increasingly willing to engage security professionals in part-time or flexible capacity models.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/stressors-ai-changes-cybersecurity-teams",
+    "publishedAt": "2026-06-19T13:00:00.000Z",
+    "contentHash": "daaad1c59377a010e23b314aebd4256c7017587da3df3d970b35753cdd98db52",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-5f26de0c58",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "uk",
+    "title": "NCSC Issues Guidance on Fortinet Firewall and VPN Gateway Targeting Campaign",
+    "summary": "The UK National Cyber Security Centre has released advisory guidance regarding a widespread campaign targeting Fortinet firewalls and VPN gateways globally. Organizations operating these network security devices are being directed to implement protective measures in response to the identified threat activity.",
+    "sourceUrl": "https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways",
+    "publishedAt": "2026-06-18T12:00:00.000Z",
+    "contentHash": "7b6f94040963b0c19b9ab588f669b06b4ff8cae01cd810c77f3c066fcc32c2f1",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:cisa-3fd67a8e01",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "title": "AzeoTech DAQFactory Type Confusion Vulnerability (CVE-2026-12390)",
+    "summary": "A type confusion vulnerability in AzeoTech DAQFactory versions 21.1 and earlier allows local attackers to achieve arbitrary code execution through specially crafted .ctl files, with CVSS scores of 7.8 (v3.1) and 8.4 (v4.0). CISA recommends restricting .ctl file access to admin-only directories, using Safe Mode when loading untrusted documents, and applying document editing passwords. No public exploitation has been reported.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-02",
+    "publishedAt": "2026-06-18T12:00:00.000Z",
+    "contentHash": "8ff1e83ff022670d601b6248d4aa5353f3d6da59200e270938e5ee78c61c6713",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:bleeping-2e719dabd7",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "software development",
+      "cloud services"
+    ],
+    "title": "Microsoft attributes Mastra AI supply chain attack to North Korean group Sapphire Sleet",
+    "summary": "Microsoft has linked a supply chain compromise affecting over 140 npm packages to Sapphire Sleet, a North Korean-affiliated threat actor also known as BlueNoroff. The attack leveraged the Mastra AI framework to distribute malicious code through the npm package repository, demonstrating continued targeting of open-source software distribution channels.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+    "publishedAt": "2026-06-20T14:09:19.000Z",
+    "contentHash": "60287e774578f5f00d8f6e29cd75928d6c6fb0f4e5f5b0c5ea6c3db16e1625a5",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:thehackernews-800b7492fc",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "consumer electronics",
+      "mobile"
+    ],
+    "title": "usbliter8 Exploit Targets Apple A12/A13 SecureROM Boot Chain",
+    "summary": "Researchers at Paradigm Shift have demonstrated a working exploit enabling arbitrary code execution within the SecureROM of Apple A12 and A13 processors. Since this code is immutable silicon-level firmware, no software patches can remediate the vulnerability. The attack requires local access and does not function remotely.",
+    "sourceUrl": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
+    "publishedAt": "2026-06-19T18:37:41.000Z",
+    "contentHash": "2abb819c35b368711a913195000c7c976cd32108c8baf6cb68f1f7fb089cd33f",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:darkreading-ec7acd8f0e",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "healthcare",
+      "pharmaceuticals"
+    ],
+    "title": "Novo Nordisk Breach Exposes Software Development Pipeline Risk",
+    "summary": "Novo Nordisk experienced a breach involving a leaked GitHub token, highlighting inadequate secrets management practices across development environments. The incident demonstrates that organizations often address secrets management through tooling alone rather than implementing comprehensive identity and access control frameworks throughout the software development lifecycle.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk",
+    "publishedAt": "2026-06-18T20:05:47.000Z",
+    "contentHash": "1de181194f0b93f845f3e9debb8dc32233c45f980288b4421640215d03aa8730",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:cisa-7d77cc6c9e",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT Vulnerabilities",
+    "summary": "CISA disclosed two vulnerabilities in Apollo Pharmacy's APG-01 BT blood glucose monitor affecting firmware version 0x0110_v1.1.0. An attacker within Bluetooth range could passively intercept sensitive health data or disrupt device connectivity by monopolizing the BLE connection slot. The vendor did not respond to CISA coordination requests; exploitation requires proximity and no active attacks have been reported.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01",
+    "publishedAt": "2026-06-18T12:00:00.000Z",
+    "contentHash": "1033192ee467f1bcc3b0938d2bfb45f8007745f7393260aaea9281312cba71bb",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:bleeping-7c642ede84",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software",
+      "saas"
+    ],
+    "title": "Klue OAuth Breach Expands as Icarus Group Claims Responsibility",
+    "summary": "Market intelligence platform Klue confirmed a security incident involving the theft of OAuth tokens that provided access to customer Salesforce environments. The threat group Icarus has publicly claimed responsibility for the attack, indicating the scope of affected organizations continues to expand.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+    "publishedAt": "2026-06-19T22:31:04.000Z",
+    "contentHash": "2f9e1316f2eb7efe6fa7684c18d403d9fd98201de13f9fced8835c9123447981",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b837220888",
+    "tier": "event",
+    "category": "attack",
+    "title": "Gentlemen RaaS Deploys GentleKiller EDR Evasion Framework Against 400+ Security Processes",
+    "summary": "The Gentlemen ransomware-as-a-service operation maintains GentleKiller, a framework designed to disable endpoint detection and response tools across 400+ security processes before ransomware deployment. The toolkit is distributed to affiliates as part of the operation's infrastructure, enabling systematic evasion of endpoint defenses during attacks.",
+    "sourceUrl": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+    "publishedAt": "2026-06-19T18:33:07.000Z",
+    "contentHash": "e69e38e3d68053a82810f62534d44381cfc2087646827e1430f027fccc9bebd6",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:darkreading-0c2f1f05bd",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "mea",
+    "title": "Operation Escaneo Signals Shift in LatAm Threat Landscape",
+    "summary": "A threat group operating in Latin America demonstrates a hybrid business model that blends opportunistic financial exploitation with intelligence gathering, suggesting relatively loose coordination between monetization and espionage objectives. This activity pattern indicates evolving threat actor strategies in the region.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/operation-escaneo-signals-shift-latam-threat-landscape",
+    "publishedAt": "2026-06-18T19:09:21.000Z",
+    "contentHash": "103f190592b3cb9a0122d4b379291c7b5772f8401176442e1718e683e9c81233",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:bleeping-935783570e",
+    "tier": "event",
+    "category": "attack",
+    "title": "Unauthenticated Information Disclosure Vulnerability Exploited in Gravity SMTP WordPress Plugin",
+    "summary": "Threat actors are actively exploiting an information disclosure vulnerability in the Gravity SMTP WordPress plugin, which is installed on approximately 100,000 websites. The vulnerability allows unauthenticated access to sensitive information, presenting a risk to affected deployments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+    "publishedAt": "2026-06-19T20:25:02.000Z",
+    "contentHash": "aa7013d0e7390f85eb17a4fd03344cdba1e1d1df728aabffc9b8ea77469da1c5",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:thehackernews-d79c0ae880",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AutoJack Attack Exploits AI Browsing Agents for Local Code Execution",
+    "summary": "Microsoft researchers have disclosed AutoJack, an exploit chain that leverages malicious web pages to compromise AI browsing agents and achieve remote code execution on the host machine. The attack exploits the agent's ability to interact with local services without requiring user credentials or authentication, allowing arbitrary process execution through JavaScript embedded in attacker-controlled pages.",
+    "sourceUrl": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
+    "publishedAt": "2026-06-19T15:30:47.000Z",
+    "contentHash": "8e5c750d21ae5e45d7fa59330b25e80317f60a3e81a42dc0ed1efb469ec1a018",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:darkreading-2dfb346fb0",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "media",
+      "sports",
+      "broadcasting"
+    ],
+    "title": "FIFA World Cup Streaming Infrastructure Vulnerable to Remote Takeover via Entra Access Control Gaps",
+    "summary": "FIFA's World Cup streaming systems contained inadequately configured Microsoft Entra access controls that could have allowed unauthorized remote access and potential service disruption. The vulnerability exposed critical broadcast infrastructure to compromise, with attackers potentially able to manipulate or interrupt live stream delivery.",
+    "sourceUrl": "https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover",
+    "publishedAt": "2026-06-18T18:20:07.000Z",
+    "contentHash": "339cfc13a7bc48ebb4cc6879d08b35d408c8a2b5f2848abf3a85077d36ff27de",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
+  },
+  {
+    "id": "knowledge:bleeping-4bb1ee2d2a",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "title": "Texas Parks and Wildlife Department breach exposes 3M driver's licenses",
+    "summary": "The Texas Parks and Wildlife Department disclosed a data breach affecting its license system vendor, compromising personal information for over three million individuals. The incident highlights risks in third-party vendor management within government infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+    "publishedAt": "2026-06-19T16:12:41.000Z",
+    "contentHash": "919fc734ac95d9ffd774a9bf420f35f0d062083186204a873de99b4914d64e6a",
+    "ingestedAt": "2026-06-21T09:02:36.891Z"
   }
 ]
