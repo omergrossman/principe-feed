@@ -65,14 +65,5 @@
     "title": "Self-host in one command",
     "summary": "One line installs Docker if needed, clones the repo, and boots the whole stack.",
     "body": "A first-run wizard takes your API key and brings up Postgres, the Bayesian statistician, and the web app. Pick your OS on the download page and paste a single command."
-  },
-  {
-    "id": "open-source-launch",
-    "date": "2026-06-08",
-    "tag": "release",
-    "channel": "both",
-    "title": "Príncipe is now open source (AGPL-3.0)",
-    "summary": "The whole engine — personas, calibration, statistics — is public and self-hostable.",
-    "body": "Príncipe is released under **AGPL-3.0**: run it entirely on your own machine, bring your own API key, nothing sent to us. The community licence keeps it open for everyone while preventing closed white-labelling."
   }
 ]
