@@ -10,16 +10,6 @@
     "why": "Drafted from a recent product change."
   },
   {
-    "id": "synthesis-upgraded-to-sonnet-reports-hit-harder",
-    "date": "2026-06-21",
-    "tag": "calibration",
-    "channel": "both",
-    "title": "Synthesis upgraded to Sonnet — reports hit harder",
-    "summary": "The narrative pass (executive summary, pros/cons, insights) now runs on Claude Sonnet and is tuned for directness.",
-    "body": "The synthesis model that writes the decision report's narrative has been upgraded and prompted for more direct, impactful prose. The change affects both the in-app result and the PDF export identically. No action needed — your next run will reflect the updated output.",
-    "why": "Drafted from a recent product change."
-  },
-  {
     "id": "two-security-fixes-ssrf-bypass-project-privilege",
     "date": "2026-06-21",
     "tag": "security",
