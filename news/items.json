@@ -1,5 +1,14 @@
 [
   {
+    "id": "pr-ncipe-v1-0-0",
+    "date": "2026-06-21",
+    "tag": "release",
+    "channel": "both",
+    "title": "Príncipe v1.0.0",
+    "summary": "The first stable release is tagged and the version is now visible in the app.",
+    "body": "v1.0.0 is now the named release. You'll see the version number on the launch splash and in the About footer — both linked to the release notes on GitHub. Single-sourced from `package.json` and the git tag, so it stays in sync automatically."
+  },
+  {
     "id": "run-30-to-200-cisos-your-call",
     "date": "2026-06-20",
     "tag": "feature",
