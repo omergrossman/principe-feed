@@ -1,12 +1,1 @@
-[
-  {
-    "id": "pr-ncipe-v1-0-1-security-patch-calibration-refre",
-    "date": "2026-06-23",
-    "tag": "release",
-    "channel": "both",
-    "title": "Príncipe v1.0.1 — security patch + calibration refresh",
-    "summary": "Patch release closes two Medium security findings and refreshes the Leg-2 calibration baseline.",
-    "body": "v1.0.1 is a recommended update for all self-hosters. It closes two Medium findings from the security audit: news-body content is now sanitised against XSS, and the fetch layer's SSRF guard is hardened against DNS-rebinding by pinning TCP connections to the pre-resolved IP. The Leg-2 calibration baseline has also been recomputed (12 responses). Run `bin/stop.sh` before pulling the update for a clean shutdown.",
-    "why": "Drafted from a recent product change."
-  }
-]
+[]
