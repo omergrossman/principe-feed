@@ -2473,5 +2473,194 @@
     "publishedAt": "2026-06-22T12:45:08.000Z",
     "contentHash": "c8e131e0302e31a177945e815daf756501b87d76916af918646e53a076114254",
     "ingestedAt": "2026-06-22T17:29:44.025Z"
+  },
+  {
+    "id": "knowledge:bleeping-e7f16325e0",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "WhatsApp Phishing Campaign Distributes VBScript Malware",
+    "summary": "A malware campaign targets WhatsApp users across multiple countries using fraudulent business documents to deliver VBScript files that grant attackers remote access to compromised systems. The attack leverages social engineering through the messaging platform to bypass traditional email-based defenses.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+    "publishedAt": "2026-06-22T22:42:21.000Z",
+    "contentHash": "de719a766e37620618f7ac02e17c8c3d7da62971a070204b8a53e98d00a243f4",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:thehackernews-16f440b520",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "WhatsApp VBScript Campaign Distributes ManageEngine RMM Tool via Malicious Documents",
+    "summary": "A multi-region campaign is delivering malicious VBScript files through WhatsApp direct messages, disguised as legitimate documents, to facilitate unauthorized installation of ManageEngine RMM software. The threat targets WhatsApp Desktop and Web users across multiple countries including Malaysia, Brazil, India, Mexico, Singapore, the UK, Spain, Taiwan, and Australia. Kaspersky researchers identified the campaign as actively distributing the payload to gain remote access capabilities on compromised systems.",
+    "sourceUrl": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+    "publishedAt": "2026-06-23T05:38:40.000Z",
+    "contentHash": "323a16e8d23b5dbeb531eee3bd0f46596d84f8b8e67677d2917c13f66a67542f",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:sans-isc-77ee51a258",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "CVE-2024-40766: Patching Insufficient Without Configuration Remediation",
+    "summary": "A vulnerability tracked as CVE-2024-40766 has been addressed through patching, yet organizations deploying the fix may remain exposed if underlying configuration issues are not separately remediated. The case illustrates a common gap where technical patches alone do not eliminate risk when misconfigurations persist in affected systems.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33094",
+    "publishedAt": "2026-06-23T03:02:34.000Z",
+    "contentHash": "aab2f2d51644242990f831b5b5bc2eb97434cdb7384abcd31e5ec48cc6309e7b",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:bleeping-df550206f9",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "cryptocurrency",
+      "financial-services"
+    ],
+    "title": "JaredFromSubway MEV Bot Compromised in $15M Cryptocurrency Theft",
+    "summary": "An attacker exploited vulnerabilities in the JaredFromSubway Ethereum MEV bot by fabricating false trading opportunities, resulting in a $15 million loss. The incident highlights operational risks within automated cryptocurrency trading infrastructure where logic-layer vulnerabilities can be leveraged for financial theft.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
+    "publishedAt": "2026-06-22T21:52:18.000Z",
+    "contentHash": "083ba6049e580864c05397a5e9b716ac2ca63fa8d80593b91a5095265bfb82ee",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:thehackernews-92b8c590d1",
+    "tier": "event",
+    "category": "product-release",
+    "title": "OpenAI Releases GPT-5.5-Cyber Model for Vulnerability Detection and Remediation",
+    "summary": "OpenAI has expanded its Daybreak initiative by releasing an improved GPT-5.5-Cyber model to trusted security defenders. The model is designed to identify software vulnerabilities and support patching efforts, with enhanced capability to perform sustained analysis across large codebases.",
+    "sourceUrl": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+    "publishedAt": "2026-06-23T03:56:58.000Z",
+    "contentHash": "7ab86adb96c9bc34fb1d1b717c2544ab52267808edfb0d1f1c799d8282ec3363",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:sans-isc-aab5c3ce03",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Tuesday, June 23rd, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The episode provides analysis of recent security incidents and emerging threat patterns relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33098",
+    "publishedAt": "2026-06-23T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:bleeping-1a2d68f57b",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "media and entertainment",
+      "software development",
+      "content management"
+    ],
+    "title": "FFmpeg PixelSmash vulnerability enables remote code execution and denial of service",
+    "summary": "A vulnerability in FFmpeg's video decoder, designated PixelSmash, permits remote code execution on Jellyfin servers and denial-of-service attacks against multiple media and content management applications including Kodi, Emby, Nextcloud, PhotoPrism, and OBS Studio. The flaw affects widely deployed open-source software across media streaming and collaborative platforms.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+    "publishedAt": "2026-06-22T21:05:01.000Z",
+    "contentHash": "e13c7264c992a14feadf138feeae032b844a68d9d2fff4a73de7811b8fb9d5ed",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:bleeping-3e2c39543f",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "FortiBleed Campaign Exploits FortiGate Devices with Custom Credential Harvesting Tools",
+    "summary": "SOCRadar researchers identified a large-scale campaign targeting Fortinet FortiGate firewalls that deployed custom packet sniffers to extract authentication credentials from compromised devices. The campaign, termed FortiBleed, represents a credential theft operation leveraging vulnerabilities or misconfigurations in widely deployed network security appliances.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+    "publishedAt": "2026-06-22T20:01:02.000Z",
+    "contentHash": "adb68556ab2287699b281143a532a9b6d737fa9ed743d469ac7b37a68186a38b",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:thehackernews-14c2589537",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Legacy Infrastructure Vulnerabilities Enable AI Agent Hijacking",
+    "summary": "Security leaders face an emerging gap where attackers exploit outdated infrastructure to compromise AI agents, taking advantage of the speed of AI adoption outpacing security program maturity. Organizations deploying AI agents without addressing legacy system weaknesses create pathways for threat actors to circumvent AI-specific security controls.",
+    "sourceUrl": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+    "publishedAt": "2026-06-22T11:58:00.000Z",
+    "contentHash": "55e9a53189ade07f561b633344b43f5a27a8472db297083b3eec996b120ff0a4",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:bleeping-b22065e737",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft announces Windows 11 26H2 feature update with streamlined upgrade path",
+    "summary": "Microsoft has confirmed Windows 11 version 26H2 as the next feature update, with devices currently running 24H2 or 25H2 able to upgrade via a lightweight enablement package rather than a full installation. This approach continues Microsoft's shift toward smaller, more frequent updates.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-11-26h2-is-coming-soon-details-upgrade-process/",
+    "publishedAt": "2026-06-22T17:41:31.000Z",
+    "contentHash": "408d5a4318019ce7707a2862486049b1e1332a80a61c92a314f4de2a1d48de95",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c0efebc398",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Weekly Threat Recap: Browser Vulnerabilities, EDR Evasion, Botnet Activity, and Mobile Malware",
+    "summary": "Weekly threat landscape includes browser vulnerabilities, tools designed to disable endpoint detection and response solutions, television-based botnet infrastructure, OpenBSD security flaws, and Android trojans with excessive permissions. Recurring attack patterns involve credential compromise, malicious software distribution, browser extensions with broad access, and WordPress site exploitation.",
+    "sourceUrl": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
+    "publishedAt": "2026-06-22T10:55:10.000Z",
+    "contentHash": "8d9f3d90db8ddb75ec777660517be546116336900cfc90b703f506c196d1cb8f",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e634895a11",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Canada's CSIS Obtains First Threat Reduction Warrant to Remediate Botnet Infections",
+    "summary": "Canada's Security Intelligence Service (CSIS) obtained judicial authorization to directly remediate botnet malware on infected Canadian infrastructure, including servers, routers, and IoT devices operated by foreign threat actors. The Federal Court warrant, publicly disclosed in June, represents the first operational use of CSIS's threat reduction powers for this purpose.",
+    "sourceUrl": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
+    "publishedAt": "2026-06-22T09:11:37.000Z",
+    "contentHash": "e026f173bf3ce93f31e106de749954f0de6b5168211f58eda7213402fd1401e4",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f1470df83f",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AryStinger Malware Leverages Legacy Routers for Reconnaissance Infrastructure",
+    "summary": "Security researchers identified AryStinger, a malware family targeting legacy home routers to establish a distributed reconnaissance and proxy network. The campaign has compromised at least 4,300 routers, with infections continuing to increase. Unlike traditional router botnets used for DDoS attacks, AryStinger focuses on reconnaissance activities that precede actual system compromise.",
+    "sourceUrl": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
+    "publishedAt": "2026-06-22T06:57:44.000Z",
+    "contentHash": "7abefdd9ffad1192384c3771aa4047712ae430b157095730b91d2e380c3f27cf",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:thehackernews-459509626a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "title": "INTERPOL Reports Rising Cybercrime Threats in Asia-Pacific Region",
+    "summary": "INTERPOL's 2025/2026 assessment identifies significant growth in cybercrime across Asia and the South Pacific, driven by rapid digital adoption and varying cybersecurity capabilities. The report highlights phishing as the most prevalent threat, alongside ransomware and AI-enabled scams, exacerbated by organized criminal networks exploiting regional security disparities.",
+    "sourceUrl": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+    "publishedAt": "2026-06-22T06:06:53.000Z",
+    "contentHash": "646fb3c6931adda1822b14aeb812cacb074e27fe6146216ea71a5b7ff255c9a1",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
+  },
+  {
+    "id": "knowledge:manual-730702443b71",
+    "tier": "foundational",
+    "category": "analyst",
+    "region": "us",
+    "industries": [
+      "healthcare",
+      "manufacturing",
+      "retail",
+      "public administration",
+      "education"
+    ],
+    "title": "2026 Breach Impact Study",
+    "summary": "Verizon and CyberAcuView released the inaugural Breach Impact Study, analyzing approximately 70,000 cyber insurance claims (38,000 with recorded payouts) covering insurable incidents from January 2019 through October 2025 in the United States. The study addresses a frequently requested question about financial impact quantification by examining ground-up losses—combining deductibles and incurred losses—across multiple loss types including ransomware and business email compromise claims. The dataset represents insurable loss only, functioning as a conservative lower bound of actual economic impact, as it excludes uninsured losses, reputational damage, and non-claim costs, with additional limitations from policy sublimits and insurance tower structures. The report segments findings by incident type, industry sector (including healthcare, manufacturing, retail, and small/medium-sized businesses), and organizational size, utilizing statistical rigor and uncertainty visualization consistent with the Data Breach Investigations Report methodology.",
+    "sourceUrl": "manual:file:2026-breach-impact-study-dbir.pdf",
+    "publishedAt": "2026-06-23T08:39:02.763Z",
+    "contentHash": "6f8c9f635e1b5c4d26ec28540c25ba16f4c91b523a0eccf97b93dd2f5057d991",
+    "subjectKey": "manual-730702443b71",
+    "reportDate": "2026-06-23T08:39:02.763Z",
+    "ingestedAt": "2026-06-23T08:38:21.823Z"
   }
 ]
