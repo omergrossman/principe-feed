@@ -36,3 +36,4 @@ https://pulse.latio.tech/p/runtime-cloud-security-in-2025
 # copyrighted (only a licensed vendor reprint or the bot-blocked gartner.com page). Per the
 # 2026-06-17 licensed-content cleanup, no Gartner/Forrester licensed material goes in the
 # public feed. (PeerSpot CNAPP reviews are an option if a fetch check passes.)
+https://www.cyber.gov.au/about-us/view-all-content/news/five-eyes-cyber-security-agencies-statement
