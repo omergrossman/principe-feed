@@ -20,16 +20,6 @@
     "why": "Drafted from a recent product change."
   },
   {
-    "id": "panel-gains-a-mandate-organisational-authority-a",
-    "date": "2026-06-23",
-    "tag": "feature",
-    "channel": "both",
-    "title": "Panel gains a mandate (organisational authority) axis",
-    "summary": "A fourth persona dimension — reactive bolt-on → embedded → strategic CEO-of-security — now shapes every panel run.",
-    "body": "The synthetic panel previously varied CISOs across three disposition axes. A fourth axis has been added covering organisational authority and program maturity, distributed roughly 40% reactive / 38% embedded / 22% strategic, independent of the existing axes. Calibration-neutral on the global-survey benchmark set (MAE holds at ~17.8 pp). The adversarial peer-review pass (three reviewers from distinct lenses, challenging the ranked objections before the final decision) also shipped in this cycle.",
-    "why": "Drafted from a recent product change."
-  },
-  {
     "id": "version-number-now-visible-in-app-plus-a-stay-in",
     "date": "2026-06-23",
     "tag": "feature",
