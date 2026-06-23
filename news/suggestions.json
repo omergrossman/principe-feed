@@ -18,15 +18,5 @@
     "summary": "Exported reports now include ranked top-3 objections, the 'what the panel almost missed' blind spot, and the Contested flag.",
     "body": "The PDF export previously lagged the in-app view, showing only a single legacy objection. It now renders the ranked top-3 objections, the adversarial review's blind-spot finding, and the Contested minority-stronger flag — identical to what you see on screen. Single-asterisk emphasis (`*like this*`) also renders correctly in exports after a formatting fix.",
     "why": "Drafted from a recent product change."
-  },
-  {
-    "id": "version-number-now-visible-in-app-plus-a-stay-in",
-    "date": "2026-06-23",
-    "tag": "feature",
-    "channel": "both",
-    "title": "Version number now visible in-app, plus a 'Stay in touch' card",
-    "summary": "The app now shows its version on the launch splash and in About, and a new card links out to community channels without phoning home.",
-    "body": "You can now confirm exactly which build you're running from the launch splash or the About footer — both pull from the same source as the git tag. A zero-call-home 'Stay in touch' card has been added for community links. The Príncipe logo in exported PDF reports is now also a clickable link.",
-    "why": "Drafted from a recent product change."
   }
 ]
