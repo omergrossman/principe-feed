@@ -38,3 +38,4 @@ https://pulse.latio.tech/p/runtime-cloud-security-in-2025
 # public feed. (PeerSpot CNAPP reviews are an option if a fetch check passes.)
 https://www.cyber.gov.au/about-us/view-all-content/news/five-eyes-cyber-security-agencies-statement
 https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/
+https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/
