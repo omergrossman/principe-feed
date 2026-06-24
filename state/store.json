@@ -2868,5 +2868,227 @@
     "subjectKey": "manual-bf5f88cd518c",
     "reportDate": "2026-06-22T20:37:30.000Z",
     "ingestedAt": "2026-06-24T08:33:32.594Z"
+  },
+  {
+    "id": "knowledge:bleeping-428591f352",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA alerts to active exploitation of critical Ubiquiti and Lantronix vulnerabilities",
+    "summary": "CISA has issued a warning regarding adversaries actively exploiting maximum-severity vulnerabilities in Ubiquiti UniFi OS and Lantronix serial-to-ethernet server products. The agency is tracking in-the-wild exploitation of these flaws, indicating immediate risk to organizations operating affected infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+    "publishedAt": "2026-06-24T14:35:15.000Z",
+    "contentHash": "887597f860ce20f27f803268d3be2db7e2f86f2692362be2b24356452e66cd19",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8762e9a00f",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Alerts on Active Exploitation of Critical Lantronix EDS5000 Vulnerability",
+    "summary": "CISA has issued a warning regarding CVE-2025-67038, a critical code injection flaw (CVSS 9.8) in Lantronix EDS5000 Series devices that is currently being exploited in the wild. Federal agencies have been directed to remediate the vulnerability by June 26, 2026.",
+    "sourceUrl": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
+    "publishedAt": "2026-06-24T17:19:18.000Z",
+    "contentHash": "099baca1186af0d5865e1defbf06c46375891927fb600578faf5bcad405794d6",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:darkreading-a04a515da7",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "artificial intelligence",
+      "software development"
+    ],
+    "title": "Malicious OpenClaw Packages Bypass Security Checks in AI Skills Marketplace",
+    "summary": "OpenClaw removed five packages from its ClawHub skills marketplace that contained infostealers and other malware despite passing security validation. The incident highlights vulnerabilities in the AI supply chain where malicious code can evade detection mechanisms in third-party package repositories.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/malicious-openclaw-skills-clawhub-threaten-ai-supply-chain",
+    "publishedAt": "2026-06-24T16:56:49.000Z",
+    "contentHash": "93785445720f3b4f6c2a11041df169ed92a0f79f077ff7c2ea1609cdf146dfee",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:cisa-b661ce5036",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "transportation systems",
+      "energy",
+      "healthcare and public health",
+      "financial services",
+      "government"
+    ],
+    "title": "Siemens SINEC INS Multiple Vulnerabilities Disclosed",
+    "summary": "Siemens SINEC INS versions prior to V1.0 SP2 Update 6 contain four vulnerabilities including OS command injection, path traversal, privilege escalation via unnecessary capabilities, and weak password hashing with static salt. The vulnerabilities affect critical infrastructure sectors worldwide and require immediate patching to V1.0 SP2 Update 6 or later.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
+    "publishedAt": "2026-06-23T12:00:00.000Z",
+    "contentHash": "905a6763a0e92070e3c0af265de03c748fac048366849fec6d5f462a2e7aabab",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:bleeping-5140e8a2af",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Microsoft and Europol Disrupt Amadey and StealC Malware Operations",
+    "summary": "Microsoft, Europol, and international law enforcement partners have dismantled infrastructure supporting the Amadey and StealC malware campaigns under Operation Endgame. The coordinated action targeted command-and-control systems used by these cybercriminal operations, which distribute information-stealing malware and support ransomware activities.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
+    "publishedAt": "2026-06-24T14:35:11.000Z",
+    "contentHash": "305bb1da56f8db276bfa167463fbb5fdd1e5e3d191319de8b5aae4fef82793e9",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:thehackernews-472190b28d",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
+    "summary": "Law enforcement and private sector partners including Bitdefender, Bitsight, ESET, and Microsoft have dismantled criminal infrastructure associated with Amadey and StealC malware variants. The operation recovered approximately 27 million stolen credentials and targeted the distribution chains used to facilitate ransomware deployments, financial fraud, and attacks against critical infrastructure.",
+    "sourceUrl": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
+    "publishedAt": "2026-06-24T15:59:50.000Z",
+    "contentHash": "4c3f518414d107070a180b4f56afb09d6a8d2a4330480082512c3d86d3df2a84",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:darkreading-a65e09b27f",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "macOS Vulnerability Allows Non-Privileged Security Tool Disablement",
+    "summary": "A macOS flaw enables attackers to disable security and browser protection features without requiring administrator credentials or kernel-level exploits. The vulnerability reduces the attack surface needed for compromise, as adversaries can leverage standard user access to circumvent built-in protections.",
+    "sourceUrl": "https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools",
+    "publishedAt": "2026-06-24T12:00:00.000Z",
+    "contentHash": "066f3544f76e3de4164bd336a6a54513c3906f365359af00936038efb2f7df3e",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:bleeping-26e1bf492e",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Service Desk Social Engineering: Attack Vectors and Defense Strategies",
+    "summary": "Service desks remain high-value targets for social engineers attempting to obtain password resets, modify MFA settings, and gain unauthorized account access. Organizations can reduce susceptibility through verification protocols, staff training, and access controls that limit service desk personnel privileges.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
+    "publishedAt": "2026-06-24T14:02:12.000Z",
+    "contentHash": "9f4341c4e6aeac977e41223904111c5814cc6f022b3aa2ffabdb6496251cdfaa",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:darkreading-b831717bb0",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "software development",
+      "ai/ml"
+    ],
+    "title": "DifyTap Vulnerabilities Enable Unauthorized Access to AI Chat Histories",
+    "summary": "Four vulnerabilities in Dify, an AI application development platform, allow attackers to access and exfiltrate sensitive chat data without detection. The flaws enable unauthorized retrieval of conversation histories stored within deployments using the platform.",
+    "sourceUrl": "https://www.darkreading.com/application-security/difytap-bugs-wiretap-ai-chat-histories",
+    "publishedAt": "2026-06-22T21:14:11.000Z",
+    "contentHash": "f85c0f32c0734eef0b757fe61cc4a30c7126c2b24b0cb0a3cc268d346469a7d5",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:bleeping-4e3e0174b1",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "insurance",
+      "education",
+      "it",
+      "professional services"
+    ],
+    "title": "Mistic backdoor linked to KongTuke ransomware access broker",
+    "summary": "A previously undocumented backdoor named Mistic has been deployed in financially motivated campaigns against organizations across insurance, education, IT, and professional services sectors. The malware has been attributed to KongTuke, a known ransomware access broker, indicating potential precursor activity for downstream encryption attacks.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
+    "publishedAt": "2026-06-24T10:41:51.000Z",
+    "contentHash": "9fbfdb0b1bf3f5ffeb56a5e0fdd3ebab57ad976395a8afd36641218c71613095",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:thehackernews-576c889a98",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Evolution Toward Machine-Speed Threat Landscapes",
+    "summary": "Cybersecurity operations are transitioning from human-paced threat cycles to accelerated threat environments where traditional patching timelines become less viable. The established vulnerability disclosure and remediation workflow—spanning weeks or months from discovery to deployment—faces pressure from faster-moving attack patterns, potentially extending organizational dwell times.",
+    "sourceUrl": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+    "publishedAt": "2026-06-24T11:30:00.000Z",
+    "contentHash": "54ede46b84270a9f5aaadf517541d2aab090c7b5f36c93642abf3cd403d02e38",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:darkreading-53c25d3766",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "SIM Swap Attacks Enable Interception of SMS-Based One-Time Passwords",
+    "summary": "SIM swap attacks allow threat actors to intercept one-time passwords delivered via SMS, enabling account takeovers despite users believing their accounts are protected. Security practitioners should implement layered authentication mechanisms beyond SMS-based OTP delivery, such as app-based authenticators or hardware security keys.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
+    "publishedAt": "2026-06-22T14:12:11.000Z",
+    "contentHash": "02386fecacf10c169e977a7ebb0531b918a78d7b2939f6d813298ed231e3d204",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:bleeping-dca8937e3b",
+    "tier": "event",
+    "category": "attack",
+    "title": "macOS ClickFix Campaign Deploys Infostealer via DMG Mounting",
+    "summary": "A new macOS-targeted ClickFix campaign leverages Terminal commands to silently download and mount malicious disk images that execute infostealer malware. The attack chain abstracts user interaction by automating DMG mounting and execution steps, reducing visibility into the infection process.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
+    "publishedAt": "2026-06-23T18:30:16.000Z",
+    "contentHash": "04ab0959999cd64e906bdc81efc80f604cd210bf6d542f3b7af44e3f6b0edb09",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9ec0296dcc",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "DoJ Seizes Huione Cloud Account Connected to Cyber Scam Money Laundering Operations",
+    "summary": "The U.S. Department of Justice announced the seizure of a cloud computing account operated by subsidiaries of Cambodia-based Huione Group, allegedly used to facilitate money laundering for cyber scam proceeds. Concurrently, the Treasury Department imposed sanctions on nine individuals and 26 entities affiliated with Prince Group in connection with similar illicit financial activities.",
+    "sourceUrl": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+    "publishedAt": "2026-06-24T08:55:12.000Z",
+    "contentHash": "05f84de608a1c3cbd25caa292b1325961cb1a6481695af769b53b993eb33cf27",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:bleeping-aa92e06515",
+    "tier": "event",
+    "category": "attack",
+    "region": "uk",
+    "industries": [
+      "transportation",
+      "critical infrastructure"
+    ],
+    "title": "Scattered Spider members plead guilty to Transport for London hack",
+    "summary": "Two members of the Scattered Spider cybercriminal group entered guilty pleas for their involvement in the 2024 compromise of Transport for London systems. The case represents judicial action against actors from a group known for targeting critical infrastructure and financial institutions.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
+    "publishedAt": "2026-06-23T15:31:59.000Z",
+    "contentHash": "44056fbcd5b74305fea480b6f585c0286684442128ee097a93b0fae11720749d",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a790ae300b",
+    "tier": "event",
+    "category": "product-release",
+    "title": "GitHub Updates actions/checkout to Block Pwn Request Attack Patterns",
+    "summary": "GitHub is implementing protections in the actions/checkout action to prevent pwn request attacks that leverage pull_request_target workflow triggers to execute malicious code with elevated privileges. The update takes effect June 18, 2026, strengthening supply chain security by mitigating a known exploitation vector in CI/CD pipelines.",
+    "sourceUrl": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+    "publishedAt": "2026-06-23T14:22:03.000Z",
+    "contentHash": "4f992e8b778e7e985022e2cc88b9a80adb34f2a63d246dea899d4e2be47f7ce8",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
+  },
+  {
+    "id": "knowledge:manual-64d5f692e64e",
+    "tier": "foundational",
+    "category": "strategy",
+    "title": "Passwordless Authentication as Structural Enterprise Requirement in 2026",
+    "summary": "Passwordless authentication using FIDO2 and passkeys has transitioned from emerging practice to mandatory requirement for enterprise identity security, driven by phishing-resistance demands, regulatory pressure (NIST AM2/AM3, EIDAS), and zero-trust architecture evolution. The critical vulnerability in current deployments is insecure recovery and enrollment flows; attackers now target helpdesk processes rather than passwords directly, with recent breaches at MGM Resorts and Marks & Spencer exploiting weak recovery mechanisms. Effective governance requires four pillars: identity environment verification, device binding via hardware-backed storage (TPM, Secure Enclave), lifecycle management across managed and personal devices, and hardened recovery using verified device rebinding, identity proofing, or policy-controlled helpdesk flows with audit traces. Modern solutions integrate continuous authentication through device posture assessment, contextual risk engines evaluating geovelocity and IP reputation, and emerging Shared Signals Framework for cross-tool risk sharing. Implementation challenges center on legacy systems (Radius, VPN, VDI, mainframes) lacking FIDO2 protocol support; recommended approach prioritizes SaaS and managed endpoints first, applying equivalent-security alternatives for legacy gaps rather than password reversion.",
+    "sourceUrl": "manual:file:Passwordless_Brief.pdf",
+    "publishedAt": "2026-06-24T18:55:26.082Z",
+    "contentHash": "f8363e5225fdb76cbb396c815fd458a0fd4d750fe517f9f09975cabd56dd1842",
+    "subjectKey": "manual-64d5f692e64e",
+    "reportDate": "2026-06-24T18:55:26.082Z",
+    "ingestedAt": "2026-06-24T18:54:41.252Z"
   }
 ]
