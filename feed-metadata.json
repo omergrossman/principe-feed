@@ -1360,5 +1360,51 @@
   "knowledge/manual-64d5f692e64e.md": {
     "category": "strategy",
     "publishedAt": "2026-06-24T18:55:26.082Z"
+  },
+  "knowledge/bleeping-d5f4a9487a.md": {
+    "category": "product-release",
+    "publishedAt": "2026-06-24T23:46:17.000Z"
+  },
+  "knowledge/darkreading-047251bcb3.md": {
+    "category": "attack",
+    "publishedAt": "2026-06-24T21:16:41.000Z"
+  },
+  "knowledge/sans-isc-f0b764ab13.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-25T00:39:08.000Z"
+  },
+  "knowledge/bleeping-6a948f35af.md": {
+    "region": "us",
+    "industries": [
+      "gambling",
+      "sports betting"
+    ],
+    "category": "news",
+    "publishedAt": "2026-06-24T21:55:43.000Z"
+  },
+  "knowledge/thehackernews-0ddb654234.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-23T11:30:00.000Z"
+  },
+  "knowledge/darkreading-1b96865a13.md": {
+    "region": "us",
+    "industries": [
+      "sports",
+      "infrastructure"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-24T20:29:08.000Z"
+  },
+  "knowledge/bleeping-b4039c7adb.md": {
+    "category": "attack",
+    "publishedAt": "2026-06-24T21:29:10.000Z"
+  },
+  "knowledge/darkreading-7a2cee5fd5.md": {
+    "category": "strategy",
+    "publishedAt": "2026-06-24T19:10:17.000Z"
+  },
+  "knowledge/bleeping-9fda4c9218.md": {
+    "category": "attack",
+    "publishedAt": "2026-06-24T20:58:22.000Z"
   }
 }
