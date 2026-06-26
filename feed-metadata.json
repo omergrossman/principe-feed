@@ -1406,5 +1406,91 @@
   "knowledge/bleeping-9fda4c9218.md": {
     "category": "attack",
     "publishedAt": "2026-06-24T20:58:22.000Z"
+  },
+  "knowledge/bleeping-7413b3cdcf.md": {
+    "category": "product-release",
+    "publishedAt": "2026-06-25T22:53:32.000Z"
+  },
+  "knowledge/thehackernews-00c4789667.md": {
+    "region": "eu-west",
+    "industries": [
+      "government",
+      "military",
+      "defense"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-26T07:15:46.000Z"
+  },
+  "knowledge/darkreading-389a8b3d98.md": {
+    "industries": [
+      "telecommunications",
+      "it-services"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-25T21:54:34.000Z"
+  },
+  "knowledge/bleeping-84c87a4a4c.md": {
+    "region": "eu-central",
+    "industries": [
+      "telecommunications",
+      "cryptocurrency"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-25T22:37:42.000Z"
+  },
+  "knowledge/thehackernews-7670c7a304.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-25T14:12:52.000Z"
+  },
+  "knowledge/darkreading-07f6e05b04.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-25T21:12:01.000Z"
+  },
+  "knowledge/bleeping-8607abaa75.md": {
+    "industries": [
+      "retail",
+      "ecommerce"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-25T19:45:48.000Z"
+  },
+  "knowledge/thehackernews-3ea4be44ed.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-25T12:24:43.000Z"
+  },
+  "knowledge/darkreading-326c594c92.md": {
+    "region": "us",
+    "industries": [
+      "education",
+      "software"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-25T20:34:14.000Z"
+  },
+  "knowledge/bleeping-6c3a9a3ac3.md": {
+    "category": "product-release",
+    "publishedAt": "2026-06-25T18:29:20.000Z"
+  },
+  "knowledge/thehackernews-9641f0f414.md": {
+    "category": "strategy",
+    "publishedAt": "2026-06-25T11:17:31.000Z"
+  },
+  "knowledge/darkreading-9a658d4451.md": {
+    "region": "apac",
+    "category": "threat-intel",
+    "publishedAt": "2026-06-25T19:07:41.000Z"
+  },
+  "knowledge/bleeping-9666d4678f.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-25T16:23:19.000Z"
+  },
+  "knowledge/thehackernews-c96f9691fd.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-25T09:23:03.000Z"
+  },
+  "knowledge/darkreading-9ffec68b8d.md": {
+    "region": "eu-west",
+    "category": "threat-intel",
+    "publishedAt": "2026-06-25T10:00:00.000Z"
   }
 }

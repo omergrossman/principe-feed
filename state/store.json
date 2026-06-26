@@ -3199,5 +3199,196 @@
     "publishedAt": "2026-06-24T20:58:22.000Z",
     "contentHash": "e7893302787d0525eaee0a47e7d7fe484c8772c9dacd3424d272ee88bcc32736",
     "ingestedAt": "2026-06-25T08:31:39.508Z"
+  },
+  {
+    "id": "knowledge:bleeping-7413b3cdcf",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Anthropic Testing Mobile Support for Claude Cowork Task Management",
+    "summary": "Anthropic is piloting Claude Cowork functionality on mobile devices, enabling users to monitor and manage extended Claude processing tasks from smartphones. This expansion extends the desktop experience to mobile platforms.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
+    "publishedAt": "2026-06-25T22:53:32.000Z",
+    "contentHash": "99663f3eea76c899305b5d4984a8fec6a6ebcfd67d66c0d81134b00e3265a1b1",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:thehackernews-00c4789667",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "eu-west",
+    "industries": [
+      "government",
+      "military",
+      "defense"
+    ],
+    "title": "Google Attributes STOCKSTAY Backdoor to Turla in Ukraine and Italy-Focused Operations",
+    "summary": "Google Threat Intelligence has documented STOCKSTAY, a previously unknown .NET backdoor attributed to Russian state-sponsored group Turla. The malware has been deployed against Ukrainian government and military targets, as well as entities with involvement in Italian foreign policy, with indicators suggesting ongoing development and refinement by the threat actor.",
+    "sourceUrl": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
+    "publishedAt": "2026-06-26T07:15:46.000Z",
+    "contentHash": "6cfbd05423808920673835d9ae86f14fbe834e4dee5b04121c14cedd0ced1d87",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:darkreading-389a8b3d98",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "telecommunications",
+      "it-services"
+    ],
+    "title": "Cisco CUCM Vulnerability Weaponized Within 24 Hours",
+    "summary": "A server-side request forgery vulnerability in Cisco Unified Communications Manager (CUCM) and CUCM SME has been leveraged by attackers within a day of disclosure. The flaw permits privilege escalation to root level, affecting both standard and small-to-medium enterprise deployments.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw",
+    "publishedAt": "2026-06-25T21:54:34.000Z",
+    "contentHash": "6f65955e792cf0cb9415d6b8802563c942d15714fd1c3b7dd474790116686dbc",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:bleeping-84c87a4a4c",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-central",
+    "industries": [
+      "telecommunications",
+      "cryptocurrency"
+    ],
+    "title": "Poland Arrests SIM-Swapping Gang Responsible for Crypto Theft",
+    "summary": "Polish law enforcement arrested four members of an organized cybercrime ring that compromised telecommunications infrastructure to execute SIM-swapping attacks and hijack email accounts. The group targeted cryptocurrency holders, resulting in millions of dollars in losses. The investigation involved coordination with telecom partners to identify the breach vectors and attackers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
+    "publishedAt": "2026-06-25T22:37:42.000Z",
+    "contentHash": "268091fbea39d6636a88f0618122b29f98631a6f25105adf7acca42af0bf32f8",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7670c7a304",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Chrome Ad Blocker Extension with 10M+ Installs Contains Code Injection Vulnerability",
+    "summary": "Security researchers identified a popular YouTube ad-blocking Chrome extension with over 10 million installations that contains dormant capability to execute arbitrary JavaScript code. The extension, which carries a Featured badge on the Chrome Web Store, was analyzed by Island and found to possess the technical infrastructure for potential malicious script injection despite no evidence of active exploitation.",
+    "sourceUrl": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
+    "publishedAt": "2026-06-25T14:12:52.000Z",
+    "contentHash": "b53f58cd0aeb4e409b0369d8e4a8351305368c29a26dff50af3284870c4340aa",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:darkreading-07f6e05b04",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Russian APT Gamaredon Enhances Malware Delivery and Infrastructure Evasion",
+    "summary": "Russian state-sponsored group Gamaredon has improved its malware deployment capabilities and server obfuscation techniques. The upgrades suggest the threat actor is refining operational tradecraft to evade detection and complicate defensive responses.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense",
+    "publishedAt": "2026-06-25T21:12:01.000Z",
+    "contentHash": "cb5b149943a3ddc2eec57a6dca28c16f7572d6072df9ca16567c8f5b2b614559",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:bleeping-8607abaa75",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "retail",
+      "ecommerce"
+    ],
+    "title": "Shop App Exploited for Phishing Attacks via Fraudulent Order Records",
+    "summary": "Threat actors are injecting counterfeit purchase receipts into users' Shop app order histories to conduct phishing campaigns and distribute remote access malware. The attack leverages the app's legitimate notification system to establish credibility with targets.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+    "publishedAt": "2026-06-25T19:45:48.000Z",
+    "contentHash": "2b2fa8681ae557b2c007c66bfcf91524d4f93ae62c2aa10370b2b633a65fefcf",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3ea4be44ed",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
+    "summary": "Weekly threat roundup covering multiple security incidents including proxyware deployment on smart TVs, a long-standing vulnerability in curl, and emerging AI-based criminal forums. The bulletin highlights recurring attack patterns involving credential reuse, compromised trusted applications, browser-based exploits, and email-based social engineering campaigns.",
+    "sourceUrl": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
+    "publishedAt": "2026-06-25T12:24:43.000Z",
+    "contentHash": "20d4cb1603dec94e96029faec5577bc101eec167f898a530fd995a0f029a168c",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:darkreading-326c594c92",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "education",
+      "software"
+    ],
+    "title": "EdTech Attackers Shift From Schools to Their Software Suppliers",
+    "summary": "Threat actors are increasingly targeting software suppliers serving the education sector rather than schools directly, expanding their attack surface within the edtech ecosystem. This shift reflects a broader pattern where attackers pursue supply chain vulnerabilities to compromise multiple downstream customers with a single compromise.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/edtech-attackers-shift-schools-software-suppliers",
+    "publishedAt": "2026-06-25T20:34:14.000Z",
+    "contentHash": "7df9a282c3fc8bf80256436b06a732c754da25110c906de3661e66f3b95950fa",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:bleeping-6c3a9a3ac3",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Extends Windows 10 Free ESU Support to October 2027",
+    "summary": "Microsoft has extended its complimentary Extended Security Updates program for Windows 10 consumer devices, pushing the support endpoint from October 2026 to October 2027. This provides an additional year of security patches for enrolled systems beyond the standard end-of-support date.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
+    "publishedAt": "2026-06-25T18:29:20.000Z",
+    "contentHash": "30f7c37b7229d99a4417cdbaac188b29c4950427e08f373beaf4d5d94c22f176",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9641f0f414",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
+    "summary": "Security operations teams often lack sufficient context to answer fundamental investigative questions despite access to extensive telemetry, according to Richard Bejtlich. Moving beyond alert-driven triage to network detection and response (NDR) approaches enables teams to reconstruct incident narratives with greater visibility and confidence in investigation completeness.",
+    "sourceUrl": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
+    "publishedAt": "2026-06-25T11:17:31.000Z",
+    "contentHash": "b54a523d31a0148e31a03a70c5f6f1f5cb1c68e202f9c9113bc4a8e3adb2f6ad",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:darkreading-9a658d4451",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "title": "Local Police Collusion Hampers Crackdown on Asian Scam Centers",
+    "summary": "Scam centers across Asia persist despite international enforcement efforts, supported by financial incentives that encourage local police complicity. The operations generate tens of billions in regional economic flows, creating structural obstacles to coordinated law-enforcement action.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers",
+    "publishedAt": "2026-06-25T19:07:41.000Z",
+    "contentHash": "c17b6747fd7876043d8398f498a94747119cfd0c10d2a8dd627a56f7ee574fe7",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:bleeping-9666d4678f",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "macOS malware 'Gaslight' uses AI evasion techniques",
+    "summary": "Security researchers identified a new macOS malware variant that embeds obfuscated prompt injection strings and fabricated debugging information to mislead AI-powered analysis tools. The approach demonstrates an emerging adversarial tactic targeting automated detection and reverse-engineering capabilities.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
+    "publishedAt": "2026-06-25T16:23:19.000Z",
+    "contentHash": "6fb7ba66adcb7dc14bf858dc6286c98607927c7c91901a9bb9b772cdc8840f14",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c96f9691fd",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Gaslight macOS Malware Employs Prompt Injection to Evade AI-Based Analysis",
+    "summary": "A Rust-based macOS malware strain dubbed Gaslight has been identified that incorporates prompt injection techniques to manipulate AI-assisted analysis tools into abandoning or refusing malware examination. The implant combines information-stealing capabilities with anti-analysis features designed to undermine automated security workflows.",
+    "sourceUrl": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+    "publishedAt": "2026-06-25T09:23:03.000Z",
+    "contentHash": "871d6037b5f44e2a1a30e4e25ae735c1410b72235c7cbe3095e0ba2862e4a8ae",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:darkreading-9ffec68b8d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "eu-west",
+    "title": "Europe Becomes Primary Ransomware Target Following Global Shift",
+    "summary": "Ransomware operators are increasingly focusing attack campaigns on European organizations and their supply chains after a period of reduced global activity. The region's combination of high-value targets and regulatory complexity appears to be driving this strategic reorientation by threat actors.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region",
+    "publishedAt": "2026-06-25T10:00:00.000Z",
+    "contentHash": "d01c2c7d0b376ff3bd5803d5c21fc66dbc9dc191adc22e1343b4d4b15942fb35",
+    "ingestedAt": "2026-06-26T08:35:41.696Z"
   }
 ]
