@@ -3390,5 +3390,183 @@
     "publishedAt": "2026-06-25T10:00:00.000Z",
     "contentHash": "d01c2c7d0b376ff3bd5803d5c21fc66dbc9dc191adc22e1343b4d4b15942fb35",
     "ingestedAt": "2026-06-26T08:35:41.696Z"
+  },
+  {
+    "id": "knowledge:bleeping-890dfe9b44",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "FBI and CISA warn of Russian intelligence phishing targeting Signal backup recovery keys",
+    "summary": "U.S. law enforcement agencies have issued a warning regarding an ongoing phishing campaign attributed to Russian intelligence services that targets Signal users. The campaign has evolved to specifically harvest Signal Backup Recovery Keys, which would grant attackers access to encrypted message histories if successful.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+    "publishedAt": "2026-06-26T22:06:17.000Z",
+    "contentHash": "6049c67b567d96d07387d76b6f618bdde87cdb77735646c00c8e90183968033e",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b65ad53703",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "FBI and CISA Alert on Russian Intelligence Targeting Signal Backup Recovery Keys",
+    "summary": "Russian intelligence-affiliated threat actors have evolved their Signal account phishing campaign to now solicit backup recovery keys from targets. Possession of these keys allows attackers to restore account backups, access message history, and assume control of compromised accounts, with the keys remaining valid for ongoing exploitation.",
+    "sourceUrl": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
+    "publishedAt": "2026-06-26T19:38:29.000Z",
+    "contentHash": "38ff192a633158eec48dd81fd2ec76030a8b2f8a6ab0a47417dc21595f360817",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:darkreading-cf1397eeb4",
+    "tier": "event",
+    "category": "analyst",
+    "title": "AI Confidence in Autonomous Penetration Testing Declines",
+    "summary": "Organizations continue piloting AI-driven automated penetration testing tools, yet adoption rates and confidence levels are diminishing. The trend suggests enterprises are reassessing the maturity and reliability of autonomous security assessment systems before committing to widespread deployment.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing",
+    "publishedAt": "2026-06-26T19:11:02.000Z",
+    "contentHash": "6168b256d48e9f4db85f688f50545a73bf9a39cad28075fef6ac33a4098480fb",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:cisa-a97d2099b0",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "Path Traversal Vulnerability in pynetdicom Library (CVSS 9.1)",
+    "summary": "A path traversal vulnerability affecting pynetdicom versions 1.0.0 through 3.0.3 allows unauthenticated remote attackers to write to arbitrary file locations. The maintainer has not engaged with CISA on remediation efforts. Organizations should restrict network access to affected systems and apply updates from the GitHub repository when available.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-01",
+    "publishedAt": "2026-06-25T12:00:00.000Z",
+    "contentHash": "635b9a26c8e41a93bf2fa766349fb199c18df022aec315ee19ef344f88d56163",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:thehackernews-106115782a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "industries": [
+      "government"
+    ],
+    "title": "SharkLoader Malware Delivers Cobalt Strike in StrikeShark Campaign",
+    "summary": "Kaspersky has identified SharkLoader, a previously unknown malware loader, being deployed in a campaign tracked as StrikeShark to deliver Cobalt Strike Beacon payloads. The activity has targeted diplomatic entities in Indonesia and government organizations in Taiwan, suggesting a focus on Southeast Asian government infrastructure.",
+    "sourceUrl": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+    "publishedAt": "2026-06-26T18:17:46.000Z",
+    "contentHash": "e766ce093e27fc6dd8adae96db3df54b056715485c77ced25e8adcf438a06600",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:darkreading-602a4aee23",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Cisco Expands Identity-Centric Security Through Astrix and WideField Acquisitions",
+    "summary": "Cisco has acquired Astrix and WideField to integrate Network Human Identity (NHI) capabilities into its security portfolio, positioning identity as a foundational control mechanism. The move reflects industry momentum toward securing agentic and human workforces through identity-first architectures.",
+    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield",
+    "publishedAt": "2026-06-26T17:31:04.000Z",
+    "contentHash": "106a561ad2c57af43cdb7f303bce54f0745c9a285ade1deab4b5aace68682755",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:bleeping-b2c74908a5",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "cryptocurrency",
+      "fintech"
+    ],
+    "title": "Polymarket Supply Chain Attack Results in $3M Customer Loss",
+    "summary": "Polymarket experienced a frontend compromise after a third-party vendor breach, during which attackers injected malicious code affecting customer funds. The platform has committed to reimbursing affected users for approximately $3 million in losses.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+    "publishedAt": "2026-06-26T18:04:12.000Z",
+    "contentHash": "cbf37163f2f2f0312b527ddd57bbec1317caab12ace6361fe5c66ed86f2f284e",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5a77672055",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "industries": [
+      "energy",
+      "government"
+    ],
+    "title": "Chinese-Speaking APT Deploys TinyRCT Backdoor Targeting Southeast Asia Infrastructure",
+    "summary": "A Chinese-speaking APT group tracked as CL-STA-1062 has deployed a custom backdoor named TinyRCT against government entities and critical infrastructure in Southeast Asia. The campaign specifically targets state-owned enterprises in the energy and government sectors, according to Palo Alto Networks research.",
+    "sourceUrl": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+    "publishedAt": "2026-06-26T16:21:25.000Z",
+    "contentHash": "372740648bdeaacaad9e8f01df1827a92cf76cad5ecc31b71a1fc684658ebf9e",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:darkreading-80f8b19258",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Open Source Sustainability Initiative Addresses End-of-Life Software Security",
+    "summary": "A new initiative has been launched to assist enterprises in managing and securing deprecated open source projects while meeting regulatory requirements. The program focuses on reducing risk exposure from unmaintained dependencies that remain in production environments.",
+    "sourceUrl": "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
+    "publishedAt": "2026-06-26T16:32:30.000Z",
+    "contentHash": "ff036ec99a982efa08a78a5e1f3f11bd6f64c97a58a590ce25dd23bda2fb3515",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:bleeping-db2eef207e",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "cybersecurity"
+    ],
+    "title": "Threat actors impersonate companies via fraudulent OpenAI tenants to harvest sensitive data",
+    "summary": "Attackers are registering OpenAI organization accounts impersonating legitimate cybersecurity firms and extending invitations to their employees. The scheme aims to deceive recipients into sharing confidential business information within the platform's chat and project features.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
+    "publishedAt": "2026-06-26T17:49:07.000Z",
+    "contentHash": "2998fac3e71d944189bbbe10461e23ebf6016eb736355fa3d1b7ef8a654fe40c",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:darkreading-b8369f596f",
+    "tier": "event",
+    "category": "analyst",
+    "title": "AI Won't Wipe-Out Entry-Level Cybersecurity Jobs",
+    "summary": "Industry analysis suggests AI adoption in cybersecurity will not displace early-career professionals, but rather shift role requirements toward human judgment and decision-making capabilities. Organizations are increasingly seeking entry-level talent with complementary skills to work alongside AI-driven security tools.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs",
+    "publishedAt": "2026-06-26T16:00:00.000Z",
+    "contentHash": "bb63260ce8aaeead14fd9f241f5854b6dc96a1e04d8e75442a65865bf90b0db9",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:bleeping-184d987fb8",
+    "tier": "event",
+    "category": "strategy",
+    "title": "GRC Automation Through AI Agents: Practical Implementation Guide",
+    "summary": "A practitioner demonstrates how AI agents can automate routine governance, risk, and compliance tasks by continuously monitoring security controls and flagging evidence gaps. The approach aims to reduce manual effort in GRC operations while preserving analyst oversight and decision-making responsibilities.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
+    "publishedAt": "2026-06-26T14:01:11.000Z",
+    "contentHash": "a9e3890a0382fd1dff22e55bbc052092b90690a5b88ac3d8d8bb5504b6e1e525",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1fc5c87041",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Amazon Q Developer Vulnerability Allowed Credential Theft via Malicious Repositories",
+    "summary": "A high-severity flaw in Amazon Q Developer (CVE-2026-12957, CVSS 8.5) enabled malicious repositories to execute arbitrary commands and exfiltrate cloud credentials when opened by developers. The vulnerability stemmed from improper validation of Model Context Protocol server configurations, requiring only that a user trust the workspace to trigger exploitation. Amazon has released a patch addressing the issue.",
+    "sourceUrl": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+    "publishedAt": "2026-06-26T13:53:00.000Z",
+    "contentHash": "d26d96823d7b5311a48845fe6481ee72b144f962817682a28a5b979c924ba7f6",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:darkreading-8a389fcc4f",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "title": "Trump's 2030 Quantum-Safe Deadline Presents Cost and Complexity Challenges",
+    "summary": "Organizations face significant technical and financial hurdles in meeting the 2030 quantum-safe cryptography transition mandated by the Trump administration. Achieving comprehensive visibility across heterogeneous IT and OT infrastructure is complicated by vendor fragmentation, misaligned lifecycle timelines, and interoperability limitations.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex",
+    "publishedAt": "2026-06-26T13:30:00.000Z",
+    "contentHash": "2bf6659f65893e2ae0f4ca287d6424e633f6a2585a2e980bfbea7eb4abe2e2eb",
+    "ingestedAt": "2026-06-27T07:29:51.188Z"
   }
 ]
