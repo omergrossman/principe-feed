@@ -1572,5 +1572,98 @@
     "region": "us",
     "category": "strategy",
     "publishedAt": "2026-06-26T13:30:00.000Z"
+  },
+  "knowledge/cisa-dc2496dbf4.md": {
+    "region": "us",
+    "industries": [
+      "industrial-control-systems",
+      "manufacturing",
+      "process-automation"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-25T12:00:00.000Z"
+  },
+  "knowledge/bleeping-de56754b14.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-27T14:22:36.000Z"
+  },
+  "knowledge/thehackernews-e86a6f4ab0.md": {
+    "region": "global",
+    "industries": [
+      "government",
+      "defense"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-27T17:27:11.000Z"
+  },
+  "knowledge/darkreading-66d13c45bd.md": {
+    "region": "us",
+    "industries": [
+      "education"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-27T11:48:05.000Z"
+  },
+  "knowledge/sans-isc-193fbb990e.md": {
+    "category": "product-release",
+    "publishedAt": "2026-06-28T07:56:44.000Z"
+  },
+  "knowledge/bleeping-3d23383c8a.md": {
+    "category": "news",
+    "publishedAt": "2026-06-25T15:36:56.000Z"
+  },
+  "knowledge/thehackernews-3fad703538.md": {
+    "region": "us",
+    "category": "product-release",
+    "publishedAt": "2026-06-27T12:19:37.000Z"
+  },
+  "knowledge/darkreading-4f12024baa.md": {
+    "category": "news",
+    "publishedAt": "2026-06-26T13:00:00.000Z"
+  },
+  "knowledge/thehackernews-b24c44ec2f.md": {
+    "region": "us",
+    "industries": [
+      "manufacturing",
+      "aerospace",
+      "defense",
+      "automotive",
+      "industrial"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-26T12:31:56.000Z"
+  },
+  "knowledge/darkreading-37c7764bfc.md": {
+    "region": "us",
+    "industries": [
+      "fintech"
+    ],
+    "category": "strategy",
+    "publishedAt": "2026-06-25T22:42:36.000Z"
+  },
+  "knowledge/thehackernews-e0deeaecb1.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-06-26T11:51:35.000Z"
+  },
+  "knowledge/thehackernews-2a89d14060.md": {
+    "category": "strategy",
+    "publishedAt": "2026-06-26T11:30:00.000Z"
+  },
+  "knowledge/thehackernews-a281862d16.md": {
+    "industries": [
+      "software development",
+      "devops"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-06-26T11:05:45.000Z"
+  },
+  "knowledge/thehackernews-f183838f79.md": {
+    "region": "global",
+    "industries": [
+      "hospitality",
+      "hotels"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-06-26T09:27:12.000Z"
   }
 }

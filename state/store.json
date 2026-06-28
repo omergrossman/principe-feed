@@ -3568,5 +3568,196 @@
     "publishedAt": "2026-06-26T13:30:00.000Z",
     "contentHash": "2bf6659f65893e2ae0f4ca287d6424e633f6a2585a2e980bfbea7eb4abe2e2eb",
     "ingestedAt": "2026-06-27T07:29:51.188Z"
+  },
+  {
+    "id": "knowledge:cisa-dc2496dbf4",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "industrial-control-systems",
+      "manufacturing",
+      "process-automation"
+    ],
+    "title": "Yokogawa FAST/TOOLS and CI Server Cleartext Transmission Vulnerability",
+    "summary": "CISA has published a vulnerability affecting Yokogawa FAST/TOOLS and Collaborative Information Server that allows unauthenticated network-based attackers to retrieve CI Server configuration data via cleartext transmission (CVE details referenced in YSAR-26-0004). The vulnerability carries a CVSS 3.1 base score of 7.5 (HIGH). Yokogawa recommends updating FAST/TOOLS to R10.04 SP4 and CI Server to R1.05, with additional mitigation involving network segmentation and access controls.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
+    "publishedAt": "2026-06-25T12:00:00.000Z",
+    "contentHash": "0cc30c7dfe84d3f3ebc552c5b44fd0c306f3a3d3c95ff508ff087169b31f870e",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:bleeping-de56754b14",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI coding agents exploited via malicious GitHub repositories",
+    "summary": "Researchers demonstrated that agentic coding tools can be tricked into executing malware from seemingly legitimate GitHub repositories through setup processes that evade detection by security scanners, automated agents, and human code review. The attack exploits the autonomous nature of AI agents during repository initialization.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+    "publishedAt": "2026-06-27T14:22:36.000Z",
+    "contentHash": "5e3c6121aa8a611e404f354d61d6fc37a7180b16ecee75657b267e159e399bec",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e86a6f4ab0",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "government",
+      "defense"
+    ],
+    "title": "Ukraine and FBI Expose Russian Intelligence Messaging Account Compromise Campaign",
+    "summary": "Ukrainian and U.S. authorities disclosed a sustained operation by Russian intelligence services targeting messaging accounts of government officials, military personnel, and activists across Ukraine, Europe, and the United States through credential theft techniques, including fraudulent support communications.",
+    "sourceUrl": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+    "publishedAt": "2026-06-27T17:27:11.000Z",
+    "contentHash": "8b0699b767d92747b0159fbb602b2760c7b6141a8cd50f4016d214f7fa01d2ac",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:darkreading-66d13c45bd",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "education"
+    ],
+    "title": "Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk",
+    "summary": "Educational institutions are experiencing increased security incidents through third-party vendors, exposing student data to ransomware and related threats. The sector is responding by implementing stronger vendor risk management practices and oversight mechanisms to mitigate supply chain vulnerabilities.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk",
+    "publishedAt": "2026-06-27T11:48:05.000Z",
+    "contentHash": "ebf31eb60b5f84d16ba3142f6714a5c93a8e2fb00bd48ad9db86b9cb73455dc8",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:sans-isc-193fbb990e",
+    "tier": "event",
+    "category": "product-release",
+    "title": "YARA-X 1.18.0 and 1.19.0 Release",
+    "summary": "YARA-X malware analysis tool released versions 1.18.0 and 1.19.0 with cumulative improvements and bug corrections. The updates enhance the pattern matching and detection capabilities used by security teams in threat investigation workflows.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33106",
+    "publishedAt": "2026-06-28T07:56:44.000Z",
+    "contentHash": "c9d954dae226cd4025e9f35a1b8b2005d997aec6d2bbd7e3508c4eab3e6a4014",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:bleeping-3d23383c8a",
+    "tier": "event",
+    "category": "news",
+    "title": "PirloTV Sports Piracy Network Disrupted",
+    "summary": "Law enforcement action resulted in the seizure of 44 domains associated with PirloTV, a major sports piracy streaming operation. The disruption represents a significant enforcement effort against illegal content distribution infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
+    "publishedAt": "2026-06-25T15:36:56.000Z",
+    "contentHash": "53fe589839c8f019186a9240443d38bbda4db0655048bb825c7606a1c86ebd1f",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3fad703538",
+    "tier": "event",
+    "category": "product-release",
+    "region": "us",
+    "title": "OpenAI Releases GPT-5.6 Preview Models with Enhanced Security Controls",
+    "summary": "OpenAI introduced three variants of GPT-5.6 (Sol, Terra, and Luna) in limited preview to select organizations, with Sol representing the flagship capability tier. The release incorporates enhanced cybersecurity safeguards and follows coordination with U.S. government stakeholders. The tiered approach allows organizations to select models optimized for capability, efficiency, or cost depending on use case requirements.",
+    "sourceUrl": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
+    "publishedAt": "2026-06-27T12:19:37.000Z",
+    "contentHash": "0e3c845810eae334841a9a5697ad309a00c92e288714ac6c4f9bfa0e210fd437",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:darkreading-4f12024baa",
+    "tier": "event",
+    "category": "news",
+    "title": "Dark Reading Managing High Volume of Security News Submissions",
+    "summary": "Dark Reading acknowledges a backlog in processing reader submissions and notes delays in response times due to increased volume. The publication is working to manage the influx while maintaining editorial standards.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/submissions-guidelines-reminder",
+    "publishedAt": "2026-06-26T13:00:00.000Z",
+    "contentHash": "754bceb41186c314b3c45851779443eed8d0c4e323152bc1996aa9d4c7e4d636",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b24c44ec2f",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "manufacturing",
+      "aerospace",
+      "defense",
+      "automotive",
+      "industrial"
+    ],
+    "title": "CISA Adds PTC Windchill RCE Vulnerability to Known Exploited Vulnerabilities Catalog",
+    "summary": "CISA added a critical remote code execution vulnerability affecting PTC Windchill PDMlink and PTC FlexPLM to its Known Exploited Vulnerabilities catalog, based on evidence of active exploitation in the wild. The flaw impacts enterprise product data management and lifecycle management systems, with web shell deployment observed as part of ongoing attack campaigns.",
+    "sourceUrl": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
+    "publishedAt": "2026-06-26T12:31:56.000Z",
+    "contentHash": "1ed6b940046f67fcee090ae480e69708a808dee1977f25cfbcab195f9cb627c1",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:darkreading-37c7764bfc",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "industries": [
+      "fintech"
+    ],
+    "title": "Robinhood Streamlines Access Approval Process for Developer Velocity",
+    "summary": "Robinhood's application security team redesigned its system access approval workflow to reduce friction while maintaining security controls, enabling faster developer onboarding and project iteration. The company's engineering-first approach demonstrates how access governance can be optimized without compromising compliance or risk management.",
+    "sourceUrl": "https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development",
+    "publishedAt": "2026-06-25T22:42:36.000Z",
+    "contentHash": "a2e3c7e3de13380649f7b5264225d3d0e228160c5835f7db518ff329b2983e7e",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e0deeaecb1",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "DirtyClone Linux Kernel Vulnerability Enables Local Privilege Escalation",
+    "summary": "JFrog Security Research disclosed a Linux kernel privilege escalation flaw (CVE-2026-43503, CVSS 8.8) that allows local users to achieve root access by manipulating cloned network packets to corrupt file-backed memory. The vulnerability, part of the DirtyFrag family, was demonstrated publicly through a working exploit on June 25.",
+    "sourceUrl": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
+    "publishedAt": "2026-06-26T11:51:35.000Z",
+    "contentHash": "3e3e7c7ab96b9296d49069c6e3c182766d5ef39d677780bd301cd312cd74db81",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:thehackernews-2a89d14060",
+    "tier": "event",
+    "category": "strategy",
+    "title": "AI Agents Present Identity Governance Challenges in Enterprise Environments",
+    "summary": "Enterprise deployments of AI agents are operating within existing identity infrastructures originally designed for human access control, creating governance gaps as these autonomous actors inherit permissions and execute decisions at scale. Current identity governance programs lack adequate oversight mechanisms for machine-based actors, highlighting a mismatch between deployed AI capabilities and organizational controls.",
+    "sourceUrl": "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
+    "publishedAt": "2026-06-26T11:30:00.000Z",
+    "contentHash": "be81cd16d65f20bdf47a06532eb178367cf094d49be73631cf0e54ee37398ba3",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a281862d16",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "devops"
+    ],
+    "title": "Miasma Malware Expands Supply Chain Campaign Across npm and Go Ecosystems",
+    "summary": "Researchers identified new malicious npm package releases targeting LeoPlatform and RStreams, along with GitHub Actions workflow abuse, as part of an ongoing supply chain campaign attributed to the Mini Shai-Hulud/Miasma/Hades malware family. The threat actor has extended its reach into the Go ecosystem, indicating a sustained effort to compromise multiple developer-focused platforms.",
+    "sourceUrl": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
+    "publishedAt": "2026-06-26T11:05:45.000Z",
+    "contentHash": "ac8559ee7eb13f994c0597b8729ee89d13a0be6028832a6e8daf407a29746d1d",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f183838f79",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "hospitality",
+      "hotels"
+    ],
+    "title": "Photo ZIP Phishing Campaign Targets Hospitality Sector with Node.js Implant",
+    "summary": "Microsoft has identified an ongoing phishing campaign since April 2026 targeting hotel and hospitality organizations across Europe and Asia. The campaign uses photo-themed ZIP files to deliver a Node.js implant designed to compromise front-desk systems. The threat actor remains unattributed and objectives are not yet established.",
+    "sourceUrl": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
+    "publishedAt": "2026-06-26T09:27:12.000Z",
+    "contentHash": "25344a2bb7a3f47ece3f94a86fa9ebd89928b0a6ca9193830ae604a5a6e1ebc6",
+    "ingestedAt": "2026-06-28T08:28:41.758Z"
   }
 ]
