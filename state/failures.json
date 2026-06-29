@@ -1,0 +1,13 @@
+{
+  "at": "2026-06-29T09:59:08.812Z",
+  "failures": [
+    {
+      "key": "acsc-anz",
+      "reason": "Request timed out after 20000ms"
+    },
+    {
+      "key": "gartner-newsroom",
+      "reason": "Status code 403"
+    }
+  ]
+}

@@ -3759,5 +3759,92 @@
     "publishedAt": "2026-06-26T09:27:12.000Z",
     "contentHash": "25344a2bb7a3f47ece3f94a86fa9ebd89928b0a6ca9193830ae604a5a6e1ebc6",
     "ingestedAt": "2026-06-28T08:28:41.758Z"
+  },
+  {
+    "id": "knowledge:bleeping-cec26a23b6",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "telecommunications",
+      "internet service providers"
+    ],
+    "title": "Data breach exposes 14.2 million email logins across six Japanese ISPs",
+    "summary": "KDDI Corporation, a major Japanese telecommunications operator, disclosed unauthorized access to an email system shared with five other ISPs, compromising approximately 14.2 million email login credentials. The breach affected multiple internet service providers operating in Japan and highlights shared infrastructure vulnerabilities in the telecommunications sector.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+    "publishedAt": "2026-06-28T14:13:46.000Z",
+    "contentHash": "30ce65957f218ff78772dc48472d35d2feb8a573456eac25d3f5221de601006a",
+    "ingestedAt": "2026-06-29T09:59:08.812Z"
+  },
+  {
+    "id": "knowledge:thehackernews-6718181e9d",
+    "tier": "event",
+    "category": "attack",
+    "title": "Microsoft Removes 119 Edge Extensions Concealing Malware via Steganography",
+    "summary": "Microsoft took down 119 malicious Edge extensions attributed to a single threat actor operating since at least 2021. The extensions used steganographic techniques to embed payloads within image and font files, remaining dormant before activating to harvest credentials and conduct ad fraud operations.",
+    "sourceUrl": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+    "publishedAt": "2026-06-29T08:32:31.000Z",
+    "contentHash": "3ffbfabdf03a9c140bed22c0daa9cd26c6e1a5bc8b57495f49b0d47acdf0dc45",
+    "ingestedAt": "2026-06-29T09:59:08.812Z"
+  },
+  {
+    "id": "knowledge:sans-isc-0baa7afc1f",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast For Monday, June 29th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat intelligence. The episode provides analysis of active threats and security trends relevant to defensive teams.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33108",
+    "publishedAt": "2026-06-29T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-29T09:59:08.812Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f4a911d05c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
+    "summary": "A public proof-of-concept exploit has been released for CVE-2026-55200, a critical vulnerability in libssh2 affecting all versions through 1.11.1. The flaw allows a malicious or compromised SSH server to trigger memory corruption on connecting clients, potentially enabling code execution without requiring credentials or user interaction.",
+    "sourceUrl": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
+    "publishedAt": "2026-06-29T07:06:34.000Z",
+    "contentHash": "cca15fa44ee00312003d4964aa2234e541ad7ea14be444c3666747f204ed94e8",
+    "ingestedAt": "2026-06-29T09:59:08.812Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7cabef5472",
+    "tier": "event",
+    "category": "attack",
+    "title": "Hijacked npm and Go Packages Distribute Python Infostealer via VS Code Tasks",
+    "summary": "Researchers identified compromised npm and Go packages that leverage VS Code task configurations to deploy a Python infostealer across Windows, Linux, and macOS systems. The attack mechanism circumvents standard npm lifecycle script execution paths, potentially designed to evade security controls implemented in recent npm versions.",
+    "sourceUrl": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+    "publishedAt": "2026-06-29T05:36:06.000Z",
+    "contentHash": "fb30b2fb74bdc6121762fe627fc066c53d941e277bfa32e0e9d10c06598d3998",
+    "ingestedAt": "2026-06-29T09:59:08.812Z"
+  },
+  {
+    "id": "knowledge:manual-d4d1746704cc",
+    "tier": "foundational",
+    "category": "strategy",
+    "region": "global",
+    "title": "Five Eyes Cyber Security Agencies Statement on AI and Cyber Risk",
+    "summary": "The Five Eyes cyber security agencies (US, UK, Canada, Australia, New Zealand) issued a coordinated statement emphasizing that frontier AI models will fundamentally alter both offensive and defensive cyber capabilities within months rather than years. The agencies stress that cyber resilience is now a core business and leadership responsibility, not purely a technical function, requiring boards and executives to ensure controls perform under real incident conditions. Key recommended actions include implementing secure-by-design and secure-by-default practices, reducing attack surface, accelerating patching cycles to counter shortened vulnerability-to-exploitation windows, addressing legacy systems, strengthening identity and access controls, and preparing incident response plans. The statement calls on organizations to deliberately integrate AI tools into security operations to detect vulnerabilities earlier, monitor anomalies, and improve incident response speed while acknowledging that adversaries are already leveraging AI for faster, more effective attacks.",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/five-eyes-cyber-security-agencies-statement",
+    "publishedAt": "2026-06-22T12:00:00.000Z",
+    "contentHash": "611255b2b44b2297e6bbd9b340decc47ec0fad97a329fc95014658b7ef9b7355",
+    "subjectKey": "manual-d4d1746704cc",
+    "reportDate": "2026-06-22T12:00:00.000Z",
+    "ingestedAt": "2026-06-29T09:59:08.812Z"
+  },
+  {
+    "id": "knowledge:manual-1e91d166f075",
+    "tier": "foundational",
+    "category": "strategy",
+    "title": "Sorry, Cyber: You Aren't the Only Ones Saving the Company from Itself",
+    "summary": "A security leader argues that cybersecurity teams are not uniquely positioned in organizations to counterbalance risky business decisions; rather, control functions across finance, operations, safety, legal, and compliance routinely face pressure to compromise on risk management. Drawing parallels to financial controls (mark-to-market accounting disciplines at Goldman Sachs pre-2008), the piece catalogs 20+ real-world scenarios where revenue, operations, or product teams pressure control functions to bypass safeguards—from recognizing premature revenue and falsifying expense classifications to deploying software with known data leakage. Effective risk governance depends on embedding controls into systems and processes (with escalation gates at CFO or equivalent level), supported by policies and executive backing. However, the author emphasizes that security and control teams must also reduce friction by identifying root causes of bypass requests—such as misaligned production cadences forcing emergency changes—rather than treating all pushback as obstruction.",
+    "sourceUrl": "https://www.philvenables.com/post/sorry-cyber-you-aren-t-the-only-ones-saving-the-company-from-itself",
+    "publishedAt": "2026-06-27T12:52:02.268Z",
+    "contentHash": "7dd27aae04f637d8aef21b2d48e7d4755ca782f5b24b0c298cefd440f99f92dc",
+    "subjectKey": "manual-1e91d166f075",
+    "reportDate": "2026-06-27T12:52:02.268Z",
+    "ingestedAt": "2026-06-29T09:59:08.812Z"
   }
 ]
