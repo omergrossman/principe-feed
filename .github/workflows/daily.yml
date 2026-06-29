@@ -25,6 +25,10 @@ permissions:
 jobs:
   build-snapshot:
     runs-on: ubuntu-latest
+    # Bound every run so a stalled fetch/distill fails fast instead of
+    # hanging for hours — a manual "Run build now" stays as reliable as
+    # the daily cron (normal run ~5 min).
+    timeout-minutes: 15
     env:
       PRINCIPE_OSS_DIR: vendor/principe-oss
       PUBLISH_MODE: ${{ vars.PUBLISH_MODE || 'review' }}
@@ -46,6 +50,7 @@ jobs:
       - run: pnpm install --frozen-lockfile --dir vendor/principe-oss
 
       - name: Run pipeline
+        timeout-minutes: 12
         run: node --import tsx src/run-daily.ts
 
       - name: Publish snapshot (PR in review mode, push in auto mode)
