@@ -10,6 +10,7 @@
 // Pure pipeline; no git/network side effects beyond fetch + distill.
 
 import { join } from "node:path";
+import { writeFileSync } from "node:fs";
 import { makeRssIngest, fetchAllSources, makeRealUrlFetch } from "./pipeline/fetch.js";
 import { loadManualItems, archiveProcessed, type ManualUrlFetch } from "./pipeline/manual.js";
 import { makeRealDistiller } from "./pipeline/distill.js";
@@ -26,6 +27,7 @@ import type { SourceDef } from "./config/sources.js";
 
 const SEEN_PATH = "state/seen.json";
 const STORE_PATH = "state/store.json";
+const FAILURES_PATH = "state/failures.json";
 
 export interface RunDeps {
   ingest: IngestFn;
@@ -142,6 +144,9 @@ export async function runPipeline(deps: RunDeps): Promise<RunResult> {
   emitBundleInput(snapshot, rootDir);
   saveStore(join(rootDir, STORE_PATH), snapshot);
   saveSeen(join(rootDir, SEEN_PATH), updateSeen(seen, toProcess.map((r) => r.url), nowISO));
+  // Persist this run's source failures so the operator console can flag
+  // sources that couldn't be ingested (403, timeout, …) in the waiting list.
+  writeFileSync(join(rootDir, FAILURES_PATH), JSON.stringify({ at: nowISO, failures }, null, 2) + "\n");
   archiveProcessed(rootDir, manual.processedFiles); // move ingested files out of the inbox
 
   return {
