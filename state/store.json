@@ -3846,5 +3846,235 @@
     "subjectKey": "manual-1e91d166f075",
     "reportDate": "2026-06-27T12:52:02.268Z",
     "ingestedAt": "2026-06-29T09:59:08.812Z"
+  },
+  {
+    "id": "knowledge:bleeping-bf572d2b4c",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "automotive",
+      "manufacturing"
+    ],
+    "title": "Nissan discloses employee data breach from Oracle PeopleSoft zero-day exploitation",
+    "summary": "Nissan confirmed a data breach affecting current and former employees resulting from exploitation of an Oracle PeopleSoft vulnerability. The attack was linked to the ShinyHunters extortion group, which has previously targeted similar systems for data theft operations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+    "publishedAt": "2026-06-29T20:40:44.000Z",
+    "contentHash": "0edf63a44f208652de0346eed452a22aa5aaef8e5d8cc57ae8b53e1ed73814e3",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3dc834659c",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Apple Releases Security Updates for iOS, macOS, and Safari Addressing 30+ Vulnerabilities",
+    "summary": "Apple released patches for over 30 security flaws across iOS, macOS, and Safari, including four WebKit vulnerabilities identified through AI-assisted analysis tools. The vulnerabilities addressed memory corruption and other issues that could potentially be exploited for unauthorized access or system compromise.",
+    "sourceUrl": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+    "publishedAt": "2026-06-30T07:15:07.000Z",
+    "contentHash": "c562dbcc2a1b92e3a13b1c512af5749774356baf757ee18860046b8e4f1f52ee",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:darkreading-633af52783",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "'Djinn' Stealer Targets Cloud and AI Credentials via SimpleHelp Vulnerability",
+    "summary": "A newly identified infostealer called Djinn is being distributed through CVE-2024-48558, a critical authentication bypass flaw in SimpleHelp remote support software. The malware specifically focuses on extracting credentials that provide access to cloud services and AI platforms, with particular emphasis on accounts with elevated privileges in development and administrative environments.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials",
+    "publishedAt": "2026-06-29T21:29:15.000Z",
+    "contentHash": "3daaeffe388497f8c70b66d74b8fcca19f189c2561cb784940d13ebaf57596b5",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:sans-isc-c62f73e50e",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast For Tuesday, June 30th, 2026",
+    "summary": "SANS Internet Storm Center released their daily cybersecurity briefing covering emerging threats and security developments. The podcast provides tactical updates on current threat landscape activities and defensive considerations for security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33112",
+    "publishedAt": "2026-06-30T02:25:12.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:thehackernews-441553fad7",
+    "tier": "event",
+    "category": "attack",
+    "title": "Oracle E-Business Suite Vulnerability CVE-2026-46817 Under Active Exploitation",
+    "summary": "A critical privilege management and authentication flaw in Oracle E-Business Suite (CVE-2026-46817, CVSS 9.8) is being actively exploited in production environments. The vulnerability affects Oracle Payments and enables attackers to compromise vulnerable instances with minimal complexity.",
+    "sourceUrl": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+    "publishedAt": "2026-06-30T05:04:06.000Z",
+    "contentHash": "8230f6a68012d19c0b6deb98a281cfff0a637854cfd0a49c536a3d5359e4f9ac",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:darkreading-9842b0e4c5",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "industries": [
+      "government"
+    ],
+    "title": "Critical Vulnerability Discovered in Indian Government Portal",
+    "summary": "A researcher identified a critical vulnerability in an Indian national government portal that could have enabled unauthorized access and system takeover. The finding was part of a broader discovery of multiple vulnerabilities affecting government systems in the country.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-private-data-indian-government-systems",
+    "publishedAt": "2026-06-29T21:05:29.000Z",
+    "contentHash": "b9848014426cba0ac55dae099894b13978871e7d813fc397fee88eedcf193b11",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9e9f0387df",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Automation Techniques for Favicon-Based Host Reconnaissance",
+    "summary": "A penetration tester demonstrates workflow automation methods for target host reconnaissance, building on previous approaches that leveraged historical DNS data collection. The technique uses favicon.ico analysis as part of a broader reconnaissance strategy during security assessments.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33110",
+    "publishedAt": "2026-06-29T12:00:54.000Z",
+    "contentHash": "b3c1b449f585e7ebf63df8d18b2ae6dbe1bc0fefd889e4ea8fb24706c25f6214",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:bleeping-d624e54e46",
+    "tier": "event",
+    "category": "product-release",
+    "title": "WhatsApp Introduces Username Feature for Phone Number Privacy",
+    "summary": "WhatsApp has deployed a username system enabling users to maintain contact privacy by obscuring their phone numbers from non-contacts. The feature allows individuals to share a username instead of their phone number when establishing new connections.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
+    "publishedAt": "2026-06-29T17:48:28.000Z",
+    "contentHash": "effc077b77dc19c7dbe98eafb5f4f45eb3f52197883e58f250a9f3c07b3dbb23",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5ee7da80f0",
+    "tier": "event",
+    "category": "attack",
+    "title": "Malicious Perplexity Chrome Extension Logged User Searches and Address Bar Input",
+    "summary": "Microsoft discovered a fraudulent Chrome extension impersonating Perplexity AI that intercepted user searches and address bar input by routing them through attacker-controlled infrastructure before delivering legitimate results. Google removed the extension from its store following responsible disclosure by Microsoft.",
+    "sourceUrl": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+    "publishedAt": "2026-06-29T18:40:09.000Z",
+    "contentHash": "86ca4e0ab717e859321e8cbe3c2c16d9389502e394f7e3ee0763fa306d3f3593",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:darkreading-8636c080f5",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Adversarial Clothing Design as Facial Recognition Countermeasure",
+    "summary": "Researchers have developed graphic t-shirt designs intended to degrade facial recognition system accuracy by exploiting vulnerabilities in neural network processing. The approach represents one method among emerging techniques to counter automated surveillance technologies.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/clothes-invisible-facial-recognition",
+    "publishedAt": "2026-06-29T19:38:04.000Z",
+    "contentHash": "582d5d35b7d8753f9e66e6472cd60031329fa0541a2cc1a39c1846221a689535",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:bleeping-7b238122b3",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Extends Windows Server 2022 Hotpatching Support to October 2027",
+    "summary": "Microsoft has extended the hotpatching support window for Windows Server 2022 to October 2027, providing an additional year of servicing beyond the mainstream end-of-support date in October 2026. This extension allows organizations to continue receiving critical security patches through hotpatching mechanisms for a longer period.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
+    "publishedAt": "2026-06-29T17:11:15.000Z",
+    "contentHash": "46fc4540b5664675acf81a95402c6ded1320ad51301bccf00c5a9bc014f789a6",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:thehackernews-4516104fbc",
+    "tier": "event",
+    "category": "product-release",
+    "region": "global",
+    "title": "WhatsApp Introduces Username Feature to Protect User Phone Numbers",
+    "summary": "WhatsApp has begun rolling out an optional username feature globally, enabling users to connect without sharing phone numbers directly. The feature aims to enhance privacy protections across the platform's 3 billion user base by providing an alternative contact method.",
+    "sourceUrl": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+    "publishedAt": "2026-06-29T16:09:21.000Z",
+    "contentHash": "8ef4e9929c189b97fe013f14b83b6500b5f56d9beca635f918d441dbf0ed6c9e",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:darkreading-a9c7e2620f",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "water and wastewater",
+      "critical infrastructure"
+    ],
+    "title": "Nation-State Actors Target Water Infrastructure Through Operational Security Weaknesses",
+    "summary": "Threat actors from Iran, Russia, and China have compromised water system operators by exploiting common defensive gaps including inadequate credential hygiene, internet-exposed industrial control devices, and insufficient network isolation. The campaigns rely on opportunistic access rather than advanced exploitation techniques, indicating that fundamental security practices remain the primary vulnerability in critical infrastructure environments.",
+    "sourceUrl": "https://www.darkreading.com/ics-ot-security/iran-russia-china-target-water-systems-sabotage",
+    "publishedAt": "2026-06-29T19:12:08.000Z",
+    "contentHash": "4d5d299f3a922f7f3754f65b2b1724ece8d92128f83109059757fc0b9a5a182d",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:bleeping-6e3b2d10bc",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "U.S. State Department offers $10 million bounty for Russian-linked hacker groups targeting encrypted messengers",
+    "summary": "The U.S. Department of State has announced a reward program offering up to $10 million for information leading to the identification or location of members of UNC5792 and UNC4221, threat groups associated with Russian intelligence and military operations. These groups have targeted users of encrypted messaging platforms including WhatsApp and Signal.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
+    "publishedAt": "2026-06-29T15:09:43.000Z",
+    "contentHash": "9f2772eb07e4c1fe2d25f85aa4aef0de86019c1199cebcb0936aa62ea1c1cd40",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:darkreading-34eb78d8a1",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Amazon Q VS Extension Vulnerability Enables Cloud Credential Theft",
+    "summary": "A flaw in the Amazon Q Visual Studio extension allows attackers to execute arbitrary code and exfiltrate cloud credentials through malicious repositories. The vulnerability highlights emerging security risks associated with Model Context Protocol (MCP) implementations in development environments.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/amazon-q-vs-extension-flaw-leads-cloud-credential-theft",
+    "publishedAt": "2026-06-29T11:44:42.000Z",
+    "contentHash": "c083c60e046bb28c62320152440344cc82a10ff699408dc7605d5e0e69a121d8",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:bleeping-4517650cc5",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Agentic AI Identity Governance Emerges as Critical Security Gap",
+    "summary": "Autonomous AI agents operating within enterprise environments require access to systems and data to execute workflows, creating a new class of privileged identities that lack traditional governance controls. Security researchers highlight that attackers are recognizing this gap, making identity and access management for AI agents a priority for enterprise defense strategies.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
+    "publishedAt": "2026-06-29T14:01:11.000Z",
+    "contentHash": "93e3f154921f1af07d328abaf43639d08c2531b2963f6a7928023974dd22c2bb",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:thehackernews-39206295ba",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers",
+    "summary": "The past week highlighted multiple security concerns including a Linux kernel vulnerability (DirtyClone) enabling local privilege escalation, emerging AI-assisted malware techniques, and continued activity from the Turla backdoor and infostealer campaigns. The incidents underscore that attackers often exploit unpatched systems and legacy access paths rather than relying solely on sophisticated attack methods.",
+    "sourceUrl": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+    "publishedAt": "2026-06-29T14:41:07.000Z",
+    "contentHash": "0e93f6bec86f91d1bbe70132155999eb4c843df6b8be0452fb5e753639ebabbc",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:manual-5108a21408c0",
+    "tier": "foundational",
+    "category": "product-release",
+    "title": "AI-SPM buyer's guide: 14 tools to secure your AI infrastructure",
+    "summary": "Enterprise adoption of AI has driven demand for AI security posture management (AI-SPM) tools, a category focused on monitoring and securing AI models, data pipelines, and services. The market spans three organizational maturity stages—AI-assisted, AI-augmented, and AI-native—each requiring distinct security approaches. Microsoft's 2026 Cyber Pulse report found that while 80% of Fortune 500 companies deploy active AI agents, only 10% have clear governance strategies; the average enterprise runs 37 agents with over half lacking security oversight or logging. Major security vendors including Palo Alto Networks (which acquired Protect.ai), SentinelOne (Prompt.Security), Varonis (Cyral, SlashNext), and others have incorporated AI-SPM capabilities into broader portfolios. The guide reviews 14 leading vendors and notes that AI-SPM tools typically employ agentless architectures to protect cloud-based models while preventing data exfiltration and configuration drift, with integrations spanning cloud, data, and application security platforms.",
+    "sourceUrl": "https://www.csoonline.com/article/3518733/ai-spm-buyers-guide-artificial-intelligence-security-posture-management-tools-compared.html",
+    "publishedAt": "2026-06-24T00:00:00.000Z",
+    "contentHash": "a0cfe66cb28d5a3c1fb4dcc55c9361aa76a26fbc04c4d40d6d4f2cd6b90b6a84",
+    "subjectKey": "manual-5108a21408c0",
+    "reportDate": "2026-06-24T00:00:00.000Z",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:manual-ce4cc7693d2a",
+    "tier": "foundational",
+    "category": "strategy",
+    "region": "us",
+    "title": "Why Post-Quantum Cryptography Starts With Credentials",
+    "summary": "Organizations face a material risk from Harvest Now, Decrypt Later attacks, where adversaries capture encrypted data today for decryption once quantum computers mature—plausibly within 15 years according to Global Risk Institute surveys. The NSA's Commercial National Security Algorithm Suite 2.0 mandates quantum-resistant support by January 1, 2027, with full migration targets by 2035; NIST's draft IR 8547 similarly deprecates RSA-2048 and ECC P-256 after 2030. Credentials and non-human identities (service accounts, API keys) present concentrated risk due to their multi-year confidentiality lifetimes and poor inventory visibility. A credentials-first migration strategy should prioritize long-lived secrets by confidentiality duration and attack surface, adopt hybrid cryptography combining classical and quantum-resistant algorithms, and build crypto-agility into centralized credential systems to enable future algorithm updates without re-engineering.",
+    "sourceUrl": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
+    "publishedAt": "2026-06-30T08:38:12.059Z",
+    "contentHash": "5685e39b3a78589611a17a66d85d7bf1cf72a9e06e79ad8ea18aa21ca18f26a7",
+    "subjectKey": "manual-ce4cc7693d2a",
+    "reportDate": "2026-06-30T08:38:12.059Z",
+    "ingestedAt": "2026-06-30T08:37:41.797Z"
   }
 ]
