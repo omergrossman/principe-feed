@@ -4076,5 +4076,206 @@
     "subjectKey": "manual-ce4cc7693d2a",
     "reportDate": "2026-06-30T08:38:12.059Z",
     "ingestedAt": "2026-06-30T08:37:41.797Z"
+  },
+  {
+    "id": "knowledge:cisa-db6e62590a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "energy"
+    ],
+    "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU Credential Exposure Vulnerabilities",
+    "summary": "CISA disclosed two vulnerabilities in Schneider Electric's EasyLogic T150 and Saitel DP remote terminal units affecting critical infrastructure. CVE-2026-9650 and CVE-2026-9651 allow unauthenticated or privileged local attackers to access stored credentials and password hashes with CVSS scores of 7.5 and 8.7 respectively. Schneider Electric has released firmware patches (versions 11.06.32 and 11.06.38) available through their Customer Care Center.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
+    "publishedAt": "2026-06-30T12:00:00.000Z",
+    "contentHash": "e5dc7ed092146893b2d9017cd5a344b95f9fde629c6cc810b34ac5b16e6d876e",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:bleeping-44a6c2420e",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Adobe Releases Security Patches for Critical ColdFusion and Campaign Vulnerabilities",
+    "summary": "Adobe has released patches addressing seven maximum-severity vulnerabilities affecting ColdFusion web application development platform and Campaign Classic marketing automation software. The patches resolve critical flaws that could enable unauthorized access or system compromise in affected deployments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/",
+    "publishedAt": "2026-07-01T07:34:52.000Z",
+    "contentHash": "c83213a647b247fc1386fe9fa8de4eac58aa0a05fb2d6bb113435c18f3458a4d",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7479cc50fb",
+    "tier": "event",
+    "category": "attack",
+    "title": "Phantom Squatting: Attackers Register AI-Hallucinated Domains for Phishing",
+    "summary": "Threat actors are registering non-existent domains that large language models fabricate in their responses, then hosting phishing and malware pages to capture traffic from users following AI-generated URLs. Palo Alto Networks' Unit 42 has documented this technique, termed phantom squatting, occurring in active attacks.",
+    "sourceUrl": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+    "publishedAt": "2026-07-01T07:20:51.000Z",
+    "contentHash": "ad8c4cbde96e52d423c30522205b6901aeda883634198d80f9d3de17beff9eb8",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:sans-isc-bfdb01b9b1",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "financial-services",
+      "cryptocurrency"
+    ],
+    "title": "MetaMask-Targeting Phishing Campaign Observed",
+    "summary": "A phishing campaign targeting MetaMask cryptocurrency wallet users has been identified, attempting to harvest credentials through fraudulent emails. This represents a continuation of ongoing threat activity against the widely-used wallet platform, following a similar campaign documented earlier in the year.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33118",
+    "publishedAt": "2026-07-01T05:10:20.000Z",
+    "contentHash": "81ff5aa0209723a97b9d56501a182ea21982d52248a8022a3848bb34195ece8d",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:cisa-7428e34147",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "OFFIS DCMTK Toolkit Multiple Critical Vulnerabilities",
+    "summary": "CISA disclosed five vulnerabilities affecting OFFIS DCMTK Toolkit versions 3.7.0 and earlier, with CVSS scores ranging from 7.5 to 9.8. Flaws include path traversal enabling unauthorized file writes, memory exhaustion via repeated requests, unauthorized data access across logical boundaries, and denial-of-service conditions. Vendor has released fixes available on GitHub; users should update to the latest release.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01",
+    "publishedAt": "2026-06-30T12:00:00.000Z",
+    "contentHash": "b3386347370b28e752dce2a4871a4d02d37668128c664e2d0bbf975bcc8a1e16",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:bleeping-6900699e16",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "title": "Anthropic Restores Claude Access Following Export Control Lift",
+    "summary": "The U.S. Department of Commerce has removed export restrictions on Anthropic's Claude Fable 5 and Mythos 5 models, enabling the company to restore access to these advanced versions. Anthropic plans to reinstate availability on Wednesday following the regulatory clearance.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
+    "publishedAt": "2026-07-01T00:35:14.000Z",
+    "contentHash": "059044fbe62b6a4f333f2b7ad4c3e257b7e394216b470f381afd88db57251451",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:darkreading-28f817df45",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Fake Bug Report Hijacks AI Coding Agents at Scale",
+    "summary": "Researchers have identified a technique called \"agentjacking\" that exploits AI coding agents' inability to distinguish between data and executable instructions. Attackers can embed malicious directives within seemingly legitimate bug reports or code comments, causing agents to execute unintended actions at scale. The vulnerability highlights a fundamental trust assumption gap in autonomous AI systems.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents",
+    "publishedAt": "2026-06-30T21:37:50.000Z",
+    "contentHash": "4aa368650794a74a715479998cbbedaf2f2ad535cf9116f8d7b6cc2376677ffc",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:sans-isc-7efa939ab6",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Wednesday, July 1st, 2026",
+    "summary": "SANS Internet Storm Center's regular cybersecurity briefing covering current threat landscape developments and security news for the stated date.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33116",
+    "publishedAt": "2026-07-01T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:bleeping-1d3c724d49",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Anthropic Releases Sonnet 5 Model with Competitive Performance at Reduced Cost",
+    "summary": "Anthropic has launched Sonnet 5, a new AI model positioned to deliver performance comparable to its premium Opus offerings while maintaining a lower price point. The release represents the company's strategy to expand its model lineup across different performance and cost tiers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/",
+    "publishedAt": "2026-06-30T23:13:07.000Z",
+    "contentHash": "2ab7e25dc661a51b89f5a23c6cb45ebcbb10ea15a2100dd1b3c6e622dd494d3e",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:thehackernews-374f9ab416",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cloud-services",
+      "software"
+    ],
+    "title": "Azure CLI Password Spray Campaign Compromises 78+ Microsoft Accounts",
+    "summary": "Researchers identified a sustained password spray campaign targeting Azure CLI, resulting in compromise of at least 78 Microsoft accounts across over 81 million login attempts. The attack originated from an IPv6 range controlled by LSHIY LLC and operated continuously between mid-to-late June.",
+    "sourceUrl": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
+    "publishedAt": "2026-07-01T05:46:03.000Z",
+    "contentHash": "1cee663507df43dda2cc371c45311b7e1afcec840227b17c51b47c7106715171",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:darkreading-0ac952c35b",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Attackers Hijack Exposed AI Endpoints to Power Offensive Operations",
+    "summary": "Threat actors are exploiting publicly accessible AI endpoints that lack proper authentication controls to conduct offensive campaigns. Organizations exposing AI infrastructure without security controls create a readily available resource for attackers to leverage computational resources and accelerate malicious activities.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops",
+    "publishedAt": "2026-06-30T21:01:58.000Z",
+    "contentHash": "96893ba3264c495b2064fc16e55b44756db8804c6cf2984160a309434ac35fb0",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:sans-isc-580799fc77",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Apple Releases June 2026 Security Updates for Core Platforms",
+    "summary": "Apple released security updates for iOS, iPadOS, macOS, and Safari in late June, while deferring updates for visionOS, watchOS, and tvOS. The staggered release deviates from Apple's typical practice of concurrent updates across all operating systems.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33114",
+    "publishedAt": "2026-06-30T09:31:27.000Z",
+    "contentHash": "5e7939c3496cb9b8ecd251c40fcbdc7fe9de8df38e9afd6700b6fda89ebc1c62",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:cisa-30ddaa5135",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "information technology",
+      "critical manufacturing",
+      "energy"
+    ],
+    "title": "Schneider Electric EcoStruxure IT Data Center Expert XML Injection Vulnerability",
+    "summary": "Schneider Electric disclosed a CVE-2026-8045 vulnerability in EcoStruxure IT Data Center Expert versions 9.1.1 and earlier, where authenticated users can submit crafted XML payloads to SOAP endpoints to disclose server-side file contents. The flaw stems from improper restriction of XML external entity references (CWE-611) with a CVSS v3.1 base score of 6.5. Version 9.1.2 contains the remediation and is available for download.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-03",
+    "publishedAt": "2026-06-30T12:00:00.000Z",
+    "contentHash": "82395f0fd4cca9ea98b96b82e91dbcb8ed6522a088e830d6f10bc8e9c1d7b032",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:bleeping-f8f064e7c4",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "BioShocking Prompt Injection Attack Targets AI-Powered Browsers",
+    "summary": "Researchers have identified a prompt injection technique called BioShocking that exploits AI-powered browsers by framing malicious instructions within fictional contexts, potentially bypassing safety mechanisms. The attack leverages the browsers' language model capabilities to reinterpret harmful actions as part of a roleplay scenario, reducing resistance to data exfiltration and other unauthorized activities.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
+    "publishedAt": "2026-06-30T21:50:24.000Z",
+    "contentHash": "2edf831cd9819c5a521ac6540ffc0374137ebfbfa869239b550c161975aa2bdf",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:thehackernews-96018ae748",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ClickFix Malware Campaign Uses API-Driven Infrastructure for Polymorphic Payload Delivery",
+    "summary": "Analysis of 3,000 ClickFix payloads reveals the campaign relies on API-driven backend servers that distribute customized malware variants to each target, enabling rapid obfuscation at scale. Researchers identified an additional delivery mechanism designed to circumvent Windows script detection capabilities, suggesting operational sophistication beyond basic social engineering tactics.",
+    "sourceUrl": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+    "publishedAt": "2026-07-01T05:32:12.000Z",
+    "contentHash": "c4091b0425644b438071bb4a2dceda5f108f0fc24ffe74c25f32567f98ffeecb",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:darkreading-879babb046",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Identity Security Positioned as Viable Cybersecurity Career Entry Point Amid AI Integration",
+    "summary": "Industry leaders observe that AI-driven changes in cybersecurity are generating new career opportunities rather than displacing roles, with identity security emerging as an accessible specialization for professionals entering the field. The evolving threat landscape and increasing organizational focus on identity-based defenses are creating demand for practitioners at multiple experience levels.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/identity-security-cyber-career-entry-point",
+    "publishedAt": "2026-06-30T19:11:40.000Z",
+    "contentHash": "0b7ed7506c8ea8c1977810fd3e1c7e531b22814af948583e16dbd1084db23fc7",
+    "ingestedAt": "2026-07-01T08:56:07.049Z"
   }
 ]
