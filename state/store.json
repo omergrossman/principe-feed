@@ -4277,5 +4277,227 @@
     "publishedAt": "2026-06-30T19:11:40.000Z",
     "contentHash": "0b7ed7506c8ea8c1977810fd3e1c7e531b22814af948583e16dbd1084db23fc7",
     "ingestedAt": "2026-07-01T08:56:07.049Z"
+  },
+  {
+    "id": "knowledge:bleeping-51ea3a6f2d",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "healthcare",
+      "medical devices"
+    ],
+    "title": "Medtronic Notifies Customers of ShinyHunters Data Breach",
+    "summary": "Medtronic has begun customer notifications following a data breach attributed to ShinyHunters threat actor, which resulted in unauthorized access to personal data. The healthcare device manufacturer is working through notification protocols to inform affected parties of the exposure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+    "publishedAt": "2026-07-02T04:25:42.000Z",
+    "contentHash": "060209088c0d5ee99d37d645676e6c495448734ed9202b7e615997f4cce44daf",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a0ec5ca0dc",
+    "tier": "event",
+    "category": "attack",
+    "title": "ChocoPoC RAT Distributed via Fake Exploit Repositories on GitHub",
+    "summary": "A data-stealing trojan named ChocoPoC is being distributed through fraudulent proof-of-concept repositories on GitHub that purport to exploit recent CVEs. The malware targets vulnerability researchers and security professionals, exfiltrating credentials, browser cookies, and files while establishing remote access on compromised systems.",
+    "sourceUrl": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+    "publishedAt": "2026-07-02T07:24:23.000Z",
+    "contentHash": "a15d28a37633de3b1e853aeff823c0bd9f7e5c329dbb19de841cfccf0d8578a6",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:darkreading-595da95a1e",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Phishing Campaigns Use Device Fingerprinting to Deliver Targeted Payloads",
+    "summary": "Threat actors are leveraging user-agent data to identify victims' operating systems and deliver customized phishing payloads, improving infection success rates. This adaptive approach allows attackers to optimize their campaigns for specific platforms, increasing overall profitability and effectiveness of phishing operations.",
+    "sourceUrl": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
+    "publishedAt": "2026-07-01T20:31:21.000Z",
+    "contentHash": "7ef232ffa10186bdbf47da64bebc7b5ed5ee64b410ded3b8cf887f6caed9b4d5",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:sans-isc-e04b963938",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast - July 2nd, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape analysis. The episode provides commentary on active security incidents and vulnerabilities affecting organizations.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33120",
+    "publishedAt": "2026-07-02T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-da58692311",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "industries": [
+      "critical-infrastructure",
+      "energy",
+      "water",
+      "transport",
+      "communications"
+    ],
+    "title": "NCSC Insights on Critical National Infrastructure Resilience from Penetration Testing Perspective",
+    "summary": "The UK's National Cyber Security Centre has gathered recommendations from industry penetration testers on defensive measures that would increase the difficulty of successful attacks against critical national infrastructure. The findings highlight practical security improvements that CNI operators can implement based on adversarial testing experiences.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/building-more-resilient-cni-what-industry-pen-testers-told-us",
+    "publishedAt": "2026-07-01T12:00:00.000Z",
+    "contentHash": "5b2d63a62ccfc0b8d38f660b91695ab7feea4d3d08c48e693b596b8d5f72c7f4",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:cisa-f8fa74a139",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "energy",
+      "water and wastewater"
+    ],
+    "title": "FUXA SCADA/HMI Authentication Bypass Vulnerability (CVE-2026-13207)",
+    "summary": "Frangoteam FUXA SCADA/HMI versions 1.3.1 and earlier contain an authentication bypass vulnerability in the REST API that allows unauthenticated remote attackers to enumerate user accounts and role assignments through path normalization techniques. The vulnerability exploits improper handling of dot-segment sequences, enabling unauthorized access to protected endpoints. CISA recommends immediate patching to version 1.3.2 or later and implementing network segmentation for affected critical infrastructure systems.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
+    "publishedAt": "2026-06-30T12:00:00.000Z",
+    "contentHash": "454c852c119d4cc273187d1adbed23f57c7acf49f687a1934390ce2c716e9fa7",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:bleeping-26684e4239",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "FortiBleed credential-theft campaign linked to Lynx ransomware operations",
+    "summary": "Researchers have connected the FortiBleed campaign, which harvested Fortinet credentials at scale, to INC and Lynx ransomware threat actors. The stolen credentials appear designed to facilitate subsequent network compromises and ransomware deployment.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+    "publishedAt": "2026-07-01T21:37:24.000Z",
+    "contentHash": "dcd918d2d3d66cba2a8f7e71afee59f191d4369ca5ddaae4f6cd19ce91823902",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:darkreading-7b05e63ea7",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ClickFix Emerges as Dominant Malware Delivery Method",
+    "summary": "Security researchers report that ClickFix, a social engineering technique leveraging fake browser prompts and notifications, has become the primary malware delivery vector rather than a niche approach. The method's effectiveness at scale indicates a fundamental shift in attacker tactics toward human-centric exploitation over technical vulnerabilities.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix",
+    "publishedAt": "2026-07-01T19:46:34.000Z",
+    "contentHash": "29b3bfb2a90b680ed43afc97d98ad6266aff6fc503058905c876e7168a0fd5ec",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:cisa-65ec8b5cb5",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "manufacturing",
+      "critical infrastructure",
+      "industrial automation"
+    ],
+    "title": "XZ Utils Vulnerability Affecting B&R Industrial Automation Products",
+    "summary": "B&R Industrial Automation has released patches for multiple product lines vulnerable to CVE-2025-31115, a race condition in XZ Utils versions 5.3.3alpha through 5.8.0 that can cause application crashes and memory corruption. The vulnerability, with a CVSS score of 7.5, is remotely exploitable and affects manufacturing control systems globally; updated versions are now available for all affected product lines.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
+    "publishedAt": "2026-06-30T12:00:00.000Z",
+    "contentHash": "c1a19dfe8fec8492e52ced70b7243d38c3cebe9226319d4f576a9abc0ddcb648",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:bleeping-cc808a3437",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "manufacturing"
+    ],
+    "title": "Kubota Discloses Extended Network Access Incident",
+    "summary": "Kubota North America Corporation confirmed that unauthorized actors maintained access to portions of its network infrastructure for over a month during 2024. The company has not disclosed specific systems affected or data exfiltration details.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+    "publishedAt": "2026-07-01T21:09:06.000Z",
+    "contentHash": "d274aa5d0f0491242ce84f31e1bea48fb2f56b02bcc027a49f0e1f032aa1ef80",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3ab818632c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Unpatched Argo CD Repo-Server Vulnerability Exposes Kubernetes Clusters",
+    "summary": "A flaw in Argo CD's repo-server component allows unauthenticated remote code execution when the internal network port is accessible, potentially enabling full Kubernetes cluster compromise. The vulnerability remains unpatched with no assigned CVE, though researchers have reported it to maintainers.",
+    "sourceUrl": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+    "publishedAt": "2026-07-01T19:40:06.000Z",
+    "contentHash": "b155fd5922b666bea232820cd3d715d55a3706e5eb91ff7cb7d574c5ecad4c68",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:darkreading-949f13f8ba",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Phantom Squatting: AI-Generated Domain Names Exploited in Supply Chain Attacks",
+    "summary": "Large language models frequently generate fictional web domains associated with legitimate brands, which threat actors can register and weaponize for supply chain attacks. This attack vector is challenging to detect because the domains appear plausible but were never officially owned by the targeted organizations.",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat",
+    "publishedAt": "2026-07-01T15:17:14.000Z",
+    "contentHash": "742a1a6de2d417511fb901d234d00586e08ca3091efcfcbca9a0b0c41729adc6",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:cisa-d90f83bde7",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "critical infrastructure"
+    ],
+    "title": "Critical Authentication and DoS Vulnerabilities in Delta Electronics DVP12SE PLC",
+    "summary": "CISA disclosed two critical vulnerabilities in Delta Electronics DVP12SE PLCs affecting all firmware versions. CVE-2026-12819 allows unauthenticated remote command execution and modification of control logic via exposed Modbus TCP, while CVE-2026-12818 enables denial-of-service through resource exhaustion. Delta is developing a fix and recommends network isolation, IP filtering, password protection, and VPN use for remote access.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07",
+    "publishedAt": "2026-06-30T12:00:00.000Z",
+    "contentHash": "8f12cd63bc8bfd84bb959bbf05fbc2fb33277fef12b6c64b2d40e90ff5fbb17e",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:bleeping-1815aa1fb7",
+    "tier": "event",
+    "category": "attack",
+    "title": "ChocoPoC malware distributed through trojanized PoC exploits on GitHub",
+    "summary": "A Python-based remote access trojan called ChocoPoC has been identified in weaponized proof-of-concept exploits hosted on GitHub, capable of executing arbitrary commands and exfiltrating sensitive data. The campaign appears specifically designed to compromise cybersecurity researchers who download and execute these malicious PoCs.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+    "publishedAt": "2026-07-01T20:08:13.000Z",
+    "contentHash": "1e7ff829f722565c6e5ee2db82aa35d4c7028caae67686ddf196447234524988",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:thehackernews-d49592020f",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "19-Year-Old Extradited to U.S. to Face Scattered Spider Hacking Charges",
+    "summary": "A 19-year-old dual U.S.-Estonian citizen was extradited from Finland and appeared in Chicago federal court to face charges including conspiracy, computer intrusion, and fraud related to alleged membership in the Scattered Spider hacking group. The suspect was ordered held in custody pending trial proceedings.",
+    "sourceUrl": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+    "publishedAt": "2026-07-01T19:28:07.000Z",
+    "contentHash": "dae0395fb05c90101c58fa3b875493a31884accd064b21c99922093a3f69efc2",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:darkreading-8f800a366e",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Safe Events Start With Threat Intel and Digital Security",
+    "summary": "Proactive threat intelligence and digital security measures form the foundation of event risk management. Organizations that integrate threat assessment into event planning processes reduce the likelihood of security incidents disrupting operations.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "contentHash": "4d4478204404f3896c2baacec3268d99a40799301ce2dad707c4d36d6a69e2f4",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c7215ce22f",
+    "tier": "event",
+    "category": "attack",
+    "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+    "summary": "Threat actors are using compromised or spoofed software distribution sites to deliver malicious installers that masquerade as legitimate tools like OBS Studio and Bandicam. The campaign leverages ScreenConnect remote access software as a delivery mechanism for AsyncRAT malware. Kaspersky attributes the activity to a coordinated, multi-domain operation spanning multiple languages.",
+    "sourceUrl": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+    "publishedAt": "2026-07-01T17:53:06.000Z",
+    "contentHash": "ab4862e989761fcda4fada667f95173f5f67abf1186a6b36ba43a6ba908802b2",
+    "ingestedAt": "2026-07-02T08:25:09.719Z"
   }
 ]
