@@ -1,5 +1,45 @@
 [
   {
+    "id": "webauthn-login-fixed-on-windows",
+    "date": "2026-07-06",
+    "tag": "security",
+    "channel": "both",
+    "title": "WebAuthn login fixed on Windows",
+    "summary": "Sign-in now works on Windows — a mismatch between the client's user-verification request and the server's stricter requirement was blocking all Windows logins.",
+    "body": "If you tried to log in on Windows and were turned away, this is the fix. The server required `userVerification: \"required\"` but the client was sending `\"preferred\"`, causing a silent rejection. Both sides now agree, and Windows Hello / security-key login works as expected.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "free-self-hosted-edition-now-enforces-its-own-ca",
+    "date": "2026-07-06",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Free self-hosted edition now enforces its own caps",
+    "summary": "The 30-CISO panel and 10-industry limits for the self-hosted edition are now enforced in code, not just described on the pricing page.",
+    "body": "Previously the OSS build inherited the cloud tier's wider bounds (up to 200 CISOs, unlimited industries), meaning the documented free-tier limits weren't actually applied. The caps are now hard constraints in the self-hosted build, so the pricing page and the software agree.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "pdf-export-now-matches-the-full-decision-card",
+    "date": "2026-07-06",
+    "tag": "feature",
+    "channel": "both",
+    "title": "PDF export now matches the full decision card",
+    "summary": "Exported reports now include ranked top-3 objections, the 'what the panel almost missed' blind spot, and the Contested flag — closing the gap between the in-app view and the PDF.",
+    "body": "Until now the PDF showed only a single legacy objection, while the app displayed the richer objections-led layout introduced in the Leg-2 update. The export has been brought to parity: it now renders all three ranked objections, the adversarial review's blind-spot finding, and the Contested minority flag. Single-asterisk emphasis (`*like this*`) also renders as bold in the PDF, so the report prose looks as intended.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "native-windows-installer-apple-silicon-support",
+    "date": "2026-07-06",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Native Windows installer + Apple Silicon support",
+    "summary": "Príncipe now installs on Windows with a single PowerShell command, and runs natively on Apple Silicon without QEMU emulation.",
+    "body": "The new `install.ps1` handles Docker Desktop and WSL2 setup automatically — no manual steps. On Apple Silicon, the installer now detects ARM64 and sets the platform flag so images build and run natively. Both installers also drop a desktop icon so you can relaunch the stack without opening a terminal.",
+    "why": "Drafted from a recent product change."
+  },
+  {
     "id": "windows-sign-in-fixed-webauthn-verification-now-",
     "date": "2026-06-29",
     "tag": "security",
