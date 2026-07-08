@@ -1,5 +1,35 @@
 [
   {
+    "id": "windows-sign-in-fixed-webauthn-verification-tigh",
+    "date": "2026-07-08",
+    "tag": "security",
+    "channel": "both",
+    "title": "Windows sign-in fixed — WebAuthn verification tightened",
+    "summary": "Passkey login now works on Windows; a mismatch between client and server verification requirements was the cause.",
+    "body": "Sign-in with a passkey failed on Windows while working fine on macOS, iOS, and Android. The root cause: the login flow requested `userVerification: \"preferred\"` but the server required it — Windows authenticators treated that gap as a hard failure. Both sides now agree on `required`, closing the inconsistency.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "free-self-hosted-edition-now-enforces-its-30-cis",
+    "date": "2026-07-08",
+    "tag": "security",
+    "channel": "both",
+    "title": "Free self-hosted edition now enforces its 30-CISO / 10-industry caps in code",
+    "summary": "The limits that were previously only documented are now enforced at runtime in the OSS build.",
+    "body": "The self-hosted edition has always promised a fixed 30-CISO panel and up to 10 industries — but until now that was narrated in the pricing page, not enforced in code. The OSS build now applies hard caps at runtime, so the behaviour matches the published terms regardless of configuration.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "pdf-exports-now-match-the-full-decision-card-ran",
+    "date": "2026-07-08",
+    "tag": "feature",
+    "channel": "both",
+    "title": "PDF exports now match the full decision card — ranked objections, blind spot, and Contested flag",
+    "summary": "The exported PDF now includes everything the in-app decision card shows, including the top-3 objections and the adversarial review pass.",
+    "body": "Until now the PDF export showed only a single legacy objection while the app surfaced ranked top-3 objections, the \"What the panel almost missed\" blind spot, and the Contested minority-stronger flag. All three now render in the export. Single-asterisk emphasis (`*like this*`) also prints correctly in the PDF — it previously appeared as literal asterisks.",
+    "why": "Drafted from a recent product change."
+  },
+  {
     "id": "webauthn-login-fixed-on-windows",
     "date": "2026-07-06",
     "tag": "security",
@@ -47,36 +77,6 @@
     "title": "Windows sign-in fixed — WebAuthn verification now consistent across platforms",
     "summary": "A mismatch between the login request and server verification blocked Windows users from signing in.",
     "body": "Sign-in failed on Windows while working fine on macOS, iOS, and Android. The root cause was a mismatch: the login flow requested `userVerification: \"preferred\"` but the server enforced `\"required\"`, so Windows Hello credentials were silently rejected. Both sides now agree on `\"required\"`, and Windows login works as expected.",
-    "why": "Drafted from a recent product change."
-  },
-  {
-    "id": "self-hosted-caps-are-now-enforced-in-code",
-    "date": "2026-06-29",
-    "tag": "feature",
-    "channel": "both",
-    "title": "Self-hosted caps are now enforced in code",
-    "summary": "The free self-hosted edition now hard-limits panels to 30 CISOs and industries to 10, matching the published pricing.",
-    "body": "Previously the OSS build inherited a wider brand clamp and the 30-CISO / 10-industry limits were stated in docs but not enforced at runtime. Those caps are now checked in code, so the self-hosted edition behaves exactly as described on the pricing page. Cloud and licensed tiers are unaffected.",
-    "why": "Drafted from a recent product change."
-  },
-  {
-    "id": "pdf-export-now-matches-the-full-objections-card",
-    "date": "2026-06-29",
-    "tag": "feature",
-    "channel": "both",
-    "title": "PDF export now matches the full objections card",
-    "summary": "Exported reports now include ranked top-3 objections, the blind-spot finding, and the Contested flag — in sync with what you see in the app.",
-    "body": "The PDF previously showed only a single legacy objection, while the app rendered the richer objections-led card introduced in the Leg-2 update. Exports now include all three ranked objections, the \"What the panel almost missed\" blind spot from the adversarial review pass, and the Contested minority-stronger flag. What you read in the app is what stakeholders receive in the PDF.",
-    "why": "Drafted from a recent product change."
-  },
-  {
-    "id": "two-medium-security-findings-closed-xss-in-news-",
-    "date": "2026-06-29",
-    "tag": "security",
-    "channel": "both",
-    "title": "Two medium security findings closed — XSS in news feed and DNS-rebinding SSRF",
-    "summary": "News-body content is now sanitized with DOMPurify, and the SSRF guard closes a DNS-rebinding bypass by pinning TCP connections to the pre-validated IP.",
-    "body": "The NewsBell panel previously rendered news content without sanitization, allowing potential XSS via crafted news items; it now runs DOMPurify with hardened anchor attributes. A separate DNS-rebinding path let an attacker bypass the SSRF IP-validation check by racing a DNS response after validation; outbound fetch now pins the TCP connect to the IP resolved at validation time via an undici dispatcher, closing the race window. Both findings came from an external security audit.",
     "why": "Drafted from a recent product change."
   }
 ]
