@@ -5180,5 +5180,232 @@
     "subjectKey": "manual-11f45c75393f",
     "reportDate": "2026-07-07T08:42:13.477Z",
     "ingestedAt": "2026-07-07T08:41:41.088Z"
+  },
+  {
+    "id": "knowledge:krebs-11d2003407",
+    "tier": "event",
+    "category": "news",
+    "title": "Cybersecurity Vulnerability Acquisition Startup Linked to Convicted Felons",
+    "summary": "A startup offering substantial payments for zero-day vulnerabilities in widely-used software is operated by individuals with histories of felony convictions and involvement in fraudulent ventures. The operators have previously established shell companies and abandoned platforms while operating under aliases.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+    "publishedAt": "2026-07-08T12:31:39.000Z",
+    "contentHash": "9d3dd481e8a263621bc584be4d9026f16885cc248f80d6a565c6d3837d779e97",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:bleeping-38dcb6c79c",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "education"
+    ],
+    "title": "Mount Royal University confirms data breach and deletion incident",
+    "summary": "Mount Royal University in Calgary disclosed a network breach in which threat actors accessed and subsequently deleted data from the institution's file storage systems. The university is investigating the scope of the incident and its impact on stored information.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
+    "publishedAt": "2026-07-08T21:26:59.000Z",
+    "contentHash": "e9a8d5a49bad85d56ac5848f7bec24fe3a77ffde38bc33be5b57c1132740012d",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:thehackernews-4e6a511c59",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Symlink Vulnerabilities in AI Coding Assistants Enable Code Execution",
+    "summary": "Researchers at Wiz identified a symlink-based vulnerability affecting six AI coding assistants (Amazon Q Developer, Claude Code, Augment, Cursor, Google Antigravity, and Windsurf) that allows malicious repositories to redirect file write operations to sensitive locations without user awareness. The flaw exploits the tools' permission model by requesting access to innocuous files while actually modifying critical system or project files, potentially granting attackers code execution on developer machines.",
+    "sourceUrl": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+    "publishedAt": "2026-07-09T04:27:18.000Z",
+    "contentHash": "cf088066cde66a197839ff4a0c42e8cd39e823b6645f124faf6a32c984999adf",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:darkreading-241c0d60f9",
+    "tier": "event",
+    "category": "strategy",
+    "region": "mea",
+    "title": "Mexico's Cybersecurity Framework Tested During FIFA World Cup",
+    "summary": "Mexico is deploying its developing national cybersecurity plan during the FIFA World Cup, representing an early operational test of the initiative. The expansion-phase framework will face real-world demands as the high-profile event attracts potential threat actors and elevated security requirements.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test",
+    "publishedAt": "2026-07-08T21:34:21.000Z",
+    "contentHash": "fdb1f16d4c7e7a4947a7436701bbec9b96ec0cc33351d7d10e40bc282ef421fb",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:sans-isc-a7ce4b6f64",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Thursday, July 9th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The broadcast addresses emerging security concerns and industry observations relevant to defensive security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33140",
+    "publishedAt": "2026-07-09T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-f4b5a8ce9d",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "UK NCSC Outlines Strategic Direction for Agentic AI in Cyber Defence",
+    "summary": "The UK's National Cyber Security Centre is advancing a national initiative to develop sovereign AI-driven cyber defence capabilities at scale. The programme aims to establish independent defensive infrastructure leveraging autonomous AI agents, positioning the UK as a leader in integrating advanced AI technologies within government cybersecurity operations.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/cyber-shield-the-path-to-an-agentic-ai-future-for-cyber-defence",
+    "publishedAt": "2026-07-07T12:00:00.000Z",
+    "contentHash": "b09fe4bed8fb97aa7104bec04db7f2730cf768b028c2f26cfb97d40bc68f728f",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:bleeping-11bd55b6e6",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "financial-services",
+      "fintech"
+    ],
+    "title": "Malicious Payment SDKs Distributed Through NPM and PyPI",
+    "summary": "Attackers uploaded counterfeit software development kits impersonating Paysafe, Skrill, and Neteller payment platforms to npm and PyPI repositories, distributing credential-stealing malware to developers. The packages leveraged trusted package managers to reach downstream users of these payment services.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+    "publishedAt": "2026-07-08T19:54:59.000Z",
+    "contentHash": "e49b4de046d15f0c8da5a4c98185a201c6adb38fd8ab7424b62c475c4b7c3b56",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1c061cbc0f",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Lurking Lizard Operates Residential Proxy Botnet via Fake 7-Zip Installers",
+    "summary": "Researchers identified a threat actor named Lurking Lizard running a residential proxy service since at least August 2022, leveraging over 230 counterfeit domains and malicious 7-Zip installers to compromise devices. The infrastructure converts infected systems into proxy nodes for illicit traffic routing and data exfiltration purposes.",
+    "sourceUrl": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+    "publishedAt": "2026-07-09T04:01:49.000Z",
+    "contentHash": "d7c0941779af31e4d69ad4f7aaad10fb16f554a6256999b3f117f91cd63e5f81",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:darkreading-39d28f7c12",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
+    "summary": "A single attacker leveraged AI-assisted techniques combined with chained cloud misconfigurations and compromised credentials to breach an AWS customer environment and conduct extortion. The incident demonstrates how automation tools can accelerate attack timelines when combined with fundamental cloud security gaps.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
+    "publishedAt": "2026-07-08T20:32:22.000Z",
+    "contentHash": "5cd0a71f82fa1c8e581a15b43fa2748812b88133f84e8e82b37c02077c497c48",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:sans-isc-80750c63b0",
+    "tier": "event",
+    "category": "analyst",
+    "title": "Guest Diary: Observations on Security Awareness and Social Engineering",
+    "summary": "A SANS ISC guest diary entry examines social engineering techniques and security awareness challenges through personal narrative. The piece illustrates how attackers exploit emotional and contextual manipulation to bypass organizational defenses, emphasizing the importance of robust user training and verification protocols.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33130",
+    "publishedAt": "2026-07-09T01:20:02.000Z",
+    "contentHash": "835570c74d9850288913dfa120aa7926825a93bbf1b89d179b5b73006dd04d34",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:cisa-6229e04153",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "communications",
+      "critical manufacturing",
+      "defense industrial base",
+      "energy",
+      "healthcare and public health",
+      "transportation systems",
+      "water and wastewater"
+    ],
+    "title": "CISA Advisory: Three High-Severity Vulnerabilities in Labcenter Proteus 9",
+    "summary": "CISA disclosed three memory-corruption vulnerabilities in Labcenter Proteus 9 (version 9.1_SP4_Build_42914): an out-of-bounds write, stack-based buffer overflow, and use-after-free flaw. All three flaws carry CVSS scores of 7.8–8.4 and can permit arbitrary code execution when specially crafted files are processed. Labcenter Electronics recommends updating to version 9.2 SP0 to remediate the issues.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
+    "publishedAt": "2026-07-07T12:00:00.000Z",
+    "contentHash": "0342bc6518d6f8c89b451da92c1b66161f238314a064bd9f5819992f22d303b7",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:bleeping-6ebd28e1db",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "education",
+      "research"
+    ],
+    "title": "China-linked group exploits Roundcube vulnerability at North American universities",
+    "summary": "A threat actor with suspected Chinese affiliations has targeted Roundcube mail servers at U.S. and Canadian academic institutions to harvest credentials and establish persistent access. The campaign demonstrates ongoing interest in compromising research environments for intelligence collection purposes.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
+    "publishedAt": "2026-07-08T18:56:02.000Z",
+    "contentHash": "0a041223ce35fc0565be58a3189982f2107b4bf764165a7bcc6637fc1daa5f03",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7bc0e83270",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI Coding Agents Triggering Endpoint Security Detections",
+    "summary": "Sophos analysis of endpoint telemetry revealed that AI coding agents including Claude Code, Cursor, and OpenAI Codex frequently activate behavioral detection rules designed to identify attacker activity. The agents perform legitimate development tasks—such as credential decryption and Windows credential store enumeration—that exhibit patterns indistinguishable from malicious behavior to security engines.",
+    "sourceUrl": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+    "publishedAt": "2026-07-08T17:02:12.000Z",
+    "contentHash": "c2efcdd4a45b4e7b44dd457863427a2a300c65095ee816d126c3fc84636fecfb",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:darkreading-132b9bac03",
+    "tier": "event",
+    "category": "attack",
+    "title": "Vidar Infostealer Deployed Against SMBs via Malvertising",
+    "summary": "A financially motivated campaign targets small and medium-sized businesses by distributing Vidar infostealer through malvertising, leveraging pirated software lures. The attack delivers dual payloads enabling credential theft and cryptomining operations on compromised systems.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/vidar-infostealer-smb-malvertising-campaign",
+    "publishedAt": "2026-07-08T16:45:54.000Z",
+    "contentHash": "6a56cbfd69c690ec18a89d70c2dec096c9418fc24bc9bad6ac584efc0bf9db6e",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:sans-isc-fe06184af5",
+    "tier": "event",
+    "category": "strategy",
+    "title": "My Stack Simulator Educational Tool",
+    "summary": "SANS ISC published an educational resource explaining stack memory mechanics and their role in program execution. The content describes how the stack operates as a LIFO data structure for storing function calls, local variables, and return addresses, and notes that improper stack management creates vulnerabilities exploitable by attackers seeking to redirect program control flow.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33138",
+    "publishedAt": "2026-07-08T08:09:03.000Z",
+    "contentHash": "3957f0c8ce6b3a4bd9e54e0e3e952951c6728f507d6ad1f7733ee998d4ac60cb",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:bleeping-26b7475c5d",
+    "tier": "event",
+    "category": "attack",
+    "title": "Entra Passkey Enrollment Vishing Campaign Targets Microsoft 365 Users",
+    "summary": "Threat actors are conducting voice-based social engineering attacks against Microsoft 365 users, impersonating security personnel to prompt enrollment of fraudulent Entra passpkeys. The campaign affects multiple sectors and exploits trust in legitimate authentication mechanisms to gain unauthorized access.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
+    "publishedAt": "2026-07-08T16:47:25.000Z",
+    "contentHash": "95e4b985086b9bc5463795873d8617caf175ef7c52716d76bbdd1a8a284966e9",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:thehackernews-84ad29f7ff",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "HalluSquatting Attack Exploits AI Coding Assistants' Hallucinations to Deliver Malware",
+    "summary": "Researchers have identified a new attack method whereby threat actors exploit AI coding assistants' tendency to generate nonexistent package names. By registering domains or repositories matching these fabricated names before legitimate packages exist, attackers can intercept requests from AI tools and deliver botnet malware to developers. The technique leverages the gap between AI hallucination and real-world package ecosystems.",
+    "sourceUrl": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+    "publishedAt": "2026-07-08T15:07:24.000Z",
+    "contentHash": "00b28fb4c6ab56a58c0d7fdad03aa1bcd47e79016f976a3343462d5861697cd8",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:manual-55e1bd37af4c",
+    "tier": "foundational",
+    "category": "strategy",
+    "title": "Detection engineering: A programmatic approach to identifying cyber threats",
+    "summary": "Detection engineering has evolved from a niche practice into a core security discipline, with 80% of organizations and 85% of large enterprises now actively investing in dedicated detection engineering teams according to a SANS Institute and Anvilogic survey of 264 cybersecurity professionals. Unlike traditional threat detection that relies on static vendor-provided rules and signatures, detection engineering applies software development principles to create customized, behavior-driven detection logic tailored to an organization's specific environment and threat landscape. Key adoption drivers include high false positive rates (64% of surveyed organizations), poor environmental accuracy in generic detections (61%), and the inadequacy of signature-based approaches against advanced threats such as fileless malware, living-off-the-land techniques, zero-day exploits, and supply chain attacks. Implementation requires integration of threat intelligence, threat modeling, and SDLC/CI/CD practices, along with centralized data aggregation from endpoints, networks, cloud environments, and security tools to reduce alert fatigue and dwell time.",
+    "sourceUrl": "https://www.csoonline.com/article/3847510/rising-attack-exposure-threat-sophistication-spur-interest-in-detection-engineering.html",
+    "publishedAt": "2026-07-01T00:00:00.000Z",
+    "contentHash": "9e522ec62e3a63947b38120a2f114c3e91825c9a2c725892001dd8a27221dea2",
+    "subjectKey": "manual-55e1bd37af4c",
+    "reportDate": "2026-07-01T00:00:00.000Z",
+    "ingestedAt": "2026-07-09T05:26:52.188Z"
   }
 ]
