@@ -43,3 +43,4 @@ https://www.philvenables.com/post/sorry-cyber-you-aren-t-the-only-ones-saving-th
 https://www.csoonline.com/article/3518733/ai-spm-buyers-guide-artificial-intelligence-security-posture-management-tools-compared.html
 https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html
 https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion
+https://www.anvilogic.com/report/state-of-detection-engineering
