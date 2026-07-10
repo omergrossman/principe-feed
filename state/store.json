@@ -1,182 +1,5 @@
 [
   {
-    "id": "knowledge:krebs-4f9660b7e3",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "title": "Attackers Exploited Meta's AI Support Bot to Compromise High-Profile Instagram Accounts",
-    "summary": "Threat actors circulated instructions on Telegram demonstrating how to manipulate Meta's AI support assistant to reset Instagram account passwords without authorization. Multiple high-profile accounts, including those associated with the Obama White House and U.S. Space Force, were temporarily defaced with pro-Iranian content before remediation.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-    "publishedAt": "2026-06-01T17:32:50.000Z",
-    "contentHash": "31a4e327fd44d2877f1dfed602159e412ff7c13dfe1d7886116103288b009e5d",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:bleeping-97adf953a8",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft June 2026 Patch Tuesday addresses 200 vulnerabilities including 3 zero-days",
-    "summary": "Microsoft released security patches for 200 flaws as part of its June 2026 Patch Tuesday cycle, including fixes for three zero-day vulnerabilities that were previously disclosed publicly. The update addresses a broad range of security issues across Microsoft's product portfolio.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
-    "publishedAt": "2026-06-09T17:57:59.000Z",
-    "contentHash": "e957568d911756efb09d4480d224b12af5d7191b6e05922102bb4fd3fad12a4f",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:thehackernews-651fccbf7c",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Meta Expands Use of Business Data for Feed and AI Personalization",
-    "summary": "Meta announced plans to leverage off-site business data previously reserved for ad targeting to personalize user feeds and AI chatbot responses. The expansion extends the company's data utilization beyond advertising to enhance content recommendation and AI interactions across its platforms.",
-    "sourceUrl": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
-    "publishedAt": "2026-06-09T17:03:58.000Z",
-    "contentHash": "0304323a5b9709abe55610243326b8fb74ee84e91629475310c07dbf1b704c2d",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:darkreading-346ea778ea",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-central",
-    "industries": [
-      "government",
-      "defense"
-    ],
-    "title": "Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs",
-    "summary": "Two distinct threat campaigns are exploiting CVE-2025-8088, a previously patched WinRAR vulnerability, to target Ukrainian military and government entities. The attacks focus on data exfiltration and cyberespionage objectives against state infrastructure.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs",
-    "publishedAt": "2026-06-09T15:37:02.000Z",
-    "contentHash": "2e6066f86480e503cebf956a02a4c96be7c7c82efe765e0a0058e00cf2443564",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-027dcfe9b3",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "uk",
-    "title": "NCSC Advises Review of Open-Source Dependencies to Mitigate Supply Chain Risk",
-    "summary": "The NCSC has highlighted ongoing threats from compromised open-source packages being weaponized to distribute malware across software supply chains. Organizations are encouraged to conduct thorough assessments of their software dependencies to identify and mitigate potential exposure from tainted upstream components.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies",
-    "publishedAt": "2026-06-04T12:00:00.000Z",
-    "contentHash": "962455c7debe113abff75f78734adba576c149ebb94fbbac4c24749ba4efa6a7",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:krebs-138181572c",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-west",
-    "title": "Netherlands Arrests Hosting Company Operators Linked to Russian Cyber Infrastructure",
-    "summary": "Dutch authorities arrested two individuals who operated hosting companies providing infrastructure used by Russian state actors for cyberattacks, influence operations, and disinformation targeting the EU. The seizure of approximately 800 servers disrupted technical infrastructure previously associated with a sanctioned ISP known for hosting Russian intelligence cyber operations.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-    "publishedAt": "2026-05-25T13:21:49.000Z",
-    "contentHash": "f25c901d4baa22bb86f46dff132254e282594fa4422ad590aaee912d09590aa7",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:darkreading-ccbdf12d57",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "legal services"
-    ],
-    "title": "Silent Ransom Group Targets US Law Firms with Multi-Vector Extortion Campaign",
-    "summary": "A financially motivated threat actor is conducting extortion operations against US law firms using a combination of social engineering, IT staff impersonation, and physical office intrusions to obtain sensitive data. The group's multi-layered approach demonstrates escalating sophistication in targeting organizations with valuable intellectual property and client information.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/silent-ransom-us-law-firms-extortion-attacks",
-    "publishedAt": "2026-06-08T20:59:52.000Z",
-    "contentHash": "49b885ecda83f4c8fa1887ac1eea341eca48c7c0408a5befe481b43727df205a",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:sans-isc-2e920aec7a",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Tuesday, June 9th, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The episode addresses trending security topics relevant to practitioners and defensive teams.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33062",
-    "publishedAt": "2026-06-09T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-9aa8ccfadf",
-    "tier": "event",
-    "category": "strategy",
-    "region": "uk",
-    "title": "NCSC Publishes Zero Trust Network Access Design Guidance",
-    "summary": "The UK's National Cyber Security Centre has released guidance on architecting Zero Trust Network Access systems that align with zero trust principles rather than legacy trust models. The resource addresses design considerations for organizations implementing ZTNA to replace traditional perimeter-based security approaches.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/designing-secure-access-with-ztna",
-    "publishedAt": "2026-05-27T12:00:00.000Z",
-    "contentHash": "b9e028905d96b1fd70874427d1998731093de1f3a09ba4ce69520c7b0eb5275c",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:krebs-bcbce45b9a",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "industries": [
-      "government"
-    ],
-    "title": "Congressional Inquiry Launched Following CISA Contractor Data Exposure",
-    "summary": "A CISA contractor deliberately posted AWS GovCloud credentials and sensitive agency information to a public GitHub repository, prompting congressional oversight requests. CISA is working to revoke the exposed credentials and limit the scope of the incident.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-    "publishedAt": "2026-05-22T16:34:24.000Z",
-    "contentHash": "d133425b68712eb5dc5d7f82e2e2b414c0ea875a85e8c08a4fd3f9942d793163",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:bleeping-d236141792",
-    "tier": "event",
-    "category": "product-release",
-    "title": "XBOW evaluates Anthropic's Mythos Preview for vulnerability discovery capabilities",
-    "summary": "Anthropic's Mythos Preview model demonstrated effectiveness in identifying potential vulnerabilities during testing by XBOW, particularly when processing source code analysis. The evaluation examined the model's performance across exploit discovery, reverse engineering, and validation against live systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
-    "publishedAt": "2026-06-09T16:16:38.000Z",
-    "contentHash": "af16c72d9bc117136843dd87e61b382d3245486147cd7d71c0e4e749fa2f6027",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:thehackernews-146cba0f97",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "software development",
-      "technology"
-    ],
-    "title": "Microsoft Restores Selected GitHub Repositories Following Security Incident",
-    "summary": "Microsoft selectively restored GitHub repositories after removing them in response to a compromise affecting 73 open-source projects. The incident involved injection of information-stealing code, prompting a measured response to balance ecosystem protection with repository availability during the ongoing investigation.",
-    "sourceUrl": "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
-    "publishedAt": "2026-06-09T16:34:52.000Z",
-    "contentHash": "e9f53eed2e2f90a959ede4fc280a8b9ae7ee212de3ccc44edfa3f852a9edc593",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:darkreading-487cd3ce7d",
-    "tier": "event",
-    "category": "attack",
-    "title": "Check Point VPN Vulnerability Actively Exploited by Ransomware Operators",
-    "summary": "A critical zero-day vulnerability in Check Point VPN solutions has been subject to active exploitation since early May, with Qilin ransomware affiliates identified as responsible for at least one confirmed attack. The flaw allows threat actors to bypass authentication and gain unauthorized access to enterprise networks.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may",
-    "publishedAt": "2026-06-08T20:28:35.000Z",
-    "contentHash": "a61daa6fdd699be0fd78c0b4406b8cc224bad503c795389d31f4a7a015918fd8",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
-    "id": "knowledge:sans-isc-4d17c54955",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "TeamPCP Supply Chain Campaign Expands with Government Recognition and Wider Adoption",
-    "summary": "The TeamPCP supply chain campaign, initially documented in SANS research, has evolved to attract U.S. government attention and broader threat actor adoption following the open-sourcing of the Mini Shai-Hulud framework. The campaign demonstrates how weaponized security tools can proliferate across multiple threat groups when source code becomes publicly available.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33060",
-    "publishedAt": "2026-06-08T17:07:37.000Z",
-    "contentHash": "7411012a5dfa1ee107d223a1e5c243e492c61152ec19dbc8393e4923c58e85dc",
-    "ingestedAt": "2026-06-09T18:21:31.740Z"
-  },
-  {
     "id": "knowledge:krebs-a02b18501d",
     "tier": "event",
     "category": "threat-intel",
@@ -5407,5 +5230,180 @@
     "subjectKey": "manual-55e1bd37af4c",
     "reportDate": "2026-07-01T00:00:00.000Z",
     "ingestedAt": "2026-07-09T05:26:52.188Z"
+  },
+  {
+    "id": "knowledge:bleeping-ebb3f12406",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Former incident response employee sentenced for BlackCat ransomware involvement",
+    "summary": "A former DigitalMint employee received a 70-month prison sentence for participation in BlackCat ransomware attacks targeting U.S. companies. The case highlights insider risk within incident response organizations and the criminal liability associated with ransomware operations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
+    "publishedAt": "2026-07-10T08:17:52.000Z",
+    "contentHash": "c23d1a9658ed3ea238047c1f994d40c5d915188fca713f08e58bbb0246abe4a7",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:darkreading-867d4cd0c1",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Iran's Cyber Operations Expand Beyond Critical Infrastructure Targets",
+    "summary": "Iranian threat actors are broadening their targeting scope beyond traditional critical infrastructure, focusing on internet-facing vulnerabilities across diverse organizational types. Security researchers note that public exposure of any networked system creates exploitation risk from multiple threat groups operating from or aligned with Iranian interests.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure",
+    "publishedAt": "2026-07-09T20:32:00.000Z",
+    "contentHash": "8afa7d5ed302a15ad9cb0c5cd5b52529d32df2bd282f289305ef5204e361d586",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:sans-isc-6e57921704",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Friday, July 10th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast episode covering recent cybersecurity developments and threat landscape updates relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33142",
+    "publishedAt": "2026-07-10T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-7d76798b81",
+    "tier": "event",
+    "category": "regulation",
+    "region": "uk",
+    "title": "NCSC Introduces Alternative Pathway to Cyber Essentials Plus Certification",
+    "summary": "The UK's National Cyber Security Centre has announced a new route to achieving Cyber Essentials Plus certification that maintains scheme rigor while offering flexibility. This pathway addresses certification accessibility while preserving the security standards expected of the scheme.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/cyber-essentials-pathways-from-proof-of-concept-to-cyber-confidence",
+    "publishedAt": "2026-07-09T12:00:00.000Z",
+    "contentHash": "f8b089a1e293d1d054e2535e058a84ed980815c0e0460c1fee8baa25ef9b6b93",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:bleeping-9b18f93d36",
+    "tier": "event",
+    "category": "news",
+    "title": "OpenMandriva Linux reports attempted internal sabotage by contributor",
+    "summary": "OpenMandriva Linux disclosed that a contributor attempted to sabotage the project following disagreements within the development community. The incident highlights risks associated with open-source project governance and contributor access controls.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
+    "publishedAt": "2026-07-09T22:14:13.000Z",
+    "contentHash": "e57b12ba2fd93c88ba355f9a9bd86c0f76b38d09bd0f1a6d95756307cec3fa88",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:thehackernews-eb95a634a0",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "GigaWiper Windows Backdoor Combines Multiple Destructive Capabilities",
+    "summary": "Microsoft identified GigaWiper, a Windows backdoor that integrates three distinct destructive functions selectable by operators: full disk wiping, Windows drive overwriting, and fake ransomware that encrypts files without saving decryption keys. The modular design allows attackers to choose their destruction method, making it a flexible tool for data destruction campaigns.",
+    "sourceUrl": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+    "publishedAt": "2026-07-09T18:08:07.000Z",
+    "contentHash": "3348307d955ad3e8bc09f84897fbf2c662680765512f63cbacf8a0092a7d08d9",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:darkreading-ac5b93a7e0",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Microsoft Addresses RoguePlanet Zero-Day Vulnerability in Windows Defender",
+    "summary": "A researcher published a proof-of-concept exploit for a Windows Defender vulnerability in June, following disclosure of multiple other Microsoft zero-day vulnerabilities. The publication of functional exploit code increases the practical risk associated with the flaw.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat",
+    "publishedAt": "2026-07-09T20:21:19.000Z",
+    "contentHash": "7cc084db74e38f5846c46859ad86f70f9af881fe85cf7bbbed296750b03b3cae",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:sans-isc-7295de9f9a",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast - July 8th, 2026",
+    "summary": "The SANS Internet Storm Center's daily podcast briefing covers current cybersecurity developments and threat landscape updates relevant to defensive practitioners and security professionals.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33136",
+    "publishedAt": "2026-07-08T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:bleeping-8ff145c88e",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "software",
+      "cryptocurrency",
+      "financial-services"
+    ],
+    "title": "Injective SDK npm Package Compromised with Wallet-Stealing Malware",
+    "summary": "Attackers gained unauthorized access to the Injective Labs SDK GitHub repository and published a malicious package to npm that harvested cryptocurrency wallet private keys and seed phrases. The compromise demonstrates supply-chain vulnerabilities in open-source package distribution channels.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+    "publishedAt": "2026-07-09T20:10:00.000Z",
+    "contentHash": "d252008bf34593512e6f156289d1ddf5fc511c1c26c408a945eeabea2ebd1104",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:thehackernews-470b8adce7",
+    "tier": "event",
+    "category": "product-release",
+    "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+    "summary": "npm version 12 has disabled install scripts by default, requiring explicit opt-in to execute automated scripts during package installation. The release also deprecates granular access tokens that previously circumvented two-factor authentication, strengthening supply chain security posture.",
+    "sourceUrl": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+    "publishedAt": "2026-07-09T16:49:02.000Z",
+    "contentHash": "457d204816661f3e3b8ee68199e7c2441b5b8e7802fe63a5645fd5a229899785",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:darkreading-5ce3032e24",
+    "tier": "event",
+    "category": "strategy",
+    "title": "AI Agents Require Distinct Identity Management Approaches Beyond Traditional Service Accounts",
+    "summary": "Organizations are applying outdated identity management practices to AI agents by treating them similarly to service accounts and API tokens, an approach that fails to address their unique operational characteristics. Security leaders need to develop specialized frameworks for AI agent authentication, authorization, and lifecycle management rather than extending existing infrastructure designed for static credentials.",
+    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/ai-agents-new-kind-identity-most-organizations-not-ready",
+    "publishedAt": "2026-07-09T19:16:02.000Z",
+    "contentHash": "e82d0b0a382f237e59c9df05300c037460f7bc7ce03176a496240f1be99ae2fa",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:sans-isc-5b9247713f",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "NIMLOC DNS Records Observed in Security Monitoring",
+    "summary": "Security researchers have identified NIMLOC DNS records appearing in monitoring logs, a record type that remains relatively uncommon in typical network traffic. The records were observed alongside discussion of NAPTR records and their relationship to RCS protocols, suggesting potential use in communication-related infrastructure or anomalous DNS activity.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33128",
+    "publishedAt": "2026-07-07T18:09:04.000Z",
+    "contentHash": "4d3551b617d332a298249062f22089120266b903e9a8b8324afec724b17eb539",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:bleeping-d7c8b88ca3",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Helix group targets SharePoint with vishing and MFA abuse tactics",
+    "summary": "A newly identified threat group named Helix is conducting data theft campaigns against SharePoint environments using voice phishing, device code phishing, and MFA circumvention techniques. The group appears to be operating an extortion model based on stolen data.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+    "publishedAt": "2026-07-09T17:08:29.000Z",
+    "contentHash": "3c55a3729e4c3d22367d58e99e4e5b09fdc950622cbd22a68936023bf4ba9157",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0ade65d4f7",
+    "tier": "event",
+    "category": "news",
+    "region": "global",
+    "title": "ThreatsDay: Weekly Security Incidents Including Cloud Misconfigurations and Windows Vulnerabilities",
+    "summary": "This week's security incidents highlight operational failures rather than sophisticated attacks, including cloud bucket hijacking, Windows local privilege escalation chains, and a global fraud disruption. Common themes involve misconfiguration, credential compromise, and trusted tool abuse—often remaining undetected until financial or operational impact becomes apparent.",
+    "sourceUrl": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
+    "publishedAt": "2026-07-09T15:09:28.000Z",
+    "contentHash": "857d14803ca8a5c42951f14996f3f7a559fb4c67f0c7953180ffd1b54ae30e8b",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:darkreading-3a28be8d62",
+    "tier": "event",
+    "category": "strategy",
+    "region": "global",
+    "title": "Cyberwarfare Impacts Extend Beyond Direct Conflict Zones to Global Business Operations",
+    "summary": "Recent incidents involving Ukrainian technology companies demonstrate how digital warfare associated with geopolitical conflicts can affect businesses worldwide, not just those in affected regions. Organizations globally are reassessing their operational resilience and cybersecurity strategies to account for the expanded threat surface created by state-sponsored cyber activities.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans",
+    "publishedAt": "2026-07-09T14:31:20.000Z",
+    "contentHash": "d00638f9010561a08d42f7c30cdded88481b2cda0617b594df5253d8a51a67e8",
+    "ingestedAt": "2026-07-10T08:40:01.639Z"
   }
 ]
