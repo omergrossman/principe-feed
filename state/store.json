@@ -1,201 +1,5 @@
 [
   {
-    "id": "knowledge:krebs-a02b18501d",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "title": "The Gentlemen Ransomware Group: Operational Profile and Leadership Analysis",
-    "summary": "The Gentlemen has become the second most active ransomware operation by victim volume, leveraging a 90% affiliate payout model to recruit skilled operators. The group's administrative structure and potential leadership identities are examined through available investigative indicators.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-    "publishedAt": "2026-06-10T14:03:44.000Z",
-    "contentHash": "6052fc4213543fa41b6c6334fdbca7c2f41e3a16ebfdeaa97fd44ab83d4f218b",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:bleeping-328985d6bc",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "defense",
-      "government"
-    ],
-    "title": "JDY botnet linked to Chinese actors expands U.S. military network reconnaissance",
-    "summary": "The JDY botnet, attributed to Chinese threat actors previously associated with Volt Typhoon, has broadened its targeting scope and reconnaissance activities. The expansion indicates increased focus on U.S. military infrastructure as part of ongoing espionage operations.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
-    "publishedAt": "2026-06-10T15:00:00.000Z",
-    "contentHash": "98e2ddb53d6d1bf306790d453d94488e08c6b4b6ec896af5f5e690e3e8f079cf",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:thehackernews-944a2c7b61",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "China-Linked JDY Botnet Expands to 1,500+ Compromised Devices",
-    "summary": "Researchers have identified a resurgence of the JDY botnet, attributed to China-nexus state-sponsored actors, now comprising over 1,500 SOHO and IoT devices. The botnet functions as a centralized reconnaissance platform designed to discover, fingerprint, and continuously map exposed services across networks at scale.",
-    "sourceUrl": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
-    "publishedAt": "2026-06-10T16:08:42.000Z",
-    "contentHash": "5de60468827c2028ce1ed9259bad052f9a302739aabad110007d40f6e2623ee6",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:darkreading-652357f6bc",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Nightmare-Eclipse Releases Additional Windows Defender Exploit",
-    "summary": "A researcher operating under the Nightmare-Eclipse moniker has disclosed a proof-of-concept exploit targeting Windows Defender, enabling potential system compromise. The release represents a continuation of their documented disputes with Microsoft, with no indication of cessation.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-microsoft-exploit-rogueplanet",
-    "publishedAt": "2026-06-10T16:31:02.000Z",
-    "contentHash": "9c58c414ee266a339ddbf8bb53020b5d273ada756a1f8a03563fc3666da26cb9",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:sans-isc-4d8b4dc584",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Adoption Trends of Framing Protection Headers Over Three Years",
-    "summary": "Analysis of the top 1 million domains reveals how deployment of X-Frame-Options and CSP frame-ancestors directives has evolved since 2023. The study provides comparative metrics on security header adoption rates and configuration patterns across the internet's most popular properties.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33068",
-    "publishedAt": "2026-06-10T08:29:21.000Z",
-    "contentHash": "bb086f87157b56fdbf55cc041ea443523a8518d23ac494d30fdb844b9aee5c84",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-b130e5fa18",
-    "tier": "event",
-    "category": "strategy",
-    "region": "uk",
-    "title": "NCSC Advises Cautious Approach to Agentic AI Adoption",
-    "summary": "The UK's National Cyber Security Centre recommends organisations establish foundational capabilities and governance frameworks before deploying autonomous AI systems. The guidance emphasizes understanding operational requirements and security implications rather than pursuing rapid implementation.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
-    "publishedAt": "2026-05-15T12:00:00.000Z",
-    "contentHash": "ef2d161a24ff8fa40c526328b0e520c68dc5eaabd350ef7be67e41b4ed208689",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:krebs-ea6cfaf1ee",
-    "tier": "event",
-    "category": "product-release",
-    "region": "global",
-    "title": "Microsoft Releases Record 200 Security Patches in June 2026 Patch Tuesday",
-    "summary": "Microsoft addressed approximately 200 vulnerabilities across Windows and supported software in its June Patch Tuesday release, marking a record volume for the monthly cycle. Roughly 30 flaws received critical severity ratings, with proof-of-concept exploits already disclosed for at least three of the vulnerabilities.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-    "publishedAt": "2026-06-09T22:07:28.000Z",
-    "contentHash": "178c745bb648cc16a4c895785aadd1c90096e3ed3de074e2db1d45d7965471e8",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:bleeping-f95085924c",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Five Best Practices for Secure Identity Verification",
-    "summary": "Attackers are exploiting weaknesses in authentication mechanisms including phishing, MFA fatigue attacks, and social engineering targeting service desks. Specops Software outlines five best practices to strengthen identity verification and access control posture.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
-    "publishedAt": "2026-06-10T14:05:15.000Z",
-    "contentHash": "b6bbc7000c6133518d4fdcfcf75bbbc822d3b019e8347f462563938861679d73",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:darkreading-5a9dff47d2",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "healthcare",
-      "energy",
-      "utilities"
-    ],
-    "title": "The Invisible Battlefield: How Cyber War Is Reshaping Everyday Life",
-    "summary": "Former National Cyber Director Chris Inglis highlights ongoing vulnerabilities in critical infrastructure sectors including healthcare and energy, where cyber operations pose material risks to service continuity. The commentary underscores the broadening scope of cyber threats beyond traditional IT environments into systems supporting public welfare.",
-    "sourceUrl": "https://www.darkreading.com/endpoint-security/invisible-battlefield-cyber-war-reshaping-everyday-life",
-    "publishedAt": "2026-06-09T21:57:11.000Z",
-    "contentHash": "ee97e41f754dd71232d562e528402d3094f710fb99713fc8ea2fb1c83917864b",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:sans-isc-9820ae8e6c",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast Daily Podcast - June 10th, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The episode provides analysis of ongoing security incidents and emerging vulnerabilities relevant to security practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33066",
-    "publishedAt": "2026-06-10T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-647c28ddd6",
-    "tier": "event",
-    "category": "strategy",
-    "region": "uk",
-    "title": "NCSC Guidance on Security Considerations for AI-Based Vulnerability Detection",
-    "summary": "The UK's National Cyber Security Centre has published guidance addressing security implications when deploying AI models for vulnerability discovery. The resource provides a framework of key questions organizations should evaluate before implementing AI-driven vulnerability detection tools.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/10-questions-ask-using-ai-models-find-vulnerabilities",
-    "publishedAt": "2026-05-11T12:00:00.000Z",
-    "contentHash": "098fc2f6a8cee1cb3bd4cd65f338715893648c6a2cb5578492253f83e07bdddd",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:cisa-64f06b0440",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "CISA Adds SolarWinds Serv-U Vulnerability to Known Exploited Vulnerabilities Catalog",
-    "summary": "CISA has cataloged CVE-2026-28318, a denial-of-service vulnerability in SolarWinds Serv-U, as an actively exploited vulnerability. The addition reinforces BOD 22-01 requirements for federal agencies to remediate known exploited vulnerabilities by established deadlines. CISA recommends all organizations prioritize patching KEV Catalog vulnerabilities as part of standard vulnerability management.",
-    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "publishedAt": "2026-06-05T12:00:00.000Z",
-    "contentHash": "3a9e1faf835cc488d6768511a4cf6595ec99e1cc5c3ec5b8a9ec3c5c6c1d1d29",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:bleeping-2b1ea9e057",
-    "tier": "event",
-    "category": "attack",
-    "title": "Microsoft patches Exchange Server zero-day exploited in attacks",
-    "summary": "Microsoft released a patch for an actively exploited Exchange Server vulnerability enabling arbitrary JavaScript execution through cross-site scripting attacks against Outlook Web Access users. The flaw allowed threat actors to conduct client-side attacks on affected deployments.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
-    "publishedAt": "2026-06-10T13:44:19.000Z",
-    "contentHash": "8eceae2fd9a975434ef93bbef169b3f855fd7598600ec607d9554daa44793dc4",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:thehackernews-efdaae8518",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software",
-      "ai"
-    ],
-    "title": "Langflow CVE-2026-5027 Unauthenticated RCE Exploited in Active Campaigns",
-    "summary": "An unpatched high-severity path traversal vulnerability (CVE-2026-5027, CVSS 8.8) in Langflow, an open-source low-code AI application platform, is being actively exploited to achieve unauthenticated remote code execution. The flaw permits attackers to write files to arbitrary system locations, as documented by VulnCheck.",
-    "sourceUrl": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
-    "publishedAt": "2026-06-10T15:00:59.000Z",
-    "contentHash": "c8f9319895aa25962dd1fc7e651a66d0ac9504213482253b5c2749f1b3c69acc",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:darkreading-3688d78a40",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Patch Tuesday Reaches 206 CVEs; AI-Driven Vulnerability Discovery Expected to Accelerate Patch Volume",
-    "summary": "Microsoft's November Patch Tuesday disclosed 206 CVEs, marking a record monthly volume. Security researchers attribute the increase to AI-assisted vulnerability discovery tools, which are identifying flaws at greater scale and speed than traditional methods. This trend suggests elevated patch frequencies may become standard across the industry.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/blame-ai-patch-tuesday-record-206-cves",
-    "publishedAt": "2026-06-09T21:42:57.000Z",
-    "contentHash": "afb54da1691d9fba60b98e3766f2e3d7da110b4a45315200245ffb12e42801cc",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
-    "id": "knowledge:sans-isc-95a4b5b81d",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Monday, June 8th, 2026",
-    "summary": "SANS Internet Storm Center published their regular security podcast episode covering current threat landscape developments and defensive guidance for the week of June 8th, 2026.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33058",
-    "publishedAt": "2026-06-08T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-06-10T16:51:52.714Z"
-  },
-  {
     "id": "knowledge:krebs-7645ab8ebf",
     "tier": "event",
     "category": "news",
@@ -5405,5 +5209,181 @@
     "publishedAt": "2026-07-09T14:31:20.000Z",
     "contentHash": "d00638f9010561a08d42f7c30cdded88481b2cda0617b594df5253d8a51a67e8",
     "ingestedAt": "2026-07-10T08:40:01.639Z"
+  },
+  {
+    "id": "knowledge:bleeping-3876d90cd5",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Six U-Boot Bootloader Vulnerabilities Disclosed",
+    "summary": "Six vulnerabilities have been identified in U-Boot, a widely deployed bootloader used across embedded devices and IoT systems. These flaws could permit code execution during the boot process, potentially allowing attackers to bypass security mechanisms and establish persistent firmware-level compromises.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+    "publishedAt": "2026-07-10T21:59:02.000Z",
+    "contentHash": "9e523f640e4bd7a92433e36c162b7a6491331159629f8477e244e74e29fa8a72",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:sans-isc-6a365a1491",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "HTML Comment Stuffing Technique Observed in Phishing Attachments",
+    "summary": "Security researchers documented a phishing technique utilizing HTML comments to obscure malicious content within attachments, potentially designed to evade AI-based email filtering systems. The method represents a departure from common phishing patterns and suggests threat actors are experimenting with detection evasion mechanisms targeting machine learning-based security controls.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33144",
+    "publishedAt": "2026-07-10T09:09:29.000Z",
+    "contentHash": "753d5b38b63575c1eeb44540f941cffb2bf26fd2a4aaa030522cc0bcc3e5a3bb",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:bleeping-c1cde37176",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "Ryuk ransomware operator pleads guilty in US federal court",
+    "summary": "An Armenian national pleaded guilty to participating in Ryuk ransomware operations targeting US companies. The defendant faces up to 15 years imprisonment following conviction on hacking and extortion charges related to encrypted system attacks.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
+    "publishedAt": "2026-07-10T17:46:10.000Z",
+    "contentHash": "920c75abd3298c8c156fd41b07819ce92079971c2389c92b4e34f773ea1aef04",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:thehackernews-6a1f2bb00b",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "software development"
+    ],
+    "title": "Injective Labs GitHub Compromise Distributes Wallet-Stealing npm Package",
+    "summary": "Threat actors compromised the Injective Labs SDK GitHub repository and published a malicious npm package designed to exfiltrate cryptocurrency wallet private keys and seed phrases through fake telemetry. The affected package version @injectivelabs/sdk-ts@1.20.21 was distributed via the npm registry before detection.",
+    "sourceUrl": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+    "publishedAt": "2026-07-10T16:29:00.000Z",
+    "contentHash": "4d90d4418637b7c45a8d5b30d86903afcebc7b9b6f0629c15f2e3fb03b0163fe",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:darkreading-f0d5c8e69c",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "Healthcare Sector Experiences Divergent Attack Patterns Across Provider Types",
+    "summary": "Cyberattacks on healthcare service providers and ancillary businesses more than doubled in H1 2026, while direct attacks on hospitals and clinics showed more modest growth. The disparity suggests attackers are targeting less-defended segments of the healthcare ecosystem for potentially greater impact.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/cybercriminals-healthcare-businesses-attacks-surge",
+    "publishedAt": "2026-07-10T16:51:34.000Z",
+    "contentHash": "b681a1facf80708edd5f92a415ae0e9899e0b190994a6ed9e9e9b96f341022fe",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:bleeping-d5e2d61798",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "telecommunications"
+    ],
+    "title": "Dutch Police Link Local Hackers to Odido Telecom Breach",
+    "summary": "Dutch National Police identified strong indications that Dutch-based threat actors were involved in a February breach affecting Odido, a telecommunications provider. The investigation suggests domestic cybercriminal involvement rather than foreign state-sponsored activity.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
+    "publishedAt": "2026-07-10T16:37:01.000Z",
+    "contentHash": "dbba7259fb45579d9c0320aed6a4d8919d0264081aee5542f952a7a1c93cf08b",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:thehackernews-fd45969008",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Six New U-Boot Vulnerabilities Discovered Affecting Multiple Device Categories",
+    "summary": "Binarly researchers identified six flaws in U-Boot bootloader affecting diverse hardware including routers, cameras, and server management systems. Four vulnerabilities enable device crashes, while two allow code execution during boot if an attacker can introduce a malicious image before the bootloader.",
+    "sourceUrl": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
+    "publishedAt": "2026-07-10T15:57:14.000Z",
+    "contentHash": "54d7926d4450c1d3ccf6f06939f375501f999392fefaed8c1a8619c8f70f11e8",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:darkreading-5b85dfa9d6",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "financial-services"
+    ],
+    "title": "BitLocker Vulnerabilities Expose ATM Systems to Potential Compromise",
+    "summary": "Security researchers have identified vulnerabilities in Microsoft BitLocker's security wrapper that could expose ATMs and other systems to compromise. The flaws potentially allow attackers to bypass encryption protections, creating risk for financial institutions and organizations relying on BitLocker-protected infrastructure.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust",
+    "publishedAt": "2026-07-10T14:00:00.000Z",
+    "contentHash": "8824b63213991d203db70fce6d0f6809bd77c6f91c4057bbc1d1b884baeed20c",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:bleeping-3365af60db",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Progress Software alerts ShareFile administrators to disable Storage Zone Controllers due to identified security threat",
+    "summary": "Progress Software has notified ShareFile customers operating Storage Zone Controllers to immediately shut down their servers following identification of a credible external security threat against the on-premises file-sharing solution. The advisory targets organizations using the affected deployment model and represents a significant operational disruption measure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
+    "publishedAt": "2026-07-10T16:26:10.000Z",
+    "contentHash": "7a16094d253b733f837d6dcdd548963066916a0a821b66ea01e1c16ba6a351f3",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:thehackernews-2910e42f04",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "cryptocurrency",
+      "fintech"
+    ],
+    "title": "Laser-Based Attack Enables Password Reset on Tangem Hardware Wallet Cards",
+    "summary": "Researchers at Ledger's Donjon team demonstrated that precisely timed laser pulses directed at Tangem crypto wallet card chips can reset passwords without requiring the original credentials, potentially allowing attackers to gain control of stored cryptocurrency. The vulnerability affects hardware that cannot be patched through software updates, though exploitation requires specialized equipment and physical access to the device.",
+    "sourceUrl": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
+    "publishedAt": "2026-07-10T14:51:49.000Z",
+    "contentHash": "553ac7d34f76152eb9adfd94659403a9ab1f6bc0e4c5fabcdc303c3355c53fc3",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:darkreading-6f89abc6af",
+    "tier": "event",
+    "category": "regulation",
+    "region": "global",
+    "title": "Countries Pursuing Social Media Age Restrictions Amid Industry Compliance Challenges",
+    "summary": "Multiple nations are implementing age-based restrictions on social media platforms as a regulatory approach to protecting younger users. Technology companies face difficulties adhering to these mandates while maintaining service accessibility, suggesting that age-gating alone may address only surface-level concerns rather than underlying safety issues.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon",
+    "publishedAt": "2026-07-10T13:50:24.000Z",
+    "contentHash": "b139d86995a166e77ac65fb8f1721e094e287cde456140fe24b8f57659f13dad",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:bleeping-36fa517ccd",
+    "tier": "event",
+    "category": "attack",
+    "title": "Critical Authentication Bypass in Gitea Docker Image Under Active Exploitation",
+    "summary": "A critical vulnerability in the official Gitea Docker image is being actively exploited to enable user impersonation, including administrator accounts. The flaw allows attackers to bypass authentication controls in the self-hosted Git service. Organizations running Gitea via Docker should prioritize patching to mitigate the risk of unauthorized administrative access.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
+    "publishedAt": "2026-07-10T15:48:38.000Z",
+    "contentHash": "a0a66877040fb4d6229c38cccab4ed06497806d37d5393102e387f6611d88cd6",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:thehackernews-fafcd912b1",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Three OpenClaw AI Assistant Vulnerabilities Enable Host Compromise via WhatsApp",
+    "summary": "Researchers disclosed three patched flaws in the OpenClaw personal AI assistant that could be chained together to steal credentials, escalate privileges, and execute arbitrary code on affected systems. The vulnerabilities, rated high-severity with a CVSS score of 8.8, represent a complete compromise pathway from initial exploitation to system control.",
+    "sourceUrl": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+    "publishedAt": "2026-07-10T14:19:50.000Z",
+    "contentHash": "619ba1a473f779a17da049eedd92ed53cbe693a34d8e26e3e2aeda4ad18d6a76",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
+  },
+  {
+    "id": "knowledge:darkreading-975049df1b",
+    "tier": "event",
+    "category": "strategy",
+    "title": "AI Coding Tools: Balancing Security Costs Against Productivity Benefits",
+    "summary": "AI-assisted coding platforms charge $19-$200 per user monthly, but organizations face additional expenses from security scanning, vulnerability remediation, and alert fatigue. The analysis examines whether efficiency improvements justify the cumulative financial and operational burden.",
+    "sourceUrl": "https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains",
+    "publishedAt": "2026-07-10T13:00:00.000Z",
+    "contentHash": "d70a8edf598af71b47e950e1dc6d18e41ac70952afa57cccbc7d96977187ff78",
+    "ingestedAt": "2026-07-11T07:19:53.104Z"
   }
 ]
