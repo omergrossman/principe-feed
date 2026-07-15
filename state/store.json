@@ -1,42 +1,5 @@
 [
   {
-    "id": "knowledge:bleeping-80cdc99fe3",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "education"
-    ],
-    "title": "Former IT Employee Sentenced for School District Cyberattack",
-    "summary": "An ex-IT staff member at an Iowa school district received a 21-month prison sentence for conducting sustained cyberattacks against the district. The intrusions disrupted educational operations, eliminated user accounts, and inflicted financial losses in the tens of thousands of dollars.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
-    "publishedAt": "2026-06-13T20:53:13.000Z",
-    "contentHash": "0ea214a2ad981297637e95f86d5bd33ada4ba89aa32c688536a8f06202892e02",
-    "ingestedAt": "2026-06-14T12:24:54.293Z"
-  },
-  {
-    "id": "knowledge:thehackernews-d8843f92a0",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution",
-    "summary": "Splunk has patched a critical vulnerability (CVE-2026-20253, CVSS 9.8) in Enterprise versions prior to 10.2.4 and 10.0.7 that permits unauthenticated attackers to perform arbitrary file operations and execute remote code. Organizations running affected versions should prioritize deployment of available security updates.",
-    "sourceUrl": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
-    "publishedAt": "2026-06-13T13:23:03.000Z",
-    "contentHash": "f716d09942fe63e08adce7bb7ada3bf5ffa92149aa0d375056a746fae985a8e4",
-    "ingestedAt": "2026-06-14T12:24:54.293Z"
-  },
-  {
-    "id": "knowledge:bleeping-6e0d58baa5",
-    "tier": "event",
-    "category": "attack",
-    "title": "Chinese threat actors maintain decade-long persistence via compromised authentication infrastructure",
-    "summary": "Threat actors of suspected Chinese origin compromised an organization's authentication systems, enabling sustained access to administrative functions across a ten-year period. The attackers maintained persistent visibility into privileged user activities, suggesting exploitation of core identity infrastructure without detection.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
-    "publishedAt": "2026-06-13T14:06:42.000Z",
-    "contentHash": "bc3f4e05cb3b7041d746a8256383bf482d010fc3c642d332d614e327f35b7151",
-    "ingestedAt": "2026-06-14T12:24:54.293Z"
-  },
-  {
     "id": "knowledge:manual-e7f6f5336c6a",
     "tier": "foundational",
     "category": "regulation",
@@ -5153,5 +5116,234 @@
     "publishedAt": "2026-07-13T14:01:11.000Z",
     "contentHash": "b310fb767cddc3bf58c62f0049289abdd0250d1166dd145b79fe3033227b4888",
     "ingestedAt": "2026-07-14T07:20:24.074Z"
+  },
+  {
+    "id": "knowledge:krebs-b49a657379",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Releases Patches for 570 Security Vulnerabilities",
+    "summary": "Microsoft released security updates addressing at least 570 vulnerabilities across Windows and other products, nearly tripling the previous month's patch volume. The company attributed the increased vulnerability discovery rate to AI-assisted identification methods.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+    "publishedAt": "2026-07-14T19:22:42.000Z",
+    "contentHash": "bbdac6bf5c60c9e906da2c276dbaa4c878bed41f1294f2d2e65c836ec52bd253",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:bleeping-b30f9074e0",
+    "tier": "event",
+    "category": "attack",
+    "title": "SonicWall SMA1000 Zero-Day Vulnerabilities Exploited in Active Attacks",
+    "summary": "SonicWall has disclosed two vulnerabilities in its SMA1000 appliance (CVE-2026-15409 and CVE-2026-15410) that are being actively exploited by threat actors. The vendor has released security patches and recommends immediate deployment to affected customers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+    "publishedAt": "2026-07-14T21:23:24.000Z",
+    "contentHash": "5ce230c7658a51754414a6739785a02bedff2c796699be0dec9da65f5f296473",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3b955360db",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "SonicWall SMA 1000 Zero-Days Under Active Exploitation",
+    "summary": "SonicWall has disclosed two zero-day vulnerabilities affecting Secure Mobile Access 1000 series appliances that are currently being exploited in the wild. One vulnerability carries a CVSS score of 10.0 and permits server-side request forgery attacks by unauthenticated remote actors, with potential for arbitrary command execution on affected systems.",
+    "sourceUrl": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+    "publishedAt": "2026-07-15T05:30:21.000Z",
+    "contentHash": "762bd47e72f1b061fb385908cf8a18df7162211dabfdcd3bb9d47d085cbdb410",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:darkreading-2ea0a0845a",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Microsoft Patch Tuesday: 622 CVEs Including Zero-Days and 60+ Critical Vulnerabilities",
+    "summary": "Microsoft's latest Patch Tuesday release addressed 622 vulnerabilities, including three zero-day exploits and over 60 classified as critical severity. The volume underscores escalating pressure on security teams to prioritize remediation efforts across enterprise environments.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
+    "publishedAt": "2026-07-14T21:50:56.000Z",
+    "contentHash": "ac09cbbaf703be53c3bf271c67acbaa0dc206e8a31a99a647f441b201ea14a8b",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9bf13b087f",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast - July 15th, 2026",
+    "summary": "SANS Internet Storm Center's daily security briefing covering recent cybersecurity developments and threat intelligence. The podcast addresses current events and vulnerabilities relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33158",
+    "publishedAt": "2026-07-15T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:cisa-bcc256bd90",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "manufacturing",
+      "industrial control systems",
+      "critical infrastructure"
+    ],
+    "title": "ABB Ability Edgenius Linux Kernel Privilege Escalation Vulnerability",
+    "summary": "ABB has released a security update addressing CVE-2026-31431, a Linux kernel vulnerability in Ability Edgenius versions 3.2.0.0 through 3.2.4.0 that permits local authenticated users to escalate privileges to root. The flaw resides in the algif_aead cryptographic interface and requires local system access to exploit. Version 3.2.4.1 resolves the issue.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
+    "publishedAt": "2026-07-14T12:00:00.000Z",
+    "contentHash": "5943ec5b20f627759652e9d617f730987a77f617789a4b1287db0a31ce2bb1b8",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:bleeping-14ed99351a",
+    "tier": "event",
+    "category": "news",
+    "region": "eu-west",
+    "title": "Spanish Police Dismantle €140 Million Cyber Fraud Ring",
+    "summary": "Spanish law enforcement has dismantled a cybercriminal organization responsible for approximately €140 million in proceeds from investment fraud and business email compromise schemes. Four individuals were arrested as part of the operation against the money-laundering and fraud network.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
+    "publishedAt": "2026-07-14T20:23:09.000Z",
+    "contentHash": "956f7e941652588b4c549de1c3847a21c881bd8b69fb52c1930b645c02086bc4",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:thehackernews-404b4fa0d0",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Releases Record 622 Patches Including Two Actively Exploited Zero-Days",
+    "summary": "Microsoft's latest Patch Tuesday addressed 622 vulnerabilities, representing the largest monthly release in company history and more than tripling the previous record. Two of the patched flaws are confirmed to be under active exploitation by threat actors, identified through incident response activities.",
+    "sourceUrl": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+    "publishedAt": "2026-07-14T20:25:47.000Z",
+    "contentHash": "bb014abca43925773d85fdcfc3ed97e24af1bb7d15842d1a76e8e9f64789fbf7",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:darkreading-3ea7feeeef",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "6 GHz Wi-Fi Frequency Coordination Vulnerabilities Identified",
+    "summary": "Automated Frequency Coordination systems used in 6 GHz Wi-Fi deployments accept client-supplied location data without verification, creating an attack surface for location spoofing and potential service disruption. The vulnerability could affect infrastructure relying on these systems for spectrum management.",
+    "sourceUrl": "https://www.darkreading.com/perimeter/6-ghz-wi-fi-flaws-disrupt-critical-systems",
+    "publishedAt": "2026-07-14T19:58:31.000Z",
+    "contentHash": "7341ad32e7d3ced30f6425e8e928ec21bc1fa3802e00bca677e3114b8a0f4739",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:sans-isc-eacfae020b",
+    "tier": "event",
+    "category": "product-release",
+    "title": "DShield SIEM Update Released with ELK Stack and Enhanced Dashboards",
+    "summary": "DShield released a SIEM update featuring ELK stack version 8.19.15, introducing additional dashboards and expanded log capabilities. This follows the previous update from September 2025, which included minor refinements to the platform.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33156",
+    "publishedAt": "2026-07-15T01:38:43.000Z",
+    "contentHash": "011a8985e2bf1c72bcbd2ef0cd8e292428a198f8ce32651a9c4b7db6598d3d09",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:cisa-04a8938daa",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "industrial control systems"
+    ],
+    "title": "ABB Advant Master Online Builder DLL Search Path Vulnerability",
+    "summary": "CISA published an advisory on CVE-2025-13162 affecting ABB Advant Master Online Builder and Control Builder A, where improper DLL search path handling could allow local code execution if an attacker gains system access. ABB has released patched versions (Control Builder A 1.4/5+, 800xA 6.1.1-5+, 6.2.0-3+) and recommends immediate updates; exploitation requires local access and user interaction.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
+    "publishedAt": "2026-07-14T12:00:00.000Z",
+    "contentHash": "4477335ca300027bbf5765e40e6f5295669c700f0ea9f4a91fb5e645b12a054b",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:bleeping-697085a545",
+    "tier": "event",
+    "category": "attack",
+    "title": "Hundreds of Counterfeit GitHub Repositories Distributing Infostealer Malware",
+    "summary": "Threat actors have created approximately 300 fraudulent GitHub repositories mimicking legitimate software and security projects to distribute infostealer malware. The campaign exploits repository naming conventions and project descriptions to deceive developers into downloading compromised code.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
+    "publishedAt": "2026-07-14T19:15:17.000Z",
+    "contentHash": "dbc631d30275c945b5685fb0cf7505ca4e4bcc95d147beaf2679df56a4a35f18",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:thehackernews-fc120127bd",
+    "tier": "event",
+    "category": "product-release",
+    "industries": [
+      "enterprise-software"
+    ],
+    "title": "SAP Addresses Critical Memory Corruption Vulnerability in NetWeaver ABAP",
+    "summary": "SAP released security updates in July 2026 to remediate multiple vulnerabilities, including CVE-2026-44747 (CVSS 9.9) affecting NetWeaver Application Server ABAP. The flaw is an out-of-bounds write issue stemming from memory management logic errors that authenticated attackers could exploit to corrupt memory and potentially access or modify sensitive data.",
+    "sourceUrl": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+    "publishedAt": "2026-07-14T18:17:57.000Z",
+    "contentHash": "513383502c5446ad5359635ebbf89e6974f5dcf4d90c412c5aa4d19a28e27fee",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:darkreading-a2b1e1537a",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Manage Vendor Risk in a Few Practical Steps",
+    "summary": "Effective third-party risk management requires organizations to establish clear risk tolerance levels, gain comprehensive visibility into vendor exposure, and ensure board-level oversight of governance practices. A disciplined and structured approach to vendor assessment and monitoring reduces complexity while enabling sustainable risk management across the supply chain.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps",
+    "publishedAt": "2026-07-14T17:44:55.000Z",
+    "contentHash": "2d8694dc15ca0ac466772f5a6a1c6f2f841b4eeb46fb06bed4d543bb80792611",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:sans-isc-48dccb7f08",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Patch Tuesday July 2026 addresses 622 vulnerabilities including 62 critical issues",
+    "summary": "Microsoft's July 2026 Patch Tuesday release encompasses 622 vulnerabilities across its product portfolio, with an additional 427 affecting Chromium-based Edge browser. Sixty-two vulnerabilities carry critical severity ratings, with one previously disclosed and two already subject to active exploitation.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33154",
+    "publishedAt": "2026-07-14T19:14:58.000Z",
+    "contentHash": "5057e3d5493dce59abfee8ee5c80556fb1b691c6cdc8a345fb4b61a44859fe06",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:cisa-d5d49cea00",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "title": "ABB T-MAC Plus Multiple Vulnerabilities (CVE-2025-14771 through CVE-2025-14774)",
+    "summary": "ABB disclosed four vulnerabilities in T-MAC Plus 4.0-24 affecting critical manufacturing infrastructure globally. The flaws include file disclosure, privilege escalation, stored XSS, and denial-of-service capabilities, with CVSS scores ranging from 8.0 to 9.9. Patch version 4.0-25 is available and ABB recommends immediate deployment.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
+    "publishedAt": "2026-07-14T12:00:00.000Z",
+    "contentHash": "fa8521e213cc9e9914498b9e6675dc611a9e2847bd65ea5efafaa05e800868c0",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:bleeping-c1d5a2744d",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft releases Windows 10 KB5099539 extended security update",
+    "summary": "Microsoft issued the KB5099539 extended security update for Windows 10, addressing 570 vulnerabilities as part of its July 2026 Patch Tuesday cycle along with supplementary security fixes. This update extends security coverage for the aging operating system beyond its standard support lifecycle.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
+    "publishedAt": "2026-07-14T18:49:28.000Z",
+    "contentHash": "ee21aa1f157e62df75f8fa9e6ecd103b22c30f5f264ba67eb5818d8e5cbc9b91",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:thehackernews-216158fa47",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Claude for Chrome Extension Vulnerability Enables Unauthorized Gmail and Google Workspace Access",
+    "summary": "Security researchers identified a flaw in Claude for Chrome that allows malicious browser extensions executing scripts on claude.ai to trigger unintended actions against a user's Gmail, Google Docs, and Calendar accounts. The vulnerability requires a rogue extension already capable of running code on the Claude domain, limiting its attack surface compared to a previously disclosed issue that Anthropic addressed in May.",
+    "sourceUrl": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+    "publishedAt": "2026-07-14T17:27:23.000Z",
+    "contentHash": "2d8d1fbb2a109fe059a29b8a4b7f2b94dcd95e91e9afe3b954c666b2b31a22f0",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:darkreading-1f183aeba4",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "title": "Frontier AI: The Genie's Out of the Bottle, but Where's the Rulebook?",
+    "summary": "Advanced AI models are increasingly deployed with reduced human oversight and greater autonomous decision-making capabilities. State governments are beginning to introduce legislative measures aimed at mandating transparency in AI system deployment and operation.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook",
+    "publishedAt": "2026-07-14T16:02:39.000Z",
+    "contentHash": "f20c7b7ff3b06137afb164aa4d7ba74f64ef37a10823eaf73e1076533686c47a",
+    "ingestedAt": "2026-07-15T07:23:58.874Z"
   }
 ]
