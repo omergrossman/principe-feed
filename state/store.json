@@ -14,236 +14,6 @@
     "ingestedAt": "2026-06-14T12:24:54.293Z"
   },
   {
-    "id": "knowledge:bleeping-e1ab599cbd",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software",
-      "web-services"
-    ],
-    "title": "OptinMonster and Related WordPress Plugins Compromised via CDN Supply-Chain Attack",
-    "summary": "Three WordPress plugins owned by Awesome Motive—OptinMonster, TrustPulse, and PushEngage—were compromised through a supply-chain attack targeting the company's content delivery network. The incident affected plugin users relying on Awesome Motive's CDN infrastructure for asset distribution.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
-    "publishedAt": "2026-06-15T17:37:07.000Z",
-    "contentHash": "ca5fe756392f445b3fdf7e716b3e3ceb338a4842ea00acc905899a60ea35ada7",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:thehackernews-a4843d5dd1",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "LiteLLM Vulnerability Chain Enables Privilege Escalation and Server Takeover",
-    "summary": "Researchers at Obsidian Security disclosed a vulnerability chain in LiteLLM, a widely deployed open-source AI gateway, that allows low-privilege default accounts to escalate to full administrative access and execute arbitrary code on affected servers. The exploit exposes all provider API keys stored on the compromised gateway, affecting the 100+ language model providers LiteLLM brokers requests to.",
-    "sourceUrl": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
-    "publishedAt": "2026-06-15T16:39:01.000Z",
-    "contentHash": "702c6c760fb3576ad964f93f93bbda22da1049b0041ea4fd372eb66f3bad7a9a",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:darkreading-7edd8d1c2f",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "research",
-      "education"
-    ],
-    "title": "China-Nexus Actor Conducted Year-Long Espionage Campaign Against US Research Institutions",
-    "summary": "Google identified and disrupted a prolonged cyber espionage operation attributed to a China-nexus threat actor that compromised RedCAP credentials to access multiple US research institutions and extract sensitive data. The campaign remained undetected for approximately one year before Google's intervention halted the operation.",
-    "sourceUrl": "https://www.darkreading.com/threat-intelligence/china-nexus-actor-us-researchers-undetected",
-    "publishedAt": "2026-06-15T17:00:45.000Z",
-    "contentHash": "7788d80d90b9942864e31ee2fa6dcfee133783aa3d4d0fe2ffb795c7bd14fa3c",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:sans-isc-0fdcf0b635",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Evil MSI Background: BASE64 Statistical Analysis",
-    "summary": "Malicious MSI installers employing BASE64-encoded payloads have resurfaced as an attack vector. Analysis of the statistical patterns in encoded malicious content reveals consistent methodologies used by threat actors to evade detection mechanisms.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33072",
-    "publishedAt": "2026-06-15T07:16:00.000Z",
-    "contentHash": "75cf3f12ca5806825a94afafa91a24ff18df21444fa8822f28ba1552fa9c69ed",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:bleeping-a6ba0eb317",
-    "tier": "event",
-    "category": "attack",
-    "title": "Cisco Addresses SD-WAN vManage Vulnerability Exploited in Active Attacks",
-    "summary": "Cisco released patches for CVE-2026-20262, a flaw in Catalyst SD-WAN Manager that attackers exploited to gain root-level access. The vulnerability enabled privilege escalation within affected deployments.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
-    "publishedAt": "2026-06-15T17:12:42.000Z",
-    "contentHash": "3aa7af4ee4ab227a0be99be50de98acd97a91ddbcc9719c62bb30d9b90ae8517",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:thehackernews-c87e9ab186",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Microsoft 365 Copilot Enterprise Search Vulnerability Enabled Single-Click Data Exfiltration",
-    "summary": "Researchers at Varonis Threat Labs identified a vulnerability chain in Microsoft 365 Copilot Enterprise Search that could allow attackers to exfiltrate emails, calendar data, and files through a single malicious link spoofing a legitimate Microsoft domain. The attack bypassed traditional URL filtering because it leveraged authentic Microsoft infrastructure, though the specific technical details and remediation status were not fully disclosed in the initial announcement.",
-    "sourceUrl": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
-    "publishedAt": "2026-06-15T15:09:05.000Z",
-    "contentHash": "c4ee1c24ae692a2bfec3e8360a0fcf9dd9248cdf0bed242736fcb57c76293b65",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:darkreading-5ef848423d",
-    "tier": "event",
-    "category": "news",
-    "title": "CISOs Report Organizational Pressure to Delay Security Incident Disclosures",
-    "summary": "A survey indicates that many CISOs experience pressure from leadership to postpone or minimize reporting of security incidents, despite formal disclosure obligations. Organizational business priorities and financial considerations often conflict with the transparency required for timely incident communication.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/most-cisos-report-pressure-to-bury-bad-security-news",
-    "publishedAt": "2026-06-15T16:45:59.000Z",
-    "contentHash": "45271b9f7ffb892895adbaeb2e85e4a3376d023107f72a9d5ddcff7d9fde3081",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:sans-isc-18a316049d",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast Podcast - June 15th, 2026",
-    "summary": "SANS Internet Storm Center's daily security briefing podcast covering current threat landscape developments and cybersecurity topics relevant to practitioners and security leaders.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33076",
-    "publishedAt": "2026-06-15T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:bleeping-431c581708",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-west",
-    "title": "Council of Europe Investigates ShinyHunters Data Breach Claims",
-    "summary": "The Council of Europe is examining allegations of a data breach attributed to the ShinyHunters extortion group. The investigation follows claims made by the threat actor over the weekend regarding unauthorized access to the organization's systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
-    "publishedAt": "2026-06-15T16:37:11.000Z",
-    "contentHash": "e15387e0f97bb9b7a7f9313ae8e9ac72a48ebc82654153a0635d9e6971b19dee",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:thehackernews-93ac299fff",
-    "tier": "event",
-    "category": "news",
-    "title": "Weekly Security Recap: Multiple Vulnerabilities Across Chrome, UniFi, macOS, and VPN Systems",
-    "summary": "A collection of security incidents emerged this week involving a Chrome zero-day, UniFi exploits, macOS malware variants, and VPN vulnerabilities. Common themes included exposure of legacy infrastructure, abandoned dependencies being weaponized, and deprecated features remaining active in production environments. The recap highlights recurring risk patterns around legacy systems, phishing infrastructure accessibility, and inadequate lifecycle management of software components.",
-    "sourceUrl": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
-    "publishedAt": "2026-06-15T13:49:29.000Z",
-    "contentHash": "50e1eb786dd6afe634ff02be3400b1ce3c0dc9859690c5317e5b078f26afd21e",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:darkreading-ca6e774057",
-    "tier": "event",
-    "category": "strategy",
-    "title": "AI-Native Operating Systems Shift Social Engineering Defense Responsibility",
-    "summary": "Emerging AI-native operating systems are redesigning security architecture to reduce reliance on user vigilance against social engineering attacks. By implementing system-level detection and response mechanisms, these platforms aim to mitigate risks traditionally managed through end-user awareness and behavior.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/beginning-end-social-engineering",
-    "publishedAt": "2026-06-15T15:08:32.000Z",
-    "contentHash": "d5f4956bcdcd56fce56ecc711bc4c47e82f83b989db781cb3f8503772c284050",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:bleeping-a4b5c0c199",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "FBI Reports Courier-Based Money Collection in Cryptocurrency Investment Scams",
-    "summary": "The FBI has identified a criminal tactic where fraudsters employ courier services to physically collect funds from cryptocurrency investment scam victims. This method, associated with pig butchering and romance baiting schemes, enables criminals to extract money from victims while maintaining operational distance.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
-    "publishedAt": "2026-06-15T15:30:23.000Z",
-    "contentHash": "ca597d090187d7cd654ff60d31b40ef82a17da8fce706440c84c50bd1f1dfbd8",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:thehackernews-bf0d8f7400",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Temporary Onboarding Passwords Often Remain Active Beyond Initial Access",
-    "summary": "Organizations frequently issue temporary passwords during employee onboarding to expedite system access, but these credentials often persist longer than intended due to operational pressures and inadequate lifecycle management. The practice of distributing passwords via email or SMS and reusing them across multiple accounts extends exposure windows and increases credential compromise risk.",
-    "sourceUrl": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
-    "publishedAt": "2026-06-15T11:30:00.000Z",
-    "contentHash": "d1eb26d61dc094608aa1f522c9aa9ac90e06d6253bebef2bc06b49bebc33b044",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:darkreading-1105d2da7c",
-    "tier": "event",
-    "category": "regulation",
-    "region": "us",
-    "title": "US Export Controls Restrict Access to Anthropic AI Models",
-    "summary": "Anthropic suspended access to its Fable 5 and Mythos 5 models following a U.S. export control directive prohibiting foreign nationals from using the technology. The action reflects broader government scrutiny of advanced AI capabilities and their potential dual-use implications.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/us-cracks-down-anthropic-ai-models-abuse-concerns",
-    "publishedAt": "2026-06-15T12:17:22.000Z",
-    "contentHash": "d302330011fee2908072fa1087935ffcbb54bf6fc03a4e528e403181e9591b77",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:bleeping-7a91f906e1",
-    "tier": "event",
-    "category": "strategy",
-    "title": "CISOs Address AI-Driven Code Sprawl and Shadow Development",
-    "summary": "Organizations face growing challenges as employees use AI tools to create automations and applications outside formal security controls. The shift toward decentralized development is prompting security leaders to reconsider governance frameworks and oversight mechanisms for AI-generated code and shadow tooling environments.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/",
-    "publishedAt": "2026-06-15T14:01:11.000Z",
-    "contentHash": "5e79eaefe6fa6d27c953895a6223ac2bde9120c66317d0e2f4465533f2dc4082",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:thehackernews-df7edbb447",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "152 Chrome Wallpaper Extensions Distribute Adware Across 105K Installs",
-    "summary": "Researchers identified a network of 152 Chrome extensions masquerading as wallpaper add-ons, distributed through 38 publisher accounts and three backend domains, collectively installed over 105,000 times. The extensions are designed to deliver potentially unwanted programs and generate fraudulent traffic. Google has been notified for takedown action.",
-    "sourceUrl": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
-    "publishedAt": "2026-06-15T11:07:50.000Z",
-    "contentHash": "30c65604365c39b5ce2301201c41b52f86e2edbb9142b19be7dd516d295cabfd",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:bleeping-82e1f93a06",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "healthcare",
-      "research"
-    ],
-    "title": "China-linked threat actors breach REDCap servers and deploy InfiniteRed malware",
-    "summary": "A cyber espionage campaign attributed to Chinese threat actors exploited exposed REDCap servers to establish persistence and exfiltrate sensitive medical research data from a North American healthcare institution. The attackers deployed InfiniteRed malware as part of their operational toolkit, targeting the widely-used research data management platform.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/",
-    "publishedAt": "2026-06-15T14:00:00.000Z",
-    "contentHash": "b1bb509c7427c17843d7eab5e59b044a11df6ce846e695de4b6a9dda814846fa",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:thehackernews-593b4ce709",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software",
-      "web services"
-    ],
-    "title": "WordPress Plugin JavaScript Files Compromised to Deploy Admin Backdoors",
-    "summary": "Attackers modified JavaScript files served by PushEngage, OptinMonster, and TrustPulse plugins to inject malicious code that created unauthorized administrator accounts and installed persistent backdoor plugins on affected WordPress installations. The attack targeted logged-in site administrators and remained invisible to regular visitors.",
-    "sourceUrl": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
-    "publishedAt": "2026-06-15T09:59:38.000Z",
-    "contentHash": "9b8c8aa620d380355484ecceb970061eea15fee46774a3d82fdc9ef6af92713c",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
-    "id": "knowledge:bleeping-27013c6986",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "SearchLeak vulnerability in Microsoft 365 Copilot enables data exfiltration via malicious URLs",
-    "summary": "Researchers identified a vulnerability chain in Microsoft 365 Copilot Enterprise that permits attackers to extract sensitive information from victim mailboxes, OneDrive, and SharePoint through specially constructed URLs. The attack requires minimal user interaction, reducing friction for social engineering exploitation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
-    "publishedAt": "2026-06-15T13:00:00.000Z",
-    "contentHash": "bbea8293f2025a0f95167ca32dae34e7e78fc5d701f76ec9d2d4a1b92058a6eb",
-    "ingestedAt": "2026-06-15T19:35:10.821Z"
-  },
-  {
     "id": "knowledge:bleeping-1487c83ab1",
     "tier": "event",
     "category": "attack",
@@ -5345,5 +5115,208 @@
     "publishedAt": "2026-07-14T16:02:39.000Z",
     "contentHash": "f20c7b7ff3b06137afb164aa4d7ba74f64ef37a10823eaf73e1076533686c47a",
     "ingestedAt": "2026-07-15T07:23:58.874Z"
+  },
+  {
+    "id": "knowledge:cisa-ec3e52598d",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "title": "CISA Releases Joint Guidance on Coordinated Vulnerability Disclosure Programs",
+    "summary": "CISA, NSA, and international partners published guidance for software manufacturers and service providers on establishing coordinated vulnerability disclosure programs. The framework covers policy design, triage processes, remediation workflows, and CVE assignment procedures, with options to engage third-party intermediaries. Organizations implementing these practices can improve vulnerability management, strengthen researcher relationships, and enhance product security outcomes.",
+    "sourceUrl": "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers",
+    "publishedAt": "2026-07-15T12:00:00.000Z",
+    "contentHash": "3c458db2cd0bdad63710db06037268a360b02b3d2c3d28e46e4f8df28f44cc08",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:bleeping-1b354c85bb",
+    "tier": "event",
+    "category": "news",
+    "region": "eu-west",
+    "industries": [
+      "financial services"
+    ],
+    "title": "Dutch Police Dismantle International Investment Fraud Ring",
+    "summary": "Dutch law enforcement arrested multiple suspects connected to an international investment fraud operation that defrauded tens of thousands of victims of over €100 million. The scheme targeted individuals through fraudulent investment opportunities.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
+    "publishedAt": "2026-07-15T21:55:50.000Z",
+    "contentHash": "f80cdf0efee9accbf038743c70bb90951072f61a2174ee84bc4a578f70b76be7",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:thehackernews-41fade8a7d",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "TuxBot v3 Evolution: IoT Botnet Framework Shows LLM-Assisted Development",
+    "summary": "Researchers identified TuxBot v3 Evolution, an IoT botnet framework that exhibits characteristics suggesting large language model assistance in its development, though the implementation contains notable flaws. The malware framework demonstrates how threat actors are experimenting with AI tools to accelerate botnet creation, while safety mechanisms in LLMs appear to have limited practical impact on final outputs.",
+    "sourceUrl": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
+    "publishedAt": "2026-07-15T18:43:08.000Z",
+    "contentHash": "7bdbb42e3038e783eceb4b1f81fc772a3ce75ef4d458a8b18ae77e57c89a2634",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:darkreading-7ce72047d5",
+    "tier": "event",
+    "category": "news",
+    "region": "eu-west",
+    "title": "Police Disrupt €140M Cyber Fraud Ring in Spain",
+    "summary": "Spanish authorities dismantled a cybercriminal network responsible for executing diverse cyberattacks and laundering approximately €140 million through intricate financial channels. The operation targeted the organized infrastructure supporting the fraud scheme's money movement mechanisms.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain",
+    "publishedAt": "2026-07-16T07:00:00.000Z",
+    "contentHash": "e58067f53828057dc633506e654c1041353aa78b5a91a15f15a8dca0526a4809",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:sans-isc-bd9dfa9066",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Daily Briefing - July 16, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape observations for July 16, 2026.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33160",
+    "publishedAt": "2026-07-16T02:40:10.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-172ae54433",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Launches Free Cyber Consultancy Program for Small Businesses",
+    "summary": "The NCSC's Cyber Advisors program offers complimentary 30-minute consultations to small businesses seeking to establish foundational cybersecurity practices. The initiative aims to lower barriers to entry for organizations with limited security resources.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/helping-small-businesses-with-free-hands-on-cyber-consultancy",
+    "publishedAt": "2026-07-15T12:00:00.000Z",
+    "contentHash": "235c676807d16eae70dd3f63cad090dc1de8739049b3d975f86043334a35ecbc",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:bleeping-59248d0152",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Zoom Discloses Critical Account Takeover Vulnerability in Windows Client",
+    "summary": "Zoom has disclosed a critical vulnerability affecting its Windows desktop client and SDK that permits unauthenticated attackers to take control of user accounts. The flaw requires patching to prevent unauthorized account access.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
+    "publishedAt": "2026-07-15T20:16:02.000Z",
+    "contentHash": "05d42676044ac519f26da260b59403437acc9b3816f222924c7daaf989f3ff13",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:thehackernews-2ec1086be1",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "cryptocurrency",
+      "financial services"
+    ],
+    "title": "OkoBot Malware Framework Targets Hardware Wallet Users via Compromised Desktop Applications",
+    "summary": "OkoBot, a malware framework active since April 2025, includes a module designed to deceive hardware wallet users into disclosing recovery phrases. The attack exploits compromised desktop applications for popular wallets, displaying phishing prompts that appear legitimate within the authentic application interface, particularly when devices are connected.",
+    "sourceUrl": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
+    "publishedAt": "2026-07-15T15:30:30.000Z",
+    "contentHash": "dde1575fafe1b195d817dd38d6574973d3d3277f8bb0042ed04f9032b94ce968",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:darkreading-43956f37a6",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Forgotten Bootloaders Expose Secure Boot Blind Spot",
+    "summary": "Approximately a dozen UEFI shim bootloaders with known vulnerabilities remained in trusted certificate stores for extended periods, creating a mechanism for attackers to circumvent Secure Boot protections. The bootloaders have since been revoked, but the incident highlights gaps in firmware certificate lifecycle management and validation processes.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot",
+    "publishedAt": "2026-07-15T21:19:19.000Z",
+    "contentHash": "5d54fd60d0113239a936c6e130e0aeac2a5c4cc678a9c517c7b9c0af194457fd",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:bleeping-b748ab90fb",
+    "tier": "event",
+    "category": "attack",
+    "title": "Google Gemini CLI Abused for Botnet Operations",
+    "summary": "A Russian-speaking threat actor exploited Google's open-source Gemini CLI tool to conduct hacking activities and manage a botnet infrastructure. The actor leveraged the AI tool's capabilities to automate malicious operations at scale.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
+    "publishedAt": "2026-07-15T18:33:48.000Z",
+    "contentHash": "678005bd3c0f411014078310155ec2d62e02bed7146ecd7f0e33620a59fa720a",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:thehackernews-19d53f59b5",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Firefox, Chrome, Adobe, and VMware Release Security Updates for Critical Vulnerabilities",
+    "summary": "Mozilla, Google Chrome, Adobe, and VMware have released patches addressing multiple critical security flaws. Firefox updates specifically target two critical vulnerabilities in JavaScript/WebAssembly and DOM navigation components, for which public exploit code has emerged. Organizations should prioritize deployment of these updates across affected products.",
+    "sourceUrl": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
+    "publishedAt": "2026-07-15T13:18:53.000Z",
+    "contentHash": "f2842011333612413ce2a95d5e925c9f62e73898f2152cbaf0a10bd6223b542b",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:darkreading-624a1ca522",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Identity Attacks Overtake Exploits as Top Ransomware Cause",
+    "summary": "Email-based attacks have become the leading initial access vector for ransomware infections, surpassing software exploits. Despite widespread MFA deployment in 97% of credential-focused attacks, authentication mechanisms proved insufficient to prevent successful compromises.",
+    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause",
+    "publishedAt": "2026-07-15T20:16:13.000Z",
+    "contentHash": "f91efa84c19ac3af11e4d79df38dc7413d74ec9a8c6580331acd8ca879df54b0",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:bleeping-2765d5a278",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "technology"
+    ],
+    "title": "AsyncAPI npm packages compromised in supply-chain attack",
+    "summary": "Five malicious versions of AsyncAPI packages were distributed through npm, containing a remote access trojan capable of stealing credentials and system information. The attack represents a supply-chain compromise affecting developers who installed the affected versions.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
+    "publishedAt": "2026-07-15T15:37:27.000Z",
+    "contentHash": "afc22be2b92c9012ba86ece9476253d6b698707ec670e39d452be722364384d7",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1fd0f569c2",
+    "tier": "event",
+    "category": "strategy",
+    "title": "SASE Architecture Faces Limitations in AI-Centric Enterprise Environments",
+    "summary": "Traditional Secure Access Service Edge (SASE) implementations relying on packet inspection lack visibility into modern enterprise workflows spanning SaaS applications, browsers, and generative AI tools. The shift toward browser-based work and AI-integrated processes has exposed gaps in conventional network security models that were designed for earlier infrastructure patterns.",
+    "sourceUrl": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
+    "publishedAt": "2026-07-15T11:50:01.000Z",
+    "contentHash": "35a08b9bf63367d99a05b3bac688ab76c5f2b0721d45eca27c2a35b5531699db",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:darkreading-7954edbc23",
+    "tier": "event",
+    "category": "news",
+    "title": "Dark Reading Expands Global Coverage with European Cybersecurity Focus",
+    "summary": "Dark Reading has launched an enhanced Global section of its platform to deliver region-specific cybersecurity intelligence for audiences outside North America, including dedicated coverage for European markets. The expansion aims to provide localized threat intelligence and defensive strategies relevant to different geographic regions.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders",
+    "publishedAt": "2026-07-15T18:08:56.000Z",
+    "contentHash": "5c521a882446e202781637c5c4b11e6a69c312d562b94e07f7c5b389c000a475",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:bleeping-59dbd68258",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Intruder demonstrates AI-powered vulnerability discovery system",
+    "summary": "Intruder has developed an automated system leveraging code analysis and large language models to identify previously unknown software vulnerabilities. The approach successfully discovered an unreported WordPress plugin flaw and additional issues currently under responsible disclosure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+    "publishedAt": "2026-07-15T14:01:11.000Z",
+    "contentHash": "622316f7379c15be3f17935b99ccf5e4a4dbb4cd03d16e4cee0070675cd42019",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3296da2981",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "Researcher Releases Windows User Profile Service Elevation of Privilege PoC",
+    "summary": "A security researcher has published a proof-of-concept exploit targeting a Windows User Profile Service vulnerability that enables arbitrary hive loading and privilege escalation. The disclosure occurred shortly after Microsoft's regular patch cycle, affecting a core system component responsible for user account and environment management.",
+    "sourceUrl": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
+    "publishedAt": "2026-07-15T11:07:07.000Z",
+    "contentHash": "5e956fdfd85847509e3b206742a89e5647a3837ed019e30ba9a40412b4f0c40e",
+    "ingestedAt": "2026-07-16T07:31:41.941Z"
   }
 ]
