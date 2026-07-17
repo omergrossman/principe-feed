@@ -14,219 +14,6 @@
     "ingestedAt": "2026-06-14T12:24:54.293Z"
   },
   {
-    "id": "knowledge:bleeping-1487c83ab1",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development"
-    ],
-    "title": "Malicious JetBrains Marketplace plugins target developer AI API keys",
-    "summary": "Security researchers identified at least 15 malicious plugins distributed through the official JetBrains Marketplace that were engineered to exfiltrate AI API keys from developer environments. The plugins exploited the trusted marketplace distribution channel to gain access to sensitive credentials commonly used for third-party AI services.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
-    "publishedAt": "2026-06-16T21:54:50.000Z",
-    "contentHash": "5877919a71c29833eaa9488323ab06c1a2445e03ad766c947c54be1587cebf01",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:thehackernews-eedf6d2505",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "CISA Adds Actively Exploited Joomla JCE Vulnerability to KEV Catalog",
-    "summary": "CISA has catalogued a critical access control flaw (CVE-2026-48907, CVSS 10.0) in the Joomla Content Editor plugin as actively exploited in the wild. The vulnerability enables arbitrary code execution through improper authorization controls. Organizations using the affected JCE component should prioritize patching.",
-    "sourceUrl": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
-    "publishedAt": "2026-06-17T05:50:46.000Z",
-    "contentHash": "97349a739ba302cad2976c6a846c530d8d5bfb2113dd49ccbbd7850616f64e6e",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:darkreading-14ea4a2bec",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Fileless Phantom Stealer Targets Browser Credentials",
-    "summary": "A fileless malware variant operates exclusively in memory to evade traditional file-based detection while stealing browser credentials. The infection chain employs multiple anti-analysis techniques to obstruct security tools and reverse engineering efforts.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials",
-    "publishedAt": "2026-06-16T22:26:34.000Z",
-    "contentHash": "f1dc30e08449c29f7ad1a8e957891911b041f19c1d2789dd8e407e559197d01d",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:sans-isc-760b0da934",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast - June 17th, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The episode discusses emerging threats and defensive practices relevant to security operations professionals.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33082",
-    "publishedAt": "2026-06-17T02:00:04.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:cisa-a532b41623",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing",
-      "energy",
-      "food and agriculture",
-      "water and wastewater"
-    ],
-    "title": "Rockwell Automation RSLinx Classic Stack-Based Buffer Overflow Vulnerability",
-    "summary": "CISA disclosed a stack-based buffer overflow vulnerability (CVE-2020-13573) in Rockwell Automation RSLinx Classic versions 4.50.00 and earlier, affecting critical manufacturing and energy sectors globally. The flaw allows remote code execution with a CVSS v3.1 score of 7.5. Rockwell recommends upgrading to version 4.60.00 or later, or applying patch BF31213 for systems unable to upgrade immediately.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02",
-    "publishedAt": "2026-06-16T12:00:00.000Z",
-    "contentHash": "a21367bb48a43a223f7522c4f62e06bff3e063b07678eddee9d1e207842f188a",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:bleeping-0561978f0a",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "banking",
-      "financial services",
-      "cryptocurrency"
-    ],
-    "title": "Rokarolla Android Banking Trojan Targets 217 Financial Apps",
-    "summary": "Security researchers identified Rokarolla, an Android banking trojan capable of targeting 217 banking and cryptocurrency applications through a sophisticated command infrastructure. The malware operates with 137 distinct commands enabling credential theft and fraudulent transactions across multiple financial platforms.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
-    "publishedAt": "2026-06-16T20:04:11.000Z",
-    "contentHash": "87aa334f2074c8a4bf622e5c8c886652841ac9d826d6b4752329f2d2630ad62c",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:thehackernews-dab97eb1ab",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "cloud",
-      "machine learning",
-      "software development"
-    ],
-    "title": "Google Vertex AI SDK Vulnerability Enables Model Upload Hijacking via Bucket Squatting",
-    "summary": "A flaw in Google Cloud's Vertex AI Python SDK allowed unauthenticated attackers to intercept machine learning model uploads through bucket name collision and execute code within Google's infrastructure. Palo Alto Networks Unit 42 identified and reported the vulnerability through Google's bug bounty program; no active exploitation has been observed.",
-    "sourceUrl": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
-    "publishedAt": "2026-06-16T19:05:41.000Z",
-    "contentHash": "24e8cbe15c1119adeb534d7d6067e52ebc7fda4421c0d99df70d8264e86fb37e",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:darkreading-78c2e6dbb9",
-    "tier": "event",
-    "category": "regulation",
-    "region": "us",
-    "title": "Security Experts Challenge US Export Restrictions on AI Models",
-    "summary": "A coalition of security researchers has publicly opposed government-imposed export controls affecting Anthropic's Claude Fable 5 and Mythos 5 AI models. The signatories argue the restrictions may hinder collaborative security research and international threat intelligence sharing.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable",
-    "publishedAt": "2026-06-16T22:00:06.000Z",
-    "contentHash": "a1bf1ea70bc0034ae5fbf748f45b0ea9a0ef82ef36ee38a395fb8c2992230a9a",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:sans-isc-ad68685bc7",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "VHDX File Weaponized to Distribute Remcos RAT",
-    "summary": "Security researchers identified a malicious ZIP archive containing a VHDX file that automatically mounts on modern Windows systems, exposing embedded malicious JavaScript designed to deploy Remcos remote access trojan. The delivery method exploits Windows' native handling of virtual disk images to bypass traditional file-based detection.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33080",
-    "publishedAt": "2026-06-16T07:09:13.000Z",
-    "contentHash": "4a85218292b41afc24b8cfba723b078694d817f4d635267a86e0d08411d5c950",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:cisa-59af5c3f01",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing"
-    ],
-    "title": "Rockwell Automation FLEX I/O EtherNet/IP Adapters Vulnerabilities",
-    "summary": "CISA disclosed two vulnerabilities in Rockwell Automation FLEX I/O EtherNet/IP Adapters (models 1794-AENTR and 1794-AENTRXT V2.012): a denial-of-service issue from improper memory handling of CIP protocol requests, and an authentication bypass allowing unauthenticated modification of device passwords. Rockwell Automation released firmware version 2.013 to address both issues, with CVSS scores reaching 9.4 for the authentication vulnerability.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05",
-    "publishedAt": "2026-06-16T12:00:00.000Z",
-    "contentHash": "8539946b30900fda2fd638ecfc9f1c5bb028a75d70294fd1757dc42ccdd3d8d5",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:bleeping-a3798f6d4c",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Steam Workshop exploited to distribute malware through Wallpaper Engine",
-    "summary": "Threat actors are leveraging Steam Workshop to distribute malware by disguising it within wallpaper packages for the Wallpaper Engine application. The attack vector exploits the platform's community content distribution system, which allows users to download user-created materials with minimal friction.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
-    "publishedAt": "2026-06-16T18:27:55.000Z",
-    "contentHash": "0fd2cfd017194b764b7bf651ef4c130ac40c7243b4089132efd21b11336d8757",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:darkreading-7ed50a6224",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "government"
-    ],
-    "title": "SprySOCKS Windows Variant Deployed by FishMonger Against Government Targets",
-    "summary": "FishMonger, a China-linked threat actor, has deployed a previously undocumented Windows variant of the SprySOCKS backdoor that leverages kernel drivers to circumvent detection mechanisms. The malware has been observed targeting government entities across Honduras, Taiwan, Thailand, and Pakistan, representing a notable expansion of this tool's operational scope.",
-    "sourceUrl": "https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers",
-    "publishedAt": "2026-06-16T20:11:48.000Z",
-    "contentHash": "66329822b46109886cb79c1d370fea1d37a0b4aa6a56121548bb86b00dfdf6ed",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:sans-isc-ec4172b372",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast Podcast - June 16th, 2026",
-    "summary": "SANS Internet Storm Center's daily security briefing covering recent threat landscape developments and cybersecurity topics of interest to security professionals.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33078",
-    "publishedAt": "2026-06-16T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:bleeping-236888d673",
-    "tier": "event",
-    "category": "regulation",
-    "region": "uk",
-    "title": "UK to Require Identity or Age-Verification Scan for Social Media Account Creation",
-    "summary": "The UK government plans to mandate identity verification or facial age-scanning technology for new social media accounts, enforcing a prohibition on under-16 users starting spring 2027. Security researchers have raised concerns that such verification methods present circumvention opportunities and introduce additional data breach exposure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
-    "publishedAt": "2026-06-16T14:38:49.000Z",
-    "contentHash": "16a3c17dc41412c943afbd5e980a5af973a6bf962d6dbe814ffa4f90aee32724",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:thehackernews-f9af2533fd",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "financial services",
-      "cryptocurrency"
-    ],
-    "title": "Rokarolla Android Banking Trojan Targets 217 Financial Applications",
-    "summary": "Zimperium researchers identified Rokarolla, an Android banking trojan capable of compromising 217 banking and cryptocurrency applications through 137 remote commands. The malware intercepts lock-screen PINs, exfiltrates SMS messages, manipulates clipboard data to redirect cryptocurrency transfers, and disables Google Play Protect.",
-    "sourceUrl": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
-    "publishedAt": "2026-06-16T13:10:17.000Z",
-    "contentHash": "b442dc988b98a276ff82a66fcccccb130abfc821067d6734a0f0885e8ce8fe5a",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
-    "id": "knowledge:darkreading-1724b58bf9",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Rokarolla Android Trojan Expands Capabilities with Device Control and Persistence",
-    "summary": "Rokarolla, an Android trojan distributed through counterfeit TikTok and Chrome applications, has evolved to combine banking fraud with comprehensive device surveillance and remote control functionality. The malware demonstrates increasing sophistication in maintaining persistence on infected devices while enabling attackers to monitor user activity and conduct financial operations.",
-    "sourceUrl": "https://www.darkreading.com/endpoint-security/rokarolla-android-trojan",
-    "publishedAt": "2026-06-16T17:32:32.000Z",
-    "contentHash": "9f51b34c8fce7f3988d90e91c37ecfcd5b73998699811f738e16412b00975565",
-    "ingestedAt": "2026-06-17T06:53:46.694Z"
-  },
-  {
     "id": "knowledge:manual-f8e5b0d15159",
     "tier": "foundational",
     "category": "strategy",
@@ -5318,5 +5105,200 @@
     "publishedAt": "2026-07-15T11:07:07.000Z",
     "contentHash": "5e956fdfd85847509e3b206742a89e5647a3837ed019e30ba9a40412b4f0c40e",
     "ingestedAt": "2026-07-16T07:31:41.941Z"
+  },
+  {
+    "id": "knowledge:bleeping-d70c88aad5",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA orders prioritized patching for actively exploited Fortinet FortiSandbox vulnerabilities",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency issued a directive requiring federal agencies to patch two actively exploited vulnerabilities in Fortinet FortiSandbox. The flaws are being leveraged in ongoing attacks and represent a demonstrated risk to government systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
+    "publishedAt": "2026-07-17T07:03:33.000Z",
+    "contentHash": "f195325f63936bc7856f2a8fd3050df1782e72c79a8f664ea78e954fb28a4658",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:thehackernews-05042d22e6",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "title": "CISA Adds Microsoft SharePoint RCE Vulnerability to KEV Catalog",
+    "summary": "CISA has added CVE-2026-58644, a critical remote code execution vulnerability in Microsoft SharePoint Server, to its Known Exploited Vulnerabilities catalog. Federal civilian agencies are required to remediate the flaw by July 19, 2026. The vulnerability carries a CVSS score of 9.8 and involves deserialization issues.",
+    "sourceUrl": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
+    "publishedAt": "2026-07-17T06:42:23.000Z",
+    "contentHash": "0dd8e858d1a466eda391aa2ec6ff7273678e1931c4a85be2806ba9b9283270d2",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:darkreading-35e1e10c2c",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Agentic AI Poses Significant Security Challenges Beyond Traditional Attack Vectors",
+    "summary": "Agentic AI systems present inherent security risks that extend beyond conventional threat models, requiring organizations to reassess their security frameworks. The technology's autonomous decision-making capabilities introduce novel vulnerabilities that demand specialized oversight and control mechanisms distinct from traditional cybersecurity approaches.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions",
+    "publishedAt": "2026-07-16T20:57:47.000Z",
+    "contentHash": "97ecd776876277a67b74f19db2fe5ac525108a9807e06ed22020d6e7f7496e0b",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:sans-isc-eb18894c38",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Friday, July 17th, 2026",
+    "summary": "SANS Internet Storm Center published their routine daily security briefing covering recent cybersecurity developments and threat landscape updates.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33162",
+    "publishedAt": "2026-07-17T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:bleeping-0a06e6307f",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ClickLock macOS Malware Forces Password Disclosure via Process Termination",
+    "summary": "ClickLock, a newly identified macOS information stealer, terminates visible processes to compel users to re-enter their system login credentials. The malware exploits the forced authentication flow to capture plaintext passwords during the login process.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+    "publishedAt": "2026-07-16T21:52:54.000Z",
+    "contentHash": "e576c6267dd823bba480ff97fcd75e0f0275d1cf8b4fffb0eee2335ed64f8067",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8c402b24a5",
+    "tier": "event",
+    "category": "attack",
+    "region": "uk",
+    "industries": [
+      "transportation"
+    ],
+    "title": "Two Scattered Spider Members Sentenced for Transport for London Ransomware Attack",
+    "summary": "Two individuals associated with the Scattered Spider group received 5.5-year sentences for a 2024 ransomware attack on Transport for London that compromised 148 systems and disrupted operations across the transit authority. The incident forced all 27,000 TfL employees to undergo in-person password resets and resulted in substantial financial losses and recovery costs.",
+    "sourceUrl": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
+    "publishedAt": "2026-07-16T17:09:25.000Z",
+    "contentHash": "4219b2de184becd042f99b0607fd9f5dbf8ae8ba102c01610af74a845ce4dc58",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:darkreading-a3930e5b61",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Hidden Text Techniques Bypass AI-Based Email Security Filters",
+    "summary": "Researchers identified over one million emails employing text obfuscation methods to evade AI-powered security filters. The technique exploits limitations in how large language models process certain text manipulations, enabling phishing campaigns to reach end users despite email gateway protections.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters",
+    "publishedAt": "2026-07-16T19:41:31.000Z",
+    "contentHash": "414b67fa9bb426a46c80c85ef37b47a7486d1d5e378101248bd893a12208e256",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:bleeping-bdabfb821d",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "food & beverage",
+      "dairy"
+    ],
+    "title": "Coca-Cola's Fairlife Subsidiary Experiences Ransomware-Driven Production Halt",
+    "summary": "The Coca-Cola Company disclosed a ransomware attack affecting its Fairlife dairy subsidiary that has temporarily suspended production of Fairlife products throughout the United States. The incident represents an operational disruption to a major dairy supplier's manufacturing capabilities.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+    "publishedAt": "2026-07-16T21:09:41.000Z",
+    "contentHash": "b10b60d346ebb4b1d71366f60ce581f2728831cdccf3535c32939fa9a69f7b8f",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3c8f9fdd26",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ThreatsDay: Multiple Attack Vectors Including Game Cheat Spyware, Ransomware, and Chrome Sync Exploitation",
+    "summary": "Security researchers identified a collection of 15 threats spanning game cheat spyware, rapid-deployment ransomware variants, and Chrome sync credential theft. Attack chains leveraged lookalike repositories, bundled installers, and misconfigured defaults to establish persistence and exfiltrate data.",
+    "sourceUrl": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
+    "publishedAt": "2026-07-16T15:41:15.000Z",
+    "contentHash": "92c789f762506bf7c79974b37a06c8c40227819f18b1ebf69d3c3eeb8f838006",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:darkreading-d05df27e7d",
+    "tier": "event",
+    "category": "regulation",
+    "region": "uk",
+    "title": "UK Accelerates Technology Sovereignty Strategy Amid US AI Model Restrictions",
+    "summary": "US export controls on advanced AI models from Anthropic and OpenAI are prompting the UK and allied nations to pursue greater technological independence. This shift toward domestic capabilities carries implications for cybersecurity infrastructure, supply chain resilience, and cross-border threat intelligence coordination.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/tech-xit-uk-sovereignty-push-amid-ai-strife",
+    "publishedAt": "2026-07-15T17:03:23.000Z",
+    "contentHash": "b00065492ec3a735a23f789bc63590b9f69b4e2a012678f4a65dfb651a99e00f",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:bleeping-f653811351",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Claude Chrome Extension Vulnerability Allows Malicious Extensions to Trigger AI Actions",
+    "summary": "A flaw in Anthropic's Claude for Chrome extension enables malicious extensions to simulate user interactions and initiate predefined AI actions. This could permit unauthorized access to Claude's integrations with services including Gmail, Google Docs, Google Calendar, and Salesforce.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+    "publishedAt": "2026-07-16T19:26:07.000Z",
+    "contentHash": "2dfa29cc027f8d75b2ea5433d0cfb24e363ad0ad8525bd29df47093ae6a3d64e",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:thehackernews-ae03488274",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "n8n Authentication Bypass via JWT Issuer Validation Flaw",
+    "summary": "n8n's workflow automation platform contained a JWT validation vulnerability in multi-issuer Enterprise configurations that could allow unauthorized account access. The flaw caused the platform to authenticate users based solely on the subject claim while disregarding the issuer claim, enabling token substitution attacks across different identity providers.",
+    "sourceUrl": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
+    "publishedAt": "2026-07-16T13:33:25.000Z",
+    "contentHash": "d91fc4b0b985d73a86bd8334019bfe8f7bfd706a2cbbdeb088535b4c4b633092",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:darkreading-5536ea32a9",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "PromptFiction Vulnerability in Claude AI Addressed",
+    "summary": "A vulnerability in Claude AI could have automatically directed malicious prompts to AI agents when chained with a separate exploit, potentially enabling system compromise. The flaw has been remediated by Anthropic.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents",
+    "publishedAt": "2026-07-15T15:27:35.000Z",
+    "contentHash": "53f3ae54abf1496905778483b764599bf1ce5d8d1271a9dd15b6b56068bf0075",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:cisa-4d26f99d21",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "title": "Rockwell Automation Communication Modules Vulnerable to Denial-of-Service via Packet Validation Flaw",
+    "summary": "CISA disclosed a vulnerability affecting Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT communication modules that allows network-based attackers to disrupt device connections through improper validation of CIP Implicit Connection packets. Affected versions include EN3 and EN2 up to V12.001, and ENBT V6.006; patches are available for EN2 and EN3, though EN3 is discontinued. No active exploitation has been reported.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
+    "publishedAt": "2026-07-16T12:00:00.000Z",
+    "contentHash": "6ce85a2f0c4f8d3cff39fe2bdb589fe9efe08def6392755bacbe2bc3143ae8fe",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:bleeping-3600e526f2",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "OkoBot Framework Delivers Multiple Payloads for Data and Cryptocurrency Theft",
+    "summary": "Security researchers identified OkoBot, a malware framework capable of deploying over 20 distinct payloads targeting sensitive information including cryptocurrency wallet seed phrases and user credentials. The framework demonstrates a modular approach to multi-stage attacks designed to extract financial and authentication data from compromised systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
+    "publishedAt": "2026-07-16T19:09:35.000Z",
+    "contentHash": "1525acd67e7f87074873421754eb5307c3225c3003ce4b87124a2a50639abde9",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9a667808f9",
+    "tier": "event",
+    "category": "attack",
+    "title": "TELEPUZ Malware Distributed Through ClickFix Attack Chain",
+    "summary": "A modular malware variant named TELEPUZ has been observed spreading through compromised websites using ClickFix social engineering tactics since April 2026. The malware exhibits data theft and remote command execution capabilities with a lightweight, modular architecture, though currently operates with a limited command-and-control infrastructure.",
+    "sourceUrl": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
+    "publishedAt": "2026-07-16T12:50:13.000Z",
+    "contentHash": "b5afdbfb721421562eadc499b8a56d90eb67ed0d340dc562f77b217a8565b269",
+    "ingestedAt": "2026-07-17T07:28:57.597Z"
   }
 ]
