@@ -1,5 +1,14 @@
 [
   {
+    "id": "native-windows-installer-apple-silicon-support",
+    "date": "2026-07-06",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Native Windows installer + Apple Silicon support",
+    "summary": "Príncipe now installs on Windows with a single PowerShell command, and runs natively on Apple Silicon without QEMU emulation.",
+    "body": "The new `install.ps1` handles Docker Desktop and WSL2 setup automatically — no manual steps. On Apple Silicon, the installer now detects ARM64 and sets the platform flag so images build and run natively. Both installers also drop a desktop icon so you can relaunch the stack without opening a terminal."
+  },
+  {
     "id": "pdf-exports-now-match-the-full-decision-card-ran",
     "date": "2026-07-08",
     "tag": "feature",
