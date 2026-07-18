@@ -68,15 +68,5 @@
     "summary": "Príncipe now installs on Windows with a single PowerShell command, and runs natively on Apple Silicon without QEMU emulation.",
     "body": "The new `install.ps1` handles Docker Desktop and WSL2 setup automatically — no manual steps. On Apple Silicon, the installer now detects ARM64 and sets the platform flag so images build and run natively. Both installers also drop a desktop icon so you can relaunch the stack without opening a terminal.",
     "why": "Drafted from a recent product change."
-  },
-  {
-    "id": "windows-sign-in-fixed-webauthn-verification-now-",
-    "date": "2026-06-29",
-    "tag": "security",
-    "channel": "both",
-    "title": "Windows sign-in fixed — WebAuthn verification now consistent across platforms",
-    "summary": "A mismatch between the login request and server verification blocked Windows users from signing in.",
-    "body": "Sign-in failed on Windows while working fine on macOS, iOS, and Android. The root cause was a mismatch: the login flow requested `userVerification: \"preferred\"` but the server enforced `\"required\"`, so Windows Hello credentials were silently rejected. Both sides now agree on `\"required\"`, and Windows login works as expected.",
-    "why": "Drafted from a recent product change."
   }
 ]
