@@ -1,15 +1,5 @@
 [
   {
-    "id": "free-self-hosted-edition-now-enforces-its-30-cis",
-    "date": "2026-07-08",
-    "tag": "security",
-    "channel": "both",
-    "title": "Free self-hosted edition now enforces its 30-CISO / 10-industry caps in code",
-    "summary": "The limits that were previously only documented are now enforced at runtime in the OSS build.",
-    "body": "The self-hosted edition has always promised a fixed 30-CISO panel and up to 10 industries — but until now that was narrated in the pricing page, not enforced in code. The OSS build now applies hard caps at runtime, so the behaviour matches the published terms regardless of configuration.",
-    "why": "Drafted from a recent product change."
-  },
-  {
     "id": "pdf-exports-now-match-the-full-decision-card-ran",
     "date": "2026-07-08",
     "tag": "feature",
