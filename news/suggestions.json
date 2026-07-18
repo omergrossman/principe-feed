@@ -1,15 +1,5 @@
 [
   {
-    "id": "windows-sign-in-fixed-webauthn-verification-tigh",
-    "date": "2026-07-08",
-    "tag": "security",
-    "channel": "both",
-    "title": "Windows sign-in fixed — WebAuthn verification tightened",
-    "summary": "Passkey login now works on Windows; a mismatch between client and server verification requirements was the cause.",
-    "body": "Sign-in with a passkey failed on Windows while working fine on macOS, iOS, and Android. The root cause: the login flow requested `userVerification: \"preferred\"` but the server required it — Windows authenticators treated that gap as a hard failure. Both sides now agree on `required`, closing the inconsistency.",
-    "why": "Drafted from a recent product change."
-  },
-  {
     "id": "free-self-hosted-edition-now-enforces-its-30-cis",
     "date": "2026-07-08",
     "tag": "security",
