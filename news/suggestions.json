@@ -1,15 +1,5 @@
 [
   {
-    "id": "free-self-hosted-edition-now-enforces-its-own-ca",
-    "date": "2026-07-06",
-    "tag": "feature",
-    "channel": "both",
-    "title": "Free self-hosted edition now enforces its own caps",
-    "summary": "The 30-CISO panel and 10-industry limits for the self-hosted edition are now enforced in code, not just described on the pricing page.",
-    "body": "Previously the OSS build inherited the cloud tier's wider bounds (up to 200 CISOs, unlimited industries), meaning the documented free-tier limits weren't actually applied. The caps are now hard constraints in the self-hosted build, so the pricing page and the software agree.",
-    "why": "Drafted from a recent product change."
-  },
-  {
     "id": "pdf-export-now-matches-the-full-decision-card",
     "date": "2026-07-06",
     "tag": "feature",
