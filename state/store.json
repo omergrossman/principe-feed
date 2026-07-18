@@ -80,364 +80,6 @@
     "ingestedAt": "2026-06-17T06:53:46.694Z"
   },
   {
-    "id": "knowledge:bleeping-32507156c2",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Microsoft Developing Patch for RoguePlanet Defender Zero-Day",
-    "summary": "Microsoft is developing a security update to address RoguePlanet, a zero-day vulnerability in Windows Defender that was publicly disclosed one week prior. The company has confirmed the issue and is working toward a resolution through its standard patching process.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
-    "publishedAt": "2026-06-17T08:32:29.000Z",
-    "contentHash": "12dd68645b15c16ba59e98be2dd967d8325dd6e0d0453aa787f3570fa018ef76",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:thehackernews-1d5a81ae1b",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "technology"
-    ],
-    "title": "Malicious JetBrains Plugins Target AI API Keys Through Fake Coding Assistants",
-    "summary": "Researchers identified a coordinated campaign distributing at least 15 malicious plugins on the JetBrains Marketplace. The plugins masquerade as AI coding assistants leveraging DeepSeek and other LLMs while stealing API credentials and sensitive data from development environments.",
-    "sourceUrl": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
-    "publishedAt": "2026-06-17T09:38:46.000Z",
-    "contentHash": "f670a81cccebc580071fa2bde7db269e374b73a52c0e185d8817b83bf897e6b5",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:darkreading-3fce92e23d",
-    "tier": "event",
-    "category": "regulation",
-    "region": "uk",
-    "title": "UK Social Media Ban for Minors Raises Privacy Implementation Concerns",
-    "summary": "The UK has announced legislation to prohibit users under 16 from accessing peer-to-peer social media platforms. Privacy advocates have flagged concerns about the age-verification mechanisms required for enforcement, questioning whether identity confirmation processes will adequately protect user data while achieving the regulatory objective.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/uk-social-media-ban-privacy-experts-worried",
-    "publishedAt": "2026-06-17T08:00:00.000Z",
-    "contentHash": "6d3180b433a019cf85bb8d972f3512dfb2209fe26c427de7535c232bee59ed0c",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:bleeping-84f2a605f6",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "imaging",
-      "technology"
-    ],
-    "title": "Kodak confirms data breach following ShinyHunters extortion claim",
-    "summary": "Kodak acknowledged a security incident in which threat actors obtained access to company data and subsequently made extortion demands. The organization is conducting an investigation with external security consultants to assess the scope and nature of the compromise.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
-    "publishedAt": "2026-06-17T07:07:56.000Z",
-    "contentHash": "16a853289171a5b8590414ede79d51afc87d5e2e1d6bab6dd65c418c6fc9ec93",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:thehackernews-44495b28d6",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "artificial intelligence"
-    ],
-    "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
-    "summary": "A compromised npm contributor account resulted in malicious versions of 144 packages in the Mastra namespace being published to the registry. Mastra is a framework for building AI applications in JavaScript and TypeScript. The attack, tracked as easy-day-js, was identified by multiple security vendors including JFrog, SafeDep, Socket, and StepSecurity.",
-    "sourceUrl": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
-    "publishedAt": "2026-06-17T07:38:24.000Z",
-    "contentHash": "f39f53d593ce5fac28aed4c7bf08cc3ec4b6aa614ce5225d0f645b83c9a8abd0",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:darkreading-2e972db766",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "'Lorem Ipsum' Malware Pivots to ClickFix Delivery",
-    "summary": "A malware campaign leveraging compromised WordPress sites has shifted to ClickFix delivery mechanisms. Analysis suggests potential attribution to Vice Society, a group known for ransomware and data extortion operations.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery",
-    "publishedAt": "2026-06-16T15:10:48.000Z",
-    "contentHash": "322d0f051c7bc297f219f3f2612ee4181eecad6d0913146d65fc12595aa2b161",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:bleeping-50c8b7b402",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "GhostTree Attack Exploits Windows Junctions to Evade Defender Scanning",
-    "summary": "A technique called GhostTree leverages recursive NTFS junctions to create numerous valid file paths that can cause Windows Defender's folder scanning operations to hang indefinitely. This method potentially allows malware to persist undetected by preventing completion of security scans.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/",
-    "publishedAt": "2026-06-16T14:17:27.000Z",
-    "contentHash": "fb7ed89f31e85436c215929113c30b68a63b17074d595c8000e02587a0ecde9c",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:thehackernews-33ab805fdf",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure; Organizations Remain Reactive",
-    "summary": "A survey indicates that anonymized infrastructure is present in 94% of security incidents, yet organizations struggle to identify threat actors despite access to extensive IP enrichment data. Security teams continue operating reactively, unable to effectively leverage available intelligence feeds and geolocation services to correlate infrastructure artifacts and attribute incidents.",
-    "sourceUrl": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
-    "publishedAt": "2026-06-16T11:30:00.000Z",
-    "contentHash": "66a5467ab3470dafe839bde2b492b7095bae229650621ce05515b45424b54b30",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:darkreading-a708510456",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "telecommunications",
-      "healthcare"
-    ],
-    "title": "HTTP/2 Bomb DoS Attacks Leverage Protocol Design Features",
-    "summary": "A denial-of-service vulnerability in HTTP/2 exploits compression and multiplexing features intended to optimize bandwidth usage, enabling amplification attacks. Telecommunications and healthcare organizations face particular risk due to their reliance on HTTP/2-based infrastructure and services.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/http-2-bomb-attacks-telcos-healthcare",
-    "publishedAt": "2026-06-15T19:31:37.000Z",
-    "contentHash": "a26a19fac787d73294ff633f06a8a184f10063165e7a082396619526a2eb5255",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:bleeping-cb8465fdf6",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "FTC Reports Record Imposter Scam Losses Reaching $3.5 Billion in 2025",
-    "summary": "The Federal Trade Commission documented $3.5 billion in losses attributed to imposter scams during 2025, reflecting a significant upward trend in fraud severity over the past five years. Reported losses have nearly tripled since 2020, indicating an expanding attack surface and evolving social engineering tactics that continue to impact U.S. consumers.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/",
-    "publishedAt": "2026-06-16T13:42:19.000Z",
-    "contentHash": "e757d9bf1481abff31d0bd082ccb5f8ab2789e243e5d83f0fd2187edbd515720",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:thehackernews-c86e0f6679",
-    "tier": "event",
-    "category": "attack",
-    "title": "Fortinet FortiSandbox Vulnerabilities Under Active Exploitation",
-    "summary": "Threat researchers have identified active exploitation of three vulnerabilities in Fortinet FortiSandbox, including a critical path traversal flaw in the JRPC API with a CVSS score of 9.1. One of the affected vulnerabilities was patched by Fortinet within the preceding week, suggesting rapid weaponization of disclosed flaws.",
-    "sourceUrl": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
-    "publishedAt": "2026-06-16T10:30:41.000Z",
-    "contentHash": "637c08d858da41bdd10177ff50a7d10dcd8076b061316de51fa44d0847772ba4",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:darkreading-f159ba9d5d",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Copilot SearchLeak Attack Exploited Prompt Injection to Enable Data Theft",
-    "summary": "A three-stage prompt injection vulnerability in Copilot allowed attackers to extract sensitive data through crafted hidden URLs and variables, requiring minimal user interaction. Microsoft has patched the flaw, which represents one of several emerging AI-focused attack vectors targeting similar injection weaknesses across prompt-based systems.",
-    "sourceUrl": "https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft",
-    "publishedAt": "2026-06-15T19:27:48.000Z",
-    "contentHash": "e0a4f471836c97b0a357303a6226d55bca77c3a328a27d038f24f825ce97f727",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:bleeping-d252676560",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "CISA Issues Directive on Actively Exploited cPanel LiteSpeed Plugin Vulnerability",
-    "summary": "CISA has notified U.S. federal agencies of an active exploitation campaign targeting CVE-2026-54420, a vulnerability in the LiteSpeed cPanel user-end plugin, with a three-day remediation deadline. The flaw is being leveraged in the wild and poses risks to government infrastructure relying on affected cPanel deployments.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
-    "publishedAt": "2026-06-16T10:47:59.000Z",
-    "contentHash": "f03613e2428b8f117482498f03ce1bc049fd611a081845828226c60bde9448ce",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:thehackernews-b433f44e8c",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "SprySOCKS Backdoor Expands to Windows Platform with Driver-Based Variants",
-    "summary": "ESET researchers identified two previously undocumented Windows variants of the SprySOCKS backdoor, internally designated WIN_DRV and WIN_PLUS, extending what was previously thought to be a Linux-only threat. Both variants feature embedded command-and-control configurations and support multiple communication protocols including TCP and UDP.",
-    "sourceUrl": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
-    "publishedAt": "2026-06-16T09:44:34.000Z",
-    "contentHash": "cc8dbd4d8627db1429b9765a75b97001895142ebc0f6a4f85b2f08cf3d97be66",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:bleeping-b52d1f7b18",
-    "tier": "event",
-    "category": "attack",
-    "title": "DragonForce Ransomware Leverages Microsoft Teams Infrastructure for C2 Communications",
-    "summary": "The DragonForce ransomware group deployed a custom backdoor named Backdoor.Turn to conceal command-and-control traffic by routing it through Microsoft Teams relay infrastructure. This technique exploits legitimate cloud services to evade network detection and filtering mechanisms commonly used by defenders.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
-    "publishedAt": "2026-06-16T10:18:48.000Z",
-    "contentHash": "e387c8428b40648c328072e3179c52185d2d669e8a6db233aeece0fcbb737730",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:thehackernews-954607137e",
-    "tier": "event",
-    "category": "attack",
-    "title": "ScarCruft Deploys NarwhalRAT via Fake Microsoft Security Alerts",
-    "summary": "North Korean-linked threat actor ScarCruft (APT37) is conducting spear-phishing campaigns using fraudulent Microsoft Account security notifications to distribute NarwhalRAT malware. The socially-engineered emails impersonate legitimate security warnings to trick recipients into executing the payload.",
-    "sourceUrl": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-    "publishedAt": "2026-06-16T08:14:55.000Z",
-    "contentHash": "7d356194b65a91ee12a5abcea55486912ddef7ae0fc7e032d21afa664d1193d3",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:bleeping-972bfd5a8e",
-    "tier": "event",
-    "category": "attack",
-    "title": "Critical Fortinet FortiSandbox Vulnerabilities Under Active Exploitation",
-    "summary": "Multiple critical vulnerabilities in Fortinet's FortiSandbox threat detection platform are being actively exploited by attackers, according to threat intelligence findings. The flaws affect a widely-deployed security appliance, creating potential exposure for organizations relying on this detection capability.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/",
-    "publishedAt": "2026-06-16T09:19:51.000Z",
-    "contentHash": "9126f607a003efa55a0f8508a43d7b4faa7add52b878c354226334270be317ec",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:thehackernews-2f89dbfc90",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Vulnerability",
-    "summary": "Cisco has issued patches for CVE-2026-20262, a medium-severity flaw in Catalyst SD-WAN Manager that is actively exploited in the field. The vulnerability, with a CVSS score of 6.5, allows authenticated remote attackers to perform unauthorized actions through the web UI.",
-    "sourceUrl": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
-    "publishedAt": "2026-06-16T06:05:58.000Z",
-    "contentHash": "175d3325474e092a7a5dcd8304eaee4a005189ab60b93128f14197f40e27d90c",
-    "ingestedAt": "2026-06-17T10:03:50.977Z"
-  },
-  {
-    "id": "knowledge:bleeping-46079806e3",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices",
-    "summary": "A data leak designated FortiBleed has disclosed VPN credentials associated with approximately 74,000 Fortinet FortiGate firewall instances across global organizations. The exposed credentials potentially enable unauthorized access to corporate network perimeters. The scope and attribution of the leaked dataset remain under investigation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
-    "publishedAt": "2026-06-17T15:12:57.000Z",
-    "contentHash": "d0eaf9b6b69b89f3a07105cfe9004dcb01d1d167b5810fb27586ba137bcc5414",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:thehackernews-538b5a7de0",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-west",
-    "industries": [
-      "automotive"
-    ],
-    "title": "Attacker Established Persistent Access Using Tailscale and OpenSSH After C2 Infrastructure Failure",
-    "summary": "An attacker who compromised a French automotive company installed legitimate remote access tools (OpenSSH and Tailscale) on victim systems as a fallback persistence mechanism independent of their command-and-control infrastructure. The tactic allowed continued unauthorized access even after the attacker's primary C2 server went offline, demonstrating operational resilience through abuse of standard administration tools.",
-    "sourceUrl": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
-    "publishedAt": "2026-06-17T16:00:56.000Z",
-    "contentHash": "1a9f8b5dddd4bb092aab4e47076094503eee527e344bfa4d419e6685d62f4c00",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:darkreading-bcf776d584",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Credential-Harvesting Campaign Targets 30K+ Fortinet Devices Globally",
-    "summary": "Threat actors are conducting a large-scale credential-harvesting operation against Fortinet devices across approximately 200 countries, with attackers having obtained working credentials for over 30,000 compromised systems. The campaign affects multiple industry sectors, indicating a broad targeting strategy rather than vertical-specific focus.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices",
-    "publishedAt": "2026-06-17T14:06:34.000Z",
-    "contentHash": "040216de8f3102fa16d253c92d0dafa5e28ab5f851a70de3f700f707423bddb8",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:sans-isc-974240ca41",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Browser-based security tool limitations and detection gaps",
-    "summary": "A security researcher examines detection and blocking limitations in browser-based protection mechanisms, highlighting discrepancies between expected and actual coverage. The analysis suggests organizations may have gaps in their security tool implementations despite believing threats are being blocked.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33084",
-    "publishedAt": "2026-06-17T16:01:33.000Z",
-    "contentHash": "538b3a2f4250d44fb432a050baf7d69df9cfbbcf7c16f1303acc28c2a5dd7c81",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-8eb3ab1fe2",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "uk",
-    "industries": [
-      "critical infrastructure",
-      "energy",
-      "water",
-      "transport",
-      "communications"
-    ],
-    "title": "NCSC CEO: Hostile states attributed to majority of UK critical infrastructure cyber attacks",
-    "summary": "The UK's National Cyber Security Centre reports that state-sponsored actors are responsible for approximately three-quarters of cyber attacks targeting critical infrastructure systems. This assessment was presented at RUSI's annual security conference by NCSC leadership, underscoring the prevalence of nation-state threat activity against essential services.",
-    "sourceUrl": "https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks",
-    "publishedAt": "2026-06-17T12:00:00.000Z",
-    "contentHash": "e806ce542eb43a9975c9fcda351101a243174cd744aaf74d0a6eff314970a7c7",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:bleeping-468752dd08",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Account Takeovers Rising: Defense Strategies Through Device Trust and Continuous Verification",
-    "summary": "Account takeover incidents are increasing as adversaries circumvent conventional security controls via phishing, session hijacking, and multi-factor authentication fatigue attacks. Specops Software outlines mitigation approaches centered on device trust verification and continuous authentication mechanisms to lower organizational exposure to credential compromise.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
-    "publishedAt": "2026-06-17T14:00:10.000Z",
-    "contentHash": "6a909bcdf1e1158ac4f6092a41a7888addeb1d7e134793dd69dd26845a20c384",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:thehackernews-c66e201a15",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
-    "summary": "Security teams face a validation challenge where the volume of findings exceeds their ability to prioritize effectively, shifting the focus from visibility to determining which risks genuinely require remediation. The core issue is distinguishing actionable threats from noise while managing incomplete information and operational constraints.",
-    "sourceUrl": "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
-    "publishedAt": "2026-06-17T11:58:00.000Z",
-    "contentHash": "b68ca5179fcceee4369182266a0870978fa35d508dc1f6e6060246d57cfd8858",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:bleeping-661022f4ef",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "telecommunications"
-    ],
-    "title": "India's Telegram ban extends to UAE through BGP disruption",
-    "summary": "India imposed a temporary ban on Telegram through June 22 following circulation of leaked examination materials via the platform. Telegram's CEO attributed the disruption to BGP hijacking by telecom provider Reliance, which affected service availability beyond India into the UAE. The incident highlights how routing-layer attacks can create unintended geographic service disruptions.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
-    "publishedAt": "2026-06-17T13:12:45.000Z",
-    "contentHash": "a09d25ad86baf758e1c9237b89bebd89a4159f33e5eaf8cf978e4040bc694a7f",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:thehackernews-8b42903fcc",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Top 10 Attack Surface Exposures in 2026",
-    "summary": "Analysis identifies common entry points for breaches beyond zero-days, including weak authentication on exposed interfaces and credential reuse from prior incidents. Recent vulnerabilities such as memory-disclosure flaws demonstrate how internet-facing systems face immediate risk when exploitable conditions emerge, emphasizing the importance of baseline hygiene controls.",
-    "sourceUrl": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
-    "publishedAt": "2026-06-17T10:30:00.000Z",
-    "contentHash": "cb628925230043468302af4356ed0e625103f26eb5a837aaad6e85eb35855f7a",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:bleeping-9239b85dd3",
-    "tier": "event",
-    "category": "news",
-    "title": "Microsoft Investigating Office Launch Issues Following June Updates",
-    "summary": "Microsoft is addressing a reported problem where third-party applications cannot successfully launch Microsoft Office applications or open Office documents on recently updated Windows systems. The issue affects users running the latest patches distributed in June.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
-    "publishedAt": "2026-06-17T11:54:21.000Z",
-    "contentHash": "1c5cbbe684cd0c69a2e34ad3b94e50f8db251bd7a5ae5dd1bcf29f0aa5e06c7a",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
-    "id": "knowledge:bleeping-3ad8c13d51",
-    "tier": "event",
-    "category": "regulation",
-    "region": "us",
-    "title": "CISA mandates federal patching for critical Joomla plugin vulnerability",
-    "summary": "CISA has issued a directive requiring U.S. federal agencies to remediate a maximum-severity vulnerability in the Widget Factory Joomla Content Editor plugin by Friday, citing active exploitation. The flaw poses significant risk to government systems relying on the affected Joomla extension.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
-    "publishedAt": "2026-06-17T10:09:24.000Z",
-    "contentHash": "e2164fea053383da727e8a036d4037786d1404f4f77d253f60c42417ef361023",
-    "ingestedAt": "2026-06-17T17:11:21.419Z"
-  },
-  {
     "id": "knowledge:manual-2a922f79cded",
     "tier": "foundational",
     "category": "analyst",
@@ -5300,5 +4942,228 @@
     "publishedAt": "2026-07-16T12:50:13.000Z",
     "contentHash": "b5afdbfb721421562eadc499b8a56d90eb67ed0d340dc562f77b217a8565b269",
     "ingestedAt": "2026-07-17T07:28:57.597Z"
+  },
+  {
+    "id": "knowledge:bleeping-84a8a0cf06",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "healthcare",
+      "diagnostics"
+    ],
+    "title": "Abbott Laboratories investigating dual cybersecurity incidents",
+    "summary": "Abbott Laboratories is investigating unauthorized access to legacy systems within its Cancer Diagnostics division (Exact Sciences) and a separate breach affecting its LabCentral portal. The company is assessing the scope of both incidents amid claims that threat actors obtained company data.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
+    "publishedAt": "2026-07-17T20:45:52.000Z",
+    "contentHash": "4ad0a2777d9ce0e51fce639455aa6f00c3e5daa567542ddbef7c332f6a80cf91",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1f8fa8831f",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "web hosting",
+      "saas"
+    ],
+    "title": "WordPress Core Vulnerability Enables Unauthenticated Code Execution",
+    "summary": "A flaw in WordPress core versions 6.9 and 7.0 allows unauthenticated attackers to execute arbitrary code through HTTP requests, affecting even default installations without plugins. The vulnerability, tracked with CVE identifiers, has a public proof-of-concept and involves a persistent object cache condition that extends the attack surface.",
+    "sourceUrl": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+    "publishedAt": "2026-07-17T21:20:10.000Z",
+    "contentHash": "6c4382780f184690006162da924c6c85cee8e9dd8451dca48b7f9182d35c3a52",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:darkreading-61fdf19a9d",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
+    "summary": "Two previously unknown vulnerabilities in SonicWall Secure Mobile Access (SMA) appliances have been chained by Inc ransomware operators to achieve root-level access. The vulnerability chain enables attackers to compromise the integrity of mobile access infrastructure and potentially establish persistence within target environments.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
+    "publishedAt": "2026-07-17T20:01:13.000Z",
+    "contentHash": "86562b1a4c2d283b717be3c03015fafd5545574530c37682e20d31f49caeaf06",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:bleeping-eb18b5e1d7",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "HollowByte DDoS Vulnerability in OpenSSL",
+    "summary": "A vulnerability tracked as HollowByte enables unauthenticated attackers to exhaust memory on OpenSSL servers through minimal network payloads, resulting in denial-of-service conditions. The attack requires only 11 bytes of malicious data, making it an efficient vector for service disruption.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
+    "publishedAt": "2026-07-17T17:56:21.000Z",
+    "contentHash": "90d49f27d271e4798b36e9c426bb35ff63144724129079f7407cd6036683a520",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:thehackernews-d32c627961",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "OpenSSL HollowByte Flaw Enables Memory Exhaustion via Minimal TLS Requests",
+    "summary": "A vulnerability in OpenSSL allows attackers to allocate up to 131 KB of memory per malformed 11-byte TLS request, potentially exhausting server resources. The flaw was silently patched in June without CVE assignment or public advisory. Okta's security team discovered and disclosed the denial-of-service issue, affecting glibc-based systems until process restart.",
+    "sourceUrl": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+    "publishedAt": "2026-07-17T20:20:53.000Z",
+    "contentHash": "2f8c5faa08376bd04d71b2577503b47c2931cf65cf0273ab2d47cf4305267497",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:darkreading-0a8de0a06c",
+    "tier": "event",
+    "category": "strategy",
+    "title": "AI Model Autonomy Creates Cybersecurity Oversight Gaps",
+    "summary": "When AI systems are granted both interpretive and execution authority without human checkpoints, organizations lose visibility into decision-making processes that directly impact security controls. This architectural pattern—distinct from AI-assisted tools with human oversight—introduces risk vectors where malicious inputs or model drift could bypass traditional defensive layers.",
+    "sourceUrl": "https://www.darkreading.com/application-security/real-ai-threat-blind-trust",
+    "publishedAt": "2026-07-17T16:43:13.000Z",
+    "contentHash": "3e3c0bbe54988de8c3bef6ab8c4ce414b29cc13e212a2e73ca61081aef896ea7",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:cisa-7a9d7bfcd5",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "title": "AutomationDirect Productivity Suite Multiple Memory Corruption Vulnerabilities",
+    "summary": "CISA disclosed six vulnerabilities in AutomationDirect Productivity Suite versions up to v4.6.2.2, involving out-of-bounds read/write and divide-by-zero conditions requiring local or physical access. These flaws could enable privilege escalation, information disclosure, or denial of service in critical manufacturing environments. The vendor recommends updating to v4.7.0.47 or above, with network isolation and access controls recommended as interim mitigations.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
+    "publishedAt": "2026-07-16T12:00:00.000Z",
+    "contentHash": "b89f195c89c47a6561ed66904a6eebbb032e540765abdaa8521e53496fe68002",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:bleeping-ac32bb8bda",
+    "tier": "event",
+    "category": "news",
+    "region": "global",
+    "title": "Ernst & Young discloses data breach from compromised support system",
+    "summary": "EY has disclosed a data breach stemming from unauthorized access to a third-party support ticket system utilized by its IT operations. The compromise affected customer data accessible through the platform, prompting customer notifications.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+    "publishedAt": "2026-07-17T14:55:28.000Z",
+    "contentHash": "7ef51d1f5957249a93919baa51322393fedc424106c7da448c9f4c424cf01910",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0c63b34da7",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "software development",
+      "devops"
+    ],
+    "title": "Seven Malicious Vite npm Packages Discovered Using Blockchain-Based Command-and-Control",
+    "summary": "Researchers identified seven malicious npm packages targeting the Vite frontend build tool ecosystem, part of a supply chain attack campaign leveraging blockchain-based command-and-control infrastructure across multiple blockchain networks. The attack represents an expansion of ChainVeil, demonstrating adversaries' use of decentralized infrastructure to evade traditional network detection and mitigation.",
+    "sourceUrl": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+    "publishedAt": "2026-07-17T18:54:51.000Z",
+    "contentHash": "90ab4cfcc94b8c33d06373f2308f499c68a65f401cd8cc1272570f6f3b03d713",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:darkreading-1e88af5203",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "title": "Gold Eagle Clearinghouse Aims to Coordinate AI Vulnerability Response",
+    "summary": "The White House established the Gold Eagle initiative to coordinate vulnerability response efforts within an AI-driven threat landscape. Implementation details and operational mechanisms remain unclear as the program moves forward.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
+    "publishedAt": "2026-07-17T13:00:00.000Z",
+    "contentHash": "a1fa154448db3a5157546d23f8141a2590b54b1ad8aa9d6cc250e915bb4eeab5",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:cisa-5199c1336d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "information technology"
+    ],
+    "title": "Rockwell Automation Flex 5000 Adapter Denial-of-Service Vulnerability",
+    "summary": "CISA disclosed a double-free vulnerability (CVE-2026-12659, CVSS 7.5) in Rockwell Automation Flex 5000 Adapter version 6.011 that allows remote attackers to trigger denial-of-service conditions through crafted CIP packets, requiring device power cycling to recover. The vendor has released version 6.012 as a remediation, and CISA recommends standard industrial control system hardening practices including network segmentation and firewall deployment.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
+    "publishedAt": "2026-07-16T12:00:00.000Z",
+    "contentHash": "6fe50da5a082e78ea5f6b9fde8978fee0a53aaf3d0c6c9bf31a5ff964d85d83a",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:bleeping-ac64978554",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Residential Proxies Lose Effectiveness Against Fraud Detection as Criminals Adapt",
+    "summary": "Cybercriminals are shifting tactics to seek residential proxies with minimal fraud history while layering additional obfuscation techniques such as browser fingerprinting and device profiling to circumvent detection systems. Traditional residential proxy approaches have diminished in effectiveness against modern fraud prevention mechanisms, prompting threat actors to develop more sophisticated evasion strategies.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
+    "publishedAt": "2026-07-17T14:00:10.000Z",
+    "contentHash": "70e57b98ab68e6abd1a1ecc2ed90e5c426e2c8e4033e7de58fb0c27dec0d5410",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:thehackernews-88543f9177",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "cloud-services",
+      "artificial-intelligence",
+      "software-development"
+    ],
+    "title": "NadMesh Botnet Targets Exposed AI Services for Cloud Credentials",
+    "summary": "A Go-based botnet designated NadMesh has been actively scanning for exposed AI infrastructure including ComfyUI, Ollama, and n8n instances since early July, harvesting AWS keys and Kubernetes tokens from inadequately secured deployments. The operator's dashboard indicates possession of over 3,800 unique AWS credentials, suggesting widespread compromise of AI services that are commonly deployed with minimal network isolation.",
+    "sourceUrl": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+    "publishedAt": "2026-07-17T17:12:23.000Z",
+    "contentHash": "7ea2619ff22e8529b689ef96f15f44b8f9f20ed30fdc65a474eb68e28f86ea35",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:darkreading-480149e930",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Google Cloud Integrates Wiz Capabilities into Agentic Defense Platform",
+    "summary": "Google Cloud has incorporated Wiz security features into an autonomous defense platform designed to automate threat detection and response workflows. The platform targets AI-driven attack scenarios, aiming to match the pace and sophistication of emerging threats through automated remediation capabilities.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers",
+    "publishedAt": "2026-07-17T11:50:25.000Z",
+    "contentHash": "ba9726cd0642f1a4f0cb320e2c6566839bf29218e17b2680e111a1f4cdb4d0b3",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:bleeping-3ad33dd2b5",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Windows LegacyHive Zero-Day Enables Privilege Escalation",
+    "summary": "A researcher has disclosed a Windows zero-day vulnerability named LegacyHive that permits privilege escalation to administrator level on current Windows systems. The exploit was publicly released by the researcher operating under the handle Nightmare Eclipse.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
+    "publishedAt": "2026-07-17T11:05:30.000Z",
+    "contentHash": "ba8982f80d3ab9780456b09e285e02303f38b38ca88beac75625fbf158a61556",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:thehackernews-96d9ebe2a9",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "certificate authorities",
+      "software development"
+    ],
+    "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+    "summary": "Researchers have attributed the April 2026 DigiCert incident to CylindricalCanine, identified as a sub-group of GoldenEyeDog, a Chinese threat actor previously focused on gambling and gaming sectors. The breach resulted in theft of code-signing certificates, enabling potential supply-chain attack vectors. Technical analysis was provided by Expel.",
+    "sourceUrl": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+    "publishedAt": "2026-07-17T16:39:16.000Z",
+    "contentHash": "ba81939e57f08fa35d063906af24b50f4e9b32f8262fe1e514a0d293b3d330bd",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:bleeping-7e8632d64b",
+    "tier": "event",
+    "category": "news",
+    "title": "Windows Server 2022 Transitioning to Extended Support in October 2026",
+    "summary": "Microsoft has announced that Windows Server 2022 will conclude mainstream support in October 2026, approximately 90 days from the announcement. The operating system will transition to extended support status, during which security updates will remain available for an additional five years through October 2031.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
+    "publishedAt": "2026-07-17T09:10:15.000Z",
+    "contentHash": "f55917c454ba2784de1a1750b79eb8ae3ec55e703931c7273059d33299e88a63",
+    "ingestedAt": "2026-07-18T07:08:26.940Z"
   }
 ]
