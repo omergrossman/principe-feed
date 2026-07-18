@@ -1,15 +1,5 @@
 [
   {
-    "id": "pdf-export-now-matches-the-full-decision-card",
-    "date": "2026-07-06",
-    "tag": "feature",
-    "channel": "both",
-    "title": "PDF export now matches the full decision card",
-    "summary": "Exported reports now include ranked top-3 objections, the 'what the panel almost missed' blind spot, and the Contested flag — closing the gap between the in-app view and the PDF.",
-    "body": "Until now the PDF showed only a single legacy objection, while the app displayed the richer objections-led layout introduced in the Leg-2 update. The export has been brought to parity: it now renders all three ranked objections, the adversarial review's blind-spot finding, and the Contested minority flag. Single-asterisk emphasis (`*like this*`) also renders as bold in the PDF, so the report prose looks as intended.",
-    "why": "Drafted from a recent product change."
-  },
-  {
     "id": "native-windows-installer-apple-silicon-support",
     "date": "2026-07-06",
     "tag": "feature",
