@@ -1,5 +1,14 @@
 [
   {
+    "id": "pdf-exports-now-match-the-full-decision-card-ran",
+    "date": "2026-07-08",
+    "tag": "feature",
+    "channel": "both",
+    "title": "PDF exports now match the full decision card — ranked objections, blind spot, and Contested flag",
+    "summary": "The exported PDF now includes everything the in-app decision card shows, including the top-3 objections and the adversarial review pass.",
+    "body": "Until now the PDF export showed only a single legacy objection while the app surfaced ranked top-3 objections, the \"What the panel almost missed\" blind spot, and the Contested minority-stronger flag. All three now render in the export. Single-asterisk emphasis (`*like this*`) also prints correctly in the PDF — it previously appeared as literal asterisks."
+  },
+  {
     "id": "pr-ncipe-v1-0-1-security-patch-calibration-refre",
     "date": "2026-06-23",
     "tag": "release",
