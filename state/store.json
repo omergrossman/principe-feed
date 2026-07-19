@@ -106,107 +106,6 @@
     "ingestedAt": "2026-06-17T17:45:10.928Z"
   },
   {
-    "id": "knowledge:bleeping-f44667b2ac",
-    "tier": "event",
-    "category": "product-release",
-    "title": "OpenAI Testing ChatGPT Subscription Tier for Science Applications",
-    "summary": "OpenAI is conducting internal trials of a specialized ChatGPT subscription product designed for scientific research and workflows. The scope of eventual availability and access criteria remain undefined at this stage.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/",
-    "publishedAt": "2026-06-18T01:30:08.000Z",
-    "contentHash": "8ae1092f5146d92f6b6d0d36a2f2f4c4161ae2a7a4ede85ac86c158de58d37a2",
-    "ingestedAt": "2026-06-18T09:45:43.557Z"
-  },
-  {
-    "id": "knowledge:thehackernews-f8eb106079",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "cryptocurrency",
-      "financial services"
-    ],
-    "title": "Crypto Clipper Campaign Uses Multi-Platform Distribution With Fake Reviews and AI Content",
-    "summary": "A threat actor is distributing cryptocurrency clipboard replacement malware through coordinated campaigns spanning legitimate news site advertisements, dedicated phishing infrastructure, and open-source repositories. The operation employs fake user reviews, AI-generated narration, and fraudulent social media accounts to create perceived legitimacy across YouTube, GitHub, and SourceForge.",
-    "sourceUrl": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
-    "publishedAt": "2026-06-17T18:14:24.000Z",
-    "contentHash": "f91b25c835f6f4308a6e910d9d92427885b5d887b35c0804859ab1066910f3ec",
-    "ingestedAt": "2026-06-18T09:45:43.557Z"
-  },
-  {
-    "id": "knowledge:darkreading-1e2f84f737",
-    "tier": "event",
-    "category": "strategy",
-    "region": "eu-west",
-    "industries": [
-      "telecommunications"
-    ],
-    "title": "EU Initiates 6G Network Security Framework with AI and Digital Twin Technologies",
-    "summary": "The EU-backed Shield-6G project aims to establish security mechanisms for next-generation 6G networks by integrating artificial intelligence-driven threat detection, digital twin simulations, and honeypot systems. The initiative seeks to address anticipated security challenges in 6G infrastructure before widespread deployment.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/eu-6g-network-security",
-    "publishedAt": "2026-06-18T07:00:00.000Z",
-    "contentHash": "94fb9e4515bc13b3e05ac327b02e8d237bed9f8d6c6d899f3da689d576591f3a",
-    "ingestedAt": "2026-06-18T09:45:43.557Z"
-  },
-  {
-    "id": "knowledge:sans-isc-e917bf8294",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ISC Stormcast For Thursday, June 18th, 2026",
-    "summary": "SANS Internet Storm Center publishes daily podcast briefings covering current cybersecurity threats, vulnerabilities, and defensive practices. The episode provides analysis of recent security incidents and emerging attack vectors relevant to security practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33088",
-    "publishedAt": "2026-06-18T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-06-18T09:45:43.557Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-63327485de",
-    "tier": "event",
-    "category": "strategy",
-    "region": "uk",
-    "title": "NCSC-UK Guidance on Risk-Calibrated Oversight for AI-Assisted Code Development",
-    "summary": "NCSC-UK provides guidance on implementing differentiated security oversight for AI-assisted software development, recommending that organisations calibrate their approach based on code risk levels rather than applying uniform controls. The framework suggests matching oversight intensity to the criticality and sensitivity of different code components.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development",
-    "publishedAt": "2026-06-18T12:00:00.000Z",
-    "contentHash": "49f5e638a74960f375941613007f465188851a55e3895f9249ff44793288a2bc",
-    "ingestedAt": "2026-06-18T09:45:43.557Z"
-  },
-  {
-    "id": "knowledge:bleeping-619a4e07fb",
-    "tier": "event",
-    "category": "strategy",
-    "region": "eu-west",
-    "title": "Google to Enable IP-Based Ad Personalization in UK and EU Markets",
-    "summary": "Google announced it will leverage IP addresses from UK, EEA, and Swiss users for ad measurement and personalization starting August 2026. The shift occurs as regulators reassess consent frameworks and reverses Google's prior position that IP-based device identification raised privacy concerns.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
-    "publishedAt": "2026-06-17T21:02:42.000Z",
-    "contentHash": "4a10d9336723a053bf076b68afea1ee6baa924b8cdcd0e89abca5a7a8b66eada",
-    "ingestedAt": "2026-06-18T09:45:43.557Z"
-  },
-  {
-    "id": "knowledge:darkreading-4e6b07fe22",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "healthcare"
-    ],
-    "title": "INC Ransomware Group Demonstrates Effectiveness Through Targeting High-Pressure Sectors",
-    "summary": "INC ransomware operators have achieved sustained success by concentrating attacks on industries where operational disruption carries acute financial consequences, particularly healthcare. The group's approach emphasizes fundamental attack methodologies rather than technical sophistication, exploiting sector-specific vulnerabilities to maximize ransom payment likelihood.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-thrives-by-mastering-the-basics",
-    "publishedAt": "2026-06-17T19:46:25.000Z",
-    "contentHash": "df409e097672023e9a8e6c66f49a92594d58e09a27fd953a2eac0eb2fe76e52e",
-    "ingestedAt": "2026-06-18T09:45:43.557Z"
-  },
-  {
-    "id": "knowledge:sans-isc-98e2f7443d",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Coordinated SSH Brute Force Attack Patterns Observed Over Three-Month Period",
-    "summary": "Analysis of SSH brute force activity over a recent three-month window reveals patterns consistent with coordinated attack campaigns. The research documents behavioral characteristics and temporal trends in these distributed authentication attacks against exposed SSH services.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33086",
-    "publishedAt": "2026-06-18T01:49:29.000Z",
-    "contentHash": "539c6d75a85d68c711b4f470c2e05dea6a1b55028693d7d181ba541e51c37ee9",
-    "ingestedAt": "2026-06-18T09:45:43.557Z"
-  },
-  {
     "id": "knowledge:bleeping-e357e12ae5",
     "tier": "event",
     "category": "threat-intel",
@@ -5165,5 +5064,145 @@
     "publishedAt": "2026-07-17T09:10:15.000Z",
     "contentHash": "f55917c454ba2784de1a1750b79eb8ae3ec55e703931c7273059d33299e88a63",
     "ingestedAt": "2026-07-18T07:08:26.940Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7dc9878f07",
+    "tier": "event",
+    "category": "attack",
+    "title": "North Korean Threat Actors Deploy Steganographic Malware via Fake Coding Interviews",
+    "summary": "Threat actors associated with the Contagious Interview campaign have leveraged fake job postings and coding challenges to distribute malware concealed within SVG image files using steganography. Execution of these projects delivers a multi-stage payload aligned with OtterCookie, capable of harvesting browser credentials, cryptocurrency wallets, and files from compromised systems.",
+    "sourceUrl": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+    "publishedAt": "2026-07-17T13:48:56.000Z",
+    "contentHash": "88099bc0b19c553f5b658a424cea7bdc1cb2a722d9e7225023fc8a7db1afa69e",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:bleeping-b5637df4b1",
+    "tier": "event",
+    "category": "attack",
+    "title": "Public Exploits Released for WordPress Core RCE Vulnerabilities",
+    "summary": "Critical remote code execution flaws designated as \"wp2shell\" in WordPress Core now have publicly available exploits. Site administrators should prioritize applying patches to mitigate exploitation risk.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+    "publishedAt": "2026-07-18T17:22:47.000Z",
+    "contentHash": "e789ead8a16ace613ce202b1e02e0a4b31ab8545741b2385e004b3da50e4dc38",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:thehackernews-24fc27ab80",
+    "tier": "event",
+    "category": "regulation",
+    "region": "eu-west",
+    "title": "EU Mandates Google Grant Competing AI Assistants Equal Hardware Access on Android",
+    "summary": "The European Commission has ordered Google to provide rival AI assistants with equivalent access to Android device hardware features—including camera, microphone, screen content, wake-word activation, and background app control—that Gemini currently enjoys. Implementation is required in Android 18 by August 1, 2027.",
+    "sourceUrl": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+    "publishedAt": "2026-07-17T11:44:41.000Z",
+    "contentHash": "2f70c79eb5fe716bb855d64dfc1d207c4b9733661517ec6dfd6c47170e5d9a2c",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:bleeping-3198a5fdb2",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Microsoft alerts to increased ACR Stealer campaigns targeting enterprise users",
+    "summary": "Microsoft has detected a rise in attacks leveraging ACR Stealer malware against its enterprise customer base. The malware targets credentials stored in browsers, authentication tokens, and sensitive documents.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+    "publishedAt": "2026-07-18T14:17:19.000Z",
+    "contentHash": "9cf85e82441798cb5c027697b556537d87acf3e3dcc0508c2f33bd44f3cb0b39",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c4de648a10",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "industries": [
+      "defense",
+      "government"
+    ],
+    "title": "Military Autonomous Systems Deployment Accelerates Amid Infrastructure Security Concerns",
+    "summary": "Military organizations across the U.S., UK, and NATO are accelerating autonomous capability deployment through increased investment and streamlined acquisition processes. The rapid fielding of these systems raises questions about whether supporting information infrastructure can maintain adequate security and trustworthiness at the pace of commercial-speed development.",
+    "sourceUrl": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
+    "publishedAt": "2026-07-17T11:30:00.000Z",
+    "contentHash": "6e285648d6016338cbbf948584b179a6b14d36d7fccbec686719a03e5229efe2",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:bleeping-b012516806",
+    "tier": "event",
+    "category": "strategy",
+    "region": "global",
+    "title": "On-Device Age Verification Technology Emerges as Privacy-Preserving Compliance Solution",
+    "summary": "Age verification regulations are expanding globally, creating compliance pressures for organizations handling user identity checks. Incode presents an on-device age estimation approach that performs verification without transmitting or storing facial biometric data, addressing both regulatory requirements and privacy concerns.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
+    "publishedAt": "2026-07-18T13:15:24.000Z",
+    "contentHash": "d53d11f8560f34ea153fc7b249f68c24c5921dd76827c0848847952a5608d161",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:thehackernews-58eb82db51",
+    "tier": "event",
+    "category": "news",
+    "title": "Armenia Detains Russian Tourist on U.S. REvil Extradition Request; Defense Claims Mistaken Identity",
+    "summary": "Armenian authorities detained a Russian national named Aleksandr Ermakov at Yerevan airport on June 28 following a U.S. extradition warrant alleging involvement in REvil ransomware operations. The detainee's legal representatives contend the arrest stems from a case of mistaken identity, with border officials reportedly matching him against a photo from social media.",
+    "sourceUrl": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
+    "publishedAt": "2026-07-17T10:53:31.000Z",
+    "contentHash": "d14911263fc555c6c569b4deb2d48da5aece2ffea5697dc3c1b455c7d2a7cd16",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:bleeping-932d8c7a52",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "financial services",
+      "investment"
+    ],
+    "title": "US Prosecutors Charge Two Individuals in $43 Million Cyber Investment Fraud Laundering Scheme",
+    "summary": "U.S. authorities have charged two New York residents for participating in money laundering activities connected to a cyber investment fraud operation that stole $43 million. The case highlights the financial ecosystem supporting organized cybercriminal schemes targeting investment platforms.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+    "publishedAt": "2026-07-17T08:13:37.000Z",
+    "contentHash": "a50fdff8faa418a13c6613eea4c869f8b7432f46051e37fbe224bae98be555b7",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:thehackernews-d7cd26a86c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ACR Stealer Infostealer Exploits ClickFix Social Engineering to Exfiltrate Credentials and Enterprise Data",
+    "summary": "ACR Stealer, an infostealer active since 2024, leverages ClickFix social engineering tactics to trick users into executing commands via the Windows Run dialog, enabling theft of browser credentials, session tokens, and enterprise files from Microsoft 365, OneDrive, and SharePoint. Microsoft's Defender Experts team documented multiple delivery chains used in active campaigns targeting enterprise environments.",
+    "sourceUrl": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
+    "publishedAt": "2026-07-17T08:56:39.000Z",
+    "contentHash": "1b414c252198c4adc79ccabe30dd9162affdd8c9ff025fc2cea4663144707707",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:thehackernews-cf5dd33c64",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "industries": [
+      "government",
+      "diplomacy"
+    ],
+    "title": "GoSerpent Malware Targets Southeast Asian Government and Diplomatic Entities",
+    "summary": "Kaspersky researchers identified a previously unknown malware family called GoSerpent conducting espionage operations against government and diplomatic targets across Southeast Asia since late 2025. The campaign prioritizes persistent access and intelligence collection, with discovery occurring in February 2026.",
+    "sourceUrl": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
+    "publishedAt": "2026-07-17T08:46:45.000Z",
+    "contentHash": "b3856a7e26de91195949fa96413cbd187605230e4e5554c0e86cc65168dea927",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:manual-eb6edcbd95b1",
+    "tier": "foundational",
+    "category": "strategy",
+    "title": "Technology Waves and Security - Is This Time Really Different?",
+    "summary": "Security architecture has historically lagged during technology transformations, with the pattern repeating across mainframe-to-PC, Internet adoption, mobile, and cloud migrations. While early waves often lacked foundational security (TCP/IP protocols, early Windows), subsequent phases improved incrementally—mobile platforms benefited from Apple and Google's efforts, and cloud providers introduced encryption and partitioning by default with shared responsibility models. Security design patterns emerge only after initial market adoption and experimentation clarify how interconnected system components should be arranged; the DMZ pattern, for instance, crystallized after years of Internet infrastructure evolution, enabling proper placement of identity, access control, and filtering mechanisms. AI represents a more complex challenge, playing out simultaneously across consumer/business, edge/core, and software/business processes, requiring deterministic safeguards on non-deterministic technology. The author observes that security improvements typically come through standards development, ecosystem innovation, and sustained startup competition rather than preemptive design, and that this pattern is repeating with AI despite greater collective awareness.",
+    "sourceUrl": "https://www.philvenables.com/post/technology-waves-and-security-is-this-time-really-different",
+    "publishedAt": "2026-07-11T15:52:48.319Z",
+    "contentHash": "2ff8cef50c83af4ffeee1eefd87bb153a6c54c7adc44cfa55137408dcfc9a980",
+    "subjectKey": "manual-eb6edcbd95b1",
+    "reportDate": "2026-07-11T15:52:48.319Z",
+    "ingestedAt": "2026-07-19T07:35:41.335Z"
   }
 ]
