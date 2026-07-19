@@ -45,3 +45,4 @@ https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html
 https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion
 https://www.csoonline.com/article/3847510/rising-attack-exposure-threat-sophistication-spur-interest-in-detection-engineering.html
 https://www.philvenables.com/post/technology-waves-and-security-is-this-time-really-different
+https://claude.com/blog/ciso-guide-to-agentic-ai
