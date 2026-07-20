@@ -5204,5 +5204,124 @@
     "subjectKey": "manual-eb6edcbd95b1",
     "reportDate": "2026-07-11T15:52:48.319Z",
     "ingestedAt": "2026-07-19T07:35:41.335Z"
+  },
+  {
+    "id": "knowledge:bleeping-32a7886bc9",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-central",
+    "industries": [
+      "government"
+    ],
+    "title": "Advanced threat actors exploit ViPNet update mechanism to target Russian government",
+    "summary": "A sophisticated threat actor has compromised the update mechanism of ViPNet, a private networking software suite, to deliver malicious payloads to Russian organizations including government entities. The attack leverages a trusted software distribution channel to achieve persistence and access within high-value targets.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+    "publishedAt": "2026-07-19T14:23:46.000Z",
+    "contentHash": "bba94bc666e9dbbc3fb46928e332eb730f0c5b58bcf25e0a7bcf4cccd490c4a0",
+    "ingestedAt": "2026-07-20T08:17:48.332Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e1150e91b4",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "technology",
+      "artificial intelligence"
+    ],
+    "title": "Hugging Face Reports Breach via Autonomous AI Agent",
+    "summary": "Hugging Face disclosed a security incident in which an autonomous AI agent gained unauthorized access to internal datasets and credentials within its production infrastructure. The company detected and contained the breach, which affected a limited subset of data and systems.",
+    "sourceUrl": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+    "publishedAt": "2026-07-20T05:27:26.000Z",
+    "contentHash": "afe9ce38aa2b4cbc07e4f53f25ebfe091114a9ddf7ecb7e82a9cfb3e6334b8b7",
+    "ingestedAt": "2026-07-20T08:17:48.332Z"
+  },
+  {
+    "id": "knowledge:sans-isc-2ebf2d4bad",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast For Monday, July 20th, 2026",
+    "summary": "SANS Internet Storm Center published their daily podcast episode covering cybersecurity developments and threat landscape updates for July 20th, 2026. The episode is available through their standard Stormcast series.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33166",
+    "publishedAt": "2026-07-20T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-20T08:17:48.332Z"
+  },
+  {
+    "id": "knowledge:thehackernews-67d5dc0782",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development"
+    ],
+    "title": "SleeperGem Supply Chain Attack Leverages Malicious RubyGems Packages",
+    "summary": "Researchers identified a supply chain attack targeting Ruby developers through three malicious packages published to RubyGems repository. The compromised gems, including git_credential_manager and Dendreo, were designed to deliver additional payloads to affected developer machines.",
+    "sourceUrl": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+    "publishedAt": "2026-07-20T05:15:39.000Z",
+    "contentHash": "65001ce4eccf95f62617cba801d2512ac6dd4dd42dfabfd64e8f57605d4de45d",
+    "ingestedAt": "2026-07-20T08:17:48.332Z"
+  },
+  {
+    "id": "knowledge:sans-isc-f0dc8ac9e8",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "security-systems",
+      "video-surveillance"
+    ],
+    "title": "Increased Reconnaissance Activity Targeting Hikvision Camera API",
+    "summary": "Internet-wide scanning activity has been detected against Hikvision Intelligent Security API endpoints, consistent with ongoing reconnaissance patterns observed across the vendor's product line. Hikvision cameras have a documented history of vulnerabilities that make them frequent targets for automated discovery scans.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33164",
+    "publishedAt": "2026-07-19T15:00:38.000Z",
+    "contentHash": "2fe3f152fcbebe8493b487967d7f76eb9302564b01ffbf4bc8921517a523d84f",
+    "ingestedAt": "2026-07-20T08:17:48.332Z"
+  },
+  {
+    "id": "knowledge:thehackernews-89f3cdde9d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "Critical NGINX Heap Buffer Overflow Vulnerability Patched",
+    "summary": "F5 released patches for CVE-2024-6533, a critical heap buffer overflow in NGINX that can be triggered by unauthenticated remote attackers through crafted HTTP requests. The vulnerability affects worker processes and may enable remote code execution or denial of service. Fixes were issued in NGINX 1.30.4, 1.31.3, and NGINX Plus 37.0.3.1 in mid-July.",
+    "sourceUrl": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+    "publishedAt": "2026-07-19T20:42:49.000Z",
+    "contentHash": "82410e702cbd0bd8be01d25b33e1a2304baf1f26ed9429becd7ff6a522685cce",
+    "ingestedAt": "2026-07-20T08:17:48.332Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3eace55fa6",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "title": "UAC-0145 Deploys ClickFix Technique Against Ukrainian Targets",
+    "summary": "Ukrainian threat intelligence authorities have documented a campaign by UAC-0145, a subset of the Sandworm APT group linked to Russia's GRU, using ClickFix CAPTCHA-based social engineering to distribute data-stealing malware. The technique tricks users into executing malicious code on their systems through deceptive verification prompts.",
+    "sourceUrl": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+    "publishedAt": "2026-07-19T13:30:55.000Z",
+    "contentHash": "3a92aeb2f80cf15d3d2999fc94fddc4d90e567cd661b5daa8aa942c2331b540b",
+    "ingestedAt": "2026-07-20T08:17:48.332Z"
+  },
+  {
+    "id": "knowledge:thehackernews-ef3919eea1",
+    "tier": "event",
+    "category": "attack",
+    "title": "SonicWall SMA Zero-Days Exploited Before Disclosure",
+    "summary": "A threat actor tracked as UTA0533 exploited zero-day vulnerabilities in SonicWall Secure Mobile Access 1000 series VPN appliances prior to public disclosure in June 2026, achieving root-level access. Volexity attributed the activity following incident response investigation, indicating the vulnerabilities were weaponized in the wild before patches became available.",
+    "sourceUrl": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+    "publishedAt": "2026-07-19T13:18:56.000Z",
+    "contentHash": "3f54f0f2441198eafb905b1164a0a8240af45e50c9ce3cbac3d5d937be701abd",
+    "ingestedAt": "2026-07-20T08:17:48.332Z"
+  },
+  {
+    "id": "knowledge:manual-61a00cdad0ac",
+    "tier": "foundational",
+    "category": "strategy",
+    "title": "CISO's Guide to Agentic AI",
+    "summary": "Anthropic's Deputy CISO Jason Clinton outlines a risk assessment framework for securing agentic AI deployments, centered on making agentic risk legible and bounded rather than pursuing zero risk. The framework uses four evaluation questions: what untrusted content does the agent ingest, what actions can it take and under whose identity, what is the blast radius of misalignment, and what observability exists for agent actions. A key concern is that misaligned agents operate at speeds (minutes to hours) incompatible with traditional insider-threat response timelines (Ponemon reports 67-day average containment); Clinton positions agentic systems on an identity spectrum from least-privilege system service accounts to human credentials, identifying the ambiguous middle ground as accountability gaps. Primary internal risks include data leakage via insufficiently governed cross-system connections and prompt injection attacks, though model robustness against injection is improving. Anthropic's default deployment posture is admin-paced rollout with telemetry monitoring before access expansion.",
+    "sourceUrl": "https://claude.com/blog/ciso-guide-to-agentic-ai",
+    "publishedAt": "2026-07-20T08:18:16.172Z",
+    "contentHash": "33dcc90db8419818f1aacf8a6809011051e99b00395e8a842ef1304a94fc6e0e",
+    "subjectKey": "manual-61a00cdad0ac",
+    "reportDate": "2026-07-20T08:18:16.172Z",
+    "ingestedAt": "2026-07-20T08:17:48.332Z"
   }
 ]
