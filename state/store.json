@@ -106,197 +106,6 @@
     "ingestedAt": "2026-06-17T17:45:10.928Z"
   },
   {
-    "id": "knowledge:bleeping-9eeb02abbd",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Patches AutoGen Studio Code Execution Vulnerability",
-    "summary": "Microsoft has addressed a vulnerability chain called AutoJack in AutoGen Studio that could allow attackers to manipulate AI agents into executing arbitrary commands through a malicious webpage. The flaw affected the interface used for prototyping AI agents and has been remediated.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
-    "publishedAt": "2026-06-22T17:28:57.000Z",
-    "contentHash": "388f43a04642502b6c9dc25f01bcc7a02419046307fe2f93b6e045e9aa77ff54",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:thehackernews-a5471bf11d",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "DifyTap Vulnerabilities Disclosed in Dify Open-Source AI Platform",
-    "summary": "Researchers identified four vulnerabilities in Dify, an open-source AI workflow platform, that could enable cross-tenant access to AI conversations without authentication. The flaws, collectively named DifyTap, affect a widely-used platform with significant open-source adoption and could expose customer interactions across separate application instances.",
-    "sourceUrl": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
-    "publishedAt": "2026-06-22T16:13:28.000Z",
-    "contentHash": "d00b93b01871d3fa9ceca95eecadc694d88b43b74e593ef20000666ea110c917",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:darkreading-e82375f838",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "financial-services",
-      "cryptocurrency"
-    ],
-    "title": "Crypto Heist Leverages Multi-Platform Reputation Manipulation",
-    "summary": "Threat actors are exploiting legitimate platforms including GitHub, YouTube, and VirusTotal to artificially establish credibility and distribute a cross-platform clipboard hijacker targeting cryptocurrency assets. The campaign demonstrates how attackers coordinate across multiple trust vectors to overcome user skepticism and increase malware distribution effectiveness.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign",
-    "publishedAt": "2026-06-22T16:10:10.000Z",
-    "contentHash": "30f682a5b3b82fb1196fd8a86f71a228fddd229407cec4ce587b1c09bd2e2567",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:sans-isc-11f650a142",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Webshells Continue as Persistent Attack Vector",
-    "summary": "Security researchers observe ongoing deployment of webshells as a favored post-exploitation tool, with recent activity indicating fresh variants appearing on public repositories. The continued prevalence reflects their utility for maintaining persistent access and executing commands on compromised systems.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33096",
-    "publishedAt": "2026-06-22T14:10:27.000Z",
-    "contentHash": "72ab56e8ce2f5527a1c4df9e979d242e5fdb59a45cf68b540ea9e0453c7ba7d9",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-ff9e92e5e3",
-    "tier": "event",
-    "category": "strategy",
-    "region": "uk",
-    "title": "The AI shift in cyber risk: why leaders must act now",
-    "summary": "The UK National Cyber Security Centre has highlighted how artificial intelligence is reshaping the cyber risk landscape, requiring leadership attention to emerging threats and defensive capabilities. The guidance addresses how organisations should adapt their security strategies in response to AI-driven attack vectors and opportunities.",
-    "sourceUrl": "https://www.ncsc.gov.uk/news/the-ai-shift-in-cyber-risk-why-leaders-must-act-now",
-    "publishedAt": "2026-06-22T12:00:00.000Z",
-    "contentHash": "ff998f907a9d5e8f20bd7e5e90edff8d46f0ee8825159db64034e28d4568df22",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:bleeping-e2d4ec6252",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Underground Market Enables Targeted Credential Searches",
-    "summary": "A specialised underground market has emerged where attackers can pay to search stolen credential databases for specific organizations, domains, and accounts rather than manually processing large dumps. This service-based model reduces friction in credential theft operations by outsourcing the targeting and discovery process.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
-    "publishedAt": "2026-06-22T14:05:15.000Z",
-    "contentHash": "62b71001d850bf188a1f5fa6d1911e4e0b216f438001f9f0317960e34e891280",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:thehackernews-41444a2175",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Squidbleed: 29-Year-Old Squid Proxy Vulnerability Enables HTTP Request Leakage",
-    "summary": "A heap over-read vulnerability in Squid web proxy, originating from 1997 FTP-parsing logic, allows authenticated proxy users to leak cleartext HTTP requests from other users, potentially exposing credentials and session tokens. The flaw persists in default Squid configurations and was disclosed by Calif.io researchers in June.",
-    "sourceUrl": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-    "publishedAt": "2026-06-22T14:29:46.000Z",
-    "contentHash": "1a5bd15f574863a53b46f857ceff2e4fb6d9de847edfdca57ec9b9302be8a58e",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:darkreading-cd0fec560c",
-    "tier": "event",
-    "category": "attack",
-    "title": "Salesforce Data Thefts Continue via Klue App Compromise",
-    "summary": "Klue's Battlecards application has been compromised in what represents the third incident involving integrated Salesforce apps used to exfiltrate customer data. The breach affected multiple organizations including cybersecurity vendor Huntress, demonstrating an emerging pattern of attackers targeting third-party integrations to access sensitive Salesforce environments.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise",
-    "publishedAt": "2026-06-18T16:49:04.000Z",
-    "contentHash": "59231848ebbaeb515ad63ab9790c18b7cf3f89934065d121d8d2e6cb19a3c3dc",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:sans-isc-5b1956bb5e",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ISC Stormcast Daily Briefing - June 22, 2026",
-    "summary": "SANS Internet Storm Center published its daily cybersecurity briefing covering current threat landscape developments and security intelligence. The podcast format provides analysis of emerging security incidents and vulnerabilities affecting the threat environment.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33092",
-    "publishedAt": "2026-06-22T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:cisa-b230769980",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing"
-    ],
-    "title": "Rockwell Automation FactoryTalk Historian Site Edition Vulnerabilities",
-    "summary": "CISA disclosed three vulnerabilities in Rockwell Automation FactoryTalk Historian Site Edition affecting version 11 and earlier. These issues enable authentication bypass through repeated login requests, denial-of-service conditions via uncaught exceptions, and potential data loss in snapshot caches. Rockwell Automation provides patches and recommends network segmentation, service monitoring, and access controls for affected deployments.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03",
-    "publishedAt": "2026-06-18T12:00:00.000Z",
-    "contentHash": "fb6ba267286cadf5cce27bab22499b2ae037854e403bc307a9c3573197fadfcc",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:bleeping-5e1e15ce38",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "AryStinger botnet compromises thousands of D-Link routers globally",
-    "summary": "A previously undocumented botnet named AryStinger has infected over 4,000 D-Link routers, primarily targeting older models. The compromised devices are being repurposed as proxies for routing malicious traffic. This campaign demonstrates continued vulnerability exploitation in legacy networking hardware.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
-    "publishedAt": "2026-06-21T14:14:22.000Z",
-    "contentHash": "657c925d9fa288511e017bfbced79f8dfd001146f2d41fc8b207a15d271053f1",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:thehackernews-dd93fd5ed3",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "OXLOADER Malware Loader Distributes CastleStealer via Malicious Google Ads",
-    "summary": "Researchers at Elastic Security Labs identified a new campaign using a previously unknown loader called OXLOADER to deliver CastleStealer malware. The distribution mechanism exploits malicious Google Ads to initiate infection, with attribution indicators suggesting Russian-speaking threat actors motivated by financial gain.",
-    "sourceUrl": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
-    "publishedAt": "2026-06-22T13:20:12.000Z",
-    "contentHash": "0aa20fb05ebe1c3f373c4bdea48dbc8f419e78d1dc1edbeea57d4d15e22253b2",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:darkreading-47993111b2",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Addressing Security Debt Through Exposure Management",
-    "summary": "Security teams can reduce technical debt by focusing on two core questions: identifying which vulnerabilities are externally exposed and establishing acceptable remediation timelines. This exposure-centric approach prioritizes risk based on actual attack surface rather than vulnerability inventory size.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/security-debt-tackle-exposure-problem",
-    "publishedAt": "2026-06-18T13:00:00.000Z",
-    "contentHash": "0d959365ced7c4d7743de432598305bb76417d9120b0dced8230df9ea9b5a823",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:sans-isc-5f9cf08aed",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-west",
-    "industries": [
-      "financial services"
-    ],
-    "title": "eBanking Phishing Campaign Using IPv4-Mapped IPv6 Addresses",
-    "summary": "A phishing campaign targeting a major Belgian financial institution was observed using IPv4-mapped IPv6 addresses to deliver malicious content. This obfuscation technique may allow threat actors to evade traditional network filtering rules that focus on IPv4-based detection patterns.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33090",
-    "publishedAt": "2026-06-19T08:37:34.000Z",
-    "contentHash": "046dfb746ff472493dfc67d9382bd12f31ef901c6c5d83a474ca81ebe7b72dd0",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:bleeping-7997b5e0e1",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "AI Agents as Unmanaged Identities Create Enterprise Governance Gap",
-    "summary": "AI agents increasingly function as autonomous identities within enterprise environments, accessing data and executing critical workflows, yet most organizations lack adequate oversight mechanisms. Security researchers highlight that treating AI agents as managed identities—similar to user and service account governance—is essential to mitigate unauthorized system interactions and access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-    "publishedAt": "2026-06-19T13:10:19.000Z",
-    "contentHash": "474f1681e206fe80255acaabac8a18d449d5a52ef49eb796b595849f2984b5d1",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
-    "id": "knowledge:thehackernews-10f4ea6b08",
-    "tier": "event",
-    "category": "regulation",
-    "region": "apac",
-    "title": "Google Enforces Android Developer Verification in Four Countries Starting September 2026",
-    "summary": "Google will require Android developers to complete identity verification starting September 30, 2026, in Brazil, Indonesia, Singapore, and Thailand. Unverified apps will be blocked from installation on certified Android devices in these regions. Major device manufacturers have committed to implementing this requirement from launch.",
-    "sourceUrl": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
-    "publishedAt": "2026-06-22T12:45:08.000Z",
-    "contentHash": "c8e131e0302e31a177945e815daf756501b87d76916af918646e53a076114254",
-    "ingestedAt": "2026-06-22T17:29:44.025Z"
-  },
-  {
     "id": "knowledge:bleeping-e7f16325e0",
     "tier": "event",
     "category": "attack",
@@ -5317,5 +5126,217 @@
     "publishedAt": "2026-07-21T13:00:00.000Z",
     "contentHash": "302edd4240b03ace05a6a36da3b5147fa982110c8a09b98162121569265f9698",
     "ingestedAt": "2026-07-22T07:42:30.918Z"
+  },
+  {
+    "id": "knowledge:bleeping-4d491fd7a7",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "fintech",
+      "consumer finance"
+    ],
+    "title": "Upbound Group reports $13M in fraudulent Acima leases following data breach",
+    "summary": "Upbound Group disclosed that unauthorized actors who accessed its systems used stolen data to originate approximately $13 million in fraudulent leases through its Acima lease-to-own platform. The company identified the unauthorized access and is working to remediate affected customer accounts and prevent further fraudulent activity.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
+    "publishedAt": "2026-07-22T21:43:39.000Z",
+    "contentHash": "c500c300429367621b9bc5c2a2da0454e723a400d21fc28286e26da0b148450e",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:thehackernews-4263055e9b",
+    "tier": "event",
+    "category": "news",
+    "title": "GitHub Reduces Public Bug Bounty Rewards, Establishes Tiered Payout Structure",
+    "summary": "GitHub will implement significant reductions to its public bug bounty program effective July 27, 2026, cutting payouts by at least 50% across all severity levels, with critical vulnerabilities capped at $10,000 versus the previous $20,000-$30,000+ range. The platform is establishing a VIP invite-only tier offering $30,000 or higher for select researchers. Reports submitted before the effective date will maintain existing payout levels.",
+    "sourceUrl": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
+    "publishedAt": "2026-07-22T18:37:42.000Z",
+    "contentHash": "f218af49fc50dc12d86cd9eb2b46393249aa51387583d964e753c99b25a5546b",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:darkreading-595728cd86",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "eu-west",
+    "title": "Brazilian Banking Trojan Actively Spreading in Portugal",
+    "summary": "A banking trojan originating from Brazilian threat actors is actively circulating within Portugal, exploiting linguistic and cultural similarities between the two Portuguese-speaking nations. The shared language reduces friction for social engineering and credential harvesting campaigns targeting Portuguese businesses.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal",
+    "publishedAt": "2026-07-23T07:00:00.000Z",
+    "contentHash": "72c0e6ba3a78278af450e10bf253d6b7b59760259fa6fcf49f7ebbc52371e0c1",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:sans-isc-e757d83c31",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Daily Briefing - July 23rd, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The episode provides analysis of emerging security issues relevant to practitioners and security leaders.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33178",
+    "publishedAt": "2026-07-23T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-bc780d69ef",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC-UK Post-Quantum Cryptography Migration Workshop Report",
+    "summary": "The UK's National Cyber Security Centre convened stakeholders to discuss organisational readiness for post-quantum cryptography adoption. The workshop highlighted that successful PQC migration requires collaborative approaches across sectors, as individual organisations cannot manage the transition in isolation.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/post-quantum-cryptography-pqc-migration-workshop-report",
+    "publishedAt": "2026-07-22T12:00:00.000Z",
+    "contentHash": "025e2ced4d10dbb3be8117e7ac1d0cf39e5a293940829fdcc3e000423c6b5581",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:bleeping-9b6513ea67",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "government"
+    ],
+    "title": "South Korea discloses extended breach of National Diplomatic Academy education system",
+    "summary": "South Korea's National Diplomatic Academy experienced a ten-month unauthorized access to its online education platform, resulting in the compromise of personal data belonging to current and former Ministry of Foreign Affairs personnel and overseas diplomats. The breach exposed information tied to diplomatic staff operating internationally.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/",
+    "publishedAt": "2026-07-22T20:06:54.000Z",
+    "contentHash": "7b2152b0693a82bd7395a115e0c51077141d6100ce864d20d7465fee17dfbb16",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:darkreading-7a0b6551b6",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "food and beverage",
+      "logistics"
+    ],
+    "title": "Ransomware Attack Disrupts Japanese Frozen-Food Supply Chain",
+    "summary": "A ransomware attack on a Japanese food and logistics provider has interrupted frozen-food distribution to numerous commercial clients, including major quick-service restaurant operators. The incident highlights supply chain vulnerabilities in the food sector and the cascading operational impact when critical logistics infrastructure is compromised.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
+    "publishedAt": "2026-07-23T01:00:00.000Z",
+    "contentHash": "19f31c5bf689a3fbf41e2db52822f69aaabf91f61cf5972c8861c2da53cadaf4",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:sans-isc-d80104aebc",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Rondo Malware Activity Detected Against GeoServer Instances",
+    "summary": "Security researchers observed Rondo malware targeting GeoServer instances in production environments. The activity, while not representing a novel attack vector, appeared in monitoring logs and suggests ongoing exploitation of known GeoServer vulnerabilities by this malware variant.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33176",
+    "publishedAt": "2026-07-22T17:35:33.000Z",
+    "contentHash": "b49203732b69a90929b3686bb1dc9427e3c30f2fe07a1e95b985ad021b17e6ba",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:cisa-4e657bc854",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "industrial control systems"
+    ],
+    "title": "Rockwell Automation 1734 POINT I/O Denial-of-Service Vulnerability",
+    "summary": "A denial-of-service vulnerability (CVE-2026-10573, CVSS 7.5) affecting Rockwell Automation 1734 POINT I/O version 3.023 allows remote attackers to force the module into a faulted state through crafted CIP messages, requiring a restart to recover. Rockwell recommends migration to version 5034-OB8 or implementation of network segmentation and access controls for affected deployments in critical manufacturing environments.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09",
+    "publishedAt": "2026-07-21T12:00:00.000Z",
+    "contentHash": "099e8af5765909244ee5371bcd527f876516b41278960be26ea1937e60b23ba6",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:bleeping-8b2bec85de",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "transportation",
+      "manufacturing"
+    ],
+    "title": "Stadler Rail rejects $12.3M ransom demand following supplier platform breach",
+    "summary": "Swiss rail vehicle manufacturer Stadler Rail was targeted by the Everest ransomware group, which demanded $12.3 million after compromising a data exchange platform shared with a supplier. The company has declined to pay the ransom.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
+    "publishedAt": "2026-07-22T16:59:17.000Z",
+    "contentHash": "881de3efc44b82a7405f920b6bebbb3da4c71e85585d32829cc6b181188d05d0",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:darkreading-b6268eeeff",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Attackers Weaponizing AI Development Tools for Evasion",
+    "summary": "Emerging malware such as Sandworm_Mode demonstrates adversary techniques that abuse legitimate AI tools and development workflows to blend malicious activity with normal operations. This approach leverages the trust placed in standard AI toolchains to reduce detection visibility and complicate attribution.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain",
+    "publishedAt": "2026-07-22T21:29:01.000Z",
+    "contentHash": "646df7090ce6853d70c47f5e294dd65e0a44e703769cc313e1c9015d3fabf11f",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:sans-isc-335d2af40c",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "WordPress Core SQL Injection Vulnerability (CVE-2026-63030) Under Active Exploitation",
+    "summary": "A SQL injection vulnerability in WordPress Core, designated CVE-2026-63030 and dubbed \"wp2shell\" by Searchlight Cyber, enables unauthenticated remote code execution. Active exploitation began shortly after public disclosure. The vulnerability is notable for affecting the core platform rather than a third-party plugin.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33168",
+    "publishedAt": "2026-07-20T18:41:24.000Z",
+    "contentHash": "ea3a3dca3463e9f33ff121959fe741db6c0e7731449b1e53e136edc09abec1fa",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:cisa-8fc73f794d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "title": "Rockwell Automation 1718-AENTR/1719-AENTR Denial-of-Service Vulnerability",
+    "summary": "A denial-of-service vulnerability (CVE-2026-9140, CVSS 7.5) affects Rockwell Automation industrial I/O devices due to improper handling of UDP network storms, causing device overload and communication loss requiring power cycles to recover. Rockwell Automation has released version 3.012 as a fix; affected users unable to upgrade should implement network segmentation and access controls per vendor security guidance.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
+    "publishedAt": "2026-07-21T12:00:00.000Z",
+    "contentHash": "8b4fa78bfa8fc7d926241b8bd4112b44a484f73a50c3b726c1deef76469ed446",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:bleeping-6f74290201",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Enterprise GenAI and Ransomware Risk Mitigation",
+    "summary": "Enterprise generative AI systems can increase ransomware exposure when AI assistants or agents operate with overly broad permissions or compromised credentials. Acronis outlines how implementing identity controls, governance frameworks, and least-privilege access principles can reduce AI-enabled ransomware risk while enabling responsible AI deployment.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
+    "publishedAt": "2026-07-22T15:30:00.000Z",
+    "contentHash": "d7cb3e685fd0fc7b6f0678a348f969f2df590a10e02f3b17b8af0b74b7b4f630",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:thehackernews-eb3d859d30",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "devops"
+    ],
+    "title": "Windmill Open-Source Platform Exploited via Unauthenticated Path Traversal Vulnerability",
+    "summary": "A high-severity path traversal flaw (CVE-2026-29059, CVSS 7.5) in the open-source Windmill developer platform is being actively exploited in the wild. The vulnerability allows unauthenticated attackers to read arbitrary server files through improper input validation in the get_log_file API endpoint.",
+    "sourceUrl": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+    "publishedAt": "2026-07-22T12:36:36.000Z",
+    "contentHash": "45aea2929fd81726a76b4f779c73ff77c6a18386b1fd0d7f4e30a2f94dba8ce1",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
+  },
+  {
+    "id": "knowledge:darkreading-071bbd4a84",
+    "tier": "event",
+    "category": "attack",
+    "region": "mea",
+    "title": "Fake Bahrain Alert App Deploys Android Surveillance Malware",
+    "summary": "Attackers distributed a counterfeit emergency alert application that deployed multi-stage Android spyware through fraudulent Google Play distribution channels. The campaign exploited regional tensions and public concern about missile strikes to trick users into installing the malicious payload.",
+    "sourceUrl": "https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware",
+    "publishedAt": "2026-07-22T19:42:42.000Z",
+    "contentHash": "db07b539571282c56a4de5f4c33a14c61e27acdd981914575863f41f861ead0b",
+    "ingestedAt": "2026-07-23T07:44:19.741Z"
   }
 ]
