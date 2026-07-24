@@ -28,15 +28,5 @@
     "summary": "A fourth CISO disposition axis — organisational authority and program maturity — is now live in the panel.",
     "body": "Príncipe's synthetic CISOs now vary across four axes: risk posture, time horizon, regional grounding, and — new — mandate maturity (reactive bolt-on → embedded → strategic). The distribution (~40/38/22) was derived from the CISO-Assembly gap analysis and is calibration-neutral against the existing benchmark set. Questions about budget authority, program scope, and organisational influence will reflect this dimension more accurately.",
     "why": "Drafted from a recent product change."
-  },
-  {
-    "id": "invite-capability-removed-closes-token-takeover-",
-    "date": "2026-07-20",
-    "tag": "security",
-    "channel": "both",
-    "title": "Invite capability removed — closes token-takeover attack surface",
-    "summary": "Member invites have been removed from the self-hosted build, eliminating an invite-token account-takeover vulnerability.",
-    "body": "A security review identified that invite tokens could be exploited for account takeover on single-box installs where email-based OTP isn't available. Rather than ship a partial fix, the invite flow has been removed entirely. A properly designed invite system is on the roadmap. Existing workspaces and accounts are unaffected.",
-    "why": "Drafted from a recent product change."
   }
 ]
