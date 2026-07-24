@@ -10,16 +10,6 @@
     "why": "Drafted from a recent product change."
   },
   {
-    "id": "self-hosted-edition-now-enforces-the-30-ciso-10-",
-    "date": "2026-07-20",
-    "tag": "feature",
-    "channel": "both",
-    "title": "Self-hosted edition now enforces the 30-CISO / 10-industry caps in code",
-    "summary": "The free self-hosted build now enforces its panel-size and industry limits at runtime, not just in documentation.",
-    "body": "Previously the OSS build inherited the cloud tier's 30–200 CISO range and unlimited industries — the pricing-page promise was narrated but not enforced. The caps (max 30 CISOs, max 10 industries) are now applied in code for self-hosted instances. Cloud and licensed builds are unaffected.",
-    "why": "Drafted from a recent product change."
-  },
-  {
     "id": "new-mandate-axis-how-your-panel-s-cisos-are-orga",
     "date": "2026-07-20",
     "tag": "feature",
