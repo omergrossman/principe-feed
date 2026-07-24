@@ -1,15 +1,5 @@
 [
   {
-    "id": "windows-login-fixed-webauthn-now-works-on-all-pl",
-    "date": "2026-07-20",
-    "tag": "security",
-    "channel": "both",
-    "title": "Windows login fixed — WebAuthn now works on all platforms",
-    "summary": "Sign-in no longer fails on Windows when using a passkey or security key.",
-    "body": "A mismatch between the client's `userVerification: \"preferred\"` setting and the server's stricter verification requirement caused Windows logins to fail silently while macOS, iOS, and Android worked fine. The client now requests `required`, matching what the server enforces. If you or a colleague hit a blank login error on Windows, this is the fix.",
-    "why": "Drafted from a recent product change."
-  },
-  {
     "id": "new-mandate-axis-how-your-panel-s-cisos-are-orga",
     "date": "2026-07-20",
     "tag": "feature",
