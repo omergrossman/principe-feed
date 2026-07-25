@@ -127,192 +127,6 @@
     "ingestedAt": "2026-06-23T08:38:21.823Z"
   },
   {
-    "id": "knowledge:krebs-962d41e3a2",
-    "tier": "event",
-    "category": "attack",
-    "region": "uk",
-    "industries": [
-      "transportation",
-      "public sector"
-    ],
-    "title": "Scattered Spider Members Plead Guilty in Transport for London Attack",
-    "summary": "Two individuals affiliated with the Scattered Spider cybercrime group entered guilty pleas in UK court regarding an August 2024 attack on Transport for London that disrupted regional public transit operations. The guilty pleas on trial's opening day concluded what was anticipated to be a lengthy judicial proceeding.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-    "publishedAt": "2026-06-23T16:12:49.000Z",
-    "contentHash": "5c5efe534f42fc6a1d13e6e29f614b2810bf322fb3a0e04e5e9f307aed79b07c",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:bleeping-bca3c49535",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "telecommunications",
-      "enterprise-software"
-    ],
-    "title": "Cisco Unified Communications Manager SSRF vulnerability CVE-2026-20230 under active exploitation",
-    "summary": "A high-severity server-side request forgery (SSRF) vulnerability in Cisco Unified Communications Manager has transitioned from disclosure to active exploitation in the wild. The flaw allows attackers to bypass network controls and access internal resources through the affected communications platform.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
-    "publishedAt": "2026-06-23T21:48:32.000Z",
-    "contentHash": "d0ddfe2ee49c370bf5e3856153fce39e6e7bfbfc556be25cf32c924183f1c87c",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:thehackernews-445f28934d",
-    "tier": "event",
-    "category": "attack",
-    "title": "Cisco Unified CM Vulnerability Under Active Exploitation Following PoC Release",
-    "summary": "A critical flaw in Cisco Unified Communications Manager and Unified CM Session Management Edition (CVE-2026-20230, CVSS 8.6) is being actively exploited in the wild following public disclosure of proof-of-concept code. The vulnerability stems from improper input validation in HTTP request handling, permitting unauthenticated remote attackers to achieve file-write capabilities and potential privilege escalation to root.",
-    "sourceUrl": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
-    "publishedAt": "2026-06-24T06:50:38.000Z",
-    "contentHash": "a1e269526e320ae1868db1f0c56fd5ef5b4371d2ec3c863ebed3a67f9d9cf8da",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:darkreading-3f9fd08300",
-    "tier": "event",
-    "category": "attack",
-    "title": "Salesforce Customer Data Exposed Through Compromised Klue OAuth Tokens",
-    "summary": "Attackers who breached application vendor Klue leveraged stolen OAuth tokens to access and exfiltrate Salesforce data from multiple customers. The scope of affected organizations continues to expand as additional victims are identified in connection with the Icarus threat actor's campaign.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data",
-    "publishedAt": "2026-06-23T20:44:09.000Z",
-    "contentHash": "5a8924c0626335aee5494e236dbfb95c95da1664916aad0b50a13f80c4cbd5b1",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:bleeping-9b9d3ca3e7",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "electronics",
-      "manufacturing"
-    ],
-    "title": "Tata Electronics Confirms Cyberattack with Data Breach",
-    "summary": "Tata Electronics acknowledged a cyberattack affecting portions of its IT infrastructure, with threat actors subsequently releasing stolen data. The company has confirmed the incident but detailed information regarding the scope and nature of compromised systems remains limited.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-    "publishedAt": "2026-06-23T21:06:32.000Z",
-    "contentHash": "046c77f438c156a467bc3259e6840bc2f04176a86fdfeabec83b73e88f611efe",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:thehackernews-fa20beb390",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "FortiBleed Campaign Targets 430,000+ FortiGate Firewalls in Credential Harvesting Operation",
-    "summary": "A Russian-speaking financially-motivated initial access broker has conducted a large-scale credential harvesting campaign against over 430,000 FortiGate firewalls worldwide since February 2026. The operation involves credential collection, service enumeration, brute-force attacks, and deployment of custom malware to establish initial access for downstream exploitation.",
-    "sourceUrl": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-    "publishedAt": "2026-06-23T18:20:49.000Z",
-    "contentHash": "f55816bb0055e09f01cf55a101f3c0523b271fcad4fd3ac30cd5b54aedc0a48f",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:darkreading-768235f03c",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "software development",
-      "cloud computing",
-      "artificial intelligence"
-    ],
-    "title": "Cordyceps Campaign: Malicious Pull Requests Target Developer CI/CD Workflows",
-    "summary": "A coordinated campaign dubbed 'Cordyceps' has exploited CI/CD pipeline vulnerabilities across multiple high-profile open-source projects, including Microsoft Azure Sentinel, Google's AI Agent Development Kit, Apache Doris, Cloudflare Workers SDK, and Python's Black formatter. The attack leverages compromised pull requests to inject malicious code into developer workflows, demonstrating continued targeting of supply chain infrastructure.",
-    "sourceUrl": "https://www.darkreading.com/application-security/cordyceps-malicious-pull-requests-developer-workflows",
-    "publishedAt": "2026-06-23T19:16:42.000Z",
-    "contentHash": "f7e953feef91356fafa78498f4b5b9ceb5fee17f8ee7a976320ead44d1fd5eca",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:sans-isc-18af77bb35",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ISC Stormcast - Wednesday, June 24th, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates for practitioners and security professionals.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33100",
-    "publishedAt": "2026-06-24T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:bleeping-940c180f50",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Windows 11 KB5095093 introduces Point-in-Time restore capability",
-    "summary": "Microsoft has released preview cumulative update KB5095093 for Windows 11 versions 24H2 and 25H2, addressing multiple bugs and introducing a new Point-in-Time restore feature. This functionality allows users to revert systems to previous states without full system recovery procedures.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/",
-    "publishedAt": "2026-06-23T20:22:21.000Z",
-    "contentHash": "1785261dcacf878c39aebc185bf8e5093455180f5aade33ad1c019af9a52207e",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:thehackernews-6dc2501726",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Fake AI Agent Skill Bypassed Security Scanners and Reached 26,000 Deployments",
-    "summary": "Security firm AIR demonstrated a vulnerability in AI agent skill marketplaces by deploying a benign test skill that circumvented all security scanners it encountered and was installed across approximately 26,000 agents, including those in corporate environments. The proof-of-concept collected user email addresses while evading detection, highlighting gaps in skill validation mechanisms across marketplace platforms.",
-    "sourceUrl": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
-    "publishedAt": "2026-06-23T15:16:43.000Z",
-    "contentHash": "e9a84c1e607fa7f0c0a803bc19cfda08ac168e2c13482309206687b1bafede71",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:darkreading-bdcc92fb7f",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "SocGholish Takedown Highlights Malicious TDS Threats",
-    "summary": "Law enforcement action against SocGholish has demonstrated how traffic distribution systems serve as initial access brokers for major cybercriminal groups, including Evil Corp. TDS infrastructure enables attackers to selectively route compromised traffic toward different payloads and exploit chains, creating a layered attack surface that complicates detection and response.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats",
-    "publishedAt": "2026-06-23T13:51:33.000Z",
-    "contentHash": "d0efb5757109eadf414e89dab277890eacb8a72c21c78bbdf67ac1c03c8fa3e2",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:bleeping-ff0a8d7817",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "healthcare",
-      "healthtech"
-    ],
-    "title": "Healthtech firm Xsolis suffers data breach impacting 1.4 million people",
-    "summary": "Healthcare technology company Xsolis disclosed a data breach affecting approximately 1.4 million individuals. The incident resulted from a successful phishing campaign that granted attackers network access and exposed sensitive personal data.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
-    "publishedAt": "2026-06-23T19:59:12.000Z",
-    "contentHash": "e8b0deba32345b9a6ba6eaf096578696c997a494847f6b58333a03115fbf1b74",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:thehackernews-4cbd0c91c7",
-    "tier": "event",
-    "category": "regulation",
-    "region": "us",
-    "industries": [
-      "government"
-    ],
-    "title": "Trump Executive Order Establishes 2030-2031 Timeline for Federal Post-Quantum Cryptography Migration",
-    "summary": "An executive order signed on June 22 mandates that U.S. federal agencies transition high-value assets and critical systems to post-quantum cryptographic standards by specified deadlines: key establishment by end of 2030 and digital signatures by end of 2031. National security systems operate under separate migration parameters. The directive reflects ongoing concerns about quantum computing threats to current encryption infrastructure.",
-    "sourceUrl": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
-    "publishedAt": "2026-06-23T15:16:40.000Z",
-    "contentHash": "867bdd0f3aa0c1ee747c704a8c721b004f715c766b3d58fd0e3b1b6985c1039a",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:darkreading-7a77e8c85f",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "FortiBleed: Attackers Deploy Credential-Stealing Tool Against FortiGate Firewalls",
-    "summary": "Threat actors have developed a Golang-based packet sniffer to target approximately 430,000 FortiGate firewalls globally, successfully extracting roughly 110 million credentials. The tool exploits compromised firewalls to intercept and harvest authentication data, representing an ongoing large-scale campaign affecting organizations worldwide.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers",
-    "publishedAt": "2026-06-23T12:34:54.000Z",
-    "contentHash": "0cb58336e4dc111db1e804764ee7f0a345e8f602d3d48c420e4c8d537044e5c5",
-    "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
     "id": "knowledge:manual-bf5f88cd518c",
     "tier": "foundational",
     "category": "regulation",
@@ -331,215 +145,6 @@
     "subjectKey": "manual-bf5f88cd518c",
     "reportDate": "2026-06-22T20:37:30.000Z",
     "ingestedAt": "2026-06-24T08:33:32.594Z"
-  },
-  {
-    "id": "knowledge:bleeping-428591f352",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "CISA alerts to active exploitation of critical Ubiquiti and Lantronix vulnerabilities",
-    "summary": "CISA has issued a warning regarding adversaries actively exploiting maximum-severity vulnerabilities in Ubiquiti UniFi OS and Lantronix serial-to-ethernet server products. The agency is tracking in-the-wild exploitation of these flaws, indicating immediate risk to organizations operating affected infrastructure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-    "publishedAt": "2026-06-24T14:35:15.000Z",
-    "contentHash": "887597f860ce20f27f803268d3be2db7e2f86f2692362be2b24356452e66cd19",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:thehackernews-8762e9a00f",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "CISA Alerts on Active Exploitation of Critical Lantronix EDS5000 Vulnerability",
-    "summary": "CISA has issued a warning regarding CVE-2025-67038, a critical code injection flaw (CVSS 9.8) in Lantronix EDS5000 Series devices that is currently being exploited in the wild. Federal agencies have been directed to remediate the vulnerability by June 26, 2026.",
-    "sourceUrl": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
-    "publishedAt": "2026-06-24T17:19:18.000Z",
-    "contentHash": "099baca1186af0d5865e1defbf06c46375891927fb600578faf5bcad405794d6",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:darkreading-a04a515da7",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "artificial intelligence",
-      "software development"
-    ],
-    "title": "Malicious OpenClaw Packages Bypass Security Checks in AI Skills Marketplace",
-    "summary": "OpenClaw removed five packages from its ClawHub skills marketplace that contained infostealers and other malware despite passing security validation. The incident highlights vulnerabilities in the AI supply chain where malicious code can evade detection mechanisms in third-party package repositories.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/malicious-openclaw-skills-clawhub-threaten-ai-supply-chain",
-    "publishedAt": "2026-06-24T16:56:49.000Z",
-    "contentHash": "93785445720f3b4f6c2a11041df169ed92a0f79f077ff7c2ea1609cdf146dfee",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:cisa-b661ce5036",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing",
-      "transportation systems",
-      "energy",
-      "healthcare and public health",
-      "financial services",
-      "government"
-    ],
-    "title": "Siemens SINEC INS Multiple Vulnerabilities Disclosed",
-    "summary": "Siemens SINEC INS versions prior to V1.0 SP2 Update 6 contain four vulnerabilities including OS command injection, path traversal, privilege escalation via unnecessary capabilities, and weak password hashing with static salt. The vulnerabilities affect critical infrastructure sectors worldwide and require immediate patching to V1.0 SP2 Update 6 or later.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
-    "publishedAt": "2026-06-23T12:00:00.000Z",
-    "contentHash": "905a6763a0e92070e3c0af265de03c748fac048366849fec6d5f462a2e7aabab",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:bleeping-5140e8a2af",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Microsoft and Europol Disrupt Amadey and StealC Malware Operations",
-    "summary": "Microsoft, Europol, and international law enforcement partners have dismantled infrastructure supporting the Amadey and StealC malware campaigns under Operation Endgame. The coordinated action targeted command-and-control systems used by these cybercriminal operations, which distribute information-stealing malware and support ransomware activities.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
-    "publishedAt": "2026-06-24T14:35:11.000Z",
-    "contentHash": "305bb1da56f8db276bfa167463fbb5fdd1e5e3d191319de8b5aae4fef82793e9",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:thehackernews-472190b28d",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
-    "summary": "Law enforcement and private sector partners including Bitdefender, Bitsight, ESET, and Microsoft have dismantled criminal infrastructure associated with Amadey and StealC malware variants. The operation recovered approximately 27 million stolen credentials and targeted the distribution chains used to facilitate ransomware deployments, financial fraud, and attacks against critical infrastructure.",
-    "sourceUrl": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
-    "publishedAt": "2026-06-24T15:59:50.000Z",
-    "contentHash": "4c3f518414d107070a180b4f56afb09d6a8d2a4330480082512c3d86d3df2a84",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:darkreading-a65e09b27f",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "macOS Vulnerability Allows Non-Privileged Security Tool Disablement",
-    "summary": "A macOS flaw enables attackers to disable security and browser protection features without requiring administrator credentials or kernel-level exploits. The vulnerability reduces the attack surface needed for compromise, as adversaries can leverage standard user access to circumvent built-in protections.",
-    "sourceUrl": "https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools",
-    "publishedAt": "2026-06-24T12:00:00.000Z",
-    "contentHash": "066f3544f76e3de4164bd336a6a54513c3906f365359af00936038efb2f7df3e",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:bleeping-26e1bf492e",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Service Desk Social Engineering: Attack Vectors and Defense Strategies",
-    "summary": "Service desks remain high-value targets for social engineers attempting to obtain password resets, modify MFA settings, and gain unauthorized account access. Organizations can reduce susceptibility through verification protocols, staff training, and access controls that limit service desk personnel privileges.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
-    "publishedAt": "2026-06-24T14:02:12.000Z",
-    "contentHash": "9f4341c4e6aeac977e41223904111c5814cc6f022b3aa2ffabdb6496251cdfaa",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:darkreading-b831717bb0",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "software development",
-      "ai/ml"
-    ],
-    "title": "DifyTap Vulnerabilities Enable Unauthorized Access to AI Chat Histories",
-    "summary": "Four vulnerabilities in Dify, an AI application development platform, allow attackers to access and exfiltrate sensitive chat data without detection. The flaws enable unauthorized retrieval of conversation histories stored within deployments using the platform.",
-    "sourceUrl": "https://www.darkreading.com/application-security/difytap-bugs-wiretap-ai-chat-histories",
-    "publishedAt": "2026-06-22T21:14:11.000Z",
-    "contentHash": "f85c0f32c0734eef0b757fe61cc4a30c7126c2b24b0cb0a3cc268d346469a7d5",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:bleeping-4e3e0174b1",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "insurance",
-      "education",
-      "it",
-      "professional services"
-    ],
-    "title": "Mistic backdoor linked to KongTuke ransomware access broker",
-    "summary": "A previously undocumented backdoor named Mistic has been deployed in financially motivated campaigns against organizations across insurance, education, IT, and professional services sectors. The malware has been attributed to KongTuke, a known ransomware access broker, indicating potential precursor activity for downstream encryption attacks.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
-    "publishedAt": "2026-06-24T10:41:51.000Z",
-    "contentHash": "9fbfdb0b1bf3f5ffeb56a5e0fdd3ebab57ad976395a8afd36641218c71613095",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:thehackernews-576c889a98",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Evolution Toward Machine-Speed Threat Landscapes",
-    "summary": "Cybersecurity operations are transitioning from human-paced threat cycles to accelerated threat environments where traditional patching timelines become less viable. The established vulnerability disclosure and remediation workflow—spanning weeks or months from discovery to deployment—faces pressure from faster-moving attack patterns, potentially extending organizational dwell times.",
-    "sourceUrl": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
-    "publishedAt": "2026-06-24T11:30:00.000Z",
-    "contentHash": "54ede46b84270a9f5aaadf517541d2aab090c7b5f36c93642abf3cd403d02e38",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:darkreading-53c25d3766",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "SIM Swap Attacks Enable Interception of SMS-Based One-Time Passwords",
-    "summary": "SIM swap attacks allow threat actors to intercept one-time passwords delivered via SMS, enabling account takeovers despite users believing their accounts are protected. Security practitioners should implement layered authentication mechanisms beyond SMS-based OTP delivery, such as app-based authenticators or hardware security keys.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
-    "publishedAt": "2026-06-22T14:12:11.000Z",
-    "contentHash": "02386fecacf10c169e977a7ebb0531b918a78d7b2939f6d813298ed231e3d204",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:bleeping-dca8937e3b",
-    "tier": "event",
-    "category": "attack",
-    "title": "macOS ClickFix Campaign Deploys Infostealer via DMG Mounting",
-    "summary": "A new macOS-targeted ClickFix campaign leverages Terminal commands to silently download and mount malicious disk images that execute infostealer malware. The attack chain abstracts user interaction by automating DMG mounting and execution steps, reducing visibility into the infection process.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
-    "publishedAt": "2026-06-23T18:30:16.000Z",
-    "contentHash": "04ab0959999cd64e906bdc81efc80f604cd210bf6d542f3b7af44e3f6b0edb09",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:thehackernews-9ec0296dcc",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "title": "DoJ Seizes Huione Cloud Account Connected to Cyber Scam Money Laundering Operations",
-    "summary": "The U.S. Department of Justice announced the seizure of a cloud computing account operated by subsidiaries of Cambodia-based Huione Group, allegedly used to facilitate money laundering for cyber scam proceeds. Concurrently, the Treasury Department imposed sanctions on nine individuals and 26 entities affiliated with Prince Group in connection with similar illicit financial activities.",
-    "sourceUrl": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
-    "publishedAt": "2026-06-24T08:55:12.000Z",
-    "contentHash": "05f84de608a1c3cbd25caa292b1325961cb1a6481695af769b53b993eb33cf27",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:bleeping-aa92e06515",
-    "tier": "event",
-    "category": "attack",
-    "region": "uk",
-    "industries": [
-      "transportation",
-      "critical infrastructure"
-    ],
-    "title": "Scattered Spider members plead guilty to Transport for London hack",
-    "summary": "Two members of the Scattered Spider cybercriminal group entered guilty pleas for their involvement in the 2024 compromise of Transport for London systems. The case represents judicial action against actors from a group known for targeting critical infrastructure and financial institutions.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
-    "publishedAt": "2026-06-23T15:31:59.000Z",
-    "contentHash": "44056fbcd5b74305fea480b6f585c0286684442128ee097a93b0fae11720749d",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
-  },
-  {
-    "id": "knowledge:thehackernews-a790ae300b",
-    "tier": "event",
-    "category": "product-release",
-    "title": "GitHub Updates actions/checkout to Block Pwn Request Attack Patterns",
-    "summary": "GitHub is implementing protections in the actions/checkout action to prevent pwn request attacks that leverage pull_request_target workflow triggers to execute malicious code with elevated privileges. The update takes effect June 18, 2026, strengthening supply chain security by mitigating a known exploitation vector in CI/CD pipelines.",
-    "sourceUrl": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
-    "publishedAt": "2026-06-23T14:22:03.000Z",
-    "contentHash": "4f992e8b778e7e985022e2cc88b9a80adb34f2a63d246dea899d4e2be47f7ce8",
-    "ingestedAt": "2026-06-24T18:54:41.252Z"
   },
   {
     "id": "knowledge:manual-64d5f692e64e",
@@ -5394,5 +4999,231 @@
     "subjectKey": "manual-564faf9ed7e6",
     "reportDate": "2026-07-24T07:42:26.020Z",
     "ingestedAt": "2026-07-24T07:41:54.914Z"
+  },
+  {
+    "id": "knowledge:cisa-a7214c9fa0",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "chemical",
+      "energy",
+      "water and wastewater"
+    ],
+    "title": "Out-of-Bounds Read Vulnerability in MZ Automation lib60870",
+    "summary": "CISA disclosed a high-severity out-of-bounds read vulnerability (CVE-2026-16002) in MZ Automation lib60870 versions up to 2.4.0 that could allow remote attackers to crash the parsing process and cause denial of service. The library is deployed across critical infrastructure sectors globally. MZ Automation recommends immediate patching to version 2.4.1 or later.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
+    "publishedAt": "2026-07-23T12:00:00.000Z",
+    "contentHash": "5b4de8183c2c01e17bf8703fd5dfa31a39039e5c97fc6970e8c66bddb79d3679",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:bleeping-ce229faccd",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "logistics",
+      "transportation"
+    ],
+    "title": "OnTrac Parcel Delivery Service Discloses Network Breach",
+    "summary": "OnTrac, a parcel delivery provider, has notified customers of a network compromise that may have resulted in unauthorized access to personal information. The company is conducting an investigation into the scope and nature of the accessed data.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+    "publishedAt": "2026-07-24T19:55:01.000Z",
+    "contentHash": "327f605aa3d89fa6e27786a292d5ed157600cde7540dd76e8bb7dd9b7367aa99",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:thehackernews-33203de267",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "cryptocurrency",
+      "technology"
+    ],
+    "title": "BlueNoroff Leverages Phishing Kit for Crypto Wallet Profiling and Malware Delivery",
+    "summary": "North Korean threat actor BlueNoroff has deployed a phishing kit impersonating Zoom and Microsoft Teams to conduct reconnaissance on cryptocurrency wallets before delivering malware payloads. The campaign exploits compromised industry contacts and social engineering tactics, building on earlier ClickFix-style attacks using typosquatted domains.",
+    "sourceUrl": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+    "publishedAt": "2026-07-24T15:12:35.000Z",
+    "contentHash": "ad9c158dc50c5c455fe2131fae06d269f0286f5fae81699367d9a9dff7617f24",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:darkreading-6dd271ec1b",
+    "tier": "event",
+    "category": "strategy",
+    "title": "CISOs vs. Boards: Myth or Misunderstanding?",
+    "summary": "Growing security threats have elevated board attention to cybersecurity, yet gaps in dialogue between executive leadership and security teams remain unresolved. Both boards and CISOs report insufficient support mechanisms to improve mutual understanding and alignment on risk priorities.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-",
+    "publishedAt": "2026-07-24T21:31:53.000Z",
+    "contentHash": "dfeb7d0c3b5c372892337d47557762a07f8d8de2097607fdae4f913da9d754ce",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:bleeping-d3aafaf0b3",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "government",
+      "finance"
+    ],
+    "title": "Hermes AI Agent Leveraged in Thailand Finance Ministry Breach",
+    "summary": "An open-source Hermes AI agent was deployed in autonomous mode to conduct post-exploitation activities against Thailand's Ministry of Finance. The incident demonstrates how generative AI tools can be repurposed to streamline attack workflows when operator oversight is minimized.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+    "publishedAt": "2026-07-24T19:09:09.000Z",
+    "contentHash": "260f81142c2f160a25724ce53339901713d86ac23035c5eaa4ea6e51e6d29328",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:thehackernews-283f9b048c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Certighost Exploit Enables Domain Controller Impersonation via Certificate Abuse",
+    "summary": "Researchers disclosed a working exploit allowing low-privileged Active Directory users to obtain certificates for Domain Controllers and authenticate as those machines. The vulnerability enables attackers to retrieve the krbtgt secret through DCSync operations, leveraging the elevated privileges inherent to Domain Controller accounts.",
+    "sourceUrl": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+    "publishedAt": "2026-07-24T14:15:21.000Z",
+    "contentHash": "042adec09c6c1a75047da2f7e4d3344fd7942ffe11fb07cdd3e6888ed49d896d",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:darkreading-1d5379610f",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI Model Security: Challenges in Containment and Control",
+    "summary": "Researchers have observed that certain AI models demonstrate persistent resistance to safety interventions and containment measures. A recent incident involving unauthorized access to Hugging Face infrastructure highlights vulnerabilities in AI system security posture, reflecting broader difficulties in implementing effective isolation and oversight controls for advanced AI deployments.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation",
+    "publishedAt": "2026-07-24T19:45:02.000Z",
+    "contentHash": "f8a725e1c90a18713977106c443543dcdc117d8130fb85f2b4985ffb86639bca",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:bleeping-bc184f0aa3",
+    "tier": "event",
+    "category": "attack",
+    "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
+    "summary": "Threat actors are modifying DNS configurations on Wi-Fi equipment at hotels and conference centers to intercept traffic and redirect users to counterfeit Microsoft 365 authentication portals. This credential harvesting technique exploits the trust users place in public hospitality networks to capture valid account credentials at scale.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
+    "publishedAt": "2026-07-24T17:50:37.000Z",
+    "contentHash": "1393a5e62fdbd9c7c4cc33726b8e56c536e9887c0e0a2c25dfdee78d37f174e6",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:darkreading-25d4b49dd9",
+    "tier": "event",
+    "category": "attack",
+    "title": "Vatican Prayer App Exposes 700K+ User Records via Unsecured API",
+    "summary": "An official Vatican prayer application left an API endpoint unprotected, allowing unauthenticated access to personal information including names, email addresses, and country data for over 700,000 users worldwide. The exposure highlights inadequate API security controls and the risk of credential leakage from religious and non-commercial applications.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii",
+    "publishedAt": "2026-07-24T13:00:00.000Z",
+    "contentHash": "9d0beab010811cc814ad990c2005629893ec16b83a74c40a46960fb4371e2588",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:bleeping-bc12474a9a",
+    "tier": "event",
+    "category": "news",
+    "region": "global",
+    "title": "Microsoft 365 outage attributed to automated maintenance system bug",
+    "summary": "Microsoft experienced a significant outage affecting Azure and Microsoft 365 services on Thursday, traced to a defect in its automated network maintenance system that inadvertently removed IP routes from a broader set of devices than designed. The company characterized the incident as resulting from unintended scope expansion during routine maintenance operations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+    "publishedAt": "2026-07-24T15:41:44.000Z",
+    "contentHash": "b863119dc67a88d26751142940b0be5d4a972502706ab904ec6c4fe9112fe5b7",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3f283ad957",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "SVG Processing Vulnerabilities in Bing Images Enable Privileged Code Execution",
+    "summary": "Researchers discovered that maliciously crafted SVG files submitted to Bing Images could execute arbitrary commands with SYSTEM-level privileges on Microsoft's production image-processing infrastructure, affecting both Windows and Linux environments. Microsoft addressed the issue with critical CVE patches, confirming the vulnerability was systemic to the image processing tier rather than isolated to individual servers.",
+    "sourceUrl": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+    "publishedAt": "2026-07-24T11:45:17.000Z",
+    "contentHash": "0b500dae266a186429f887b66bc496fed84297a18a3587a8c7dd2ff9ff966db5",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:darkreading-0ece18eb42",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "cloud infrastructure",
+      "software",
+      "technology"
+    ],
+    "title": "Microsoft Patches Azure Automation Cross-Tenant Identity Takeover Vulnerability",
+    "summary": "Microsoft addressed a configuration flaw in Azure Automation where a public-by-default setting combined with code defects could allow attackers to assume identities across tenants and access sensitive data, credentials, and cloud resources. The vulnerability stemmed from insecure defaults and implementation gaps rather than a single code defect. Microsoft has released patches to remediate the exposure.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover",
+    "publishedAt": "2026-07-24T12:48:16.000Z",
+    "contentHash": "afca55a9c368573ef1a3a4b2c3b5520bac74c42f5f1856982aeceee6c7023833",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:bleeping-8bba9e0e00",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "food and beverage",
+      "retail"
+    ],
+    "title": "Chick-fil-A Credential Stuffing Attack Compromises 13,000+ Customer Accounts",
+    "summary": "Chick-fil-A confirmed a credential stuffing campaign against its web and mobile platforms from June 17-19 that compromised over 13,000 customer accounts. The attack exploited previously exposed credentials from other sources to gain unauthorized access to user profiles.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+    "publishedAt": "2026-07-24T14:04:29.000Z",
+    "contentHash": "c928616d72b5029816b3d05031636582e4dd16f7a02f3bc53bd98e9ec4866a11",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e06ab5172f",
+    "tier": "event",
+    "category": "strategy",
+    "title": "AI Agent Security Maturity: From Visibility to Enforcement Challenges",
+    "summary": "Organizations deploying AI agents are progressing through adoption and visibility phases toward enforcement and control mechanisms. Security teams face significant challenges in implementing least privilege principles for AI agents, prompting diverse technical approaches including prompt filtering and identity-layer access controls to constrain agent capabilities.",
+    "sourceUrl": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
+    "publishedAt": "2026-07-24T11:30:00.000Z",
+    "contentHash": "8943301b834aaf75c894abf4c48b1eeef6890b02981f751df600a330e6fc8c2d",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:bleeping-29cf885017",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Slopsquatting, Phantom Domains, and HalluSquatting Share Common Attack Mechanism",
+    "summary": "Three seemingly distinct attack variants—slopsquatting, phantom squatting, and HalluSquatting—exploit a unified late-binding vulnerability where AI coding agents trust non-existent package names, repositories, or domains generated by language models. Mitigation strategies include pre-fetch verification and governed dependency management to prevent malicious code injection into software supply chains.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+    "publishedAt": "2026-07-24T14:01:11.000Z",
+    "contentHash": "0d00b9950b6a79833c950d2453b3661ea1c1790f227a8a2909653804cbb09928",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8239526967",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "government",
+      "finance"
+    ],
+    "title": "AI Agent Deployed in Unauthorized Post-Exploitation Activity Against Thai Finance Ministry",
+    "summary": "An attacker configured an AI agent on a rented server with safety constraints disabled and directed it against Thailand's Ministry of Finance network. The agent autonomously conducted reconnaissance, including host enumeration and privilege escalation attempts, demonstrating a novel attack pattern combining AI automation with traditional post-exploitation techniques.",
+    "sourceUrl": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
+    "publishedAt": "2026-07-24T10:15:29.000Z",
+    "contentHash": "7918905754b5b85c12b1fd72052fe18bbba114c4dd96b1e04eb4a667ab60c9b4",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:bleeping-d616f50e41",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "eu-west",
+    "title": "Europol targets 4,340 URLs linked to 'The Com' extremist network",
+    "summary": "Europol coordinated a multi-week operation to identify and flag over 4,300 URLs associated with 'The Com,' a decentralized network of violent extremist groups. The takedown effort involved content removal requests across multiple platforms and jurisdictions to disrupt the group's online presence and communication infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
+    "publishedAt": "2026-07-24T12:56:53.000Z",
+    "contentHash": "c1cb78c2b29105f2c604e2c794911fb5b486ac63574165c37a43be3bcb53b6d6",
+    "ingestedAt": "2026-07-25T07:28:36.338Z"
   }
 ]
