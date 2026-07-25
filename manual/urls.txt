@@ -46,3 +46,4 @@ https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database
 https://www.csoonline.com/article/3847510/rising-attack-exposure-threat-sophistication-spur-interest-in-detection-engineering.html
 https://www.philvenables.com/post/technology-waves-and-security-is-this-time-really-different
 https://claude.com/blog/ciso-guide-to-agentic-ai
+https://www.philvenables.com/post/control-reliability-engineering-cre-applying-sre-principles-to-cybersecurity-controls
