@@ -160,115 +160,6 @@
     "ingestedAt": "2026-06-24T18:54:41.252Z"
   },
   {
-    "id": "knowledge:bleeping-d5f4a9487a",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Google Expands Privacy Controls for Search and Play Services",
-    "summary": "Google is introducing enhanced privacy controls for Search and Google Play that allow users to manage their activity history and personalization settings. The update provides granular options for controlling how user data is retained and used to generate recommendations.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/",
-    "publishedAt": "2026-06-24T23:46:17.000Z",
-    "contentHash": "2239bfaf3acf8d906e387fbe4c0ceef1d21c5383acc80cc944758801ff49b219",
-    "ingestedAt": "2026-06-25T08:31:39.508Z"
-  },
-  {
-    "id": "knowledge:darkreading-047251bcb3",
-    "tier": "event",
-    "category": "attack",
-    "title": "Cisco SD-WAN Vulnerability Exploited in the Wild Prior to Vendor Disclosure",
-    "summary": "Security researchers identified evidence that threat actors leveraged a Cisco SD-WAN vulnerability to establish unauthorized peering connections and obtain administrative and root-level access to affected devices, with exploitation occurring approximately two months before Cisco's public disclosure of the flaw.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-hit-cisco-sd-wan-flaw-2-months-before-disclosure",
-    "publishedAt": "2026-06-24T21:16:41.000Z",
-    "contentHash": "42f15116cf7e961d0707b48a18f9c8411d144e7c79bfdc7eee0ee1e7363426c9",
-    "ingestedAt": "2026-06-25T08:31:39.508Z"
-  },
-  {
-    "id": "knowledge:sans-isc-f0b764ab13",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Assessment of Automated Cybercrime and Port Reconnaissance Activity",
-    "summary": "A SANS ISC guest analysis examines how automated cybercrime operations conduct reconnaissance on network ports to identify vulnerable systems. The research documents patterns of unsolicited port scanning and probing behavior that characterize opportunistic attack infrastructure seeking exposed services.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33104",
-    "publishedAt": "2026-06-25T00:39:08.000Z",
-    "contentHash": "2b14e9d9a85587c86aae624dd3039af20fa75145b214ac2632f2d4b31fec9056",
-    "ingestedAt": "2026-06-25T08:31:39.508Z"
-  },
-  {
-    "id": "knowledge:bleeping-6a948f35af",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "industries": [
-      "gambling",
-      "sports betting"
-    ],
-    "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
-    "summary": "A 21-year-old identified as 'Snoopy' received an 18-month prison sentence for participating in the November 2022 DraftKings account compromise. The sentencing reflects judicial response to the unauthorized access incident affecting the sports betting platform.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
-    "publishedAt": "2026-06-24T21:55:43.000Z",
-    "contentHash": "89fbbd4d1ab7419e56e6b86ac503f7ebdc07edb0ea1115319932ddad9752ffc0",
-    "ingestedAt": "2026-06-25T08:31:39.508Z"
-  },
-  {
-    "id": "knowledge:thehackernews-0ddb654234",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
-    "summary": "A conceptual analysis examines how autonomous AI systems represent a departure from traditional weapons by potentially removing human decision-making from target selection and execution. The piece traces the historical evolution of weaponry to illustrate how AI agents may fundamentally alter the relationship between human intent and harmful outcomes.",
-    "sourceUrl": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
-    "publishedAt": "2026-06-23T11:30:00.000Z",
-    "contentHash": "5c854690d269dfd1dc84bcf841f0a29e303f1f0d175bc8f960fcb78c61c60c8f",
-    "ingestedAt": "2026-06-25T08:31:39.508Z"
-  },
-  {
-    "id": "knowledge:darkreading-1b96865a13",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "sports",
-      "infrastructure"
-    ],
-    "title": "2026 FIFA World Cup Infrastructure Faces Elevated Cybercrime Activity",
-    "summary": "Organizers of the 2026 FIFA World Cup across North America are contending with sustained cybercriminal activity, social engineering campaigns, and attacks targeting event infrastructure. The multi-country nature of the tournament spanning the US, Canada, and Mexico presents a complex security surface for threat actors to exploit.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats",
-    "publishedAt": "2026-06-24T20:29:08.000Z",
-    "contentHash": "bc31b2df3beffe031ac949e42b3de4c24653af1b2012aecb5aeb47deb4940e07",
-    "ingestedAt": "2026-06-25T08:31:39.508Z"
-  },
-  {
-    "id": "knowledge:bleeping-b4039c7adb",
-    "tier": "event",
-    "category": "attack",
-    "title": "Cisco SD-WAN Zero-Day Exploited for Root Access in Active Attacks",
-    "summary": "Mandiant disclosed technical details on CVE-2024-20245, a Cisco Catalyst SD-WAN vulnerability leveraged in zero-day attacks to establish unauthorized root-level access on affected devices. The flaw enabled attackers to create rogue administrative accounts, potentially providing persistent control over network infrastructure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
-    "publishedAt": "2026-06-24T21:29:10.000Z",
-    "contentHash": "67061b7b6dbea1fd306da7ef0bb00f5ff7a450aa56d1950cd3e378c7ee8fe840",
-    "ingestedAt": "2026-06-25T08:31:39.508Z"
-  },
-  {
-    "id": "knowledge:darkreading-7a2cee5fd5",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Do CISOs Need a Code of Ethics?",
-    "summary": "Industry expert Robert Hansen argues for establishing a formal code of ethics for CISOs to address conflicts of interest such as vendor kickbacks, fictitious positions, and conflicts with venture capital firms. Hansen contends that self-dealing practices among security leaders pose risks to enterprise and national security infrastructure.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/ciso-code-of-ethics",
-    "publishedAt": "2026-06-24T19:10:17.000Z",
-    "contentHash": "f034f480a27fcdc0a72b20b7366ab9ec301705dfd8ecbc1277e1f18969d9e9b4",
-    "ingestedAt": "2026-06-25T08:31:39.508Z"
-  },
-  {
-    "id": "knowledge:bleeping-9fda4c9218",
-    "tier": "event",
-    "category": "attack",
-    "title": "Malicious Edge Extension Exploits Native Messaging to Deploy Backdoor",
-    "summary": "A malicious Microsoft Edge extension named 'Edgecution' leverages the browser's native messaging feature to circumvent sandbox restrictions and install a Python-based backdoor. The technique demonstrates how browser extensions can serve as infection vectors by establishing communication channels between the browser and system processes.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
-    "publishedAt": "2026-06-24T20:58:22.000Z",
-    "contentHash": "e7893302787d0525eaee0a47e7d7fe484c8772c9dacd3424d272ee88bcc32736",
-    "ingestedAt": "2026-06-25T08:31:39.508Z"
-  },
-  {
     "id": "knowledge:bleeping-7413b3cdcf",
     "tier": "event",
     "category": "product-release",
@@ -5225,5 +5116,149 @@
     "publishedAt": "2026-07-24T12:56:53.000Z",
     "contentHash": "c1cb78c2b29105f2c604e2c794911fb5b486ac63574165c37a43be3bcb53b6d6",
     "ingestedAt": "2026-07-25T07:28:36.338Z"
+  },
+  {
+    "id": "knowledge:bleeping-a7df7ffa5e",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "gaming"
+    ],
+    "title": "Steam Forum ClickFix Attacks Distribute XMRig Cryptominers to Gamers",
+    "summary": "Threat actors are leveraging Steam discussion forums to distribute malware disguised as legitimate troubleshooting tools. The ClickFix attack vector delivers XMRig cryptominers to victims seeking solutions for gaming and system issues, exploiting the platform's trusted user community.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+    "publishedAt": "2026-07-25T22:37:47.000Z",
+    "contentHash": "dcfd9aad56f00eb237c389db946fa4cead4626bacbe08a660b705b0b716c72ef",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
+  },
+  {
+    "id": "knowledge:thehackernews-17ff6787fa",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "financial-services",
+      "cryptocurrency"
+    ],
+    "title": "SourTrade Malvertising Campaign Uses Browser-Based Assembly to Evade Detection",
+    "summary": "A malvertising operation called SourTrade has been distributing Windows malware since late 2024 by fragmenting executables and leveraging browsers to reassemble them, rather than serving complete payloads. The campaign impersonates legitimate trading platforms and uses the Bun runtime as a delivery mechanism, allowing it to bypass traditional file-based detection methods.",
+    "sourceUrl": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+    "publishedAt": "2026-07-25T18:48:44.000Z",
+    "contentHash": "64d4a667478a890fc61b7e489b82861444ec8e111adb596b0c9e501687237aba",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
+  },
+  {
+    "id": "knowledge:bleeping-207ba2c04d",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "financial-services",
+      "cryptocurrency"
+    ],
+    "title": "Malvertising Campaign Deploys In-Memory Malware Assembly via JavaScript",
+    "summary": "A large-scale malvertising operation uses counterfeit financial trading and cryptocurrency platforms to distribute malicious JavaScript code that constructs malware within browser memory, circumventing traditional file-based detection mechanisms. The campaign mimics legitimate services including Solana, Luno, and TradingView to compromise user systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
+    "publishedAt": "2026-07-25T15:21:09.000Z",
+    "contentHash": "cd318c6d73267aba0bdb2058d3743eeafd21e07ff1280a209aab8bcfb1280663",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8083b86f87",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "technology"
+    ],
+    "title": "Fastjson RCE Vulnerability Actively Exploited in Spring Boot Applications",
+    "summary": "Threat actors are actively exploiting CVE-2026-16723, a critical remote code execution flaw in Alibaba's Fastjson library affecting Spring Boot deployments. The vulnerability allows unauthenticated attackers to execute arbitrary code with Java process privileges via malicious JSON payloads. No patch is currently available, leaving affected systems exposed.",
+    "sourceUrl": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+    "publishedAt": "2026-07-25T12:52:43.000Z",
+    "contentHash": "50cb51c95242900d3a025d0a7154f6f1c648c5f296b0bfb2d9868c78af23b9ea",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
+  },
+  {
+    "id": "knowledge:bleeping-761b2a971c",
+    "tier": "event",
+    "category": "attack",
+    "title": "ShinyHunters breach data leveraged in sextortion campaign",
+    "summary": "Threat actors are weaponizing email addresses from data breaches attributed to the ShinyHunters extortion group to conduct sextortion email campaigns, demanding $2,000 in Bitcoin per target. The scam exploits the availability of exposed contact information from previous data leaks to establish false credibility with victims.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+    "publishedAt": "2026-07-25T14:16:26.000Z",
+    "contentHash": "58af9c85bb4c3d9d3698e1ab301a145c7fa42f95b081e0ac3b2eaa747ea7560f",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
+  },
+  {
+    "id": "knowledge:thehackernews-272cc44a5c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "GitLab RCE Exploit Published for Authenticated Attack Vector",
+    "summary": "Researchers released proof-of-concept code for a GitLab vulnerability patched in June, affecting self-managed instances on version 18.11.3 and earlier. Authenticated users with project push access can execute arbitrary commands as the git user by committing a specially crafted Jupyter notebook and viewing its diff.",
+    "sourceUrl": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+    "publishedAt": "2026-07-25T10:14:26.000Z",
+    "contentHash": "2d08eeb60274e7e351561660f3bbeadbd7f4bfe544e95864c4d4eee88aae3195",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
+  },
+  {
+    "id": "knowledge:bleeping-25ca120783",
+    "tier": "event",
+    "category": "news",
+    "region": "global",
+    "title": "OpenAI confirms ChatGPT experiencing global connectivity issues",
+    "summary": "ChatGPT experienced widespread connectivity disruptions affecting users globally. OpenAI acknowledged the outage, though specific causes and duration were not detailed in the confirmation.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
+    "publishedAt": "2026-07-25T09:31:09.000Z",
+    "contentHash": "bbb33e412bbeae47ba6af11b75359760c2a0831a6c1326a273094bc328be5f00",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
+  },
+  {
+    "id": "knowledge:thehackernews-bb8d98fdc3",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "financial services",
+      "insurance"
+    ],
+    "title": "Insurance Sector Phishing Evolves to Real-Time Account Hijacking",
+    "summary": "CTM360 research documents a shift in phishing tactics targeting financial institutions, moving from credential harvesting to immediate account takeover during active sessions. Attackers now compromise accounts synchronously rather than storing credentials for later exploitation, reducing detection windows and increasing operational effectiveness.",
+    "sourceUrl": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+    "publishedAt": "2026-07-25T10:14:21.000Z",
+    "contentHash": "ed2bcdabec8609fb901c6b805ccbc13d0829b56f01dd0d4c4ed1bcc4900e77a2",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
+  },
+  {
+    "id": "knowledge:bleeping-3154a4bd55",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Illinois resident sentenced to six years for mass Snapchat account compromise",
+    "summary": "A man was convicted and sentenced to 76 months in prison for unauthorized access to over 750 Snapchat accounts, with the objective of obtaining intimate imagery. The case involved coordinated account compromise and image theft targeting female users.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
+    "publishedAt": "2026-07-24T11:17:19.000Z",
+    "contentHash": "b480cb947af5beeb5b7b50bbaa4bc833b1811b86c170f2832e93e618b062a319",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
+  },
+  {
+    "id": "knowledge:thehackernews-6fdd8513ac",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "DevMan RaaS Portal Offers Centralized Payload Building and Affiliate Management",
+    "summary": "DevMan operators maintain a web-based platform enabling affiliates to generate malware payloads, track earnings, and manage victim-related operations. PRODAFT tracks the centrally administered ransomware-as-a-service scheme under the designation Funky Mantis, noting the portal integrates payload generation, financial tracking, and operational management functions.",
+    "sourceUrl": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+    "publishedAt": "2026-07-25T09:53:41.000Z",
+    "contentHash": "fa5ad2cd631c892197084612667bafba1bc0dd085e4a8cfd40a2bd4008019ab7",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
+  },
+  {
+    "id": "knowledge:manual-d82f2c273fdb",
+    "tier": "foundational",
+    "category": "strategy",
+    "title": "Control Reliability Engineering: Applying SRE Principles to Cybersecurity Controls",
+    "summary": "Control Reliability Engineering (CRE) adapts Site Reliability Engineering principles to address the operational decay and misconfiguration of security controls that underpin most breach incidents. Rather than treating controls as one-time deployments, CRE applies continuous monitoring, Service Level Indicators/Objectives (SLIs/SLOs), error budgets, and blameless post-mortems to ensure controls remain functional and measurable. The framework shifts security from reactive ticket-based responses to metric-driven health monitoring, standardizes control deployment through code and CI/CD pipelines, and introduces synthetic event injection to detect failed controls before attackers exploit them. Ten essential elements include control cataloging, controls-as-code versioning, continuous control monitoring, control readiness reviews (analogous to production readiness reviews), safe staged deployments, and formalized control incident management with root-cause analysis.",
+    "sourceUrl": "https://www.philvenables.com/post/control-reliability-engineering-cre-applying-sre-principles-to-cybersecurity-controls",
+    "publishedAt": "2026-07-25T05:52:21.439Z",
+    "contentHash": "fbf3a7265c3104a5fc72917197ff98e705605a255d91f577ef1b2414cddf0e52",
+    "subjectKey": "manual-d82f2c273fdb",
+    "reportDate": "2026-07-25T05:52:21.439Z",
+    "ingestedAt": "2026-07-26T07:45:37.764Z"
   }
 ]
