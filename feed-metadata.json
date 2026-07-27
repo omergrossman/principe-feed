@@ -60,172 +60,6 @@
     "category": "strategy",
     "publishedAt": "2026-06-24T18:55:26.082Z"
   },
-  "knowledge/bleeping-7413b3cdcf.md": {
-    "category": "product-release",
-    "publishedAt": "2026-06-25T22:53:32.000Z"
-  },
-  "knowledge/thehackernews-00c4789667.md": {
-    "region": "eu-west",
-    "industries": [
-      "government",
-      "military",
-      "defense"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-06-26T07:15:46.000Z"
-  },
-  "knowledge/darkreading-389a8b3d98.md": {
-    "industries": [
-      "telecommunications",
-      "it-services"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-06-25T21:54:34.000Z"
-  },
-  "knowledge/bleeping-84c87a4a4c.md": {
-    "region": "eu-central",
-    "industries": [
-      "telecommunications",
-      "cryptocurrency"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-06-25T22:37:42.000Z"
-  },
-  "knowledge/thehackernews-7670c7a304.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-06-25T14:12:52.000Z"
-  },
-  "knowledge/darkreading-07f6e05b04.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-06-25T21:12:01.000Z"
-  },
-  "knowledge/bleeping-8607abaa75.md": {
-    "industries": [
-      "retail",
-      "ecommerce"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-06-25T19:45:48.000Z"
-  },
-  "knowledge/thehackernews-3ea4be44ed.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-06-25T12:24:43.000Z"
-  },
-  "knowledge/darkreading-326c594c92.md": {
-    "region": "us",
-    "industries": [
-      "education",
-      "software"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-06-25T20:34:14.000Z"
-  },
-  "knowledge/bleeping-6c3a9a3ac3.md": {
-    "category": "product-release",
-    "publishedAt": "2026-06-25T18:29:20.000Z"
-  },
-  "knowledge/thehackernews-9641f0f414.md": {
-    "category": "strategy",
-    "publishedAt": "2026-06-25T11:17:31.000Z"
-  },
-  "knowledge/darkreading-9a658d4451.md": {
-    "region": "apac",
-    "category": "threat-intel",
-    "publishedAt": "2026-06-25T19:07:41.000Z"
-  },
-  "knowledge/bleeping-9666d4678f.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-06-25T16:23:19.000Z"
-  },
-  "knowledge/thehackernews-c96f9691fd.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-06-25T09:23:03.000Z"
-  },
-  "knowledge/darkreading-9ffec68b8d.md": {
-    "region": "eu-west",
-    "category": "threat-intel",
-    "publishedAt": "2026-06-25T10:00:00.000Z"
-  },
-  "knowledge/bleeping-890dfe9b44.md": {
-    "region": "us",
-    "category": "threat-intel",
-    "publishedAt": "2026-06-26T22:06:17.000Z"
-  },
-  "knowledge/thehackernews-b65ad53703.md": {
-    "region": "us",
-    "category": "threat-intel",
-    "publishedAt": "2026-06-26T19:38:29.000Z"
-  },
-  "knowledge/darkreading-cf1397eeb4.md": {
-    "category": "analyst",
-    "publishedAt": "2026-06-26T19:11:02.000Z"
-  },
-  "knowledge/cisa-a97d2099b0.md": {
-    "region": "us",
-    "industries": [
-      "healthcare"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-06-25T12:00:00.000Z"
-  },
-  "knowledge/thehackernews-106115782a.md": {
-    "region": "apac",
-    "industries": [
-      "government"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-06-26T18:17:46.000Z"
-  },
-  "knowledge/darkreading-602a4aee23.md": {
-    "category": "product-release",
-    "publishedAt": "2026-06-26T17:31:04.000Z"
-  },
-  "knowledge/bleeping-b2c74908a5.md": {
-    "region": "us",
-    "industries": [
-      "cryptocurrency",
-      "fintech"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-06-26T18:04:12.000Z"
-  },
-  "knowledge/thehackernews-5a77672055.md": {
-    "region": "apac",
-    "industries": [
-      "energy",
-      "government"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-06-26T16:21:25.000Z"
-  },
-  "knowledge/darkreading-80f8b19258.md": {
-    "category": "strategy",
-    "publishedAt": "2026-06-26T16:32:30.000Z"
-  },
-  "knowledge/bleeping-db2eef207e.md": {
-    "industries": [
-      "cybersecurity"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-06-26T17:49:07.000Z"
-  },
-  "knowledge/darkreading-b8369f596f.md": {
-    "category": "analyst",
-    "publishedAt": "2026-06-26T16:00:00.000Z"
-  },
-  "knowledge/bleeping-184d987fb8.md": {
-    "category": "strategy",
-    "publishedAt": "2026-06-26T14:01:11.000Z"
-  },
-  "knowledge/thehackernews-1fc5c87041.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-06-26T13:53:00.000Z"
-  },
-  "knowledge/darkreading-8a389fcc4f.md": {
-    "region": "us",
-    "category": "strategy",
-    "publishedAt": "2026-06-26T13:30:00.000Z"
-  },
   "knowledge/cisa-dc2496dbf4.md": {
     "region": "us",
     "industries": [
@@ -2288,5 +2122,22 @@
   "knowledge/manual-d82f2c273fdb.md": {
     "category": "strategy",
     "publishedAt": "2026-07-25T05:52:21.439Z"
+  },
+  "knowledge/bleeping-5c3b292726.md": {
+    "category": "product-release",
+    "publishedAt": "2026-07-26T14:13:39.000Z"
+  },
+  "knowledge/sans-isc-86df8f1a30.md": {
+    "category": "news",
+    "publishedAt": "2026-07-27T02:00:02.000Z"
+  },
+  "knowledge/sans-isc-cc79380457.md": {
+    "region": "apac",
+    "industries": [
+      "document management",
+      "data protection"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-07-26T15:26:14.000Z"
   }
 }
