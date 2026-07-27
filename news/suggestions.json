@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "windows-sign-in-fixed-webauthn-verification-now-",
+    "date": "2026-07-27",
+    "tag": "security",
+    "channel": "both",
+    "title": "Windows sign-in fixed — WebAuthn verification now consistent across platforms",
+    "summary": "A mismatch between client and server WebAuthn settings blocked login on Windows while macOS, iOS, and Android worked fine.",
+    "body": "The client was requesting `userVerification: \"preferred\"` while the server required it — on Windows authenticators this mismatch caused authentication to fail silently. Both sides now agree on `required`, so passkey/biometric login works consistently on all platforms. No action needed; the fix is live on self-hosted installs via a normal update.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "self-hosted-edition-now-enforces-the-30-ciso-10-",
+    "date": "2026-07-27",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Self-hosted edition now enforces the 30-CISO / 10-industry caps in code",
+    "summary": "The free self-hosted build's panel and industry limits are now enforced at runtime, not just described on the pricing page.",
+    "body": "Previously the OSS build inherited a wider clamp and could silently exceed the documented limits. The caps — 30 CISO panels (fixed) and up to 10 industries — are now checked in code so behaviour matches what the pricing page promises. Cloud and licensed tiers are unaffected.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "fourth-panel-axis-operating-mandate-reactive-emb",
+    "date": "2026-07-27",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Fourth panel axis: operating mandate (reactive → embedded → strategic)",
+    "summary": "CISO personas now vary across a fourth dimension — organisational authority and program maturity — drawn from the CISO-Assembly gap analysis.",
+    "body": "The new mandate axis distributes personas roughly 40% reactive, 38% embedded, and 22% strategic, independent of the existing risk-appetite, tenure, and sector axes. This closes the most-cited gap from Leg-2 respondents and makes the panel better reflect the full range of how CISOs actually sit within their organisations. Calibration re-run after the change confirmed mean absolute error held steady at ~17.8 pp.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "version-number-now-visible-in-the-app-splash-scr",
+    "date": "2026-07-27",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Version number now visible in the app — splash screen and About footer",
+    "summary": "The running version is shown on the launch splash and in the About footer, single-sourced from the git tag.",
+    "body": "This was the top piece of in-app feedback from early users. The version line links to the matching GitHub release so you can check the changelog or confirm which patch you're running without leaving the app.",
+    "why": "Drafted from a recent product change."
+  }
+]
