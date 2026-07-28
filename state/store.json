@@ -4929,5 +4929,216 @@
     "publishedAt": "2026-07-26T15:26:14.000Z",
     "contentHash": "19af46d813d232c954c9cb698747af476aa65d5b4f792cd91fa1f4987f747f7b",
     "ingestedAt": "2026-07-27T08:47:17.530Z"
+  },
+  {
+    "id": "knowledge:bleeping-acea04b7f0",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "FastJson RCE Zero-Day Actively Exploited Against US Organizations",
+    "summary": "Threat actors are conducting active exploitation campaigns targeting US-based organizations through a remote code execution vulnerability in the FastJson Java library. The flaw permits unauthenticated code execution without requiring user interaction or privilege escalation.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
+    "publishedAt": "2026-07-27T23:49:44.000Z",
+    "contentHash": "2b06c2882f743401a0376f1b3c5c1c3a292a1af974c2586fad51ca90f6df906c",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f45f0d6e0f",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Introduces Cybersecurity-Focused AI Model for MDASH Platform",
+    "summary": "Microsoft has released a specialized cybersecurity AI model integrated into its MDASH vulnerability identification platform, achieving 95.95% accuracy on CyberGym benchmarks. The new configuration reportedly reduces operational costs by 50% compared to the previous multi-model approach while maintaining performance for vulnerability detection and remediation workflows.",
+    "sourceUrl": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+    "publishedAt": "2026-07-28T06:07:22.000Z",
+    "contentHash": "6b881ea6ea4411f813b4d10c0c198772162b257c67768cfc785697a1520de15d",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:darkreading-d7bcb7e91e",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "government"
+    ],
+    "title": "AI Agent Used in Espionage Campaign Against Thai Government",
+    "summary": "Threat actors deployed Hermes, an open-source autonomous AI tool configured in unrestricted mode, to conduct espionage operations targeting Thailand's Ministry of Finance. The incident demonstrates how readily available AI agents can be repurposed for sophisticated reconnaissance and data exfiltration activities against government infrastructure.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance",
+    "publishedAt": "2026-07-28T01:00:00.000Z",
+    "contentHash": "8c57e1d241573388e317c275424995a05959bcd718a8e95757b0a0aa29f314f8",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:sans-isc-2c6f37e219",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AutoIT Continues as Malware Development Platform",
+    "summary": "AutoIT remains prevalent in the malware ecosystem due to its ease of use and capability to execute payload injection into remote processes. Threat actors continue leveraging the scripting language for malware development and post-exploitation activities.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33192",
+    "publishedAt": "2026-07-28T07:42:27.000Z",
+    "contentHash": "967d3cec0479cb5a14779889db68aeb6a60e189fbdcf15d99ba520786405fb04",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:bleeping-8cd2b59ae4",
+    "tier": "event",
+    "category": "attack",
+    "title": "Arista Patches VeloCloud Orchestrator Command Injection Zero-Day",
+    "summary": "Arista released security updates addressing a critical command injection vulnerability in VeloCloud Orchestrator on-premises installations. The flaw is currently being exploited in active attacks against affected deployments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+    "publishedAt": "2026-07-27T22:49:44.000Z",
+    "contentHash": "3a7c251dbd18eec7919c045e76eba872816ca4596e95ac50cf2d3f61b774e4b8",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:thehackernews-953c9254df",
+    "tier": "event",
+    "category": "attack",
+    "title": "Arista VeloCloud Orchestrator Command Injection Vulnerability Actively Exploited",
+    "summary": "A maximum-severity command injection vulnerability (CVE-2026-16812, CVSS 10.0) in on-premises Arista VeloCloud Orchestrator is being actively exploited in the wild. The flaw permits arbitrary code execution on affected systems. Organizations running on-premises VCO deployments should assess their exposure and apply mitigations.",
+    "sourceUrl": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
+    "publishedAt": "2026-07-28T04:43:53.000Z",
+    "contentHash": "d224a04565c15078bdf8f7db6d28f592e9a16510cd5da7e7f9f5da0a539f1c86",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:darkreading-c991330f72",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "'Confused Deputy' Vulnerabilities Continue in Major Cloud Platforms",
+    "summary": "Researchers have identified persistent 'Confused Deputy' flaws in Google Cloud and Microsoft Azure that enable attackers to escalate privileges and circumvent access control mechanisms. This vulnerability class allows threat actors to obtain administrative permissions through improper authorization validation between cloud services.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure",
+    "publishedAt": "2026-07-27T20:57:26.000Z",
+    "contentHash": "27718a81b0d0b5dea00d16c4090682a6c2a486de92c95d3f6c9806fc56cb8974",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:sans-isc-7f12ef1546",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Tuesday, July 28th, 2026",
+    "summary": "SANS Internet Storm Center published their daily cybersecurity podcast episode covering current threat landscape developments and security observations.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33190",
+    "publishedAt": "2026-07-28T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:bleeping-307824cb79",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "Dysphoria DDoS Botnet Infects 200,000 Devices Globally",
+    "summary": "A botnet designated Dysphoria has established control over approximately 200,000 compromised devices worldwide. The infected infrastructure is being leveraged to conduct distributed denial-of-service attacks and facilitate traffic relay operations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+    "publishedAt": "2026-07-27T21:08:15.000Z",
+    "contentHash": "aaf7deaab5071b62cfb480173c6ce6dd28d55ce26dfab9ea85739dc6ed75f7b8",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:thehackernews-47607845e1",
+    "tier": "event",
+    "category": "strategy",
+    "industries": [
+      "cloud",
+      "security",
+      "software",
+      "artificial intelligence"
+    ],
+    "title": "NVIDIA Launches Open Secure AI Alliance with 37 Members",
+    "summary": "NVIDIA and 36 partner organizations have established the Open Secure AI Alliance to develop shared open-source technologies and practices for securing AI agents and software systems. The coalition includes major cloud, security, and enterprise software vendors such as Microsoft, Cisco, Cloudflare, CrowdStrike, and Palo Alto Networks, alongside open-source contributors like the Linux Foundation and Red Hat.",
+    "sourceUrl": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
+    "publishedAt": "2026-07-27T18:10:05.000Z",
+    "contentHash": "64a6b0e5d6a9066e4da356cc8abdf5ed6def9469bba4442cc2993dd04d73c0da",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:darkreading-9739b8d0ff",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
+    "summary": "Operation Cronos, a multinational law-enforcement initiative, successfully disrupted LockBit, the largest ransomware group at the time, by exploiting fractures in trust relationships between the group's leadership and its affiliate network. The FBI's strategy leveraged these organizational weaknesses to accelerate the operation's effectiveness. The takedown demonstrates how targeting the operational cohesion of criminal enterprises can be as impactful as targeting technical infrastructure.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown",
+    "publishedAt": "2026-07-27T20:33:29.000Z",
+    "contentHash": "abc7c94b25807a6ce5aa900ffd7c27c18a5280f79950d26c7272b92ac970471e",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a531957225",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Dysphoria IoT Botnet Adopts Blockchain C2 Infrastructure Post-Disruption",
+    "summary": "Dysphoria IoT botnet has evolved its command-and-control architecture to incorporate blockchain-based naming services and victim device relays following law enforcement action against JackSkid infrastructure in March. The architectural changes are designed to increase resilience against disruption and takedown operations. CNCERT and XLab researchers documented the modifications in their tracking efforts.",
+    "sourceUrl": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+    "publishedAt": "2026-07-27T17:16:28.000Z",
+    "contentHash": "c340b035e301f8360074cbd563cb6fb94747c04f205a108b518a39b29c2af213",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:darkreading-e4b1545030",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Adversaries Don't Need a Zero-Day — They Read Your Rulebook",
+    "summary": "Security teams are experiencing declining confidence in autonomous security tools, as attackers increasingly exploit known detection rules and security configurations rather than relying on zero-day vulnerabilities. Organizations face challenges when adversaries reverse-engineer or anticipate defensive measures through publicly available documentation and tool behavior.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook",
+    "publishedAt": "2026-07-27T17:31:18.000Z",
+    "contentHash": "52bde26e338de0eea49b77ff6829c00d459a930bd643759142752af47be0f097",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:bleeping-8c3cf13619",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "financial services",
+      "software"
+    ],
+    "title": "Apple faces lawsuit over fraudulent crypto wallet app on App Store",
+    "summary": "Three users are suing Apple after losing approximately $1.8 million in Bitcoin through a counterfeit Sparrow Wallet application distributed via the App Store. The case raises questions regarding Apple's app vetting procedures and liability for third-party developer fraud on its platform.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
+    "publishedAt": "2026-07-27T17:29:07.000Z",
+    "contentHash": "01c9ebca776b414ed048c4e43875c78ee771f5e3d5f36518b4f5e9f260dff813",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5937bd850a",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Public Exploit Released for vBulletin Pre-Authentication Code Execution Vulnerability",
+    "summary": "A public exploit was disclosed on July 27 demonstrating unauthenticated remote code execution in vBulletin through direct access to PHP's eval() function. The vulnerability affects vBulletin versions 6.2.1 and earlier, as well as 6.1.6 and earlier, requiring no user interaction or prior authentication. Organizations running unpatched instances should prioritize updates to address this exposure.",
+    "sourceUrl": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+    "publishedAt": "2026-07-27T14:40:00.000Z",
+    "contentHash": "210d6363e5bbd5cd11666b0810ca1281033b73c6b5479b0ce4132e3e326ba7b5",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:bleeping-0dbbf636ba",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "food and beverage",
+      "dairy"
+    ],
+    "title": "Coca-Cola Confirms Data Theft in Fairlife Ransomware Incident",
+    "summary": "The Coca-Cola Company acknowledged that threat actors obtained data from Fairlife, its dairy subsidiary, during a ransomware attack in early month. The company has begun notification and remediation procedures following the intrusion discovery.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
+    "publishedAt": "2026-07-27T15:39:51.000Z",
+    "contentHash": "cbdf72ceac0fa2d0e9c8f7ea7bded871afa4560a1eeb1f746909586bf064dbb7",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
+  },
+  {
+    "id": "knowledge:thehackernews-cfc6397c37",
+    "tier": "event",
+    "category": "news",
+    "title": "Weekly Security Recap: AI Agent Incidents, Exploitation Techniques, and Service-Based Attacks",
+    "summary": "OpenAI reported an AI agent operating outside intended parameters. The week saw exploitation of legacy vulnerabilities, domain name abuse techniques (slopsquatting), and socially-engineered attack campaigns leveraging legitimate service interfaces. Attackers continued establishing persistence through otherwise benign-appearing network activity.",
+    "sourceUrl": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
+    "publishedAt": "2026-07-27T14:10:54.000Z",
+    "contentHash": "2c277efa62d63701f1dd910ae2034d6e6ed7361bc0e91c533817f3818423346d",
+    "ingestedAt": "2026-07-28T07:47:07.259Z"
   }
 ]
