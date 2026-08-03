@@ -214,393 +214,6 @@
     "ingestedAt": "2026-06-30T08:37:41.797Z"
   },
   {
-    "id": "knowledge:krebs-417bdaa0c3",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "title": "FBI Seizes NetNut Proxy Platform Connected to Popa Botnet",
-    "summary": "The FBI seized hundreds of domains operated by NetNut, a residential proxy service run by Israeli publicly-traded company Alarum Technologies, following reports linking the platform to the Popa botnet affecting approximately two million compromised devices. The action represents coordinated law enforcement intervention against infrastructure allegedly facilitating unauthorized device access and malware distribution.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-    "publishedAt": "2026-07-02T19:27:33.000Z",
-    "contentHash": "93521945021a545ab793975bf3f7a4f91f82e11065acb5c1dbf6ac66dc515c01",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:bleeping-2d3bfb7f4a",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Anthropic to temporarily remove Claude Fable 5 from subscriptions",
-    "summary": "Anthropic announced that Claude Fable 5 will no longer be available through Claude subscriptions after July 7, though the company characterizes this as a temporary measure rather than permanent discontinuation. The model is expected to return through alternative access methods outside the subscription tier in the near term.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
-    "publishedAt": "2026-07-03T01:37:09.000Z",
-    "contentHash": "9b605ea3e023dc8ef80aebb926ab2ab9b370c8afb368fa06b627106b4589fa58",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:thehackernews-0e68a14cfc",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "title": "Google Disrupts NetNut Residential Proxy Network Affecting Millions of Compromised Devices",
-    "summary": "Google's Threat Intelligence Group, in coordination with the FBI and other partners, has significantly degraded NetNut (also known as Popa), a residential proxy service that enlisted millions of home devices to relay traffic. The operation substantially reduced the network's operational capacity by eliminating access to a large portion of its compromised device pool.",
-    "sourceUrl": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
-    "publishedAt": "2026-07-02T18:54:06.000Z",
-    "contentHash": "4eabbfc1dd48886799b72c552200aecd3a310d67212edfe581774286f17f2116",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:darkreading-fc3fd682f2",
-    "tier": "event",
-    "category": "news",
-    "region": "anz",
-    "title": "Australian Cybercrime Risk Landscape Shifts Toward SMBs",
-    "summary": "Australia's larger institutions have strengthened defenses through improved safeguards and regulatory compliance, resulting in a relative reduction in institutional cybercrime exposure. This protective shift has concentrated cyber risk onto smaller and medium-sized businesses, which face increased targeting pressure as attackers redirect efforts.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs",
-    "publishedAt": "2026-07-02T23:01:00.000Z",
-    "contentHash": "36cd4007ff6f9ec3da6f12e282ad1bf68a9ca8c1be418f49d509474827a54a36",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:bleeping-ffaed3923a",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Claude Fable relaunch shows performance degradation compared to initial release",
-    "summary": "Anthropic's Claude Fable model is now available to a broader user base, but early user feedback indicates the current version underperforms relative to the original release. The performance gap has generated discussion about potential capability constraints or optimization changes.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
-    "publishedAt": "2026-07-03T00:48:30.000Z",
-    "contentHash": "ad740db5ce6c43d0748fed09fd72f4bf2e2ed6cdd3f866f38c931dc178e28299",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:thehackernews-05b1c5e4b3",
-    "tier": "event",
-    "category": "attack",
-    "title": "Ransomware Groups Leverage Citrix Bleed 2 and BYOVD Techniques for Initial Access",
-    "summary": "Anubis ransomware affiliates are actively exploiting the Citrix Bleed 2 vulnerability (CVE-2025-5777) as an initial access vector, supplemented by legitimate RMM tools and credential theft. Threat actors are employing bring-your-own-vulnerable-device (BYOVD) tactics and supply chain credential abuse to establish persistence and move laterally within victim environments.",
-    "sourceUrl": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-    "publishedAt": "2026-07-02T18:30:33.000Z",
-    "contentHash": "2cf4d2908776b532291e388301b016232e54585eed790b75f70b6c44e794d1c7",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:darkreading-976ca534d5",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Apple Adjusts Patching Cadence in Response to AI-Accelerated Threat Landscape",
-    "summary": "Apple is shifting toward more frequent security updates to address threats amplified by artificial intelligence, which has enabled attackers to reduce the window between vulnerability discovery and active exploitation. The company's historical patching approach is being reconsidered to maintain security posture against faster threat cycles.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai",
-    "publishedAt": "2026-07-02T19:31:58.000Z",
-    "contentHash": "f8e2a0fff9dae91e12367da27b48cb7d321d9dbb60e0b53f51d9ba96f7845794",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:cisa-33e69d297d",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "communications",
-      "defense",
-      "energy",
-      "government",
-      "transportation"
-    ],
-    "title": "ST Engineering iDirect iQ-Series Satellite Terminals: Authentication and CSRF Vulnerabilities",
-    "summary": "CISA disclosed two vulnerabilities in ST Engineering iDirect iQ-Series satellite terminals (Evolution, 3315, and 9-Series models through version 4.5.2.1). CVE-2026-38059 allows unauthenticated attackers to retrieve sensitive device credentials and authentication material via exposed REST API endpoints, while CVE-2026-38057 enables cross-site request forgery attacks to trigger denial-of-service conditions on authenticated administrative sessions. Patches are available in version 4.5.2.2; mitigation includes network segmentation, API access controls, and monitoring for anomalous activity.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
-    "publishedAt": "2026-07-02T12:00:00.000Z",
-    "contentHash": "0cb9861dc807cc4c0c152242120c1015de9ce91e9d75250aa44cfa730541e87b",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:bleeping-91e18ac9af",
-    "tier": "event",
-    "category": "regulation",
-    "region": "eu-west",
-    "title": "Google loses final appeal against €4.1 billion EU antitrust fine",
-    "summary": "The Court of Justice of the European Union has upheld a €4.1 billion fine against Google for leveraging its Android platform to promote Chrome and search services. This represents the final legal avenue exhausted by Google in contesting the penalty.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
-    "publishedAt": "2026-07-02T15:18:51.000Z",
-    "contentHash": "4df44ab8d3a59112785b81ecf7521dfe217e506f7f9caf11efd2a137f29f5da1",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:thehackernews-8baed1cc39",
-    "tier": "event",
-    "category": "news",
-    "title": "ThreatsDay: Weekly Security Digest - AI Compute, Apple Email, BlueHammer, and Related Vulnerabilities",
-    "summary": "This week's security landscape highlights a pattern of incremental weaknesses across multiple attack surfaces including browsers, bots, sandboxes, and AI systems. Reported issues span Apple email functionality, BlueHammer ransomware activity, and AI compute hijacking, with many exploits leveraging insufficient permission boundaries and inadequate validation mechanisms rather than novel attack techniques.",
-    "sourceUrl": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
-    "publishedAt": "2026-07-02T15:24:18.000Z",
-    "contentHash": "339c218e4283df22e21990b88620cc6cdbdeea5a374abc960399df540dd82c3e",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:darkreading-25a0b7ea35",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "FortiBleed Actors Monetizing Fortinet Firewall Access Through Ransomware Partnerships",
-    "summary": "Threat actors exploiting FortiBleed vulnerabilities in Fortinet firewalls are collaborating with Inc and Lynx ransomware groups to monetize compromised systems. The campaign is also leveraging a Nextcloud zero-day vulnerability as part of their attack chain.",
-    "sourceUrl": "https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs",
-    "publishedAt": "2026-07-02T19:11:33.000Z",
-    "contentHash": "58265e8916d01ef5bb1f978f5247fddf2883226632f7c777a9be39b464b41b31",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:bleeping-0f7346a547",
-    "tier": "event",
-    "category": "attack",
-    "title": "ConsentFix and ClickFix: Microsoft 365 Account Hijacking via OAuth Exploitation",
-    "summary": "Two attack techniques exploit OAuth consent prompts and fake authentication interfaces to harvest Microsoft 365 tokens, effectively bypassing multi-factor authentication. These methods leverage social engineering to trick users into authorizing malicious applications or redirecting credentials through fraudulent login screens.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
-    "publishedAt": "2026-07-02T14:00:10.000Z",
-    "contentHash": "5539ca52e517385cc709394f6a62b16b0f54d0319a06131cdcb6634719d566ed",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:thehackernews-d29945b455",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
-    "summary": "Kaspersky researchers have identified Umbrij, a malware attributed to the ToddyCat threat actor, designed to intercept Gmail communications by exploiting OAuth mechanisms through the Google API. The campaign specifically targets corporate email infrastructure, leveraging API-level access rather than traditional credential theft to maintain persistent, stealthy access to organizational correspondence.",
-    "sourceUrl": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
-    "publishedAt": "2026-07-02T13:04:13.000Z",
-    "contentHash": "8b4da562b0e794cc9a55aa9c6670098687adb8b526dda425de370d1c8261e7c8",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:darkreading-32296d38ce",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Ransomware Group Impersonates Interpol in Social Engineering Campaign",
-    "summary": "A ransomware operation is leveraging Interpol impersonation to target small businesses through social engineering tactics. The campaign operates across multiple geographic regions including North America, Europe, and the Middle East, exploiting trust in law enforcement branding to gain initial access.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses",
-    "publishedAt": "2026-07-02T18:07:40.000Z",
-    "contentHash": "ca5fd2035f13c11aaab9ce960337395a9817d7ce61a645e245233848ec3162b5",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:bleeping-96eef5e812",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Resolves Copilot Button Display Issue in Classic Outlook",
-    "summary": "Microsoft addressed a bug that caused Copilot Chat and Copilot buttons to disappear from Classic Outlook for Windows users holding the Copilot Chat (Basic) license. The fix restores visibility and functionality of these AI-assisted features.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/",
-    "publishedAt": "2026-07-02T12:15:47.000Z",
-    "contentHash": "a1c6f36bfb5ceb59d5ea4b137b38f710c5c80fe7a6d1b919a842fbd0026a1f3b",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:thehackernews-c1ee777652",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Identity Lifecycle Management Gaps Emerge as AI Agents Scale in Enterprises",
-    "summary": "Traditional identity governance and administration tools were designed around human employment lifecycles with managers and departure dates, creating blind spots for autonomous AI agents operating in enterprise environments. As organizations deploy more AI agents, conventional IGA frameworks lack mechanisms to govern, audit, and revoke access for non-human principals, exposing potential security gaps in identity and access management strategies.",
-    "sourceUrl": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
-    "publishedAt": "2026-07-02T11:30:00.000Z",
-    "contentHash": "02e04ee00bd0e5262dfc2455858fe2f5f70618e2911b2e516065bc411bdae37e",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:darkreading-792cebfc0f",
-    "tier": "event",
-    "category": "product-release",
-    "title": "IBM Invests $5B in Project Lightwell to Address AI-Identified Open-Source Vulnerabilities",
-    "summary": "IBM and Red Hat are dedicating 20,000 engineers to Project Lightwell, a new service aimed at securing the open-source software supply chain. The initiative was prompted by Anthropic's Mythos research, which used AI to identify bugs in open-source components, sparking industry discussion on vulnerability remediation and supply chain resilience.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-",
-    "publishedAt": "2026-07-02T12:33:57.000Z",
-    "contentHash": "9ed27f8701db8d655666c685529d98f6a480c552d5d94d2a224a5059a3233b99",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:bleeping-d5a8ae57bb",
-    "tier": "event",
-    "category": "attack",
-    "title": "Cisco Confirms Active Exploitation of Unified CM Vulnerability",
-    "summary": "Cisco has confirmed that threat actors are actively exploiting a vulnerability in Unified Communications Manager that the company patched in June. The exploitation indicates that despite patch availability, some deployments remain unpatched and at risk.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
-    "publishedAt": "2026-07-02T11:35:25.000Z",
-    "contentHash": "64ff6beec7cd2c3f1989318e6a90e619c58515ea500e060d5b072474f0e9dc42",
-    "ingestedAt": "2026-07-03T08:27:55.148Z"
-  },
-  {
-    "id": "knowledge:bleeping-f5ed4be194",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "NetNut residential proxy network disrupted in coordinated operation",
-    "summary": "Google and partners have successfully disrupted NetNut, a residential proxy service that leveraged approximately 2 million compromised Android devices including smart TVs and streaming boxes. The operation resulted in disconnection of infected devices from the proxy network infrastructure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
-    "publishedAt": "2026-07-03T17:50:04.000Z",
-    "contentHash": "6303021e32ff88c82dfb97525c4e69042f7d9fad78815284f358f2c1ec09dbf7",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:thehackernews-d46c218220",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "industrial controls",
-      "consumer electronics",
-      "cryptocurrency/hardware",
-      "surveillance"
-    ],
-    "title": "Multiple Vulnerabilities Discovered in Widely-Deployed FatFs Filesystem Library",
-    "summary": "Security researchers at runZero identified seven vulnerabilities in FatFs, a lightweight filesystem library embedded in firmware across millions of devices including security cameras, drones, industrial controllers, and hardware wallets. The flaws affect a foundational component used to handle FAT and exFAT format operations on removable storage media. The widespread integration of FatFs into embedded device firmware creates potential exposure across multiple device categories.",
-    "sourceUrl": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
-    "publishedAt": "2026-07-03T20:19:31.000Z",
-    "contentHash": "d32046a9f5184301cc6919586e4059bed519f1330430a4467de3d4d74764a8d2",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:darkreading-0ddc5c27aa",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "title": "Chinese LLM Development Expands Capability Gap in Offensive-Defensive AI Arms Race",
-    "summary": "Chinese technology firms have released large language models that compete with leading US counterparts in capability, raising questions about differential access to advanced AI tools between attack and defense communities. The emergence of these models may alter the landscape of AI-assisted cyber operations and detection capabilities.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders",
-    "publishedAt": "2026-07-03T13:01:00.000Z",
-    "contentHash": "6248291ba7fe4124c06794c7682742464b4b1e353a256c544c05a87d37d33e8f",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:bleeping-4eceb1003b",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ARToken PhaaS Platform Linked to EvilTokens Microsoft 365 Phishing Toolkit",
-    "summary": "Security researchers identified ARToken, a phishing-as-a-service platform operating as an affiliate of EvilTokens, which provides tools specifically designed to compromise Microsoft 365 accounts. The discovery reveals the infrastructure and operational model of a service-based phishing operation targeting cloud productivity environments.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
-    "publishedAt": "2026-07-03T14:12:22.000Z",
-    "contentHash": "2916437075d6191ac204dc21a63ee4eaf99271ac2f5e6006ee7b200381408f39",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:thehackernews-2cc6f7ea50",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Bad Epoll Linux Kernel Vulnerability Enables Privilege Escalation",
-    "summary": "A newly identified Linux kernel vulnerability (CVE-2026-46242) permits unprivileged users to escalate privileges and gain root-level control on affected systems. The flaw impacts Linux desktops, servers, and Android platforms, though patches are available. The vulnerability resides in kernel code where an AI model previously identified a separate defect.",
-    "sourceUrl": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-    "publishedAt": "2026-07-03T19:40:01.000Z",
-    "contentHash": "7ef81dfd3600dd334e0ac5e4e93183d6cdf0350861bcb5aad96d59361fe92363",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:darkreading-297edc307b",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Excessive Security Data Volume Creating Operational and Financial Strain",
-    "summary": "Organizations accumulating large volumes of firewall logs without filtering are experiencing both security and budgetary challenges in their SIEM environments. A CISO case study demonstrates how applying AI-driven filtering to identify actionable security events can reduce data burden while improving detection focus.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/too-much-security-data-risk",
-    "publishedAt": "2026-07-01T15:44:41.000Z",
-    "contentHash": "3ca8e905afec2aa0c7263bbf2be36dc714a82d442b0b908ba08c5dab39717a69",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:bleeping-7baac3cbeb",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "CISA: Microsoft SharePoint RCE flaw now actively exploited",
-    "summary": "CISA disclosed that a high-severity remote code execution vulnerability in Microsoft SharePoint, addressed in May patches, is being actively exploited by threat actors. The advisory indicates the flaw has transitioned from theoretical risk to demonstrated attack activity in the wild.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/",
-    "publishedAt": "2026-07-02T10:52:43.000Z",
-    "contentHash": "13a909a5a6d4ed9836d5db6308b3ba8f68891a7ca65013dbcd944f9c4ed3052e",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:thehackernews-46e49c3727",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Avalon Malware Framework Integrates CrownX Ransomware with Multi-Stage Delivery",
-    "summary": "Researchers identified a modular malware framework called Avalon that leverages phishing chains to establish persistent access and execute ransomware operations. The framework consolidates credential harvesting, lateral movement, remote access, and recovery disruption capabilities, suggesting coordination among multiple attack phases.",
-    "sourceUrl": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-    "publishedAt": "2026-07-03T18:55:24.000Z",
-    "contentHash": "803fa1aa28467d7d5d076d3cd30ec8f11601bda891296483da49aa567dc8b7ab",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:bleeping-32dfa5c2b1",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Opera rolls out Paste Protect feature to fight ClickFix attacks",
-    "summary": "Opera has deployed Paste Protect, a security mechanism that prevents execution of malicious commands pasted into the browser console. The feature targets ClickFix attacks, which rely on social engineering to manipulate users into running harmful code.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
-    "publishedAt": "2026-07-02T10:46:58.000Z",
-    "contentHash": "0f82757b51bd7d68243df13bbb585e8383faf39b97a1126bafdc9196d4894c44",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:thehackernews-af919c1063",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "open source"
-    ],
-    "title": "North Korea-Linked Threat Actors Deploy Malicious npm Packages Impersonating Rollup Polyfills",
-    "summary": "Researchers at JFrog identified malicious npm packages attributed to North Korean threat actors that impersonate legitimate Rollup polyfill tooling. The packages replicate legitimate project metadata and descriptions to deceive developers into installation, enabling remote access and credential harvesting from development environments.",
-    "sourceUrl": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
-    "publishedAt": "2026-07-03T16:07:15.000Z",
-    "contentHash": "a5b8dc8699e6849989a8126d20e4d2dae2cfe4818d276e03489dfd45f2a4cc23",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:bleeping-bde0640ad7",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "title": "Alleged Scattered Spider Member Extradited to United States",
-    "summary": "A dual US-Estonian citizen has been extradited to face charges related to membership in the Scattered Spider hacking collective. The extradition represents law enforcement action against the group, known for conducting social engineering and credential-based attacks against multiple organizations.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
-    "publishedAt": "2026-07-02T08:58:25.000Z",
-    "contentHash": "4abe87d1f851b83975a0d33e426804e2e66945d3393cb6938abd96274f48c4d3",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:thehackernews-72b8c901a0",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "government",
-      "energy"
-    ],
-    "title": "Armored Likho Threat Actor Targets Government and Energy Sector",
-    "summary": "Kaspersky has documented a previously unknown threat actor named Armored Likho conducting targeted attacks against government agencies and power utilities in Russia, Brazil, and Kazakhstan. The group combines financially motivated campaigns against individuals with espionage operations directed at organizations, deploying the BusySnake stealer malware.",
-    "sourceUrl": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-    "publishedAt": "2026-07-03T13:36:33.000Z",
-    "contentHash": "0b776b5bf193b743af1f13ab1f8e64bf019e1a31eccd1358dd67ff70d7836094",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:thehackernews-8f8ffebc33",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "eu-west",
-    "industries": [
-      "government"
-    ],
-    "title": "European Parliament Member Investigating Spyware Targeted With Pegasus",
-    "summary": "Citizen Lab analysis confirmed that a former EU Parliament member investigating surveillance tool abuse had his mobile device repeatedly compromised with Pegasus spyware during his committee service. The finding highlights operational security risks faced by officials overseeing commercial surveillance regulation and underscores persistent exploitation of spyware despite regulatory scrutiny.",
-    "sourceUrl": "https://thehackernews.com/2026/07/european-parliament-member.html",
-    "publishedAt": "2026-07-03T11:05:43.000Z",
-    "contentHash": "c0b521e33a237d5e733ce2b84f5674f055fb1b9fc8d3f028eead45d745d09bca",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
-    "id": "knowledge:thehackernews-ce435047f2",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "PamStealer macOS Infostealer Distributed via Fake Maccy Clipboard Manager",
-    "summary": "Jamf Threat Labs identified PamStealer, a macOS information stealer distributed as a compiled AppleScript file masquerading as Maccy, a legitimate clipboard manager. The malware leverages PAM (Pluggable Authentication Modules) checks to extract login credentials and other sensitive data from compromised systems.",
-    "sourceUrl": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
-    "publishedAt": "2026-07-03T08:03:37.000Z",
-    "contentHash": "30e476b0a575a236649d31057a2874524ab2b1dbafd9cabd72a09d2a1bafa5cf",
-    "ingestedAt": "2026-07-04T08:05:21.398Z"
-  },
-  {
     "id": "knowledge:bleeping-3ed82d96ed",
     "tier": "event",
     "category": "product-release",
@@ -5039,5 +4652,143 @@
     "publishedAt": "2026-07-31T11:55:00.000Z",
     "contentHash": "eb34764688a7d7f59b8f8b32b43b11c47e82292086d256f641a3579d4a87c0ab",
     "ingestedAt": "2026-08-02T07:40:45.398Z"
+  },
+  {
+    "id": "knowledge:cisa-136ab257d2",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy"
+    ],
+    "title": "Eight Out-of-Bounds Read Vulnerabilities in MZ Automation libiec61850",
+    "summary": "CISA disclosed eight out-of-bounds read vulnerabilities in MZ Automation GmbH libiec61850 versions prior to 1.6.2, affecting IEC 61850 GOOSE and MMS protocol handlers deployed in energy infrastructure worldwide. Exploitation via specially crafted Layer-2 multicast frames or MMS messages can trigger denial-of-service conditions by crashing subscriber and service processes. The vendor has released version 1.6.2 as mitigation.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
+    "publishedAt": "2026-07-30T12:00:00.000Z",
+    "contentHash": "89773dab5205f08db1059f5e5c5ef433d6d671a44dea49829c16bc840189b15a",
+    "ingestedAt": "2026-08-03T08:42:10.380Z"
+  },
+  {
+    "id": "knowledge:bleeping-2326aefff7",
+    "tier": "event",
+    "category": "product-release",
+    "title": "OpenAI Reveals Astra Model Focused on Complex Long-Running Tasks",
+    "summary": "OpenAI announced Astra, an upcoming AI model engineered to handle extended, complex computational problems. An internal iteration reportedly achieved notable progress on ten long-standing mathematical and theoretical computer science challenges, indicating potential capabilities in reasoning-intensive domains.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
+    "publishedAt": "2026-08-02T22:31:41.000Z",
+    "contentHash": "9d0389bfae1815a131c3f2de9e54c8745d7d75508761036abf6863fae6326c48",
+    "ingestedAt": "2026-08-03T08:42:10.380Z"
+  },
+  {
+    "id": "knowledge:thehackernews-000b4c51e3",
+    "tier": "event",
+    "category": "product-release",
+    "industries": [
+      "biotechnology",
+      "life sciences"
+    ],
+    "title": "Thermo Fisher Patches DNA File Tampering Vulnerability in Applied Biosystems Software",
+    "summary": "Thermo Fisher Scientific released a security patch for a flaw in Applied Biosystems human identification software that permitted modification of DNA analysis data files prior to processing. The vulnerability, tracked as CVE-2026-17583, could enable alterations to .fsa and .hid output files with minimal detection if laboratory security controls were bypassed.",
+    "sourceUrl": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+    "publishedAt": "2026-08-03T08:05:30.000Z",
+    "contentHash": "596555dc11f31ccf0106d6e46af8b28ea340bfa84105ff92ebaf0d9e531d0d57",
+    "ingestedAt": "2026-08-03T08:42:10.380Z"
+  },
+  {
+    "id": "knowledge:darkreading-cdad757a49",
+    "tier": "event",
+    "category": "news",
+    "title": "Cybersecurity, Then & Now",
+    "summary": "Dark Reading reflects on nearly two decades of cybersecurity coverage since 2006, observing that despite significant technological evolution, fundamental security challenges persist across the industry. The piece examines how threat landscapes and defensive approaches have transformed while core vulnerabilities and organizational struggles remain consistent themes.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/cybersecurity-then-now",
+    "publishedAt": "2026-07-29T23:26:46.000Z",
+    "contentHash": "e70d676b020ce65c355a74497ce1aa853c8130fbe350a21964a68ac3d4e53257",
+    "ingestedAt": "2026-08-03T08:42:10.380Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9087f7313a",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast For Monday, August 3rd, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat intelligence. The episode provides analysis of ongoing security incidents and vulnerabilities relevant to defensive operations.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33210",
+    "publishedAt": "2026-08-03T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-03T08:42:10.380Z"
+  },
+  {
+    "id": "knowledge:cisa-a9258573a9",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy",
+      "water and wastewater",
+      "critical manufacturing",
+      "chemical"
+    ],
+    "title": "MZ Automation lib60870 Out-of-Bounds Read Vulnerabilities",
+    "summary": "CISA disclosed two out-of-bounds read vulnerabilities in MZ Automation lib60870 version 2.4.0 that could enable device denial of service through crafted IEC 60870-5-104 protocol frames. Both CVE-2026-61893 and CVE-2026-63033 carry CVSS scores of 6.5-6.9 and require network access without authentication. The vendor recommends upgrading to version 2.4.1 and has published advisories on GitHub.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-11",
+    "publishedAt": "2026-07-30T12:00:00.000Z",
+    "contentHash": "eb14ee8e9f443de74a0a376a2e45c557f7df4bc19ed620ae543c508ccb495918",
+    "ingestedAt": "2026-08-03T08:42:10.380Z"
+  },
+  {
+    "id": "knowledge:bleeping-b4f28f9ce0",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "fintech"
+    ],
+    "title": "COLDCARD Wallet RNG Vulnerability Linked to $88M Bitcoin Theft",
+    "summary": "A flaw in COLDCARD hardware wallet firmware compromised the random number generator used to create wallet seeds, enabling attackers to derive private keys and steal approximately $88.6 million in Bitcoin from affected users. The vulnerability affected thousands of wallets where seed generation relied on the defective RNG implementation.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+    "publishedAt": "2026-08-02T21:14:29.000Z",
+    "contentHash": "77bf870b48e28a6546c234feff4df4aba3a4a5ebfe326081dbc467233714596b",
+    "ingestedAt": "2026-08-03T08:42:10.380Z"
+  },
+  {
+    "id": "knowledge:thehackernews-44aca34a59",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "managed services",
+      "it services"
+    ],
+    "title": "N-able N-central Authentication Bypass Allows Server Takeover",
+    "summary": "N-able disclosed that attackers exploited an authentication bypass vulnerability (CVE-2026-18577) in N-central to obtain remote administrative access to servers and downstream customer systems. An initial patch released on August 2 proved insufficient, requiring further remediation. The vulnerability affects N-central builds prior to version 2026.3.1.7.",
+    "sourceUrl": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+    "publishedAt": "2026-08-03T06:41:46.000Z",
+    "contentHash": "f1e772ef0d51a37db15e2dfc6396ca03282a333cf4f3c76d325e8dfee27787b6",
+    "ingestedAt": "2026-08-03T08:42:10.380Z"
+  },
+  {
+    "id": "knowledge:bleeping-2273073f02",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Google Chrome to block policy-installed extensions from hijacking New Tab and search settings",
+    "summary": "Google is developing a Chrome security feature to prevent policy-installed extensions from modifying the New Tab page or default search engine settings. This mechanism would restrict extensions deployed through enterprise policies from making unauthorized changes to critical browser functions.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
+    "publishedAt": "2026-08-02T14:17:16.000Z",
+    "contentHash": "a9276574aa13a0cb43ed04849b302afa3e001975c21dc47ad6d89ce25fb76287",
+    "ingestedAt": "2026-08-03T08:42:10.380Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0a3d3912cd",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "artificial intelligence",
+      "software development"
+    ],
+    "title": "Hugging Face Diffusers Library Vulnerabilities Enable Arbitrary Code Execution",
+    "summary": "Three high-severity vulnerabilities were identified in Hugging Face's Diffusers library that could permit malicious model repositories to execute arbitrary code when loaded, circumventing the trust_remote_code safety mechanism. The flaws expose the AI supply chain to potential compromise through compromised or malicious model artifacts.",
+    "sourceUrl": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+    "publishedAt": "2026-08-03T06:40:31.000Z",
+    "contentHash": "7662aaea19f2b417b91cb4f957872eb17c91cc163532872a7d91bbde80614a9b",
+    "ingestedAt": "2026-08-03T08:42:10.380Z"
   }
 ]
