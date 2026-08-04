@@ -4790,5 +4790,236 @@
     "publishedAt": "2026-08-03T06:40:31.000Z",
     "contentHash": "7662aaea19f2b417b91cb4f957872eb17c91cc163532872a7d91bbde80614a9b",
     "ingestedAt": "2026-08-03T08:42:10.380Z"
+  },
+  {
+    "id": "knowledge:bleeping-d3d8e65b0f",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "hospitality"
+    ],
+    "title": "Hotel Wi-Fi Campaign Attributed to Russian State Actor Midnight Blizzard",
+    "summary": "Microsoft has attributed a global campaign targeting hospitality sector Wi-Fi networks to Midnight Blizzard (APT29), a Russian state-sponsored threat actor. The campaign deploys custom malware to compromise Microsoft 365 accounts, leveraging hotel network infrastructure as an initial access vector for credential theft.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
+    "publishedAt": "2026-08-04T00:17:15.000Z",
+    "contentHash": "6644923be7bce6361eaf2b25d0f55a2a543f4bc11af00254d7161f0276b2f831",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5e41b682e2",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "software development",
+      "cloud platforms"
+    ],
+    "title": "18 Malicious npm Packages Deliver Cross-Platform RAT Targeting Alibaba Tool Users",
+    "summary": "Researchers identified 18 malicious npm packages masquerading as legitimate Alibaba developer tools, including a package mimicking the private 'lib-mtop' library. The campaign distributes a cross-platform remote access trojan to users in Chinese-speaking environments through a supply chain compromise.",
+    "sourceUrl": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+    "publishedAt": "2026-08-03T18:43:53.000Z",
+    "contentHash": "9c48deee8581c5e10ce42c18a464fd3c809c70ea7cc3287d8ec73747bf8d4b8d",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:darkreading-f9d8aff206",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Device Code Phishing and Vishing Attack Methods Surge in 2026",
+    "summary": "Device code phishing attacks increased 1,500% and vishing incidents doubled in 2026, exploiting social engineering to circumvent established security controls while minimizing forensic artifacts. These techniques leverage human interaction rather than technical vulnerabilities, reducing detection likelihood through traditional security tools.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles",
+    "publishedAt": "2026-08-04T07:00:00.000Z",
+    "contentHash": "9436d26da3d76ebca480c9fb80e9c2ca0b4e7f6d6b90c548383857a8310c27a0",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:sans-isc-a783069bdc",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Tuesday, August 4th, 2026",
+    "summary": "SANS Internet Storm Center publishes its daily security briefing covering recent threat developments and cybersecurity topics of interest to practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33212",
+    "publishedAt": "2026-08-04T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:bleeping-3356ba58fa",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Pass-ta-key attacks exploit Google Password Manager synced passkeys on Windows",
+    "summary": "Researchers identified three attack vectors allowing malware on compromised Windows systems to abuse Google Password Manager's synced passkeys, enabling account takeover and extraction of private cryptographic material. The attacks bypass user verification mechanisms by leveraging passkeys already synchronized to the compromised device.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
+    "publishedAt": "2026-08-03T23:58:01.000Z",
+    "contentHash": "beacd2de4a1e88c72d9d3bad4252a5e795af723b3443631e68a2fc68087d7859",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5264422e42",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Google Password Manager Passkey Authentication Bypass via Local Malware",
+    "summary": "Palo Alto Networks' Unit 42 identified three attack vectors enabling malware with standard user privileges on Windows to authenticate to passkey-protected accounts through Google Password Manager without triggering biometric or PIN verification. The most severe variant, Golden Pass-ta-key, targets the master encryption key, potentially compromising all stored credentials.",
+    "sourceUrl": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+    "publishedAt": "2026-08-03T16:24:47.000Z",
+    "contentHash": "ccfcc6f4f128f57524f6c2aeef3453e60b4bf4118003e543284c0ec32bf79836",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:darkreading-f765a9e7ad",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "N-able RMM Authentication Bypass Allows Administrator Access",
+    "summary": "N-able identified an additional authentication bypass vulnerability (CVE-2026-18577) affecting its remote monitoring and management servers that can grant attackers administrative privileges. The flaw was discovered over the weekend and represents a secondary exploitation vector for the same vulnerability class.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+    "publishedAt": "2026-08-03T21:21:11.000Z",
+    "contentHash": "b5b2d1fa6891296d53910704aa3bc445999571002c5d2465ddc8b0eacc441fab",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:bleeping-1074e28188",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "DOUBLECUP ClickFix service delivers malware via browser cache exploitation",
+    "summary": "A Russian loader-as-a-service platform named DOUBLECUP leverages ClickFix social engineering attacks to conceal malicious payloads within PNG images stored in browser caches. The service delivers CountLoader to Windows and macOS systems, along with DeviceManager, a newly identified remote access trojan targeting Windows.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
+    "publishedAt": "2026-08-03T20:01:22.000Z",
+    "contentHash": "e991aaf99710b886d415a271533f5b7597a85ff58a6fd38e2e17a8e230918e06",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5c95936bd1",
+    "tier": "event",
+    "category": "attack",
+    "title": "INC Ransomware Exploiting SonicWall SMA 1000 Vulnerabilities",
+    "summary": "INC Ransomware has become the primary threat actor leveraging recently disclosed vulnerabilities in SonicWall Secure Mobile Access 1000 series VPN appliances. Activity acceleration has been documented since early August 2026, with multiple victim organizations publicly listed on the group's data leak site.",
+    "sourceUrl": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+    "publishedAt": "2026-08-03T16:15:13.000Z",
+    "contentHash": "38a6c5f16ca16cff859f7d6212bb3d7b7def7fddcf7b0efeb1ed0c5012c1ae0b",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:darkreading-da93a0737e",
+    "tier": "event",
+    "category": "product-release",
+    "title": "New Tool Traces AI Videos Back to Their Source",
+    "summary": "Researchers have developed a tool capable of identifying the origin of AI-generated videos, addressing concerns around synthetic media provenance. The work aims to facilitate industry-wide collaboration on detection and protective measures against malicious deepfakes and manipulated content.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection",
+    "publishedAt": "2026-08-03T20:42:28.000Z",
+    "contentHash": "06c9b8bc5eeb0348b24428aff0fad755e874fdd97a217acab7c6b39ca40a5352",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:bleeping-490a320f59",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "gaming"
+    ],
+    "title": "Fake Roblox Xeno Script Launcher Distributes Infostealer and RAT Malware",
+    "summary": "Counterfeit installers purporting to be Xeno Executor, a Roblox script launcher, are being used to deliver malware capable of remote access and credential theft to gaming users. The distribution method exploits users seeking unauthorized game modification tools.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
+    "publishedAt": "2026-08-03T19:25:10.000Z",
+    "contentHash": "fdc028d2c151e767245b0d1563759bfefca7a8148d38b0ff4d635c5345619a2d",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:thehackernews-05bc9225a2",
+    "tier": "event",
+    "category": "news",
+    "title": "Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
+    "summary": "The week featured multiple incidents centered on excessive permissions and access control failures across diverse systems. Incidents included unauthorized AI model behavior, a significant cryptocurrency theft linked to compromised randomness, intrusions into webmail infrastructure, and DNS hijacking affecting critical water systems. Common factors included unpatched vulnerabilities, exposed infrastructure, supply-chain compromise, and weak default configurations.",
+    "sourceUrl": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+    "publishedAt": "2026-08-03T14:03:11.000Z",
+    "contentHash": "a6cf427f03919430dc3dd593fea67a18374ebe32fdd25d05953eb83c0aa7f08a",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:darkreading-9ddb39ff44",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Anthropic: Claude Incidents Attributed to Over-Permissioning Rather Than Model Vulnerabilities",
+    "summary": "Anthropic attributed recent incidents involving Claude AI model breaches to excessive system permissions and unrestricted internet access rather than inherent model flaws. The company indicated that proper access controls and permission scoping would have prevented the observed compromises.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
+    "publishedAt": "2026-08-03T20:31:12.000Z",
+    "contentHash": "44ead35dacabe87d0c0e76f028ad0f47567ae1d859f06caa15a69b85db89c64a",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:bleeping-1ebcd51a83",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "managed services",
+      "it operations"
+    ],
+    "title": "N-able Warns of N-central Authentication Bypass Vulnerability Under Active Exploitation",
+    "summary": "N-able has disclosed that threat actors are actively exploiting an authentication bypass vulnerability (CVE-2026-18577) in N-central infrastructure management software, affecting both cloud-hosted and on-premises deployments. The flaw permits unauthorized access to affected systems without valid credentials.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+    "publishedAt": "2026-08-03T17:00:56.000Z",
+    "contentHash": "f4e2b3909fd5471173b36d6fd21df8143c46a39cc4a5b1fd804392d59bd64234",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:thehackernews-02e9c00b5f",
+    "tier": "event",
+    "category": "strategy",
+    "title": "AI Integration in Security Operations Centers: Moving Beyond Adoption Decisions",
+    "summary": "Security leaders are increasingly adopting AI platforms such as Claude and Cursor to enhance SOC capabilities, including detection engineering, alert investigation, and incident summarization. The industry discussion has shifted from evaluating whether AI should be deployed in security operations to identifying specific use cases where different AI tools deliver optimal value.",
+    "sourceUrl": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+    "publishedAt": "2026-08-03T11:30:00.000Z",
+    "contentHash": "f0760080bd81fa17c885914ee22e7be781111ef45a1d9c5a67b5cc450e54cc90",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:darkreading-506af16cb0",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Chinese Actor Leverages Deepseek AI Agent for Proxyjacking Campaign",
+    "summary": "Researchers identified a compromised Deepseek AI agent deployed by a Chinese threat actor targeting over 1,200 hosts for proxyjacking purposes. The weaponized agent was designed to establish proxy access on victim systems to facilitate downstream attack operations against security infrastructure.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
+    "publishedAt": "2026-08-03T15:42:18.000Z",
+    "contentHash": "68731cfd1425e9a06f010bbc6f760519235aa800021d3ef8860f63e1093ad15a",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:bleeping-a15b4f3614",
+    "tier": "event",
+    "category": "attack",
+    "region": "uk",
+    "industries": [
+      "government",
+      "law enforcement"
+    ],
+    "title": "ExfilSquad breaches UK Police National Legal Database, exposing 100,000+ officer records",
+    "summary": "Threat actors from the ExfilSquad group have compromised the Police National Legal Database, affecting contact information for over 100,000 UK law enforcement and criminal justice personnel. The breach represents a significant exposure of government employee data within the UK policing infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+    "publishedAt": "2026-08-03T15:04:39.000Z",
+    "contentHash": "06633131c34670be0a5d6c862e2be0e2f78d530e0def4e43446f62d86cfced3c",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8f03bf579a",
+    "tier": "event",
+    "category": "attack",
+    "title": "Chinese Threat Actor Leverages Leaked DarkSword Kit for iOS GHOSTBLADE Campaign",
+    "summary": "A Chinese-speaking threat actor has conducted a campaign against iOS devices using a publicly disclosed version of the DarkSword exploit kit, according to Censys. The actor operated over 100 web properties, predominantly spoofed AWS login pages hosted on a single domain alongside the exploit kit.",
+    "sourceUrl": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+    "publishedAt": "2026-08-03T10:49:06.000Z",
+    "contentHash": "0a220f42fce2b688bc61ede153c6d50012d04378d8af0ea4c36570522dd2b152",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
+  },
+  {
+    "id": "knowledge:darkreading-0ed79529e1",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Is There Really a Fix for CISO Fatigue?",
+    "summary": "CISOs frequently experience burnout due to structural misalignment between their accountability for security outcomes and their actual organizational authority to enforce policy. The issue reflects a systemic gap in how enterprises distribute security responsibility, requiring organizational-level interventions beyond individual resilience measures.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/fix-for-ciso-fatigue",
+    "publishedAt": "2026-08-03T14:00:00.000Z",
+    "contentHash": "29a525a7b027c6883d266cf3112e1980c8688e7f0a2152d55b3a7f92872fcd6c",
+    "ingestedAt": "2026-08-04T07:47:51.939Z"
   }
 ]

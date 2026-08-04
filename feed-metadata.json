@@ -2091,5 +2091,103 @@
     ],
     "category": "threat-intel",
     "publishedAt": "2026-08-03T06:40:31.000Z"
+  },
+  "knowledge/bleeping-d3d8e65b0f.md": {
+    "region": "global",
+    "industries": [
+      "hospitality"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-08-04T00:17:15.000Z"
+  },
+  "knowledge/thehackernews-5e41b682e2.md": {
+    "region": "apac",
+    "industries": [
+      "software development",
+      "cloud platforms"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-03T18:43:53.000Z"
+  },
+  "knowledge/darkreading-f9d8aff206.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-04T07:00:00.000Z"
+  },
+  "knowledge/sans-isc-a783069bdc.md": {
+    "category": "news",
+    "publishedAt": "2026-08-04T02:00:03.000Z"
+  },
+  "knowledge/bleeping-3356ba58fa.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-03T23:58:01.000Z"
+  },
+  "knowledge/thehackernews-5264422e42.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-03T16:24:47.000Z"
+  },
+  "knowledge/darkreading-f765a9e7ad.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-03T21:21:11.000Z"
+  },
+  "knowledge/bleeping-1074e28188.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-03T20:01:22.000Z"
+  },
+  "knowledge/thehackernews-5c95936bd1.md": {
+    "category": "attack",
+    "publishedAt": "2026-08-03T16:15:13.000Z"
+  },
+  "knowledge/darkreading-da93a0737e.md": {
+    "category": "product-release",
+    "publishedAt": "2026-08-03T20:42:28.000Z"
+  },
+  "knowledge/bleeping-490a320f59.md": {
+    "industries": [
+      "gaming"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-03T19:25:10.000Z"
+  },
+  "knowledge/thehackernews-05bc9225a2.md": {
+    "category": "news",
+    "publishedAt": "2026-08-03T14:03:11.000Z"
+  },
+  "knowledge/darkreading-9ddb39ff44.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-03T20:31:12.000Z"
+  },
+  "knowledge/bleeping-1ebcd51a83.md": {
+    "industries": [
+      "managed services",
+      "it operations"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-03T17:00:56.000Z"
+  },
+  "knowledge/thehackernews-02e9c00b5f.md": {
+    "category": "strategy",
+    "publishedAt": "2026-08-03T11:30:00.000Z"
+  },
+  "knowledge/darkreading-506af16cb0.md": {
+    "region": "global",
+    "category": "attack",
+    "publishedAt": "2026-08-03T15:42:18.000Z"
+  },
+  "knowledge/bleeping-a15b4f3614.md": {
+    "region": "uk",
+    "industries": [
+      "government",
+      "law enforcement"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-03T15:04:39.000Z"
+  },
+  "knowledge/thehackernews-8f03bf579a.md": {
+    "category": "attack",
+    "publishedAt": "2026-08-03T10:49:06.000Z"
+  },
+  "knowledge/darkreading-0ed79529e1.md": {
+    "category": "strategy",
+    "publishedAt": "2026-08-03T14:00:00.000Z"
   }
 }
