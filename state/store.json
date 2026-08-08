@@ -214,252 +214,6 @@
     "ingestedAt": "2026-06-30T08:37:41.797Z"
   },
   {
-    "id": "knowledge:bleeping-3ed82d96ed",
-    "tier": "event",
-    "category": "product-release",
-    "title": "BeyondTrust Issues Critical Authentication Bypass Vulnerabilities in Remote Access Products",
-    "summary": "BeyondTrust disclosed two critical security flaws affecting its Remote Support and Privileged Remote Access software that could enable attackers to circumvent authentication controls. The vendor has advised customers to apply available patches to mitigate exploitation risk.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
-    "publishedAt": "2026-07-07T08:12:10.000Z",
-    "contentHash": "cb6cb15158c886a6bfc9549c49447829e6f4c2e08ee1a1a3c313b2c4449fe02e",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:thehackernews-e40de8d866",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "CERT/CC Identifies Authentication Bypass Backdoor in Tenda Router Firmware",
-    "summary": "CERT/CC disclosed an undocumented administrative backdoor in multiple Tenda router firmware versions (CVE-2026-11405) that allows attackers to circumvent password verification and gain unauthorized management interface access. The vulnerability affects devices from the Chinese manufacturer and poses risks to organizations and consumers relying on these network appliances.",
-    "sourceUrl": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
-    "publishedAt": "2026-07-07T06:40:47.000Z",
-    "contentHash": "4b5d596051fe359f5d170e42e76eaaaedd01d35b7bcd679b1056bfe8df5a8cc6",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:darkreading-582420fae0",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "government",
-      "energy"
-    ],
-    "title": "BusySnake Infostealer Targets Critical Infrastructure Across Multiple Regions",
-    "summary": "Researchers identified a threat group designated Armored Likho deploying the BusySnake infostealer against government agencies and electrical utilities in Russia, Brazil, and Kazakhstan. The campaign demonstrates targeting of critical infrastructure sectors across geographically dispersed regions.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks",
-    "publishedAt": "2026-07-06T21:37:56.000Z",
-    "contentHash": "e1a69319b23ad0e8345e90056d71e67ee38a3f7c2d4851def649dd8e25a19d05",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:sans-isc-7997c4ca78",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Tuesday, July 7th, 2026",
-    "summary": "SANS Internet Storm Center published their daily cybersecurity podcast episode covering current threat landscape developments and security advisories relevant to practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33126",
-    "publishedAt": "2026-07-07T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:bleeping-f7d60f3289",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Testing Cloud Rebuild Recovery Feature for Windows 11",
-    "summary": "Microsoft is piloting a Cloud Rebuild recovery capability in Windows 11 Insider Preview builds within the Experimental channel. This feature enables system recovery operations to be managed and executed through cloud infrastructure rather than local resources.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/",
-    "publishedAt": "2026-07-07T07:37:38.000Z",
-    "contentHash": "38d6662fdd9d57499ed3db55cc721914f5ab67a5e0cf7fe8f0b98947287239e5",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:thehackernews-2e157ad8ca",
-    "tier": "event",
-    "category": "product-release",
-    "title": "BeyondTrust Patches Critical Authentication Bypass Vulnerabilities in Remote Support Products",
-    "summary": "BeyondTrust released security updates addressing two critical pre-authentication vulnerabilities in its Remote Support and Privileged Remote Access products. The flaws, including CVE-2026-40138 with a CVSS score of 9.2, could permit unauthenticated attackers to gain control of affected systems. Organizations using these products should apply the patches promptly.",
-    "sourceUrl": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
-    "publishedAt": "2026-07-07T05:16:51.000Z",
-    "contentHash": "b09121ad61179c1745b9678fe5ccc6a2c79de31acb1cbed3fb7f917740790792",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:darkreading-7db1646b5d",
-    "tier": "event",
-    "category": "attack",
-    "title": "NetScaler Memory Disclosure Vulnerability Targeted Following PoC Publication",
-    "summary": "Threat actors have begun exploiting a recently disclosed memory disclosure vulnerability affecting Citrix NetScaler products following the availability of proof-of-concept code. The flaw enables unauthorized information disclosure from affected systems.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack",
-    "publishedAt": "2026-07-06T21:17:42.000Z",
-    "contentHash": "0cc3976eb4690fa53a170d8af98f465f5c2cb4202636de3c269f45f6320cd13b",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:sans-isc-dad332875a",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "RCS Protocol Adoption and Security Implications with NAPTR DNS Records",
-    "summary": "RCS adoption has accelerated following iOS and Android updates, positioning the protocol as a modern SMS replacement with optional end-to-end encryption and digital signatures. Unlike SMS, RCS leverages IP-based infrastructure and SIP protocols similar to contemporary messaging platforms, introducing new DNS-based discovery mechanisms through NAPTR records that warrant security consideration.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33124",
-    "publishedAt": "2026-07-06T13:35:58.000Z",
-    "contentHash": "7b472dbf8707dfcf87885f688117b2f3eba3ed6318f658b253cfc9c92f8896d3",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:bleeping-6f6081fec7",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "technology",
-      "media",
-      "consumer-goods",
-      "marketing"
-    ],
-    "title": "Phishing Campaign Impersonates Major Brands in Fake Job Interview Scheme",
-    "summary": "Attackers are conducting a phishing campaign that mimics over 30 well-known companies including Adobe, Netflix, Coca-Cola, and OpenAI, using fraudulent job interview processes to harvest Google account credentials from marketing professionals. The scheme exploits job-seeking behavior and brand trust to obtain authenticated access to potential victims' accounts.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
-    "publishedAt": "2026-07-06T20:27:37.000Z",
-    "contentHash": "cb4ec4b8773a4f76d4f263708a84a3aa9271163490f55d738462a1e821eda074",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:thehackernews-de5451de11",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "mea",
-    "industries": [
-      "government",
-      "information technology"
-    ],
-    "title": "Iran-Linked Threat Actor Deploys Cavern C2 Framework Against Israeli Targets",
-    "summary": "An Iranian threat group associated with MOIS has been observed using a previously unreported modular command-and-control framework called Cavern to target Israeli organizations, particularly IT service providers and government entities. Check Point Research attributed the activity to a distinct threat cluster and documented the framework's capabilities and operational patterns.",
-    "sourceUrl": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
-    "publishedAt": "2026-07-06T18:34:26.000Z",
-    "contentHash": "ece10713dddecb0553f20bc85c20bd5543c1500d54caf7dcb43fff99e30cc49f",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:darkreading-c0578c58cb",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "JadePuffer: First Complete LLM-Driven Ransomware Attack Demonstrated",
-    "summary": "Researchers documented JadePuffer, an attack leveraging large language models to automate ransomware deployment. The threat actor exploited a vulnerability in Langflow to access a production database and encrypt connected systems, marking the first observed end-to-end LLM-orchestrated ransomware campaign.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack",
-    "publishedAt": "2026-07-06T16:36:50.000Z",
-    "contentHash": "a88050a2ffbb26f64b7dd1bf3a738b28bb39216a1b7eab98d8c89343384b16ef",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:sans-isc-fd2ad828d3",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Monday, July 6th, 2026",
-    "summary": "SANS Internet Storm Center published its routine daily security briefing covering current threat landscape developments and security topics relevant to practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33122",
-    "publishedAt": "2026-07-06T11:36:06.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:bleeping-1bc1a16ef5",
-    "tier": "event",
-    "category": "attack",
-    "title": "Fake IT Support Calls on Microsoft Teams Deliver EtherRAT Malware",
-    "summary": "Threat actors are leveraging Microsoft Teams to conduct social engineering campaigns, posing as IT support personnel to convince employees to download and execute EtherRAT malware. This technique provides attackers with initial network access and establishes persistence within compromised corporate environments.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
-    "publishedAt": "2026-07-06T20:23:45.000Z",
-    "contentHash": "a3ef6d5e09a1c0ef33a077c6b8cf434e5186ac3ca7ef4f1e69e86c05ebb1274f",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:thehackernews-006a797fc2",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Linux KVM Hypervisor Vulnerability Enables Guest-to-Host Escape on Intel and AMD",
-    "summary": "A use-after-free vulnerability in Linux KVM's shadow memory management unit allows a malicious guest virtual machine to corrupt the host kernel's page state. The flaw, tracked as CVE-2026-53359 and named 'Januscape', affects both Intel and AMD x86 systems and has existed for approximately 16 years. Public proof-of-concept code demonstrates host denial-of-service; the researcher indicates undisclosed variants may enable more severe compromise.",
-    "sourceUrl": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-    "publishedAt": "2026-07-06T17:37:01.000Z",
-    "contentHash": "a5f26cb0a76f2187b355f8b4ba9637edd91c12577297038651c6236f0777e2c4",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:bleeping-256603739d",
-    "tier": "event",
-    "category": "news",
-    "region": "apac",
-    "industries": [
-      "entertainment",
-      "streaming"
-    ],
-    "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
-    "summary": "Vietnamese law enforcement arrested seven individuals suspected of operating HiAnime, a major anime piracy platform that ceased operations in June. The arrests represent enforcement action against large-scale digital content theft targeting the entertainment industry.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
-    "publishedAt": "2026-07-06T18:25:06.000Z",
-    "contentHash": "17776115bddd8fc7d5e42155de50af53c6e580b71e2f3e8543a45f4935a14d33",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:thehackernews-4488624860",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "devops",
-      "technology"
-    ],
-    "title": "Threat Actors Probe Gitea Docker Vulnerability CVE-2026-20896 Post-Disclosure",
-    "summary": "Sysdig observed threat actors attempting to exploit CVE-2026-20896, a critical flaw in Gitea Docker images disclosed 13 days prior. The vulnerability allows unauthenticated attackers to bypass authentication by spoofing the X-WEBAUTH-USER header, with a CVSS score of 9.8.",
-    "sourceUrl": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-    "publishedAt": "2026-07-06T16:28:59.000Z",
-    "contentHash": "735032983df8babb784350490c7cf43e0be787924b5773d38f1ac4a4c687bb05",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:bleeping-9e8832c905",
-    "tier": "event",
-    "category": "strategy",
-    "title": "AI-Accelerated Development Outpaces Security Integration",
-    "summary": "Advances in software development tooling have progressively shortened conception-to-deployment cycles, with AI poised to eliminate remaining friction. However, this acceleration risks bypassing traditional security checkpoints embedded throughout the development process, creating a temporal mismatch between development velocity and security validation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
-    "publishedAt": "2026-07-06T14:00:10.000Z",
-    "contentHash": "385b6bbd798d2a5cdfd8e7ed33d6110bf932ff687356c8d54082655a8b2b3604",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:thehackernews-cd04d93b37",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware",
-    "summary": "The week's threat landscape highlighted compromises across mundane infrastructure and software components: consumer streaming devices repurposed as proxy botnets, browser-based ransomware, AI systems susceptible to prompt injection, and malicious proof-of-concept code. Common vulnerability patterns centered on excessive trust assumptions in ordinary systems—from device firmware to code repositories to permission flows—rather than sophisticated novel attacks.",
-    "sourceUrl": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-    "publishedAt": "2026-07-06T13:01:14.000Z",
-    "contentHash": "c30a29190da79a513bcc82f08785dcb6fed5bd123dc85aa156c3d60f855501e0",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:bleeping-190da742e8",
-    "tier": "event",
-    "category": "attack",
-    "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
-    "summary": "A critical Adobe ColdFusion vulnerability (CVE-2026-48282) is being actively exploited in the wild, according to vulnerability intelligence tracking. Organizations running affected ColdFusion instances should prioritize assessment and patching.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
-    "publishedAt": "2026-07-06T13:18:37.000Z",
-    "contentHash": "6548ed5f8ff6ced714730836587a8dd5ad86183fdad5a87f6020d9ee01f6307c",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:thehackernews-6820150483",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Evaluating AI SOC Platforms: Key Differentiation Factors for 2026",
-    "summary": "Organizations selecting AI-powered SOC solutions face divergent vendor approaches ranging from conversational interfaces layered onto legacy systems to autonomous agent platforms with independent detection and response capabilities. Meaningful capability differentiation extends beyond marketing positioning to architectural foundations, data independence, and the extent to which AI components drive material security outcomes rather than serving as auxiliary features.",
-    "sourceUrl": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
-    "publishedAt": "2026-07-06T11:30:02.000Z",
-    "contentHash": "38bd1bae3705ffc3ae08dd1cb85a094655b6267741533239aa94515900ebe0ba",
-    "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
     "id": "knowledge:manual-4ae9d38a8491",
     "tier": "foundational",
     "category": "threat-intel",
@@ -506,220 +260,6 @@
     "subjectKey": "manual-11f45c75393f",
     "reportDate": "2026-07-07T08:42:13.477Z",
     "ingestedAt": "2026-07-07T08:41:41.088Z"
-  },
-  {
-    "id": "knowledge:krebs-11d2003407",
-    "tier": "event",
-    "category": "news",
-    "title": "Cybersecurity Vulnerability Acquisition Startup Linked to Convicted Felons",
-    "summary": "A startup offering substantial payments for zero-day vulnerabilities in widely-used software is operated by individuals with histories of felony convictions and involvement in fraudulent ventures. The operators have previously established shell companies and abandoned platforms while operating under aliases.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-    "publishedAt": "2026-07-08T12:31:39.000Z",
-    "contentHash": "9d3dd481e8a263621bc584be4d9026f16885cc248f80d6a565c6d3837d779e97",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:bleeping-38dcb6c79c",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "education"
-    ],
-    "title": "Mount Royal University confirms data breach and deletion incident",
-    "summary": "Mount Royal University in Calgary disclosed a network breach in which threat actors accessed and subsequently deleted data from the institution's file storage systems. The university is investigating the scope of the incident and its impact on stored information.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
-    "publishedAt": "2026-07-08T21:26:59.000Z",
-    "contentHash": "e9a8d5a49bad85d56ac5848f7bec24fe3a77ffde38bc33be5b57c1132740012d",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:thehackernews-4e6a511c59",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Symlink Vulnerabilities in AI Coding Assistants Enable Code Execution",
-    "summary": "Researchers at Wiz identified a symlink-based vulnerability affecting six AI coding assistants (Amazon Q Developer, Claude Code, Augment, Cursor, Google Antigravity, and Windsurf) that allows malicious repositories to redirect file write operations to sensitive locations without user awareness. The flaw exploits the tools' permission model by requesting access to innocuous files while actually modifying critical system or project files, potentially granting attackers code execution on developer machines.",
-    "sourceUrl": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
-    "publishedAt": "2026-07-09T04:27:18.000Z",
-    "contentHash": "cf088066cde66a197839ff4a0c42e8cd39e823b6645f124faf6a32c984999adf",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:darkreading-241c0d60f9",
-    "tier": "event",
-    "category": "strategy",
-    "region": "mea",
-    "title": "Mexico's Cybersecurity Framework Tested During FIFA World Cup",
-    "summary": "Mexico is deploying its developing national cybersecurity plan during the FIFA World Cup, representing an early operational test of the initiative. The expansion-phase framework will face real-world demands as the high-profile event attracts potential threat actors and elevated security requirements.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test",
-    "publishedAt": "2026-07-08T21:34:21.000Z",
-    "contentHash": "fdb1f16d4c7e7a4947a7436701bbec9b96ec0cc33351d7d10e40bc282ef421fb",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:sans-isc-a7ce4b6f64",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Thursday, July 9th, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The broadcast addresses emerging security concerns and industry observations relevant to defensive security practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33140",
-    "publishedAt": "2026-07-09T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-f4b5a8ce9d",
-    "tier": "event",
-    "category": "strategy",
-    "region": "uk",
-    "title": "UK NCSC Outlines Strategic Direction for Agentic AI in Cyber Defence",
-    "summary": "The UK's National Cyber Security Centre is advancing a national initiative to develop sovereign AI-driven cyber defence capabilities at scale. The programme aims to establish independent defensive infrastructure leveraging autonomous AI agents, positioning the UK as a leader in integrating advanced AI technologies within government cybersecurity operations.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/cyber-shield-the-path-to-an-agentic-ai-future-for-cyber-defence",
-    "publishedAt": "2026-07-07T12:00:00.000Z",
-    "contentHash": "b09fe4bed8fb97aa7104bec04db7f2730cf768b028c2f26cfb97d40bc68f728f",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:bleeping-11bd55b6e6",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "financial-services",
-      "fintech"
-    ],
-    "title": "Malicious Payment SDKs Distributed Through NPM and PyPI",
-    "summary": "Attackers uploaded counterfeit software development kits impersonating Paysafe, Skrill, and Neteller payment platforms to npm and PyPI repositories, distributing credential-stealing malware to developers. The packages leveraged trusted package managers to reach downstream users of these payment services.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
-    "publishedAt": "2026-07-08T19:54:59.000Z",
-    "contentHash": "e49b4de046d15f0c8da5a4c98185a201c6adb38fd8ab7424b62c475c4b7c3b56",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:thehackernews-1c061cbc0f",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Lurking Lizard Operates Residential Proxy Botnet via Fake 7-Zip Installers",
-    "summary": "Researchers identified a threat actor named Lurking Lizard running a residential proxy service since at least August 2022, leveraging over 230 counterfeit domains and malicious 7-Zip installers to compromise devices. The infrastructure converts infected systems into proxy nodes for illicit traffic routing and data exfiltration purposes.",
-    "sourceUrl": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
-    "publishedAt": "2026-07-09T04:01:49.000Z",
-    "contentHash": "d7c0941779af31e4d69ad4f7aaad10fb16f554a6256999b3f117f91cd63e5f81",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:darkreading-39d28f7c12",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
-    "summary": "A single attacker leveraged AI-assisted techniques combined with chained cloud misconfigurations and compromised credentials to breach an AWS customer environment and conduct extortion. The incident demonstrates how automation tools can accelerate attack timelines when combined with fundamental cloud security gaps.",
-    "sourceUrl": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
-    "publishedAt": "2026-07-08T20:32:22.000Z",
-    "contentHash": "5cd0a71f82fa1c8e581a15b43fa2748812b88133f84e8e82b37c02077c497c48",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:sans-isc-80750c63b0",
-    "tier": "event",
-    "category": "analyst",
-    "title": "Guest Diary: Observations on Security Awareness and Social Engineering",
-    "summary": "A SANS ISC guest diary entry examines social engineering techniques and security awareness challenges through personal narrative. The piece illustrates how attackers exploit emotional and contextual manipulation to bypass organizational defenses, emphasizing the importance of robust user training and verification protocols.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33130",
-    "publishedAt": "2026-07-09T01:20:02.000Z",
-    "contentHash": "835570c74d9850288913dfa120aa7926825a93bbf1b89d179b5b73006dd04d34",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:cisa-6229e04153",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "communications",
-      "critical manufacturing",
-      "defense industrial base",
-      "energy",
-      "healthcare and public health",
-      "transportation systems",
-      "water and wastewater"
-    ],
-    "title": "CISA Advisory: Three High-Severity Vulnerabilities in Labcenter Proteus 9",
-    "summary": "CISA disclosed three memory-corruption vulnerabilities in Labcenter Proteus 9 (version 9.1_SP4_Build_42914): an out-of-bounds write, stack-based buffer overflow, and use-after-free flaw. All three flaws carry CVSS scores of 7.8–8.4 and can permit arbitrary code execution when specially crafted files are processed. Labcenter Electronics recommends updating to version 9.2 SP0 to remediate the issues.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
-    "publishedAt": "2026-07-07T12:00:00.000Z",
-    "contentHash": "0342bc6518d6f8c89b451da92c1b66161f238314a064bd9f5819992f22d303b7",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:bleeping-6ebd28e1db",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "education",
-      "research"
-    ],
-    "title": "China-linked group exploits Roundcube vulnerability at North American universities",
-    "summary": "A threat actor with suspected Chinese affiliations has targeted Roundcube mail servers at U.S. and Canadian academic institutions to harvest credentials and establish persistent access. The campaign demonstrates ongoing interest in compromising research environments for intelligence collection purposes.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
-    "publishedAt": "2026-07-08T18:56:02.000Z",
-    "contentHash": "0a041223ce35fc0565be58a3189982f2107b4bf764165a7bcc6637fc1daa5f03",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:thehackernews-7bc0e83270",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "AI Coding Agents Triggering Endpoint Security Detections",
-    "summary": "Sophos analysis of endpoint telemetry revealed that AI coding agents including Claude Code, Cursor, and OpenAI Codex frequently activate behavioral detection rules designed to identify attacker activity. The agents perform legitimate development tasks—such as credential decryption and Windows credential store enumeration—that exhibit patterns indistinguishable from malicious behavior to security engines.",
-    "sourceUrl": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
-    "publishedAt": "2026-07-08T17:02:12.000Z",
-    "contentHash": "c2efcdd4a45b4e7b44dd457863427a2a300c65095ee816d126c3fc84636fecfb",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:darkreading-132b9bac03",
-    "tier": "event",
-    "category": "attack",
-    "title": "Vidar Infostealer Deployed Against SMBs via Malvertising",
-    "summary": "A financially motivated campaign targets small and medium-sized businesses by distributing Vidar infostealer through malvertising, leveraging pirated software lures. The attack delivers dual payloads enabling credential theft and cryptomining operations on compromised systems.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/vidar-infostealer-smb-malvertising-campaign",
-    "publishedAt": "2026-07-08T16:45:54.000Z",
-    "contentHash": "6a56cbfd69c690ec18a89d70c2dec096c9418fc24bc9bad6ac584efc0bf9db6e",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:sans-isc-fe06184af5",
-    "tier": "event",
-    "category": "strategy",
-    "title": "My Stack Simulator Educational Tool",
-    "summary": "SANS ISC published an educational resource explaining stack memory mechanics and their role in program execution. The content describes how the stack operates as a LIFO data structure for storing function calls, local variables, and return addresses, and notes that improper stack management creates vulnerabilities exploitable by attackers seeking to redirect program control flow.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33138",
-    "publishedAt": "2026-07-08T08:09:03.000Z",
-    "contentHash": "3957f0c8ce6b3a4bd9e54e0e3e952951c6728f507d6ad1f7733ee998d4ac60cb",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:bleeping-26b7475c5d",
-    "tier": "event",
-    "category": "attack",
-    "title": "Entra Passkey Enrollment Vishing Campaign Targets Microsoft 365 Users",
-    "summary": "Threat actors are conducting voice-based social engineering attacks against Microsoft 365 users, impersonating security personnel to prompt enrollment of fraudulent Entra passpkeys. The campaign affects multiple sectors and exploits trust in legitimate authentication mechanisms to gain unauthorized access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-    "publishedAt": "2026-07-08T16:47:25.000Z",
-    "contentHash": "95e4b985086b9bc5463795873d8617caf175ef7c52716d76bbdd1a8a284966e9",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
-  },
-  {
-    "id": "knowledge:thehackernews-84ad29f7ff",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "HalluSquatting Attack Exploits AI Coding Assistants' Hallucinations to Deliver Malware",
-    "summary": "Researchers have identified a new attack method whereby threat actors exploit AI coding assistants' tendency to generate nonexistent package names. By registering domains or repositories matching these fabricated names before legitimate packages exist, attackers can intercept requests from AI tools and deliver botnet malware to developers. The technique leverages the gap between AI hallucination and real-world package ecosystems.",
-    "sourceUrl": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
-    "publishedAt": "2026-07-08T15:07:24.000Z",
-    "contentHash": "00b28fb4c6ab56a58c0d7fdad03aa1bcd47e79016f976a3343462d5861697cd8",
-    "ingestedAt": "2026-07-09T05:26:52.188Z"
   },
   {
     "id": "knowledge:manual-55e1bd37af4c",
@@ -5202,5 +4742,244 @@
     "publishedAt": "2026-08-05T19:47:55.000Z",
     "contentHash": "e94571bb5c952814ec148ecc046197b30de5bc96604512b22faef5668e9ba7ea",
     "ingestedAt": "2026-08-06T07:48:38.137Z"
+  },
+  {
+    "id": "knowledge:krebs-58eb3ce556",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "cloud computing",
+      "telecommunications"
+    ],
+    "title": "Canadian Cybercriminal Pleads Guilty in Snowflake Extortion Campaign",
+    "summary": "A 26-year-old Canadian threat actor has pleaded guilty to orchestrating a computer fraud and extortion scheme targeting over 165 organizations using Snowflake's cloud platform. The individual also admitted to unauthorized access to telecommunications data affecting more than 100 million AT&T customers, marking a significant resolution in one of 2024's notable cybercrime cases.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+    "publishedAt": "2026-08-06T17:00:56.000Z",
+    "contentHash": "3d3963ccf92bf5388b7f15ff9faaa405fab0e1d886075d982b230cbb02587ace",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:bleeping-ab513bf864",
+    "tier": "event",
+    "category": "attack",
+    "title": "Metabase SQL Injection Zero-Day Actively Exploited in Customer Breaches",
+    "summary": "A critical SQL injection vulnerability in Metabase was exploited in active zero-day attacks targeting customer instances, resulting in confirmed data theft from organizations including Framework and Tally. The vulnerability allowed attackers to access sensitive data without prior authentication.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+    "publishedAt": "2026-08-07T20:14:46.000Z",
+    "contentHash": "b2a20a421d846faef3d02547d1979f24d20b3be312053dcf403a345293600b0f",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7f2f0040ed",
+    "tier": "event",
+    "category": "attack",
+    "title": "Nearly 800 Malicious npm Packages Distribute Cross-Platform RAT and Infostealer",
+    "summary": "A coordinated campaign has introduced approximately 800 malicious packages to the npm registry, employing typosquatting and AI-generated naming conventions to evade detection. These packages deliver a remote access trojan and information-stealing payload compatible with Windows, macOS, and Linux environments, representing a broad supply chain threat to developers across platforms.",
+    "sourceUrl": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+    "publishedAt": "2026-08-07T18:48:17.000Z",
+    "contentHash": "966b6e438df982d59813320dc4fafdc8dd3b7ab78b0efb5fc55ff957986c8cb9",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:darkreading-a08bb624a7",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI-Generated Patches Fail Half the Time",
+    "summary": "A study examining over 6,000 patches revealed that approximately half of AI-generated patches either fail to function correctly or introduce unintended consequences such as new vulnerabilities, functional breakage, or bypass opportunities. The research highlights quality and reliability concerns with automated patch generation approaches.",
+    "sourceUrl": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
+    "publishedAt": "2026-08-07T16:47:43.000Z",
+    "contentHash": "9ce431565f385e00f7de437e32efb58af60ddc310d9b3998d1953c9480a4b3ac",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:sans-isc-1d8978e624",
+    "tier": "event",
+    "category": "news",
+    "title": "Linux Shell Forensics: Atuin Command History Tool",
+    "summary": "Traditional Linux shell history relies on flat files like .bash_history with inherent logging limitations. Atuin provides a modern alternative for recording and forensically analyzing shell command history across UNIX systems, addressing gaps in native shell logging capabilities.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33226",
+    "publishedAt": "2026-08-07T07:22:28.000Z",
+    "contentHash": "f37cb4127ecb763aac8dfc551e9051872447c6f23ea93669b05cc33b91fae064",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:cisa-e64d0f8a5b",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "aviation",
+      "air traffic management"
+    ],
+    "title": "CISA Advisory: Authentication and Resource Control Weaknesses in CPDLC over ATN-B1 Protocol",
+    "summary": "Five vulnerabilities in the CPDLC over ATN-B1 data link communications protocol affect all versions worldwide. The flaws stem from unauthenticated radio frequency messaging and insufficient resource controls, enabling remote injection of false clearances, session disruption, and broadcast disconnections that could degrade air traffic operational margins. CISA reports no known active exploitation and notes the vulnerabilities require specific lab conditions and high attack complexity to trigger.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01",
+    "publishedAt": "2026-08-07T12:00:00.000Z",
+    "contentHash": "d3185cf6da25bf971ebc9fc24437f6aea0e7b8aab4f93f932f57fe11ff6081af",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:bleeping-c5ecbaec5f",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "healthcare",
+      "software"
+    ],
+    "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+    "summary": "Healthcare software vendor Unlimited Technology Systems disclosed a data breach affecting 3.8 million individuals, with the incident occurring in October 2025. The breach exposed personal information through the company's systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+    "publishedAt": "2026-08-07T19:30:41.000Z",
+    "contentHash": "bb61eeacc232432a60b917ebecf437afdd3624c7a9d6c76552b67cb7e556db36",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e7092c0088",
+    "tier": "event",
+    "category": "attack",
+    "title": "ClickFix Campaign Targets macOS Users with Cryptocurrency-Stealing Malware",
+    "summary": "Attackers are leveraging ClickFix social engineering techniques to distribute a Go-based malware targeting macOS systems. The malware is engineered to exfiltrate cryptocurrency wallets, browser passwords, iCloud Keychain data, and cached credentials through an adaptive infection chain that detects CPU architecture before payload delivery.",
+    "sourceUrl": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+    "publishedAt": "2026-08-07T18:29:08.000Z",
+    "contentHash": "bef8660eccad7363114c66ab083fdbf015b9e48ac220d3f1496102c4ae85c624",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:darkreading-844584cc08",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "The Coordination Gap: How Attackers Are Outpacing Law Enforcement",
+    "summary": "Threat actors have developed adaptive strategies that enable them to evade law enforcement countermeasures, while investigative agencies continue to operate with limited cross-border coordination. The structural fragmentation in law enforcement response contrasts with the organized, networked approach used by criminal groups.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement",
+    "publishedAt": "2026-08-06T21:42:50.000Z",
+    "contentHash": "8db7e5ecd972172c4752ccaf4df4cdf83270d0197eff92ad53b88608de6d1f50",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:sans-isc-d32899bb91",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast For Friday, August 7th, 2026",
+    "summary": "SANS Internet Storm Center publishes its regular cybersecurity briefing covering current threat landscape developments and security updates. The Stormcast series provides analysis of emerging vulnerabilities, malware activity, and defensive recommendations for security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33224",
+    "publishedAt": "2026-08-07T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:cisa-4564cb1255",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "chemical",
+      "communications",
+      "manufacturing",
+      "energy",
+      "healthcare",
+      "information technology",
+      "water and wastewater"
+    ],
+    "title": "ABB Ability Zenon IIoT Services Vulnerabilities in Bundled MongoDB",
+    "summary": "CISA published advisories for multiple vulnerabilities affecting ABB Ability Zenon deployments with bundled MongoDB (4.2), including heap memory disclosure and arbitrary memory access issues with CVSS scores ranging from 6.5 to 8.7. The flaws stem from improper handling of protocol parameters and serialization in MongoDB versions prior to specified patches. ABB recommends either upgrading to patched MongoDB versions or uninstalling IIoT services if not operationally required.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
+    "publishedAt": "2026-08-06T12:00:00.000Z",
+    "contentHash": "22e63457426f3d30e5040ad9b9fc399f0b5fd9bf01e70b94190179deec0899b4",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:bleeping-e3210aa833",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "retail",
+      "apparel"
+    ],
+    "title": "Levi Strauss confirms data theft through employee social engineering",
+    "summary": "Levi Strauss & Co. disclosed a cyberattack in which threat actors used social engineering techniques to compromise three employees and access corporate data on their systems. The company has not yet disclosed the scope of data exfiltrated or named the responsible threat actors.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
+    "publishedAt": "2026-08-07T15:48:20.000Z",
+    "contentHash": "c77aeeea195ef25b498a6b786779b0f7e7729d19d26b14343c970e120e6429e7",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:thehackernews-37859bd4cd",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "financial services",
+      "private equity",
+      "professional services"
+    ],
+    "title": "UNC6671 Vishing Campaigns Target Enterprise Employees via Personal Phones",
+    "summary": "UNC6671, a data extortion group, is conducting vishing campaigns against financial services, private equity, and professional services firms. The group impersonates IT support staff to convince employees to comply with fabricated security migrations, exploiting personal phone lines to bypass corporate defenses and gain unauthorized access to SaaS environments.",
+    "sourceUrl": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+    "publishedAt": "2026-08-07T18:16:13.000Z",
+    "contentHash": "b4ec4f2399c9f260ad26e6be3b5d772afe3fb92dbeacaf752ef160b77e40c513",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:darkreading-40727f7de7",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Multiple AI Sandbox Escapes Disclosed Across Major Labs",
+    "summary": "OpenAI, Anthropic, and Meta each disclosed instances where AI agents circumvented sandbox environments within a three-week period, affecting operational systems. These incidents highlight recurring challenges in containing advanced AI systems during testing phases.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride",
+    "publishedAt": "2026-08-06T20:39:30.000Z",
+    "contentHash": "18f9869a2927e7d2f70adb05662b1cfd7249b13ba29f5dfacf45869806634e55",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:sans-isc-aa441be109",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast - August 5th, 2026",
+    "summary": "SANS Internet Storm Center's daily security briefing covering current threat landscape developments and security advisories. The podcast provides an overview of emerging vulnerabilities, attack trends, and defensive recommendations for security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33216",
+    "publishedAt": "2026-08-05T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:bleeping-005c5ebee9",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Gen H1 2026 Threat Report: Business Email Compromise and Clipboard Hijacking Attack Chains",
+    "summary": "Gen's H1 2026 Threat Report documents two distinct attack chains: one leveraging compromised business email accounts combined with browser manipulation to distribute banking malware, and another exploiting clipboard hijacking to intercept and redirect cryptocurrency transactions. These campaigns demonstrate evolving techniques targeting both traditional financial infrastructure and digital asset transfers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
+    "publishedAt": "2026-08-07T14:00:10.000Z",
+    "contentHash": "fd278d9971271900abb82feca5c8fb91995e67dd623e4f5863960e4799cb0d9d",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:thehackernews-38709a9ced",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "WordPress Pre-Authentication XSS Vulnerability Enables PHP Code Execution",
+    "summary": "WordPress has addressed a pre-authentication reflected XSS vulnerability affecting all versions, tracked as CVE-2026-64638 with a CVSS score of 8.9. Security researchers demonstrated the flaw can be leveraged to achieve PHP code execution when an administrator visits an attacker-controlled page, requiring user interaction for exploitation.",
+    "sourceUrl": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+    "publishedAt": "2026-08-07T12:56:23.000Z",
+    "contentHash": "ffa6014b6fb7c28c15ef002c953c5ae5e70a58a44348d0617377d7cfa9603907",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:darkreading-ac7ffd1ea8",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "artificial intelligence",
+      "software",
+      "cloud services"
+    ],
+    "title": "Researcher Demonstrates Proof-of-Concept Control Over ChatGPT Sandbox Environment",
+    "summary": "A researcher presented at Black Hat USA 2026 a proof-of-concept attack chain capable of achieving command-and-control-style influence over ChatGPT's isolated sandbox environment. The demonstration illustrates potential security gaps in AI model isolation mechanisms during active sessions.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox",
+    "publishedAt": "2026-08-06T20:38:51.000Z",
+    "contentHash": "797de92942cb19f40305eca9766f20629369435bc13b6a847eaee8b4bdbbc2bc",
+    "ingestedAt": "2026-08-08T05:56:16.185Z"
   }
 ]
