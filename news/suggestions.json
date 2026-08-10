@@ -1,5 +1,25 @@
 [
   {
+    "id": "windows-webauthn-login-fixed",
+    "date": "2026-08-10",
+    "tag": "security",
+    "channel": "both",
+    "title": "Windows WebAuthn login fixed",
+    "summary": "Sign-in now works on Windows when using a passkey or security key.",
+    "body": "A mismatch between the client's `userVerification: \"preferred\"` setting and the server's stricter `required` check caused authentication to fail silently on Windows while macOS, iOS, and Android were unaffected. The client and server now agree on `required`, so Windows users can log in without workarounds. Update your self-hosted instance to pick up the fix.",
+    "why": "Drafted from a recent product change."
+  },
+  {
+    "id": "self-hosted-caps-now-enforced-in-code",
+    "date": "2026-08-10",
+    "tag": "feature",
+    "channel": "both",
+    "title": "Self-hosted caps now enforced in code",
+    "summary": "The free self-hosted edition is now hard-limited to 30 CISO panels and 10 industries.",
+    "body": "Previously the 30-panel / 10-industry limits for the self-hosted edition were documented but not enforced — the binary silently inherited the cloud scaling logic. Those caps are now checked at runtime, so the build behaves exactly as described on the pricing page. If you need higher limits, the hosted plan remains the path forward.",
+    "why": "Drafted from a recent product change."
+  },
+  {
     "id": "xss-and-dns-rebinding-ssrf-vulnerabilities-patch",
     "date": "2026-08-03",
     "tag": "security",
