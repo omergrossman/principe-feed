@@ -275,568 +275,6 @@
     "ingestedAt": "2026-07-09T05:26:52.188Z"
   },
   {
-    "id": "knowledge:bleeping-ebb3f12406",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "title": "Former incident response employee sentenced for BlackCat ransomware involvement",
-    "summary": "A former DigitalMint employee received a 70-month prison sentence for participation in BlackCat ransomware attacks targeting U.S. companies. The case highlights insider risk within incident response organizations and the criminal liability associated with ransomware operations.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
-    "publishedAt": "2026-07-10T08:17:52.000Z",
-    "contentHash": "c23d1a9658ed3ea238047c1f994d40c5d915188fca713f08e58bbb0246abe4a7",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:darkreading-867d4cd0c1",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Iran's Cyber Operations Expand Beyond Critical Infrastructure Targets",
-    "summary": "Iranian threat actors are broadening their targeting scope beyond traditional critical infrastructure, focusing on internet-facing vulnerabilities across diverse organizational types. Security researchers note that public exposure of any networked system creates exploitation risk from multiple threat groups operating from or aligned with Iranian interests.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure",
-    "publishedAt": "2026-07-09T20:32:00.000Z",
-    "contentHash": "8afa7d5ed302a15ad9cb0c5cd5b52529d32df2bd282f289305ef5204e361d586",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:sans-isc-6e57921704",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Friday, July 10th, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast episode covering recent cybersecurity developments and threat landscape updates relevant to security practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33142",
-    "publishedAt": "2026-07-10T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-7d76798b81",
-    "tier": "event",
-    "category": "regulation",
-    "region": "uk",
-    "title": "NCSC Introduces Alternative Pathway to Cyber Essentials Plus Certification",
-    "summary": "The UK's National Cyber Security Centre has announced a new route to achieving Cyber Essentials Plus certification that maintains scheme rigor while offering flexibility. This pathway addresses certification accessibility while preserving the security standards expected of the scheme.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/cyber-essentials-pathways-from-proof-of-concept-to-cyber-confidence",
-    "publishedAt": "2026-07-09T12:00:00.000Z",
-    "contentHash": "f8b089a1e293d1d054e2535e058a84ed980815c0e0460c1fee8baa25ef9b6b93",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:bleeping-9b18f93d36",
-    "tier": "event",
-    "category": "news",
-    "title": "OpenMandriva Linux reports attempted internal sabotage by contributor",
-    "summary": "OpenMandriva Linux disclosed that a contributor attempted to sabotage the project following disagreements within the development community. The incident highlights risks associated with open-source project governance and contributor access controls.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
-    "publishedAt": "2026-07-09T22:14:13.000Z",
-    "contentHash": "e57b12ba2fd93c88ba355f9a9bd86c0f76b38d09bd0f1a6d95756307cec3fa88",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:thehackernews-eb95a634a0",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "GigaWiper Windows Backdoor Combines Multiple Destructive Capabilities",
-    "summary": "Microsoft identified GigaWiper, a Windows backdoor that integrates three distinct destructive functions selectable by operators: full disk wiping, Windows drive overwriting, and fake ransomware that encrypts files without saving decryption keys. The modular design allows attackers to choose their destruction method, making it a flexible tool for data destruction campaigns.",
-    "sourceUrl": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-    "publishedAt": "2026-07-09T18:08:07.000Z",
-    "contentHash": "3348307d955ad3e8bc09f84897fbf2c662680765512f63cbacf8a0092a7d08d9",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:darkreading-ac5b93a7e0",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Microsoft Addresses RoguePlanet Zero-Day Vulnerability in Windows Defender",
-    "summary": "A researcher published a proof-of-concept exploit for a Windows Defender vulnerability in June, following disclosure of multiple other Microsoft zero-day vulnerabilities. The publication of functional exploit code increases the practical risk associated with the flaw.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat",
-    "publishedAt": "2026-07-09T20:21:19.000Z",
-    "contentHash": "7cc084db74e38f5846c46859ad86f70f9af881fe85cf7bbbed296750b03b3cae",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:sans-isc-7295de9f9a",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast - July 8th, 2026",
-    "summary": "The SANS Internet Storm Center's daily podcast briefing covers current cybersecurity developments and threat landscape updates relevant to defensive practitioners and security professionals.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33136",
-    "publishedAt": "2026-07-08T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:bleeping-8ff145c88e",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "software",
-      "cryptocurrency",
-      "financial-services"
-    ],
-    "title": "Injective SDK npm Package Compromised with Wallet-Stealing Malware",
-    "summary": "Attackers gained unauthorized access to the Injective Labs SDK GitHub repository and published a malicious package to npm that harvested cryptocurrency wallet private keys and seed phrases. The compromise demonstrates supply-chain vulnerabilities in open-source package distribution channels.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
-    "publishedAt": "2026-07-09T20:10:00.000Z",
-    "contentHash": "d252008bf34593512e6f156289d1ddf5fc511c1c26c408a945eeabea2ebd1104",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:thehackernews-470b8adce7",
-    "tier": "event",
-    "category": "product-release",
-    "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
-    "summary": "npm version 12 has disabled install scripts by default, requiring explicit opt-in to execute automated scripts during package installation. The release also deprecates granular access tokens that previously circumvented two-factor authentication, strengthening supply chain security posture.",
-    "sourceUrl": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-    "publishedAt": "2026-07-09T16:49:02.000Z",
-    "contentHash": "457d204816661f3e3b8ee68199e7c2441b5b8e7802fe63a5645fd5a229899785",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:darkreading-5ce3032e24",
-    "tier": "event",
-    "category": "strategy",
-    "title": "AI Agents Require Distinct Identity Management Approaches Beyond Traditional Service Accounts",
-    "summary": "Organizations are applying outdated identity management practices to AI agents by treating them similarly to service accounts and API tokens, an approach that fails to address their unique operational characteristics. Security leaders need to develop specialized frameworks for AI agent authentication, authorization, and lifecycle management rather than extending existing infrastructure designed for static credentials.",
-    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/ai-agents-new-kind-identity-most-organizations-not-ready",
-    "publishedAt": "2026-07-09T19:16:02.000Z",
-    "contentHash": "e82d0b0a382f237e59c9df05300c037460f7bc7ce03176a496240f1be99ae2fa",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:sans-isc-5b9247713f",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "NIMLOC DNS Records Observed in Security Monitoring",
-    "summary": "Security researchers have identified NIMLOC DNS records appearing in monitoring logs, a record type that remains relatively uncommon in typical network traffic. The records were observed alongside discussion of NAPTR records and their relationship to RCS protocols, suggesting potential use in communication-related infrastructure or anomalous DNS activity.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33128",
-    "publishedAt": "2026-07-07T18:09:04.000Z",
-    "contentHash": "4d3551b617d332a298249062f22089120266b903e9a8b8324afec724b17eb539",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:bleeping-d7c8b88ca3",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Helix group targets SharePoint with vishing and MFA abuse tactics",
-    "summary": "A newly identified threat group named Helix is conducting data theft campaigns against SharePoint environments using voice phishing, device code phishing, and MFA circumvention techniques. The group appears to be operating an extortion model based on stolen data.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
-    "publishedAt": "2026-07-09T17:08:29.000Z",
-    "contentHash": "3c55a3729e4c3d22367d58e99e4e5b09fdc950622cbd22a68936023bf4ba9157",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:thehackernews-0ade65d4f7",
-    "tier": "event",
-    "category": "news",
-    "region": "global",
-    "title": "ThreatsDay: Weekly Security Incidents Including Cloud Misconfigurations and Windows Vulnerabilities",
-    "summary": "This week's security incidents highlight operational failures rather than sophisticated attacks, including cloud bucket hijacking, Windows local privilege escalation chains, and a global fraud disruption. Common themes involve misconfiguration, credential compromise, and trusted tool abuse—often remaining undetected until financial or operational impact becomes apparent.",
-    "sourceUrl": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-    "publishedAt": "2026-07-09T15:09:28.000Z",
-    "contentHash": "857d14803ca8a5c42951f14996f3f7a559fb4c67f0c7953180ffd1b54ae30e8b",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:darkreading-3a28be8d62",
-    "tier": "event",
-    "category": "strategy",
-    "region": "global",
-    "title": "Cyberwarfare Impacts Extend Beyond Direct Conflict Zones to Global Business Operations",
-    "summary": "Recent incidents involving Ukrainian technology companies demonstrate how digital warfare associated with geopolitical conflicts can affect businesses worldwide, not just those in affected regions. Organizations globally are reassessing their operational resilience and cybersecurity strategies to account for the expanded threat surface created by state-sponsored cyber activities.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans",
-    "publishedAt": "2026-07-09T14:31:20.000Z",
-    "contentHash": "d00638f9010561a08d42f7c30cdded88481b2cda0617b594df5253d8a51a67e8",
-    "ingestedAt": "2026-07-10T08:40:01.639Z"
-  },
-  {
-    "id": "knowledge:bleeping-3876d90cd5",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Six U-Boot Bootloader Vulnerabilities Disclosed",
-    "summary": "Six vulnerabilities have been identified in U-Boot, a widely deployed bootloader used across embedded devices and IoT systems. These flaws could permit code execution during the boot process, potentially allowing attackers to bypass security mechanisms and establish persistent firmware-level compromises.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
-    "publishedAt": "2026-07-10T21:59:02.000Z",
-    "contentHash": "9e523f640e4bd7a92433e36c162b7a6491331159629f8477e244e74e29fa8a72",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:sans-isc-6a365a1491",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "HTML Comment Stuffing Technique Observed in Phishing Attachments",
-    "summary": "Security researchers documented a phishing technique utilizing HTML comments to obscure malicious content within attachments, potentially designed to evade AI-based email filtering systems. The method represents a departure from common phishing patterns and suggests threat actors are experimenting with detection evasion mechanisms targeting machine learning-based security controls.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33144",
-    "publishedAt": "2026-07-10T09:09:29.000Z",
-    "contentHash": "753d5b38b63575c1eeb44540f941cffb2bf26fd2a4aaa030522cc0bcc3e5a3bb",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:bleeping-c1cde37176",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "title": "Ryuk ransomware operator pleads guilty in US federal court",
-    "summary": "An Armenian national pleaded guilty to participating in Ryuk ransomware operations targeting US companies. The defendant faces up to 15 years imprisonment following conviction on hacking and extortion charges related to encrypted system attacks.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
-    "publishedAt": "2026-07-10T17:46:10.000Z",
-    "contentHash": "920c75abd3298c8c156fd41b07819ce92079971c2389c92b4e34f773ea1aef04",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:thehackernews-6a1f2bb00b",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "cryptocurrency",
-      "software development"
-    ],
-    "title": "Injective Labs GitHub Compromise Distributes Wallet-Stealing npm Package",
-    "summary": "Threat actors compromised the Injective Labs SDK GitHub repository and published a malicious npm package designed to exfiltrate cryptocurrency wallet private keys and seed phrases through fake telemetry. The affected package version @injectivelabs/sdk-ts@1.20.21 was distributed via the npm registry before detection.",
-    "sourceUrl": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-    "publishedAt": "2026-07-10T16:29:00.000Z",
-    "contentHash": "4d90d4418637b7c45a8d5b30d86903afcebc7b9b6f0629c15f2e3fb03b0163fe",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:darkreading-f0d5c8e69c",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "healthcare"
-    ],
-    "title": "Healthcare Sector Experiences Divergent Attack Patterns Across Provider Types",
-    "summary": "Cyberattacks on healthcare service providers and ancillary businesses more than doubled in H1 2026, while direct attacks on hospitals and clinics showed more modest growth. The disparity suggests attackers are targeting less-defended segments of the healthcare ecosystem for potentially greater impact.",
-    "sourceUrl": "https://www.darkreading.com/threat-intelligence/cybercriminals-healthcare-businesses-attacks-surge",
-    "publishedAt": "2026-07-10T16:51:34.000Z",
-    "contentHash": "b681a1facf80708edd5f92a415ae0e9899e0b190994a6ed9e9e9b96f341022fe",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:bleeping-d5e2d61798",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-west",
-    "industries": [
-      "telecommunications"
-    ],
-    "title": "Dutch Police Link Local Hackers to Odido Telecom Breach",
-    "summary": "Dutch National Police identified strong indications that Dutch-based threat actors were involved in a February breach affecting Odido, a telecommunications provider. The investigation suggests domestic cybercriminal involvement rather than foreign state-sponsored activity.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
-    "publishedAt": "2026-07-10T16:37:01.000Z",
-    "contentHash": "dbba7259fb45579d9c0320aed6a4d8919d0264081aee5542f952a7a1c93cf08b",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:thehackernews-fd45969008",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Six New U-Boot Vulnerabilities Discovered Affecting Multiple Device Categories",
-    "summary": "Binarly researchers identified six flaws in U-Boot bootloader affecting diverse hardware including routers, cameras, and server management systems. Four vulnerabilities enable device crashes, while two allow code execution during boot if an attacker can introduce a malicious image before the bootloader.",
-    "sourceUrl": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-    "publishedAt": "2026-07-10T15:57:14.000Z",
-    "contentHash": "54d7926d4450c1d3ccf6f06939f375501f999392fefaed8c1a8619c8f70f11e8",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:darkreading-5b85dfa9d6",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "financial-services"
-    ],
-    "title": "BitLocker Vulnerabilities Expose ATM Systems to Potential Compromise",
-    "summary": "Security researchers have identified vulnerabilities in Microsoft BitLocker's security wrapper that could expose ATMs and other systems to compromise. The flaws potentially allow attackers to bypass encryption protections, creating risk for financial institutions and organizations relying on BitLocker-protected infrastructure.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust",
-    "publishedAt": "2026-07-10T14:00:00.000Z",
-    "contentHash": "8824b63213991d203db70fce6d0f6809bd77c6f91c4057bbc1d1b884baeed20c",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:bleeping-3365af60db",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Progress Software alerts ShareFile administrators to disable Storage Zone Controllers due to identified security threat",
-    "summary": "Progress Software has notified ShareFile customers operating Storage Zone Controllers to immediately shut down their servers following identification of a credible external security threat against the on-premises file-sharing solution. The advisory targets organizations using the affected deployment model and represents a significant operational disruption measure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
-    "publishedAt": "2026-07-10T16:26:10.000Z",
-    "contentHash": "7a16094d253b733f837d6dcdd548963066916a0a821b66ea01e1c16ba6a351f3",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:thehackernews-2910e42f04",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "cryptocurrency",
-      "fintech"
-    ],
-    "title": "Laser-Based Attack Enables Password Reset on Tangem Hardware Wallet Cards",
-    "summary": "Researchers at Ledger's Donjon team demonstrated that precisely timed laser pulses directed at Tangem crypto wallet card chips can reset passwords without requiring the original credentials, potentially allowing attackers to gain control of stored cryptocurrency. The vulnerability affects hardware that cannot be patched through software updates, though exploitation requires specialized equipment and physical access to the device.",
-    "sourceUrl": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
-    "publishedAt": "2026-07-10T14:51:49.000Z",
-    "contentHash": "553ac7d34f76152eb9adfd94659403a9ab1f6bc0e4c5fabcdc303c3355c53fc3",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:darkreading-6f89abc6af",
-    "tier": "event",
-    "category": "regulation",
-    "region": "global",
-    "title": "Countries Pursuing Social Media Age Restrictions Amid Industry Compliance Challenges",
-    "summary": "Multiple nations are implementing age-based restrictions on social media platforms as a regulatory approach to protecting younger users. Technology companies face difficulties adhering to these mandates while maintaining service accessibility, suggesting that age-gating alone may address only surface-level concerns rather than underlying safety issues.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon",
-    "publishedAt": "2026-07-10T13:50:24.000Z",
-    "contentHash": "b139d86995a166e77ac65fb8f1721e094e287cde456140fe24b8f57659f13dad",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:bleeping-36fa517ccd",
-    "tier": "event",
-    "category": "attack",
-    "title": "Critical Authentication Bypass in Gitea Docker Image Under Active Exploitation",
-    "summary": "A critical vulnerability in the official Gitea Docker image is being actively exploited to enable user impersonation, including administrator accounts. The flaw allows attackers to bypass authentication controls in the self-hosted Git service. Organizations running Gitea via Docker should prioritize patching to mitigate the risk of unauthorized administrative access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-    "publishedAt": "2026-07-10T15:48:38.000Z",
-    "contentHash": "a0a66877040fb4d6229c38cccab4ed06497806d37d5393102e387f6611d88cd6",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:thehackernews-fafcd912b1",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Three OpenClaw AI Assistant Vulnerabilities Enable Host Compromise via WhatsApp",
-    "summary": "Researchers disclosed three patched flaws in the OpenClaw personal AI assistant that could be chained together to steal credentials, escalate privileges, and execute arbitrary code on affected systems. The vulnerabilities, rated high-severity with a CVSS score of 8.8, represent a complete compromise pathway from initial exploitation to system control.",
-    "sourceUrl": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
-    "publishedAt": "2026-07-10T14:19:50.000Z",
-    "contentHash": "619ba1a473f779a17da049eedd92ed53cbe693a34d8e26e3e2aeda4ad18d6a76",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:darkreading-975049df1b",
-    "tier": "event",
-    "category": "strategy",
-    "title": "AI Coding Tools: Balancing Security Costs Against Productivity Benefits",
-    "summary": "AI-assisted coding platforms charge $19-$200 per user monthly, but organizations face additional expenses from security scanning, vulnerability remediation, and alert fatigue. The analysis examines whether efficiency improvements justify the cumulative financial and operational burden.",
-    "sourceUrl": "https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains",
-    "publishedAt": "2026-07-10T13:00:00.000Z",
-    "contentHash": "d70a8edf598af71b47e950e1dc6d18e41ac70952afa57cccbc7d96977187ff78",
-    "ingestedAt": "2026-07-11T07:19:53.104Z"
-  },
-  {
-    "id": "knowledge:bleeping-5b471f1236",
-    "tier": "event",
-    "category": "news",
-    "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits",
-    "summary": "OpenAI has adjusted capacity constraints on its GPT-5.6 Sol model in response to elevated demand over a 48-hour period. The measure appears designed to accommodate increased usage while maintaining service availability.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/",
-    "publishedAt": "2026-07-13T00:44:44.000Z",
-    "contentHash": "a8516fe322d4ac36bd93827f8d60c36b1f1e91dea9539be13f16eb164a8c38ff",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:thehackernews-b23bf6e482",
-    "tier": "event",
-    "category": "attack",
-    "title": "Misconfigured Server Exposes Multiple Evilginx Microsoft 365 Phishing Operations",
-    "summary": "A threat actor conducting Microsoft 365 phishing attacks left a Python web server publicly accessible with directory listing enabled, inadvertently exposing their toolkit. Security researchers from Lexfo obtained the operator's infrastructure and identified connections to two additional phishing campaigns using the same techniques.",
-    "sourceUrl": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
-    "publishedAt": "2026-07-13T07:30:00.000Z",
-    "contentHash": "9ca3ca7e5a6c040c965bf1e70088d680cd90e4159e388e9157f2b6c3b3c94e59",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:darkreading-ad71d6d7cf",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "AI Gateways Emerge as High-Value Attack Surface",
-    "summary": "A cryptomining incident demonstrates how compromised AI gateways can grant attackers broad access to AI models, underlying cloud infrastructure, and IAM systems. The attack vector highlights the concentration of sensitive access points in gateway architectures and the need for organizations to secure these intermediary systems with equivalent rigor to production environments.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/ai-gateways-keys-kingdom",
-    "publishedAt": "2026-07-09T13:01:00.000Z",
-    "contentHash": "420571ab7afee4b1c70e24204ba5afdc811032f3509cbcf77e58032de7dc11d7",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:sans-isc-045279e770",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "MCP Server and AI Assistant Credential Scanning Activity Detected",
-    "summary": "Security researchers have identified scanning activity targeting Model Context Protocol (MCP) servers and credentials associated with AI assistants. The reconnaissance appears aimed at identifying exposed interfaces that could provide access to sensitive AI system configurations and authentication tokens.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33150",
-    "publishedAt": "2026-07-13T04:22:02.000Z",
-    "contentHash": "ecc47b9989d7e8940360f98f012f1dc76186c66b75d71a9526f7e12d287de2f9",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:bleeping-cacb9ea30b",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Anthropic Extends Claude Fable 5 Access for Paid Subscribers",
-    "summary": "Anthropic has extended complimentary access to Claude Fable 5 for paid subscription holders through July 19. The extension provides users additional time with the advanced model before potential transition to standard pricing.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
-    "publishedAt": "2026-07-12T19:39:12.000Z",
-    "contentHash": "6ecd6a19031d1a67d2f9187aaeab9859d9b483d1697cf0ec11a51da8a57dec09",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:thehackernews-c1d2b64b55",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "technology",
-      "web-hosting"
-    ],
-    "title": "CISA Adds Joomla Extension Flaws to KEV Catalog Following Zero-Day Exploitation",
-    "summary": "CISA has cataloged two critical vulnerabilities (CVSS 10.0) affecting iCagenda and Balbooa Joomla extensions that were reportedly exploited as zero-days in the wild. Both flaws enable severe compromise of affected systems, prompting the agency to track them as known exploited vulnerabilities.",
-    "sourceUrl": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
-    "publishedAt": "2026-07-13T05:36:02.000Z",
-    "contentHash": "7cb85033452e4307cec93f2706ea05661b8faf2a4e2dab8599bb6b5796067930",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:darkreading-fc049fcb40",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "title": "'GodDamn' Ransomware Exploits Microsoft-Signed Driver to Disable Security Tools",
-    "summary": "A ransomware variant named GodDamn leverages a Microsoft-signed kernel driver as part of a bring-your-own-vulnerable-driver (BYOVD) attack strategy to disable endpoint security software before encryption. The malicious driver was signed by Microsoft, allowing it to bypass kernel-level protections that typically prevent unauthorized code execution. This technique demonstrates an evolving tactic where threat actors use legitimately-signed drivers to circumvent defensive controls.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies",
-    "publishedAt": "2026-07-09T10:00:00.000Z",
-    "contentHash": "3270701d8db53e2b67235f92eecc3b976c0ed86f076d15ec4627374f3d745491",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:sans-isc-17ce5b7c1a",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Monday, July 13th, 2026",
-    "summary": "SANS Internet Storm Center publishes its daily podcast briefing covering current security developments and threat landscape observations. The episode addresses prevailing cybersecurity topics relevant to security practitioners and organizations.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33148",
-    "publishedAt": "2026-07-13T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:bleeping-7c20169ea7",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "RedHook Android Malware Exploits Wireless ADB for Shell Access",
-    "summary": "RedHook malware has evolved to leverage Android Wireless Debugging functionality, enabling attackers to obtain shell-level privileges directly on compromised devices without requiring a tethered connection. This technique represents an escalation in the malware's capability to maintain persistent control over infected Android systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-    "publishedAt": "2026-07-12T14:27:32.000Z",
-    "contentHash": "6d6066ebe2c13cf75a4d998adf2e099cedefc8506161ae0f1f92a21ca458178f",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:thehackernews-440f70b0e7",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "devops"
-    ],
-    "title": "Compromised jscrambler npm Package Distributes Infostealer via Install Hook",
-    "summary": "Version 8.14.0 of the jscrambler npm package contained malicious code that executed a Rust-based infostealer during installation through a preinstall hook, with platform-specific binaries for Windows, macOS, and Linux. The compromised release was identified and flagged by security researchers within minutes of publication on July 11, 2026.",
-    "sourceUrl": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-    "publishedAt": "2026-07-11T17:59:26.000Z",
-    "contentHash": "aeab3b5f17fc81447aae40c508d6f778716598b64badb7bccf2944b6049e1bd3",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:darkreading-be06caec6d",
-    "tier": "event",
-    "category": "analyst",
-    "region": "eu-west",
-    "title": "European Organizations Show Overconfidence in Collaboration Tool Security",
-    "summary": "Survey findings indicate European security leaders exhibit higher confidence in their collaboration platforms' security posture than objective risk assessments would support. The disconnect between perceived and actual security maturity in these tools represents a notable gap in organizational threat awareness.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/european-organizations-collaboration-security-confidence-gap",
-    "publishedAt": "2026-07-09T08:00:00.000Z",
-    "contentHash": "1776a232ae31b4addb9e58aa435ea9046c293c3a9d511dd8f2af1b4c1ae62529",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:sans-isc-ea67761667",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Wireshark 4.6.7 Released with Security Fixes",
-    "summary": "Wireshark 4.6.7 addresses 12 vulnerabilities alongside 16 general bug fixes. The release improves the stability and security posture of the widely-used network protocol analyzer.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33146",
-    "publishedAt": "2026-07-11T09:07:06.000Z",
-    "contentHash": "0a4a5da11dd9d68f24455b67102f45276e9251bea663a784d76972f85ebcf734",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:bleeping-1c37f0a506",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "title": "Australia alerts to global CMS exploitation campaign",
-    "summary": "The Australian Cyber Security Centre has warned of a coordinated campaign exploiting vulnerabilities in content management systems and their plugins across multiple regions. The advisory highlights the widespread nature of CMS-focused attacks and recommends organizations prioritize patching and vulnerability management.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-    "publishedAt": "2026-07-11T14:18:23.000Z",
-    "contentHash": "a20cfdd6b366d7b312cb1d6512b5abc1bbc4ef3a36075b0b9b2e1086b00f698f",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:bleeping-23c14337da",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Ghostcommit technique embeds prompt injection in images to compromise AI code review tools",
-    "summary": "Researchers demonstrated a technique called Ghostcommit that hides prompt injection attacks within PNG files to bypass AI-powered code reviewers like CodeRabbit and Bugbot. The attack successfully manipulated coding agents into extracting repository secrets from .env files and exposing them within committed code.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-    "publishedAt": "2026-07-11T09:03:57.000Z",
-    "contentHash": "0de31bca45bf9b144d48442645014b11ca3c438356ad0ef18928ee5ed66fb1cc",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:bleeping-e609a91e9e",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "title": "Bulgarian National Charged with Theft of Seized Cryptocurrency While Imprisoned",
-    "summary": "A Bulgarian national incarcerated for money laundering related to U.S. fraud victim funds has been charged with stealing approximately $290,000 in government-seized cryptocurrency. The incident highlights security vulnerabilities in the handling and custody of digital assets within correctional facilities.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/",
-    "publishedAt": "2026-07-10T15:30:19.000Z",
-    "contentHash": "31b5b7ee2197b5d29d590de67d71bf659c8c71957a18c6be3eed885721cee3cd",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:thehackernews-eec67c8de3",
-    "tier": "event",
-    "category": "attack",
-    "title": "Silver Fox Group Deploys MODBEACON RAT with gRPC-Based C2 Communications",
-    "summary": "A China-linked cybercrime group designated Silver Fox has deployed MODBEACON, a Rust-based remote access trojan that uses gRPC streaming for encrypted command-and-control traffic. The group distributes the malware through counterfeit software installers leveraged via SEO poisoning, masking a more organized operation than initial indicators suggest.",
-    "sourceUrl": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
-    "publishedAt": "2026-07-10T13:15:23.000Z",
-    "contentHash": "1fc3f29e7a73745662f9a59f1064b99dbcb4cfdca69f41977cd6dc1fb1a9c84e",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:bleeping-f0d2bd0b43",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "AI Agents Expand Non-Human Identity Attack Surface",
-    "summary": "The proliferation of AI agents is creating a growing number of non-human identities within enterprise environments, reducing organizational visibility into their ownership and access permissions. Netwrix highlights that strengthened identity governance and visibility mechanisms are necessary to manage the enlarged attack surface that AI deployment introduces.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
-    "publishedAt": "2026-07-10T14:00:10.000Z",
-    "contentHash": "925339922020ff6bf75504593967c871f1556084d7a994a6c36d3303b4e5f23c",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
-    "id": "knowledge:thehackernews-605a1c16a5",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Unpatched Denial-of-Service Vulnerability in Alibaba's XQUIC Library",
-    "summary": "A variable initialization error in XQUIC, Alibaba's QUIC and HTTP/3 implementation, allows unauthenticated remote clients to trigger server crashes using legitimate traffic. The flaw, designated XRING, requires minimal attack traffic and remains unpatched as of the disclosure date in July.",
-    "sourceUrl": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
-    "publishedAt": "2026-07-10T11:47:43.000Z",
-    "contentHash": "572de94723391476142915900f7ea95497aca5f71971212d55739c762c5a57c1",
-    "ingestedAt": "2026-07-13T08:27:49.504Z"
-  },
-  {
     "id": "knowledge:krebs-5c213df7e7",
     "tier": "event",
     "category": "news",
@@ -4981,5 +4419,224 @@
     "publishedAt": "2026-08-06T20:38:51.000Z",
     "contentHash": "797de92942cb19f40305eca9766f20629369435bc13b6a847eaee8b4bdbbc2bc",
     "ingestedAt": "2026-08-08T05:56:16.185Z"
+  },
+  {
+    "id": "knowledge:krebs-215b91448d",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Addresses 398 Vulnerabilities in Monthly Security Update",
+    "summary": "Microsoft released patches for 398 security flaws across Windows and supported software. The update includes remediation for one vulnerability currently under active exploitation and two others previously disclosed publicly.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+    "publishedAt": "2026-08-11T21:28:35.000Z",
+    "contentHash": "8547529579471bb9270f5736c15f24640e6180b629821a48c0008ceb041ca13e",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:bleeping-1d2292fea9",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "saas",
+      "software",
+      "erp"
+    ],
+    "title": "City-Forum campaign targets Salesforce and ServiceNow portals",
+    "summary": "A data theft campaign leverages custom tools to extract information from publicly accessible Salesforce Experience Cloud and ServiceNow customer portals. The threat actors exploit misconfigured or overly permissive portal settings that expose sensitive data to unauthenticated users.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+    "publishedAt": "2026-08-12T23:07:23.000Z",
+    "contentHash": "c1e2cb3bc293624266d3ec7ae2b5455ee86f91083a0d6739b05b5a9f05c75707",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3fd53cb513",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "defense",
+      "aerospace"
+    ],
+    "title": "Lazarus Group Exploits Windows Zero-Day to Deploy Novel Backdoor Against Defense and Aerospace Sectors",
+    "summary": "North Korean threat actor Lazarus Group has been linked to exploitation of a patched Windows zero-day vulnerability to distribute a previously unknown backdoor against defense and aerospace organizations in France, Germany, Brazil, and India. The campaign, tracked as Operation Dream Job by Check Point Research, represents continued cyber espionage activity by the group targeting critical infrastructure sectors.",
+    "sourceUrl": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+    "publishedAt": "2026-08-12T17:39:27.000Z",
+    "contentHash": "9c2878483ba914c135de48ece25b8ff6a36615cc97d37c7df1382cb563f886d4",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:darkreading-5c0ecb74e8",
+    "tier": "event",
+    "category": "attack",
+    "title": "City-Forum Campaign Targets Salesforce and ServiceNow Instances",
+    "summary": "A sustained campaign tracked as City-Forum has been operating since March 2025, deploying custom tools to compromise Salesforce and ServiceNow environments across multiple industry sectors. The attackers have focused on data exfiltration from these widely-deployed business applications.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow",
+    "publishedAt": "2026-08-12T21:08:54.000Z",
+    "contentHash": "f4e551ce94ec51e65f4d738a0373115ae170bdd61c66ee16bf8d01f7aca334e7",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:sans-isc-85301b7bb7",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Thursday, August 13th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The episode provides analysis of emerging security incidents and defensive recommendations for practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33244",
+    "publishedAt": "2026-08-13T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-c648544072",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Seeks Industry Collaboration on Secure Private 5G Development",
+    "summary": "The UK's National Cyber Security Centre is inviting organisations to participate in collaborative efforts to advance secure and resilient private 5G technologies and deployment approaches. The initiative aims to incorporate security considerations into private 5G systems through industry partnership and knowledge sharing.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/help-shape-the-future-of-resilient-private-5g",
+    "publishedAt": "2026-08-12T12:00:00.000Z",
+    "contentHash": "fd7cabdd9aa5d284388e2c93bee3b95b7b9ffa0ceaf931d82a31afa60998acbc",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:bleeping-f2480e43b3",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Android Malware Duo Exploits NFC for Financial Fraud",
+    "summary": "Security researchers identified WindRelay, an Android malware leveraging NFC capabilities to intercept payment card data in real time, often deployed alongside SpyNote RAT for command and control. The malware enables attackers to conduct unauthorized transactions and fraudulent loan applications using stolen financial credentials.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+    "publishedAt": "2026-08-12T22:22:57.000Z",
+    "contentHash": "f7274a3b6c87bd280bb7cdc5defa1d570c5f67d9869d36cd632b926ecc7f6276",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:thehackernews-dc7fe6e1bf",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "737 Chrome VPN Extensions Identified Routing Traffic Through Proxy Infrastructure",
+    "summary": "Security researchers identified a network of 737 malicious VPN and proxy extensions distributed across 40+ Chrome Web Store developer accounts, collectively installed over 75,000 times. The extensions primarily targeted Russian-speaking users and intercepted browser traffic to route it through attacker-controlled proxy infrastructure; 274 extensions were found impersonating legitimate services.",
+    "sourceUrl": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+    "publishedAt": "2026-08-12T14:09:50.000Z",
+    "contentHash": "720ccd8a9ffeab57bf6d6836f1c669271bee5279ca9760ad5643398c27e8987d",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:darkreading-64f0c9a818",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "industries": [
+      "retail"
+    ],
+    "title": "Walmart Implements Co-located Purple Team Model for Enhanced Security Collaboration",
+    "summary": "Walmart has adopted a purple teaming approach that places red and blue teams in the same location to foster collaborative security testing and build institutional trust. The model aims to bridge the traditional divide between offensive and defensive security functions, enabling more effective identification and remediation of vulnerabilities through integrated exercises.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming",
+    "publishedAt": "2026-08-12T16:28:04.000Z",
+    "contentHash": "2c26a0b33d16e673c6110f6cf3cbffa0a6cfdc60cebcd2d2be6109526ad1e697",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:sans-isc-be579ec8a4",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Gemma4 LLM Evaluation for Malware Hash Analysis",
+    "summary": "A practitioner evaluated Gemma4, an open-source LLM, for analyzing malware hashes collected by DShield sensors over a 30-day period, cross-referencing findings against VirusTotal and CyberGordon. The assessment examined whether the model's recommendations could meaningfully characterize detected malicious activity.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33242",
+    "publishedAt": "2026-08-13T01:26:53.000Z",
+    "contentHash": "3c98c87db2d61a3e66500145422c9ceed5c8571e5f191e010d8efeece7779d5f",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-0711d7f3ba",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "industries": [
+      "water",
+      "critical infrastructure"
+    ],
+    "title": "NCSC Publishes Water Sector Guidance on Secure Connectivity Principles",
+    "summary": "The UK National Cyber Security Centre has released new guidance applying its Secure Connectivity Principles to the water sector, marking the first publicly available content from the Industrial Control System Community of Interest. The guidance provides practical examples for critical infrastructure operators managing industrial control systems.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/water-sector-example-added-to-the-ncscs-secure-connectivity-principles",
+    "publishedAt": "2026-08-11T12:00:00.000Z",
+    "contentHash": "4f5ae82ec5a8d5337e9737eaa4a2427d28cbd55373125ac44a8c4ba12197823a",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:cisa-eebcaf6f35",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "Multiple Critical Vulnerabilities in Mira Hormone Monitor and Android App",
+    "summary": "CISA disclosed eight vulnerabilities affecting Mira Hormone Monitor firmware 1.7.1.47 and Android app 4.5.15.4, with CVSS scores ranging from 6.5 to 9.8. Flaws include missing authentication on critical functions, hardcoded credentials, and BLE spoofing that could allow unauthorized access to reproductive health data, device rebinding, and account takeover. Updates are available via app versions iOS 3.5.18 and Android 4.5.18, with firmware 01.07.01.53 deployed automatically upon connection.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
+    "publishedAt": "2026-08-11T12:00:00.000Z",
+    "contentHash": "e4e81ff9cf8d629f52d119c4aa36c87792629a5d811f3ef4f28b2456fb53117f",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:bleeping-815318592e",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "e-commerce",
+      "retail"
+    ],
+    "title": "Critical Adobe Commerce vulnerability exploited for account hijacking",
+    "summary": "Threat actors are actively exploiting a critical vulnerability in Adobe Commerce and Magento platforms to compromise customer accounts. The flaw, tracked as CVE-2026-71362, presents a material risk to e-commerce operations relying on these systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
+    "publishedAt": "2026-08-12T20:54:59.000Z",
+    "contentHash": "81ed961de056222376c235bf7bfee9f1fb2b0b45f35443d308c95281ca7f7e7e",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:thehackernews-685f5af550",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "API Flaw in OpenAI, Anthropic, and Google Reasoning Models Enables Recovery of Internal Data",
+    "summary": "Researchers identified a vulnerability in the reasoning APIs of OpenAI, Anthropic, and Google that allows encrypted reasoning objects to be replayed across sessions, potentially exposing internal model reasoning, API keys, and passwords. The flaw stems from how hidden reasoning is transmitted between API calls and could be exploited to extract sensitive information from session logs.",
+    "sourceUrl": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+    "publishedAt": "2026-08-12T11:47:38.000Z",
+    "contentHash": "48ed5a6eaa4e4e67ebb99a76d5434b26a35bcd676205bd701a9e5aad59815c9e",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:darkreading-724af19cb2",
+    "tier": "event",
+    "category": "attack",
+    "region": "mea",
+    "industries": [
+      "government"
+    ],
+    "title": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
+    "summary": "The Colombian Justice Ministry experienced a ransomware attack shortly before a presidential transition, consistent with a broader pattern of targeting critical infrastructure and government entities across Latin America. The incident underscores ongoing vulnerability in regional government systems during periods of institutional change.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition",
+    "publishedAt": "2026-08-12T14:00:00.000Z",
+    "contentHash": "414a0bee660d8bd72bb31ee7d3ce839658d742c8eb87fdc3cb5eb270bbacf5a1",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:sans-isc-b487f41f0c",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Linux Kernel Process Accounting as Command History Alternative",
+    "summary": "SANS ISC discusses Linux kernel process accounting as a method for tracking command history and system activity, positioning it as an alternative to tools like Atuin and bash history. The feature provides kernel-level visibility into process execution and can capture meaningful operational data for security monitoring and forensic purposes.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33240",
+    "publishedAt": "2026-08-12T14:21:10.000Z",
+    "contentHash": "f8ed2062ff09169557e77a841334313f066f6d27bc923795c04298b48399da6c",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:bleeping-fb395f64dd",
+    "tier": "event",
+    "category": "attack",
+    "title": "Hundreds of fake Chrome VPN extensions route traffic through SOCKS5 proxies",
+    "summary": "Over 737 malicious extensions on the Chrome Web Store impersonated legitimate VPN and proxy services, redirecting user traffic through SOCKS5 proxies controlled by a single operator. The campaign demonstrates the effectiveness of brand impersonation in bypassing extension store review processes.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
+    "publishedAt": "2026-08-12T18:54:57.000Z",
+    "contentHash": "81bb1d6d2b79b813d5a9947a3122618813de54212936f832d03b9e1c8fb41d5d",
+    "ingestedAt": "2026-08-13T06:44:17.935Z"
   }
 ]
