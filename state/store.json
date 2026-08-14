@@ -275,226 +275,6 @@
     "ingestedAt": "2026-07-09T05:26:52.188Z"
   },
   {
-    "id": "knowledge:krebs-5c213df7e7",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "title": "CISA Publishes Postmortem on GitHub Credential Leak",
-    "summary": "CISA released a postmortem analysis following an incident where contractor-managed AWS GovCloud credentials and internal credentials were exposed in a public GitHub repository for approximately six months before discovery. The agency's delayed detection and response process highlights operational gaps relevant to credential management and supply chain monitoring practices across security organizations.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-    "publishedAt": "2026-07-13T15:03:28.000Z",
-    "contentHash": "4dfd5fb374343a1bc0548a6269f36686082f1201683af901a43cde5caaadd2bf",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:bleeping-476e026194",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "transportation"
-    ],
-    "title": "Japan's largest taxi operator Nihon Kotsu experiences cyberattack-induced system shutdown",
-    "summary": "Nihon Kotsu, Japan's leading taxi operator, disclosed a cyberattack that compromised its systems, necessitating a partial infrastructure shutdown. The incident disrupted operations for the company's transportation network.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
-    "publishedAt": "2026-07-13T20:18:59.000Z",
-    "contentHash": "df3d6978176812d2671a39ba6ee47c6ce923899fa2c4948be14caa69af5f558b",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:thehackernews-cfe644fb99",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Microsoft Maps Year-Long ShinyHunters-Linked Salesforce Compromise Campaign",
-    "summary": "Microsoft researchers documented a sustained campaign where threat actors associated with ShinyHunters gained access to Salesforce environments over approximately one year without exploiting platform vulnerabilities. The attackers leveraged legitimate OAuth connections between Salesforce and integrated third-party applications to establish persistence and exfiltrate data.",
-    "sourceUrl": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-    "publishedAt": "2026-07-14T06:19:24.000Z",
-    "contentHash": "0d115c849b37e4f472759023bc1ef087c717cb370c90f37ad2ec2eacc9930d64",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:darkreading-132579c91e",
-    "tier": "event",
-    "category": "regulation",
-    "region": "uk",
-    "title": "UK and EU jointly impose sanctions on Russian cyber actors",
-    "summary": "The UK and EU have coordinated sanctions against Russian individuals and entities responsible for cyberattacks and disinformation operations targeting the region. This marks the first joint sanction action between the two jurisdictions on Russian cyber threats.",
-    "sourceUrl": "https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks",
-    "publishedAt": "2026-07-13T21:24:59.000Z",
-    "contentHash": "7255939bdcfe818c9058a0f8fd6eaa7bf6d0decb1b9692025f1f438b8b9f941d",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:sans-isc-6c27e62e57",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Tuesday, July 14th, 2026",
-    "summary": "SANS Internet Storm Center published their daily podcast covering current cybersecurity developments and threat landscape observations. The episode provides analysis of ongoing security events and trends relevant to defensive operations.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33152",
-    "publishedAt": "2026-07-14T02:15:11.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-75714a4111",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "uk",
-    "industries": [
-      "critical infrastructure",
-      "telecommunications",
-      "energy",
-      "government"
-    ],
-    "title": "UK and Allies Issue Advisory on Russian State Cyber Targeting of Critical Infrastructure",
-    "summary": "The NCSC and allied nations have released guidance addressing exploitation campaigns by Russian state-sponsored cyber actors targeting critical sectors globally. The advisory identifies poorly configured routers as a primary attack vector and recommends enhanced defensive measures across essential infrastructure.",
-    "sourceUrl": "https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting",
-    "publishedAt": "2026-07-13T12:00:00.000Z",
-    "contentHash": "ccfb72cd34b9c95e115692807ddf11bf12924af0191905ab0c0c7b6dbf01a9f6",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:bleeping-54014ce85f",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "security"
-    ],
-    "title": "Malicious Jscrambler npm Package Distributed with Infostealer Malware",
-    "summary": "A threat actor published a compromised version of the Jscrambler npm package, a client-side web security tool, which was downloaded approximately 1,500 times before detection. The malicious variant contained infostealer malware designed to exfiltrate sensitive information from affected systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
-    "publishedAt": "2026-07-13T19:44:19.000Z",
-    "contentHash": "3cac8bf0075e153ecd1875a68f3ccc3de645984eeab955aa0f29793dfc29725d",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:thehackernews-eca7de3409",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "CrashStealer macOS Malware Uses Notarized Dropper to Evade Gatekeeper",
-    "summary": "Researchers identified CrashStealer, a macOS information stealer written in native C++ that uses Apple-notarized droppers to bypass Gatekeeper security checks. The malware validates victim credentials locally before exfiltrating sensitive data, distinguishing it from prior macOS stealers built on AppleScript or Objective-C frameworks.",
-    "sourceUrl": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-    "publishedAt": "2026-07-13T17:36:12.000Z",
-    "contentHash": "e24bc6e69443e0d1e1843dc55b49c11bc9644a9299330356755b86d24452e695",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:darkreading-f3270c467a",
-    "tier": "event",
-    "category": "strategy",
-    "title": "'Yellow Teams' Are Defining the Future of AI Security",
-    "summary": "Organizations are establishing dedicated teams that develop both defensive and offensive AI tools to evaluate artificial intelligence capabilities in cybersecurity contexts. This approach enables companies to assess both the protective potential and associated risks that AI presents to their security posture.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/yellow-teams-defining-future-ai-security",
-    "publishedAt": "2026-07-13T18:18:30.000Z",
-    "contentHash": "49041da4c1d4cba5a2172ad6f03ac7c499e7a001673ebb0a90814ede2d2c6e54",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:bleeping-a133d59743",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "CrashStealer macOS malware masquerades as Apple crash reporting tool",
-    "summary": "CrashStealer is a newly identified macOS information-stealing malware that deceives users by mimicking Apple's crash-reporting functionality. The malware targets credentials, keychain data, and cryptocurrency wallets through social engineering tactics.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
-    "publishedAt": "2026-07-13T19:04:02.000Z",
-    "contentHash": "c82655dc1d5fbd99e5e5d88f0849387c8bccfa0247ebc68d5df89cde9197e9e0",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:thehackernews-9951731d1c",
-    "tier": "event",
-    "category": "attack",
-    "title": "Google and Microsoft Remove ModHeader Extension Following Discovery of Inactive Data Collection Code",
-    "summary": "Google and Microsoft removed ModHeader, a browser extension with 1.6 million combined Chrome and Edge installations, after security researchers identified dormant code designed to collect browsing history. The functionality was disabled by an empty allowlist and no evidence indicates the code ever transmitted data. Both platforms took action to prevent potential activation of the feature.",
-    "sourceUrl": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
-    "publishedAt": "2026-07-13T17:17:24.000Z",
-    "contentHash": "57a89846fe16945b2efb8a4d29bb27f5703c7e6c096491da90a2aa17133f7256",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:darkreading-8a5ca621ec",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "GigaWiper Modular Implant Combines Backdoor and Destructive Capabilities",
-    "summary": "Security researchers have identified GigaWiper, a modular malware implant that integrates backdoor functionality with data destruction capabilities, drawing techniques from multiple established malware families. The tool's modular design allows threat actors to customize attack objectives, balancing operational efficiency with destructive impact.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/gigawiper-threat-actors-choose-their-own-destructive-attack",
-    "publishedAt": "2026-07-13T16:50:54.000Z",
-    "contentHash": "0e67804ac69217b9d3b413f7b5383b7a88e1e873ad83c310d3cefe050883a33b",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:bleeping-7a709a8824",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "CISA alerts to active exploitation of RCE vulnerabilities in Joomla extensions",
-    "summary": "CISA has identified active exploitation of remote code execution flaws in the iCagenda and Balbooa Forms extensions for Joomla, leveraging arbitrary file upload mechanisms. Threat actors are actively weaponizing these vulnerabilities in the wild.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
-    "publishedAt": "2026-07-13T15:20:16.000Z",
-    "contentHash": "9c05391eb752a45eb820e02593ea8367cf85d708921bb0d122d553ae307c89bf",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:thehackernews-ad3e33cb35",
-    "tier": "event",
-    "category": "news",
-    "title": "Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-    "summary": "Multiple security incidents emerged this week involving compromised trusted tools, including ShareFile vulnerabilities and Citrix Bleed 2 ransomware activity. AI-assisted vulnerability discovery is accelerating attacks alongside defenses, while remediation delays from previously identified flaws continue to create exploitation windows. The recurring theme underscores tensions between automated security tooling and delayed patching cycles.",
-    "sourceUrl": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-    "publishedAt": "2026-07-13T15:05:57.000Z",
-    "contentHash": "0ced032e5ee9d772d1f18e187fea13165c2f92f13833a67584d00d178cf3ef0c",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:darkreading-6218b29400",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Open Source AI System Engages Phishing Attackers Using Victim Personas",
-    "summary": "ScamBuster, an open source AI-driven platform, adopts victim personas to interact with phishing attackers and collect intelligence on their operations. The system enables organizations and law enforcement to gather actionable data on cybercriminal tactics and infrastructure.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster",
-    "publishedAt": "2026-07-13T13:00:00.000Z",
-    "contentHash": "c44f459167a6ff53debe2ffa33d062e625f1ae0e1d519e43e6efc37aa29241d9",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:bleeping-9d70fa7992",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-west",
-    "industries": [
-      "retail"
-    ],
-    "title": "Lidl discloses online shop breach via service provider compromise",
-    "summary": "Lidl notified customers across Germany, Belgium, and the Netherlands of a data breach originating from a third-party service provider. The incident resulted in unauthorized access to customer personal information stored within Lidl's online shopping platform.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
-    "publishedAt": "2026-07-13T14:19:43.000Z",
-    "contentHash": "539a1130ba75cdbc7663792242c2ef819b5dd07306d175305ab711e4644b755c",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:thehackernews-b686c46533",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "MemGhost Attack Exploits AI Agent Memory Systems via Email",
-    "summary": "Researchers have identified MemGhost, an attack method that enables adversaries to inject false information into AI agents with memory and email access through a single malicious message. The attack persists across sessions while remaining undetected, allowing attackers to manipulate the agent's subsequent responses without user awareness.",
-    "sourceUrl": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
-    "publishedAt": "2026-07-13T13:49:48.000Z",
-    "contentHash": "17dfc5a2ecb104b570ff6abc3652d7b0bbe82b00af0275227f6b0beaafdb74ca",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
-    "id": "knowledge:bleeping-9d050cd12f",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Varonis Launches Entra ID Capture the Flag Exercise",
-    "summary": "Varonis has released a free hands-on Capture the Flag competition designed to educate defenders on Entra ID attack techniques and investigation methodologies. The exercise uses realistic scenarios to demonstrate how threat actors exploit identity platform weaknesses.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
-    "publishedAt": "2026-07-13T14:01:11.000Z",
-    "contentHash": "b310fb767cddc3bf58c62f0049289abdd0250d1166dd145b79fe3033227b4888",
-    "ingestedAt": "2026-07-14T07:20:24.074Z"
-  },
-  {
     "id": "knowledge:krebs-b49a657379",
     "tier": "event",
     "category": "product-release",
@@ -4638,5 +4418,235 @@
     "publishedAt": "2026-08-12T18:54:57.000Z",
     "contentHash": "81bb1d6d2b79b813d5a9947a3122618813de54212936f832d03b9e1c8fb41d5d",
     "ingestedAt": "2026-08-13T06:44:17.935Z"
+  },
+  {
+    "id": "knowledge:cisa-130edd7317",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "title": "Siemens Parasolid Out-of-Bounds Read Vulnerability",
+    "summary": "Siemens Parasolid versions V38.0 and V38.1 contain an out-of-bounds read vulnerability (CVE-2026-64629, CVSS 7.8) triggered when processing specially crafted X_T format files, potentially enabling arbitrary code execution. Siemens has released patches (V38.0.235 and V38.1.230) and recommends immediate updates. The vulnerability affects critical manufacturing infrastructure globally.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10",
+    "publishedAt": "2026-08-13T12:00:00.000Z",
+    "contentHash": "590fc1ad3758655dc31f328962e7e47394310130924a32d2ed9c96f0b0643c3a",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:bleeping-df1d901c6d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "Apple Issues Threat Notifications for Mercenary Spyware Targeting iPhones",
+    "summary": "Apple has begun sending threat notifications to users whose iPhones show signs of being targeted by mercenary spyware campaigns. The notifications alert recipients to potential compromise and direct them to security resources. This represents Apple's proactive approach to communicating nation-state or commercial surveillance threats to affected users.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
+    "publishedAt": "2026-08-14T01:19:12.000Z",
+    "contentHash": "edfd7dd0b9c6ead821b6bb10c57452940f0825f8374ec5637ddc416b7108fadc",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3c5ef5fa53",
+    "tier": "event",
+    "category": "attack",
+    "title": "Attackers Exploit SharePoint Authentication Bypass Following PoC Release",
+    "summary": "Threat actors have begun exploiting CVE-2026-55040, a critical SharePoint authentication bypass vulnerability (CVSS 9.1) after public proof-of-concept code became available. Microsoft addressed the flaw in its July 2026 Patch Tuesday release. Organizations using affected SharePoint instances should prioritize patching to mitigate active exploitation risk.",
+    "sourceUrl": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+    "publishedAt": "2026-08-13T06:09:48.000Z",
+    "contentHash": "9abe9ff0626f2e5cc2e9c50d608a6a187a5ad76f816c77dda9be0745ae63ca10",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:darkreading-7a20fee85e",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Active exploitation of critical VMware vCenter vulnerability documented",
+    "summary": "Threat actors have begun exploiting CVE-2026-59310 affecting VMware vCenter, with attacks detected earlier this month. Patch deployment alone may be insufficient to fully address the associated risks, suggesting defenders should implement compensating controls alongside updates.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw",
+    "publishedAt": "2026-08-13T20:45:17.000Z",
+    "contentHash": "51bc281891bf7d0c32d0ae95486fb6a6d12203dd3354cddd24b3e7e6500b89b4",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:sans-isc-d9325ca256",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast for Friday, August 14th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape observations for August 14th, 2026.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33246",
+    "publishedAt": "2026-08-14T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-7e155a93bd",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Guidance on BitLocker PIN Implementation for Data Protection",
+    "summary": "The UK National Cyber Security Centre advises that implementing PINs with BitLocker encryption substantially reduces exposure to known vulnerabilities affecting the encryption system. Organizations should evaluate their current BitLocker configurations to ensure PIN protections are in place as part of their defense-in-depth strategy.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices",
+    "publishedAt": "2026-08-13T12:00:00.000Z",
+    "contentHash": "254cc58916c901ff0d26e3369c9112291ef836e97963d03274cbdbc68e50365f",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:cisa-5a2939616f",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "information technology",
+      "critical infrastructure"
+    ],
+    "title": "Siemens License Server Multiple Vulnerabilities",
+    "summary": "Siemens License Server versions below 5.1 and 5.3 contain two vulnerabilities: a local privilege escalation flaw (CVE-2026-69108, CVSS 6.0) enabling arbitrary command execution as root, and a path traversal issue (CVE-2026-69109, CVSS 7.5) allowing remote file access. Siemens recommends updating to the latest versions and implementing network segmentation for affected systems.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07",
+    "publishedAt": "2026-08-13T12:00:00.000Z",
+    "contentHash": "3703ad90f031b880e81e87740f85d89dfe9b6878faa543e169ad18efce930090",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:bleeping-2ef1deb56f",
+    "tier": "event",
+    "category": "news",
+    "region": "eu-central",
+    "industries": [
+      "financial services",
+      "banking"
+    ],
+    "title": "Ukraine Dismantles 94 Fraudulent Call Centers Operating Investment and Banking Scams",
+    "summary": "Ukrainian authorities conducted a coordinated operation to close 94 call centers engaged in social engineering attacks targeting victims with investment fraud and unauthorized banking access schemes. The operation resulted in the seizure of significant cash assets and disruption of organized fraud infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
+    "publishedAt": "2026-08-13T21:12:47.000Z",
+    "contentHash": "38f3a6e2f68e8cda666ac4c7403f3afad76fc71bc9bdc69ad55e46d564539022",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:thehackernews-45d8ead53c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Enterprise Defenses Show Strong Performance Against Simulated Attacks While Silent Attack Vectors Remain Vulnerable",
+    "summary": "Picus Labs' Blue Report 2026 analyzed over 338 million attack simulations across enterprise production environments, revealing that organizations have substantially improved their ability to detect and prevent noisy, conventional attacks. However, the data indicates that adversaries are increasingly succeeding through quieter attack methods that bypass traditional detection mechanisms, suggesting a gap between defensive tuning and emerging attack patterns.",
+    "sourceUrl": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
+    "publishedAt": "2026-08-12T11:41:34.000Z",
+    "contentHash": "7f9f538176a40c8b96981a4c4b98ae5f59b81441d70b514d8fba30d21d277072",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:darkreading-0d9304a57c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "'Jewelbug' APT Balances State Espionage & Cryptocurrency Theft",
+    "summary": "Security researchers identified a hacker-for-hire group operating a shared command infrastructure to conduct both state-sponsored espionage missions and financially motivated cryptocurrency theft campaigns. The group leverages a unified Web panel to manage disparate offensive operations, suggesting operational flexibility across motivations and targeting.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft",
+    "publishedAt": "2026-08-13T10:00:00.000Z",
+    "contentHash": "41dc373de4743b7822ec2c7b93640fc157c1bc452a61369abe1f6e59ca4d56d0",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:sans-isc-7dcbd91e7a",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast - August 12th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast episode covering current cybersecurity developments and threat landscape analysis for the specified date.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33238",
+    "publishedAt": "2026-08-12T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:bleeping-dace2be75c",
+    "tier": "event",
+    "category": "attack",
+    "title": "Akira ransomware group disables EDR via Safe Mode to facilitate data theft",
+    "summary": "Akira ransomware operators have been observed disabling endpoint detection and response solutions by forcing systems into Safe Mode with Networking, allowing them to exfiltrate data while circumventing security controls. In at least one incident, the group successfully extracted sensitive information but failed to complete the encryption phase of the attack.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
+    "publishedAt": "2026-08-13T20:47:02.000Z",
+    "contentHash": "514d0734426ca80418de92cb6589be2d83df97c95e45a16a23a6fc518025ae6a",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:thehackernews-ee8b70611e",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Adobe Releases Patches for Critical ColdFusion and Campaign Classic Vulnerabilities",
+    "summary": "Adobe has released security updates addressing multiple critical vulnerabilities in ColdFusion, Commerce, and Campaign Classic products. The most severe flaws carry CVSS scores of 10.0 and could enable arbitrary code execution and privilege escalation if exploited. Organizations running affected Adobe products should prioritize applying these patches.",
+    "sourceUrl": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
+    "publishedAt": "2026-08-12T11:13:03.000Z",
+    "contentHash": "e40576bab383a418404a16e670962e4218857481d11e4582581c4789e9dedc70",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:darkreading-6ad3c57e75",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "eu-west",
+    "industries": [
+      "government",
+      "identity-management"
+    ],
+    "title": "Belgium's eID System Vulnerabilities Enable Remote Code Execution",
+    "summary": "Critical flaws in Belgium's electronic ID browser extension created a pathway for remote code execution, compromising the integrity of citizen authentication mechanisms. The vulnerabilities highlight broader security concerns regarding browser extensions' privileged access and inadequate validation controls within identity infrastructure.",
+    "sourceUrl": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce",
+    "publishedAt": "2026-08-13T07:00:00.000Z",
+    "contentHash": "a017aaaef006a8c9ff08807ff89d4e4379bc8f4014e693262064225d64527e78",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:sans-isc-5b4351d430",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Patch Tuesday August 2026: 418 Vulnerabilities Addressed",
+    "summary": "Microsoft released patches for 418 vulnerabilities in August 2026, including 62 rated critical. The update addresses one actively exploited vulnerability and two previously disclosed zero-days, with notable fixes spanning Windows privilege escalation, container tampering, and remote code execution flaws in QUIC and DNS Server components.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33236",
+    "publishedAt": "2026-08-11T17:54:49.000Z",
+    "contentHash": "fb35b4b41f9f369e4f5dbf40061308a7cc798fdc8d66f9cd84054c34143a8f26",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:bleeping-209727c80a",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "government",
+      "defense",
+      "financial services"
+    ],
+    "title": "Jewelbug Group Conducts Dual Operations: Government Espionage and Crypto Fraud",
+    "summary": "The Jewelbug hacker group has been observed conducting parallel campaigns targeting government and military webmail infrastructure while simultaneously executing cryptocurrency fraud schemes. The group's dual-pronged approach suggests sophisticated operational capabilities spanning both espionage and financial crime.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
+    "publishedAt": "2026-08-13T18:15:19.000Z",
+    "contentHash": "2650e73b9207cf868b43de815969760fea7285b0f379724b6ccc5c122fc20287",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:thehackernews-76131b3384",
+    "tier": "event",
+    "category": "attack",
+    "title": "Attackers Exploit VMware vCenter Directory-Traversal Vulnerability",
+    "summary": "Threat actors are actively exploiting CVE-2024-59310, a critical directory-traversal vulnerability in Broadcom VMware vCenter (CVSS 9.8) that allows remote code execution with network access. Patches have been released, though exploitation in the wild indicates defenders should prioritize remediation of affected infrastructure.",
+    "sourceUrl": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+    "publishedAt": "2026-08-12T09:01:54.000Z",
+    "contentHash": "5c077e0f57e6d10853d8ec1f303e61e0136b4b4b36768678dca59e1de49b1bf5",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:darkreading-61ed7624ab",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "industries": [
+      "retail"
+    ],
+    "title": "Walmart Scales Security Operations Through Trust and Innovation",
+    "summary": "Walmart has enhanced its security posture by prioritizing transparent communication, team collaboration, and a culture of innovation within its security operations. The approach emphasizes trust-based leadership as a foundation for scaling defensive capabilities across the organization.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas",
+    "publishedAt": "2026-08-12T12:41:03.000Z",
+    "contentHash": "0b64d16436062ddadaabfa92a48a673be33a422c182dc6c7cd55ba3825d6ce40",
+    "ingestedAt": "2026-08-14T06:41:42.966Z"
   }
 ]
