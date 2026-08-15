@@ -275,235 +275,6 @@
     "ingestedAt": "2026-07-09T05:26:52.188Z"
   },
   {
-    "id": "knowledge:krebs-b49a657379",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Releases Patches for 570 Security Vulnerabilities",
-    "summary": "Microsoft released security updates addressing at least 570 vulnerabilities across Windows and other products, nearly tripling the previous month's patch volume. The company attributed the increased vulnerability discovery rate to AI-assisted identification methods.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-    "publishedAt": "2026-07-14T19:22:42.000Z",
-    "contentHash": "bbdac6bf5c60c9e906da2c276dbaa4c878bed41f1294f2d2e65c836ec52bd253",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:bleeping-b30f9074e0",
-    "tier": "event",
-    "category": "attack",
-    "title": "SonicWall SMA1000 Zero-Day Vulnerabilities Exploited in Active Attacks",
-    "summary": "SonicWall has disclosed two vulnerabilities in its SMA1000 appliance (CVE-2026-15409 and CVE-2026-15410) that are being actively exploited by threat actors. The vendor has released security patches and recommends immediate deployment to affected customers.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
-    "publishedAt": "2026-07-14T21:23:24.000Z",
-    "contentHash": "5ce230c7658a51754414a6739785a02bedff2c796699be0dec9da65f5f296473",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:thehackernews-3b955360db",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "SonicWall SMA 1000 Zero-Days Under Active Exploitation",
-    "summary": "SonicWall has disclosed two zero-day vulnerabilities affecting Secure Mobile Access 1000 series appliances that are currently being exploited in the wild. One vulnerability carries a CVSS score of 10.0 and permits server-side request forgery attacks by unauthenticated remote actors, with potential for arbitrary command execution on affected systems.",
-    "sourceUrl": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
-    "publishedAt": "2026-07-15T05:30:21.000Z",
-    "contentHash": "762bd47e72f1b061fb385908cf8a18df7162211dabfdcd3bb9d47d085cbdb410",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:darkreading-2ea0a0845a",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Microsoft Patch Tuesday: 622 CVEs Including Zero-Days and 60+ Critical Vulnerabilities",
-    "summary": "Microsoft's latest Patch Tuesday release addressed 622 vulnerabilities, including three zero-day exploits and over 60 classified as critical severity. The volume underscores escalating pressure on security teams to prioritize remediation efforts across enterprise environments.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
-    "publishedAt": "2026-07-14T21:50:56.000Z",
-    "contentHash": "ac09cbbaf703be53c3bf271c67acbaa0dc206e8a31a99a647f441b201ea14a8b",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:sans-isc-9bf13b087f",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ISC Stormcast - July 15th, 2026",
-    "summary": "SANS Internet Storm Center's daily security briefing covering recent cybersecurity developments and threat intelligence. The podcast addresses current events and vulnerabilities relevant to security practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33158",
-    "publishedAt": "2026-07-15T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:cisa-bcc256bd90",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "manufacturing",
-      "industrial control systems",
-      "critical infrastructure"
-    ],
-    "title": "ABB Ability Edgenius Linux Kernel Privilege Escalation Vulnerability",
-    "summary": "ABB has released a security update addressing CVE-2026-31431, a Linux kernel vulnerability in Ability Edgenius versions 3.2.0.0 through 3.2.4.0 that permits local authenticated users to escalate privileges to root. The flaw resides in the algif_aead cryptographic interface and requires local system access to exploit. Version 3.2.4.1 resolves the issue.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
-    "publishedAt": "2026-07-14T12:00:00.000Z",
-    "contentHash": "5943ec5b20f627759652e9d617f730987a77f617789a4b1287db0a31ce2bb1b8",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:bleeping-14ed99351a",
-    "tier": "event",
-    "category": "news",
-    "region": "eu-west",
-    "title": "Spanish Police Dismantle €140 Million Cyber Fraud Ring",
-    "summary": "Spanish law enforcement has dismantled a cybercriminal organization responsible for approximately €140 million in proceeds from investment fraud and business email compromise schemes. Four individuals were arrested as part of the operation against the money-laundering and fraud network.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
-    "publishedAt": "2026-07-14T20:23:09.000Z",
-    "contentHash": "956f7e941652588b4c549de1c3847a21c881bd8b69fb52c1930b645c02086bc4",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:thehackernews-404b4fa0d0",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Releases Record 622 Patches Including Two Actively Exploited Zero-Days",
-    "summary": "Microsoft's latest Patch Tuesday addressed 622 vulnerabilities, representing the largest monthly release in company history and more than tripling the previous record. Two of the patched flaws are confirmed to be under active exploitation by threat actors, identified through incident response activities.",
-    "sourceUrl": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
-    "publishedAt": "2026-07-14T20:25:47.000Z",
-    "contentHash": "bb014abca43925773d85fdcfc3ed97e24af1bb7d15842d1a76e8e9f64789fbf7",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:darkreading-3ea7feeeef",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "6 GHz Wi-Fi Frequency Coordination Vulnerabilities Identified",
-    "summary": "Automated Frequency Coordination systems used in 6 GHz Wi-Fi deployments accept client-supplied location data without verification, creating an attack surface for location spoofing and potential service disruption. The vulnerability could affect infrastructure relying on these systems for spectrum management.",
-    "sourceUrl": "https://www.darkreading.com/perimeter/6-ghz-wi-fi-flaws-disrupt-critical-systems",
-    "publishedAt": "2026-07-14T19:58:31.000Z",
-    "contentHash": "7341ad32e7d3ced30f6425e8e928ec21bc1fa3802e00bca677e3114b8a0f4739",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:sans-isc-eacfae020b",
-    "tier": "event",
-    "category": "product-release",
-    "title": "DShield SIEM Update Released with ELK Stack and Enhanced Dashboards",
-    "summary": "DShield released a SIEM update featuring ELK stack version 8.19.15, introducing additional dashboards and expanded log capabilities. This follows the previous update from September 2025, which included minor refinements to the platform.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33156",
-    "publishedAt": "2026-07-15T01:38:43.000Z",
-    "contentHash": "011a8985e2bf1c72bcbd2ef0cd8e292428a198f8ce32651a9c4b7db6598d3d09",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:cisa-04a8938daa",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing",
-      "industrial control systems"
-    ],
-    "title": "ABB Advant Master Online Builder DLL Search Path Vulnerability",
-    "summary": "CISA published an advisory on CVE-2025-13162 affecting ABB Advant Master Online Builder and Control Builder A, where improper DLL search path handling could allow local code execution if an attacker gains system access. ABB has released patched versions (Control Builder A 1.4/5+, 800xA 6.1.1-5+, 6.2.0-3+) and recommends immediate updates; exploitation requires local access and user interaction.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
-    "publishedAt": "2026-07-14T12:00:00.000Z",
-    "contentHash": "4477335ca300027bbf5765e40e6f5295669c700f0ea9f4a91fb5e645b12a054b",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:bleeping-697085a545",
-    "tier": "event",
-    "category": "attack",
-    "title": "Hundreds of Counterfeit GitHub Repositories Distributing Infostealer Malware",
-    "summary": "Threat actors have created approximately 300 fraudulent GitHub repositories mimicking legitimate software and security projects to distribute infostealer malware. The campaign exploits repository naming conventions and project descriptions to deceive developers into downloading compromised code.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
-    "publishedAt": "2026-07-14T19:15:17.000Z",
-    "contentHash": "dbc631d30275c945b5685fb0cf7505ca4e4bcc95d147beaf2679df56a4a35f18",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:thehackernews-fc120127bd",
-    "tier": "event",
-    "category": "product-release",
-    "industries": [
-      "enterprise-software"
-    ],
-    "title": "SAP Addresses Critical Memory Corruption Vulnerability in NetWeaver ABAP",
-    "summary": "SAP released security updates in July 2026 to remediate multiple vulnerabilities, including CVE-2026-44747 (CVSS 9.9) affecting NetWeaver Application Server ABAP. The flaw is an out-of-bounds write issue stemming from memory management logic errors that authenticated attackers could exploit to corrupt memory and potentially access or modify sensitive data.",
-    "sourceUrl": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
-    "publishedAt": "2026-07-14T18:17:57.000Z",
-    "contentHash": "513383502c5446ad5359635ebbf89e6974f5dcf4d90c412c5aa4d19a28e27fee",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:darkreading-a2b1e1537a",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Manage Vendor Risk in a Few Practical Steps",
-    "summary": "Effective third-party risk management requires organizations to establish clear risk tolerance levels, gain comprehensive visibility into vendor exposure, and ensure board-level oversight of governance practices. A disciplined and structured approach to vendor assessment and monitoring reduces complexity while enabling sustainable risk management across the supply chain.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps",
-    "publishedAt": "2026-07-14T17:44:55.000Z",
-    "contentHash": "2d8694dc15ca0ac466772f5a6a1c6f2f841b4eeb46fb06bed4d543bb80792611",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:sans-isc-48dccb7f08",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Patch Tuesday July 2026 addresses 622 vulnerabilities including 62 critical issues",
-    "summary": "Microsoft's July 2026 Patch Tuesday release encompasses 622 vulnerabilities across its product portfolio, with an additional 427 affecting Chromium-based Edge browser. Sixty-two vulnerabilities carry critical severity ratings, with one previously disclosed and two already subject to active exploitation.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33154",
-    "publishedAt": "2026-07-14T19:14:58.000Z",
-    "contentHash": "5057e3d5493dce59abfee8ee5c80556fb1b691c6cdc8a345fb4b61a44859fe06",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:cisa-d5d49cea00",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing"
-    ],
-    "title": "ABB T-MAC Plus Multiple Vulnerabilities (CVE-2025-14771 through CVE-2025-14774)",
-    "summary": "ABB disclosed four vulnerabilities in T-MAC Plus 4.0-24 affecting critical manufacturing infrastructure globally. The flaws include file disclosure, privilege escalation, stored XSS, and denial-of-service capabilities, with CVSS scores ranging from 8.0 to 9.9. Patch version 4.0-25 is available and ABB recommends immediate deployment.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
-    "publishedAt": "2026-07-14T12:00:00.000Z",
-    "contentHash": "fa8521e213cc9e9914498b9e6675dc611a9e2847bd65ea5efafaa05e800868c0",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:bleeping-c1d5a2744d",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft releases Windows 10 KB5099539 extended security update",
-    "summary": "Microsoft issued the KB5099539 extended security update for Windows 10, addressing 570 vulnerabilities as part of its July 2026 Patch Tuesday cycle along with supplementary security fixes. This update extends security coverage for the aging operating system beyond its standard support lifecycle.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
-    "publishedAt": "2026-07-14T18:49:28.000Z",
-    "contentHash": "ee21aa1f157e62df75f8fa9e6ecd103b22c30f5f264ba67eb5818d8e5cbc9b91",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:thehackernews-216158fa47",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Claude for Chrome Extension Vulnerability Enables Unauthorized Gmail and Google Workspace Access",
-    "summary": "Security researchers identified a flaw in Claude for Chrome that allows malicious browser extensions executing scripts on claude.ai to trigger unintended actions against a user's Gmail, Google Docs, and Calendar accounts. The vulnerability requires a rogue extension already capable of running code on the Claude domain, limiting its attack surface compared to a previously disclosed issue that Anthropic addressed in May.",
-    "sourceUrl": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
-    "publishedAt": "2026-07-14T17:27:23.000Z",
-    "contentHash": "2d8d1fbb2a109fe059a29b8a4b7f2b94dcd95e91e9afe3b954c666b2b31a22f0",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
-    "id": "knowledge:darkreading-1f183aeba4",
-    "tier": "event",
-    "category": "regulation",
-    "region": "us",
-    "title": "Frontier AI: The Genie's Out of the Bottle, but Where's the Rulebook?",
-    "summary": "Advanced AI models are increasingly deployed with reduced human oversight and greater autonomous decision-making capabilities. State governments are beginning to introduce legislative measures aimed at mandating transparency in AI system deployment and operation.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook",
-    "publishedAt": "2026-07-14T16:02:39.000Z",
-    "contentHash": "f20c7b7ff3b06137afb164aa4d7ba74f64ef37a10823eaf73e1076533686c47a",
-    "ingestedAt": "2026-07-15T07:23:58.874Z"
-  },
-  {
     "id": "knowledge:cisa-ec3e52598d",
     "tier": "event",
     "category": "strategy",
@@ -4648,5 +4419,230 @@
     "publishedAt": "2026-08-12T12:41:03.000Z",
     "contentHash": "0b64d16436062ddadaabfa92a48a673be33a422c182dc6c7cd55ba3825d6ce40",
     "ingestedAt": "2026-08-14T06:41:42.966Z"
+  },
+  {
+    "id": "knowledge:cisa-2d703033b3",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "energy",
+      "transportation",
+      "government"
+    ],
+    "title": "Johnson Controls Metasys XSS Vulnerability Affecting Multiple Versions",
+    "summary": "CISA disclosed a persistent cross-site scripting vulnerability (CVE-2026-34491) in Johnson Controls Metasys versions 12–15 that allows low-privilege users to inject malicious payloads via crafted URLs, potentially enabling session hijacking and administrative access. Patches are available for Metasys 15.0.1 and 14.1.5; versions 12 and 13 have reached end-of-support and require migration to newer releases. CISA recommends network isolation, access controls, and WAF deployment to reduce exploitation risk.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14",
+    "publishedAt": "2026-08-13T12:00:00.000Z",
+    "contentHash": "6d62f9735288fe79a441a1c454cdb1e7e2595676fff2858ab72a6daeb45e0219",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:krebs-669791ec85",
+    "tier": "event",
+    "category": "product-release",
+    "title": "DecryptAds Service Enables Visibility into Digital Tracking Infrastructure",
+    "summary": "A new free service called DecryptAds aggregates and clarifies previously scattered data about advertising technology and data collection practices across websites and mobile applications. The tool addresses the opacity of ad-tech platforms by consolidating publicly available information into an accessible format for individual users seeking transparency about tracking entities.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+    "publishedAt": "2026-08-14T11:24:35.000Z",
+    "contentHash": "e8d8b5743d60fa01d589d812a2d6fe8d401364790cacd99a63123be70acead4d",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:bleeping-adf27a5de8",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Anthropic developing watermarking technique for Claude-generated text",
+    "summary": "Anthropic is implementing watermarking methods to identify text produced by its Claude AI model, aiming to make detection of AI-generated content more reliable beyond obvious stylistic markers. The approach addresses growing concerns about distinguishing synthetic from human-written material across platforms.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+    "publishedAt": "2026-08-14T23:24:17.000Z",
+    "contentHash": "4bde7b1d9e2fb06897c90dbcc4bb4a0b9cda41922ae6bb662b364943fedc3f50",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:thehackernews-ef7a70b327",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "software development",
+      "cloud infrastructure",
+      "technology"
+    ],
+    "title": "Malicious LiteLLM PyPI Packages Exposed 2,100+ Organizations to Credential Theft",
+    "summary": "Two compromised LiteLLM packages were published to PyPI in March 2024 for approximately 40 minutes, containing code designed to extract cloud credentials, SSH keys, Kubernetes tokens, and database passwords from affected systems. CloudSEK's analysis of 434,000 captured files indicates potential exposure across 2,100+ organizations, resulting from the supply chain compromise linked to the Trivy project breach.",
+    "sourceUrl": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+    "publishedAt": "2026-08-12T08:04:52.000Z",
+    "contentHash": "a70592684f04e4d146e5e011943ee263849d971c901afc7c1f7211f988e1be44",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:darkreading-4ae5bf990f",
+    "tier": "event",
+    "category": "news",
+    "region": "global",
+    "industries": [
+      "financial services",
+      "banking"
+    ],
+    "title": "Mission-Driven Security: Inside a Global Bank's Defense",
+    "summary": "Standard Chartered's group CISO discusses the evolution of security leadership from technical foundations to strategic business alignment, emphasizing the need for executives to understand organizational objectives. The interview explores how artificial intelligence is transforming both defensive operations and threat actor capabilities within the banking sector.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
+    "publishedAt": "2026-08-14T19:24:18.000Z",
+    "contentHash": "4c0106bd41b2971daf70cd908618e85e45ebf0a601eef269e88d01258365c721",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:sans-isc-87b46cd8b0",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast - August 11th, 2026",
+    "summary": "SANS Internet Storm Center's daily cybersecurity briefing covering recent threat developments and security topics. The stormcast format provides analysis of current events affecting information security practitioners and defenders.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33232",
+    "publishedAt": "2026-08-11T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:bleeping-f425d96c2c",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "financial services"
+    ],
+    "title": "Cybercriminals arrested for €30M Commerzbank fraud via service provider vulnerability",
+    "summary": "Seven individuals across Brazil and Europe faced arrest or charges for exploiting a service provider vulnerability to conduct unauthorized withdrawals from Commerzbank customer accounts, resulting in approximately €30 million in losses. The scheme targeted the bank's customers by leveraging the compromised third-party infrastructure rather than attacking the bank directly.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
+    "publishedAt": "2026-08-14T18:04:26.000Z",
+    "contentHash": "b030653f55c9434eafbdd9fc3add2f79c39bde3c1fb92b2b129ff2f050cc5472",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c0354b09ca",
+    "tier": "event",
+    "category": "product-release",
+    "industries": [
+      "retail",
+      "ecommerce"
+    ],
+    "title": "SAP Commerce Cloud Remote Code Execution Vulnerability Patched",
+    "summary": "SAP has released patches for a critical vulnerability in Commerce Cloud's Data Hub Adapter that permits unauthenticated attackers to execute arbitrary code. The flaw, CVE-2026-58231 (CVSS 10.0), stems from inadequate authorization controls and input validation mechanisms.",
+    "sourceUrl": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+    "publishedAt": "2026-08-12T07:31:40.000Z",
+    "contentHash": "5d84dbffff1652e725d5589f20cf3266033265b2054a5537ca3397bb8367aef0",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:darkreading-f9fa1931bd",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "title": "NIST Explores AI Solutions as Vulnerability Discovery Accelerates",
+    "summary": "Increasing use of AI-powered vulnerability research and scanning tools is driving higher disclosure volumes, prompting NIST to investigate whether artificial intelligence could help address the resulting complexity in vulnerability management. The institute is examining how AI might assist in prioritizing and managing the growing number of discovered security flaws.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
+    "publishedAt": "2026-08-14T17:32:46.000Z",
+    "contentHash": "42e0f5bfeeed8c8fac1d6314ebc74fae3d84078f05834615bdc9fc9be34f8965",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:sans-isc-cd43706314",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "blockchain"
+    ],
+    "title": "Reconnaissance Activity Targeting Solana Development Endpoints",
+    "summary": "Internet-wide scanning has been observed probing Solana blockchain API endpoints, particularly those running Surfpool—a development and testing implementation used by developers before deploying applications to production Solana networks. Surfpool exposes JSON and gRPC interfaces that attackers may be cataloguing for potential exploitation or reconnaissance.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33230",
+    "publishedAt": "2026-08-10T16:24:45.000Z",
+    "contentHash": "9104f977e34d636b1ba48d656abfdec2214d13ce606aefdad2fe07a54f7db412",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:bleeping-f3d1727276",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "title": "macOS Screen Sharing Flaw Exploited for Monero Mining",
+    "summary": "The Netherlands' NCSC reports active exploitation of a macOS authentication bypass vulnerability in Screen Sharing following public disclosure of exploit code. Threat actors are deploying Monero cryptocurrency miners against affected systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+    "publishedAt": "2026-08-14T14:59:55.000Z",
+    "contentHash": "ec366feca992eb29ac0d9dcfbdbdf9e3df12f435093de2ff46efb457ae5e42eb",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b5ba4ab6c3",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ShieldBreak PoC Demonstrates Microsoft Defender Patch Bypass",
+    "summary": "A security researcher has released proof-of-concept code for ShieldBreak, a zero-day vulnerability in Microsoft Defender that bypasses patches for CVE-2026-50656 (RoguePlanet, CVSS 7.8). The vulnerability requires SYSTEM-level access and affects Windows Defender functionality.",
+    "sourceUrl": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+    "publishedAt": "2026-08-12T06:41:38.000Z",
+    "contentHash": "648c5bded4a02f56ea4aa29dd4bf4981d469da233dbd59cb9f0b66bbcab5645f",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:darkreading-9f7d0a43b9",
+    "tier": "event",
+    "category": "attack",
+    "region": "uk",
+    "industries": [
+      "government"
+    ],
+    "title": "Scottish Government Prosecutor's Office Data Breach Expands Investigation",
+    "summary": "Scotland's Crown Office and Procurator Fiscal Service disclosed a data breach involving a third-party service provider. The incident may have affected additional government agencies that used the same vendor, prompting a widened security review across multiple entities.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office",
+    "publishedAt": "2026-08-14T15:58:50.000Z",
+    "contentHash": "17d2e63b38ad9f53412f9d209ab92614c6fdfdafc4262f803279276c5e3cc2b2",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:sans-isc-44d1855661",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast For Monday, August 10th, 2026",
+    "summary": "The SANS Internet Storm Center's daily security briefing covers current threat landscape developments and incident response observations. Stormcast provides analysts with relevant security updates and tactical intelligence for defensive planning.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33228",
+    "publishedAt": "2026-08-10T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:bleeping-4c9d6b022a",
+    "tier": "event",
+    "category": "strategy",
+    "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+    "summary": "Google Workspace environments face multifaceted attack vectors beyond traditional phishing, including compromised OAuth tokens that grant access to email, cloud storage, and integrated applications. Organizations require defense strategies that address the full spectrum of potential compromise pathways rather than focusing on isolated entry points.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+    "publishedAt": "2026-08-14T14:00:10.000Z",
+    "contentHash": "449e78f4554e89911128b4970e8d7ff7a7d2c2036881bfeb448a10a96b22c982",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1fa2facc3f",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Cisco ASA and FTD Remote Denial-of-Service Vulnerability Under Active Exploitation",
+    "summary": "Cisco has disclosed CVE-2026-20349, a high-severity flaw in Secure Firewall ASA and FTD software that stems from inadequate validation of HTTP request handling. The vulnerability, carrying a CVSS score of 8.6, permits unauthenticated remote attackers to trigger denial-of-service conditions and is currently being exploited in the wild.",
+    "sourceUrl": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+    "publishedAt": "2026-08-12T06:15:58.000Z",
+    "contentHash": "2ef7d5f89cc0a6b85301edf27ab6b22ee7efbefe0bddb87d8290bbad934a37a1",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:darkreading-f9f5eb360a",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Board-Level Understanding of Technology Risk",
+    "summary": "Organizational boards frequently fail to adequately assess technology risks before they escalate into operational crises. The disconnect between board awareness and actual exposure reflects gaps in how technology risk is communicated and prioritized at the governance level.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/what-boards-must-know-tech-risk",
+    "publishedAt": "2026-08-14T14:00:00.000Z",
+    "contentHash": "2dc100b89e8424bcb6932877199e2598691198feab7a6a7a8f5bc0041708b739",
+    "ingestedAt": "2026-08-15T05:40:00.404Z"
   }
 ]
