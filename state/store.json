@@ -275,209 +275,6 @@
     "ingestedAt": "2026-07-09T05:26:52.188Z"
   },
   {
-    "id": "knowledge:cisa-ec3e52598d",
-    "tier": "event",
-    "category": "strategy",
-    "region": "us",
-    "title": "CISA Releases Joint Guidance on Coordinated Vulnerability Disclosure Programs",
-    "summary": "CISA, NSA, and international partners published guidance for software manufacturers and service providers on establishing coordinated vulnerability disclosure programs. The framework covers policy design, triage processes, remediation workflows, and CVE assignment procedures, with options to engage third-party intermediaries. Organizations implementing these practices can improve vulnerability management, strengthen researcher relationships, and enhance product security outcomes.",
-    "sourceUrl": "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers",
-    "publishedAt": "2026-07-15T12:00:00.000Z",
-    "contentHash": "3c458db2cd0bdad63710db06037268a360b02b3d2c3d28e46e4f8df28f44cc08",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:bleeping-1b354c85bb",
-    "tier": "event",
-    "category": "news",
-    "region": "eu-west",
-    "industries": [
-      "financial services"
-    ],
-    "title": "Dutch Police Dismantle International Investment Fraud Ring",
-    "summary": "Dutch law enforcement arrested multiple suspects connected to an international investment fraud operation that defrauded tens of thousands of victims of over €100 million. The scheme targeted individuals through fraudulent investment opportunities.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
-    "publishedAt": "2026-07-15T21:55:50.000Z",
-    "contentHash": "f80cdf0efee9accbf038743c70bb90951072f61a2174ee84bc4a578f70b76be7",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:thehackernews-41fade8a7d",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "TuxBot v3 Evolution: IoT Botnet Framework Shows LLM-Assisted Development",
-    "summary": "Researchers identified TuxBot v3 Evolution, an IoT botnet framework that exhibits characteristics suggesting large language model assistance in its development, though the implementation contains notable flaws. The malware framework demonstrates how threat actors are experimenting with AI tools to accelerate botnet creation, while safety mechanisms in LLMs appear to have limited practical impact on final outputs.",
-    "sourceUrl": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
-    "publishedAt": "2026-07-15T18:43:08.000Z",
-    "contentHash": "7bdbb42e3038e783eceb4b1f81fc772a3ce75ef4d458a8b18ae77e57c89a2634",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:darkreading-7ce72047d5",
-    "tier": "event",
-    "category": "news",
-    "region": "eu-west",
-    "title": "Police Disrupt €140M Cyber Fraud Ring in Spain",
-    "summary": "Spanish authorities dismantled a cybercriminal network responsible for executing diverse cyberattacks and laundering approximately €140 million through intricate financial channels. The operation targeted the organized infrastructure supporting the fraud scheme's money movement mechanisms.",
-    "sourceUrl": "https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain",
-    "publishedAt": "2026-07-16T07:00:00.000Z",
-    "contentHash": "e58067f53828057dc633506e654c1041353aa78b5a91a15f15a8dca0526a4809",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:sans-isc-bd9dfa9066",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast Daily Briefing - July 16, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape observations for July 16, 2026.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33160",
-    "publishedAt": "2026-07-16T02:40:10.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-172ae54433",
-    "tier": "event",
-    "category": "strategy",
-    "region": "uk",
-    "title": "NCSC Launches Free Cyber Consultancy Program for Small Businesses",
-    "summary": "The NCSC's Cyber Advisors program offers complimentary 30-minute consultations to small businesses seeking to establish foundational cybersecurity practices. The initiative aims to lower barriers to entry for organizations with limited security resources.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/helping-small-businesses-with-free-hands-on-cyber-consultancy",
-    "publishedAt": "2026-07-15T12:00:00.000Z",
-    "contentHash": "235c676807d16eae70dd3f63cad090dc1de8739049b3d975f86043334a35ecbc",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:bleeping-59248d0152",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Zoom Discloses Critical Account Takeover Vulnerability in Windows Client",
-    "summary": "Zoom has disclosed a critical vulnerability affecting its Windows desktop client and SDK that permits unauthenticated attackers to take control of user accounts. The flaw requires patching to prevent unauthorized account access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
-    "publishedAt": "2026-07-15T20:16:02.000Z",
-    "contentHash": "05d42676044ac519f26da260b59403437acc9b3816f222924c7daaf989f3ff13",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:thehackernews-2ec1086be1",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "cryptocurrency",
-      "financial services"
-    ],
-    "title": "OkoBot Malware Framework Targets Hardware Wallet Users via Compromised Desktop Applications",
-    "summary": "OkoBot, a malware framework active since April 2025, includes a module designed to deceive hardware wallet users into disclosing recovery phrases. The attack exploits compromised desktop applications for popular wallets, displaying phishing prompts that appear legitimate within the authentic application interface, particularly when devices are connected.",
-    "sourceUrl": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
-    "publishedAt": "2026-07-15T15:30:30.000Z",
-    "contentHash": "dde1575fafe1b195d817dd38d6574973d3d3277f8bb0042ed04f9032b94ce968",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:darkreading-43956f37a6",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Forgotten Bootloaders Expose Secure Boot Blind Spot",
-    "summary": "Approximately a dozen UEFI shim bootloaders with known vulnerabilities remained in trusted certificate stores for extended periods, creating a mechanism for attackers to circumvent Secure Boot protections. The bootloaders have since been revoked, but the incident highlights gaps in firmware certificate lifecycle management and validation processes.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot",
-    "publishedAt": "2026-07-15T21:19:19.000Z",
-    "contentHash": "5d54fd60d0113239a936c6e130e0aeac2a5c4cc678a9c517c7b9c0af194457fd",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:bleeping-b748ab90fb",
-    "tier": "event",
-    "category": "attack",
-    "title": "Google Gemini CLI Abused for Botnet Operations",
-    "summary": "A Russian-speaking threat actor exploited Google's open-source Gemini CLI tool to conduct hacking activities and manage a botnet infrastructure. The actor leveraged the AI tool's capabilities to automate malicious operations at scale.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
-    "publishedAt": "2026-07-15T18:33:48.000Z",
-    "contentHash": "678005bd3c0f411014078310155ec2d62e02bed7146ecd7f0e33620a59fa720a",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:thehackernews-19d53f59b5",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Firefox, Chrome, Adobe, and VMware Release Security Updates for Critical Vulnerabilities",
-    "summary": "Mozilla, Google Chrome, Adobe, and VMware have released patches addressing multiple critical security flaws. Firefox updates specifically target two critical vulnerabilities in JavaScript/WebAssembly and DOM navigation components, for which public exploit code has emerged. Organizations should prioritize deployment of these updates across affected products.",
-    "sourceUrl": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
-    "publishedAt": "2026-07-15T13:18:53.000Z",
-    "contentHash": "f2842011333612413ce2a95d5e925c9f62e73898f2152cbaf0a10bd6223b542b",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:darkreading-624a1ca522",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Identity Attacks Overtake Exploits as Top Ransomware Cause",
-    "summary": "Email-based attacks have become the leading initial access vector for ransomware infections, surpassing software exploits. Despite widespread MFA deployment in 97% of credential-focused attacks, authentication mechanisms proved insufficient to prevent successful compromises.",
-    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause",
-    "publishedAt": "2026-07-15T20:16:13.000Z",
-    "contentHash": "f91efa84c19ac3af11e4d79df38dc7413d74ec9a8c6580331acd8ca879df54b0",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:bleeping-2765d5a278",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "technology"
-    ],
-    "title": "AsyncAPI npm packages compromised in supply-chain attack",
-    "summary": "Five malicious versions of AsyncAPI packages were distributed through npm, containing a remote access trojan capable of stealing credentials and system information. The attack represents a supply-chain compromise affecting developers who installed the affected versions.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
-    "publishedAt": "2026-07-15T15:37:27.000Z",
-    "contentHash": "afc22be2b92c9012ba86ece9476253d6b698707ec670e39d452be722364384d7",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:thehackernews-1fd0f569c2",
-    "tier": "event",
-    "category": "strategy",
-    "title": "SASE Architecture Faces Limitations in AI-Centric Enterprise Environments",
-    "summary": "Traditional Secure Access Service Edge (SASE) implementations relying on packet inspection lack visibility into modern enterprise workflows spanning SaaS applications, browsers, and generative AI tools. The shift toward browser-based work and AI-integrated processes has exposed gaps in conventional network security models that were designed for earlier infrastructure patterns.",
-    "sourceUrl": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-    "publishedAt": "2026-07-15T11:50:01.000Z",
-    "contentHash": "35a08b9bf63367d99a05b3bac688ab76c5f2b0721d45eca27c2a35b5531699db",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:darkreading-7954edbc23",
-    "tier": "event",
-    "category": "news",
-    "title": "Dark Reading Expands Global Coverage with European Cybersecurity Focus",
-    "summary": "Dark Reading has launched an enhanced Global section of its platform to deliver region-specific cybersecurity intelligence for audiences outside North America, including dedicated coverage for European markets. The expansion aims to provide localized threat intelligence and defensive strategies relevant to different geographic regions.",
-    "sourceUrl": "https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders",
-    "publishedAt": "2026-07-15T18:08:56.000Z",
-    "contentHash": "5c521a882446e202781637c5c4b11e6a69c312d562b94e07f7c5b389c000a475",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:bleeping-59dbd68258",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Intruder demonstrates AI-powered vulnerability discovery system",
-    "summary": "Intruder has developed an automated system leveraging code analysis and large language models to identify previously unknown software vulnerabilities. The approach successfully discovered an unreported WordPress plugin flaw and additional issues currently under responsible disclosure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
-    "publishedAt": "2026-07-15T14:01:11.000Z",
-    "contentHash": "622316f7379c15be3f17935b99ccf5e4a4dbb4cd03d16e4cee0070675cd42019",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
-    "id": "knowledge:thehackernews-3296da2981",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "title": "Researcher Releases Windows User Profile Service Elevation of Privilege PoC",
-    "summary": "A security researcher has published a proof-of-concept exploit targeting a Windows User Profile Service vulnerability that enables arbitrary hive loading and privilege escalation. The disclosure occurred shortly after Microsoft's regular patch cycle, affecting a core system component responsible for user account and environment management.",
-    "sourceUrl": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-    "publishedAt": "2026-07-15T11:07:07.000Z",
-    "contentHash": "5e956fdfd85847509e3b206742a89e5647a3837ed019e30ba9a40412b4f0c40e",
-    "ingestedAt": "2026-07-16T07:31:41.941Z"
-  },
-  {
     "id": "knowledge:bleeping-d70c88aad5",
     "tier": "event",
     "category": "threat-intel",
@@ -4644,5 +4441,148 @@
     "publishedAt": "2026-08-14T14:00:00.000Z",
     "contentHash": "2dc100b89e8424bcb6932877199e2598691198feab7a6a7a8f5bc0041708b739",
     "ingestedAt": "2026-08-15T05:40:00.404Z"
+  },
+  {
+    "id": "knowledge:cisa-a8ad91edb2",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy"
+    ],
+    "title": "CISA Advisory: ANDRITZ HIPASE-250 and 250 SCALA Multiple Vulnerabilities",
+    "summary": "CISA published an advisory covering four vulnerabilities affecting ANDRITZ HIPASE-250 and 250 SCALA industrial control systems (versions ≤7.20). Flaws include reversible password storage, missing authentication on critical endpoints, unauthenticated logging control, and hard-coded VNC credentials on engineering workstations. ANDRITZ has released patches in versions 8.00.00 and 8.15.00.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05",
+    "publishedAt": "2026-08-13T12:00:00.000Z",
+    "contentHash": "29d8fa0b37c144faf4925e181d42d9c70d9e5efa6350ad822621b69d368fbb4e",
+    "ingestedAt": "2026-08-16T05:42:27.502Z"
+  },
+  {
+    "id": "knowledge:bleeping-2ef1bbe499",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Evooo1Bot Linux botnet repurposes routers as proxy relay nodes",
+    "summary": "Researchers identified Evooo1Bot, a modular Linux botnet derived from Mirai, targeting internet-exposed gateway devices to establish SOCKS5 proxy functionality. The malware converts compromised routers into traffic relay infrastructure, likely for downstream proxy-for-hire services or lateral network access.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+    "publishedAt": "2026-08-15T14:14:38.000Z",
+    "contentHash": "8b0cff1fe5f303578e4c201b09b622a714307a4beee4b68eb73da661a0c552ec",
+    "ingestedAt": "2026-08-16T05:42:27.502Z"
+  },
+  {
+    "id": "knowledge:thehackernews-36069f37df",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Patches 398 Flaws Including Active Windows Driver Zero-Day",
+    "summary": "Microsoft released 398 security updates this month, including a privilege escalation vulnerability in a core Windows kernel driver handling network socket operations that is currently being exploited in the wild. The flaw (CVE-2026-68820, CVSS 7.0) allows attackers with local code execution to escalate privileges to SYSTEM level and was prioritized for immediate patching.",
+    "sourceUrl": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+    "publishedAt": "2026-08-11T20:10:55.000Z",
+    "contentHash": "1ca4b2c2df8c02a835e8b096900fabe53466108410d218ee72e7ed5f77218ff6",
+    "ingestedAt": "2026-08-16T05:42:27.502Z"
+  },
+  {
+    "id": "knowledge:darkreading-5bfa349da2",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Cyera Acquires Oasis Security for $1B to Unify Data Security and Identity Controls",
+    "summary": "Cyera has acquired Oasis Security for $1 billion to create an integrated control plane combining data security and identity management, specifically designed for AI agents. The approach shifts from traditional role-based access control to context-aware privilege models that adapt to business requirements rather than static policies.",
+    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control",
+    "publishedAt": "2026-08-14T12:17:21.000Z",
+    "contentHash": "5e28f7293c6eea66f436965e72b207fc367ddae40e4682785609ecafee356079",
+    "ingestedAt": "2026-08-16T05:42:27.502Z"
+  },
+  {
+    "id": "knowledge:cisa-a716bf6f25",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "industrial automation"
+    ],
+    "title": "Siemens Solid Edge Multiple File Parsing Vulnerabilities",
+    "summary": "Seven memory safety vulnerabilities affect Siemens Solid Edge SE2025 and SE2026, exploitable through malformed PAR, PSM, or DFT design files. Flaws include out-of-bounds read/write and use-after-free conditions that could enable arbitrary code execution with CVSS 7.8 severity. Siemens has released patched versions (SE2025 v225.0.15 and SE2026 v226.0.7) and recommends immediate updates.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12",
+    "publishedAt": "2026-08-13T12:00:00.000Z",
+    "contentHash": "25aeb060b016e9870f7ddb34a0e855c46c5612fc463036d91d711b3320be293d",
+    "ingestedAt": "2026-08-16T05:42:27.502Z"
+  },
+  {
+    "id": "knowledge:bleeping-99dadd313b",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software",
+      "retail",
+      "e-commerce"
+    ],
+    "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
+    "summary": "A critical remote code execution vulnerability in SAP Commerce Cloud, patched three days prior, is being actively exploited in the wild according to threat intelligence firm Defused. The rapid weaponization of this maximum-severity flaw demonstrates how quickly threat actors move to exploit newly disclosed vulnerabilities.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
+    "publishedAt": "2026-08-14T13:45:18.000Z",
+    "contentHash": "bacc2f10a52eff2ec3e20af036fd5016ca3020f2cfc5789cbb3a2e77bf88c87a",
+    "ingestedAt": "2026-08-16T05:42:27.502Z"
+  },
+  {
+    "id": "knowledge:bleeping-ba32a4944f",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "energy"
+    ],
+    "title": "Shell investigates potential security incident following Clop ransomware group data theft claims",
+    "summary": "Shell has initiated an investigation into a reported security incident after the Clop ransomware group alleged theft of 89GB of company data. The organization is assessing the scope and validity of the claims.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+    "publishedAt": "2026-08-14T11:55:45.000Z",
+    "contentHash": "2a2ed9e301d9523bdfa6db07fd2e34a39de484d56c8a69149c9e4e0bb67bcc31",
+    "ingestedAt": "2026-08-16T05:42:27.502Z"
+  },
+  {
+    "id": "knowledge:cisa-10341ae0af",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy",
+      "critical manufacturing",
+      "water and wastewater"
+    ],
+    "title": "Haiwell IoT Cloud HMI Gateway OS Command Injection Vulnerability",
+    "summary": "CISA disclosed a critical OS command injection vulnerability (CVE-2026-19188) in Haiwell IoT Cloud HMI Gateway version 3.40.1.12, affecting the Net Check feature's cmdPing Socket.io event. An unauthenticated attacker could execute arbitrary OS commands with root privileges via improper input sanitization. Haiwell released patch version 3.50.1.19 to address the issue; no active exploitation has been reported.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02",
+    "publishedAt": "2026-08-13T12:00:00.000Z",
+    "contentHash": "abbd1c26a39248256dda15b465a2aac0064ef10ecb9d8b23a992a3a20da8ba7b",
+    "ingestedAt": "2026-08-16T05:42:27.502Z"
+  },
+  {
+    "id": "knowledge:bleeping-815fb64a5a",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "telecommunications",
+      "software"
+    ],
+    "title": "RingCentral data breach affects 1.6 million accounts",
+    "summary": "ShinyHunters claimed responsibility for accessing personal information from approximately 1.6 million RingCentral accounts following a breach in July. The incident was documented by the Have I Been Pwned breach notification service, indicating the group obtained customer data through unauthorized system access.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+    "publishedAt": "2026-08-14T10:52:05.000Z",
+    "contentHash": "01400091d781d0536085a083bf68fa97bab91fc3d12c9ef1f20d6e2b58919fe3",
+    "ingestedAt": "2026-08-16T05:42:27.502Z"
+  },
+  {
+    "id": "knowledge:bleeping-de4f35c2e8",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "software"
+    ],
+    "title": "Data Analyst Sentenced for Extortion and Data Theft Against Software Employer",
+    "summary": "A former contractor at Brightly Software was sentenced to two years imprisonment for conducting a $2.5 million extortion scheme involving theft of employer data. The case demonstrates legal consequences for insider threats and data-driven criminal activity.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
+    "publishedAt": "2026-08-14T08:27:18.000Z",
+    "contentHash": "511c9fadc79a4d431c8369cec1efd07ec7e4acf76c56c0191ff639b558ac661d",
+    "ingestedAt": "2026-08-16T05:42:27.502Z"
   }
 ]
