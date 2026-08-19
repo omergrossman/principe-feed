@@ -275,133 +275,6 @@
     "ingestedAt": "2026-07-09T05:26:52.188Z"
   },
   {
-    "id": "knowledge:thehackernews-7dc9878f07",
-    "tier": "event",
-    "category": "attack",
-    "title": "North Korean Threat Actors Deploy Steganographic Malware via Fake Coding Interviews",
-    "summary": "Threat actors associated with the Contagious Interview campaign have leveraged fake job postings and coding challenges to distribute malware concealed within SVG image files using steganography. Execution of these projects delivers a multi-stage payload aligned with OtterCookie, capable of harvesting browser credentials, cryptocurrency wallets, and files from compromised systems.",
-    "sourceUrl": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-    "publishedAt": "2026-07-17T13:48:56.000Z",
-    "contentHash": "88099bc0b19c553f5b658a424cea7bdc1cb2a722d9e7225023fc8a7db1afa69e",
-    "ingestedAt": "2026-07-19T07:35:41.335Z"
-  },
-  {
-    "id": "knowledge:bleeping-b5637df4b1",
-    "tier": "event",
-    "category": "attack",
-    "title": "Public Exploits Released for WordPress Core RCE Vulnerabilities",
-    "summary": "Critical remote code execution flaws designated as \"wp2shell\" in WordPress Core now have publicly available exploits. Site administrators should prioritize applying patches to mitigate exploitation risk.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
-    "publishedAt": "2026-07-18T17:22:47.000Z",
-    "contentHash": "e789ead8a16ace613ce202b1e02e0a4b31ab8545741b2385e004b3da50e4dc38",
-    "ingestedAt": "2026-07-19T07:35:41.335Z"
-  },
-  {
-    "id": "knowledge:thehackernews-24fc27ab80",
-    "tier": "event",
-    "category": "regulation",
-    "region": "eu-west",
-    "title": "EU Mandates Google Grant Competing AI Assistants Equal Hardware Access on Android",
-    "summary": "The European Commission has ordered Google to provide rival AI assistants with equivalent access to Android device hardware features—including camera, microphone, screen content, wake-word activation, and background app control—that Gemini currently enjoys. Implementation is required in Android 18 by August 1, 2027.",
-    "sourceUrl": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
-    "publishedAt": "2026-07-17T11:44:41.000Z",
-    "contentHash": "2f70c79eb5fe716bb855d64dfc1d207c4b9733661517ec6dfd6c47170e5d9a2c",
-    "ingestedAt": "2026-07-19T07:35:41.335Z"
-  },
-  {
-    "id": "knowledge:bleeping-3198a5fdb2",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Microsoft alerts to increased ACR Stealer campaigns targeting enterprise users",
-    "summary": "Microsoft has detected a rise in attacks leveraging ACR Stealer malware against its enterprise customer base. The malware targets credentials stored in browsers, authentication tokens, and sensitive documents.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
-    "publishedAt": "2026-07-18T14:17:19.000Z",
-    "contentHash": "9cf85e82441798cb5c027697b556537d87acf3e3dcc0508c2f33bd44f3cb0b39",
-    "ingestedAt": "2026-07-19T07:35:41.335Z"
-  },
-  {
-    "id": "knowledge:thehackernews-c4de648a10",
-    "tier": "event",
-    "category": "strategy",
-    "region": "us",
-    "industries": [
-      "defense",
-      "government"
-    ],
-    "title": "Military Autonomous Systems Deployment Accelerates Amid Infrastructure Security Concerns",
-    "summary": "Military organizations across the U.S., UK, and NATO are accelerating autonomous capability deployment through increased investment and streamlined acquisition processes. The rapid fielding of these systems raises questions about whether supporting information infrastructure can maintain adequate security and trustworthiness at the pace of commercial-speed development.",
-    "sourceUrl": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-    "publishedAt": "2026-07-17T11:30:00.000Z",
-    "contentHash": "6e285648d6016338cbbf948584b179a6b14d36d7fccbec686719a03e5229efe2",
-    "ingestedAt": "2026-07-19T07:35:41.335Z"
-  },
-  {
-    "id": "knowledge:bleeping-b012516806",
-    "tier": "event",
-    "category": "strategy",
-    "region": "global",
-    "title": "On-Device Age Verification Technology Emerges as Privacy-Preserving Compliance Solution",
-    "summary": "Age verification regulations are expanding globally, creating compliance pressures for organizations handling user identity checks. Incode presents an on-device age estimation approach that performs verification without transmitting or storing facial biometric data, addressing both regulatory requirements and privacy concerns.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
-    "publishedAt": "2026-07-18T13:15:24.000Z",
-    "contentHash": "d53d11f8560f34ea153fc7b249f68c24c5921dd76827c0848847952a5608d161",
-    "ingestedAt": "2026-07-19T07:35:41.335Z"
-  },
-  {
-    "id": "knowledge:thehackernews-58eb82db51",
-    "tier": "event",
-    "category": "news",
-    "title": "Armenia Detains Russian Tourist on U.S. REvil Extradition Request; Defense Claims Mistaken Identity",
-    "summary": "Armenian authorities detained a Russian national named Aleksandr Ermakov at Yerevan airport on June 28 following a U.S. extradition warrant alleging involvement in REvil ransomware operations. The detainee's legal representatives contend the arrest stems from a case of mistaken identity, with border officials reportedly matching him against a photo from social media.",
-    "sourceUrl": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
-    "publishedAt": "2026-07-17T10:53:31.000Z",
-    "contentHash": "d14911263fc555c6c569b4deb2d48da5aece2ffea5697dc3c1b455c7d2a7cd16",
-    "ingestedAt": "2026-07-19T07:35:41.335Z"
-  },
-  {
-    "id": "knowledge:bleeping-932d8c7a52",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "industries": [
-      "financial services",
-      "investment"
-    ],
-    "title": "US Prosecutors Charge Two Individuals in $43 Million Cyber Investment Fraud Laundering Scheme",
-    "summary": "U.S. authorities have charged two New York residents for participating in money laundering activities connected to a cyber investment fraud operation that stole $43 million. The case highlights the financial ecosystem supporting organized cybercriminal schemes targeting investment platforms.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
-    "publishedAt": "2026-07-17T08:13:37.000Z",
-    "contentHash": "a50fdff8faa418a13c6613eea4c869f8b7432f46051e37fbe224bae98be555b7",
-    "ingestedAt": "2026-07-19T07:35:41.335Z"
-  },
-  {
-    "id": "knowledge:thehackernews-d7cd26a86c",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ACR Stealer Infostealer Exploits ClickFix Social Engineering to Exfiltrate Credentials and Enterprise Data",
-    "summary": "ACR Stealer, an infostealer active since 2024, leverages ClickFix social engineering tactics to trick users into executing commands via the Windows Run dialog, enabling theft of browser credentials, session tokens, and enterprise files from Microsoft 365, OneDrive, and SharePoint. Microsoft's Defender Experts team documented multiple delivery chains used in active campaigns targeting enterprise environments.",
-    "sourceUrl": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
-    "publishedAt": "2026-07-17T08:56:39.000Z",
-    "contentHash": "1b414c252198c4adc79ccabe30dd9162affdd8c9ff025fc2cea4663144707707",
-    "ingestedAt": "2026-07-19T07:35:41.335Z"
-  },
-  {
-    "id": "knowledge:thehackernews-cf5dd33c64",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "apac",
-    "industries": [
-      "government",
-      "diplomacy"
-    ],
-    "title": "GoSerpent Malware Targets Southeast Asian Government and Diplomatic Entities",
-    "summary": "Kaspersky researchers identified a previously unknown malware family called GoSerpent conducting espionage operations against government and diplomatic targets across Southeast Asia since late 2025. The campaign prioritizes persistent access and intelligence collection, with discovery occurring in February 2026.",
-    "sourceUrl": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
-    "publishedAt": "2026-07-17T08:46:45.000Z",
-    "contentHash": "b3856a7e26de91195949fa96413cbd187605230e4e5554c0e86cc65168dea927",
-    "ingestedAt": "2026-07-19T07:35:41.335Z"
-  },
-  {
     "id": "knowledge:manual-eb6edcbd95b1",
     "tier": "foundational",
     "category": "strategy",
@@ -4377,5 +4250,227 @@
     "publishedAt": "2026-08-17T13:23:51.000Z",
     "contentHash": "5eb82e5f440fade6f6e80c230783816807afaaea3baf0692f9ed1ca7eb2c9196",
     "ingestedAt": "2026-08-18T05:44:27.356Z"
+  },
+  {
+    "id": "knowledge:bleeping-6ffb3f471f",
+    "tier": "event",
+    "category": "product-release",
+    "region": "us",
+    "industries": [
+      "telecommunications",
+      "consumer security"
+    ],
+    "title": "Comcast Introduces WiFi-Based Motion Detection in Xfinity Shield",
+    "summary": "Comcast has integrated WiFi-based motion detection into its Xfinity Shield home protection platform, enabling routers and connected devices to identify movement within homes without requiring dedicated cameras or sensors. The capability leverages existing wireless infrastructure to provide occupancy awareness as part of broader home security offerings.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
+    "publishedAt": "2026-08-18T20:14:58.000Z",
+    "contentHash": "d9fa29fa02988914217184b381a8f8f2ebd598885b227418b928d1c2dc44b811",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3db875d507",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Varonis Discloses Data Exfiltration Vulnerabilities in Microsoft Copilot Personal",
+    "summary": "Varonis Threat Labs identified three vulnerabilities in Microsoft Copilot Personal that could enable unauthorized data extraction from connected applications through a single malicious link click. The attack chain, termed CoSnitch, exploits an undocumented URL parameter exposed by the assistant itself to exfiltrate information accessible within a user's Copilot session.",
+    "sourceUrl": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+    "publishedAt": "2026-08-18T17:47:22.000Z",
+    "contentHash": "7eb9ef245607933e573624db118060eb7672c3465334538b6c3157c7e6282f5c",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:darkreading-b7712547b4",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "government"
+    ],
+    "title": "China-Linked Operator Demonstrates AI-Enhanced Attack Framework Against APAC Government Targets",
+    "summary": "A Chinese-language threat actor deployed an AI-driven framework in a sophisticated campaign targeting government agencies, reportedly in Taiwan, demonstrating increased automation in attack orchestration. The incident represents an escalation in the use of machine learning capabilities by state-linked operators to enhance reconnaissance and exploitation workflows across the region.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack",
+    "publishedAt": "2026-08-19T01:00:00.000Z",
+    "contentHash": "2b1fb389f32a80387f0a619d40f35623bc98120563dc2268520c16b5838b5ff1",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:sans-isc-da41b2b6bd",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Wednesday, August 19th, 2026",
+    "summary": "SANS Internet Storm Center's regular security briefing podcast covering current threat landscape developments and cyber defense topics for the week.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33258",
+    "publishedAt": "2026-08-19T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:cisa-c236dab8b2",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "information technology"
+    ],
+    "title": "CISA Malcolm Network Traffic Analysis Tool Affected by Multiple Vulnerabilities",
+    "summary": "CISA has disclosed five vulnerabilities in Malcolm, a network traffic analysis tool suite, affecting versions prior to 26.07.0 (with one requiring 26.06.1). The issues include uncontrolled resource allocation in archive extraction, path traversal in directory creation, unrestricted dangerous file uploads, and authorization bypass via path normalization mismatches. Successful exploitation could enable denial-of-service conditions or arbitrary code execution with container-level privileges.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
+    "publishedAt": "2026-08-18T12:00:00.000Z",
+    "contentHash": "fe8db87abd7461d4f00eec15a02f3743ff5975300453621e43443ef5b3f4dc38",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:bleeping-851d3dad36",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "manufacturing",
+      "software development",
+      "engineering"
+    ],
+    "title": "Clop-Linked Custom Web Shell Targets PTC Windchill and FlexPLM",
+    "summary": "A custom Java web shell attributed to the Clop ransomware group was engineered to exploit PTC Windchill and FlexPLM servers. The shell includes functionality for credential decryption, repository enumeration, and data exfiltration, indicating targeted reconnaissance capabilities against product lifecycle management systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+    "publishedAt": "2026-08-18T17:29:51.000Z",
+    "contentHash": "b831c1d118ce46e1bb363f1220a0b2a227fe9708a2d583e5f7dcb4860db0c378",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c960f83a4e",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "industrial automation",
+      "manufacturing"
+    ],
+    "title": "MLflow and FUXA Critical Vulnerabilities Exploited in Active Scanning Campaigns",
+    "summary": "Two critical flaws have been identified in MLflow (an open-source ML platform) and FUXA (industrial automation software), with evidence of active exploitation and scanning activity reported by security researchers. The MLflow vulnerability enables server-side request forgery attacks that could expose cloud credentials and secrets, while FUXA's flaw affects operational technology environments.",
+    "sourceUrl": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+    "publishedAt": "2026-08-18T17:44:05.000Z",
+    "contentHash": "8505feda509e5372883fee892bae7d7aa659a4fffa2395184383c0a0d73eea5d",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:darkreading-c81f051852",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
+    "summary": "CVE-2026-19478, a zero-click vulnerability affecting self-managed GitLab instances, presents detection difficulties due to limited technical disclosure. Organizations lack sufficient indicators to identify potential exploitation attempts without comprehensive vulnerability details.",
+    "sourceUrl": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
+    "publishedAt": "2026-08-18T21:25:58.000Z",
+    "contentHash": "cf72dd07406d7cdc55188893a710a35db63ab3f966932ba981a54f4878c8c9b9",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:sans-isc-454c21314e",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Wireshark 4.6.8 Released with Security and Stability Updates",
+    "summary": "Wireshark 4.6.8 addresses 28 vulnerabilities and resolves 25 bugs. The release improves both security posture and overall stability of the packet analysis tool.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33248",
+    "publishedAt": "2026-08-16T21:31:48.000Z",
+    "contentHash": "98ae06972ed74f3a69e924e86c9c2eef707a5b76888aaf3648be810a0bee5e8e",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:bleeping-a83ffd80f6",
+    "tier": "event",
+    "category": "analyst",
+    "title": "Controls May Miss Behavioral Variants of Known Attacks",
+    "summary": "Traditional security controls often block recognized attack patterns but can fail against behavioral variants achieving identical objectives through different means. Picus Security's 2026 Blue Report indicates prevention effectiveness varies significantly across techniques, highlighting the need for behavioral-focused testing to identify gaps in detection strategies.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
+    "publishedAt": "2026-08-18T14:01:11.000Z",
+    "contentHash": "090648fd0219cb3646ba6336f2927bddbc80a72ba0fc0be80bb73fa2a771d95e",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:thehackernews-ee1a3760dd",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Ransom Busters Group Offers Data Deletion Services to Ransomware Victims",
+    "summary": "A threat actor operating under the Ransom Busters moniker is contacting organizations affected by ransomware attacks, claiming to have gained access to threat actors' servers and offering to delete stolen data for fees between $20,000 and $60,000. The unsolicited outreach represents an unusual intermediary model within the ransomware ecosystem, positioning itself as a recovery service rather than a traditional extortion operation.",
+    "sourceUrl": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+    "publishedAt": "2026-08-18T16:58:16.000Z",
+    "contentHash": "917103e2e7fbef3af34165fc0a066381fbad027c6fd5bc85d64483db6aa8221c",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:darkreading-cd21e9704a",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "CoSnitch Attack Demonstrates AI Architecture Disclosure via Prompt Manipulation",
+    "summary": "Researchers identified a technique enabling attackers to manipulate AI services into revealing internal architectural details and security configuration information. The approach exploits how language models respond to specially crafted prompts, potentially exposing sensitive infrastructure design that could inform further attacks.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture",
+    "publishedAt": "2026-08-18T20:17:24.000Z",
+    "contentHash": "acfd08f5af92424f06e9fb64b98c6a8be1af850ab51b5ab4e7bd26c2ed4284d3",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:bleeping-d154f9dab0",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Tests Performance Improvements and UI Refinements for Windows 11 File Explorer",
+    "summary": "Microsoft is evaluating enhancements to Windows 11's File Explorer, focusing on improved performance and a redesigned context menu that reduces visual clutter while offering greater customization options. These changes are being distributed to Windows Insider preview builds for testing and feedback.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
+    "publishedAt": "2026-08-18T11:14:28.000Z",
+    "contentHash": "1cb10ded9fe959db4c03b0759132f95f85df5dcf3f4e2f4ee4b66e280d64ec86",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:thehackernews-31ec7c38c0",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI \"Mind Viruses\" Demonstrated to Spread Between Autonomous Agents via Prompt Files",
+    "summary": "Researchers from Anthropic and EPFL have identified a propagation mechanism where malicious payloads can transfer between AI agents through editable system prompt files used to maintain state across sessions. The vulnerability was demonstrated in a controlled environment with multiple autonomous agents, highlighting a novel attack vector in multi-agent AI systems.",
+    "sourceUrl": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+    "publishedAt": "2026-08-18T12:38:36.000Z",
+    "contentHash": "b37ffab4f6f189bea7c24f51c26bbd22cc4deb26d09c5d0cad4540509eb537ca",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:darkreading-2da9958060",
+    "tier": "event",
+    "category": "news",
+    "title": "CISOs Break Their Silence in 'Declassified' Docuseries",
+    "summary": "A new docuseries offers candid narratives from cybersecurity leaders discussing personal and professional challenges, including high-stakes incidents, personal crises, and workplace burnout. The series provides an inside perspective on the human dimensions of CISO roles beyond technical responsibilities.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries",
+    "publishedAt": "2026-08-18T18:32:01.000Z",
+    "contentHash": "d11af4b434543df94ab69bb81e798720dada96e92676ea167d2e1b62011f2c34",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:bleeping-8d518de522",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Confirms Active Ransomware Exploitation of Windows Task Host Vulnerability",
+    "summary": "CISA has verified that ransomware operators are exploiting a high-severity Windows Task Host vulnerability previously identified as actively exploited in April. The vulnerability enables threat actors to escalate privileges and potentially deploy encryption payloads across affected systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+    "publishedAt": "2026-08-18T10:32:16.000Z",
+    "contentHash": "d7d4acc6eba37fa2bcbaff41f388ba5ab821a606ee3dd916dcdbdbba160cdcd5",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:thehackernews-77045d80f7",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "TWINLOOT Python Implant Abuses Microsoft SharePoint and Teams for C2 and Credential Theft",
+    "summary": "Researchers disclosed TWINLOOT, a modular Python implant that leverages Microsoft SharePoint Online and Teams as command-and-control infrastructure to steal credentials and facilitate lateral movement. The framework uses PyArmor obfuscation to evade detection while operating within trusted Microsoft services.",
+    "sourceUrl": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+    "publishedAt": "2026-08-18T12:38:20.000Z",
+    "contentHash": "95b3b4d87883964899a95f737786179e2c48b07e90e8d8e47c7d186572e17d64",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
+  },
+  {
+    "id": "knowledge:darkreading-f626add06b",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "TwinLoot malware operates entirely within Microsoft cloud infrastructure",
+    "summary": "A Python-based malware framework dubbed TwinLoot has been discovered operating solely within Microsoft cloud environments, leveraging living-off-the-land techniques to avoid traditional detection. The modular implant is capable of credential theft and establishing persistence while remaining within trusted infrastructure.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
+    "publishedAt": "2026-08-18T13:00:00.000Z",
+    "contentHash": "e4c6404b79bd38df1fbecadeacd706533ed4d63254a9547402f1a28479c9ace4",
+    "ingestedAt": "2026-08-19T05:45:46.377Z"
   }
 ]
