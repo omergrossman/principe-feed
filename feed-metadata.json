@@ -107,56 +107,6 @@
     "category": "strategy",
     "publishedAt": "2026-07-11T15:52:48.319Z"
   },
-  "knowledge/bleeping-32a7886bc9.md": {
-    "region": "eu-central",
-    "industries": [
-      "government"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-07-19T14:23:46.000Z"
-  },
-  "knowledge/thehackernews-e1150e91b4.md": {
-    "region": "global",
-    "industries": [
-      "technology",
-      "artificial intelligence"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-07-20T05:27:26.000Z"
-  },
-  "knowledge/sans-isc-2ebf2d4bad.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-07-20T02:00:02.000Z"
-  },
-  "knowledge/thehackernews-67d5dc0782.md": {
-    "industries": [
-      "software development"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-07-20T05:15:39.000Z"
-  },
-  "knowledge/sans-isc-f0dc8ac9e8.md": {
-    "industries": [
-      "security-systems",
-      "video-surveillance"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-07-19T15:00:38.000Z"
-  },
-  "knowledge/thehackernews-89f3cdde9d.md": {
-    "region": "global",
-    "category": "threat-intel",
-    "publishedAt": "2026-07-19T20:42:49.000Z"
-  },
-  "knowledge/thehackernews-3eace55fa6.md": {
-    "region": "eu-west",
-    "category": "attack",
-    "publishedAt": "2026-07-19T13:30:55.000Z"
-  },
-  "knowledge/thehackernews-ef3919eea1.md": {
-    "category": "attack",
-    "publishedAt": "2026-07-19T13:18:56.000Z"
-  },
   "knowledge/manual-61a00cdad0ac.md": {
     "category": "strategy",
     "publishedAt": "2026-07-20T08:18:16.172Z"
@@ -1983,5 +1933,118 @@
   "knowledge/darkreading-f626add06b.md": {
     "category": "threat-intel",
     "publishedAt": "2026-08-18T13:00:00.000Z"
+  },
+  "knowledge/bleeping-eac982b66e.md": {
+    "category": "news",
+    "publishedAt": "2026-08-20T00:20:55.000Z"
+  },
+  "knowledge/thehackernews-ef4c1d5e9e.md": {
+    "region": "global",
+    "industries": [
+      "cloud-computing",
+      "saas"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-08-19T19:02:40.000Z"
+  },
+  "knowledge/darkreading-f8f419ba57.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-19T20:32:09.000Z"
+  },
+  "knowledge/sans-isc-bd283fe59c.md": {
+    "category": "news",
+    "publishedAt": "2026-08-20T02:00:03.000Z"
+  },
+  "knowledge/bleeping-2b2f8778b7.md": {
+    "category": "attack",
+    "publishedAt": "2026-08-19T20:59:58.000Z"
+  },
+  "knowledge/thehackernews-542c6d33a2.md": {
+    "category": "strategy",
+    "publishedAt": "2026-08-19T18:06:44.000Z"
+  },
+  "knowledge/darkreading-5790559cab.md": {
+    "region": "apac",
+    "category": "threat-intel",
+    "publishedAt": "2026-08-19T16:58:23.000Z"
+  },
+  "knowledge/sans-isc-df90af81c4.md": {
+    "region": "global",
+    "category": "threat-intel",
+    "publishedAt": "2026-08-19T14:24:58.000Z"
+  },
+  "knowledge/bleeping-36ba4d341c.md": {
+    "region": "apac",
+    "industries": [
+      "cloud services",
+      "data centers"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-19T20:53:38.000Z"
+  },
+  "knowledge/thehackernews-9382709941.md": {
+    "region": "apac",
+    "industries": [
+      "government"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-19T13:12:17.000Z"
+  },
+  "knowledge/darkreading-7a3389dd0d.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-18T19:09:51.000Z"
+  },
+  "knowledge/bleeping-fd9aa5790c.md": {
+    "region": "us",
+    "industries": [
+      "healthcare",
+      "healthtech"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-19T20:07:12.000Z"
+  },
+  "knowledge/thehackernews-b3d652ff51.md": {
+    "industries": [
+      "security",
+      "iot",
+      "surveillance"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-19T11:34:28.000Z"
+  },
+  "knowledge/darkreading-1f616d071c.md": {
+    "category": "attack",
+    "publishedAt": "2026-08-18T13:00:00.000Z"
+  },
+  "knowledge/bleeping-90794440e1.md": {
+    "region": "eu-central",
+    "industries": [
+      "security",
+      "surveillance",
+      "critical infrastructure"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-19T18:09:13.000Z"
+  },
+  "knowledge/thehackernews-8feab542b0.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-19T11:30:00.000Z"
+  },
+  "knowledge/bleeping-71fc6995d6.md": {
+    "region": "us",
+    "industries": [
+      "critical infrastructure",
+      "manufacturing",
+      "energy",
+      "water",
+      "transportation"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-08-19T17:50:01.000Z"
+  },
+  "knowledge/thehackernews-d147b16777.md": {
+    "region": "global",
+    "category": "attack",
+    "publishedAt": "2026-08-19T11:25:28.000Z"
   }
 }
