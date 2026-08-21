@@ -4605,5 +4605,245 @@
     "publishedAt": "2026-08-19T11:25:28.000Z",
     "contentHash": "b4fce136ee523c321d3bf5b4ee00e344c8162cd377df50c98483e6129cb6f174",
     "ingestedAt": "2026-08-20T05:45:35.964Z"
+  },
+  {
+    "id": "knowledge:bleeping-000b292e53",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "open source"
+    ],
+    "title": "Arrayref Rust Crate Compromised to Distribute Infostealer Malware",
+    "summary": "The maintainer account of arrayref, a popular Rust library package, was compromised to inject malicious code that executed during the build process. The injected payload functioned as an infostealer, exposing developer systems to credential and data theft. The incident underscores supply chain vulnerabilities in open-source dependency ecosystems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+    "publishedAt": "2026-08-20T17:53:52.000Z",
+    "contentHash": "0b5e18ab337ec71bc06aa4ea9ffc55a745b9ff160c87189b1bcd9ef41635a66c",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:thehackernews-41850b0dea",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "software-development",
+      "devops"
+    ],
+    "title": "Rust Supply Chain Attack via Compromised Crate Maintainer Accounts",
+    "summary": "Three popular Rust crates (arrayref, internment, append-only-vec) with combined 245 million downloads were compromised when a maintainer account was hijacked to publish malicious versions. The compromised releases introduced typosquatted dependencies that executed remote payloads during the build process, affecting developers who updated to those specific versions.",
+    "sourceUrl": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+    "publishedAt": "2026-08-20T20:22:35.000Z",
+    "contentHash": "37f76df002df74c3a794df39e598451ef8ce419d9aa99383c7938f298e72a1a8",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:darkreading-fdc0a385d4",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "title": "Cyber Professionals Encouraged to Support Underfunded Municipal Government Security",
+    "summary": "Local government agencies often operate with constrained cybersecurity budgets and limited technical resources. The piece calls on cybersecurity professionals to consider volunteering or advisory roles to help municipalities strengthen their defensive posture.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/calling-on-cyber-pros-to-help-city-hall",
+    "publishedAt": "2026-08-21T14:00:00.000Z",
+    "contentHash": "645e3a109bc16bf5fb340856bceb8e5bb31b74dfffefdc19ad5f871197947cce",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:sans-isc-a6a1a81514",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Identifying MFA Coverage Gaps Using PowerShell and Microsoft Graph",
+    "summary": "SANS ISC discusses methods for identifying user accounts that remain uncovered during multi-factor authentication rollouts using PowerShell scripting with Microsoft Graph and Entra. The guidance leverages beta Graph commands to programmatically audit MFA enrollment status across large user populations, offering an alternative to manual web interface review.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33272",
+    "publishedAt": "2026-08-21T02:47:00.000Z",
+    "contentHash": "0121759ad6d1e7ff0b9dc534c09ea51986484675ac49eac02d4bf64598576e31",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-a5fe1c1863",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "Managing the cyber risk of agentic AI",
+    "summary": "The NCSC advises organizations deploying autonomous AI systems to implement safeguards, sandboxing, and active oversight mechanisms to mitigate unintended behaviors. The guidance emphasizes balancing the operational benefits of agentic AI with risk containment through architectural and monitoring controls.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "contentHash": "ed5aceef995a29f54a6b3c23b667b2a4d37166b06b7f998c8e89006b27687610",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:bleeping-541e0309d1",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "technology",
+      "web services"
+    ],
+    "title": "Critical Elementor Pro Vulnerability Enables Remote Code Execution",
+    "summary": "A critical flaw in Elementor Pro allows attackers to upload executable files to WordPress servers, potentially achieving remote code execution. The vulnerability affects websites using the plugin and requires patching to prevent exploitation.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+    "publishedAt": "2026-08-20T14:39:48.000Z",
+    "contentHash": "e69bb51d447bfa1264a9d3979ee5c0103b7b71d5715e3de8528e2c8c7c0e2a78",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:thehackernews-42c3afc040",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "defense",
+      "aerospace",
+      "government",
+      "academia",
+      "think tanks"
+    ],
+    "title": "Russian-Linked Threat Groups Exploit OAuth and WhatsApp for Account Hijacking",
+    "summary": "Three suspected Russian cyber espionage groups are exploiting legitimate OAuth and WhatsApp authentication mechanisms to compromise accounts of individuals in academia, aerospace, defense, government, and think tank sectors across Europe and the U.S. The groups—identified as UNC6293, UNC7005, and UNC5976—demonstrate persistent and adaptive targeting capabilities.",
+    "sourceUrl": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+    "publishedAt": "2026-08-20T19:59:19.000Z",
+    "contentHash": "9e3b65c24833f8ffee7e989ec1b0d9ebfa43855fdbca7902cec1f3bd9f82bff8",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:darkreading-0c1b8ac419",
+    "tier": "event",
+    "category": "product-release",
+    "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
+    "summary": "A cybersecurity expert has released the CUSTODY framework designed to limit the operational scope of AI agents within enterprise networks. The framework was developed in response to recent attacks targeting Hugging Face, addressing concerns about autonomous AI systems operating with excessive privileges in network environments.",
+    "sourceUrl": "https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network",
+    "publishedAt": "2026-08-20T20:42:18.000Z",
+    "contentHash": "3a86ba0141d2aa9a0e75c87c943bbce9b8f095fb5cbdd6293f33b3f3c0046ad3",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9fa40bc80f",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Friday, August 21st, 2026",
+    "summary": "SANS Internet Storm Center's daily security briefing covering current threat landscape developments and defensive recommendations for network security professionals.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33270",
+    "publishedAt": "2026-08-21T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:bleeping-41d45d363a",
+    "tier": "event",
+    "category": "strategy",
+    "title": "MSPs leverage identity and endpoint monitoring to detect advanced phishing",
+    "summary": "AI-driven phishing campaigns increasingly evade traditional email filters through personalization and sophistication. Kaseya outlines detection strategies for managed service providers, emphasizing monitoring across identity, email, and endpoint layers to identify and isolate threats that bypass initial filtering.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
+    "publishedAt": "2026-08-20T14:01:11.000Z",
+    "contentHash": "d3066641cf5eed9131e12672d369d1ea709c351f2c4386603729b3cb6fcb236e",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:thehackernews-50bcfcb681",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ThreatsDay: Multiple RCE vulnerabilities and exploit techniques identified",
+    "summary": "Security researchers disclosed remote code execution flaws in Gogs 10.0 and n8n workflow automation platform, alongside demonstrations of abuse involving signed drivers and legitimate applications for defense evasion. Additional findings included AI-assisted exploit research methodologies and exposure of misconfigured systems, highlighting how attackers leverage both legitimate infrastructure and weak validation controls.",
+    "sourceUrl": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+    "publishedAt": "2026-08-20T17:23:48.000Z",
+    "contentHash": "cc38e98177b4a4728fddba97203d0998656d70652241f237cdcdf588c90daa12",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:darkreading-1f71631e25",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "aviation"
+    ],
+    "title": "Delta Flight Disrupted With Wi-Fi Hack",
+    "summary": "Dark Reading editors reviewed uncovered cybersecurity stories, including an incident affecting Delta flight operations linked to Wi-Fi exploitation and U.S. government developments regarding offensive cyber response capabilities.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/delta-flight-disrupted-wi-fi-hack",
+    "publishedAt": "2026-08-20T19:11:15.000Z",
+    "contentHash": "01f9b589aa081550b4940bc4646c574723e27df34fad53e63bef78f95c8ed6b4",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:sans-isc-bf4c6777da",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Log Analysis Best Practices for Entra ID Login Monitoring",
+    "summary": "Organizations migrating to cloud environments often neglect log review practices that were routine in on-premises deployments. Monitoring Entra ID login logs—both successful and failed attempts—is critical for detecting anomalous access patterns, including password spray attacks.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33268",
+    "publishedAt": "2026-08-21T01:49:18.000Z",
+    "contentHash": "1e7103d7dbd982c35a86e9a603ee9332f0ffe57b68362517cfb5e8359c54d48b",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:bleeping-1c6b6eea4c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Citrix Issues Patch Advisory for NetScaler Gateway and ADC Vulnerabilities",
+    "summary": "Citrix has disclosed two vulnerabilities affecting NetScaler Gateway and NetScaler ADC products, recommending customers apply patches promptly. The flaws impact secure remote access and application delivery infrastructure used across enterprise environments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+    "publishedAt": "2026-08-20T12:14:38.000Z",
+    "contentHash": "70a0d9281a9c2cf96d9f718a15ec10dbf98f77e0d5860cfee6456ab6320d7378",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:thehackernews-827ef3b45e",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "critical infrastructure",
+      "industrial control systems",
+      "manufacturing"
+    ],
+    "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+    "summary": "U.S. government authorities identified active exploitation of Siemens S7 Series PLCs in critical infrastructure environments using AI-generated exploit scripts. The threat actors deployed scripts disguised as legitimate monitoring tools to conduct reconnaissance and develop capabilities against industrial control systems.",
+    "sourceUrl": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+    "publishedAt": "2026-08-20T16:59:44.000Z",
+    "contentHash": "6614bf53b414f0e5cac2d333433961ccbb2b6cf03b4d375d4c0845cdb0472df4",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:darkreading-323fe5d7a6",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "msp",
+      "smb",
+      "managed-services"
+    ],
+    "title": "N-able Passportal Vulnerability Exposes Password Vault Master Keys",
+    "summary": "A vulnerability in N-able's Passportal password manager, widely used by managed service providers and small businesses, potentially exposed master encryption keys due to its cloud-based architecture. The flaw persists as a structural risk even following vendor patches, raising questions about the inherent security trade-offs of cloud-hosted credential management solutions.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/n-able-bug-password-vault-master-keys",
+    "publishedAt": "2026-08-20T17:39:24.000Z",
+    "contentHash": "fa7b110c20d3ebe96d07f547c5cc62f16769bd4eab2459ce407a1f8551e6bd50",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9f71b497c2",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Microsoft Graph and PowerShell for Risk Detection Commands",
+    "summary": "A technical guide demonstrates how to leverage Microsoft Graph API and PowerShell to identify and analyze risky login events within Azure AD environments. The approach extends previous Graph integration techniques to provide visibility into anomalous authentication activities.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33266",
+    "publishedAt": "2026-08-20T13:09:50.000Z",
+    "contentHash": "57a57a81eeed1731c131e152bb68eeaba835f412a3e18f840d807414faae1e24",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
+  },
+  {
+    "id": "knowledge:bleeping-e9af320d90",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA alerts on active exploitation of critical MLflow vulnerability",
+    "summary": "CISA has notified federal agencies that threat actors are actively exploiting a critical vulnerability in MLflow, an open-source platform for machine learning workflows. The advisory indicates attackers are leveraging this flaw in production environments to gain unauthorized access.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+    "publishedAt": "2026-08-20T11:06:14.000Z",
+    "contentHash": "6c194ddef7a38bf3964c3eff094aa90eefd1db27e3aaffa6f88a00ede00ebf61",
+    "ingestedAt": "2026-08-21T05:47:27.974Z"
   }
 ]
