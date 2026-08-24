@@ -301,217 +301,6 @@
     "ingestedAt": "2026-07-20T08:17:48.332Z"
   },
   {
-    "id": "knowledge:cisa-1652d0ba9c",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing"
-    ],
-    "title": "Weintek cMT3092X Multiple Privilege Escalation and Authentication Vulnerabilities",
-    "summary": "CISA disclosed four vulnerabilities in Weintek cMT3092X HMI devices affecting firmware versions prior to 20210218 and EasyWeb prior to v2.1.20. These flaws enable non-privileged users to escalate privileges through cookie/token manipulation, access plaintext-stored passwords, and modify read-only data. Weintek has released patch cmt_typeB_20260316_007.patch containing EasyWeb 2.3.17-typeb as the remediation.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
-    "publishedAt": "2026-07-23T12:00:00.000Z",
-    "contentHash": "2a10d1a117d4589f28999654477f3b751e02f5af7718243b3f76caea59e29277",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:bleeping-afe4a14794",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "manufacturing",
-      "software development",
-      "product lifecycle management"
-    ],
-    "title": "Clop ransomware targets Windchill and FlexPLM instances",
-    "summary": "The Clop ransomware group is conducting data theft extortion attacks against exposed instances of PTC Windchill and FlexPLM, leveraging internet-accessible deployments as entry points. The campaign exploits these product lifecycle management platforms to extract sensitive data for extortion purposes.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
-    "publishedAt": "2026-07-24T07:36:39.000Z",
-    "contentHash": "9d39150313ba672a12a99c4f6422ecf2e89cfb439c6de434e5d7d41a41b9f832",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:thehackernews-852d7225f4",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-west",
-    "title": "Fake Notepad++ Plugin Distributes MATCHBOIL.V2 Malware in UAC-0099 Campaign",
-    "summary": "CERT-UA identified a campaign by Russia-aligned threat cluster UAC-0099 distributing MATCHBOIL.V2 malware through counterfeit Notepad++ plugins. The trojanized plugins target Windows systems and represent an evolution of the group's previous tactics, which included exploitation of WinRAR vulnerabilities.",
-    "sourceUrl": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
-    "publishedAt": "2026-07-24T06:50:57.000Z",
-    "contentHash": "aba09bfb551fe009ceb6c882f21dcc1157d0900c4bc44fc7f902facc6908a6e9",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:darkreading-f9a5e41433",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "eu-west",
-    "title": "Europe's Multilingual Reality Exposes AI Security Gaps",
-    "summary": "AI safety mechanisms and guardrails across major AI products demonstrate inconsistent effectiveness when tested across multiple languages, with some languages showing weaker protection against jailbreaking and unsafe outputs. The disparity reflects gaps in how AI models are evaluated and secured across linguistically diverse deployments, particularly relevant in multilingual regions.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps",
-    "publishedAt": "2026-07-24T07:00:00.000Z",
-    "contentHash": "43921f4de05fd2105aefd00b0780752deb52fcd0158bdc1d4680e80ba806f277",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:sans-isc-ada413acc6",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast for Friday, July 24th, 2026",
-    "summary": "SANS Internet Storm Center published their daily security briefing covering emerging threats and security developments. The podcast provides analysis of current cybersecurity events relevant to defensive practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33182",
-    "publishedAt": "2026-07-24T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-98f3a356bc",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "uk",
-    "title": "UK and International Partners Expose Russian State-Backed LAUNDRY BEAR Phishing Campaign",
-    "summary": "The UK's National Cyber Security Centre (GCHQ) and international partners have publicly identified a Russian state-supported cyber group designated LAUNDRY BEAR conducting targeted phishing operations against Western organisations. The campaign employs zero-click attack vectors, requiring no user interaction for compromise. The exposure aims to disrupt ongoing operations and raise awareness among potentially affected entities.",
-    "sourceUrl": "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
-    "publishedAt": "2026-07-23T12:00:00.000Z",
-    "contentHash": "5137fd72cf81abad4c037b8c967ce660df963be0b446fd297ebf19f67a970aef",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:cisa-bbdb586d36",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "manufacturing",
-      "industrial control systems"
-    ],
-    "title": "Rockwell Automation ThinManager Path Traversal Vulnerability",
-    "summary": "CISA has disclosed a path traversal vulnerability in Rockwell Automation ThinManager affecting versions 13.0.0 through 14.0.2, allowing authenticated attackers to write arbitrary files to restricted directories. The vulnerability carries a CVSS 3.1 score of 8.1 (HIGH). Rockwell Automation has released patched versions (13.1.6, 13.2.5, 14.0.3) and recommends standard ICS security practices including network isolation and VPN deployment for organizations unable to upgrade immediately.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
-    "publishedAt": "2026-07-23T12:00:00.000Z",
-    "contentHash": "09d1ffb81775968b60c25a918db8daa5db9aaed64b0326bc995ea0bca8b477e2",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:bleeping-5e70f980b8",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Dolphin X RAT Employs AI-Based Target Prioritization",
-    "summary": "A newly identified remote access trojan called Dolphin X incorporates machine learning capabilities to profile and score infected endpoints, enabling threat actors to systematically prioritize victims based on assessed value. This capability reduces attacker operational overhead by automating target assessment across compromised systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
-    "publishedAt": "2026-07-23T21:20:34.000Z",
-    "contentHash": "bc5b96d919c7524835c9624b144e82d98698e7d51bf1254801934d4d9d4699ce",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:thehackernews-5518fb6b7e",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "title": "Russian State-Backed Group Exploited Zimbra Zero-Day for Email and 2FA Theft",
-    "summary": "A Russian state-sponsored espionage group leveraged a previously unknown vulnerability in Zimbra's webmail platform to access victim mailboxes, targeting the past 90 days of email communications, directory listings, stored browser passwords, and two-factor authentication recovery codes. The exploit required only message opening to activate. U.S. government agencies including NSA and CISA have published guidance on the vulnerability.",
-    "sourceUrl": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-    "publishedAt": "2026-07-23T18:36:08.000Z",
-    "contentHash": "d8cf53451f6a4c7490b7d54dcafa019302d4508f92635493a8b6e6469d743fd1",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:darkreading-47dd838936",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "title": "Russian State-Sponsored Group Exploits Zimbra Zero-Day via Minimal-Interaction Phishing",
-    "summary": "A Russian state-sponsored threat actor tracked as Laundry Bear is leveraging a Zimbra zero-day vulnerability to target entities in the US and Ukraine through phishing emails that require only message preview or opening to execute. The attack method uses a low-friction approach that bypasses traditional user interaction requirements.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-    "publishedAt": "2026-07-23T21:23:18.000Z",
-    "contentHash": "656b8c0e796c43a19111b3cd9f9493d9fba522502a77fe4314e70926f5ebffbb",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:sans-isc-d6f8931e23",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Coordinated Disclosures Reveal AI Model Misuse in Intrusion Campaign",
-    "summary": "Two separate disclosures five days apart described the same intrusion from victim and attacker perspectives, revealing how an AI model was repurposed for malicious intrusion activities. The incident illustrates defensive lessons around AI system governance and the risks of inadequate access controls over machine learning infrastructure.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33180",
-    "publishedAt": "2026-07-23T13:40:27.000Z",
-    "contentHash": "cbe91c456fab5dae904402cebcd00800ca716973902c31c9db269a0718f19dda",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:bleeping-b80be0dc24",
-    "tier": "event",
-    "category": "attack",
-    "region": "anz",
-    "industries": [
-      "energy"
-    ],
-    "title": "Origin Energy confirms customer data breach in Australia",
-    "summary": "Australian energy provider Origin Energy disclosed unauthorized access to customer data, resulting in the exposure of personally identifiable information. The compromised data was subsequently published online by the threat actor.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
-    "publishedAt": "2026-07-23T20:14:35.000Z",
-    "contentHash": "eb464a1eaacdd6da890bc59ca3bd9d512e00fb8f6b14f88d2b6222ab17cbb224",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:thehackernews-0fad97e2f1",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
-    "summary": "This week's threat landscape included Android spyware disguised as legitimate applications, attacks on industrial control systems, and prompt injection techniques targeting AI agents through manipulated images. Multiple threats exploited legitimate-appearing packages, browser extensions, and network communications to establish unauthorized access or exfiltrate data.",
-    "sourceUrl": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
-    "publishedAt": "2026-07-23T15:02:07.000Z",
-    "contentHash": "594c8de327ce93c2df65c6008d7795ded299c76a1871b5ec34ba82ec4d68fe84",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:darkreading-d49458a891",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Agentic AI Introduces New Challenges to Confidential Computing Adoption",
-    "summary": "While technological advances are addressing historical barriers to secure data vault adoption, the emergence of agentic AI systems introduces additional complexity to confidential computing implementations. Security experts are developing approaches to mitigate risks associated with autonomous AI agents operating within protected environments.",
-    "sourceUrl": "https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing",
-    "publishedAt": "2026-07-23T11:17:51.000Z",
-    "contentHash": "af1be81fd0d7b0340afc9af96cae24e64f71f9f119048c0efb7c7ef42a53ba91",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:bleeping-2cb10c32bd",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Malvertising campaign distributes SectopRAT via fraudulent Claude application",
-    "summary": "A malvertising operation leveraged Bing search advertisements to promote a counterfeit Claude desktop application installer, which was hosted on a legitimate Claude.ai subdomain. The installer functioned as a delivery mechanism for SectopRAT malware, exploiting user trust in the Bing advertising platform and Claude's brand recognition.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
-    "publishedAt": "2026-07-23T19:48:30.000Z",
-    "contentHash": "bd18f66c1b5138f6cf2d22297db43ca21372bf5efda4ec6ff3cc1e57e7454d78",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:thehackernews-e159988bd4",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Sandbox Escape Vulnerability Discovered in Anthropic's Claude Cowork",
-    "summary": "Researchers identified a sandbox escape flaw in Anthropic's Claude Cowork that allows the AI agent to break out of its Linux VM container and access arbitrary files on macOS hosts. The vulnerability affects approximately 500,000 macOS users running the affected version.",
-    "sourceUrl": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-    "publishedAt": "2026-07-23T13:27:59.000Z",
-    "contentHash": "917a49a5997385041f4494e19df44d4377605f069af74fefb87b68049f29c7d9",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
-    "id": "knowledge:darkreading-eae79913c9",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Passkey Implementation Flaws Identified in Microsoft Systems",
-    "summary": "Security researchers have discovered vulnerabilities in Microsoft's passkey implementation that could enable unauthorized impersonation of privileged accounts. The findings highlight that established attack techniques remain effective against newer authentication mechanisms, even as organizations transition away from password-based authentication.",
-    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work",
-    "publishedAt": "2026-07-22T23:50:01.000Z",
-    "contentHash": "3822c671ea96700ad49348fee71f97f10e23ce532b41387c7d7f876fd75df07e",
-    "ingestedAt": "2026-07-24T07:41:54.914Z"
-  },
-  {
     "id": "knowledge:manual-564faf9ed7e6",
     "tier": "foundational",
     "category": "threat-intel",
@@ -4720,5 +4509,55 @@
     "publishedAt": "2026-08-21T11:00:00.000Z",
     "contentHash": "0572c345afa44b575b7b93cdfe2327689c88634bd01cf4421ab4207eac0c0111",
     "ingestedAt": "2026-08-23T05:44:25.964Z"
+  },
+  {
+    "id": "knowledge:bleeping-b423251955",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ToxicPanda Android Malware Expands Targeting and Command Capabilities",
+    "summary": "ToxicPanda, an Android malware variant, has been enhanced with additional functionality that leverages VPN permissions to circumvent Google Play protections. The updated version now targets 349 applications and supports 167 remote commands, representing a significant expansion of its operational scope.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+    "publishedAt": "2026-08-23T14:23:46.000Z",
+    "contentHash": "5335176f18ff7865ac72e9373fd3495f7c1ac1118cca0a2be0cfcd0482dc9341",
+    "ingestedAt": "2026-08-24T05:52:49.923Z"
+  },
+  {
+    "id": "knowledge:darkreading-88260a5bdc",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "manufacturing",
+      "industrial",
+      "energy",
+      "infrastructure"
+    ],
+    "title": "Vulnerabilities in Time-Sensitive Networking Protocols Pose OT Security Risks",
+    "summary": "Research identifies security gaps in TSN (Time-Sensitive Networking) protocols used in industrial environments, demonstrating how unprotected implementations could enable attackers to disrupt or alter physical operations. The findings highlight a need for organizations deploying these emerging protocols to implement appropriate security controls.",
+    "sourceUrl": "https://www.darkreading.com/ics-ot-security/how-emerging-industrial-protocol-family-put-ot-at-risk",
+    "publishedAt": "2026-08-21T20:24:42.000Z",
+    "contentHash": "32cd5318b63ddebcc745a906594b6b9b49638d52e6bc4b4f3c56a74c3a76d878",
+    "ingestedAt": "2026-08-24T05:52:49.923Z"
+  },
+  {
+    "id": "knowledge:sans-isc-e879d9deb1",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast For Monday, August 24th, 2026",
+    "summary": "SANS Internet Storm Center publishes daily cybersecurity briefings covering emerging threats, vulnerabilities, and security developments. The Stormcast podcast series provides analysis of current events relevant to defenders and security professionals.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33276",
+    "publishedAt": "2026-08-24T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-24T05:52:49.923Z"
+  },
+  {
+    "id": "knowledge:darkreading-24be7a4f11",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near",
+    "summary": "Hardware manufacturers are deploying post-quantum cryptographic implementations in response to anticipated threats from sufficiently advanced computing capabilities. The transition addresses the risk that current encryption standards may become vulnerable to future computational power, requiring proactive algorithm updates across the industry.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography",
+    "publishedAt": "2026-08-21T13:10:33.000Z",
+    "contentHash": "dffec746b01ee8ea203849e92a1a60f68fad143e9f5406f9707be36ef385c0c4",
+    "ingestedAt": "2026-08-24T05:52:49.923Z"
   }
 ]
