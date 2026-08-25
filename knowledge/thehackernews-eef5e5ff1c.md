@@ -1,0 +1,3 @@
+WordlistLoader and SynkLoader Malware Families Deliver Stealer Payloads
+
+Two newly identified malware families, WordlistLoader and SynkLoader, are being leveraged to distribute secondary payloads including Amatera Stealer and facilitate credential theft, with apparent intent to monetize access through ransomware affiliate channels. WordlistLoader operates within ClearFake campaigns using ClickFix social engineering techniques, while SynkLoader targets Windows credential harvesting. Gen Digital researchers attribute these campaigns to coordinated criminal infrastructure focused on initial access provision.
