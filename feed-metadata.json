@@ -115,67 +115,6 @@
     "category": "threat-intel",
     "publishedAt": "2026-07-24T07:42:26.020Z"
   },
-  "knowledge/bleeping-a7df7ffa5e.md": {
-    "industries": [
-      "gaming"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-07-25T22:37:47.000Z"
-  },
-  "knowledge/thehackernews-17ff6787fa.md": {
-    "industries": [
-      "financial-services",
-      "cryptocurrency"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-07-25T18:48:44.000Z"
-  },
-  "knowledge/bleeping-207ba2c04d.md": {
-    "industries": [
-      "financial-services",
-      "cryptocurrency"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-07-25T15:21:09.000Z"
-  },
-  "knowledge/thehackernews-8083b86f87.md": {
-    "industries": [
-      "software development",
-      "technology"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-07-25T12:52:43.000Z"
-  },
-  "knowledge/bleeping-761b2a971c.md": {
-    "category": "attack",
-    "publishedAt": "2026-07-25T14:16:26.000Z"
-  },
-  "knowledge/thehackernews-272cc44a5c.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-07-25T10:14:26.000Z"
-  },
-  "knowledge/bleeping-25ca120783.md": {
-    "region": "global",
-    "category": "news",
-    "publishedAt": "2026-07-25T09:31:09.000Z"
-  },
-  "knowledge/thehackernews-bb8d98fdc3.md": {
-    "industries": [
-      "financial services",
-      "insurance"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-07-25T10:14:21.000Z"
-  },
-  "knowledge/bleeping-3154a4bd55.md": {
-    "region": "us",
-    "category": "news",
-    "publishedAt": "2026-07-24T11:17:19.000Z"
-  },
-  "knowledge/thehackernews-6fdd8513ac.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-07-25T09:53:41.000Z"
-  },
   "knowledge/manual-d82f2c273fdb.md": {
     "category": "strategy",
     "publishedAt": "2026-07-25T05:52:21.439Z"
@@ -2006,5 +1945,93 @@
     ],
     "category": "attack",
     "publishedAt": "2026-08-24T11:51:36.000Z"
+  },
+  "knowledge/bleeping-2e7f77b496.md": {
+    "region": "us",
+    "industries": [
+      "arts and culture"
+    ],
+    "category": "news",
+    "publishedAt": "2026-08-25T21:58:14.000Z"
+  },
+  "knowledge/thehackernews-5fe735c75f.md": {
+    "region": "us",
+    "industries": [
+      "critical infrastructure"
+    ],
+    "category": "regulation",
+    "publishedAt": "2026-08-25T18:17:17.000Z"
+  },
+  "knowledge/darkreading-dbe91be8fe.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-25T21:08:55.000Z"
+  },
+  "knowledge/sans-isc-d13f46274d.md": {
+    "category": "news",
+    "publishedAt": "2026-08-26T02:40:13.000Z"
+  },
+  "knowledge/bleeping-3edbe2a627.md": {
+    "category": "attack",
+    "publishedAt": "2026-08-25T21:39:01.000Z"
+  },
+  "knowledge/thehackernews-363f9eed78.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-25T14:07:37.000Z"
+  },
+  "knowledge/darkreading-9a55681da0.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-25T19:50:16.000Z"
+  },
+  "knowledge/sans-isc-082c3335f8.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-25T15:03:33.000Z"
+  },
+  "knowledge/bleeping-b300bf62ab.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-25T20:25:26.000Z"
+  },
+  "knowledge/thehackernews-2e3b78a4e6.md": {
+    "category": "product-release",
+    "publishedAt": "2026-08-25T13:19:41.000Z"
+  },
+  "knowledge/darkreading-96654d5a54.md": {
+    "category": "news",
+    "publishedAt": "2026-08-25T14:53:13.000Z"
+  },
+  "knowledge/cisa-bdf3c3b943.md": {
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-08-25T12:00:00.000Z"
+  },
+  "knowledge/bleeping-0856539010.md": {
+    "region": "eu-west",
+    "industries": [
+      "government"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-25T15:52:36.000Z"
+  },
+  "knowledge/thehackernews-dd2b5b5f22.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-08-25T12:43:51.000Z"
+  },
+  "knowledge/bleeping-6390d9c4db.md": {
+    "region": "us",
+    "industries": [
+      "healthcare"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-25T14:44:16.000Z"
+  },
+  "knowledge/thehackernews-99cf59e094.md": {
+    "region": [
+      "us",
+      "eu-west"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-08-25T11:56:15.000Z"
   }
 }

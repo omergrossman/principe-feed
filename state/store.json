@@ -314,137 +314,6 @@
     "ingestedAt": "2026-07-24T07:41:54.914Z"
   },
   {
-    "id": "knowledge:bleeping-a7df7ffa5e",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "gaming"
-    ],
-    "title": "Steam Forum ClickFix Attacks Distribute XMRig Cryptominers to Gamers",
-    "summary": "Threat actors are leveraging Steam discussion forums to distribute malware disguised as legitimate troubleshooting tools. The ClickFix attack vector delivers XMRig cryptominers to victims seeking solutions for gaming and system issues, exploiting the platform's trusted user community.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-    "publishedAt": "2026-07-25T22:37:47.000Z",
-    "contentHash": "dcfd9aad56f00eb237c389db946fa4cead4626bacbe08a660b705b0b716c72ef",
-    "ingestedAt": "2026-07-26T07:45:37.764Z"
-  },
-  {
-    "id": "knowledge:thehackernews-17ff6787fa",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "financial-services",
-      "cryptocurrency"
-    ],
-    "title": "SourTrade Malvertising Campaign Uses Browser-Based Assembly to Evade Detection",
-    "summary": "A malvertising operation called SourTrade has been distributing Windows malware since late 2024 by fragmenting executables and leveraging browsers to reassemble them, rather than serving complete payloads. The campaign impersonates legitimate trading platforms and uses the Bun runtime as a delivery mechanism, allowing it to bypass traditional file-based detection methods.",
-    "sourceUrl": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-    "publishedAt": "2026-07-25T18:48:44.000Z",
-    "contentHash": "64d4a667478a890fc61b7e489b82861444ec8e111adb596b0c9e501687237aba",
-    "ingestedAt": "2026-07-26T07:45:37.764Z"
-  },
-  {
-    "id": "knowledge:bleeping-207ba2c04d",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "financial-services",
-      "cryptocurrency"
-    ],
-    "title": "Malvertising Campaign Deploys In-Memory Malware Assembly via JavaScript",
-    "summary": "A large-scale malvertising operation uses counterfeit financial trading and cryptocurrency platforms to distribute malicious JavaScript code that constructs malware within browser memory, circumventing traditional file-based detection mechanisms. The campaign mimics legitimate services including Solana, Luno, and TradingView to compromise user systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-    "publishedAt": "2026-07-25T15:21:09.000Z",
-    "contentHash": "cd318c6d73267aba0bdb2058d3743eeafd21e07ff1280a209aab8bcfb1280663",
-    "ingestedAt": "2026-07-26T07:45:37.764Z"
-  },
-  {
-    "id": "knowledge:thehackernews-8083b86f87",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "technology"
-    ],
-    "title": "Fastjson RCE Vulnerability Actively Exploited in Spring Boot Applications",
-    "summary": "Threat actors are actively exploiting CVE-2026-16723, a critical remote code execution flaw in Alibaba's Fastjson library affecting Spring Boot deployments. The vulnerability allows unauthenticated attackers to execute arbitrary code with Java process privileges via malicious JSON payloads. No patch is currently available, leaving affected systems exposed.",
-    "sourceUrl": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
-    "publishedAt": "2026-07-25T12:52:43.000Z",
-    "contentHash": "50cb51c95242900d3a025d0a7154f6f1c648c5f296b0bfb2d9868c78af23b9ea",
-    "ingestedAt": "2026-07-26T07:45:37.764Z"
-  },
-  {
-    "id": "knowledge:bleeping-761b2a971c",
-    "tier": "event",
-    "category": "attack",
-    "title": "ShinyHunters breach data leveraged in sextortion campaign",
-    "summary": "Threat actors are weaponizing email addresses from data breaches attributed to the ShinyHunters extortion group to conduct sextortion email campaigns, demanding $2,000 in Bitcoin per target. The scam exploits the availability of exposed contact information from previous data leaks to establish false credibility with victims.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
-    "publishedAt": "2026-07-25T14:16:26.000Z",
-    "contentHash": "58af9c85bb4c3d9d3698e1ab301a145c7fa42f95b081e0ac3b2eaa747ea7560f",
-    "ingestedAt": "2026-07-26T07:45:37.764Z"
-  },
-  {
-    "id": "knowledge:thehackernews-272cc44a5c",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "GitLab RCE Exploit Published for Authenticated Attack Vector",
-    "summary": "Researchers released proof-of-concept code for a GitLab vulnerability patched in June, affecting self-managed instances on version 18.11.3 and earlier. Authenticated users with project push access can execute arbitrary commands as the git user by committing a specially crafted Jupyter notebook and viewing its diff.",
-    "sourceUrl": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-    "publishedAt": "2026-07-25T10:14:26.000Z",
-    "contentHash": "2d08eeb60274e7e351561660f3bbeadbd7f4bfe544e95864c4d4eee88aae3195",
-    "ingestedAt": "2026-07-26T07:45:37.764Z"
-  },
-  {
-    "id": "knowledge:bleeping-25ca120783",
-    "tier": "event",
-    "category": "news",
-    "region": "global",
-    "title": "OpenAI confirms ChatGPT experiencing global connectivity issues",
-    "summary": "ChatGPT experienced widespread connectivity disruptions affecting users globally. OpenAI acknowledged the outage, though specific causes and duration were not detailed in the confirmation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
-    "publishedAt": "2026-07-25T09:31:09.000Z",
-    "contentHash": "bbb33e412bbeae47ba6af11b75359760c2a0831a6c1326a273094bc328be5f00",
-    "ingestedAt": "2026-07-26T07:45:37.764Z"
-  },
-  {
-    "id": "knowledge:thehackernews-bb8d98fdc3",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "financial services",
-      "insurance"
-    ],
-    "title": "Insurance Sector Phishing Evolves to Real-Time Account Hijacking",
-    "summary": "CTM360 research documents a shift in phishing tactics targeting financial institutions, moving from credential harvesting to immediate account takeover during active sessions. Attackers now compromise accounts synchronously rather than storing credentials for later exploitation, reducing detection windows and increasing operational effectiveness.",
-    "sourceUrl": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
-    "publishedAt": "2026-07-25T10:14:21.000Z",
-    "contentHash": "ed2bcdabec8609fb901c6b805ccbc13d0829b56f01dd0d4c4ed1bcc4900e77a2",
-    "ingestedAt": "2026-07-26T07:45:37.764Z"
-  },
-  {
-    "id": "knowledge:bleeping-3154a4bd55",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "title": "Illinois resident sentenced to six years for mass Snapchat account compromise",
-    "summary": "A man was convicted and sentenced to 76 months in prison for unauthorized access to over 750 Snapchat accounts, with the objective of obtaining intimate imagery. The case involved coordinated account compromise and image theft targeting female users.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
-    "publishedAt": "2026-07-24T11:17:19.000Z",
-    "contentHash": "b480cb947af5beeb5b7b50bbaa4bc833b1811b86c170f2832e93e618b062a319",
-    "ingestedAt": "2026-07-26T07:45:37.764Z"
-  },
-  {
-    "id": "knowledge:thehackernews-6fdd8513ac",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "DevMan RaaS Portal Offers Centralized Payload Building and Affiliate Management",
-    "summary": "DevMan operators maintain a web-based platform enabling affiliates to generate malware payloads, track earnings, and manage victim-related operations. PRODAFT tracks the centrally administered ransomware-as-a-service scheme under the designation Funky Mantis, noting the portal integrates payload generation, financial tracking, and operational management functions.",
-    "sourceUrl": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
-    "publishedAt": "2026-07-25T09:53:41.000Z",
-    "contentHash": "fa5ad2cd631c892197084612667bafba1bc0dd085e4a8cfd40a2bd4008019ab7",
-    "ingestedAt": "2026-07-26T07:45:37.764Z"
-  },
-  {
     "id": "knowledge:manual-d82f2c273fdb",
     "tier": "foundational",
     "category": "strategy",
@@ -4530,5 +4399,205 @@
     "publishedAt": "2026-08-24T11:51:36.000Z",
     "contentHash": "384ba701062dc2680ed1326a775c3ab75095de4888c46ea9432b1fce126ba987",
     "ingestedAt": "2026-08-25T05:47:04.203Z"
+  },
+  {
+    "id": "knowledge:bleeping-2e7f77b496",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "arts and culture"
+    ],
+    "title": "LACMA Data Breach Exposes Personal and Medical Information",
+    "summary": "The Los Angeles County Museum of Art disclosed a data breach from the previous year that compromised customer and employee personal information, including Social Security numbers and medical records. The incident affects individuals whose data was stored in LACMA's systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+    "publishedAt": "2026-08-25T21:58:14.000Z",
+    "contentHash": "f1d2fec11ce9d663613046817211d3890701a71c060f92bcaddaf4f6dec09c68",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5fe735c75f",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "industries": [
+      "critical infrastructure"
+    ],
+    "title": "U.S. Sanctions Iran-Linked Cyber Actors for Critical Infrastructure Attacks",
+    "summary": "The U.S. Department of the Treasury has imposed sanctions on Iranian cyber actors responsible for breaches targeting critical infrastructure, as part of a broader governmental economic pressure campaign. The action aims to disrupt financial networks supporting Iranian state-sponsored cyber operations.",
+    "sourceUrl": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+    "publishedAt": "2026-08-25T18:17:17.000Z",
+    "contentHash": "6273be7c2cce7e4819455a0ef99cdd31d85d5133a3d36fb8c9fa0dbc412eb2de",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:darkreading-dbe91be8fe",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Hidden HTML Prompts Manipulate AI Email Summarizers",
+    "summary": "Researchers demonstrated that attackers can embed invisible HTML markup in emails to inject malicious instructions into AI summarization systems, causing them to generate false or misleading summaries. This technique exploits a gap between user-visible content and machine-parsed instructions, potentially enabling phishing and misinformation campaigns through compromised AI summaries.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
+    "publishedAt": "2026-08-25T21:08:55.000Z",
+    "contentHash": "99b0964e9291e8dd6c2c933de01c307ae2cafb2a74eeaa239136dc2bd223dc7b",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:sans-isc-d13f46274d",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Wednesday, August 26th, 2026",
+    "summary": "SANS Internet Storm Center published their regular Stormcast podcast episode. The episode covers current cybersecurity developments and threat landscape observations as part of ISC's ongoing daily security briefing series.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33282",
+    "publishedAt": "2026-08-26T02:40:13.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:bleeping-3edbe2a627",
+    "tier": "event",
+    "category": "attack",
+    "title": "Threat actors abuse npm mirrors for phishing redirect hosting",
+    "summary": "Attackers have exploited npm package mirrors to distribute malicious HTML pages that spoof Cloudflare CAPTCHA interfaces, using them as redirect mechanisms to attacker infrastructure. This technique leverages the trust and accessibility of legitimate package repositories to lower detection barriers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+    "publishedAt": "2026-08-25T21:39:01.000Z",
+    "contentHash": "739b4cd0089298e75baf8472d1369b1f1614aaf233f25cd253da181e4b1baa96",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:thehackernews-363f9eed78",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "NVIDIA NemoClaw Vulnerable to Model Poisoning via Malicious Webpages",
+    "summary": "Oasis Security identified a vulnerability in NVIDIA NemoClaw that permits an attacker to compromise an unauthenticated local Ollama instance and inject malicious instructions into the underlying AI model. The vulnerability requires no user authentication and could enable persistent manipulation of model behavior through a specially crafted webpage.",
+    "sourceUrl": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+    "publishedAt": "2026-08-25T14:07:37.000Z",
+    "contentHash": "861270c43eb9efb302b328f84508f4e8d76c1d9e570aeece54b4f25ff0a8394c",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:darkreading-9a55681da0",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "NVIDIA OpenClaw Networking Vulnerability Enables LLM Model Poisoning",
+    "summary": "A networking flaw in NVIDIA's OpenClaw tool permits unauthenticated access to local model servers via the Ollama API, potentially allowing attackers to corrupt AI agents persistently. The vulnerability could be exploited to modify model behavior or inject malicious logic into language model deployments.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
+    "publishedAt": "2026-08-25T19:50:16.000Z",
+    "contentHash": "149c00f23b115092594bba9ebf06aa1012fd4094376fed2d0e8eae682d4817f8",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:sans-isc-082c3335f8",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Obfuscating IP Addresses as Hostnames to Bypass Filters",
+    "summary": "Attackers can bypass IP-based blocklists by substituting hostnames for IP addresses in SSRF exploit attempts, including attacks targeting cloud metadata services. Organizations relying on string matching or IP blocklists for the 169.254.169.254 metadata endpoint may remain vulnerable to this evasion technique.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33280",
+    "publishedAt": "2026-08-25T15:03:33.000Z",
+    "contentHash": "e950bd4f0bed3134722863b257f98381a40eb94edb5d24ead970f92c8b8428ae",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:bleeping-b300bf62ab",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AnonyMousKIT PhaaS platform automates iPhone passcode extraction via voice AI",
+    "summary": "AnonyMousKIT, a phishing-as-a-service offering, leverages voice AI agents to automate the extraction of passcodes from stolen Apple devices and circumvent Activation Lock protections. The platform demonstrates a shift toward automation in device theft operations, combining social engineering techniques with synthetic voice technology to improve attack success rates.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+    "publishedAt": "2026-08-25T20:25:26.000Z",
+    "contentHash": "4bd9c4e36bfd4d26a8ea46b06b53e18b5492c4438e9424368b6ef592a441b4d4",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:thehackernews-2e3b78a4e6",
+    "tier": "event",
+    "category": "product-release",
+    "title": "WhatsApp Expands Passkey Support Across iOS and Android",
+    "summary": "Meta announced enhanced account security for WhatsApp, enabling users to register multiple passkeys per account for phishing-resistant authentication on both iOS and Android platforms. The expansion builds on existing passkey adoption, with over 1 billion users already leveraging the technology for account access.",
+    "sourceUrl": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
+    "publishedAt": "2026-08-25T13:19:41.000Z",
+    "contentHash": "2a2dcf7a6ffaf621783cc96d8159ecb78f852820937a79f1d40975bc522be253",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:darkreading-96654d5a54",
+    "tier": "event",
+    "category": "news",
+    "title": "Cyber Affordability Crisis Threatens Small Business Security",
+    "summary": "Rising breach costs combined with global cybersecurity spending approaching $240 billion are creating affordability barriers for small businesses, leaving them inadequately defended and potentially exposing broader supply chain ecosystems to compromise.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-",
+    "publishedAt": "2026-08-25T14:53:13.000Z",
+    "contentHash": "54edef68003f8181331c299eeae45e9762dfb0377d1418fdd8f9ecb7aeafb870",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:cisa-bdf3c3b943",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "title": "CISA Adds Gitea Code Injection Vulnerability to Known Exploited Vulnerabilities Catalog",
+    "summary": "CISA added CVE-2026-60004, a code injection flaw in Gitea, to its Known Exploited Vulnerabilities Catalog following evidence of active exploitation in the wild. The addition reinforces Binding Operational Directive 26-04, which mandates federal agencies prioritize patching KEV-listed vulnerabilities on internet-facing systems and investigate potential prior compromise. CISA encourages all organizations to adopt similar risk-based vulnerability management practices regardless of regulatory requirement.",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "contentHash": "5c95d032f1d2fe0b8b1f4ce1bd833620d5ea63846fed28d37ca9931457e0b2af",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:bleeping-0856539010",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "government"
+    ],
+    "title": "DDoS Attack Disrupts Norway Government Digital Services",
+    "summary": "Norway's shared government digital infrastructure experienced a significant DDoS attack beginning Monday, affecting public sector services. The incident impacted multiple agencies relying on the centralized digital platform.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+    "publishedAt": "2026-08-25T15:52:36.000Z",
+    "contentHash": "b6ad987ae28e35488e9b3464ce96c898697aa86764346c7da59155ee381e5c04",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:thehackernews-dd2b5b5f22",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Marimo Notebook Vulnerability Allows MCP Command Execution in Edit Mode",
+    "summary": "Marimo has patched a high-severity flaw in its notebook software that permitted execution of attacker-controlled Model Context Protocol commands when a malicious notebook was opened in edit mode. The commands could run as local subprocesses, potentially enabling unauthorized code execution on the user's system.",
+    "sourceUrl": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
+    "publishedAt": "2026-08-25T12:43:51.000Z",
+    "contentHash": "57cde0a552ceecc26e3de5baeed5bbee8ac7c5ef6fd5a8f3787a057a661bb90a",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:bleeping-6390d9c4db",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "Nutex Health Reports Data Exfiltration Incident",
+    "summary": "Nutex Health, a hospital operator, is investigating a data breach involving unauthorized access to company servers and subsequent data exfiltration. The healthcare provider is working to determine the scope and nature of compromised information.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+    "publishedAt": "2026-08-25T14:44:16.000Z",
+    "contentHash": "7c5ae390bab8dfebc911a70e3d17281dacf26fc934f4dc2a7aea350da0e866ea",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
+  },
+  {
+    "id": "knowledge:thehackernews-99cf59e094",
+    "tier": "event",
+    "category": "attack",
+    "region": [
+      "us",
+      "eu-west"
+    ],
+    "title": "Mirage2FA Campaign Targets 4,500 Organizations Across US and EU via Microsoft 365 Compromise",
+    "summary": "A phishing-as-a-service toolkit called Mirage2FA has targeted approximately 4,500 organizations between 2024 and 2026 by exploiting Microsoft 365 authentication flows to circumvent two-factor authentication mechanisms. Analysis indicates that roughly 48% of targeted email addresses experienced potential compromise. The campaign predominantly affected US-based enterprises, with secondary impacts in the EU.",
+    "sourceUrl": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+    "publishedAt": "2026-08-25T11:56:15.000Z",
+    "contentHash": "66f048bb13743e6e894bdcedbc7c8409636d8c33d042d97021949197d470a823",
+    "ingestedAt": "2026-08-26T05:50:10.938Z"
   }
 ]
