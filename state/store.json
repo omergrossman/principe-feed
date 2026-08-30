@@ -4602,5 +4602,49 @@
     "publishedAt": "2026-08-28T09:45:15.000Z",
     "contentHash": "063774c13a6b7e9a40362ded71b98f31984c6656aefcd549fa99cff31945af65",
     "ingestedAt": "2026-08-29T11:39:45.652Z"
+  },
+  {
+    "id": "knowledge:bleeping-9a78235c4a",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Anthropic Adjusts Claude Code Usage Limits Across Subscription Tiers",
+    "summary": "Anthropic has modified Claude Code's weekly usage limits, implementing a 25% increase for Pro, Max, Team, and Enterprise seat-based plans while simultaneously reducing the standard weekly allowance by 17%. The net effect represents a trade-off in how usage is allocated across different subscription tiers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+    "publishedAt": "2026-08-29T23:11:51.000Z",
+    "contentHash": "05cebe1ce2a0758e397414e0347941f05f9d76b59896113330ffe3fd60436852",
+    "ingestedAt": "2026-08-30T10:28:32.477Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e7fd30e89b",
+    "tier": "event",
+    "category": "attack",
+    "title": "TerminalFix ClickFix Variant Targets Windows Terminal with Fake Cloudflare CAPTCHAs",
+    "summary": "Microsoft identified TerminalFix, a new variant of ClickFix malware that uses fraudulent Cloudflare CAPTCHA pages to deceive users into executing malicious commands via Windows Terminal or PowerShell. The attack aims to install a reverse-tunnel backdoor by exploiting user trust in legitimate security verification prompts.",
+    "sourceUrl": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+    "publishedAt": "2026-08-30T07:36:33.000Z",
+    "contentHash": "da1c554fbd3f614597a9d298d4a5d8993b51a923d85cd0c0271674c15aa189dc",
+    "ingestedAt": "2026-08-30T10:28:32.477Z"
+  },
+  {
+    "id": "knowledge:sans-isc-c061647e3f",
+    "tier": "event",
+    "category": "product-release",
+    "title": "YARA-X 1.20.0 Release",
+    "summary": "YARA-X, the malware research and detection framework, released version 1.20.0 with 14 improvements and 13 bug fixes. The update enhances the tool's functionality and stability for security analysts performing pattern matching and threat analysis.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33288",
+    "publishedAt": "2026-08-30T07:14:49.000Z",
+    "contentHash": "d7b8704f2d48b4689517e992b2ce7ea8b1b2717c74835559f22e8d59c92abee6",
+    "ingestedAt": "2026-08-30T10:28:32.477Z"
+  },
+  {
+    "id": "knowledge:bleeping-84be4ab213",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Brave Browser 1.94 Introduces Email Alias Feature for Tracking Mitigation",
+    "summary": "Brave has released version 1.94 with an integrated email aliasing capability that generates temporary email addresses for user registrations. The feature is designed to reduce user tracking exposure by preventing the linkage of personal email addresses across multiple services.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+    "publishedAt": "2026-08-29T14:19:23.000Z",
+    "contentHash": "2d383ad376d1eaadde9c93c82290d9dca1aa86078f6f5e0cd808023bd860f68c",
+    "ingestedAt": "2026-08-30T10:28:32.477Z"
   }
 ]
