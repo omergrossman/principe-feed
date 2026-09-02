@@ -327,144 +327,6 @@
     "ingestedAt": "2026-07-26T07:45:37.764Z"
   },
   {
-    "id": "knowledge:cisa-136ab257d2",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "energy"
-    ],
-    "title": "Eight Out-of-Bounds Read Vulnerabilities in MZ Automation libiec61850",
-    "summary": "CISA disclosed eight out-of-bounds read vulnerabilities in MZ Automation GmbH libiec61850 versions prior to 1.6.2, affecting IEC 61850 GOOSE and MMS protocol handlers deployed in energy infrastructure worldwide. Exploitation via specially crafted Layer-2 multicast frames or MMS messages can trigger denial-of-service conditions by crashing subscriber and service processes. The vendor has released version 1.6.2 as mitigation.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
-    "publishedAt": "2026-07-30T12:00:00.000Z",
-    "contentHash": "89773dab5205f08db1059f5e5c5ef433d6d671a44dea49829c16bc840189b15a",
-    "ingestedAt": "2026-08-03T08:42:10.380Z"
-  },
-  {
-    "id": "knowledge:bleeping-2326aefff7",
-    "tier": "event",
-    "category": "product-release",
-    "title": "OpenAI Reveals Astra Model Focused on Complex Long-Running Tasks",
-    "summary": "OpenAI announced Astra, an upcoming AI model engineered to handle extended, complex computational problems. An internal iteration reportedly achieved notable progress on ten long-standing mathematical and theoretical computer science challenges, indicating potential capabilities in reasoning-intensive domains.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
-    "publishedAt": "2026-08-02T22:31:41.000Z",
-    "contentHash": "9d0389bfae1815a131c3f2de9e54c8745d7d75508761036abf6863fae6326c48",
-    "ingestedAt": "2026-08-03T08:42:10.380Z"
-  },
-  {
-    "id": "knowledge:thehackernews-000b4c51e3",
-    "tier": "event",
-    "category": "product-release",
-    "industries": [
-      "biotechnology",
-      "life sciences"
-    ],
-    "title": "Thermo Fisher Patches DNA File Tampering Vulnerability in Applied Biosystems Software",
-    "summary": "Thermo Fisher Scientific released a security patch for a flaw in Applied Biosystems human identification software that permitted modification of DNA analysis data files prior to processing. The vulnerability, tracked as CVE-2026-17583, could enable alterations to .fsa and .hid output files with minimal detection if laboratory security controls were bypassed.",
-    "sourceUrl": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-    "publishedAt": "2026-08-03T08:05:30.000Z",
-    "contentHash": "596555dc11f31ccf0106d6e46af8b28ea340bfa84105ff92ebaf0d9e531d0d57",
-    "ingestedAt": "2026-08-03T08:42:10.380Z"
-  },
-  {
-    "id": "knowledge:darkreading-cdad757a49",
-    "tier": "event",
-    "category": "news",
-    "title": "Cybersecurity, Then & Now",
-    "summary": "Dark Reading reflects on nearly two decades of cybersecurity coverage since 2006, observing that despite significant technological evolution, fundamental security challenges persist across the industry. The piece examines how threat landscapes and defensive approaches have transformed while core vulnerabilities and organizational struggles remain consistent themes.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/cybersecurity-then-now",
-    "publishedAt": "2026-07-29T23:26:46.000Z",
-    "contentHash": "e70d676b020ce65c355a74497ce1aa853c8130fbe350a21964a68ac3d4e53257",
-    "ingestedAt": "2026-08-03T08:42:10.380Z"
-  },
-  {
-    "id": "knowledge:sans-isc-9087f7313a",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ISC Stormcast For Monday, August 3rd, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat intelligence. The episode provides analysis of ongoing security incidents and vulnerabilities relevant to defensive operations.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33210",
-    "publishedAt": "2026-08-03T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-08-03T08:42:10.380Z"
-  },
-  {
-    "id": "knowledge:cisa-a9258573a9",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "energy",
-      "water and wastewater",
-      "critical manufacturing",
-      "chemical"
-    ],
-    "title": "MZ Automation lib60870 Out-of-Bounds Read Vulnerabilities",
-    "summary": "CISA disclosed two out-of-bounds read vulnerabilities in MZ Automation lib60870 version 2.4.0 that could enable device denial of service through crafted IEC 60870-5-104 protocol frames. Both CVE-2026-61893 and CVE-2026-63033 carry CVSS scores of 6.5-6.9 and require network access without authentication. The vendor recommends upgrading to version 2.4.1 and has published advisories on GitHub.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-11",
-    "publishedAt": "2026-07-30T12:00:00.000Z",
-    "contentHash": "eb14ee8e9f443de74a0a376a2e45c557f7df4bc19ed620ae543c508ccb495918",
-    "ingestedAt": "2026-08-03T08:42:10.380Z"
-  },
-  {
-    "id": "knowledge:bleeping-b4f28f9ce0",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "cryptocurrency",
-      "fintech"
-    ],
-    "title": "COLDCARD Wallet RNG Vulnerability Linked to $88M Bitcoin Theft",
-    "summary": "A flaw in COLDCARD hardware wallet firmware compromised the random number generator used to create wallet seeds, enabling attackers to derive private keys and steal approximately $88.6 million in Bitcoin from affected users. The vulnerability affected thousands of wallets where seed generation relied on the defective RNG implementation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
-    "publishedAt": "2026-08-02T21:14:29.000Z",
-    "contentHash": "77bf870b48e28a6546c234feff4df4aba3a4a5ebfe326081dbc467233714596b",
-    "ingestedAt": "2026-08-03T08:42:10.380Z"
-  },
-  {
-    "id": "knowledge:thehackernews-44aca34a59",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "managed services",
-      "it services"
-    ],
-    "title": "N-able N-central Authentication Bypass Allows Server Takeover",
-    "summary": "N-able disclosed that attackers exploited an authentication bypass vulnerability (CVE-2026-18577) in N-central to obtain remote administrative access to servers and downstream customer systems. An initial patch released on August 2 proved insufficient, requiring further remediation. The vulnerability affects N-central builds prior to version 2026.3.1.7.",
-    "sourceUrl": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-    "publishedAt": "2026-08-03T06:41:46.000Z",
-    "contentHash": "f1e772ef0d51a37db15e2dfc6396ca03282a333cf4f3c76d325e8dfee27787b6",
-    "ingestedAt": "2026-08-03T08:42:10.380Z"
-  },
-  {
-    "id": "knowledge:bleeping-2273073f02",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Google Chrome to block policy-installed extensions from hijacking New Tab and search settings",
-    "summary": "Google is developing a Chrome security feature to prevent policy-installed extensions from modifying the New Tab page or default search engine settings. This mechanism would restrict extensions deployed through enterprise policies from making unauthorized changes to critical browser functions.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
-    "publishedAt": "2026-08-02T14:17:16.000Z",
-    "contentHash": "a9276574aa13a0cb43ed04849b302afa3e001975c21dc47ad6d89ce25fb76287",
-    "ingestedAt": "2026-08-03T08:42:10.380Z"
-  },
-  {
-    "id": "knowledge:thehackernews-0a3d3912cd",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "artificial intelligence",
-      "software development"
-    ],
-    "title": "Hugging Face Diffusers Library Vulnerabilities Enable Arbitrary Code Execution",
-    "summary": "Three high-severity vulnerabilities were identified in Hugging Face's Diffusers library that could permit malicious model repositories to execute arbitrary code when loaded, circumventing the trust_remote_code safety mechanism. The flaws expose the AI supply chain to potential compromise through compromised or malicious model artifacts.",
-    "sourceUrl": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-    "publishedAt": "2026-08-03T06:40:31.000Z",
-    "contentHash": "7662aaea19f2b417b91cb4f957872eb17c91cc163532872a7d91bbde80614a9b",
-    "ingestedAt": "2026-08-03T08:42:10.380Z"
-  },
-  {
     "id": "knowledge:bleeping-d3d8e65b0f",
     "tier": "event",
     "category": "threat-intel",
@@ -4459,5 +4321,251 @@
     "publishedAt": "2026-08-31T11:47:24.000Z",
     "contentHash": "00cfb6124531dbdd12606250cd24acdceade565b90963b105ba11f672d85e4e8",
     "ingestedAt": "2026-09-01T10:05:46.685Z"
+  },
+  {
+    "id": "knowledge:cisa-5904ebca77",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "title": "Rockwell Automation RSLinx Classic Denial-of-Service Vulnerabilities",
+    "summary": "CISA disclosed four denial-of-service vulnerabilities in Rockwell Automation RSLinx Classic versions 4.50 and earlier, affecting critical manufacturing infrastructure globally. Malformed CIP packets can trigger service crashes; Rockwell Automation released version 4.60 as a fix, with mitigation guidance available for systems unable to upgrade immediately.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
+    "publishedAt": "2026-09-01T12:00:00.000Z",
+    "contentHash": "b7d195c8d32fe723a119c3bfea06a60d02d580c66c74d12a2b35887fa6e738c8",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:krebs-6df08faed0",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "identity verification"
+    ],
+    "title": "FBI Investigates Dark Web Service Offering 153M+ Driver's License Scans",
+    "summary": "A dark web marketplace began selling digital scans of over 153 million driver's licenses belonging to US and Canadian residents. Evidence suggests the data originates from a Louisiana-based identity verification company. The FBI's New Orleans field office has initiated an official investigation into the breach.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+    "publishedAt": "2026-09-01T22:40:28.000Z",
+    "contentHash": "9402464273a3526883437a7bae9c07bb9b0042706e86d4721168b985fd78f5cb",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:bleeping-c7121520f5",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "US Charges Russian National for Malware Campaign Targeting Freelancers",
+    "summary": "A Russian national has been indicted by a California federal grand jury for conducting a phishing campaign that compromised approximately 80,000 freelancers with TVRAT and DarkVNC malware. The operation targeted remote workers across various platforms, enabling unauthorized access to infected systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+    "publishedAt": "2026-09-02T09:06:48.000Z",
+    "contentHash": "eac47394ae2748bcb945d2c6028dc59b12ba1e441700ebd90e05c0a0e1cad1f4",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:thehackernews-71a0dd93ee",
+    "tier": "event",
+    "category": "product-release",
+    "region": "global",
+    "industries": [
+      "government"
+    ],
+    "title": "GeoNetwork Patches Unauthenticated RCE Chain in Geospatial Metadata Catalog",
+    "summary": "Two chained vulnerabilities in GeoNetwork, an open-source geospatial metadata platform deployed across government geoportals, enable unauthenticated remote code execution. Patches were released in versions 4.4.12 and 4.2.17 in July 2026, with vulnerability details disclosed in August.",
+    "sourceUrl": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+    "publishedAt": "2026-09-02T09:18:02.000Z",
+    "contentHash": "fffff4bec591656cb223050bdca5e5052d87fab35f9b3d3adc22c64e3477b0ad",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:darkreading-1c58c50319",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "energy",
+      "nuclear"
+    ],
+    "title": "Unpatched ownCloud Vulnerability Exploited Against Philippines Nuclear Agency",
+    "summary": "Attackers leveraged a known, unpatched vulnerability in ownCloud to compromise the Philippines nuclear agency, gaining access to reactor databases, personnel records, and credential stores. The incident demonstrates the continued risk posed by delayed patching of widely-deployed software components.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
+    "publishedAt": "2026-09-02T01:00:00.000Z",
+    "contentHash": "16ceb1237f183d13f18cf072c62a827dc2cf317bc57c76b033c767ec634c28e8",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:sans-isc-44f36ee2d9",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Wednesday, September 2nd, 2026",
+    "summary": "SANS Internet Storm Center published their regular security briefing podcast covering current threat landscape developments and defensive practices for the week.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33304",
+    "publishedAt": "2026-09-02T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:bleeping-db2015e89f",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Sality Botnet Infrastructure Dismantled in Global Law Enforcement Operation",
+    "summary": "International law enforcement and private sector partners have successfully seized infrastructure associated with the Sality P2P botnet. The coordinated takedown targeted the distributed network that has been used for malware propagation and command-and-control operations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+    "publishedAt": "2026-09-02T08:00:43.000Z",
+    "contentHash": "9bef7742b609330eda6e638ac30338bc6dbedb71b4cab0c40b0b2b13aded3990",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:thehackernews-eb3bb052eb",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "Russian Hacker Extradited and Charged for Large-Scale Excel Malware Campaign",
+    "summary": "A Russian national extradited from Cyprus faces U.S. federal charges for orchestrating a 2016-2017 malware distribution campaign using approximately 255 fraudulent accounts on a freelance platform. The operation delivered malicious Excel attachments to roughly 80,000 users, representing a significant coordinated credential-theft operation across the platform.",
+    "sourceUrl": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+    "publishedAt": "2026-09-02T09:10:23.000Z",
+    "contentHash": "31f7736abf45d7df289d0827169fca6b6f72568d68717685af28fa5597110dbc",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:darkreading-a73d4ab6e1",
+    "tier": "event",
+    "category": "attack",
+    "title": "Attackers Exploit Critical Artifactory Authentication Bypass Vulnerability",
+    "summary": "CVE-2026-82329, an authentication bypass flaw in JFrog's Artifactory repository manager, permits threat actors to obtain administrative privileges on vulnerable instances. Exploitation has commenced following public disclosure of the vulnerability.",
+    "sourceUrl": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
+    "publishedAt": "2026-09-01T21:05:53.000Z",
+    "contentHash": "a9e52904c6857476311f65f9c243708e4487cfe4112804514c67358ac6c59f8f",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:cisa-a8e58c2e06",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "title": "Rockwell Automation ControlLogix and Related Controllers: Denial of Service Vulnerability",
+    "summary": "CISA has published a vulnerability advisory for multiple Rockwell Automation industrial control products (ControlLogix, CompactLogix, GuardLogix lines) affecting firmware versions prior to specified patch levels. The flaw (CVE-2021-42260) is an infinite loop condition triggered by malformed data, rated CVSS 7.5, that can cause denial of service and require controller reset or program reload to recover. Rockwell recommends immediate patching to designated firmware versions; organizations unable to upgrade should apply network segmentation and access controls.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05",
+    "publishedAt": "2026-09-01T12:00:00.000Z",
+    "contentHash": "93bfd633a629df83b7f2082237931bac7d58730aa42ebc7de0cf7bc595434c8d",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:bleeping-dac4f90cb8",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "SonicWall Issues Advisory on Chained SMA1000 Zero-Day Exploits",
+    "summary": "SonicWall has alerted customers to two previously unknown vulnerabilities in SMA1000 appliances being actively exploited in the wild. Threat actors are chaining these flaws to achieve remote code execution, affecting organizations relying on these secure mobile access devices.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+    "publishedAt": "2026-09-02T06:39:29.000Z",
+    "contentHash": "7617ee6bb9af062c607f5ca0daf51ea936e53082bc1db49ff083c619869d27c6",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:thehackernews-fd47abd976",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "industrial-control-systems",
+      "manufacturing",
+      "critical-infrastructure"
+    ],
+    "title": "Researchers Demonstrate AI-Assisted Exploit Porting Across Industrial Control Systems",
+    "summary": "Forescout Research used Claude to adapt a pre-authentication RCE exploit originally targeting one WAGO PLC model to work against another, successfully executing arbitrary ARM code on live hardware. The proof-of-concept involved CVE-2021-31886, a stack buffer overflow in Nucleus FTP server's USER command handling, illustrating how AI tooling can accelerate exploit development and adaptation across similar industrial devices.",
+    "sourceUrl": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+    "publishedAt": "2026-09-02T07:47:13.000Z",
+    "contentHash": "8b03425eb4f58c7c4437f84fad4f5fecbaed1cbe7c5fd7b30219d0a5a281aaf0",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:darkreading-2d2ba1572e",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Ransomware Operators Increasingly Exploit Insider Recruitment",
+    "summary": "Security researchers are documenting a rise in ransomware campaigns facilitated by internal actors, reflecting adversary adaptation to stronger external defenses. Insider threats extend beyond ransomware deployment, creating multifaceted risks that generate substantial financial losses for affected organizations.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
+    "publishedAt": "2026-09-01T21:03:19.000Z",
+    "contentHash": "04a1cd8c79b2544618a71b3038bee89158be506f399c392e9a831411ea78a11a",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:cisa-31fa5b02d1",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "energy",
+      "utilities"
+    ],
+    "title": "Rockwell Automation Logix Platform Denial-of-Service Vulnerability",
+    "summary": "CISA disclosed a buffer validation flaw (CVE-2026-9637) affecting multiple Rockwell Automation Logix controller platforms across multiple firmware versions. The vulnerability allows unauthenticated remote attackers to trigger a denial-of-service condition via malformed CIP messages, requiring manual power cycling to restore operation. Rockwell has released patched firmware versions (V37.011, 34.015, 35.014, 36.013) and recommends immediate updating or network isolation as mitigation.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
+    "publishedAt": "2026-09-01T12:00:00.000Z",
+    "contentHash": "1e585fe1117164b5cf84888e86f51f084fb77a055638f5e10a8d2f07a940f088",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:bleeping-da2eb27b1f",
+    "tier": "event",
+    "category": "attack",
+    "title": "Threat actors abuse Faronics Deploy to distribute ScreenConnect",
+    "summary": "Attackers are leveraging the legitimate Faronics Deploy endpoint-management platform via phishing campaigns to gain administrative access and deploy ScreenConnect remote support software on compromised systems. This approach exploits trusted administrative tooling to establish persistent remote access.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
+    "publishedAt": "2026-09-01T20:53:23.000Z",
+    "contentHash": "0f8f1bdd544e606e944192aa7a4f9f5ea3dc55f7bb152f7153d2118d216ec21e",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9b6ec5da13",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "telecommunications",
+      "voip",
+      "enterprise communications"
+    ],
+    "title": "Attackers Exploit Critical Switchvox Vulnerability for Unauthenticated Remote Code Execution",
+    "summary": "A critical SQL injection vulnerability (CVE-2026-9586, CVSS 9.3) in Sangoma Switchvox SMB Edition 8.3 allows unauthenticated threat actors to execute arbitrary code remotely. Exploitation has been observed in the wild with attackers deploying reverse shells to compromised systems.",
+    "sourceUrl": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+    "publishedAt": "2026-09-02T07:08:50.000Z",
+    "contentHash": "5803d0e8bdb67edbd874e0057c20bca0b080e5e03caf2daade4e67dd47769f9d",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:darkreading-f8a09cf47f",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "artificial intelligence"
+    ],
+    "title": "Critical Langflow Vulnerability Actively Exploited in Escalating Campaign",
+    "summary": "CVE-2026-0768, a critical flaw in the Langflow low-code AI development platform, is being actively exploited by attackers. The vulnerability is part of a broader pattern of increasing adversarial interest in the platform throughout the year.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
+    "publishedAt": "2026-09-01T20:48:52.000Z",
+    "contentHash": "23b17a949437b26e5a6be0af84f6bc675f48d621ff0f048a96941a06659c47b0",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
+  },
+  {
+    "id": "knowledge:bleeping-c0d1439f22",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "Aesto Health discloses breach affecting 9.5 million patients",
+    "summary": "Aesto Health reported a data breach impacting over 9.5 million individuals. The incident was recently discovered and disclosed by the healthcare organization. Details regarding the breach timeline and exposed data elements were not immediately specified.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
+    "publishedAt": "2026-09-01T19:28:17.000Z",
+    "contentHash": "cbb7b9b39e78f126f66cde8099aa5f68196c666cb290cfd535a86a3534d2d0f3",
+    "ingestedAt": "2026-09-02T09:36:58.066Z"
   }
 ]

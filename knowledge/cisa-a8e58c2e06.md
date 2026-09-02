@@ -1,0 +1,3 @@
+Rockwell Automation ControlLogix and Related Controllers: Denial of Service Vulnerability
+
+CISA has published a vulnerability advisory for multiple Rockwell Automation industrial control products (ControlLogix, CompactLogix, GuardLogix lines) affecting firmware versions prior to specified patch levels. The flaw (CVE-2021-42260) is an infinite loop condition triggered by malformed data, rated CVSS 7.5, that can cause denial of service and require controller reset or program reload to recover. Rockwell recommends immediate patching to designated firmware versions; organizations unable to upgrade should apply network segmentation and access controls.

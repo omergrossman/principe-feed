@@ -119,74 +119,6 @@
     "category": "strategy",
     "publishedAt": "2026-07-25T05:52:21.439Z"
   },
-  "knowledge/cisa-136ab257d2.md": {
-    "region": "global",
-    "industries": [
-      "energy"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-07-30T12:00:00.000Z"
-  },
-  "knowledge/bleeping-2326aefff7.md": {
-    "category": "product-release",
-    "publishedAt": "2026-08-02T22:31:41.000Z"
-  },
-  "knowledge/thehackernews-000b4c51e3.md": {
-    "industries": [
-      "biotechnology",
-      "life sciences"
-    ],
-    "category": "product-release",
-    "publishedAt": "2026-08-03T08:05:30.000Z"
-  },
-  "knowledge/darkreading-cdad757a49.md": {
-    "category": "news",
-    "publishedAt": "2026-07-29T23:26:46.000Z"
-  },
-  "knowledge/sans-isc-9087f7313a.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-08-03T02:00:02.000Z"
-  },
-  "knowledge/cisa-a9258573a9.md": {
-    "region": "global",
-    "industries": [
-      "energy",
-      "water and wastewater",
-      "critical manufacturing",
-      "chemical"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-07-30T12:00:00.000Z"
-  },
-  "knowledge/bleeping-b4f28f9ce0.md": {
-    "region": "global",
-    "industries": [
-      "cryptocurrency",
-      "fintech"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-08-02T21:14:29.000Z"
-  },
-  "knowledge/thehackernews-44aca34a59.md": {
-    "industries": [
-      "managed services",
-      "it services"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-08-03T06:41:46.000Z"
-  },
-  "knowledge/bleeping-2273073f02.md": {
-    "category": "product-release",
-    "publishedAt": "2026-08-02T14:17:16.000Z"
-  },
-  "knowledge/thehackernews-0a3d3912cd.md": {
-    "industries": [
-      "artificial intelligence",
-      "software development"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-08-03T06:40:31.000Z"
-  },
   "knowledge/bleeping-d3d8e65b0f.md": {
     "region": "global",
     "industries": [
@@ -1963,5 +1895,125 @@
   "knowledge/thehackernews-4577938273.md": {
     "category": "threat-intel",
     "publishedAt": "2026-08-31T11:47:24.000Z"
+  },
+  "knowledge/cisa-5904ebca77.md": {
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-09-01T12:00:00.000Z"
+  },
+  "knowledge/krebs-6df08faed0.md": {
+    "region": "us",
+    "industries": [
+      "identity verification"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-01T22:40:28.000Z"
+  },
+  "knowledge/bleeping-c7121520f5.md": {
+    "region": "us",
+    "category": "attack",
+    "publishedAt": "2026-09-02T09:06:48.000Z"
+  },
+  "knowledge/thehackernews-71a0dd93ee.md": {
+    "region": "global",
+    "industries": [
+      "government"
+    ],
+    "category": "product-release",
+    "publishedAt": "2026-09-02T09:18:02.000Z"
+  },
+  "knowledge/darkreading-1c58c50319.md": {
+    "region": "apac",
+    "industries": [
+      "energy",
+      "nuclear"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-02T01:00:00.000Z"
+  },
+  "knowledge/sans-isc-44f36ee2d9.md": {
+    "category": "news",
+    "publishedAt": "2026-09-02T02:00:02.000Z"
+  },
+  "knowledge/bleeping-db2015e89f.md": {
+    "region": "global",
+    "category": "attack",
+    "publishedAt": "2026-09-02T08:00:43.000Z"
+  },
+  "knowledge/thehackernews-eb3bb052eb.md": {
+    "region": "us",
+    "category": "attack",
+    "publishedAt": "2026-09-02T09:10:23.000Z"
+  },
+  "knowledge/darkreading-a73d4ab6e1.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-01T21:05:53.000Z"
+  },
+  "knowledge/cisa-a8e58c2e06.md": {
+    "region": "global",
+    "industries": [
+      "critical manufacturing"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-09-01T12:00:00.000Z"
+  },
+  "knowledge/bleeping-dac4f90cb8.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-02T06:39:29.000Z"
+  },
+  "knowledge/thehackernews-fd47abd976.md": {
+    "industries": [
+      "industrial-control-systems",
+      "manufacturing",
+      "critical-infrastructure"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-09-02T07:47:13.000Z"
+  },
+  "knowledge/darkreading-2d2ba1572e.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-01T21:03:19.000Z"
+  },
+  "knowledge/cisa-31fa5b02d1.md": {
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "energy",
+      "utilities"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-09-01T12:00:00.000Z"
+  },
+  "knowledge/bleeping-da2eb27b1f.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-01T20:53:23.000Z"
+  },
+  "knowledge/thehackernews-9b6ec5da13.md": {
+    "industries": [
+      "telecommunications",
+      "voip",
+      "enterprise communications"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-02T07:08:50.000Z"
+  },
+  "knowledge/darkreading-f8a09cf47f.md": {
+    "industries": [
+      "software development",
+      "artificial intelligence"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-01T20:48:52.000Z"
+  },
+  "knowledge/bleeping-c0d1439f22.md": {
+    "region": "us",
+    "industries": [
+      "healthcare"
+    ],
+    "category": "news",
+    "publishedAt": "2026-09-01T19:28:17.000Z"
   }
 }
