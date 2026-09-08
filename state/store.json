@@ -4479,5 +4479,168 @@
     "publishedAt": "2026-09-04T12:22:30.000Z",
     "contentHash": "f2ddecd2bda8907f80f2e57edea1d430e98054ef04055c3b6acea4b3971a23c2",
     "ingestedAt": "2026-09-07T10:16:48.985Z"
+  },
+  {
+    "id": "knowledge:thehackernews-86a44f9f81",
+    "tier": "event",
+    "category": "regulation",
+    "region": "uk",
+    "industries": [
+      "social-media",
+      "dating-apps"
+    ],
+    "title": "Grindr Settles UK Privacy Lawsuit for £26 Million Over HIV Status Data Sharing",
+    "summary": "Grindr has agreed to pay £26 million to resolve UK legal claims alleging it disclosed users' sensitive personal information, including HIV status, to third parties for commercial advertising purposes. The settlement addresses violations of UK privacy regulations regarding the handling of health-related user data.",
+    "sourceUrl": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+    "publishedAt": "2026-09-08T07:00:43.000Z",
+    "contentHash": "0876c9f5047cff4003c97a75ad6e158d58869f2397733d973f9d648a5175a33c",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:sans-isc-0bd3affaa0",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Tuesday, September 8th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast episode covering current cybersecurity topics and threat landscape updates for September 8th, 2026.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33316",
+    "publishedAt": "2026-09-08T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:bleeping-9dd82c8cbc",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "e-commerce",
+      "retail"
+    ],
+    "title": "Magento StyleSmuggler Zero-Day Actively Exploited for Backdoor Deployment",
+    "summary": "A previously unknown vulnerability in Magento and Adobe Commerce, tracked as StyleSmuggler, is being actively exploited in the wild to establish persistent backdoor access. The flaw affects all current versions of both platforms and allows attackers to deploy malicious payloads for command execution and system compromise.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+    "publishedAt": "2026-09-07T16:50:29.000Z",
+    "contentHash": "7b6543217dd629decd320602b263787583214b030ebfa56358b450f6f9ec687d",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:bleeping-71696e8a58",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "BigBear 2.0 phishing-as-a-service bypassed MFA at 258 organizations",
+    "summary": "A phishing-as-a-service framework known as BigBear 2.0 successfully circumvented multi-factor authentication defenses across 258 organizations, resulting in the compromise of over 5,000 Microsoft 365 credentials. The tool demonstrates evolving adversary tactics against widely-adopted authentication controls.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+    "publishedAt": "2026-09-07T15:39:51.000Z",
+    "contentHash": "fa92c8607c751e30c824a980d804df0b66eae80c85c6fe7ffa85245edc540439",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9c92a7066f",
+    "tier": "event",
+    "category": "attack",
+    "title": "Fake IT Calls Used to Compromise Microsoft 365 Accounts in Data Theft and Extortion Campaign",
+    "summary": "Threat actors are conducting vishing campaigns impersonating IT support to target executives at organizations using Microsoft 365 and other SaaS platforms. The attacks combine social engineering with adversary-in-the-middle token theft and residential proxy access to compromise accounts and facilitate data theft and extortion operations.",
+    "sourceUrl": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+    "publishedAt": "2026-09-07T15:51:56.000Z",
+    "contentHash": "a17dc66c5e1b2eb7f0336b98bf9ea47abf0dcffc14fa8f4203db0be1983b8f7f",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:bleeping-c4d7fdfa67",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "education"
+    ],
+    "title": "Mathspace discloses data breach affecting over 1 million users",
+    "summary": "Mathspace, an online mathematics learning platform, disclosed a data breach compromising information from over 1 million students, staff members, and parents. The incident resulted from unauthorized access to the company's Metabase internal reporting system.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+    "publishedAt": "2026-09-07T13:05:11.000Z",
+    "contentHash": "1ff4b1fb4fbe577c39af024eb3dfd00b487367f25f4c6051feba95603f9796a5",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:thehackernews-24d56919cb",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+    "summary": "This week's highlights include a Chrome zero-day vulnerability, router compromise incidents, and a supply chain attack involving compromised code from a trusted software repository. Researchers also documented evasion techniques such as QR codes rendered as text to bypass email image-blocking defenses, and security issues within network management protocols.",
+    "sourceUrl": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+    "publishedAt": "2026-09-07T14:36:07.000Z",
+    "contentHash": "d97c767764fe11c97b26474d9907fa1d5719935b9a4fe79ff2d71e352379e5c5",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:bleeping-93b61032b3",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "cryptocurrency",
+      "hardware security"
+    ],
+    "title": "Trezor data breach expands to 81,000 customers following ShipMonk incident",
+    "summary": "Trezor disclosed that a breach at third-party logistics provider ShipMonk in August exposed personal information for approximately 81,000 customers, primarily in the United States. The incident involved customer shipping and contact details stored by the logistics partner rather than Trezor's core systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+    "publishedAt": "2026-09-07T12:16:32.000Z",
+    "contentHash": "09953a5f7553f74f8d2fe5206ef6822ac119e289b20325bc31017d0e038958ac",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c09a5ec87b",
+    "tier": "event",
+    "category": "analyst",
+    "region": "global",
+    "title": "Cloud Provider Risk Profiles Diverge Significantly, Intruder Analysis Shows",
+    "summary": "Intruder's 2026 Cloud Security Index analyzed misconfiguration patterns across 3,000 organizations using AWS, Azure, and Google Cloud, revealing that security risk profiles differ substantially between providers. The findings suggest that standardized cloud security checklists may not effectively address provider-specific vulnerabilities, requiring tailored approaches for each platform.",
+    "sourceUrl": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+    "publishedAt": "2026-09-07T11:45:00.000Z",
+    "contentHash": "250fb45451886a4936d3d8a793250f5b8ff0bdcb69c2b55b2b3e64759c647c6d",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:bleeping-210b28ee46",
+    "tier": "event",
+    "category": "product-release",
+    "title": "OpenAI Tests Writing Style Feature for ChatGPT Using Connected Apps",
+    "summary": "OpenAI is piloting a new capability that allows ChatGPT to analyze writing samples from users' connected applications to replicate individual writing patterns and style preferences. The feature integrates with external apps to generate responses that more closely match a user's established communication patterns.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
+    "publishedAt": "2026-09-07T10:36:37.000Z",
+    "contentHash": "1867a67e1825f2233f6ddcd66cd2583e5b2be057520fb1936962eda20c868053",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3fabea4df5",
+    "tier": "event",
+    "category": "attack",
+    "title": "Rogue ScreenConnect Clients Distribute Multi-Stage VBScript Payload",
+    "summary": "Researchers identified worm-like malware exploiting ConnectWise ScreenConnect to propagate a four-stage VBScript chain across newly connected hosts. Three separate incidents employed different initial access vectors, including tech-support scams, phishing-delivered installers, and other delivery mechanisms, indicating a coordinated exploitation pattern leveraging legitimate remote management tools.",
+    "sourceUrl": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+    "publishedAt": "2026-09-07T11:36:39.000Z",
+    "contentHash": "21a58ec62dad16fcb882440cbde32470bd623f74b07d1b02153c25dd477a8741",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:bleeping-23a72d6695",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+    "summary": "Threat actors are actively exploiting a pair of recently disclosed vulnerabilities in MikroTik RouterOS to compromise routers that expose SSH services to the internet. The vulnerability chain enables attackers to gain control of affected devices.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+    "publishedAt": "2026-09-07T10:32:40.000Z",
+    "contentHash": "e6e8e781183128bccc19e4adf86181b59eb984c7453b4bb1ab954ed4d3c59089",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:thehackernews-ff2a8ecee2",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Telerik UI Padding Oracle Vulnerability Chained to Unauthenticated RCE",
+    "summary": "A padding oracle vulnerability in Telerik UI for ASP.NET AJAX can be leveraged to achieve unauthenticated remote code execution under specific non-default configurations. Progress addressed the vulnerability chain in July, and there are no confirmed instances of active exploitation.",
+    "sourceUrl": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+    "publishedAt": "2026-09-07T11:20:14.000Z",
+    "contentHash": "4df7b16d80e1d46033e98b52dece1a589bd68d98010e019018ab912872249543",
+    "ingestedAt": "2026-09-08T09:40:22.913Z"
   }
 ]

@@ -1969,5 +1969,77 @@
     "region": "global",
     "category": "news",
     "publishedAt": "2026-09-04T12:22:30.000Z"
+  },
+  "knowledge/thehackernews-86a44f9f81.md": {
+    "region": "uk",
+    "industries": [
+      "social-media",
+      "dating-apps"
+    ],
+    "category": "regulation",
+    "publishedAt": "2026-09-08T07:00:43.000Z"
+  },
+  "knowledge/sans-isc-0bd3affaa0.md": {
+    "category": "news",
+    "publishedAt": "2026-09-08T02:00:03.000Z"
+  },
+  "knowledge/bleeping-9dd82c8cbc.md": {
+    "industries": [
+      "e-commerce",
+      "retail"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-07T16:50:29.000Z"
+  },
+  "knowledge/bleeping-71696e8a58.md": {
+    "region": "global",
+    "category": "attack",
+    "publishedAt": "2026-09-07T15:39:51.000Z"
+  },
+  "knowledge/thehackernews-9c92a7066f.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-07T15:51:56.000Z"
+  },
+  "knowledge/bleeping-c4d7fdfa67.md": {
+    "industries": [
+      "education"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-07T13:05:11.000Z"
+  },
+  "knowledge/thehackernews-24d56919cb.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-07T14:36:07.000Z"
+  },
+  "knowledge/bleeping-93b61032b3.md": {
+    "region": "us",
+    "industries": [
+      "cryptocurrency",
+      "hardware security"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-07T12:16:32.000Z"
+  },
+  "knowledge/thehackernews-c09a5ec87b.md": {
+    "region": "global",
+    "category": "analyst",
+    "publishedAt": "2026-09-07T11:45:00.000Z"
+  },
+  "knowledge/bleeping-210b28ee46.md": {
+    "category": "product-release",
+    "publishedAt": "2026-09-07T10:36:37.000Z"
+  },
+  "knowledge/thehackernews-3fabea4df5.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-07T11:36:39.000Z"
+  },
+  "knowledge/bleeping-23a72d6695.md": {
+    "region": "global",
+    "category": "attack",
+    "publishedAt": "2026-09-07T10:32:40.000Z"
+  },
+  "knowledge/thehackernews-ff2a8ecee2.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-07T11:20:14.000Z"
   }
 }
