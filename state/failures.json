@@ -1,6 +1,10 @@
 {
-  "at": "2026-09-08T09:40:22.913Z",
+  "at": "2026-09-09T09:44:48.894Z",
   "failures": [
+    {
+      "key": "krebs",
+      "reason": "Status code 403"
+    },
     {
       "key": "acsc-anz",
       "reason": "Request timed out after 20000ms"

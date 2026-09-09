@@ -4642,5 +4642,224 @@
     "publishedAt": "2026-09-07T11:20:14.000Z",
     "contentHash": "4df7b16d80e1d46033e98b52dece1a589bd68d98010e019018ab912872249543",
     "ingestedAt": "2026-09-08T09:40:22.913Z"
+  },
+  {
+    "id": "knowledge:bleeping-75062f3bb4",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Ohio Man Sentenced to 15 Years for AI-Generated Sextortion Campaign",
+    "summary": "A defendant received a 15-year prison sentence for conducting sextortion and cyberstalking operations against multiple victims using AI-generated sexually explicit imagery. The case demonstrates law enforcement capability to prosecute deepfake-based extortion schemes under existing cybercrime statutes.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+    "publishedAt": "2026-09-09T08:44:22.000Z",
+    "contentHash": "a8d275e093e17c5619341a85ec8106ae611d30702436cafb9e94f2e138043198",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:thehackernews-375dd8a3b2",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "Chrome V8 Zero-Day Patched Following Active Exploitation",
+    "summary": "Google released security updates addressing 230 vulnerabilities, including CVE-2026-87491, an out-of-bounds write flaw in the V8 JavaScript engine that was actively exploited in the wild. The medium-severity vulnerability could enable code execution within Chrome's sandbox environment. Affected users should update to the latest Chrome version.",
+    "sourceUrl": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+    "publishedAt": "2026-09-09T09:11:03.000Z",
+    "contentHash": "d57690d68ee15f9230ec0e97f9a0150aa88c0a91742ca3063130c4786a970ba6",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:darkreading-1265474140",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Patch Tuesday Sets Another Record With 974 CVEs",
+    "summary": "Microsoft's November 2024 Patch Tuesday release addressed 974 vulnerabilities, continuing an upward trend in monthly disclosure volumes. The company flagged two CVEs as actively exploited in the wild and identified 58 additional vulnerabilities as probable targets for future attack activity.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
+    "publishedAt": "2026-09-08T21:26:02.000Z",
+    "contentHash": "7bd627ac2677620afb236a0e9aa5ba887895adef01117cbac4a3be8d7cf23c51",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:sans-isc-09b0de0c68",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast - September 9th, 2026",
+    "summary": "SANS Internet Storm Center publishes daily podcast episodes covering recent cybersecurity developments and threat landscape updates. This episode provides analysis of current security events and incident trends relevant to practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33322",
+    "publishedAt": "2026-09-09T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:bleeping-aa6e936777",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Microsoft Defender Zero-Day 'ShieldCrash' Enables SYSTEM-Level Access",
+    "summary": "A zero-day vulnerability in Microsoft Defender, disclosed by a researcher under the alias Nightmare Eclipse, permits attackers to escalate privileges to SYSTEM level. The exploit was released shortly after Microsoft's September 2026 Patch Tuesday updates, suggesting the flaw may not have been addressed in the latest patches.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+    "publishedAt": "2026-09-09T07:30:15.000Z",
+    "contentHash": "46e3b20372f2483f70b2599b6d00ed22af508081272750fd6c476795599eeff7",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:thehackernews-369f97b028",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "hosting",
+      "web services"
+    ],
+    "title": "cPanel Vulnerability Enables Root Code Execution via Mail Privileges",
+    "summary": "cPanel released a security advisory addressing a flaw affecting all supported versions that permits an authenticated account holder with mail privileges to achieve root-level code execution. The vulnerability leverages the EmailTrack feature to write arbitrary files, potentially allowing a single compromised hosting account to compromise an entire server.",
+    "sourceUrl": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+    "publishedAt": "2026-09-09T08:19:32.000Z",
+    "contentHash": "2940ccd213a208c59c7eb25602caa90a753aed62e8bb90cda4f11470b30fcca1",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:darkreading-dacffe4f40",
+    "tier": "event",
+    "category": "attack",
+    "title": "Attackers Leverage Google Service Redirects in Phishing Campaign",
+    "summary": "Threat actors are exploiting multiple Google services as intermediate redirects to obscure phishing links and bypass security filters. The campaign aims to harvest user credentials or deploy ScreenConnect remote access software on compromised systems.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign",
+    "publishedAt": "2026-09-08T21:03:46.000Z",
+    "contentHash": "f37da61f171a2b2adbdaa5da8c7d555911a1024385849a58783d2c82d1aed210",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:sans-isc-a6ff40e5f8",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft September 2026 Patch Tuesday: 973 Vulnerabilities Addressed",
+    "summary": "Microsoft released patches for 973 vulnerabilities in its September 2026 Patch Tuesday cycle, setting a new monthly record and exceeding the previous high of 664 from July 2026. The release included 113 critical-severity fixes, with two vulnerabilities confirmed as actively exploited in the wild. Significant patches addressed privilege escalation in Windows and remote code execution flaws in Skype for Business, MSMQ, and RRAS.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33320",
+    "publishedAt": "2026-09-08T19:20:30.000Z",
+    "contentHash": "df941a317fa3b3bcd5355792ffd84d412842ce01eb3553f1142475bd88b6147f",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:bleeping-7c04125710",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Google patches seventh actively exploited Chrome zero-day in 2024",
+    "summary": "Google released security updates addressing 230 vulnerabilities, including a seventh zero-day in Chrome that was already under active exploitation. The patch continues a pattern of in-the-wild Chrome zero-days discovered and remediated throughout the year.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+    "publishedAt": "2026-09-09T06:25:48.000Z",
+    "contentHash": "b32f131ba6da09e678de34746561815d770789f7c4becd50544916f906dd97af",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:thehackernews-88a0315141",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "F5 BIG-IP APM Malware Employs In-Memory PHP Web Shell to Evade Detection",
+    "summary": "Sophos researchers identified malware targeting F5 BIG-IP Access Policy Manager appliances that injects a PHP web shell into memory rather than writing to disk, allowing it to bypass file-based detection mechanisms. The attack leverages Apache's script loading process to inject the payload into memory while keeping disk artifacts clean, enabling persistence while remaining hidden from conventional scans.",
+    "sourceUrl": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+    "publishedAt": "2026-09-09T07:36:49.000Z",
+    "contentHash": "957c74c163b9cf820fbcae642eebbc1d6f38a0198cec7ce169707f029c504873",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:darkreading-e1327ff1da",
+    "tier": "event",
+    "category": "news",
+    "title": "OpenAI Agents Accessed Wiki Site Prior to Hugging Face Security Incident",
+    "summary": "OpenAI's automated agents accessed a wiki platform called DseWiki before a subsequent attack on Hugging Face occurred. A discrepancy exists between researchers and OpenAI regarding whether the wiki access constitutes an undisclosed security incident or represents normal system behavior.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack",
+    "publishedAt": "2026-09-08T20:36:15.000Z",
+    "contentHash": "4030577a7dd96dfdd0933bd6eb3b53d831ec4991f0dbdf7a0c72699b4389eca2",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:bleeping-d9942c7c32",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Introduces Age-Awareness APIs for Windows 11",
+    "summary": "Microsoft has developed new APIs for Windows 11 that enable applications to classify users into age categories—child, teenager, or adult—without requiring access to exact date of birth information. The capability aims to support age-appropriate content delivery and compliance with child protection regulations while maintaining user privacy through abstraction of sensitive personal data.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
+    "publishedAt": "2026-09-09T01:16:27.000Z",
+    "contentHash": "4c26f9c0a2b6a6d72334db975421a9725c2391482f22819ba42d910ea8059af2",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b163f3fc8d",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Researcher Releases PoC for Microsoft Defender Patch Bypass",
+    "summary": "A researcher has published a proof-of-concept demonstrating that Microsoft's patch for CVE-2026-69414 (ShieldBreak), a Microsoft Defender vulnerability with a CVSS score of 7.8, can be circumvented. The newly identified bypass, termed ShieldCrash, suggests the original remediation did not fully address the underlying issue.",
+    "sourceUrl": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+    "publishedAt": "2026-09-09T06:47:27.000Z",
+    "contentHash": "cad6d2b4dad1e8332f47b31f276f8917648787269d8636b584fa23fb57eb71d5",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:darkreading-c529667c7a",
+    "tier": "event",
+    "category": "attack",
+    "title": "ClickFix Campaigns Exploit Social Engineering for Persistent Access",
+    "summary": "Threat actors are leveraging the ClickFix social engineering technique across multiple campaigns to establish persistent access within organizations. The attacks abuse legitimate services as delivery and control mechanisms, reflecting an evolution in how adversaries combine well-known tactics with legitimate infrastructure to evade detection.",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
+    "publishedAt": "2026-09-08T17:25:37.000Z",
+    "contentHash": "250fc12bee6e540a6137fd38ceb8a11552c5a102a998c2d6bcbcf5095fabe902",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:bleeping-44a5bf98b9",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "retail",
+      "e-commerce"
+    ],
+    "title": "DoppelCart fraud network operates 119,000 counterfeit e-commerce sites",
+    "summary": "Researchers identified DoppelCart, a large-scale fraud operation leveraging over 119,000 domains hosting fake online storefronts designed to capture payment card credentials. The network represents a significant infrastructure investment by threat actors targeting consumers through fraudulent e-commerce channels.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
+    "publishedAt": "2026-09-08T20:35:14.000Z",
+    "contentHash": "46d123769432207699c5bf6dcd010bea6b8ca321db51192662f27ae2269f38de",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:thehackernews-419df1f370",
+    "tier": "event",
+    "category": "product-release",
+    "title": "SAP Addresses CVSS 10.0 Memory Corruption Flaw in Extended Passport Processing",
+    "summary": "SAP released patches for multiple vulnerabilities, including a maximum-severity flaw (CVE-2026-44756, CVSS 10.0) in SAP Extended Passport Processing caused by memory corruption. The vulnerability permits unauthenticated remote code execution and poses risks to application confidentiality, integrity, and availability.",
+    "sourceUrl": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+    "publishedAt": "2026-09-09T06:25:45.000Z",
+    "contentHash": "c0a1e980a29e7f54a38a3db5dab7d36fd09f445526c9f975c2a5555764f16bcf",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:bleeping-c5c4aee367",
+    "tier": "event",
+    "category": "regulation",
+    "region": "eu-west",
+    "industries": [
+      "software"
+    ],
+    "title": "EU CRA Vulnerability Reporting Requirements Take Effect September 11",
+    "summary": "The EU Cyber Resilience Act's vulnerability disclosure obligations begin on September 11, 2024, requiring software vendors to report actively exploited vulnerabilities within 24 hours. Compliance hinges on vendors maintaining precise records of shipped components and vulnerability discovery timelines to satisfy regulatory deadlines.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
+    "publishedAt": "2026-09-08T20:24:16.000Z",
+    "contentHash": "5184cf8ab8a27e11941895ef3830e8c7adab6b9d34d6c274f1c75dd9fb00e9fc",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:manual-6310d9da67f7",
+    "tier": "foundational",
+    "category": "strategy",
+    "industries": [
+      "healthcare",
+      "finance",
+      "government"
+    ],
+    "title": "Zero Trust for AI Agents: Security Framework for Autonomous AI Deployment",
+    "summary": "Anthropic's framework addresses security architecture for deploying autonomous AI agents in enterprise environments, extending Zero Trust principles beyond traditional infrastructure. The guide identifies six primary threat vectors: prompt injection (direct and indirect), tool misuse including MCP poisoning and tool-chaining attacks, identity and privilege abuse through unscoped delegation and memory-based privilege retention, memory and context poisoning via RAG corruption, supply chain risks spanning model weights and dependencies (demonstrating 250 malicious documents can backdoor LLMs at 600M–13B parameters), and resource exhaustion attacks exploiting automation. The framework operationalizes Zero Trust's three core tenets—never trust/always verify, assume breach, least privilege—with agent-specific extensions including \"least agency\" (restricting tool capabilities, frequency, and scope) and blast radius containment. Implementation guidance addresses regulated sectors (healthcare, finance, government) requiring agent action verification and minimum necessary permissions, aligned with emerging government mandates including U.S. federal Zero Trust adoption by 2027, UK NCSC and Australian guidance, and NIST SP 800-207 standards.",
+    "sourceUrl": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a1611a04085d7cd3dadc924_Claude-eBook-Zero-Trust-for-AI-Agents-05182026.pdf",
+    "publishedAt": "2026-09-09T09:45:20.512Z",
+    "contentHash": "a4bce47bfa527c129bce2560d35ecf989fe50902fd956cfe071b621462e024ec",
+    "subjectKey": "manual-6310d9da67f7",
+    "reportDate": "2026-09-09T09:45:20.512Z",
+    "ingestedAt": "2026-09-09T09:44:48.894Z"
   }
 ]
