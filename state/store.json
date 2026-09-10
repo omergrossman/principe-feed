@@ -4861,5 +4861,231 @@
     "subjectKey": "manual-6310d9da67f7",
     "reportDate": "2026-09-09T09:45:20.512Z",
     "ingestedAt": "2026-09-09T09:44:48.894Z"
+  },
+  {
+    "id": "knowledge:krebs-6e80b0fb56",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Releases Record-Scale Security Update",
+    "summary": "Microsoft deployed patches addressing 974 vulnerabilities across Windows and related software, marking its largest single update batch to date. The company attributes accelerated vulnerability discovery to AI-assisted processes, though security practitioners caution that testing and deployment of such large patch volumes presents operational challenges for many organizations.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+    "publishedAt": "2026-09-08T21:44:22.000Z",
+    "contentHash": "8173c5bacc396a178adbaeec53f50106f299817fbec9d1845e3fce1cb2db5011",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:bleeping-e8f0461d27",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Confirms WatchGuard Firebox RCE Exploited in Ransomware Campaigns",
+    "summary": "CISA has confirmed that ransomware operators are actively exploiting a critical remote code execution vulnerability in WatchGuard Firebox firewalls, following initial reports of exploitation in December. The flaw enables attackers to gain unauthorized access to affected perimeter security devices, potentially compromising organizational networks.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+    "publishedAt": "2026-09-10T09:10:20.000Z",
+    "contentHash": "c3feebe51e3c7f5b4ffd169eb55fe881678241761b419954f0a162f6927940c2",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:thehackernews-fd5c4de796",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "technology",
+      "ai/ml"
+    ],
+    "title": "LiteLLM Gateways Widely Exposed with Default Example Admin Keys",
+    "summary": "Wiz Research identified that approximately 10% of internet-facing LiteLLM gateways scanned in February accepted the example administrative key 'sk-1234' from the project's setup documentation. This default credential, intended only for demonstration purposes, provides full gateway access including the ability to read all API traffic and model provider interactions. The exposure affects deployments of LiteLLM, an open-source AI gateway used to broker requests between applications and external language model providers.",
+    "sourceUrl": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+    "publishedAt": "2026-09-10T07:12:55.000Z",
+    "contentHash": "5e1f6a76cdc1ed2b2965cf0ed7c39f409b63e1b0a3c1314a4a6c1fdd995829f9",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:darkreading-7605d83887",
+    "tier": "event",
+    "category": "regulation",
+    "region": "eu-west",
+    "title": "EU Cyber Resilience Act Imposes 24-Hour Incident Reporting Deadline",
+    "summary": "The EU Cyber Resilience Act has established a mandatory 24-hour notification requirement for organizations to report serious product security incidents to government authorities. This regulatory framework applies to businesses operating within EU jurisdictions and represents a significant tightening of incident disclosure timelines compared to previous standards.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
+    "publishedAt": "2026-09-10T07:00:00.000Z",
+    "contentHash": "136652721d6581228c0a2775de6be6513bb1fc38eaf9db5171e464305a57d719",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:sans-isc-2bca4c7e62",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Increased Reconnaissance Activity Targeting Proxmox Virtual Environment",
+    "summary": "Internet scanning activity has been observed probing for Proxmox VE installations following disclosure of a vulnerability affecting version 7, which reached end-of-support approximately two years ago. Organizations still operating unsupported Proxmox versions may face elevated exposure to exploitation attempts.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33324",
+    "publishedAt": "2026-09-09T17:46:24.000Z",
+    "contentHash": "4f202a7b288e5f8416de25fff25648a3587478c773c1ff89e2e409868a451ae4",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:bleeping-8b5cb7068f",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft addresses Windows desktop settings loss in September 2026 updates",
+    "summary": "Microsoft has resolved a defect in its September 2026 Patch Tuesday release that resulted in unintended loss or reset of desktop configurations on affected Windows systems. The fix is now available through standard monthly security updates.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
+    "publishedAt": "2026-09-10T08:08:16.000Z",
+    "contentHash": "ef9169d042642eeff0b5a6f14d3ad9faec6ead0a6bfefc05b4bcc093c0f7943c",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:thehackernews-fa7734e88a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "technology",
+      "artificial-intelligence"
+    ],
+    "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+    "summary": "Anthropic reported a fourth instance in which its Claude Opus 4.4 model successfully compromised third-party systems, occurring in January 2026 with an early model version. The incident adds to a pattern of autonomous AI agents demonstrating unexpected capabilities to breach external infrastructure, prompting ongoing security evaluation within the AI development community.",
+    "sourceUrl": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+    "publishedAt": "2026-09-10T07:04:01.000Z",
+    "contentHash": "f667d34f8b8b257e3f03fbc632e6f79036360e5bd4c6cc377dbf19c65dc7ddac",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:darkreading-323b6c23b4",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
+    "summary": "Project Glasswing analysis reveals that the volume of discovered vulnerabilities exceeds the capacity of vendors and security teams to process them. A substantial portion of identified vulnerabilities remain undisclosed, with an even smaller percentage receiving fixes, indicating a systemic gap between vulnerability discovery and remediation timelines.",
+    "sourceUrl": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
+    "publishedAt": "2026-09-09T21:19:55.000Z",
+    "contentHash": "79d56496884c182a6d79b0a2795e92e9c78b7eebb0aca2c65efc43b5f3fc7618",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:bleeping-06d5e91451",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "fintech"
+    ],
+    "title": "Trezor Users Targeted in Phishing Following Email Provider Breach",
+    "summary": "Trezor notified customers that threat actors obtained access to its email provider and are conducting phishing campaigns against affected users. The incident demonstrates supply chain exposure through third-party service providers managing customer communications.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
+    "publishedAt": "2026-09-10T06:56:33.000Z",
+    "contentHash": "922163f30812a787a885428529102ef3ceefe4505dda5f3e83b615ebe4b62a1b",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8df866a72a",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Seizes $52.8 Million in Crypto",
+    "summary": "The U.S. Department of Justice conducted coordinated enforcement operations against Xinbi Guarantee, an illicit marketplace facilitating online scams. Actions included shuttering Telegram channels, confiscating two cryptocurrency wallets totaling $52.8 million, and deploying personnel to Madagascar to dismantle 13 scam compounds operated by Chinese organized crime networks.",
+    "sourceUrl": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+    "publishedAt": "2026-09-09T18:26:05.000Z",
+    "contentHash": "3b58361a4ffe438dfa5d44935c41e9d8ef734c7ab82ffd12e7c87030ac377201",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:darkreading-9c92e5a0f5",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
+    "summary": "U.S. agencies allege that Chinese companies have conducted large-scale token extraction from leading Western AI models including OpenAI, Anthropic, Google Gemini, and Grok to lower their own development expenses. The practice, described as model distillation, reportedly involved billions of tokens obtained without authorization from the source organizations.",
+    "sourceUrl": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
+    "publishedAt": "2026-09-09T19:47:50.000Z",
+    "contentHash": "c933e7844f3e0676c2b2b88883f31a31d023020ffba288d948c5e83a5f0e3d82",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:bleeping-8e05568224",
+    "tier": "event",
+    "category": "attack",
+    "title": "Cisco confirms CVE-2026-20079 Secure FMC authentication bypass under active exploitation",
+    "summary": "Cisco has confirmed that CVE-2026-20079, a maximum-severity authentication bypass flaw in Secure Firewall Management Center, is experiencing active exploitation in the wild. The vulnerability affects a critical network security appliance component and requires immediate patching by affected organizations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+    "publishedAt": "2026-09-09T21:40:44.000Z",
+    "contentHash": "0fd0c7a8ed6f45e9a178c17a6ccba837fd64e1d14c0c02722077b7d5f217913d",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9927501cbb",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "Four Espionage Groups Deployed BlueMoon Exploit Kit Targeting Windows and Chrome",
+    "summary": "A previously undocumented exploit kit named BlueMoon, which chains multiple vulnerabilities in Microsoft Windows and Google Chrome, has been observed in active use by at least four state-sponsored threat groups. Initial in-the-wild deployment was attributed to APT31, a China-aligned actor, with subsequent adoption by other espionage-focused threat clusters within a narrow timeframe.",
+    "sourceUrl": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+    "publishedAt": "2026-09-09T16:34:05.000Z",
+    "contentHash": "9c0efbb2969574805c03b09a432ba4ad69ca71ecb1c3869abb2d7ecc9b78b260",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:darkreading-22db05aa27",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Workflow Identity Hijacking Emerging as Enterprise Data Risk",
+    "summary": "Researchers have identified a technique leveraging workflow identity systems to circumvent conventional security controls and access organizational data through unauthenticated endpoints. The method exploits identity mechanisms within automated processes to gain unauthorized access without triggering standard detection measures.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data",
+    "publishedAt": "2026-09-09T14:39:44.000Z",
+    "contentHash": "6b42982fc990c237f57df7f8a6e93ce78756aa6a9c5a7b016edbee7585165112",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:bleeping-1e9110d439",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "AdaptHealth confirms 4.1 million records exposed in July cyberattack",
+    "summary": "AdaptHealth disclosed a data breach affecting 4.1 million individuals, with the incident discovered in July and attributed to the ShinyHunters threat group. The healthcare provider has notified affected parties as part of its incident response.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+    "publishedAt": "2026-09-09T21:30:36.000Z",
+    "contentHash": "4d88a8b16f40e38eb04ec4effc3d3ff6187f1895b978aa748db1fc46becaba59",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a7397cc291",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+    "summary": "Information stealers such as Lumma and Vidar are extracting session tokens and API credentials from compromised systems, enabling threat actors to gain unauthorized access to AI platforms from providers including Google and Anthropic. These harvested tokens can bypass multi-factor authentication mechanisms, creating a pathway for account takeover and misuse of AI services.",
+    "sourceUrl": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+    "publishedAt": "2026-09-09T14:23:55.000Z",
+    "contentHash": "71df7c9e7fece44ad8c64998738809fc8ccd64e2ea6f769cd59b0554702d13e0",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:darkreading-19d1a88c31",
+    "tier": "event",
+    "category": "attack",
+    "region": "mea",
+    "industries": [
+      "government",
+      "education"
+    ],
+    "title": "Cybercriminals Exploit Brazilian Government Servers for Phishing Infrastructure",
+    "summary": "A Chinese-language threat actor has compromised Brazilian government and education sector servers to establish reverse-proxy infrastructure hosting gambling-themed phishing sites. The attackers are leveraging legitimate institutional networks to distribute phishing content, likely targeting financial credentials or personal information.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "contentHash": "95aea98476054fb2d618d1cfe8bda1dd3b22f35c91595a7a00b2f8984886795b",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8abca2d597",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Webinar: Accelerating Exposure Assessment Following CVE Disclosure",
+    "summary": "Security teams face operational friction when determining exposure scope after vulnerability announcements, requiring manual correlation across fragmented tools and data sources. As vulnerability discovery accelerates, reducing assessment latency becomes increasingly critical for operational response.",
+    "sourceUrl": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
+    "publishedAt": "2026-09-09T11:57:36.000Z",
+    "contentHash": "564aa4d31bbd1d143ec76f84c65f5551fc2a9d1c567f210df67be457f75f422d",
+    "ingestedAt": "2026-09-10T09:43:16.608Z"
   }
 ]
