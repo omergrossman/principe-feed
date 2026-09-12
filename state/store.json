@@ -327,225 +327,6 @@
     "ingestedAt": "2026-07-26T07:45:37.764Z"
   },
   {
-    "id": "knowledge:krebs-215b91448d",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Addresses 398 Vulnerabilities in Monthly Security Update",
-    "summary": "Microsoft released patches for 398 security flaws across Windows and supported software. The update includes remediation for one vulnerability currently under active exploitation and two others previously disclosed publicly.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-    "publishedAt": "2026-08-11T21:28:35.000Z",
-    "contentHash": "8547529579471bb9270f5736c15f24640e6180b629821a48c0008ceb041ca13e",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:bleeping-1d2292fea9",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "saas",
-      "software",
-      "erp"
-    ],
-    "title": "City-Forum campaign targets Salesforce and ServiceNow portals",
-    "summary": "A data theft campaign leverages custom tools to extract information from publicly accessible Salesforce Experience Cloud and ServiceNow customer portals. The threat actors exploit misconfigured or overly permissive portal settings that expose sensitive data to unauthenticated users.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
-    "publishedAt": "2026-08-12T23:07:23.000Z",
-    "contentHash": "c1e2cb3bc293624266d3ec7ae2b5455ee86f91083a0d6739b05b5a9f05c75707",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:thehackernews-3fd53cb513",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "defense",
-      "aerospace"
-    ],
-    "title": "Lazarus Group Exploits Windows Zero-Day to Deploy Novel Backdoor Against Defense and Aerospace Sectors",
-    "summary": "North Korean threat actor Lazarus Group has been linked to exploitation of a patched Windows zero-day vulnerability to distribute a previously unknown backdoor against defense and aerospace organizations in France, Germany, Brazil, and India. The campaign, tracked as Operation Dream Job by Check Point Research, represents continued cyber espionage activity by the group targeting critical infrastructure sectors.",
-    "sourceUrl": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-    "publishedAt": "2026-08-12T17:39:27.000Z",
-    "contentHash": "9c2878483ba914c135de48ece25b8ff6a36615cc97d37c7df1382cb563f886d4",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:darkreading-5c0ecb74e8",
-    "tier": "event",
-    "category": "attack",
-    "title": "City-Forum Campaign Targets Salesforce and ServiceNow Instances",
-    "summary": "A sustained campaign tracked as City-Forum has been operating since March 2025, deploying custom tools to compromise Salesforce and ServiceNow environments across multiple industry sectors. The attackers have focused on data exfiltration from these widely-deployed business applications.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow",
-    "publishedAt": "2026-08-12T21:08:54.000Z",
-    "contentHash": "f4e551ce94ec51e65f4d738a0373115ae170bdd61c66ee16bf8d01f7aca334e7",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:sans-isc-85301b7bb7",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Thursday, August 13th, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates. The episode provides analysis of emerging security incidents and defensive recommendations for practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33244",
-    "publishedAt": "2026-08-13T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-c648544072",
-    "tier": "event",
-    "category": "strategy",
-    "region": "uk",
-    "title": "NCSC Seeks Industry Collaboration on Secure Private 5G Development",
-    "summary": "The UK's National Cyber Security Centre is inviting organisations to participate in collaborative efforts to advance secure and resilient private 5G technologies and deployment approaches. The initiative aims to incorporate security considerations into private 5G systems through industry partnership and knowledge sharing.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/help-shape-the-future-of-resilient-private-5g",
-    "publishedAt": "2026-08-12T12:00:00.000Z",
-    "contentHash": "fd7cabdd9aa5d284388e2c93bee3b95b7b9ffa0ceaf931d82a31afa60998acbc",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:bleeping-f2480e43b3",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Android Malware Duo Exploits NFC for Financial Fraud",
-    "summary": "Security researchers identified WindRelay, an Android malware leveraging NFC capabilities to intercept payment card data in real time, often deployed alongside SpyNote RAT for command and control. The malware enables attackers to conduct unauthorized transactions and fraudulent loan applications using stolen financial credentials.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
-    "publishedAt": "2026-08-12T22:22:57.000Z",
-    "contentHash": "f7274a3b6c87bd280bb7cdc5defa1d570c5f67d9869d36cd632b926ecc7f6276",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:thehackernews-dc7fe6e1bf",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "737 Chrome VPN Extensions Identified Routing Traffic Through Proxy Infrastructure",
-    "summary": "Security researchers identified a network of 737 malicious VPN and proxy extensions distributed across 40+ Chrome Web Store developer accounts, collectively installed over 75,000 times. The extensions primarily targeted Russian-speaking users and intercepted browser traffic to route it through attacker-controlled proxy infrastructure; 274 extensions were found impersonating legitimate services.",
-    "sourceUrl": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-    "publishedAt": "2026-08-12T14:09:50.000Z",
-    "contentHash": "720ccd8a9ffeab57bf6d6836f1c669271bee5279ca9760ad5643398c27e8987d",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:darkreading-64f0c9a818",
-    "tier": "event",
-    "category": "strategy",
-    "region": "us",
-    "industries": [
-      "retail"
-    ],
-    "title": "Walmart Implements Co-located Purple Team Model for Enhanced Security Collaboration",
-    "summary": "Walmart has adopted a purple teaming approach that places red and blue teams in the same location to foster collaborative security testing and build institutional trust. The model aims to bridge the traditional divide between offensive and defensive security functions, enabling more effective identification and remediation of vulnerabilities through integrated exercises.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming",
-    "publishedAt": "2026-08-12T16:28:04.000Z",
-    "contentHash": "2c26a0b33d16e673c6110f6cf3cbffa0a6cfdc60cebcd2d2be6109526ad1e697",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:sans-isc-be579ec8a4",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Gemma4 LLM Evaluation for Malware Hash Analysis",
-    "summary": "A practitioner evaluated Gemma4, an open-source LLM, for analyzing malware hashes collected by DShield sensors over a 30-day period, cross-referencing findings against VirusTotal and CyberGordon. The assessment examined whether the model's recommendations could meaningfully characterize detected malicious activity.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33242",
-    "publishedAt": "2026-08-13T01:26:53.000Z",
-    "contentHash": "3c98c87db2d61a3e66500145422c9ceed5c8571e5f191e010d8efeece7779d5f",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-0711d7f3ba",
-    "tier": "event",
-    "category": "strategy",
-    "region": "uk",
-    "industries": [
-      "water",
-      "critical infrastructure"
-    ],
-    "title": "NCSC Publishes Water Sector Guidance on Secure Connectivity Principles",
-    "summary": "The UK National Cyber Security Centre has released new guidance applying its Secure Connectivity Principles to the water sector, marking the first publicly available content from the Industrial Control System Community of Interest. The guidance provides practical examples for critical infrastructure operators managing industrial control systems.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/water-sector-example-added-to-the-ncscs-secure-connectivity-principles",
-    "publishedAt": "2026-08-11T12:00:00.000Z",
-    "contentHash": "4f5ae82ec5a8d5337e9737eaa4a2427d28cbd55373125ac44a8c4ba12197823a",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:cisa-eebcaf6f35",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "healthcare"
-    ],
-    "title": "Multiple Critical Vulnerabilities in Mira Hormone Monitor and Android App",
-    "summary": "CISA disclosed eight vulnerabilities affecting Mira Hormone Monitor firmware 1.7.1.47 and Android app 4.5.15.4, with CVSS scores ranging from 6.5 to 9.8. Flaws include missing authentication on critical functions, hardcoded credentials, and BLE spoofing that could allow unauthorized access to reproductive health data, device rebinding, and account takeover. Updates are available via app versions iOS 3.5.18 and Android 4.5.18, with firmware 01.07.01.53 deployed automatically upon connection.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
-    "publishedAt": "2026-08-11T12:00:00.000Z",
-    "contentHash": "e4e81ff9cf8d629f52d119c4aa36c87792629a5d811f3ef4f28b2456fb53117f",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:bleeping-815318592e",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "e-commerce",
-      "retail"
-    ],
-    "title": "Critical Adobe Commerce vulnerability exploited for account hijacking",
-    "summary": "Threat actors are actively exploiting a critical vulnerability in Adobe Commerce and Magento platforms to compromise customer accounts. The flaw, tracked as CVE-2026-71362, presents a material risk to e-commerce operations relying on these systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
-    "publishedAt": "2026-08-12T20:54:59.000Z",
-    "contentHash": "81ed961de056222376c235bf7bfee9f1fb2b0b45f35443d308c95281ca7f7e7e",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:thehackernews-685f5af550",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "API Flaw in OpenAI, Anthropic, and Google Reasoning Models Enables Recovery of Internal Data",
-    "summary": "Researchers identified a vulnerability in the reasoning APIs of OpenAI, Anthropic, and Google that allows encrypted reasoning objects to be replayed across sessions, potentially exposing internal model reasoning, API keys, and passwords. The flaw stems from how hidden reasoning is transmitted between API calls and could be exploited to extract sensitive information from session logs.",
-    "sourceUrl": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-    "publishedAt": "2026-08-12T11:47:38.000Z",
-    "contentHash": "48ed5a6eaa4e4e67ebb99a76d5434b26a35bcd676205bd701a9e5aad59815c9e",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:darkreading-724af19cb2",
-    "tier": "event",
-    "category": "attack",
-    "region": "mea",
-    "industries": [
-      "government"
-    ],
-    "title": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
-    "summary": "The Colombian Justice Ministry experienced a ransomware attack shortly before a presidential transition, consistent with a broader pattern of targeting critical infrastructure and government entities across Latin America. The incident underscores ongoing vulnerability in regional government systems during periods of institutional change.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition",
-    "publishedAt": "2026-08-12T14:00:00.000Z",
-    "contentHash": "414a0bee660d8bd72bb31ee7d3ce839658d742c8eb87fdc3cb5eb270bbacf5a1",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:sans-isc-b487f41f0c",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Linux Kernel Process Accounting as Command History Alternative",
-    "summary": "SANS ISC discusses Linux kernel process accounting as a method for tracking command history and system activity, positioning it as an alternative to tools like Atuin and bash history. The feature provides kernel-level visibility into process execution and can capture meaningful operational data for security monitoring and forensic purposes.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33240",
-    "publishedAt": "2026-08-12T14:21:10.000Z",
-    "contentHash": "f8ed2062ff09169557e77a841334313f066f6d27bc923795c04298b48399da6c",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
-    "id": "knowledge:bleeping-fb395f64dd",
-    "tier": "event",
-    "category": "attack",
-    "title": "Hundreds of fake Chrome VPN extensions route traffic through SOCKS5 proxies",
-    "summary": "Over 737 malicious extensions on the Chrome Web Store impersonated legitimate VPN and proxy services, redirecting user traffic through SOCKS5 proxies controlled by a single operator. The campaign demonstrates the effectiveness of brand impersonation in bypassing extension store review processes.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
-    "publishedAt": "2026-08-12T18:54:57.000Z",
-    "contentHash": "81bb1d6d2b79b813d5a9947a3122618813de54212936f832d03b9e1c8fb41d5d",
-    "ingestedAt": "2026-08-13T06:44:17.935Z"
-  },
-  {
     "id": "knowledge:cisa-130edd7317",
     "tier": "event",
     "category": "threat-intel",
@@ -5087,5 +4868,220 @@
     "publishedAt": "2026-09-09T11:57:36.000Z",
     "contentHash": "564aa4d31bbd1d143ec76f84c65f5551fc2a9d1c567f210df67be457f75f422d",
     "ingestedAt": "2026-09-10T09:43:16.608Z"
+  },
+  {
+    "id": "knowledge:bleeping-ed5e0e272a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "software",
+      "mobile applications"
+    ],
+    "title": "Threat actors exploited Claude AI to analyze Android applications for vulnerabilities",
+    "summary": "Anthropic disclosed that multiple threat groups, including financially motivated actors and state-sponsored teams associated with Russia and China, attempted to misuse Claude for analyzing Android applications and extracting sensitive information from approximately 1.8 million apps. The company identified and blocked these abuse attempts as part of its ongoing security monitoring.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+    "publishedAt": "2026-09-11T20:19:09.000Z",
+    "contentHash": "5945ec5ad867cad069ded2ac4ab51dfab06871463ecfdeee8dbb4865c10c9e71",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a8b89596a4",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software-development",
+      "devops"
+    ],
+    "title": "GitLab Critical Path Traversal Vulnerability Attracts Active Reconnaissance",
+    "summary": "GitLab released patches for CVE-2026-85706, a CVSS 10.0 path traversal flaw in the repository commits API enabling unauthenticated arbitrary file access. Reconnaissance activity targeting the vulnerability was observed shortly after public disclosure, indicating active exploitation attempts in the wild.",
+    "sourceUrl": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+    "publishedAt": "2026-09-11T16:30:18.000Z",
+    "contentHash": "1b868ded148cf2e3723e1c6318ab4b3a84fc2f6995866375f580bd24c19b0aeb",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:darkreading-9846387cf4",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
+    "summary": "A threat actor demonstrated the capability to produce approximately 1 million personalized phishing emails within a 72-hour window, leveraging AI-driven tools to simultaneously scale volume and customize content. This development reflects an evolving attack methodology where adversaries can maintain message personalization at industrial scale, reducing the traditional trade-off between targeted credibility and campaign reach.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days",
+    "publishedAt": "2026-09-11T19:21:08.000Z",
+    "contentHash": "cccb66d3c1855bf8c7b4e0d7fdfbf753c5674b1b7fb3b797f21e033be971ee1e",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:sans-isc-df611a2dd3",
+    "tier": "event",
+    "category": "attack",
+    "title": "Attacker Operates AI Agent to Harvest and Resell LLM API Access",
+    "summary": "A researcher identified an attacker employing a semi-autonomous coding agent to systematically compromise poorly secured LLM resale platforms, obtain API credentials via common web vulnerabilities and account farming techniques, and consolidate the stolen inference capacity into a single attacker-controlled gateway. The operation demonstrates the feasibility of automating attacks against AI service supply chains.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33332",
+    "publishedAt": "2026-09-11T14:40:32.000Z",
+    "contentHash": "4d6d31074ebe06b0bd8f8ba2ca1484f24769ad0daea8da4915dc1c65b01169fd",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:bleeping-a16d629117",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "government",
+      "law enforcement"
+    ],
+    "title": "Florida DMV Database Breached Through Compromised Law Enforcement Credentials",
+    "summary": "The Florida Department of Highway Safety and Motor Vehicles confirmed unauthorized access to its DAVID driver database after attackers exploited stolen credentials from a police department employee. The incident demonstrates how credential compromise within trusted partner agencies can serve as an entry point to sensitive state databases.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+    "publishedAt": "2026-09-11T19:00:29.000Z",
+    "contentHash": "e0761e8a3cbc81d0d7149e778ade6d3dc1bf748545341a7747230bb1757479f2",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:thehackernews-ec242e7e40",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "artificial intelligence"
+    ],
+    "title": "Anthropic Disrupts Industrial-Scale Claude Distillation Attacks from Chinese AI Labs",
+    "summary": "Anthropic identified and disrupted unauthorized distillation attacks against Claude originating from seven Chinese AI laboratories, including Alibaba, DeepSeek, and Moonshot. The company detected attempts to extract model capabilities at scale through knowledge distillation, a technique that transfers learned patterns from one model to another. Anthropic took action to prevent further unauthorized access and model replication.",
+    "sourceUrl": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+    "publishedAt": "2026-09-11T16:15:29.000Z",
+    "contentHash": "d22218052e941b41bc4c5a8cfc7f7b950e0aa4ff90cebd07ab92116dec5f0e84",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:darkreading-c299141b75",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "title": "CISA Pushes for Enhanced Transparency in Breach Notification and Incident Response",
+    "summary": "A joint government advisory indicates regulatory movement toward stricter breach notification and incident response transparency requirements. CISA is signaling expectations for organizations to adopt clearer protocols rather than rely on opaque or minimized disclosures during cyber incidents.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate",
+    "publishedAt": "2026-09-11T18:44:03.000Z",
+    "contentHash": "4063a1f4a52ad362bbf879d04c4f128f1440a886c148ec1813b082ae389c5cdf",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:sans-isc-e5afbc8a29",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast For Friday, September 11th, 2026",
+    "summary": "SANS Internet Storm Center's Stormcast podcast episode for September 11th, 2026 provides regular cybersecurity updates and threat briefings. The episode covers current threat intelligence and security developments relevant to the broader cybersecurity community.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33330",
+    "publishedAt": "2026-09-11T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:bleeping-82dfd2b2ae",
+    "tier": "event",
+    "category": "attack",
+    "title": "Passkey-themed phishing attacks targeting Microsoft 365 accounts",
+    "summary": "Threat actors associated with ShinyHunters, Helix, and other extortion groups are conducting social engineering campaigns that exploit passkey and single sign-on concepts to compromise Microsoft 365 accounts and exfiltrate organizational data. The attacks leverage user familiarity with authentication technology to increase credibility of phishing attempts.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+    "publishedAt": "2026-09-11T17:26:50.000Z",
+    "contentHash": "d5c0b40ff6b60b539907174b8daa7263e832337bfb3ee01caa1ff50ff4a3c8a2",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0f8accb03f",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Claude AI Models Exploited for Automated Cyber Attacks and Data Theft",
+    "summary": "Anthropic disclosed that threat actors, including state-sponsored groups and financially motivated criminals, have used Claude models to automate exploitation attacks, facilitate data theft, and conduct surveillance operations between December 2025 and August 2026. The company identified multiple Generative Threat Groups (GTGs) leveraging the AI platform for malicious purposes including weapons design and propaganda campaigns.",
+    "sourceUrl": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+    "publishedAt": "2026-09-11T14:29:47.000Z",
+    "contentHash": "4284ebad0a13d2ead326e05e036887ccf2add42af049ed90c1753504b9a097ec",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:darkreading-149efb9377",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI's Effectiveness in Social Engineering and Behavioral Manipulation",
+    "summary": "Research from Menlo Park Intelligence examines how advanced AI models can be leveraged to influence human behavior and establish psychological dependencies. The study highlights technical capabilities that make frontier AI systems particularly effective vectors for social engineering attacks and manipulation campaigns.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/ai-scamming-humans",
+    "publishedAt": "2026-09-11T18:14:06.000Z",
+    "contentHash": "268836d52094df55bec061a1f21cd64ce74d28f92707a4c7c6838dbd8ca99b5d",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:sans-isc-7bcb154873",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Redtail Payload Analysis",
+    "summary": "A technical analysis of the Redtail malware payload was documented by a SANS intern, examining its behavioral characteristics and operational mechanics. The diary entry provides reverse-engineering insights into the malware's execution flow and potential infection vectors.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33326",
+    "publishedAt": "2026-09-10T12:58:10.000Z",
+    "contentHash": "a7e52cdd0cf7e6024a6b228bda12587671d17b3aaeeb5a3b7bc6d1b75a0d6c35",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:cisa-9eb9ce0ff0",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "Orthanc DICOM Server Heap Buffer Overflow Vulnerability (CVE-2026-87020)",
+    "summary": "CISA disclosed a high-severity integer overflow vulnerability in Orthanc DICOM Server versions prior to 1.13.0 that allows authenticated remote attackers to trigger heap out-of-bounds writes when processing malicious PNG or JPEG images, potentially causing process crashes and denial-of-service conditions. The vendor recommends immediate updates to version 1.13.0. No active exploitation has been reported.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
+    "publishedAt": "2026-09-10T12:00:00.000Z",
+    "contentHash": "d0aef7afd0b9e95f4160c2afe705de2eaee562b42912219e473a0ef253d544c8",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:bleeping-a9e03aba59",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "devops",
+      "technology"
+    ],
+    "title": "Artifactory Vulnerabilities Exploited to Deploy Rust Backdoor",
+    "summary": "Attackers are chaining critical and high-severity flaws in JFrog Artifactory to circumvent authentication controls and escalate privileges on self-hosted instances. The exploitation culminates in deployment of a Rust-based backdoor, enabling persistent system compromise.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+    "publishedAt": "2026-09-11T16:29:44.000Z",
+    "contentHash": "19a4317f6738f0155b3bdb41c7b9e7b7c9485fdc38e077e5008fba2e47c444f6",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:thehackernews-dae251a200",
+    "tier": "event",
+    "category": "attack",
+    "title": "Russian State-Sponsored Group Exploited Claude AI to Automate Malware Development",
+    "summary": "Anthropic disrupted a campaign by Russian state-sponsored actors who leveraged Claude to streamline malware reconstruction and evasion workflows. The threat group, tracked as GTG-20006, used the AI model to accelerate development cycles and stay ahead of detection mechanisms, representing an emerging pattern of state-backed actors integrating generative AI into offensive operations.",
+    "sourceUrl": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+    "publishedAt": "2026-09-11T14:10:20.000Z",
+    "contentHash": "cb534ebe66102fc70dc11db8c60c4ccd79009b5473db647e6046fdec41dc7b2a",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:darkreading-f232a48731",
+    "tier": "event",
+    "category": "strategy",
+    "title": "AI Governance Can't Wait",
+    "summary": "Adversaries can manipulate AI-based defensive reasoning systems to compromise networks without detection. The article emphasizes that organizations need to establish governance frameworks for AI security tools before widespread deployment, as current systems lack sufficient safeguards against adversarial manipulation.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait",
+    "publishedAt": "2026-09-11T17:10:56.000Z",
+    "contentHash": "7552e55089e04275c45444de4f4058119f99db13b6c130a65f02db7a521d77e5",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9d84e1c393",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast – September 10, 2026",
+    "summary": "SANS Internet Storm Center's daily cybersecurity briefing covering recent threat activity, vulnerability disclosures, and defensive recommendations for IT security professionals.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33328",
+    "publishedAt": "2026-09-10T10:10:11.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-12T09:21:28.156Z"
   }
 ]
