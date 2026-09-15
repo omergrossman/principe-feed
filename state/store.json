@@ -327,149 +327,6 @@
     "ingestedAt": "2026-07-26T07:45:37.764Z"
   },
   {
-    "id": "knowledge:cisa-a8ad91edb2",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "energy"
-    ],
-    "title": "CISA Advisory: ANDRITZ HIPASE-250 and 250 SCALA Multiple Vulnerabilities",
-    "summary": "CISA published an advisory covering four vulnerabilities affecting ANDRITZ HIPASE-250 and 250 SCALA industrial control systems (versions ≤7.20). Flaws include reversible password storage, missing authentication on critical endpoints, unauthenticated logging control, and hard-coded VNC credentials on engineering workstations. ANDRITZ has released patches in versions 8.00.00 and 8.15.00.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05",
-    "publishedAt": "2026-08-13T12:00:00.000Z",
-    "contentHash": "29d8fa0b37c144faf4925e181d42d9c70d9e5efa6350ad822621b69d368fbb4e",
-    "ingestedAt": "2026-08-16T05:42:27.502Z"
-  },
-  {
-    "id": "knowledge:bleeping-2ef1bbe499",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Evooo1Bot Linux botnet repurposes routers as proxy relay nodes",
-    "summary": "Researchers identified Evooo1Bot, a modular Linux botnet derived from Mirai, targeting internet-exposed gateway devices to establish SOCKS5 proxy functionality. The malware converts compromised routers into traffic relay infrastructure, likely for downstream proxy-for-hire services or lateral network access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-    "publishedAt": "2026-08-15T14:14:38.000Z",
-    "contentHash": "8b0cff1fe5f303578e4c201b09b622a714307a4beee4b68eb73da661a0c552ec",
-    "ingestedAt": "2026-08-16T05:42:27.502Z"
-  },
-  {
-    "id": "knowledge:thehackernews-36069f37df",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Patches 398 Flaws Including Active Windows Driver Zero-Day",
-    "summary": "Microsoft released 398 security updates this month, including a privilege escalation vulnerability in a core Windows kernel driver handling network socket operations that is currently being exploited in the wild. The flaw (CVE-2026-68820, CVSS 7.0) allows attackers with local code execution to escalate privileges to SYSTEM level and was prioritized for immediate patching.",
-    "sourceUrl": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-    "publishedAt": "2026-08-11T20:10:55.000Z",
-    "contentHash": "1ca4b2c2df8c02a835e8b096900fabe53466108410d218ee72e7ed5f77218ff6",
-    "ingestedAt": "2026-08-16T05:42:27.502Z"
-  },
-  {
-    "id": "knowledge:darkreading-5bfa349da2",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Cyera Acquires Oasis Security for $1B to Unify Data Security and Identity Controls",
-    "summary": "Cyera has acquired Oasis Security for $1 billion to create an integrated control plane combining data security and identity management, specifically designed for AI agents. The approach shifts from traditional role-based access control to context-aware privilege models that adapt to business requirements rather than static policies.",
-    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control",
-    "publishedAt": "2026-08-14T12:17:21.000Z",
-    "contentHash": "5e28f7293c6eea66f436965e72b207fc367ddae40e4682785609ecafee356079",
-    "ingestedAt": "2026-08-16T05:42:27.502Z"
-  },
-  {
-    "id": "knowledge:cisa-a716bf6f25",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing",
-      "industrial automation"
-    ],
-    "title": "Siemens Solid Edge Multiple File Parsing Vulnerabilities",
-    "summary": "Seven memory safety vulnerabilities affect Siemens Solid Edge SE2025 and SE2026, exploitable through malformed PAR, PSM, or DFT design files. Flaws include out-of-bounds read/write and use-after-free conditions that could enable arbitrary code execution with CVSS 7.8 severity. Siemens has released patched versions (SE2025 v225.0.15 and SE2026 v226.0.7) and recommends immediate updates.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12",
-    "publishedAt": "2026-08-13T12:00:00.000Z",
-    "contentHash": "25aeb060b016e9870f7ddb34a0e855c46c5612fc463036d91d711b3320be293d",
-    "ingestedAt": "2026-08-16T05:42:27.502Z"
-  },
-  {
-    "id": "knowledge:bleeping-99dadd313b",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software",
-      "retail",
-      "e-commerce"
-    ],
-    "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
-    "summary": "A critical remote code execution vulnerability in SAP Commerce Cloud, patched three days prior, is being actively exploited in the wild according to threat intelligence firm Defused. The rapid weaponization of this maximum-severity flaw demonstrates how quickly threat actors move to exploit newly disclosed vulnerabilities.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
-    "publishedAt": "2026-08-14T13:45:18.000Z",
-    "contentHash": "bacc2f10a52eff2ec3e20af036fd5016ca3020f2cfc5789cbb3a2e77bf88c87a",
-    "ingestedAt": "2026-08-16T05:42:27.502Z"
-  },
-  {
-    "id": "knowledge:bleeping-ba32a4944f",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "energy"
-    ],
-    "title": "Shell investigates potential security incident following Clop ransomware group data theft claims",
-    "summary": "Shell has initiated an investigation into a reported security incident after the Clop ransomware group alleged theft of 89GB of company data. The organization is assessing the scope and validity of the claims.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-    "publishedAt": "2026-08-14T11:55:45.000Z",
-    "contentHash": "2a2ed9e301d9523bdfa6db07fd2e34a39de484d56c8a69149c9e4e0bb67bcc31",
-    "ingestedAt": "2026-08-16T05:42:27.502Z"
-  },
-  {
-    "id": "knowledge:cisa-10341ae0af",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "energy",
-      "critical manufacturing",
-      "water and wastewater"
-    ],
-    "title": "Haiwell IoT Cloud HMI Gateway OS Command Injection Vulnerability",
-    "summary": "CISA disclosed a critical OS command injection vulnerability (CVE-2026-19188) in Haiwell IoT Cloud HMI Gateway version 3.40.1.12, affecting the Net Check feature's cmdPing Socket.io event. An unauthenticated attacker could execute arbitrary OS commands with root privileges via improper input sanitization. Haiwell released patch version 3.50.1.19 to address the issue; no active exploitation has been reported.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02",
-    "publishedAt": "2026-08-13T12:00:00.000Z",
-    "contentHash": "abbd1c26a39248256dda15b465a2aac0064ef10ecb9d8b23a992a3a20da8ba7b",
-    "ingestedAt": "2026-08-16T05:42:27.502Z"
-  },
-  {
-    "id": "knowledge:bleeping-815fb64a5a",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "telecommunications",
-      "software"
-    ],
-    "title": "RingCentral data breach affects 1.6 million accounts",
-    "summary": "ShinyHunters claimed responsibility for accessing personal information from approximately 1.6 million RingCentral accounts following a breach in July. The incident was documented by the Have I Been Pwned breach notification service, indicating the group obtained customer data through unauthorized system access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-    "publishedAt": "2026-08-14T10:52:05.000Z",
-    "contentHash": "01400091d781d0536085a083bf68fa97bab91fc3d12c9ef1f20d6e2b58919fe3",
-    "ingestedAt": "2026-08-16T05:42:27.502Z"
-  },
-  {
-    "id": "knowledge:bleeping-de4f35c2e8",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "industries": [
-      "software"
-    ],
-    "title": "Data Analyst Sentenced for Extortion and Data Theft Against Software Employer",
-    "summary": "A former contractor at Brightly Software was sentenced to two years imprisonment for conducting a $2.5 million extortion scheme involving theft of employer data. The case demonstrates legal consequences for insider threats and data-driven criminal activity.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
-    "publishedAt": "2026-08-14T08:27:18.000Z",
-    "contentHash": "511c9fadc79a4d431c8369cec1efd07ec7e4acf76c56c0191ff639b558ac661d",
-    "ingestedAt": "2026-08-16T05:42:27.502Z"
-  },
-  {
     "id": "knowledge:cisa-82660a1ced",
     "tier": "event",
     "category": "regulation",
@@ -4975,5 +4832,210 @@
     "publishedAt": "2026-09-13T14:26:32.000Z",
     "contentHash": "27265de8995d83eb0782c38896d5e61b8e99b82da98ff54d055f6503c163325f",
     "ingestedAt": "2026-09-14T10:38:03.989Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7c09d00af3",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "hosting",
+      "web services"
+    ],
+    "title": "LiteSpeed Web Server Enterprise Vulnerability Enables Privilege Escalation on Shared Hosting",
+    "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise allows a low-privilege hosting account user to escalate privileges to root on shared-hosting infrastructure. The flaw could enable an attacker to access or modify other hosted sites and the underlying server. cPanel issued an advisory highlighting the risk in multi-tenant hosting environments.",
+    "sourceUrl": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+    "publishedAt": "2026-09-15T06:52:16.000Z",
+    "contentHash": "f656be50f6414e07d9a15acbab6459c6a9fcbca98afe4920cd3cbf0adf693080",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:darkreading-caf5df4455",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Sandworm Exploits Cisco Vulnerabilities to Distribute Cyclops Blink Botnet",
+    "summary": "Russian threat group Sandworm has been observed chaining multiple Cisco vulnerabilities to deploy an updated variant of Cyclops Blink, a botnet that U.S. authorities previously disrupted in 2022. The campaign demonstrates continued exploitation of known network infrastructure weaknesses to establish persistent access and malware distribution capabilities.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+    "publishedAt": "2026-09-14T21:37:28.000Z",
+    "contentHash": "093ea4035c3c712b0a8e48d4bfd3793ce1bc48adb745daa2c2da76deabe6b78d",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:sans-isc-1dd54dc2a1",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Tuesday, September 15th, 2026",
+    "summary": "SANS Internet Storm Center published their daily Stormcast podcast episode covering cybersecurity developments and threat landscape updates for September 15th, 2026.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33338",
+    "publishedAt": "2026-09-15T02:25:12.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:bleeping-d8af882016",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft KB5002914 Excel Update Causes Copy and Paste Failures",
+    "summary": "Microsoft acknowledged that the September 2026 KB5002914 security update introduces a defect affecting copy and paste functionality in Excel for some users. The issue manifests as silent failures without error notification, impacting workflow efficiency until remediation is available.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+    "publishedAt": "2026-09-15T08:40:20.000Z",
+    "contentHash": "b296a58c66b85cdcc360967a4f3d8d0d88e97ff0cb014b019e0740d64d2dc85a",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:thehackernews-afc835b3eb",
+    "tier": "event",
+    "category": "attack",
+    "title": "Cisco Secure Email Gateway Vulnerability Under Active Exploitation",
+    "summary": "A critical vulnerability (CVE-2026-76461, CVSS 9.8) in Cisco Secure Email Gateway's AsyncOS software is being actively exploited in the wild. The flaw stems from inadequate validation in email parsing logic, permitting unauthenticated remote attackers to achieve root command execution on affected systems.",
+    "sourceUrl": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+    "publishedAt": "2026-09-15T06:11:11.000Z",
+    "contentHash": "079910f8f040a3864e3bf95e5171935f415191c44f7bfb38ed85394cee67c4cc",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:darkreading-238d9d5bfc",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Critical Path Traversal Vulnerability Identified in GitLab",
+    "summary": "A maximum-severity path traversal vulnerability (CVE-2026-85706, CVSS 10.0) has been disclosed affecting GitLab Community and Enterprise editions. The flaw potentially exposes supply chain infrastructure to unauthorized access and data manipulation through affected repository instances.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk",
+    "publishedAt": "2026-09-14T20:19:22.000Z",
+    "contentHash": "3779eb15b1ffa7c6bc49faad7b0dab44aede0ae39bd1437321e43ea0dd8edaa4",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:sans-isc-bb8f15506a",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Apple Releases Major OS Updates with 261 Vulnerability Patches",
+    "summary": "Apple released its annual operating system updates across all platforms, addressing 261 vulnerabilities—the largest patch volume in the company's history. While significant, the increase remains modest compared to recent patch releases from other vendors following AI-related security improvements.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33336",
+    "publishedAt": "2026-09-14T18:33:44.000Z",
+    "contentHash": "edfc5e290f6069c086eb03c2fc059a3dc672b33eb85c4deb6f08f527bf523b71",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:bleeping-96c09c631f",
+    "tier": "event",
+    "category": "attack",
+    "title": "Cisco Patches Secure Email Gateway Zero-Day Under Active Exploitation",
+    "summary": "Cisco released patches for a critical zero-day vulnerability in Secure Email Gateway that has been actively exploited by threat actors. The flaw affects email security infrastructure and poses risk to organizations relying on this gateway for message filtering and threat prevention.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+    "publishedAt": "2026-09-15T07:31:09.000Z",
+    "contentHash": "5df779e12e3c2bea72c9ab39b18a432000b13ae0c7f5840d5d6b35ecd6377f0a",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:darkreading-722811b86b",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Anthropic CEO Advocates for AI Development Pace Moderation to Prioritize Safety Controls",
+    "summary": "Anthropic's leadership has proposed decelerating frontier AI advancement to allow security and risk mitigation capabilities to mature correspondingly. This perspective reflects growing industry recognition that control mechanisms and safety frameworks require development parity with capability increases.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/anthropic-ceo-shift-from-improving-to-controlling-ai",
+    "publishedAt": "2026-09-14T16:41:10.000Z",
+    "contentHash": "c70a26175a321c9606f151d12ea3878151aec6abb8c6315c95709a8166e6cd45",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:bleeping-89e52df0d4",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Releases Emergency Windows Updates for RDS and Related Issues",
+    "summary": "Microsoft deployed out-of-band security patches to address Remote Desktop Services failures, Hyper-V complications, and USB audio malfunctions that emerged following this month's standard security update cycle. The emergency releases target multiple Windows versions affected by these regressions.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
+    "publishedAt": "2026-09-14T20:52:18.000Z",
+    "contentHash": "3435b7499895ff4888674d8c7607ea4e424870b4ec07847132d4a10e1c02d400",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:thehackernews-d1e3ec2195",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "DDRop Attack Compromises Intel TDX and AMD SEV-SNP Confidential Computing",
+    "summary": "Researchers disclosed DDRop, a hardware-level attack that undermines memory protection in Intel TDX and AMD SEV-SNP confidential computing environments by selectively suppressing memory writes, causing processors to read stale encrypted data. The attack requires pre-existing software control of the target server and temporary physical access to install specialized circuitry.",
+    "sourceUrl": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+    "publishedAt": "2026-09-14T18:02:13.000Z",
+    "contentHash": "6c13dd1a7d7de699eed0c0cd725a4612d794d42c6103b73aad00f5efc6bc4af1",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:darkreading-c34563b630",
+    "tier": "event",
+    "category": "product-release",
+    "title": "SpiderSilk Launches AI-Powered External Threat Detection Platform",
+    "summary": "Dubai-based SpiderSilk has developed an AI-driven scanner that monitors billions of IP addresses to identify exposed assets, data breaches, and zero-day vulnerabilities. The platform aims to enhance external threat detection capabilities by automating discovery of internet-facing infrastructure risks.",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/spidersilk-hunts-external-threats-ai-scanning",
+    "publishedAt": "2026-09-11T18:27:28.000Z",
+    "contentHash": "9d9013ec813eb7cfd1fa4740be7c731067da6298a3813872efa021bedf4097d9",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:bleeping-bc6f1b881d",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "government"
+    ],
+    "title": "Japan's Digital Agency Discloses VPN Vulnerability Exposing 246,000 Government Employee Records",
+    "summary": "Japan's Digital Agency identified a VPN flaw that potentially compromised approximately 246,000 records containing personal information of government employees. The agency has disclosed the incident and is investigating the scope and impact of the exposure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
+    "publishedAt": "2026-09-14T20:36:02.000Z",
+    "contentHash": "216fd70486068adc07f3e53febace0fc3cffbac6f1d5a9c6a4dcb5437f8f277e",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:thehackernews-2e4ea22acc",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "telecommunications",
+      "internet service provider"
+    ],
+    "title": "3BB Thailand ISP Breached via MeshCentral Backdoor for Credential Theft",
+    "summary": "Threat researchers identified an attacker maintaining persistent access within 3BB, a major Thai broadband provider, by weaponizing MeshCentral—a legitimate remote management platform. The intrusion was discovered through an exposed attacker infrastructure server, indicating potential unauthorized access to subscriber credentials and internal systems.",
+    "sourceUrl": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+    "publishedAt": "2026-09-14T18:01:49.000Z",
+    "contentHash": "9aada8c7c535c48ad471037ac25fc157e775cf095d6bbdaa06b6690531459c5c",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:bleeping-f635bd0fb9",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Homebrew 7.0.0 Released with Built-in GUI and Enhanced Security Features",
+    "summary": "Homebrew package manager version 7.0.0 introduces a native graphical interface called BrewUI alongside enhanced security capabilities including a built-in vulnerability scanner and strengthened access controls. The release represents a significant update to the widely-used macOS and Linux package management tool.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
+    "publishedAt": "2026-09-14T19:51:04.000Z",
+    "contentHash": "47c60587d7cca1add3c6fd9a673555a3fce9e71b717561a20534206462e2788a",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7b20c25c56",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Telegram Desktop Vulnerability Enables JavaScript Injection in HTML Exports",
+    "summary": "Researchers identified a flaw in Telegram Desktop that allows malicious bots to embed hidden JavaScript code within exported HTML chat files. The injected script executes when users open the export in a web browser, potentially enabling exfiltration of message content from the exported conversation.",
+    "sourceUrl": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+    "publishedAt": "2026-09-14T17:58:16.000Z",
+    "contentHash": "5f320300dc63748456f0dd0cc1b5283c40582f540299543ac2cef4907fdc4d98",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:bleeping-0c060fb984",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "social-media",
+      "entertainment"
+    ],
+    "title": "Twitch Enhanced Viewer extension exfiltrates OAuth tokens to third-party service",
+    "summary": "A browser extension distributed through official Chrome and Firefox stores collected and transmitted Twitch OAuth session tokens to an external bot service, affecting approximately 30,000 users. The extension's credential harvesting mechanism operated without user awareness or explicit consent.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+    "publishedAt": "2026-09-14T19:03:51.000Z",
+    "contentHash": "968ff0dfc0c13709c37bd716c35e9e1008257dd2e0b3fe6c5373b55e295a4a74",
+    "ingestedAt": "2026-09-15T10:03:56.028Z"
   }
 ]
