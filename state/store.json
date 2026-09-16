@@ -5037,5 +5037,195 @@
     "publishedAt": "2026-09-14T19:03:51.000Z",
     "contentHash": "968ff0dfc0c13709c37bd716c35e9e1008257dd2e0b3fe6c5373b55e295a4a74",
     "ingestedAt": "2026-09-15T10:03:56.028Z"
+  },
+  {
+    "id": "knowledge:bleeping-9780a1191d",
+    "tier": "event",
+    "category": "news",
+    "title": "Windows Server 2022 Entering Extended Support Phase",
+    "summary": "Microsoft has announced that Windows Server 2022 will conclude mainstream support next month, transitioning to extended support status through October 2031. Organizations should plan patching and support strategies accordingly for this widely deployed server operating system.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/",
+    "publishedAt": "2026-09-16T09:10:20.000Z",
+    "contentHash": "974efbaca9ac1e4eb3a8d68cd30407d28f3d6ec672a4bfb46c0c3f84ee4f7431",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:thehackernews-eee1a3572e",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "ecommerce",
+      "retail"
+    ],
+    "title": "WooCommerce Wholesale Lead Capture Plugin Exploited for Web Shell Deployment",
+    "summary": "A critical vulnerability in the WooCommerce Wholesale Lead Capture WordPress plugin enables unauthenticated attackers to upload malicious files and execute arbitrary code on affected systems. The plugin, deployed on over 6,000 sites, is being actively exploited to plant PHP backdoors. Wordfence has detected and blocked multiple exploitation attempts.",
+    "sourceUrl": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+    "publishedAt": "2026-09-16T05:48:28.000Z",
+    "contentHash": "42090cb812f37ef38e191b04f38194334d156c67388cf69b199a3d95f08e4257",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:darkreading-b4e702cc17",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "media",
+      "automotive"
+    ],
+    "title": "North Korean APT Deploys Novel Linux Toolkit Against South Korean Infrastructure",
+    "summary": "A suspected North Korean advanced persistent threat group leveraged a previously undocumented Linux-based espionage toolkit to compromise load balancers in South Korean media and automotive organizations, enabling lateral network movement and communications interception. The campaign demonstrates continued targeting of critical South Korean sectors through custom malware capabilities.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive",
+    "publishedAt": "2026-09-16T01:00:00.000Z",
+    "contentHash": "1d681e356c950c079faf2155193f74005e00ff0d7d387176ff005f4bc7af0347",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:sans-isc-ce7a9d22a6",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Wednesday, September 16th, 2026",
+    "summary": "SANS Internet Storm Center's daily cybersecurity podcast episode covering current threat landscape developments and security topics relevant to practitioners and defenders.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33342",
+    "publishedAt": "2026-09-16T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-30487ba77b",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "uk",
+    "title": "Iranian Cyber Targeting of Dissidents, Activists and Journalists",
+    "summary": "The UK NCSC has published an advisory on CHOSEN BRICK malware attributed to Iranian threat actors targeting dissidents, activists, and journalists. The advisory includes technical analysis and defensive recommendations for individuals and organizations at risk.",
+    "sourceUrl": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "contentHash": "4c9466900117e2f93f9cc1da366450e64616733d1031bbf69db86b575928baf7",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:bleeping-a267aa5e64",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Google releases September 2026 security patches for Pixel devices, addressing actively exploited zero-day",
+    "summary": "Google released its September 2026 security update addressing 110 vulnerabilities across Pixel devices, including a zero-day flaw that has been actively exploited in targeted attacks. The patches aim to remediate this in-the-wild vulnerability alongside other identified issues in the Android ecosystem.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+    "publishedAt": "2026-09-16T07:00:19.000Z",
+    "contentHash": "2eabfc63fda9530fdbf8370d927fcf25014b31e8a55c24270e0eb146b913cf6d",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3db834775c",
+    "tier": "event",
+    "category": "attack",
+    "title": "Active Exploitation of WSO2 API Manager JWT Bypass Vulnerability",
+    "summary": "A critical flaw in WSO2 API Manager (CVE-2026-5430, CVSS 9.8) involving improper cryptographic signature verification is being actively exploited in the wild. The vulnerability enables attackers to forge administrative JWT tokens, potentially leading to account takeover and unauthorized API access.",
+    "sourceUrl": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+    "publishedAt": "2026-09-16T05:18:06.000Z",
+    "contentHash": "35ef63591b3aab1800d9a8816cc396d115001178565330043ea135c99c0b0e70",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:darkreading-5b3e6060de",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Releases Emergency Patches Following Extensive Patch Tuesday Updates",
+    "summary": "Microsoft deployed emergency security fixes after its latest Patch Tuesday cycle addressed nearly 1,000 CVEs, with some updates causing downstream issues. The emergency releases remediate problems introduced by the initial patch deployment.",
+    "sourceUrl": "https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday",
+    "publishedAt": "2026-09-15T20:16:00.000Z",
+    "contentHash": "5cd26bdb394c04a8045eba9cc0e9d4be6c5d6242cf1fe490c590d629fb29148e",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:sans-isc-f5b790c03f",
+    "tier": "event",
+    "category": "news",
+    "title": "macOS 27 Network Traffic Analysis on Initial Boot",
+    "summary": "A security researcher documented network connections initiated by macOS 27 during the first boot sequence, prior to user login. The analysis identifies baseline traffic patterns that administrators should recognize when deploying or monitoring new systems.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33340",
+    "publishedAt": "2026-09-15T15:23:45.000Z",
+    "contentHash": "8314b6af3ba977579263d1876f91c1fe89f00a58399be11dbe77465609a3174e",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-1161fa9309",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "uk",
+    "title": "UK and allies expose Iranian state spyware targeting dissidents and journalists",
+    "summary": "The UK National Cyber Security Centre and international partners have identified CHOSEN BRICK, a spyware tool deployed by Iranian state actors against dissidents, activists, and journalists. Guidance has been released to help at-risk organisations and individuals detect and mitigate exposure to this malware.",
+    "sourceUrl": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "contentHash": "067d53649d4a475034f0d11f7ff6157273a83a1982cec2a8f39eeb11ffecd6b9",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:bleeping-61abe81ccc",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "hosting",
+      "web services"
+    ],
+    "title": "Acronis Discloses Active Exploitation of cPanel Backup Plugin Vulnerability",
+    "summary": "Acronis reported a high-severity local privilege escalation flaw in its backup plugin for cPanel, WebHost Manager, and Plesk that is being actively exploited. The vulnerability affects Linux systems and allows attackers with local access to elevate privileges. Organizations running these hosting platforms should prioritize patching.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+    "publishedAt": "2026-09-15T21:37:35.000Z",
+    "contentHash": "9ea0b7376ae2572b56f619469bd89b3d9fbd013c29a96310eed33bf06741aaca",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e6910dbe47",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "industries": [
+      "financial services",
+      "banking"
+    ],
+    "title": "KREMLIN Banking Malware Targets Brazilian Banks via Browser Extensions",
+    "summary": "Researchers identified a Brazilian banking malware operation distributing KREMLIN, a toolkit that deploys malicious extensions to Chrome and Edge browsers to harvest credentials and session tokens. The campaign, active since May 2025, uses phishing lures impersonating multiple Brazilian financial institutions.",
+    "sourceUrl": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+    "publishedAt": "2026-09-15T18:54:14.000Z",
+    "contentHash": "bbe77c58c31129b9ddf64e1cbe73d2c1bbeaba90ed6366f144b6465bc6628252",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:bleeping-85fda3d5ee",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software",
+      "web development"
+    ],
+    "title": "Admin Menu Editor Pro Plugin Compromised, Affecting 1,500+ WordPress Sites",
+    "summary": "A threat actor compromised the maintainer's website for the Admin Menu Editor Pro WordPress plugin and distributed malicious updates to over 200 customers, resulting in hidden administrative accounts being created on more than 1,500 sites. The attack leveraged the plugin's legitimate update mechanism to deliver the backdoor payload.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
+    "publishedAt": "2026-09-15T20:34:15.000Z",
+    "contentHash": "691959d9fd1778d8ca419c07a74beca8d56aaf4b78ee87ec84743b62f3d76d9e",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:thehackernews-41594bea7c",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "Iranian State-Linked Malware Uses Telegram for Remote Espionage Operations",
+    "summary": "U.S., UK, and Dutch cybersecurity agencies have disclosed a Windows-based malware attributed to Iran's intelligence service that facilitates surveillance of dissidents, journalists, and activists globally. The malware leverages Telegram for command-and-control and enables email exfiltration, screen capture, chat interception, and audio recording capabilities.",
+    "sourceUrl": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+    "publishedAt": "2026-09-15T16:29:51.000Z",
+    "contentHash": "bf262c030a899c5b920dd014d9244e5e6fc2003e552955b80cc9e48e3ea7c113",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
+  },
+  {
+    "id": "knowledge:darkreading-e55cfacdec",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "VectraRAT Malware-as-a-Service Offering Remote Access Capabilities",
+    "summary": "VectraRAT is a malware-as-a-service platform providing subscribers with a Windows implant, command-and-control infrastructure, and operator panel for establishing persistent remote access to enterprise systems. The service is marketed at a monthly subscription rate, lowering the barrier to entry for attackers targeting Windows environments.",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises",
+    "publishedAt": "2026-09-15T16:45:37.000Z",
+    "contentHash": "8a76c898b5cb0b3c3dc4bc4e5ba5eaf33f4bd3eb0acf4ce947f3b9036cbd1d61",
+    "ingestedAt": "2026-09-16T09:56:38.348Z"
   }
 ]
