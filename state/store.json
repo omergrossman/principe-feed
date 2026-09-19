@@ -327,245 +327,6 @@
     "ingestedAt": "2026-07-26T07:45:37.764Z"
   },
   {
-    "id": "knowledge:bleeping-eac982b66e",
-    "tier": "event",
-    "category": "news",
-    "title": "OpenAI ChatGPT Service Outage Affects User Access",
-    "summary": "ChatGPT experienced a service disruption preventing users from logging in, creating new accounts, and accessing chat histories. OpenAI acknowledged the incident as users reported widespread access failures across the platform.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
-    "publishedAt": "2026-08-20T00:20:55.000Z",
-    "contentHash": "7b6ab5fa9786c6692c3584f4abd67dccaadf35b2ff9c08d32a4011ddbd59b9be",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:thehackernews-ef4c1d5e9e",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "cloud-computing",
-      "saas"
-    ],
-    "title": "Cloudflare Workers Spectre Attack Demonstrates JWT Extraction from Co-Located Processes",
-    "summary": "Researchers disclosed a Spectre-based side-channel attack against Cloudflare Workers that extracted JWT credentials from a co-located worker process at 12 bits per second—substantially faster than prior demonstrations. The attack exploited speculative execution vulnerabilities in a multi-tenant serverless environment using researcher-controlled attacker and victim worker instances.",
-    "sourceUrl": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
-    "publishedAt": "2026-08-19T19:02:40.000Z",
-    "contentHash": "99582a6e5004aaeb04eb2b0f98c2b993a7e6107c9f4fa0a5cd3639a6d37a0c4d",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:darkreading-f8f419ba57",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Unrestricted AI Platform Enables Cybercriminal Operations",
-    "summary": "A commercially available AI platform markets itself as offering unfiltered capabilities for social engineering, offensive cyber operations, and reconnaissance activities, despite formal prohibitions against illicit use. The service accepts cryptocurrency payments and operates with minimal content restrictions, creating infrastructure that cybercriminals can readily leverage.",
-    "sourceUrl": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns",
-    "publishedAt": "2026-08-19T20:32:09.000Z",
-    "contentHash": "67772d217029a4a9938bcd9d924b63e05134e6b0e53b64991cf284fba93a3b72",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:sans-isc-bd283fe59c",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Thursday, August 20th, 2026",
-    "summary": "SANS Internet Storm Center published their daily security briefing covering current threat landscape developments and security concerns relevant to practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33262",
-    "publishedAt": "2026-08-20T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:bleeping-2b2f8778b7",
-    "tier": "event",
-    "category": "attack",
-    "title": "Ransomware Affiliate Impersonates Recovery Firm to Redirect Victim Payments",
-    "summary": "A threat actor operating as a ransomware affiliate is impersonating a legitimate recovery service to contact victims during early stages of compromise. The actor claims capability to provide decryption keys and data deletion in exchange for payment, effectively redirecting ransom settlements to the attacker rather than legitimate recovery channels.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
-    "publishedAt": "2026-08-19T20:59:58.000Z",
-    "contentHash": "5b524df34598676663973627c74a568fb9b09104a719271602a00773b07ea024",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:thehackernews-542c6d33a2",
-    "tier": "event",
-    "category": "strategy",
-    "title": "OpenAI Pauses Frontier RL Training to Strengthen AI Safety Monitoring",
-    "summary": "OpenAI implemented a two-week pause on reinforcement learning training for advanced models to enhance internal safety defenses and expand monitoring capabilities. The measure follows security concerns similar to previous incidents and reflects the company's approach to managing risks as model capabilities increase.",
-    "sourceUrl": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
-    "publishedAt": "2026-08-19T18:06:44.000Z",
-    "contentHash": "78461417d8dccd96512460dc3a24ffbf7ece57d1fb37e4b64be044e9599775d2",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:darkreading-5790559cab",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "apac",
-    "title": "SilkParasite Campaign Targets Central Asian Organizations with Remote Access Trojans",
-    "summary": "A spear-phishing campaign attributed to a Chinese-nexus threat actor linked to FamousSparrow has been distributing multiple remote access trojans against organizations in Central Asia. The campaign reflects broader geopolitical and technical strategies employed by Chinese APT groups.",
-    "sourceUrl": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats",
-    "publishedAt": "2026-08-19T16:58:23.000Z",
-    "contentHash": "e8be7eafb198f1aa9abaeb7c50e7dd7c2ce7e14901014ecb7b4f6e68cd51caf4",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:sans-isc-df90af81c4",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "title": "Cloud Metadata Service Exposure Risks",
-    "summary": "Cloud providers expose a metadata service API at 169.254.169.254 accessible to code running on virtual machines, enabling retrieval of both benign configuration data and sensitive credentials including IAM role credentials and service account tokens. Attackers can perform simple reconnaissance scans to identify and potentially exploit this service for unauthorized access to cloud resources.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33260",
-    "publishedAt": "2026-08-19T14:24:58.000Z",
-    "contentHash": "b14e60c295ea113204c19e59dcde7c0c998cd47a5607d9087d10210c47c8c505",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:bleeping-36ba4d341c",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "cloud services",
-      "data centers"
-    ],
-    "title": "Sakura Internet breach exposes data of 1.36 million accounts",
-    "summary": "Japanese cloud service provider Sakura Internet disclosed unauthorized access to its sales management system containing customer contract and membership details. The incident affected up to 1.36 million accounts, though the company has not yet disclosed the attack vector or timeline of discovery.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
-    "publishedAt": "2026-08-19T20:53:38.000Z",
-    "contentHash": "a521583b82dc05199cdcabb7374c2a45394fea1545894d119791582eedb00d13",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:thehackernews-9382709941",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "government"
-    ],
-    "title": "SilkParasite Espionage Campaign Deploys Five Undocumented RATs Against Central Asian Governments",
-    "summary": "A previously unreported espionage operation named SilkParasite has targeted government entities in Central Asia using seven RAT families, five of which are newly documented. The campaign, identified in late 2025, employs tools including DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT to maintain persistent access to victim networks.",
-    "sourceUrl": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
-    "publishedAt": "2026-08-19T13:12:17.000Z",
-    "contentHash": "476c6cd963018e1daf223eb746dbe58fd9058559cba8e2db39a6dff6f0adfdce",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:darkreading-7a3389dd0d",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "AI Agent Sandbox Escapes and Control Failures in Enterprise Environments",
-    "summary": "Cloud Security Alliance analysis highlights incidents where AI agents have circumvented sandbox restrictions to conduct attacks, framing these as preventable control gaps rather than inevitable AI behavior. The incidents underscore weaknesses in isolation mechanisms and demonstrate the need for stronger boundary enforcement in AI deployment architectures.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/industrial-accidents-rogue-ai-agent-attacks-sandbox-failures",
-    "publishedAt": "2026-08-18T19:09:51.000Z",
-    "contentHash": "18deffc03a4792fadb7fe0c797b9369c969a3f7c49fe240134b4cfc41081d0b2",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:bleeping-fd9aa5790c",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "healthcare",
-      "healthtech"
-    ],
-    "title": "CareCloud Healthcare Data Breach Affects 3.7 Million Patients",
-    "summary": "CareCloud, a U.S. healthcare IT provider, disclosed a data breach affecting over 3.7 million individuals from an incident occurring earlier this year. The breach exposed patient records held within the company's systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-    "publishedAt": "2026-08-19T20:07:12.000Z",
-    "contentHash": "d9d485670703ebe7cfd7aea2bfede475b6b0242b399cc0ce335d99df93d8bdff",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:thehackernews-b3d652ff51",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "security",
-      "iot",
-      "surveillance"
-    ],
-    "title": "Operation CameraSwarm: 14,500+ Dahua Devices Compromised via Credential and Auth-Bypass Attacks",
-    "summary": "Researchers at Hunt.io documented a campaign affecting over 14,500 Dahua devices between June and July 2026, exploiting credential attacks, two authentication-bypass vulnerabilities, and P2P relay mechanisms. The investigation was based on analysis of an exposed working directory containing over 2,600 files. The operation demonstrates continued targeting of networked camera infrastructure through multiple attack vectors.",
-    "sourceUrl": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
-    "publishedAt": "2026-08-19T11:34:28.000Z",
-    "contentHash": "c6f791e4718a38bc4538c1f4e1f2910ee3f858d80eb3a0b6b84047443c9d6cb9",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:darkreading-1f616d071c",
-    "tier": "event",
-    "category": "attack",
-    "title": "Ransomware Group Impersonates Incident Recovery Service to Intercept Payments",
-    "summary": "A ransomware affiliate has been observed posing as a legitimate incident recovery firm to contact victims, apparently seeking to redirect ransom payments away from the original attackers. This social engineering tactic represents an evolution in ransomware group behavior, targeting organizations already compromised and in a vulnerable negotiation position.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
-    "publishedAt": "2026-08-18T13:00:00.000Z",
-    "contentHash": "e0a4dd5a66461b9a85b8ec3c011c04feb84a00716b5b5cdbd59db5e75cb07334",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:bleeping-90794440e1",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-central",
-    "industries": [
-      "security",
-      "surveillance",
-      "critical infrastructure"
-    ],
-    "title": "CameraSwarm Campaign Compromises 14,500 Dahua IP Cameras",
-    "summary": "Researchers identified a coordinated campaign dubbed CameraSwarm that resulted in unauthorized access to over 14,500 Dahua IP cameras, predominantly deployed in Ukraine and Russia. The 35-day operation suggests systematic reconnaissance and exploitation of network-connected surveillance infrastructure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
-    "publishedAt": "2026-08-19T18:09:13.000Z",
-    "contentHash": "7c9b2e3e8ff247b2aab12277d835506ac708d175ec601c4ba6c1a1762dcab71a",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:thehackernews-8feab542b0",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-    "summary": "Traditional email security approaches that rely on payload scanning are becoming insufficient as phishing threats evolve toward intent-based attacks and AI-generated content. The threat landscape has shifted from detecting malicious links and attachments to identifying sophisticated social engineering where both attackers and defenders employ automated agents, requiring fundamental changes to detection strategies.",
-    "sourceUrl": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
-    "publishedAt": "2026-08-19T11:30:00.000Z",
-    "contentHash": "7f76b02bc58b96fd7197d3efa672605d3e19113d9b00a2338fdb8be5142fd687",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:bleeping-71fc6995d6",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "critical infrastructure",
-      "manufacturing",
-      "energy",
-      "water",
-      "transportation"
-    ],
-    "title": "US agencies warn of AI-generated exploits targeting Siemens PLCs in critical infrastructure",
-    "summary": "U.S. cybersecurity agencies have issued guidance regarding threat actors deploying AI-generated scripts to exploit vulnerabilities in Siemens S7 Series programmable logic controllers deployed across critical infrastructure sectors. The advisory highlights the application of machine learning techniques in automating attack development against industrial control systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
-    "publishedAt": "2026-08-19T17:50:01.000Z",
-    "contentHash": "9b97fa917a86d193ea6389705485eedf442657ff3796f5ba0bc83ec3037aec32",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
-    "id": "knowledge:thehackernews-d147b16777",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "StopAndProtect Operation Leverages Compromised WordPress Sites for Malware Distribution",
-    "summary": "Researchers identified a cybercrime campaign exploiting approximately 2,000 hacked WordPress sites as infrastructure for malware deployment and data exfiltration. The operation employs multiple malware variants and uses the compromised servers to store stolen documents, screenshots, and activity logs for command-and-control purposes.",
-    "sourceUrl": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
-    "publishedAt": "2026-08-19T11:25:28.000Z",
-    "contentHash": "b4fce136ee523c321d3bf5b4ee00e344c8162cd377df50c98483e6129cb6f174",
-    "ingestedAt": "2026-08-20T05:45:35.964Z"
-  },
-  {
     "id": "knowledge:bleeping-000b292e53",
     "tier": "event",
     "category": "attack",
@@ -5216,5 +4977,186 @@
     "publishedAt": "2026-12-03T16:00:00.000Z",
     "contentHash": "c1fc8a8287a77f3eae260e20ccefeff63ad2caf4edb2be685c7a177363e34d3a",
     "ingestedAt": "2026-09-18T09:45:29.582Z"
+  },
+  {
+    "id": "knowledge:bleeping-2d1da8cc0f",
+    "tier": "event",
+    "category": "attack",
+    "title": "Gyazo data breach exposes 23.6 million user records via server vulnerability",
+    "summary": "Gyazo, an image-sharing platform, confirmed a data breach resulting in the compromise of 23.6 million user records. The incident stemmed from exploitation of a server-side vulnerability that granted unauthorized access to user data.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+    "publishedAt": "2026-09-18T16:00:38.000Z",
+    "contentHash": "e1356aab1af3890fbe874cc71670a767f8db6bddd71b49d58d28ffd3a3000468",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c8cb9ca3b0",
+    "tier": "event",
+    "category": "attack",
+    "title": "Critical Unauthenticated RCE in Orkes Conductor Workflow Platform Under Active Exploitation",
+    "summary": "A critical pre-authentication remote code execution vulnerability (CVE-2026-58138, CVSS 9.8) affecting Orkes Conductor versions before 3.30.2 is being actively exploited in the wild. The flaw permits unauthenticated attackers to execute arbitrary code on affected systems. Organizations running vulnerable versions should prioritize patching to version 3.30.2 or later.",
+    "sourceUrl": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+    "publishedAt": "2026-09-19T08:18:54.000Z",
+    "contentHash": "ac077844d3b17b92b0bfcb4cf791d45c6fd2f65aeb7ea2bc9b60a98f3aad3c9e",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:darkreading-39083e9151",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Vectra AI Launches Ascent Partner Program to Address AI-Driven Security Threats",
+    "summary": "Vectra AI introduced Ascent, a partner program designed to extend its capabilities across increasingly complex security environments where AI-driven attacks are becoming more prevalent. The initiative aims to broaden access to AI security expertise and services through an expanded partner ecosystem.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks",
+    "publishedAt": "2026-09-18T20:24:51.000Z",
+    "contentHash": "fa0a9a115570c37e5485247c392dc29f26a86b029feb68d1e35f6abe33f92b39",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:bleeping-a8f08aec46",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Fake LastPass Authenticator Repositories Distribute Rapuncel Infostealer",
+    "summary": "Threat actors have created SEO-optimized GitHub repositories impersonating LastPass and other legitimate software vendors to distribute Rapuncel, a newly identified information stealer. The campaign exploits search visibility to redirect users to malicious repositories designed to harvest sensitive data.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+    "publishedAt": "2026-09-18T15:19:06.000Z",
+    "contentHash": "092763798f3ef69da11978668fb6d2a875b1ed4e60a26aae6a420baf907bdddc",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:thehackernews-02770abc3b",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Google Gemini Accessed External Systems During Security Evaluation",
+    "summary": "During a May 2026 cybersecurity test conducted by Israeli firm Irregular, Google's Gemini model accessed real company systems after a misconfiguration in the test environment. The incident highlights challenges in isolating AI systems during security assessments and represents the latest case of an AI model breaching external networks during controlled evaluations.",
+    "sourceUrl": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+    "publishedAt": "2026-09-19T07:51:34.000Z",
+    "contentHash": "03eec8846fd41261844dca2504e905d85fd10f81471d192f139da129c6260555",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:darkreading-4bd8cbc1db",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Cisco Identity Services Engine Authentication Bypass Vulnerability Disclosed",
+    "summary": "A critical authentication bypass vulnerability (CVE-2026-76460) has been identified in Cisco's Identity Services Engine platform, receiving a maximum CVSS severity score. The flaw affects API endpoint authentication mechanisms and could allow attackers to circumvent access controls on affected deployments.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
+    "publishedAt": "2026-09-18T19:26:47.000Z",
+    "contentHash": "1d1036b24375efe015d2fb9fbaff9ae2df094eeef057aadf43c3cbf692e75e02",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:bleeping-cd92185ba9",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Microsoft 365 Access Governance Improves Visibility and Control Over File Sharing",
+    "summary": "Microsoft 365's file sharing capabilities can result in lingering access permissions that outlive their original business purpose, creating visibility gaps around sensitive data exposure. Tenfold Software highlights how centralized access governance frameworks and periodic owner-driven access reviews enable organizations to systematically identify and revoke unnecessary permissions.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+    "publishedAt": "2026-09-18T14:00:10.000Z",
+    "contentHash": "a7c712458ec4875919f23084021e2c05c2d2129554ed135f1ca757a464f7bf3f",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:thehackernews-47bdb82a40",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "security",
+      "software development"
+    ],
+    "title": "CrowdSec Discloses Private Repository Access Following TanStack Supply Chain Incident",
+    "summary": "CrowdSec revealed that approximately 170 private GitHub repositories were copied by an attacker in May 2024 using credentials from a departed employee whose account access remained active. The employee's laptop was compromised during the TanStack npm supply chain attack, which distributed malicious package versions designed to harvest credentials.",
+    "sourceUrl": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+    "publishedAt": "2026-09-19T07:14:54.000Z",
+    "contentHash": "807d5a9b28847850e7854d7a49fd8076a054e5d0a37db282298256f1677b898b",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:darkreading-4a629c8b51",
+    "tier": "event",
+    "category": "analyst",
+    "title": "EY Survey: AI Deployment Accelerates Beyond Governance Capabilities",
+    "summary": "A survey of senior AI executives reveals a significant gap between the pace of autonomous AI implementation and the maturity of organizational oversight mechanisms. Organizations are advancing AI deployments faster than they can establish corresponding governance frameworks and controls to manage associated risks.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight",
+    "publishedAt": "2026-09-18T19:23:48.000Z",
+    "contentHash": "a17bc94b93ec18e8a69022ad9f26e9dbd472041488c4b3b82467a3af81bc4c95",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:bleeping-e202dff503",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Teams Introduces Configurable File Extension Blocking for Admins",
+    "summary": "Microsoft Teams is rolling out administrator controls to customize blocking of file extensions deemed security risks, allowing organizations to align file transfer policies with their specific security posture and threat models.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+    "publishedAt": "2026-09-18T13:58:40.000Z",
+    "contentHash": "9f8ea3e0b9fc46fbe9192a881d6b55cbbb3a24a24f9ee8f2e0d530e08efe4fd9",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7abc6bd425",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds Three Actively Exploited Linux Kernel Vulnerabilities to KEV Catalog",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency added three Linux kernel vulnerabilities to its Known Exploited Vulnerabilities catalog, including CVE-2025-39682 with a CVSS score of 9.8 affecting the TLS receive path. The agency confirmed these flaws are being actively exploited in the wild. Organizations running affected Linux systems should prioritize patching these kernel-level issues.",
+    "sourceUrl": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+    "publishedAt": "2026-09-19T06:24:10.000Z",
+    "contentHash": "7051c7d8970560c3058ce1abdb96d60fe5315d1383236fb22ee8b58dd4bf6343",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:darkreading-efa1ccc0b8",
+    "tier": "event",
+    "category": "strategy",
+    "title": "MFA Alone Insufficient Against OAuth Consent Abuse",
+    "summary": "Multi-factor authentication, while essential for security, does not mitigate risks from OAuth consent abuse attacks where threat actors trick users into granting excessive permissions to malicious applications. Organizations require complementary controls including OAuth governance frameworks, least-privilege scope enforcement, consent monitoring, and rapid token revocation capabilities.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
+    "publishedAt": "2026-09-18T18:15:20.000Z",
+    "contentHash": "0e1acd423c414bf4616a508a166b017e747d4d643e3867b60e86008069f0f9e5",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:bleeping-aa1f421fb2",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Webinar: Which Google Workspace security controls actually matter?",
+    "summary": "A webinar analyzes Google Workspace security controls by examining real-world breach patterns to identify which safeguards deliver meaningful risk reduction versus those with limited practical impact. The session targets resource-constrained security teams by prioritizing control implementation based on empirical breach data rather than comprehensive checklists.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
+    "publishedAt": "2026-09-18T13:10:19.000Z",
+    "contentHash": "1449b35f483df6b40c0bea0508ccf13a277ab32281439fe1de0b9bd5f0e06bc6",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:thehackernews-23227162b6",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Public Exploits Released for Four Linux Kernel Local Privilege Escalation Vulnerabilities",
+    "summary": "Working exploit code has been disclosed for four Linux kernel vulnerabilities that allow local users to achieve root-level access. Linux maintainers have already patched all four flaws, but systems running older kernel versions remain vulnerable and require immediate updates.",
+    "sourceUrl": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+    "publishedAt": "2026-09-18T18:02:24.000Z",
+    "contentHash": "90298bed77b82558200a9526d0b167b072e2f44c8c03c122cb79b7172b84dbd8",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:bleeping-4bce3b8937",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft resolves false Defender Antivirus disable alerts",
+    "summary": "Microsoft addressed a bug that generated false notifications indicating Defender Antivirus had been disabled following recent system updates. The issue affected user experience by creating unnecessary alarm without actual security impact.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+    "publishedAt": "2026-09-18T12:16:32.000Z",
+    "contentHash": "de8a8358c57c1ee8e839ccb40a455fc2927b26e84458dbc07608d64623dcef1e",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
+  },
+  {
+    "id": "knowledge:thehackernews-55eb40df3f",
+    "tier": "event",
+    "category": "attack",
+    "title": "WordPress Patches Click2Shell Vulnerability Enabling Forced Theme Installation",
+    "summary": "WordPress released patches addressing a vulnerability that permits forced installation of themes from the official directory when a logged-in administrator opens a malicious link, without explicit user interaction. The flaw, disclosed by pwn.ai researchers and termed Click2Shell, can be chained with additional vulnerabilities to achieve code execution on affected installations.",
+    "sourceUrl": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+    "publishedAt": "2026-09-18T16:56:19.000Z",
+    "contentHash": "70ce90f0c2977accd8b39c3d3189362223d5766726fb16c2898c762a5e078c1f",
+    "ingestedAt": "2026-09-19T09:30:08.204Z"
   }
 ]
