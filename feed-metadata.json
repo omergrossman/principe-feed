@@ -119,120 +119,6 @@
     "category": "strategy",
     "publishedAt": "2026-07-25T05:52:21.439Z"
   },
-  "knowledge/bleeping-000b292e53.md": {
-    "industries": [
-      "software development",
-      "open source"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-08-20T17:53:52.000Z"
-  },
-  "knowledge/thehackernews-41850b0dea.md": {
-    "region": "global",
-    "industries": [
-      "software-development",
-      "devops"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-08-20T20:22:35.000Z"
-  },
-  "knowledge/darkreading-fdc0a385d4.md": {
-    "region": "us",
-    "industries": [
-      "government"
-    ],
-    "category": "strategy",
-    "publishedAt": "2026-08-21T14:00:00.000Z"
-  },
-  "knowledge/sans-isc-a6a1a81514.md": {
-    "category": "strategy",
-    "publishedAt": "2026-08-21T02:47:00.000Z"
-  },
-  "knowledge/ncsc-uk-a5fe1c1863.md": {
-    "region": "uk",
-    "category": "strategy",
-    "publishedAt": "2026-08-20T12:00:00.000Z"
-  },
-  "knowledge/bleeping-541e0309d1.md": {
-    "industries": [
-      "technology",
-      "web services"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-08-20T14:39:48.000Z"
-  },
-  "knowledge/thehackernews-42c3afc040.md": {
-    "region": "global",
-    "industries": [
-      "defense",
-      "aerospace",
-      "government",
-      "academia",
-      "think tanks"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-08-20T19:59:19.000Z"
-  },
-  "knowledge/darkreading-0c1b8ac419.md": {
-    "category": "product-release",
-    "publishedAt": "2026-08-20T20:42:18.000Z"
-  },
-  "knowledge/sans-isc-9fa40bc80f.md": {
-    "category": "news",
-    "publishedAt": "2026-08-21T02:00:03.000Z"
-  },
-  "knowledge/bleeping-41d45d363a.md": {
-    "category": "strategy",
-    "publishedAt": "2026-08-20T14:01:11.000Z"
-  },
-  "knowledge/thehackernews-50bcfcb681.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-08-20T17:23:48.000Z"
-  },
-  "knowledge/darkreading-1f71631e25.md": {
-    "region": "us",
-    "industries": [
-      "aviation"
-    ],
-    "category": "news",
-    "publishedAt": "2026-08-20T19:11:15.000Z"
-  },
-  "knowledge/sans-isc-bf4c6777da.md": {
-    "category": "strategy",
-    "publishedAt": "2026-08-21T01:49:18.000Z"
-  },
-  "knowledge/bleeping-1c6b6eea4c.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-08-20T12:14:38.000Z"
-  },
-  "knowledge/thehackernews-827ef3b45e.md": {
-    "region": "us",
-    "industries": [
-      "critical infrastructure",
-      "industrial control systems",
-      "manufacturing"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-08-20T16:59:44.000Z"
-  },
-  "knowledge/darkreading-323fe5d7a6.md": {
-    "industries": [
-      "msp",
-      "smb",
-      "managed-services"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-08-20T17:39:24.000Z"
-  },
-  "knowledge/sans-isc-9f71b497c2.md": {
-    "category": "strategy",
-    "publishedAt": "2026-08-20T13:09:50.000Z"
-  },
-  "knowledge/bleeping-e9af320d90.md": {
-    "region": "us",
-    "category": "threat-intel",
-    "publishedAt": "2026-08-20T11:06:14.000Z"
-  },
   "knowledge/bleeping-e9e0eed4de.md": {
     "category": "threat-intel",
     "publishedAt": "2026-08-21T18:01:30.000Z"
@@ -2224,5 +2110,47 @@
   "knowledge/thehackernews-55eb40df3f.md": {
     "category": "attack",
     "publishedAt": "2026-09-18T16:56:19.000Z"
+  },
+  "knowledge/bleeping-fb9113f4b4.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-19T14:56:31.000Z"
+  },
+  "knowledge/bleeping-f02d07cbc7.md": {
+    "region": "global",
+    "category": "threat-intel",
+    "publishedAt": "2026-09-19T14:05:15.000Z"
+  },
+  "knowledge/thehackernews-852ff302b4.md": {
+    "category": "strategy",
+    "publishedAt": "2026-09-19T13:28:48.000Z"
+  },
+  "knowledge/bleeping-14e87e3a15.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-19T13:48:32.000Z"
+  },
+  "knowledge/thehackernews-830c117275.md": {
+    "category": "strategy",
+    "publishedAt": "2026-09-19T13:28:41.000Z"
+  },
+  "knowledge/bleeping-c28d5ad3f7.md": {
+    "category": "news",
+    "publishedAt": "2026-09-19T11:38:20.000Z"
+  },
+  "knowledge/thehackernews-531e97a39e.md": {
+    "category": "product-release",
+    "publishedAt": "2026-09-19T09:31:17.000Z"
+  },
+  "knowledge/thehackernews-eb5aad65b2.md": {
+    "region": "apac",
+    "industries": [
+      "government",
+      "defense"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-18T15:24:16.000Z"
+  },
+  "knowledge/thehackernews-baffdffe14.md": {
+    "category": "product-release",
+    "publishedAt": "2026-09-18T12:47:04.000Z"
   }
 }
