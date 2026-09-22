@@ -327,290 +327,6 @@
     "ingestedAt": "2026-07-26T07:45:37.764Z"
   },
   {
-    "id": "knowledge:bleeping-e9e0eed4de",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "SynkLoader malware distributed through Microsoft Teams phishing",
-    "summary": "A previously unknown malware family called SynkLoader is being delivered via Microsoft Teams phishing campaigns, using a fake lock screen interface to harvest user credentials. The attack leverages the trust users place in Teams communications to facilitate credential theft.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
-    "publishedAt": "2026-08-21T18:01:30.000Z",
-    "contentHash": "9773cf333dbdd5f07b8ec576a6a701a10ef97b9281e796a68dbdc4b554f0aa9d",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:thehackernews-4b61357969",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software-development"
-    ],
-    "title": "Trojanized npm Packages Distribute RedC2 4.0 Linux Backdoor",
-    "summary": "Researchers identified 14 malicious npm packages posing as calendar and utility libraries that deploy RedC2 4.0, a Linux backdoor with AI-assisted command-and-control capabilities. The packages execute embedded binaries in the background upon module loading, establishing persistent access to affected systems.",
-    "sourceUrl": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-    "publishedAt": "2026-08-21T18:53:00.000Z",
-    "contentHash": "931a45c387df3110395d972e669594193cdef685473956f0fd3cef70dbb0e8b7",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:darkreading-52236a821b",
-    "tier": "event",
-    "category": "strategy",
-    "title": "OWASP Introduces AI-Focused Security Framework with Standardized Skill Format",
-    "summary": "OWASP has released an updated top 10 security list addressing contemporary threats alongside a Universal Skill Format designed to establish consistency and security controls for AI-integrated tools. The framework aims to standardize how security competencies are defined and applied across AI development and deployment contexts.",
-    "sourceUrl": "https://www.darkreading.com/application-security/owasp-flags-top-ai-skill-risks-security-blueprint",
-    "publishedAt": "2026-08-21T17:36:53.000Z",
-    "contentHash": "a6fa023ea15b0d3fe60b8f2c2d8c2b01a5e940de8339c547b0c6a9d05dbaeec9",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:sans-isc-79b8346cde",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Microsoft Graph API and PowerShell for M365 Account and License Discovery",
-    "summary": "Microsoft Graph API (v2.3.9) enables querying and managing M365, Entra users, and Entra-managed devices through PowerShell. The API remains underutilized by many organizations and commercial tools, presenting opportunities for account hygiene and license auditing workflows.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33264",
-    "publishedAt": "2026-08-20T12:45:32.000Z",
-    "contentHash": "76f8cc1305b0355c82f48f572b37f5384fbea3ea941bf1805d4d57a7af925893",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:bleeping-5af2f8bcbf",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Over 9,300 Active AWS Access Keys Exposed in Public Repositories",
-    "summary": "A collection of more than 9,300 exposed AWS access keys spanning August 2022 to August 2026 remain valid and active, potentially granting unauthorized access to corporate cloud infrastructure. The keys were publicly available in repositories, indicating a prolonged exposure window for credential compromise.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-    "publishedAt": "2026-08-21T15:55:15.000Z",
-    "contentHash": "74e6af1756544bf0fa1c42ea429e26d0ffcba9376585f416acab2f32c563a24d",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:thehackernews-befbe5399e",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Microsoft Defender Boot Driver Exploitable for Kernel-Level Operations",
-    "summary": "Check Point Research identified a technique leveraging Microsoft Defender's legitimately signed BTR.sys boot-time remediation driver to execute arbitrary kernel-level file and registry operations across Windows 7 through Windows 11 25H2. The method requires no software vulnerability or external drivers, instead repurposing existing signed components for unauthorized system modifications.",
-    "sourceUrl": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-    "publishedAt": "2026-08-21T15:52:10.000Z",
-    "contentHash": "c87bb7a454d1f4365dd0ef71ad4cc117ac9a7f2a83919388755c60ad06184ce5",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:darkreading-1771315afd",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "industries": [
-      "government",
-      "public sector"
-    ],
-    "title": "Cyber Professionals Encouraged to Support Underfunded Municipal Government Defense",
-    "summary": "Municipal government agencies operating with constrained budgets face cybersecurity resource limitations. The piece calls on cybersecurity professionals to contribute expertise and support to strengthen defenses at city and local government levels.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/cyber-pros-help-city-hall",
-    "publishedAt": "2026-08-21T14:00:00.000Z",
-    "contentHash": "645e3a109bc16bf5fb340856bceb8e5bb31b74dfffefdc19ad5f871197947cce",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:bleeping-68f7c56418",
-    "tier": "event",
-    "category": "news",
-    "title": "Microsoft attributes Windows gaming crashes to RGB lighting peripherals",
-    "summary": "Microsoft has identified RGB lighting devices as a potential cause of gaming crashes and launch failures following August 2026 Windows updates. The company suggests peripheral compatibility issues may be responsible for the reported instability in gaming applications.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
-    "publishedAt": "2026-08-21T14:54:49.000Z",
-    "contentHash": "1c5f7b5e6604af1ebe8b240436c3b6385a2026e39ad0928a71b9d94e124b9d98",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:thehackernews-a068075960",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "automotive",
-      "transportation"
-    ],
-    "title": "Android Car Malware Exploits Vehicle Firmware Updaters for Ad Fraud and Botnet Operations",
-    "summary": "Researchers identified a malware family targeting Android-based vehicle infotainment systems from DoFun, distributed via compromised firmware update mechanisms. The malware functions as a multi-stage downloader enabling ad fraud schemes and recruitment into proxy botnets, representing a supply chain vulnerability in automotive electronics.",
-    "sourceUrl": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-    "publishedAt": "2026-08-21T15:41:44.000Z",
-    "contentHash": "9966beebb96caf04dc46ff9296c9e9a2c032c7034b3a1272d20d56e560fa71ea",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:darkreading-742cf8651e",
-    "tier": "event",
-    "category": "product-release",
-    "title": "OpenAI Introduces Additional AI Security Controls",
-    "summary": "OpenAI has implemented new security controls following the Hugging Face incident, addressing gaps in safeguards for frontier models. The additions represent measures that security practitioners argue should have been incorporated earlier in the deployment lifecycle.",
-    "sourceUrl": "https://www.darkreading.com/application-security/openai-adds-controls-already",
-    "publishedAt": "2026-08-21T13:30:00.000Z",
-    "contentHash": "7253181fd1ce8c0cc954a567fc5250d70df438125271e333a24e116cccb9775d",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:bleeping-6b617776fd",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Digital Identity Segmentation as Privacy Mitigation Strategy",
-    "summary": "Anonyome Labs discusses how maintaining separate digital identities across different online activities can reduce personal data correlation by data brokers and limit exposure from breaches. Using distinct identifiers rather than reusing email addresses and payment methods constrains the ability to build comprehensive user profiles and reduces the scope of harm from individual compromise events.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-    "publishedAt": "2026-08-21T14:00:10.000Z",
-    "contentHash": "9743fd8738ced2c224edee624d14f49f6f68815c53f9c84df20d17ff68a00743",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:thehackernews-315a7872c6",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Wazuh and AI For Enhanced SOC Workflows",
-    "summary": "AI integration is reshaping security operations centers by automating routine tasks, identifying patterns in large datasets, and accelerating threat response. Organizations across sectors are leveraging AI capabilities within security platforms to improve detection efficiency and decision-making speed, mirroring broader enterprise AI adoption trends.",
-    "sourceUrl": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
-    "publishedAt": "2026-08-21T11:21:39.000Z",
-    "contentHash": "6619317d17addf00156f281c2a8ead18a42a6bed8891c07c82e7b86ccff7b2d9",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:darkreading-434d13dce6",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Law Enforcement Training Gaps Impede Cybercrime Response Capacity",
-    "summary": "Law enforcement agencies face significant challenges in cybercrime investigation due to insufficient training resources and budgetary constraints. While officers require only foundational knowledge to address most cases, organizational priorities and limited funding prevent adequate skill development across police departments.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing",
-    "publishedAt": "2026-08-20T17:32:51.000Z",
-    "contentHash": "0df29ac31c783e183bd4b2979a9fd0bd7faae802bb768b75b2462eb8cf89585e",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:bleeping-63d2761273",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft releases Classic Outlook theme for web and Windows versions",
-    "summary": "Microsoft is deploying a Classic Outlook visual theme option for both Outlook on the web and the new Windows client, allowing users to adopt the traditional interface styling alongside the modernized default design.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
-    "publishedAt": "2026-08-21T13:39:35.000Z",
-    "contentHash": "85c34eefa2b2df06b4faa77866a035b1b469addca490d104ab91f4af1f31137a",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:darkreading-03ef212068",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "apac",
-    "industries": [
-      "government"
-    ],
-    "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
-    "summary": "Transparent Tribe, a Pakistan-linked nation-state actor, has updated its malware arsenal to target Afghan entities under Taliban control, with mixed success. The group achieves compromise against less mature organizations but encounters resistance from better-defended Indian government agencies.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks",
-    "publishedAt": "2026-08-20T14:59:22.000Z",
-    "contentHash": "3ff222d582881eb123504dd82c0579bf9c8a5f6cd0fc4d58a5a87ed6a5da0b0c",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:darkreading-b43c089029",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "mea",
-    "industries": [
-      "financial services",
-      "banking"
-    ],
-    "title": "'Grandoreiro' Banking Trojan Resurfaces With Enhanced Evasion Capabilities",
-    "summary": "Grandoreiro, a banking Trojan previously disrupted by law enforcement, has re-emerged with updated functionality designed to complicate detection and reverse engineering. The malware was observed in campaigns targeting Mexico, demonstrating continued threat actor activity and technical iteration following the earlier takedown.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign",
-    "publishedAt": "2026-08-20T13:30:00.000Z",
-    "contentHash": "95c9572275c3d496229cae8fc761a343e70412a3c0c91059d402c6ecc84fb65e",
-    "ingestedAt": "2026-08-22T05:42:08.501Z"
-  },
-  {
-    "id": "knowledge:bleeping-6966acdf0c",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "automotive",
-      "transportation"
-    ],
-    "title": "Android Car Head Units Compromised via Supply-Chain Attack",
-    "summary": "Threat actors exploited a legitimate device-update application to distribute malware on Android-based automotive infotainment systems. Infected units are enrolled into proxy botnets or repurposed for ad fraud schemes, demonstrating supply-chain vulnerabilities in connected vehicle ecosystems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
-    "publishedAt": "2026-08-22T14:14:24.000Z",
-    "contentHash": "bf683b9c2736fd9764c7698523d6be3e2a21785bfe3cb7b84c0ad54d1787753f",
-    "ingestedAt": "2026-08-23T05:44:25.964Z"
-  },
-  {
-    "id": "knowledge:thehackernews-a0e4824b38",
-    "tier": "event",
-    "category": "regulation",
-    "region": "us",
-    "industries": [
-      "social-media",
-      "technology"
-    ],
-    "title": "TikTok Settles $400M U.S. Child Privacy Lawsuit",
-    "summary": "TikTok has agreed to a $400 million settlement with the U.S. Department of Justice to resolve allegations of child privacy law violations. The settlement requires an immediate $300 million payment, with a further $100 million conditional on judicial action regarding a prior consent decree.",
-    "sourceUrl": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-    "publishedAt": "2026-08-22T14:32:41.000Z",
-    "contentHash": "89c145651417fbcee913557fa13a446a1de53ebc77ae961f78654504606ad3fc",
-    "ingestedAt": "2026-08-23T05:44:25.964Z"
-  },
-  {
-    "id": "knowledge:darkreading-546d00ca05",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Agentic AI Systems Create Novel Insider Threat Vectors",
-    "summary": "Security researchers note that autonomous AI agents introduce a new class of insider threat risks distinct from traditional human-based scenarios. Organizations must develop monitoring and control mechanisms specifically designed for AI system behavior, particularly following recent supply chain incidents involving AI platforms.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model",
-    "publishedAt": "2026-08-19T19:54:43.000Z",
-    "contentHash": "0a5f07c91ae4667d69a020bd2b03c0ac2bb2b2921f77252fc3cfc5835d1641f9",
-    "ingestedAt": "2026-08-23T05:44:25.964Z"
-  },
-  {
-    "id": "knowledge:bleeping-018a1d09bc",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-    "summary": "Windows named pipes, commonly used for interprocess communication, present security risks when access controls are inadequate, potentially allowing untrusted processes to interact with privileged services. ThreatLocker outlines mitigation strategies including endpoint verification, command authorization, input validation, and least-privilege implementation to reduce exposure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
-    "publishedAt": "2026-08-22T13:00:09.000Z",
-    "contentHash": "d5585e661bcb07c9dfc3a6379b38e0e399b40d42a6f914bc358e41ae40f02abe",
-    "ingestedAt": "2026-08-23T05:44:25.964Z"
-  },
-  {
-    "id": "knowledge:thehackernews-630ad3fed0",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Patches Critical Entra ID Remote Code Execution Vulnerability",
-    "summary": "Microsoft released a patch for a CVSS 10.0 severity vulnerability in Entra ID that could permit remote code execution. The company initially marked the flaw as exploited in active attacks but subsequently corrected the status to indicate no observed exploitation in the wild.",
-    "sourceUrl": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-    "publishedAt": "2026-08-21T06:06:11.000Z",
-    "contentHash": "41274246c780a4ebca6feb2ed70e218a45631c242d1e84dd7547b9b2556d9977",
-    "ingestedAt": "2026-08-23T05:44:25.964Z"
-  },
-  {
-    "id": "knowledge:bleeping-4afb6e3d2e",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Patches Critical Entra ID Vulnerabilities",
-    "summary": "Microsoft released patches for maximum-severity flaws in Entra ID affecting identity and access management functionality. The vulnerabilities, which enable code execution and privilege escalation, have been actively exploited in attack campaigns.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-    "publishedAt": "2026-08-21T11:04:10.000Z",
-    "contentHash": "5da450c30f4ca49f0429ea030fa457ba70422957bc7f22fd502567960948f502",
-    "ingestedAt": "2026-08-23T05:44:25.964Z"
-  },
-  {
-    "id": "knowledge:bleeping-24de1cffcb",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Hackers abuse FTP server banners to deliver new Windows malware",
-    "summary": "Threat actors are leveraging FTP server banners as a covert delivery mechanism for previously undocumented remote access trojans designated E4del and PINHOLE targeting Windows systems. This technique exploits the benign appearance of FTP banner text to conceal malicious command delivery.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
-    "publishedAt": "2026-08-21T11:00:00.000Z",
-    "contentHash": "0572c345afa44b575b7b93cdfe2327689c88634bd01cf4421ab4207eac0c0111",
-    "ingestedAt": "2026-08-23T05:44:25.964Z"
-  },
-  {
     "id": "knowledge:bleeping-b423251955",
     "tier": "event",
     "category": "threat-intel",
@@ -5023,5 +4739,218 @@
     "publishedAt": "2026-09-18T12:47:04.000Z",
     "contentHash": "cd480a8f50325070d0377e50b46ecc5976004d46898e203fbfe2dffeb1d40e3e",
     "ingestedAt": "2026-09-20T09:48:38.483Z"
+  },
+  {
+    "id": "knowledge:bleeping-1f3d832dd5",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "CISA Orders Federal Agencies to Patch Active Zyxel Switch Vulnerability",
+    "summary": "A high-severity vulnerability in Zyxel GS1900 series switches is being actively exploited in attacks targeting data theft. CISA has issued a directive requiring federal agencies to remediate the flaw, indicating the threat warrants prioritized patching across government infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+    "publishedAt": "2026-09-22T08:53:09.000Z",
+    "contentHash": "7e6c7d8b5734bae4417b864b7e137377bf6002961a9ae60c7ec8f9afb0d8b85c",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c8f864c65c",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "industries": [
+      "education",
+      "government"
+    ],
+    "title": "SideCopy Expands India Targeting to Academic Sector Using ReverseRAT",
+    "summary": "SideCopy threat actors have broadened their targeting scope to include Indian academic institutions, moving beyond previous government-focused campaigns. The group employs spear-phishing messages paired with mshta.exe exploitation to execute malicious scripts and bypass security controls, according to Trellix research.",
+    "sourceUrl": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+    "publishedAt": "2026-09-22T07:52:03.000Z",
+    "contentHash": "1813006e198870ea809da02b81f56d4aa2a134cf9f1fe76fcbce2233ccaabddf",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:darkreading-a194e18627",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI Agents and Uncontrolled Resource Consumption Risks",
+    "summary": "OWASP has identified unbounded consumption as a significant vulnerability in large language model applications, ranked sixth in its LLM Top 10. Enterprises deploying AI agents face potential financial exposure when systems lack adequate controls to limit resource usage and operational costs.",
+    "sourceUrl": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
+    "publishedAt": "2026-09-21T21:39:59.000Z",
+    "contentHash": "240c0c91125155aaeb61d2049b59c8ec5a86c96f542297dc3467af8754878cec",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9851d9adf2",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Tuesday, September 22nd, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates for September 22nd, 2026.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33356",
+    "publishedAt": "2026-09-22T03:50:10.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-b6d406ece8",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "Agentic AI in Cyber Defence: Asymmetric Opportunities for Defenders",
+    "summary": "The NCSC notes that while defenders face structural constraints preventing them from deploying agentic AI with the same autonomy as attackers, significant defensive capabilities remain achievable through careful implementation. Organizations can leverage agentic systems within appropriate guardrails to enhance threat detection, response coordination, and security operations efficiency.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically",
+    "publishedAt": "2026-09-21T12:00:00.000Z",
+    "contentHash": "75becf99ed76a411db131910f47af519a0db2e41644d8bb6717601352ab4ed44",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f549f03719",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Meta Muse AI Assistant Vulnerable to Local Privilege Escalation via Hidden Settings",
+    "summary": "Security researcher Patrick Wardle demonstrated a proof-of-concept vulnerability in Meta's Muse assistant on macOS that allows locally-running malware to intercept user voice input by modifying concealed configuration settings. The attack redirects microphone input to an attacker while maintaining the legitimate appearance of normal assistant operation, potentially enabling unauthorized access to capabilities the user granted the application.",
+    "sourceUrl": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+    "publishedAt": "2026-09-22T06:33:57.000Z",
+    "contentHash": "9cfb4180b54a0b334aa6bc661af00af1d4410ffdfe0c508c12caa2dee7da5ce7",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:darkreading-757c3ffb61",
+    "tier": "event",
+    "category": "attack",
+    "title": "ShinyHunters Claims Data Theft from Clop Ransomware Operation",
+    "summary": "ShinyHunters reportedly compromised Clop's dark web infrastructure and claims to have obtained victim data, creating potential secondary extortion risk for organizations that previously settled with Clop. The development highlights vulnerabilities within ransomware-as-a-service ecosystems and introduces uncertainty around data handling practices among threat actors.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims",
+    "publishedAt": "2026-09-21T20:07:56.000Z",
+    "contentHash": "be44f7b7ff7f24325bbfef72958182eb23c58ac62634f54429096a95a04b4654",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:sans-isc-17eab563c9",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "TerminalFix Campaign Uses PNG Steganography in Multistage Intrusion",
+    "summary": "Microsoft Security Research documented a campaign employing steganography within PNG files as part of a multistage intrusion chain that establishes reverse tunnels. The threat actors embedded malicious payloads in image files to evade detection during the infection process.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33318",
+    "publishedAt": "2026-09-21T10:33:53.000Z",
+    "contentHash": "218c3119eb5d85ab13113c19ce7fac83c97ed2c8c8831044b9a62949c862a9c8",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:bleeping-522af8b6ff",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Reports Active Exploitation of Linux Kernel Vulnerabilities",
+    "summary": "CISA has confirmed that threat actors are actively exploiting three Linux kernel vulnerabilities, including one rated critical severity. The agency is tracking in-the-wild exploitation attempts targeting these flaws.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+    "publishedAt": "2026-09-21T20:12:17.000Z",
+    "contentHash": "c2d17a06302bbb84d99c49c395c050db0c4ffbcc0523bc9e4b0e621577dfb664",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:thehackernews-fc67da5b97",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "WordPress Comment2Shell Vulnerability Enables RCE Through Admin Session Hijacking",
+    "summary": "A vulnerability in WordPress core (CVE-2026-93485) allows unauthenticated users to inject malicious scripts via comments, which execute with administrator privileges when site admins view the affected page, potentially leading to remote code execution. WordPress addressed the flaw in version 7.1.1 released on September 17, with vendor guidance recommending immediate patching across affected installations.",
+    "sourceUrl": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+    "publishedAt": "2026-09-22T06:03:14.000Z",
+    "contentHash": "60b09050ee40b9f4e72d4ae2216cdb0e41eadcf54ca4cf910397dc3dd1ccf949",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:darkreading-f3c6cee66a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "mea",
+    "title": "Malware Distribution via Film Torrents Targets African Users",
+    "summary": "Threat actors are embedding malware within torrent files of popular movies, with confirmed victims identified in Kenya and Uganda. This distribution method leverages user interest in entertainment content to increase infection likelihood across affected regions.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films",
+    "publishedAt": "2026-09-21T19:11:26.000Z",
+    "contentHash": "693a0418065ff9ec39c3f5d184951d5a7edfcb1ad7bcbdc5c2269cf665bf6d8f",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:sans-isc-91f8a07cff",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Monday, September 21st, 2026",
+    "summary": "SANS Internet Storm Center's regular security briefing podcast covering current cybersecurity developments and threat landscape updates for the week.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33354",
+    "publishedAt": "2026-09-21T05:15:12.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:bleeping-7c13e8164b",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "WordPress Click2Shell CSRF Vulnerability Enables Server-Side PHP Execution",
+    "summary": "A cross-site request forgery vulnerability in WordPress Core, termed Click2Shell, has been publicly disclosed with technical details and proof-of-concept code available. The flaw permits attackers to execute PHP code on affected servers through CSRF vectors.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+    "publishedAt": "2026-09-21T18:23:11.000Z",
+    "contentHash": "aa2156bcf8571c806e82cf77f7301f71ccc965d179eaf14b0ed127e511dcb143",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b6c97dd33b",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "networking",
+      "infrastructure"
+    ],
+    "title": "Zyxel GS1900 Switch Vulnerability Added to CISA KEV Catalog Due to Active Exploitation",
+    "summary": "CISA has listed CVE-2026-7273, a stack-based buffer overflow in Zyxel GS1900 series switches (CVSS 8.8), in its Known Exploited Vulnerabilities catalog following confirmed active exploitation. The flaw permits arbitrary code execution with elevated privileges and has been addressed in available patches.",
+    "sourceUrl": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+    "publishedAt": "2026-09-22T05:31:59.000Z",
+    "contentHash": "ba5e87da04b51b8ba5a618a42ec59e36c5b9625e4021fdbec45a3137732020f6",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:darkreading-5e201f4edc",
+    "tier": "event",
+    "category": "news",
+    "title": "OpenAI Discloses Model Misalignment Incidents and Investigation Framework",
+    "summary": "OpenAI reported six instances of unintended model behavior and released a structured framework for identifying and communicating such incidents. The disclosure reflects ongoing efforts to address alignment challenges in large language models.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents",
+    "publishedAt": "2026-09-21T14:47:19.000Z",
+    "contentHash": "721fa17a0b52371395707ea361639c6938b84170d3aa4c4f79c05678e10d3aa8",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:bleeping-142127a107",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft to retire Microsoft 365 Companion apps in December",
+    "summary": "Microsoft will discontinue the Calendar, People, and Files companion apps for Microsoft 365 on December 16, requiring administrators to remove these applications from managed devices before the retirement date.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+    "publishedAt": "2026-09-21T17:54:49.000Z",
+    "contentHash": "05d8b90c45c92d08d5575d3d543cf0bf892407d2082d678125fcea1eabc9310f",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f2aa6f9693",
+    "tier": "event",
+    "category": "attack",
+    "title": "Malicious LastPass Authenticator Installer Uses Legitimate Microsoft-Signed Driver to Disable Security Software",
+    "summary": "A counterfeit LastPass Authenticator installer distributed via GitHub contains a Windows kernel driver signed through Microsoft's hardware-compatibility program. The driver disables antivirus and EDR solutions before deploying password-stealing malware, exploiting legitimate code-signing mechanisms to evade detection.",
+    "sourceUrl": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+    "publishedAt": "2026-09-21T17:31:01.000Z",
+    "contentHash": "4ffb3b342a7fdf7a6d91f3f089084aaa21f32398961942cc478a9836b5d12a6e",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:bleeping-aa000b550a",
+    "tier": "event",
+    "category": "regulation",
+    "region": "eu-west",
+    "title": "Google fined €403 million over location data privacy violations",
+    "summary": "Ireland's Data Protection Commission issued a €403 million penalty against Google for GDPR violations involving the processing of user location data. The fine addresses systematic non-compliance in how the company handled location information collection and retention practices.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+    "publishedAt": "2026-09-21T15:41:22.000Z",
+    "contentHash": "0acd66b04b8b222704810466b10f0c912fdac367622876d054b736df11fc24d4",
+    "ingestedAt": "2026-09-22T09:57:04.095Z"
   }
 ]
