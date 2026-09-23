@@ -327,56 +327,6 @@
     "ingestedAt": "2026-07-26T07:45:37.764Z"
   },
   {
-    "id": "knowledge:bleeping-b423251955",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ToxicPanda Android Malware Expands Targeting and Command Capabilities",
-    "summary": "ToxicPanda, an Android malware variant, has been enhanced with additional functionality that leverages VPN permissions to circumvent Google Play protections. The updated version now targets 349 applications and supports 167 remote commands, representing a significant expansion of its operational scope.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
-    "publishedAt": "2026-08-23T14:23:46.000Z",
-    "contentHash": "5335176f18ff7865ac72e9373fd3495f7c1ac1118cca0a2be0cfcd0482dc9341",
-    "ingestedAt": "2026-08-24T05:52:49.923Z"
-  },
-  {
-    "id": "knowledge:darkreading-88260a5bdc",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "manufacturing",
-      "industrial",
-      "energy",
-      "infrastructure"
-    ],
-    "title": "Vulnerabilities in Time-Sensitive Networking Protocols Pose OT Security Risks",
-    "summary": "Research identifies security gaps in TSN (Time-Sensitive Networking) protocols used in industrial environments, demonstrating how unprotected implementations could enable attackers to disrupt or alter physical operations. The findings highlight a need for organizations deploying these emerging protocols to implement appropriate security controls.",
-    "sourceUrl": "https://www.darkreading.com/ics-ot-security/how-emerging-industrial-protocol-family-put-ot-at-risk",
-    "publishedAt": "2026-08-21T20:24:42.000Z",
-    "contentHash": "32cd5318b63ddebcc745a906594b6b9b49638d52e6bc4b4f3c56a74c3a76d878",
-    "ingestedAt": "2026-08-24T05:52:49.923Z"
-  },
-  {
-    "id": "knowledge:sans-isc-e879d9deb1",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ISC Stormcast For Monday, August 24th, 2026",
-    "summary": "SANS Internet Storm Center publishes daily cybersecurity briefings covering emerging threats, vulnerabilities, and security developments. The Stormcast podcast series provides analysis of current events relevant to defenders and security professionals.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33276",
-    "publishedAt": "2026-08-24T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-08-24T05:52:49.923Z"
-  },
-  {
-    "id": "knowledge:darkreading-24be7a4f11",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near",
-    "summary": "Hardware manufacturers are deploying post-quantum cryptographic implementations in response to anticipated threats from sufficiently advanced computing capabilities. The transition addresses the risk that current encryption standards may become vulnerable to future computational power, requiring proactive algorithm updates across the industry.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography",
-    "publishedAt": "2026-08-21T13:10:33.000Z",
-    "contentHash": "dffec746b01ee8ea203849e92a1a60f68fad143e9f5406f9707be36ef385c0c4",
-    "ingestedAt": "2026-08-24T05:52:49.923Z"
-  },
-  {
     "id": "knowledge:bleeping-7bfe97eb7d",
     "tier": "event",
     "category": "threat-intel",
@@ -4952,5 +4902,238 @@
     "publishedAt": "2026-09-21T15:41:22.000Z",
     "contentHash": "0acd66b04b8b222704810466b10f0c912fdac367622876d054b736df11fc24d4",
     "ingestedAt": "2026-09-22T09:57:04.095Z"
+  },
+  {
+    "id": "knowledge:cisa-27c5d6b018",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "manufacturing",
+      "industrial control systems"
+    ],
+    "title": "Siemens Industrial Edge Management Authentication Bypass Vulnerability",
+    "summary": "A critical authentication bypass vulnerability in Siemens Industrial Edge Management allows unauthenticated attackers to reset user credentials and perform account takeovers by circumventing email verification. The flaw affects Industrial Edge Management Cloud (all versions), Pro V1 (versions 1.14.9, 2.2.0, 2.6.0), and other variants. Siemens has released patched versions (V1.15.20, V2.2.2, V2.9.1) and recommends immediate updates; affected organizations can temporarily disable the password reset function as a mitigation.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "contentHash": "79b687f78586ccf46b3d4d648ed5458b7c02971da09eb851758bbccad1f1b977",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:bleeping-a1294697a9",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Ryuk Ransomware Operator Sentenced to Two Years in Prison",
+    "summary": "An Armenian national received a 24-month prison sentence for participating in Ryuk ransomware attacks targeting U.S. companies. The sentence includes three years of supervised release following incarceration.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+    "publishedAt": "2026-09-23T08:20:05.000Z",
+    "contentHash": "0f1c461c44b8c3294648386dd2bedb9fa7b328db981d35d96cd63c05ef564901",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:thehackernews-54af9eeed9",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "F5 Patches Critical BIG-IP APM Zero-Day Enabling Unauthenticated Remote Code Execution",
+    "summary": "F5 disclosed a critical vulnerability in BIG-IP Access Policy Manager affecting systems configured as OAuth authorization servers, allowing unauthenticated remote code execution. The flaw, tracked as CVE-2026-94127, is actively exploited in the wild. Engineering hotfixes have been released to remediate the issue.",
+    "sourceUrl": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+    "publishedAt": "2026-09-23T08:29:48.000Z",
+    "contentHash": "4836f677e3653ab2c984992b562b676ea953cfbef726355e1c9c18319dd4d938",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:darkreading-723fd7190d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "artificial intelligence",
+      "software"
+    ],
+    "title": "Chinese Users Leveraging Relay Infrastructure to Access US Frontier AI Models",
+    "summary": "Over 80,000 AI relay servers are being used to mask the identities of Chinese users accessing advanced large language models hosted in the US, potentially to facilitate model replication. The infrastructure allows circumvention of geographic restrictions and attribution controls designed to protect frontier AI development.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
+    "publishedAt": "2026-09-22T21:12:37.000Z",
+    "contentHash": "258459e6eaf8839b3608e58478669158b3781ffad6ff8225aba4dec6d591b325",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:sans-isc-d331675d39",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Wednesday, September 23rd, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments, threat landscape updates, and defensive security topics relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33362",
+    "publishedAt": "2026-09-23T02:40:13.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:cisa-e3c7e0e08a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "energy",
+      "transportation",
+      "water and wastewater"
+    ],
+    "title": "Cross-Site Scripting Vulnerability in OpenPLC Runtime v3",
+    "summary": "CISA disclosed a reflected XSS vulnerability (CVE-2026-88020, CVSS 6.1) in OpenPLC Runtime v3 affecting critical infrastructure sectors globally. An attacker could hijack operator sessions and manipulate programmable logic controllers. Autonomy Logic recommends upgrading to OpenPLC v4, as v3 is end-of-life and no longer patched.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "contentHash": "7c2459aafe6c0e2e41a9ea4451ed96de94daee89aef4e0ea69e41479a045eeb3",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:bleeping-e1f16ad60e",
+    "tier": "event",
+    "category": "attack",
+    "title": "F5 Releases Patches for BIG-IP APM Zero-Day Vulnerability",
+    "summary": "F5 has released security updates addressing a critical zero-day vulnerability in BIG-IP APM that has been actively exploited in remote code execution attacks. The vulnerability allows unauthenticated attackers to execute arbitrary code on affected systems. Organizations running vulnerable BIG-IP APM instances should prioritize applying the available patches.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+    "publishedAt": "2026-09-23T07:17:23.000Z",
+    "contentHash": "7ad39c0ad3b489cc7082bfe500ef78e81c87b252fd9a3272b93c7a01b9ceafc5",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:thehackernews-47e5a40f39",
+    "tier": "event",
+    "category": "attack",
+    "title": "Chinese Threat Actor Exploits Chrome-Windows Zero-Day Chain for CLEANGULP Malware Deployment",
+    "summary": "Chinese-linked threat actor UTA0565 has been observed exploiting a chain of zero-day vulnerabilities spanning Google Chrome and Microsoft Windows through fraudulent websites. The attacks, detected in early September 2026, leveraged multiple CVEs to achieve privilege escalation and deploy CLEANGULP malware.",
+    "sourceUrl": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+    "publishedAt": "2026-09-23T08:29:24.000Z",
+    "contentHash": "de134569f95142a56aeda7fbabcb988eef1552e4bb3b874f5d7d85922742208b",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:darkreading-c75e5a1826",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
+    "summary": "Microsoft executed a coordinated takedown operation against a phishing-as-a-service platform, seizing 50 websites and disabling over 150 domains used to target Microsoft 365 accounts. The action reflects law enforcement and platform security efforts to degrade infrastructure supporting credential theft campaigns.",
+    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
+    "publishedAt": "2026-09-22T20:02:02.000Z",
+    "contentHash": "c2a340cda8a2830ed24deb7aa61be1f80e9111155bc30656c88e1eee9236e62b",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:sans-isc-04580046f1",
+    "tier": "event",
+    "category": "attack",
+    "title": "Macfinger ClickFix Campaign Targets macOS Users",
+    "summary": "A campaign dubbed Macfinger leverages ClickFix-style social engineering to compromise macOS systems. The attack uses deceptive prompts mimicking legitimate system notifications to trick users into executing malicious commands, establishing unauthorized access on affected devices.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33360",
+    "publishedAt": "2026-09-23T00:55:11.000Z",
+    "contentHash": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:bleeping-907c082edb",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Rogue External MFA Providers Enable Password Theft During Login",
+    "summary": "Security researchers demonstrated an attack where adversaries with privileged access can register malicious external MFA providers to intercept and steal user credentials during authentication. The attack exploits trust in external MFA integrations to capture passwords at the point of login.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+    "publishedAt": "2026-09-22T21:45:45.000Z",
+    "contentHash": "04c93df030c8a8e9ca890895950246dc82f03d348ce76ccd0994b5eac9e5c070",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:thehackernews-cda8fee278",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Critical Next.js ImageResponse Vulnerability Enables Server Code Execution",
+    "summary": "A vulnerability in Next.js ImageResponse feature, used for generating social preview images, allows remote code execution when untrusted user-controlled input is passed into image generation. The flaw affects applications that incorporate attacker-controllable data, such as URL parameters, into ImageResponse calls. Vercel patched the issue in September 2024.",
+    "sourceUrl": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+    "publishedAt": "2026-09-23T07:04:40.000Z",
+    "contentHash": "dd11514c7287a9c6ad792020cbc542cecca09d84534213dafeeeb2f460d7e3d1",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:darkreading-5778eb9fbb",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "cybersecurity",
+      "software development"
+    ],
+    "title": "Shai-Hulud Attack Compromises CrowdSec GitHub Repositories via Stolen OAuth Token",
+    "summary": "Threat actors accessed 170 private repositories on CrowdSec's GitHub account by leveraging an OAuth token compromised during the TanStack npm supply chain incident. The token was stolen from a former employee's system, allowing unauthorized access to the cybersecurity firm's source code repositories.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
+    "publishedAt": "2026-09-22T17:32:49.000Z",
+    "contentHash": "ec0a4f47a890adbcf2c5802a95074dc5f5b661d780b089a9284f14d7c3ba0c72",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:sans-isc-35be19f206",
+    "tier": "event",
+    "category": "news",
+    "title": "HTTP QUERY Method Introduction for GET Requests with Body",
+    "summary": "A new HTTP QUERY method has been introduced to accommodate GET requests that include a message body, addressing a gap in HTTP standards where GET requests traditionally lack body content. The development aims to clarify handling of edge cases where GET requests need to transport additional data beyond URL parameters.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33358",
+    "publishedAt": "2026-09-22T19:06:15.000Z",
+    "contentHash": "7bb93df58fd0f440ab29da81c5581fabfc2ddcbfc32ea7118a415e9021a32d8c",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:bleeping-9a8c2d680a",
+    "tier": "event",
+    "category": "regulation",
+    "region": "eu-west",
+    "industries": [
+      "it services"
+    ],
+    "title": "Sweden Imposes Fine on Miljödata for Security Breach Affecting 2.2 Million",
+    "summary": "Sweden's data protection authority (IMY) levied a SEK 1.8 million fine against IT systems provider Miljödata following a breach in August 2025 that exposed personal data of 2.2 million individuals. The regulator cited inadequate security controls as the underlying cause of the incident.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
+    "publishedAt": "2026-09-22T21:40:37.000Z",
+    "contentHash": "f4235f3c682f496a9be2fcf64280d36bc67c2370ee95c78d21af6ca37662740a",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c2b107c39a",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "title": "ShinyHunters Claims FBI Data Breach Affecting Agents and Applicants",
+    "summary": "Cyber extortion group ShinyHunters has claimed responsibility for a breach of FBI systems, asserting they obtained sensitive data on current and former FBI agents as well as job applicants. The group disclosed the alleged compromise through a statement on dark web channels, though independent verification of the breach claim remains pending.",
+    "sourceUrl": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+    "publishedAt": "2026-09-23T05:30:09.000Z",
+    "contentHash": "3f5f5d824a5ad3bd4e7cea0f7e410ebc05436a55e46e9bec7d8ab94c90ea21b4",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:darkreading-7abddb0279",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI Safety Concerns Drive Industry-Wide Control and Security Reassessment",
+    "summary": "Rising incidents of AI misalignment are prompting organizations across sectors and governments to reassess their AI governance and security frameworks. The debate around AI safety mechanisms is shifting from theoretical concerns to practical implementation as enterprises seek greater oversight and control measures.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real",
+    "publishedAt": "2026-09-22T17:12:26.000Z",
+    "contentHash": "4223d23345b8c757a0717e41582467385882c50dee7aee03f1fa9434912de1bf",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
+  },
+  {
+    "id": "knowledge:cisa-2e43af6896",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy"
+    ],
+    "title": "Siemens WTV676 and WTV776 Denial of Service Vulnerability",
+    "summary": "Siemens WTV676 and WTV776 devices contain an input validation flaw (CVE-2026-89207) that allows unauthenticated remote attackers to trigger protection mode, disabling web-based remote access. CVSS score is 6.5 (medium). Siemens has released patched versions (3.94 for WTV676, 4.17 for WTV776) and recommends immediate updates alongside network segmentation controls.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "contentHash": "361e3949abe08ea73cf67afa4952d3b9ac1b2e512aa2fd7727aaf509bb2abcbd",
+    "ingestedAt": "2026-09-23T09:58:52.981Z"
   }
 ]
