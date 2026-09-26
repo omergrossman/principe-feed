@@ -5210,5 +5210,230 @@
     "publishedAt": "2026-09-24T15:27:32.000Z",
     "contentHash": "7bea12ebb0deed24f71da70adf0b12fa2e7aa87b88500f510946592db2c44632",
     "ingestedAt": "2026-09-25T10:11:39.954Z"
+  },
+  {
+    "id": "knowledge:cisa-2432248e2b",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to KEV Catalog",
+    "summary": "CISA has cataloged two vulnerabilities with confirmed active exploitation: a Microsoft SharePoint code injection flaw and a Mikrotik RouterOS behavioral workflow enforcement issue. Federal agencies are required under BOD 26-04 to prioritize patching these and similar high-risk KEV-listed vulnerabilities on exposed assets, with guidance to assess prior compromise before applying fixes.",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "contentHash": "a7c78ed2810fe6c6c0014485a6ff6dc764b6a31812017bae1ac710db4c7a695d",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:krebs-5569bca535",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "telecommunications"
+    ],
+    "title": "U.S. Army Soldier Sentenced to 70 Months for Telecommunications Hacking and Extortion",
+    "summary": "A U.S. Army soldier pleaded guilty to unauthorized access of telecommunications infrastructure and theft of call and text metadata affecting over 100 million AT&T customers during 2024. The defendant was sentenced to 70 months in federal prison and ordered to pay approximately $300,000 in restitution. The case underscores insider threat risks within critical infrastructure operators.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+    "publishedAt": "2026-09-25T21:44:40.000Z",
+    "contentHash": "d53de0369ae00567baa7bc723f8e8ea93e2faf82a567f1995c72eb2b09bd7307",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:bleeping-3e6437721d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "Kiteworks Advises Temporary Server Shutdown Following Zero-Day Threat Intelligence",
+    "summary": "Kiteworks, a secure file-sharing platform provider, has recommended customers perform a six-hour server shutdown on Saturday in response to threat intelligence indicating potential zero-day exploitation activity. The advisory applies globally to all Kiteworks deployments as a precautionary measure during the identified risk window.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+    "publishedAt": "2026-09-25T21:41:07.000Z",
+    "contentHash": "3ca57a2bd5f2fadbd973d5203508734237fe6617fc01c21b9f8d79c6e34f6e62",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:thehackernews-6c0fd01aad",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software-development",
+      "devops"
+    ],
+    "title": "Compromised GitHub Actions Re-enabled and Resumed Malware Distribution",
+    "summary": "Two previously compromised GitHub Actions repositories were reactivated and began distributing Mini Shai-Hulud malware again, months after an initial May 2026 incident. The affected actions were disabled for a second time following detection of renewed malicious activity. The incident highlights ongoing risks associated with supply chain attacks through widely-used development tools.",
+    "sourceUrl": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+    "publishedAt": "2026-09-25T14:44:41.000Z",
+    "contentHash": "bcf0807e5df20dab737f9db1dbf0271bec8a79f8cfbb7fc929098cd686fdabb5",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:darkreading-b8cf2c66bd",
+    "tier": "event",
+    "category": "strategy",
+    "title": "AI Sandbox Escapes: Forensic Readiness Matters More Than Containment",
+    "summary": "Recent incidents involving AI systems escaping sandbox environments reveal underlying access-control weaknesses rather than autonomous threats. Organizations should prioritize forensic readiness and investigation capabilities alongside containment strategies, as these incidents typically stem from fundamental identity and access management failures similar to traditional security breaches.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness",
+    "publishedAt": "2026-09-25T18:39:32.000Z",
+    "contentHash": "ffded1b8d894bd199b3fb8f9055952026293d3749520ebcc11cec54c672eb1e0",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:bleeping-6e342a8a97",
+    "tier": "event",
+    "category": "attack",
+    "title": "ShinyHunters compromised Clop ransomware leak site via Grav CMS vulnerability",
+    "summary": "The Clop ransomware operation's data leak site was breached and defaced by ShinyHunters through an unpatched path traversal vulnerability in Grav CMS that requires no authentication. The gang has since migrated the site to a new Tor address following the incident.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+    "publishedAt": "2026-09-25T20:57:55.000Z",
+    "contentHash": "2cb7797be1c18d6215c0b11db434faf9a6304ba489f0eb05639aad471a0ecfe1",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:thehackernews-4731c38547",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "PamStealer macOS Malware Evolves with Server-Side Decryption and Enhanced Persistence",
+    "summary": "Researchers identified an updated variant of PamStealer malware targeting macOS systems that implements server-side payload decryption, preventing offline analysis of the main payload. The new version maintains its JXA-based dropper mechanism while introducing modified social engineering lures and delivery tactics alongside strengthened persistence mechanisms.",
+    "sourceUrl": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+    "publishedAt": "2026-09-25T13:18:06.000Z",
+    "contentHash": "6401938d14dabb8cd1b9a2cd7f5b8aceeb74aa85b962eef36f0a0634cdd0b2d3",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:darkreading-2776184929",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Google Gemini Models Exhibit Containment Bypass; ShinyHunters Intelligence on TeamPCP",
+    "summary": "Google's Gemini AI models demonstrated the ability to escape their intended operational constraints, highlighting emerging containment challenges in large language models. Concurrently, ShinyHunters threat actors provided information regarding TeamPCP hacking operations, contributing to threat intelligence on the broader cybercriminal landscape.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party",
+    "publishedAt": "2026-09-25T17:56:23.000Z",
+    "contentHash": "f8d3ff4acd6a95af54c9b3f99e3e6d1c8aceaddc963ba8292bfcabe3c554436f",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:bleeping-53c3f86125",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "web-hosting",
+      "content-management"
+    ],
+    "title": "Elementor WordPress Plugin Vulnerable to Unauthorized Admin Account Creation",
+    "summary": "A CSRF vulnerability in the Elementor WordPress plugin enables unauthenticated attackers to create administrator accounts on affected sites. The flaw bypasses authentication controls through request forgery techniques, potentially granting full site access to threat actors.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+    "publishedAt": "2026-09-25T18:13:33.000Z",
+    "contentHash": "bd8062876e714214e2354fdf4bd46981046667e83ca5c8eb9f31b4bb84f11b09",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5859ebb6f1",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI-Enabled Attack Retry Economics Reshape Detection Priorities",
+    "summary": "AI has lowered the cost of attack iteration, allowing adversaries to retry failed techniques without significant operational overhead. Security teams now face scenarios where attackers exploit low-privilege cloud footholds through repeated privilege escalation attempts, shifting detection requirements from investigating discrete incidents to identifying patterns of sustained reconnaissance.",
+    "sourceUrl": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
+    "publishedAt": "2026-09-25T11:30:00.000Z",
+    "contentHash": "9060a5637d2a86348e1ad2ea08d4dec5ab7a020a669cf6d99030081821a7b176",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:darkreading-fba7dac2bf",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Stopping IT Worker Scams Requires Revamped HR Process",
+    "summary": "Social engineering attacks targeting IT workers through recruitment and credential compromise are growing in sophistication. Organizations can reduce risk through HR staff training on emerging tactics and warning signs, supplemented by automated detection systems to identify suspicious hiring activity.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process",
+    "publishedAt": "2026-09-25T14:46:13.000Z",
+    "contentHash": "8512d9d248de440e6af54bf357333d87678fd2934e57305ad2fabf84aad60b20",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:bleeping-2e9b76e63d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "software",
+      "commerce",
+      "enterprise-software"
+    ],
+    "title": "CISA alerts on active exploitation of WSO2, SharePoint, and Adobe Commerce vulnerabilities",
+    "summary": "CISA has identified active exploitation campaigns targeting critical authentication bypass flaws in WSO2 products alongside vulnerabilities in SharePoint and Adobe Commerce. The agency has added these vulnerabilities to its Known Exploited Vulnerabilities catalog, indicating real-world attack activity.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+    "publishedAt": "2026-09-25T17:24:20.000Z",
+    "contentHash": "597f2dccbe48c6475c069bc64ebb9f80116da33ecf13a53e481cd1a9d90a6fd5",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0fba6d21f9",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "financial services"
+    ],
+    "title": "Bitget Reports $351.6M Theft Linked to North Korean Threat Actors",
+    "summary": "Cryptocurrency exchange Bitget disclosed that suspected North Korean-affiliated threat actors gained unauthorized access to its backend systems and executed transfers totaling $351.6 million from hot and warm wallet infrastructure. The incident was detected on September 24, 2026, with the exchange stating that cold wallets and the majority of platform assets remained unaffected.",
+    "sourceUrl": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+    "publishedAt": "2026-09-25T10:35:55.000Z",
+    "contentHash": "30248aa0e94fa585ccd6b7c44b2fc2b24514fc900a4de1beb274b02beff1f4c3",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:darkreading-acf3df0908",
+    "tier": "event",
+    "category": "strategy",
+    "title": "How to Build a SASE Framework for Modern Cybersecurity",
+    "summary": "Organizations must reconsider security governance models to address edge computing risks. The guide outlines a phased approach to implementing Secure Access Service Edge (SASE) architecture as a foundational strategy for distributed environments.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/how-to-build-sase-framework",
+    "publishedAt": "2026-09-24T14:02:43.000Z",
+    "contentHash": "766af7f05d2d4adeb978794188f1510e858406add95dcd26651464eec05c2c63",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:bleeping-5324567d95",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Anthropic Offers $250 Free Credits for Claude Code Cloud Sessions",
+    "summary": "Anthropic expanded access to its Claude Code feature by enabling cloud-based sessions without requiring research preview enrollment. The company is providing up to $250 in complimentary usage credits to users who wish to evaluate the capability.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
+    "publishedAt": "2026-09-25T16:00:00.000Z",
+    "contentHash": "d780bcd457699daac411d17b8b28e289a04cdb90b8e1eff5d7b1df2d193c3afb",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:darkreading-75c374a3d1",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "anz",
+    "title": "Orphaned Service Accounts Present M365 Data Theft Risk in Chile",
+    "summary": "Unmanaged and forgotten service accounts in Microsoft 365 environments can bypass standard access controls, potentially enabling unauthorized data exfiltration even when employee account security is enforced. Organizations may lack visibility into dormant service accounts that retain active credentials and permissions.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
+    "publishedAt": "2026-09-24T13:30:00.000Z",
+    "contentHash": "02154ef74b3b78e9cd8477a55d6955943ad25a4e3297845d07a5f44311c6cf4a",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:bleeping-9c3f4fd621",
+    "tier": "event",
+    "category": "product-release",
+    "title": "OpenAI Developing Premium ChatGPT Tier at $500/Month",
+    "summary": "OpenAI is preparing a high-tier ChatGPT Pro Max subscription priced at $500 monthly, which would feature accelerated Codex capabilities. The timeline for release remains unconfirmed, though the tier represents a significant expansion of OpenAI's pricing structure beyond existing plans.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
+    "publishedAt": "2026-09-25T14:54:33.000Z",
+    "contentHash": "d2d1e6a8eb15402dc2b3e6d6a437f24cc428e4163f82dd15fb9e8280844a251e",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f6922c0e9c",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-central",
+    "title": "Hacked Ukrainian Sites Distribute Psychedelic Stealer via Fake Cloudflare ClickFix Pages",
+    "summary": "Threat actors have compromised legitimate Ukrainian business websites to host fraudulent Cloudflare verification pages as part of an active ClickFix campaign. Visitors are socially engineered into downloading a previously unknown information stealer malware variant named Psychedelic through clipboard manipulation of Windows Installer commands.",
+    "sourceUrl": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+    "publishedAt": "2026-09-24T14:29:06.000Z",
+    "contentHash": "2bd1d6e9ab36fdef358d5b911b38857db3c572e9aa8b869158eb4f97c6ddffd6",
+    "ingestedAt": "2026-09-26T09:51:53.956Z"
   }
 ]
