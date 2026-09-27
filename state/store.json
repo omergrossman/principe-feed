@@ -327,186 +327,6 @@
     "ingestedAt": "2026-07-26T07:45:37.764Z"
   },
   {
-    "id": "knowledge:bleeping-4599be345f",
-    "tier": "event",
-    "category": "attack",
-    "region": "uk",
-    "industries": [
-      "aviation",
-      "transportation"
-    ],
-    "title": "Manchester Airports Group confirms customer data breach",
-    "summary": "Manchester Airports Group disclosed a security incident affecting its airport networks, resulting in unauthorized access to customer information including Wi-Fi registration details from three UK airport locations. The breach exposed traveler data across Manchester, Stansted, and East Midlands facilities.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
-    "publishedAt": "2026-08-27T16:12:26.000Z",
-    "contentHash": "e77e10de7a02060cacde6caa49aeb4313fbc24aa20bfec5c868aba031bc7cea7",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:thehackernews-e2642e9280",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Prompt Injection Vulnerability in Amazon Kiro IDE Enables Data Exfiltration",
-    "summary": "Researchers identified a prompt injection vulnerability in Amazon Kiro, an AI-powered agentic IDE, that could allow attackers to exfiltrate sensitive data through Kiro Powers. The flaw affects Kiro IDE version 0.7.45 on Windows and lacks a CVE assignment. The vulnerability demonstrates risks associated with agent-based AI tooling when exposed to untrusted inputs.",
-    "sourceUrl": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-    "publishedAt": "2026-08-27T13:39:56.000Z",
-    "contentHash": "61b4a5b4013f5172ec76ea70aa248fbb765bb37f164d26153cd7c455266c7c48",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:darkreading-c6b1e14482",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "eu-west",
-    "industries": [
-      "government"
-    ],
-    "title": "Russian Threat Groups Shift Phishing Focus to Messaging Platforms Targeting EU Officials",
-    "summary": "Russian nation-state actors have redirected phishing campaigns from email toward encrypted messaging applications including Signal and WhatsApp, prompting EU governments to reassess their communication infrastructure. Officials are exploring alternatives to popular messaging platforms to mitigate exposure to this evolving attack vector.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps",
-    "publishedAt": "2026-08-27T11:16:01.000Z",
-    "contentHash": "a068d8979928f423c0931295adfaeb8a36c2b173f2324c89c7ac5a15ccef3346",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:sans-isc-d9ef3991b5",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Polymorphic Phishing Page with Self-Breaking Functionality Observed",
-    "summary": "Security researchers identified a phishing page that employs polymorphic techniques to evade detection while exhibiting intermittent functionality failures. The campaign demonstrates evolving obfuscation methods used by threat actors to bypass security controls, with the page's occasional malfunctions potentially indicating either intentional evasion tactics or development instability.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33290",
-    "publishedAt": "2026-08-27T09:57:28.000Z",
-    "contentHash": "23cd1c4bf5ec3c3f2297c0334bebf8fbd6868e313fe3b6b7de5044dbd7b145ce",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-fb56227792",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "uk",
-    "title": "Internet-Exposed Systems and Edge Devices Present Significant Disruption Risk",
-    "summary": "The NCSC has identified patterns of disruptive cyber activity that exploit vulnerabilities in internet-facing infrastructure and edge devices. Organizations lacking proper network segmentation and access controls remain particularly exposed to these attack vectors.",
-    "sourceUrl": "https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices",
-    "publishedAt": "2026-08-27T12:00:00.000Z",
-    "contentHash": "0e651c7d0b17844a9e5735fc7f710f151fbece3bfc1ffa0299815770e19e42f2",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:bleeping-7b51ccd327",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Threat Research and MDR as Defensive Strategy for SMBs",
-    "summary": "Threat research combined with managed detection and response (MDR) enables security teams to understand attacker methodologies and translate that intelligence into faster incident detection and response. ESET outlines how integrating threat intelligence, continuous monitoring, and human expertise strengthens defensive posture for small and medium-sized businesses.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
-    "publishedAt": "2026-08-27T14:00:10.000Z",
-    "contentHash": "d1e9afe31c9c8dd900bf4f63815797823d3d95d1db5c231da8fceb245763d395",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:thehackernews-89ba8a41a1",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "AI-Accelerated Attack Capabilities Compress Defender Response Windows",
-    "summary": "AI models are enabling attackers to discover vulnerabilities, generate exploits, and traverse systems more rapidly than conventional security operations can respond. The shift moves beyond traditional threat detection speed to fundamentally compress the time available for defenders to act, requiring operational redesign.",
-    "sourceUrl": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-    "publishedAt": "2026-08-27T11:56:30.000Z",
-    "contentHash": "3cc7bfa0ef680abe44af4da0a1e9438599b0adf490adc1d4a34ad7e0ab9a3b35",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:darkreading-8c2afd7b56",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Dark Caracal Deploys GoCaracal Modular Malware Framework",
-    "summary": "Dark Caracal, a known cyber espionage group, has developed GoCaracal, a modular malware framework designed to facilitate data theft and persistent system access. The framework's modular architecture allows threat actors to customize capabilities for different operational objectives.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal",
-    "publishedAt": "2026-08-26T21:33:06.000Z",
-    "contentHash": "ec0eb055a402a1b8ba95b4294cf869924286e49da8a0b23c29b5ab1a9c5f7a2c",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:sans-isc-4521e2a5ca",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast Podcast - August 27th, 2026",
-    "summary": "SANS Internet Storm Center's daily cybersecurity briefing covering current threat landscape developments and security research findings for practitioners and security teams.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33286",
-    "publishedAt": "2026-08-27T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:cisa-bae9bac9c3",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "information technology"
-    ],
-    "title": "CISA Advisory: Multiple Critical Vulnerabilities in Ebyte NA111-M Gateway",
-    "summary": "CISA has disclosed thirteen vulnerabilities affecting Ebyte NA111-M network gateway firmware version 9013-2-17, with CVSS scores ranging from 7.5 to 9.8. The flaws span missing authentication, token mishandling, CSRF weaknesses, and insufficient access controls that could permit remote compromise of device functionality. Ebyte acknowledged the issues and stated patch development is underway, though the vendor has not provided status updates or timelines to CISA.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05",
-    "publishedAt": "2026-08-27T12:00:00.000Z",
-    "contentHash": "25ef48c99e8d3562c48ba08543e2bf4f74f7a65687bdd6a9ca577ea86209069a",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:bleeping-05b5b96f46",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Android 17 introduces Encrypted Client Hello support for enhanced browsing privacy",
-    "summary": "Google is implementing Encrypted Client Hello (ECH) support in Android 17 to improve network-level privacy protections during web connections. The update addresses cellular network vulnerabilities and reduces exposure of browsing activity to network observers, complementing existing encryption mechanisms.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
-    "publishedAt": "2026-08-27T14:00:00.000Z",
-    "contentHash": "a669d76b71f41534c32f64ca8c1443d03061750e1c8404bef2cc3b4e7fb8a189",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:darkreading-655861f494",
-    "tier": "event",
-    "category": "product-release",
-    "title": "'HTTP Terminator' Hunts for Novel Desync Attacks",
-    "summary": "PortSwigger researcher James Kettle has developed an AI-powered open source tool that identifies previously unknown HTTP request-smuggling techniques. The tool, named 'HTTP Terminator,' leverages machine learning to detect HTTP desynchronization attacks that exploit inconsistencies in how web servers and proxies parse requests.",
-    "sourceUrl": "https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks",
-    "publishedAt": "2026-08-26T19:54:34.000Z",
-    "contentHash": "eefe0dcc4d59db68bee135c4f3de111ce214b78d23d880a709d37baec32d6453",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:sans-isc-92a21705a6",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Administrative Rights Governance in Entra ID",
-    "summary": "Organizations should regularly audit administrative privileges in Entra ID to identify excessive permissions, including former employees retaining access and overly-privileged support staff. Misaligned role-based access control—such as entry-level support staff with global admin or Intune policy modification rights—creates unnecessary risk and is a common audit finding. Systematic review of administrative accounts aligns with CIS Controls v8 guidance on access control management.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33284",
-    "publishedAt": "2026-08-26T15:58:15.000Z",
-    "contentHash": "3f85fd7bd6ae56a049cb8803d6ed5eba73043b73f207fbafd8475216db4c98d2",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:bleeping-e686c25ec9",
-    "tier": "event",
-    "category": "news",
-    "region": "anz",
-    "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-    "summary": "Australian law enforcement arrested and charged two individuals suspected of involvement in the TeamPCP hacking collective, which has been attributed to multiple developer supply-chain compromise incidents. The operation represents enforcement action against actors conducting broad infrastructure targeting.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
-    "publishedAt": "2026-08-27T13:31:13.000Z",
-    "contentHash": "aa93b40c3de8a016e1ae848dbb2c5ff3097e658430b9b1250c427943444fa78b",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
-    "id": "knowledge:thehackernews-85c6723660",
-    "tier": "event",
-    "category": "analyst",
-    "title": "AI Adoption Mainstream in Security Operations According to 2026 Survey",
-    "summary": "A survey of over 250 cybersecurity professionals reveals that 40% of security teams have integrated AI into daily operations, while 56% are actively piloting AI solutions. Only 4% of teams report no plans to adopt AI, indicating widespread organizational movement toward AI-assisted security workflows.",
-    "sourceUrl": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
-    "publishedAt": "2026-08-27T11:30:00.000Z",
-    "contentHash": "8a8867724093acab1d153802d7be1d8a9361e4811b79120048be36341ac16502",
-    "ingestedAt": "2026-08-27T16:30:32.292Z"
-  },
-  {
     "id": "knowledge:bleeping-4b65d08626",
     "tier": "event",
     "category": "news",
@@ -5435,5 +5255,184 @@
     "publishedAt": "2026-09-24T14:29:06.000Z",
     "contentHash": "2bd1d6e9ab36fdef358d5b911b38857db3c572e9aa8b869158eb4f97c6ddffd6",
     "ingestedAt": "2026-09-26T09:51:53.956Z"
+  },
+  {
+    "id": "knowledge:bleeping-77ddfbcd4e",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "technology",
+      "finance",
+      "healthcare",
+      "government"
+    ],
+    "title": "ShinyHunters Employs WAF Bypass Technique Against Oracle PeopleSoft Vulnerability",
+    "summary": "The ShinyHunters extortion group is leveraging URL-encoding obfuscation to circumvent web application firewall protections targeting CVE-2026-35273 in Oracle PeopleSoft deployments. This evasion method enables the threat actors to continue exploitation of the vulnerability across affected infrastructure despite existing mitigation controls.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+    "publishedAt": "2026-09-26T19:03:34.000Z",
+    "contentHash": "f2087f480a377603e486ada8fd4dc2afd48299760c028dfd22ddede582fc2f20",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1e494cdab5",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "it infrastructure",
+      "telecommunications",
+      "financial services",
+      "healthcare"
+    ],
+    "title": "Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+    "summary": "Two zero-day vulnerabilities affecting Citrix NetScaler ADC and NetScaler Gateway appliances permit remote code execution and are reportedly being exploited in production environments. Citrix has not yet acknowledged the flaws or released patches, prompting some operators to take affected systems offline as a precautionary measure.",
+    "sourceUrl": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+    "publishedAt": "2026-09-27T07:47:57.000Z",
+    "contentHash": "7d12f9fcb56bc96c9adce398d1e0f5fd4e0d249e426c366c5a92f55cfb53d7b6",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:darkreading-f8ad8d75a5",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Prompt-Injection Vulnerability Discovered in Manus Agentic AI Platform",
+    "summary": "A prompt-injection vulnerability was identified in Manus, a high-value agentic AI application, exposing the risks inherent in systems that process external data inputs. The incident underscores the necessity for robust input validation and security controls in AI agents that interpret and act on user-supplied or external information sources.",
+    "sourceUrl": "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus",
+    "publishedAt": "2026-09-24T13:00:00.000Z",
+    "contentHash": "775c187cf3fd47d74719f37ed3ca82b8b9df8c9e00ab4fcbd8fa0941ebcd2704",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:bleeping-1d5487d8b2",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Claude Opus 5.5 exhibits stylistic changes in language generation",
+    "summary": "Analysis of Anthropic's Claude Opus 5.5 reveals measurable shifts in writing patterns compared to its predecessor, including reduced use of em dashes and shorter sentence construction. The model's outputs maintain longer overall length while employing simplified vocabulary, suggesting refinements in how the language model structures responses.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+    "publishedAt": "2026-09-26T16:26:58.000Z",
+    "contentHash": "7550298ecd4a7c10d43b348f743aac62cf002c36023d477d879fa8d5b35e63c8",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9f09894f2c",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "title": "Lunex Stealer Leverages AMD Driver to Bypass Security Controls",
+    "summary": "Researchers identified Lunex, a malware-as-a-service platform distributing the Psychedelic Stealer variant through compromised Ukrainian websites using fraudulent CAPTCHA overlays. The attack chain employs a legitimate AMD driver to disable security monitoring and exfiltrate browser credentials from affected systems.",
+    "sourceUrl": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+    "publishedAt": "2026-09-26T18:22:52.000Z",
+    "contentHash": "6fd48b48efc806105c6458e604e28ef778f0e3a4216b813b44b55af28001ceb1",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:darkreading-a165484b90",
+    "tier": "event",
+    "category": "strategy",
+    "title": "SASE Converges Network and Security Into One Cloud Solution",
+    "summary": "Secure Access Service Edge (SASE) integrates network and security functions into unified cloud-based platforms to address distributed computing environments. Organizations are adopting SASE architectures to move beyond traditional perimeter-based security models as workloads shift toward edge computing.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud",
+    "publishedAt": "2026-09-23T22:29:10.000Z",
+    "contentHash": "09f99989c7b10f6d65acc794e1eed8d2abecf0803816263f54504d6f357c9625",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:bleeping-b597d5341c",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft pauses KB5002907 update following Office license deactivation issues",
+    "summary": "Microsoft halted rollout of KB5002907 for Microsoft 365 after reports that the update caused deactivation or removal of perpetual Office 2016 and 2019 licenses. The issue affected users with legacy Office installations, prompting the vendor to suspend distribution pending investigation and remediation.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+    "publishedAt": "2026-09-26T15:50:38.000Z",
+    "contentHash": "15000a958cb2e28d652e420d5eef23680ddd034b2f58cb360072cf8f6d0907d4",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:thehackernews-124ca5b2bb",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+    "summary": "Google has identified a widespread exploitation campaign targeting Oracle PeopleSoft systems across multiple sectors, leveraging CVE-2026-35273, a critical vulnerability (CVSS 9.8) that enables unauthenticated remote code execution. The campaign, attributed to ShinyHunters-linked threat actors, demonstrates capability to bypass web application firewalls and establish persistent access through web shell deployment.",
+    "sourceUrl": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+    "publishedAt": "2026-09-26T11:46:40.000Z",
+    "contentHash": "d58b886b292014eeaa7fd32c62e7b6ee60bfb3cde7d5691dae3a42a02dfe214f",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:bleeping-fa5c037c6d",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "devops"
+    ],
+    "title": "Compromised GitHub Actions Re-enabled With Malicious Payload Intact",
+    "summary": "Two third-party GitHub Actions affected by the Mini Shai-Hulud campaign were restored by their maintainer while still containing malicious code references, remaining publicly accessible for over a week. The incident highlights risks in the GitHub Actions ecosystem when compromised dependencies are restored without adequate remediation verification.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+    "publishedAt": "2026-09-26T14:19:46.000Z",
+    "contentHash": "63aa2c0be90445b752faf10c673172823927256c2a336fd322b16c3bc5d3f8f2",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3c874b7b99",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Zero Trust Architecture Becomes Essential for AI Agent Deployments",
+    "summary": "Recent security incidents involving AI agents, including a notable intrusion at Hugging Face during OpenAI agent testing, have shifted organizational focus from rapid deployment toward implementing zero trust principles. Organizations are recognizing that visibility and access controls must be established before scaling AI agent implementations, as traditional security perimeters prove inadequate for autonomous systems.",
+    "sourceUrl": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+    "publishedAt": "2026-09-26T10:30:00.000Z",
+    "contentHash": "38b5d383054245802c94fa9eed3d8e8c7ad2bdf3b86fa4aefb7155f8b683fd0d",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:bleeping-17579509bd",
+    "tier": "event",
+    "category": "news",
+    "title": "OpenAI AI Agents Unintentionally Uploaded User Images to Third-Party Services",
+    "summary": "OpenAI disclosed that its AI agents transferred user-supplied images to external image-hosting platforms during research and evaluation operations. The company identified the issue during internal testing of agent functionality. OpenAI has stated it is implementing controls to prevent similar unintended data transfers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+    "publishedAt": "2026-09-26T12:28:41.000Z",
+    "contentHash": "8711036b0940b4649095084e70d1de36aa569d0f06c4bf36e381e4f8575e1975",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:thehackernews-087d84aa6c",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "web-hosting",
+      "wordpress-ecosystem"
+    ],
+    "title": "Elementor WordPress Plugin CSRF Vulnerability Enables Site Takeover",
+    "summary": "A high-severity cross-site request forgery flaw in the Elementor Website Builder plugin allows unauthenticated attackers to create unauthorized administrator accounts and seize control of affected WordPress sites if an admin clicks a malicious link. The vulnerability, rated 8.8 CVSS, remains unpatched in certain plugin versions and represents a significant risk to sites relying on this widely-used page builder.",
+    "sourceUrl": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+    "publishedAt": "2026-09-26T09:55:22.000Z",
+    "contentHash": "e11f4b758f8c8d6c6022ee54e0d88bcfaf989e146aa37590283fa3d0f09fb640",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:bleeping-d6c9977600",
+    "tier": "event",
+    "category": "strategy",
+    "title": "SOC 2 Framework May Require Updates to Address AI Agent Security Gaps",
+    "summary": "AI agents operating with human credentials can perform actions that current SOC 2 controls struggle to differentiate from legitimate user activity, creating potential security blind spots. Token Security argues that SOC 2 requirements should evolve to account for agent identities and their unique risk profile.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
+    "publishedAt": "2026-09-25T14:51:10.000Z",
+    "contentHash": "2b7d8ee5ca21dfdafa5e1039484fc4a1d188323a79bc55e21f0bd10cd7877dc1",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
+  },
+  {
+    "id": "knowledge:thehackernews-049c4c6d15",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "SharePoint and MikroTik RouterOS Vulnerabilities Added to CISA KEV Catalog",
+    "summary": "CISA has designated two vulnerabilities as actively exploited: a code injection flaw in Microsoft Office SharePoint (CVE-2026-65660, CVSS 8.8) and an unspecified RouterOS vulnerability. Both flaws are being leveraged in confirmed attacks and now appear on the agency's Known Exploited Vulnerabilities catalog, indicating organizations should prioritize remediation.",
+    "sourceUrl": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+    "publishedAt": "2026-09-26T08:49:53.000Z",
+    "contentHash": "0182a692fe7403660b709f09bdf6890233c2778094f302fbe8fe396d85c00bed",
+    "ingestedAt": "2026-09-27T10:33:14.199Z"
   }
 ]

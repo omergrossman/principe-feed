@@ -1,11 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/": "2026-06-29T09:59:08.812Z",
-  "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html": "2026-06-29T09:59:08.812Z",
-  "https://isc.sans.edu/diary/rss/33108": "2026-06-29T09:59:08.812Z",
-  "https://thehackernews.com/2026/06/public-poc-released-for-critical.html": "2026-06-29T09:59:08.812Z",
-  "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html": "2026-06-29T09:59:08.812Z",
-  "https://www.cisa.gov/news-events/news/five-eyes-cyber-security-agencies-statement": "2026-06-29T09:59:08.812Z",
-  "https://www.philvenables.com/post/sorry-cyber-you-aren-t-the-only-ones-saving-the-company-from-itself": "2026-06-29T09:59:08.812Z",
   "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog": "2026-06-30T08:37:41.797Z",
   "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/": "2026-06-30T08:37:41.797Z",
   "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html": "2026-06-30T08:37:41.797Z",
@@ -1304,5 +1297,20 @@
   "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html": "2026-09-26T09:51:53.956Z",
   "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile": "2026-09-26T09:51:53.956Z",
   "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/": "2026-09-26T09:51:53.956Z",
-  "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html": "2026-09-26T09:51:53.956Z"
+  "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html": "2026-09-26T09:51:53.956Z",
+  "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/": "2026-09-27T10:33:14.199Z",
+  "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html": "2026-09-27T10:33:14.199Z",
+  "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus": "2026-09-27T10:33:14.199Z",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/": "2026-09-27T10:33:14.199Z",
+  "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html": "2026-09-27T10:33:14.199Z",
+  "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud": "2026-09-27T10:33:14.199Z",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/": "2026-09-27T10:33:14.199Z",
+  "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html": "2026-09-27T10:33:14.199Z",
+  "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/": "2026-09-27T10:33:14.199Z",
+  "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html": "2026-09-27T10:33:14.199Z",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/": "2026-09-27T10:33:14.199Z",
+  "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html": "2026-09-27T10:33:14.199Z",
+  "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/": "2026-09-27T10:33:14.199Z",
+  "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html": "2026-09-27T10:33:14.199Z",
+  "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html": "2026-09-27T10:33:14.199Z"
 }
