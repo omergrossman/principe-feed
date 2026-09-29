@@ -76,7 +76,7 @@
   "knowledge/manual-ce4cc7693d2a.md": {
     "region": "us",
     "category": "strategy",
-    "publishedAt": "2026-06-30T08:38:12.059Z"
+    "publishedAt": "2026-09-29T11:22:19.150Z"
   },
   "knowledge/manual-4ae9d38a8491.md": {
     "category": "threat-intel",
@@ -118,22 +118,6 @@
   "knowledge/manual-d82f2c273fdb.md": {
     "category": "strategy",
     "publishedAt": "2026-07-25T05:52:21.439Z"
-  },
-  "knowledge/bleeping-9a78235c4a.md": {
-    "category": "product-release",
-    "publishedAt": "2026-08-29T23:11:51.000Z"
-  },
-  "knowledge/thehackernews-e7fd30e89b.md": {
-    "category": "attack",
-    "publishedAt": "2026-08-30T07:36:33.000Z"
-  },
-  "knowledge/sans-isc-c061647e3f.md": {
-    "category": "product-release",
-    "publishedAt": "2026-08-30T07:14:49.000Z"
-  },
-  "knowledge/bleeping-84be4ab213.md": {
-    "category": "product-release",
-    "publishedAt": "2026-08-29T14:19:23.000Z"
   },
   "knowledge/bleeping-e47d03f325.md": {
     "region": "us",
@@ -2200,5 +2184,106 @@
   "knowledge/bleeping-b3dddf9b03.md": {
     "category": "product-release",
     "publishedAt": "2026-09-27T13:38:40.000Z"
+  },
+  "knowledge/krebs-c919c2b059.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-28T15:08:57.000Z"
+  },
+  "knowledge/bleeping-d37d4f7b04.md": {
+    "region": "us",
+    "category": "product-release",
+    "publishedAt": "2026-09-29T09:04:06.000Z"
+  },
+  "knowledge/thehackernews-b8f9491162.md": {
+    "region": "eu-west",
+    "category": "news",
+    "publishedAt": "2026-09-29T08:35:10.000Z"
+  },
+  "knowledge/darkreading-ae5b26793a.md": {
+    "region": "global",
+    "industries": [
+      "industrial",
+      "iot",
+      "energy",
+      "automotive"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-09-28T21:13:04.000Z"
+  },
+  "knowledge/sans-isc-3a59ef01a4.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-29T02:00:02.000Z"
+  },
+  "knowledge/ncsc-uk-7b1e1e501b.md": {
+    "region": "uk",
+    "category": "threat-intel",
+    "publishedAt": "2026-09-28T12:00:00.000Z"
+  },
+  "knowledge/bleeping-bfc2554a53.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-29T07:33:12.000Z"
+  },
+  "knowledge/thehackernews-c401e28ae2.md": {
+    "category": "product-release",
+    "publishedAt": "2026-09-29T06:08:25.000Z"
+  },
+  "knowledge/darkreading-6c46ed3fad.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-28T20:23:58.000Z"
+  },
+  "knowledge/sans-isc-47eb4c83c6.md": {
+    "category": "product-release",
+    "publishedAt": "2026-09-28T22:35:35.000Z"
+  },
+  "knowledge/bleeping-ccc11f98d4.md": {
+    "region": "apac",
+    "industries": [
+      "transportation",
+      "rail"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-28T20:56:47.000Z"
+  },
+  "knowledge/thehackernews-710938735c.md": {
+    "category": "product-release",
+    "publishedAt": "2026-09-29T05:12:32.000Z"
+  },
+  "knowledge/darkreading-da1a40662d.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-28T18:44:22.000Z"
+  },
+  "knowledge/bleeping-12100c2238.md": {
+    "region": "apac",
+    "industries": [
+      "transportation",
+      "shared mobility"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-28T20:31:16.000Z"
+  },
+  "knowledge/thehackernews-50972d407b.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-29T04:45:20.000Z"
+  },
+  "knowledge/darkreading-9ea947543a.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-28T16:51:25.000Z"
+  },
+  "knowledge/bleeping-e36cbd6c6f.md": {
+    "region": "eu-west",
+    "category": "news",
+    "publishedAt": "2026-09-28T19:49:10.000Z"
+  },
+  "knowledge/thehackernews-3e5bc5aeb6.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-28T19:18:01.000Z"
+  },
+  "knowledge/darkreading-1820f6c11f.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-28T15:33:21.000Z"
+  },
+  "knowledge/bleeping-6606207dd9.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-28T18:50:59.000Z"
   }
 }
