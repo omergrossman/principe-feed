@@ -5324,5 +5324,193 @@
     "publishedAt": "2026-09-28T18:50:59.000Z",
     "contentHash": "bc6ed65c21e9f30f13d8e61efb06e8911b708633256bccd41edcec5263521204",
     "ingestedAt": "2026-09-29T11:21:48.949Z"
+  },
+  {
+    "id": "knowledge:bleeping-3b6b222f8b",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Extends WSL with General Availability of Linux Container Support",
+    "summary": "Microsoft has made WSL Containers generally available, expanding Windows Subsystem for Linux capabilities beyond running Linux distributions to include container workloads. This development allows Windows users to run containerized applications natively within WSL.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+    "publishedAt": "2026-09-30T00:40:57.000Z",
+    "contentHash": "d1183c5afcf1067c9230c0630e945258164a6bec233cb0c8c154c2441f475702",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7595f834fb",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "government",
+      "financial services",
+      "technology",
+      "education",
+      "legal and professional services"
+    ],
+    "title": "NetScaler ADC/Gateway Flaw Exploited for Root Access with WHIPSHOT/SLAPSHOT Malware",
+    "summary": "Threat actors have exploited a patched vulnerability in Citrix NetScaler ADC and Gateway appliances to achieve root-level access across multiple sectors in North America and Europe. The campaign, documented by Mandiant and Google Threat Intelligence, deployed custom malware variants against government, financial services, technology, education, and legal organizations.",
+    "sourceUrl": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+    "publishedAt": "2026-09-30T08:24:35.000Z",
+    "contentHash": "2deef93634356a8dec6d56915d9d4620047bd6f84b18403f083ac8ad50b31f66",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:darkreading-22d143dd8f",
+    "tier": "event",
+    "category": "attack",
+    "region": "mea",
+    "industries": [
+      "aviation",
+      "critical infrastructure"
+    ],
+    "title": "South Africa's Air Traffic Control Systems Targeted in Cyberattack",
+    "summary": "South African air traffic control infrastructure has been compromised by attackers who deployed ransomware toolkits on operational networks. The incident reflects an emerging pattern of adversaries targeting critical aviation systems globally, prompting South Africa to seek external assistance in response and remediation efforts.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control",
+    "publishedAt": "2026-09-30T07:00:00.000Z",
+    "contentHash": "2c729dfe37f244996612fe6d40a07f82d3b826684de2a833acdd0e088031731d",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:sans-isc-136e6b866c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast Podcast - September 30th, 2026",
+    "summary": "SANS Internet Storm Center's daily security briefing covering current threat landscape developments and security advisories. The podcast provides analysis of emerging security incidents and vulnerabilities relevant to defenders.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33384",
+    "publishedAt": "2026-09-30T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:bleeping-1e9b704f29",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Signal Completes Encrypted Local Backup Rollout Across Platforms",
+    "summary": "Signal has released version 8.30, finalizing deployment of its encrypted backup functionality across all supported operating systems including iOS and desktop applications. This feature enables users to securely back up conversation history locally with end-to-end encryption, complementing existing Android support.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+    "publishedAt": "2026-09-29T21:30:08.000Z",
+    "contentHash": "5d2d74efca2718cb7d6e0f4517cd8677570e70b87e77a5d74d9c84ad0206b426",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1b25f217f4",
+    "tier": "event",
+    "category": "product-release",
+    "title": "OpenSSL Patches High-Severity DTLS Memory Leak Vulnerability",
+    "summary": "OpenSSL released fixes for a high-severity flaw in DTLS (Datagram TLS) that can expose heap memory to remote endpoints or trigger application crashes. The vulnerability occurs when handshake message retransmission is initiated while a larger message is partially processed, creating conditions for memory disclosure or denial of service.",
+    "sourceUrl": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+    "publishedAt": "2026-09-30T08:09:28.000Z",
+    "contentHash": "5d56e3f21caf3b5b20d70b7d0f828e570179d7d6b82a33666ca6bff29fb198f0",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:darkreading-d49e053169",
+    "tier": "event",
+    "category": "attack",
+    "title": "Apple Zero-Day Vulnerability Exploited in Targeted Attacks",
+    "summary": "Apple disclosed CVE-2026-86950, an out-of-bounds write vulnerability, which is being actively exploited in targeted attack campaigns. The flaw affects Apple systems and is being leveraged by threat actors in sophisticated operations.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
+    "publishedAt": "2026-09-29T21:31:29.000Z",
+    "contentHash": "ac33eadec961b5f617399f47d030829d48b7b01e0396bbd2fcd24fcfc2f71fb5",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:sans-isc-4c7ab8070a",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "software",
+      "web hosting"
+    ],
+    "title": "Reconnaissance Scans Targeting Wordfence-Protected WordPress Sites",
+    "summary": "Automated scans have been detected probing for the wordfence-waf.php file, which is deployed in WordPress site root directories as part of Wordfence WAF installations. The activity appears limited in volume and represents standard reconnaissance behavior targeting a known security solution marker.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33382",
+    "publishedAt": "2026-09-29T13:29:33.000Z",
+    "contentHash": "70c7f4bd709854cc92587b72be0d9b18bb8bac5af72d812021efaec9058a5332",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:bleeping-aafd86b072",
+    "tier": "event",
+    "category": "attack",
+    "title": "Custom ChatGPT Variants in Google Ads Redirect Users to ClickFix Malware Distribution",
+    "summary": "Threat actors are leveraging fraudulent ChatGPT clones advertised through sponsored Google search results to redirect users toward malicious domains. These sites employ ClickFix social engineering techniques to trick visitors into executing commands that deploy remote access trojans.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+    "publishedAt": "2026-09-29T20:59:39.000Z",
+    "contentHash": "057cfbb35efb0f79e90a0ba7c6a700740aced3ee1822e544670999169280c38d",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a2c9b41769",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Citrix NetScaler CVE-2026-88772 Exploitation Details Disclosed",
+    "summary": "Researchers have published technical details on a critical memory overflow vulnerability in Citrix NetScaler ADC and Gateway's DTLS protocol handling. The flaw (CVE-2026-88772, CVSS 9.5) enables unauthenticated remote code execution and is reportedly being exploited in active attacks; patches are available.",
+    "sourceUrl": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+    "publishedAt": "2026-09-30T05:30:30.000Z",
+    "contentHash": "035b4e05251065aee2330342c7b75c8572630b40ae19d27fafe416b27f5b0e51",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:darkreading-b9ebd84c7b",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Unsloth Studio Vulnerability Enables Code Execution via Malicious AI Models",
+    "summary": "A vulnerability in Unsloth Studio permitted arbitrary Python code execution when users inspected AI models, exploiting the trust_remote_code setting. The flaw has been patched; it highlights risks inherent in loading and inspecting untrusted model artifacts without proper isolation controls.",
+    "sourceUrl": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
+    "publishedAt": "2026-09-29T21:08:42.000Z",
+    "contentHash": "4092fcefd02de0e51236502776a14bb3c7641fe3b1857d589b9fac373892d3d2",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:bleeping-156dd54c40",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "FBI urges ShinyHunters members to surrender following leadership arrest",
+    "summary": "Dutch law enforcement arrested an individual identified by the FBI as a ShinyHunters leader, prompting the bureau to issue a surrender appeal to other group members. ShinyHunters has been linked to extortion operations targeting multiple organizations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
+    "publishedAt": "2026-09-29T20:09:55.000Z",
+    "contentHash": "b5dbe8d9dadef4caefb7e8dcf57a25417f3e9b57604a30f1c069bd5b62d449ab",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:thehackernews-d45bad10f5",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "government"
+    ],
+    "title": "French Tax Administration Data Breach via Compromised Staff Credentials",
+    "summary": "An attacker leveraged stolen credentials of French tax administration employees to exfiltrate tax records affecting hundreds of thousands of individuals and businesses over a seven-week period in mid-2024. The intrusion remained undetected by both the tax authority and France's national cybersecurity agency (ANSSI), which attributed the success to inadequate access controls rather than sophisticated attack techniques.",
+    "sourceUrl": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+    "publishedAt": "2026-09-29T17:47:01.000Z",
+    "contentHash": "b17661d4b70dd1afae05c3ca682c936c58271eb60bc76ea537e009fea1e53492",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:darkreading-b153e6d843",
+    "tier": "event",
+    "category": "product-release",
+    "region": "global",
+    "title": "Cloudflare Launches Public Certificate Authority Supporting Post-Quantum Cryptography",
+    "summary": "Cloudflare has introduced a public certificate authority designed to issue automated SSL/TLS certificates with post-quantum cryptographic algorithms embedded alongside classical ones. The offering enables organizations to begin transitioning their infrastructure ahead of widespread quantum computing threats without requiring immediate full replacement of existing systems.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web",
+    "publishedAt": "2026-09-29T17:02:16.000Z",
+    "contentHash": "1dead2f5a7bb43d2bae2c6803a8f52d3ca8e8d1bc5b3ddc878dc0a72573a9d1f",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:bleeping-3cb734ba29",
+    "tier": "event",
+    "category": "attack",
+    "title": "Citrix NetScaler Zero-Day Exploited for Web Shell Deployment",
+    "summary": "Threat actors are actively exploiting an unpatched zero-day vulnerability in Citrix NetScaler (CVE-2026-88772) to install web shells and tunneling malware on compromised systems. Successful exploitation grants root-level access, enabling attackers to harvest credentials and pivot into internal networks.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+    "publishedAt": "2026-09-29T18:37:12.000Z",
+    "contentHash": "d19c4aecf6bdf38d0b57176008cadfd147e19d36994aa948aafa87a3f1c8cf81",
+    "ingestedAt": "2026-09-30T11:09:56.491Z"
   }
 ]

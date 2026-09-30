@@ -2285,5 +2285,88 @@
   "knowledge/bleeping-6606207dd9.md": {
     "category": "threat-intel",
     "publishedAt": "2026-09-28T18:50:59.000Z"
+  },
+  "knowledge/bleeping-3b6b222f8b.md": {
+    "category": "product-release",
+    "publishedAt": "2026-09-30T00:40:57.000Z"
+  },
+  "knowledge/thehackernews-7595f834fb.md": {
+    "region": "global",
+    "industries": [
+      "government",
+      "financial services",
+      "technology",
+      "education",
+      "legal and professional services"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-30T08:24:35.000Z"
+  },
+  "knowledge/darkreading-22d143dd8f.md": {
+    "region": "mea",
+    "industries": [
+      "aviation",
+      "critical infrastructure"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-30T07:00:00.000Z"
+  },
+  "knowledge/sans-isc-136e6b866c.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-30T02:00:03.000Z"
+  },
+  "knowledge/bleeping-1e9b704f29.md": {
+    "category": "product-release",
+    "publishedAt": "2026-09-29T21:30:08.000Z"
+  },
+  "knowledge/thehackernews-1b25f217f4.md": {
+    "category": "product-release",
+    "publishedAt": "2026-09-30T08:09:28.000Z"
+  },
+  "knowledge/darkreading-d49e053169.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-29T21:31:29.000Z"
+  },
+  "knowledge/sans-isc-4c7ab8070a.md": {
+    "industries": [
+      "software",
+      "web hosting"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-09-29T13:29:33.000Z"
+  },
+  "knowledge/bleeping-aafd86b072.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-29T20:59:39.000Z"
+  },
+  "knowledge/thehackernews-a2c9b41769.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-30T05:30:30.000Z"
+  },
+  "knowledge/darkreading-b9ebd84c7b.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-09-29T21:08:42.000Z"
+  },
+  "knowledge/bleeping-156dd54c40.md": {
+    "region": "global",
+    "category": "attack",
+    "publishedAt": "2026-09-29T20:09:55.000Z"
+  },
+  "knowledge/thehackernews-d45bad10f5.md": {
+    "region": "eu-west",
+    "industries": [
+      "government"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-09-29T17:47:01.000Z"
+  },
+  "knowledge/darkreading-b153e6d843.md": {
+    "region": "global",
+    "category": "product-release",
+    "publishedAt": "2026-09-29T17:02:16.000Z"
+  },
+  "knowledge/bleeping-3cb734ba29.md": {
+    "category": "attack",
+    "publishedAt": "2026-09-29T18:37:12.000Z"
   }
 }
