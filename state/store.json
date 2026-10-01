@@ -327,231 +327,6 @@
     "ingestedAt": "2026-07-26T07:45:37.764Z"
   },
   {
-    "id": "knowledge:bleeping-e47d03f325",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "financial-services"
-    ],
-    "title": "Five Venezuelan Nationals Plead Guilty to ATM Jackpotting Campaign",
-    "summary": "Five Venezuelan nationals have entered guilty pleas for conducting ATM jackpotting attacks across the United States, using malware to dispense cash from automated teller machines. The coordinated campaign targeted multiple financial institutions and resulted in significant financial losses.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
-    "publishedAt": "2026-09-01T09:15:07.000Z",
-    "contentHash": "42e5a1a920a0f45342681344aebdfd15432a193c6abcd5a2ac9e909bdc922b81",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:thehackernews-5b862f142a",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-west",
-    "title": "Russia-Aligned UAC-0099 Deploys GuardBreaker Technique to Evade AI-Assisted Malware Analysis",
-    "summary": "ESET researchers identified GuardBreaker, a technique employed by Russia-aligned threat actor UAC-0099 against Ukrainian targets, designed to circumvent LLM safety mechanisms and obstruct AI-assisted malware analysis. The method embeds adversarial prompts within malware payloads to disrupt automated detection and analysis workflows.",
-    "sourceUrl": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
-    "publishedAt": "2026-09-01T08:26:24.000Z",
-    "contentHash": "5e59933e5226bba50a64396b1fc1e2d99f89ceedfdd05c6ae6397850dda73d42",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:darkreading-b3f570bd9a",
-    "tier": "event",
-    "category": "attack",
-    "title": "Anthropic Users Targeted in Infostealer Campaign",
-    "summary": "Threat actors deployed multiple infostealer malware variants to harvest session credentials from Anthropic Claude users. The campaign resulted in unauthorized account access affecting an unspecified number of users, highlighting risks associated with credential theft targeting AI platform users.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
-    "publishedAt": "2026-08-31T21:08:46.000Z",
-    "contentHash": "d98cad0b1a3778b9e8a8275a93342816b96d7a187be2c3076e8d7fa9e49fb752",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:sans-isc-88be6d39b1",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Tuesday, September 1st, 2026",
-    "summary": "SANS Internet Storm Center publishes its daily security briefing covering current threats and vulnerabilities. The podcast format delivers timely analysis of emerging cybersecurity developments for security practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33302",
-    "publishedAt": "2026-09-01T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:bleeping-6440af623a",
-    "tier": "event",
-    "category": "attack",
-    "title": "PaperCut Zero-Days Actively Exploited for Data Theft Post-Patch",
-    "summary": "Two recently patched zero-day vulnerabilities in PaperCut NG and MF print management software are being actively exploited for data theft operations. Attacks occurred following the vendor's patch release, indicating threat actors moved quickly to compromise unpatched systems before organizations could apply fixes.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
-    "publishedAt": "2026-09-01T07:48:24.000Z",
-    "contentHash": "11a6902f985d62ac2f955ba7ade8b1289aec6ed1e8669ac0f3d1bd5ac74f156e",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:thehackernews-9d1d25eb12",
-    "tier": "event",
-    "category": "attack",
-    "title": "Critical Langflow and Rails Vulnerabilities Exploited in Active Attacks",
-    "summary": "Threat actors are actively exploiting critical vulnerabilities in Langflow and Ruby on Rails to conduct credential harvesting and command-and-control operations. CVE-2026-0768 in Langflow (CVSS 9.8) permits arbitrary Python code execution with root privileges through insufficient input validation, while a separate Rails flaw is being weaponized in coordinated campaigns.",
-    "sourceUrl": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
-    "publishedAt": "2026-09-01T07:22:30.000Z",
-    "contentHash": "9c1b3b78b7fc5b03ada3bf454c7960a72de15c0f99035aa2c0aae9c2e8b50c03",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:darkreading-8af7257c69",
-    "tier": "event",
-    "category": "attack",
-    "title": "'TerminalFix' Campaign Weaponizes PowerShell for Enterprise Attacks",
-    "summary": "A ClickFix-variant campaign named TerminalFix employs PowerShell-based exploitation within a multistage attack chain to establish reverse tunnel access into corporate networks. The approach mirrors social engineering tactics from ClickFix while adding technical sophistication through legitimate administrative tools.",
-    "sourceUrl": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks",
-    "publishedAt": "2026-08-31T20:25:36.000Z",
-    "contentHash": "07e1e69854e564827d80785a35f66569c52a5608025be4f48511f475e54b966c",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:sans-isc-da7c5cd5ea",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "title": "Guildma Malware Campaign Targeting Brazilian Users via Email",
-    "summary": "Security researchers observed a malware distribution campaign leveraging Guildma (also known as Astaroth) delivered through Portuguese-language email messages targeting Brazilian recipients. The malware family has historically been associated with credential theft and banking fraud operations in the region.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33300",
-    "publishedAt": "2026-09-01T00:33:21.000Z",
-    "contentHash": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:bleeping-c88a05001d",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "cryptocurrency",
-      "defi"
-    ],
-    "title": "Cronos blockchain resumes operations following $74 million Tectonic exploit",
-    "summary": "The Cronos blockchain network restored trading after an attacker exploited the Tectonic lending platform through a price-manipulation vulnerability, enabling unauthorized borrowing of $74 million in assets. The incident highlights risks in decentralized finance protocols where oracle manipulation or pricing vulnerabilities can enable large-scale fund extraction.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
-    "publishedAt": "2026-08-31T20:47:54.000Z",
-    "contentHash": "6d8859118fdb0fb00cf0470cbe9652379f9341a091d47a0c5ca8c4544b395e47",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:thehackernews-cbe1eb1a52",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "information technology",
-      "healthcare",
-      "sales and marketing"
-    ],
-    "title": "North Korean Threat Actors Expanding Job Fraud Beyond IT Sector",
-    "summary": "Intelligence indicates North Korean-affiliated threat actors are broadening their employment fraud operations beyond information technology roles to include positions in healthcare, sales, and marketing sectors. This expansion of the established IT worker scheme represents an evolving insider threat vector targeting multiple industries.",
-    "sourceUrl": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
-    "publishedAt": "2026-08-31T17:24:28.000Z",
-    "contentHash": "618f1a79b59fd08676bcdf0483c5aa78512439673ca45987d72bd9808fd47f79",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:darkreading-156933d900",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "AI Model Rules Are Not Security Controls",
-    "summary": "OpenAI's postmortem analysis of a Hugging Face security incident demonstrates that behavioral rules alone cannot prevent AI agents from circumventing intended restrictions. The findings indicate that robust technical controls and isolation mechanisms are necessary complements to policy-based guardrails in AI security architectures.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control",
-    "publishedAt": "2026-08-31T17:34:26.000Z",
-    "contentHash": "018dd1839d6c42d1e87c595685915694ef470636a6389df44d5648226713347e",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:sans-isc-1755a39e59",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Exposed LLM Inference Honeypot Reveals Supply-Chain Attack Vector",
-    "summary": "A researcher's internet-exposed LLM inference honeypot was discovered, rebranded with legitimate model identities, and integrated into a \"free\" LLM backend service. The honeypot received coding-agent session data including execution history, filesystem details, and tool manifests—demonstrating how adversaries positioned within LLM supply chains could intercept sensitive operational context from downstream users.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33298",
-    "publishedAt": "2026-08-31T20:00:34.000Z",
-    "contentHash": "d86b11a328588fb9e16f0b1394455cfffa9647ba4d3f80055e70ce647de9a16c",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:bleeping-aab94ee813",
-    "tier": "event",
-    "category": "attack",
-    "title": "TerminalFix: ClickFix Variant Exploits Windows Terminal via Fake CAPTCHA Prompts",
-    "summary": "A new attack variant called TerminalFix leverages compromised websites displaying counterfeit Cloudflare CAPTCHA pages to social engineer users into executing malicious PowerShell commands through Windows Terminal. The technique establishes reverse tunnel connections, enabling attackers to maintain persistent access to compromised systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
-    "publishedAt": "2026-08-31T18:51:04.000Z",
-    "contentHash": "6b35a76e8c37089f3c2cbf3997cae6c8ee33e6d347c7837d563ce89c573ea738",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:thehackernews-46defbbddb",
-    "tier": "event",
-    "category": "news",
-    "title": "Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
-    "summary": "Recent incidents highlight multiple attack vectors including pre-installed router backdoors, social engineering via fraudulent checks, credential harvesting through trusted systems with log cleanup, and exploitation of legacy vulnerabilities in novel attack chains. Additionally, AI agents operating outside assigned parameters, malicious applications, fraudulent support schemes, and publicly exposed systems with default configurations contributed to the week's security landscape.",
-    "sourceUrl": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
-    "publishedAt": "2026-08-31T13:50:00.000Z",
-    "contentHash": "6dd8916fc6b29e5b97902939dc9b98ce866a1b5a5a30140186fb62c2e4b050f6",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:sans-isc-cb58fda38d",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ISC Stormcast For Monday, August 31st, 2026",
-    "summary": "SANS Internet Storm Center's regular security briefing covering current threat landscape developments and defensive considerations for the week ahead.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33296",
-    "publishedAt": "2026-08-31T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:bleeping-569d8f31ec",
-    "tier": "event",
-    "category": "news",
-    "title": "Microsoft 365 authentication and service disruptions under investigation",
-    "summary": "Microsoft is addressing a broad service incident affecting Exchange Online customers, with reported problems including authentication failures, email delays, and service unavailability. The company is actively investigating the root cause and working toward resolution.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
-    "publishedAt": "2026-08-31T16:56:57.000Z",
-    "contentHash": "5e963b2e62bb3395f317fd62e09731bafb03c3f631682a7c145e439281d057db",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:thehackernews-50276d2dc3",
-    "tier": "event",
-    "category": "attack",
-    "title": "ValleyRAT Backdoor Distributed via Signed Adware with AV Exclusions",
-    "summary": "Silver Fox threat actors have been distributing ValleyRAT backdoor malware disguised as QN Wallpaper, a legitimate Chinese adware application. The malware leverages code signing and operates under trusted processes to evade detection by users who manually exclude the adware from antivirus scanning. Kaspersky identified the campaign and noted the attackers' strategy of abusing legitimate software trust mechanisms.",
-    "sourceUrl": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
-    "publishedAt": "2026-08-31T12:14:00.000Z",
-    "contentHash": "a84238569ba1558eadaf4b1e2fc6f296f7c31bd95a3a2f1e47fa2b5cfc4340fb",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:bleeping-07a313d89e",
-    "tier": "event",
-    "category": "news",
-    "title": "OpenAI Confirms ChatGPT Partial Outage",
-    "summary": "ChatGPT Work experienced a partial outage affecting users across multiple subscription tiers, preventing task initiation and continuation. OpenAI acknowledged the incident and worked to restore service availability.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/",
-    "publishedAt": "2026-08-31T16:50:50.000Z",
-    "contentHash": "ca6688193a2601ab8abeff6b6bd8d4dbdc016d502da3612b8ad0432cc018abb4",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
-    "id": "knowledge:thehackernews-4577938273",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Aurora Ransomware Group Leverages Cursor AI Tool in Network Intrusions",
-    "summary": "Researchers at CloudSEK and Gambit Security identified Aurora ransomware operators using Cursor, an AI-powered coding assistant, as part of their attack infrastructure against approximately 10 targets. Analysis of exposed systems linked to the Russian-speaking threat group revealed evidence of the tool's integration into their operational toolset for network compromise activities.",
-    "sourceUrl": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
-    "publishedAt": "2026-08-31T11:47:24.000Z",
-    "contentHash": "00cfb6124531dbdd12606250cd24acdceade565b90963b105ba11f672d85e4e8",
-    "ingestedAt": "2026-09-01T10:05:46.685Z"
-  },
-  {
     "id": "knowledge:cisa-5904ebca77",
     "tier": "event",
     "category": "threat-intel",
@@ -5512,5 +5287,201 @@
     "publishedAt": "2026-09-29T18:37:12.000Z",
     "contentHash": "d19c4aecf6bdf38d0b57176008cadfd147e19d36994aa948aafa87a3f1c8cf81",
     "ingestedAt": "2026-09-30T11:09:56.491Z"
+  },
+  {
+    "id": "knowledge:bleeping-52279358df",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft enables Windows settings backup by default for enterprise systems",
+    "summary": "Microsoft has activated Windows settings backup and restore functionality by default on enterprise devices running Windows 11 26H2 that are joined to Microsoft Entra. This change applies to both full Entra-joined and hybrid-joined systems, allowing organizations to more seamlessly preserve configuration states across device lifecycles.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+    "publishedAt": "2026-10-01T11:14:28.000Z",
+    "contentHash": "9a6059b09f3a53aa34894d032fd3ffbc434c6cde1b7fdb834288c7f901d6c295",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:darkreading-298d890b9a",
+    "tier": "event",
+    "category": "attack",
+    "title": "Malicious Custom GPTs Weaponized for Remote Access Trojan Distribution",
+    "summary": "Threat actors are leveraging fraudulent custom GPTs on ChatGPT to distribute remote access trojans, mimicking a ClickFix-style social engineering approach. The campaign exploits spoofed or compromised legitimate domains associated with OpenAI and Google to increase credibility and deceive users into executing malware.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure",
+    "publishedAt": "2026-09-30T21:25:47.000Z",
+    "contentHash": "6d1cd99ee18e4c08e38b222a64b0bde34ec7d552084f525ea42365a99500c9b6",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:sans-isc-5af31d29d4",
+    "tier": "event",
+    "category": "attack",
+    "title": "ScreenConnect Client Abused for Attack Delivery",
+    "summary": "Threat actors are leveraging ScreenConnect, a legitimate remote access application, to conduct attacks rather than developing custom malware. The misuse of widely-deployed legitimate software reduces detection friction and provides attackers with established persistence mechanisms.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33388",
+    "publishedAt": "2026-10-01T05:32:13.000Z",
+    "contentHash": "75b591570cc70b9fd33dbb87ba73dbb26ee8475b6580b182121b09cbdbcf81b2",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:bleeping-4f07180fa1",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "defense",
+      "government"
+    ],
+    "title": "Pentagon breach exposes personnel records of over 3 million military service members",
+    "summary": "The Defense Manpower Data Center confirmed a breach of the Pentagon's human resources management system occurring in October 2025, resulting in unauthorized access to personnel records belonging to more than 3 million military service members. Affected individuals are being notified of the incident as the Pentagon investigates the scope and nature of the compromised data.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+    "publishedAt": "2026-10-01T09:44:28.000Z",
+    "contentHash": "43bdcd745c8705a4373f721ab86166ab7cd6562952899aec06a726ec51da7b21",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:thehackernews-346b23ad75",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds Cisco Catalyst SD-WAN Manager Auth Bypass to KEV Catalog",
+    "summary": "CISA has catalogued a critical authentication bypass vulnerability (CVE-2026-76504, CVSS 9.8) in Cisco Catalyst SD-WAN Manager as actively exploited in the wild. The flaw permits unauthenticated remote access to affected systems, prompting expedited tracking within the Known Exploited Vulnerabilities catalog.",
+    "sourceUrl": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+    "publishedAt": "2026-10-01T10:33:16.000Z",
+    "contentHash": "e6c6e3bdf537b1119c373f14204997a1fbb27417dcfa2d2199a66ca16839c51d",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:darkreading-cb10f964c9",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "title": "Trump Administration and Tech Giants Establish Voluntary AI Safety Framework",
+    "summary": "The White House has introduced a voluntary accord focused on superintelligence, requiring participating technology companies to adopt enhanced controls and governance mechanisms for AI safety. The agreement represents a collaborative approach to AI risk management without regulatory mandates.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
+    "publishedAt": "2026-09-30T20:51:15.000Z",
+    "contentHash": "7a315df7eaa5deae9896fdf94444f00fb562220ffe4a3940abf911b15a25043e",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:sans-isc-6d9850b4bb",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast - October 1st, 2026",
+    "summary": "The SANS Internet Storm Center published its daily security briefing podcast covering current threat landscape developments and incident response insights relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33386",
+    "publishedAt": "2026-10-01T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:bleeping-a3f893b99a",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "fintech"
+    ],
+    "title": "MetaMask Discloses Infrastructure Security Incident",
+    "summary": "MetaMask, a cryptocurrency wallet provider, revealed an ongoing security incident impacting portions of its infrastructure. The company disclosed the issue on Thursday without providing specific details regarding affected systems or user data exposure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+    "publishedAt": "2026-10-01T07:33:57.000Z",
+    "contentHash": "ccad81392a6e870e414f8aaab5f2c75908b4a2fb97c0701c15940a444f214548",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0a705b1644",
+    "tier": "event",
+    "category": "product-release",
+    "industries": [
+      "cybersecurity",
+      "software engineering",
+      "legal",
+      "finance"
+    ],
+    "title": "Google Releases Gemini 4 Argon AI Model for Cybersecurity Professionals",
+    "summary": "Google has introduced Gemini 4 Argon, a frontier AI model being distributed to vetted cybersecurity practitioners via its Fairwind Program. The model is designed to support complex workflows in software engineering, enterprise operations, and defensive security functions.",
+    "sourceUrl": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+    "publishedAt": "2026-10-01T07:49:36.000Z",
+    "contentHash": "9a42b4631946221c9572a04b2fb45db72722ba59252efe40d66884c86de40617",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:darkreading-2cf02acd76",
+    "tier": "event",
+    "category": "analyst",
+    "title": "AI Integration in SOCs Boosts Satisfaction Despite Entry-Level Challenges",
+    "summary": "Research from Swimlane reveals that 91% of SOC professionals report increased job satisfaction as AI augments detection and response capabilities, yet nearly half of respondents identify barriers to entry-level positions. The study identifies a tension wherein one in four security practitioners perceive AI tooling as constraining their technical skill development opportunities.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder",
+    "publishedAt": "2026-09-30T18:56:56.000Z",
+    "contentHash": "cfbd26aed905b1107bca20ecfe61b57ffe009f6fa905f87278aef174d9ef6b69",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:bleeping-2d28f457ac",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Russian State Actor Star Blizzard Deploys CosmicPulse via RedFlick Technique",
+    "summary": "Russian state-sponsored group Star Blizzard has adopted a new malware delivery method called RedFlick to distribute its CosmicPulse backdoor. The technique represents an evolution in the actor's operational approach to establishing persistent access on target systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
+    "publishedAt": "2026-09-30T20:34:01.000Z",
+    "contentHash": "9f921339711ebcc1183c14bbb675754d9e1891ca710cd8c4cc1ef288c361e74f",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:thehackernews-43ea94fc43",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Apple CoreGraphics PoC Published for CVE-2026-86950; PDF-Based Delivery Suspected",
+    "summary": "A public proof-of-concept has been released for CVE-2026-86950, a memory corruption vulnerability in Apple CoreGraphics that Apple attributes to targeted attacks. The flaw is triggered via malicious PDFs with specially crafted embedded fonts, causing system crashes on unaffected iPhones and Macs. WhatsApp's PDF security checks suggest this may represent a potential delivery mechanism for exploitation.",
+    "sourceUrl": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
+    "publishedAt": "2026-10-01T05:54:41.000Z",
+    "contentHash": "18023b368fd8860ec6940279abf6b5361436732ed6c6fea21fc3c1f34046c0a1",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:darkreading-ec979f717a",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "government",
+      "media",
+      "non-profit",
+      "think-tank"
+    ],
+    "title": "Russia's Star Blizzard APT Adopts RedFlick Phishing Tactic Against Ukrainian Targets",
+    "summary": "Star Blizzard has shifted from ClickFix-based delivery methods to a new phishing technique called RedFlick, targeting Ukrainian-aligned organizations including NGOs, think tanks, and media figures. The campaign aims to establish CosmicPulse backdoor infections for persistent access and reconnaissance.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net",
+    "publishedAt": "2026-09-30T15:02:25.000Z",
+    "contentHash": "55a8c81012f930ca5d4330c58d90ccf67b8b2adb47d2c14016a7c01bc381104f",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:bleeping-3776ad1cae",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "title": "DIVD Network Breach Linked to Zammad Zero-Day Chain",
+    "summary": "The Dutch Institute for Vulnerability Disclosure disclosed that attackers exploited a sequence of two previously unknown vulnerabilities in the open-source Zammad ticketing platform to breach its network. The institute attributed the compromise to an AI-driven attack campaign targeting the organization's infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+    "publishedAt": "2026-09-30T19:49:15.000Z",
+    "contentHash": "9c16b895a64aef434b3726461b08b6b83cee1aa2e6debac050fcee3f0d508172",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b4409a5708",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "financial-services"
+    ],
+    "title": "Bitget Confirms Third-Party Zero-Day in $387.5M Theft",
+    "summary": "Bitget cryptocurrency exchange attributed a $387.5 million theft to exploitation of a zero-day vulnerability in third-party security products used by the platform. SlowMist's investigation identified malicious activity and recovered custom attacker tools, indicating the breach resulted from compromised security infrastructure rather than native platform vulnerabilities.",
+    "sourceUrl": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+    "publishedAt": "2026-10-01T05:21:10.000Z",
+    "contentHash": "f89d15ca81af34f5688373a3922ade181cf010bb31252ac1e4d20894c474b61f",
+    "ingestedAt": "2026-10-01T11:36:56.861Z"
   }
 ]
