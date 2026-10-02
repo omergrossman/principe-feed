@@ -327,252 +327,6 @@
     "ingestedAt": "2026-07-26T07:45:37.764Z"
   },
   {
-    "id": "knowledge:cisa-5904ebca77",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing"
-    ],
-    "title": "Rockwell Automation RSLinx Classic Denial-of-Service Vulnerabilities",
-    "summary": "CISA disclosed four denial-of-service vulnerabilities in Rockwell Automation RSLinx Classic versions 4.50 and earlier, affecting critical manufacturing infrastructure globally. Malformed CIP packets can trigger service crashes; Rockwell Automation released version 4.60 as a fix, with mitigation guidance available for systems unable to upgrade immediately.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
-    "publishedAt": "2026-09-01T12:00:00.000Z",
-    "contentHash": "b7d195c8d32fe723a119c3bfea06a60d02d580c66c74d12a2b35887fa6e738c8",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:krebs-6df08faed0",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "identity verification"
-    ],
-    "title": "FBI Investigates Dark Web Service Offering 153M+ Driver's License Scans",
-    "summary": "A dark web marketplace began selling digital scans of over 153 million driver's licenses belonging to US and Canadian residents. Evidence suggests the data originates from a Louisiana-based identity verification company. The FBI's New Orleans field office has initiated an official investigation into the breach.",
-    "sourceUrl": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-    "publishedAt": "2026-09-01T22:40:28.000Z",
-    "contentHash": "9402464273a3526883437a7bae9c07bb9b0042706e86d4721168b985fd78f5cb",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:bleeping-c7121520f5",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "title": "US Charges Russian National for Malware Campaign Targeting Freelancers",
-    "summary": "A Russian national has been indicted by a California federal grand jury for conducting a phishing campaign that compromised approximately 80,000 freelancers with TVRAT and DarkVNC malware. The operation targeted remote workers across various platforms, enabling unauthorized access to infected systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
-    "publishedAt": "2026-09-02T09:06:48.000Z",
-    "contentHash": "eac47394ae2748bcb945d2c6028dc59b12ba1e441700ebd90e05c0a0e1cad1f4",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:thehackernews-71a0dd93ee",
-    "tier": "event",
-    "category": "product-release",
-    "region": "global",
-    "industries": [
-      "government"
-    ],
-    "title": "GeoNetwork Patches Unauthenticated RCE Chain in Geospatial Metadata Catalog",
-    "summary": "Two chained vulnerabilities in GeoNetwork, an open-source geospatial metadata platform deployed across government geoportals, enable unauthenticated remote code execution. Patches were released in versions 4.4.12 and 4.2.17 in July 2026, with vulnerability details disclosed in August.",
-    "sourceUrl": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-    "publishedAt": "2026-09-02T09:18:02.000Z",
-    "contentHash": "fffff4bec591656cb223050bdca5e5052d87fab35f9b3d3adc22c64e3477b0ad",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:darkreading-1c58c50319",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "energy",
-      "nuclear"
-    ],
-    "title": "Unpatched ownCloud Vulnerability Exploited Against Philippines Nuclear Agency",
-    "summary": "Attackers leveraged a known, unpatched vulnerability in ownCloud to compromise the Philippines nuclear agency, gaining access to reactor databases, personnel records, and credential stores. The incident demonstrates the continued risk posed by delayed patching of widely-deployed software components.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
-    "publishedAt": "2026-09-02T01:00:00.000Z",
-    "contentHash": "16ceb1237f183d13f18cf072c62a827dc2cf317bc57c76b033c767ec634c28e8",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:sans-isc-44f36ee2d9",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Wednesday, September 2nd, 2026",
-    "summary": "SANS Internet Storm Center published their regular security briefing podcast covering current threat landscape developments and defensive practices for the week.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33304",
-    "publishedAt": "2026-09-02T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:bleeping-db2015e89f",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Sality Botnet Infrastructure Dismantled in Global Law Enforcement Operation",
-    "summary": "International law enforcement and private sector partners have successfully seized infrastructure associated with the Sality P2P botnet. The coordinated takedown targeted the distributed network that has been used for malware propagation and command-and-control operations.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
-    "publishedAt": "2026-09-02T08:00:43.000Z",
-    "contentHash": "9bef7742b609330eda6e638ac30338bc6dbedb71b4cab0c40b0b2b13aded3990",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:thehackernews-eb3bb052eb",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "title": "Russian Hacker Extradited and Charged for Large-Scale Excel Malware Campaign",
-    "summary": "A Russian national extradited from Cyprus faces U.S. federal charges for orchestrating a 2016-2017 malware distribution campaign using approximately 255 fraudulent accounts on a freelance platform. The operation delivered malicious Excel attachments to roughly 80,000 users, representing a significant coordinated credential-theft operation across the platform.",
-    "sourceUrl": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
-    "publishedAt": "2026-09-02T09:10:23.000Z",
-    "contentHash": "31f7736abf45d7df289d0827169fca6b6f72568d68717685af28fa5597110dbc",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:darkreading-a73d4ab6e1",
-    "tier": "event",
-    "category": "attack",
-    "title": "Attackers Exploit Critical Artifactory Authentication Bypass Vulnerability",
-    "summary": "CVE-2026-82329, an authentication bypass flaw in JFrog's Artifactory repository manager, permits threat actors to obtain administrative privileges on vulnerable instances. Exploitation has commenced following public disclosure of the vulnerability.",
-    "sourceUrl": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
-    "publishedAt": "2026-09-01T21:05:53.000Z",
-    "contentHash": "a9e52904c6857476311f65f9c243708e4487cfe4112804514c67358ac6c59f8f",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:cisa-a8e58c2e06",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing"
-    ],
-    "title": "Rockwell Automation ControlLogix and Related Controllers: Denial of Service Vulnerability",
-    "summary": "CISA has published a vulnerability advisory for multiple Rockwell Automation industrial control products (ControlLogix, CompactLogix, GuardLogix lines) affecting firmware versions prior to specified patch levels. The flaw (CVE-2021-42260) is an infinite loop condition triggered by malformed data, rated CVSS 7.5, that can cause denial of service and require controller reset or program reload to recover. Rockwell recommends immediate patching to designated firmware versions; organizations unable to upgrade should apply network segmentation and access controls.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05",
-    "publishedAt": "2026-09-01T12:00:00.000Z",
-    "contentHash": "93bfd633a629df83b7f2082237931bac7d58730aa42ebc7de0cf7bc595434c8d",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:bleeping-dac4f90cb8",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "SonicWall Issues Advisory on Chained SMA1000 Zero-Day Exploits",
-    "summary": "SonicWall has alerted customers to two previously unknown vulnerabilities in SMA1000 appliances being actively exploited in the wild. Threat actors are chaining these flaws to achieve remote code execution, affecting organizations relying on these secure mobile access devices.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-    "publishedAt": "2026-09-02T06:39:29.000Z",
-    "contentHash": "7617ee6bb9af062c607f5ca0daf51ea936e53082bc1db49ff083c619869d27c6",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:thehackernews-fd47abd976",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "industrial-control-systems",
-      "manufacturing",
-      "critical-infrastructure"
-    ],
-    "title": "Researchers Demonstrate AI-Assisted Exploit Porting Across Industrial Control Systems",
-    "summary": "Forescout Research used Claude to adapt a pre-authentication RCE exploit originally targeting one WAGO PLC model to work against another, successfully executing arbitrary ARM code on live hardware. The proof-of-concept involved CVE-2021-31886, a stack buffer overflow in Nucleus FTP server's USER command handling, illustrating how AI tooling can accelerate exploit development and adaptation across similar industrial devices.",
-    "sourceUrl": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
-    "publishedAt": "2026-09-02T07:47:13.000Z",
-    "contentHash": "8b03425eb4f58c7c4437f84fad4f5fecbaed1cbe7c5fd7b30219d0a5a281aaf0",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:darkreading-2d2ba1572e",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Ransomware Operators Increasingly Exploit Insider Recruitment",
-    "summary": "Security researchers are documenting a rise in ransomware campaigns facilitated by internal actors, reflecting adversary adaptation to stronger external defenses. Insider threats extend beyond ransomware deployment, creating multifaceted risks that generate substantial financial losses for affected organizations.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
-    "publishedAt": "2026-09-01T21:03:19.000Z",
-    "contentHash": "04a1cd8c79b2544618a71b3038bee89158be506f399c392e9a831411ea78a11a",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:cisa-31fa5b02d1",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing",
-      "energy",
-      "utilities"
-    ],
-    "title": "Rockwell Automation Logix Platform Denial-of-Service Vulnerability",
-    "summary": "CISA disclosed a buffer validation flaw (CVE-2026-9637) affecting multiple Rockwell Automation Logix controller platforms across multiple firmware versions. The vulnerability allows unauthenticated remote attackers to trigger a denial-of-service condition via malformed CIP messages, requiring manual power cycling to restore operation. Rockwell has released patched firmware versions (V37.011, 34.015, 35.014, 36.013) and recommends immediate updating or network isolation as mitigation.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
-    "publishedAt": "2026-09-01T12:00:00.000Z",
-    "contentHash": "1e585fe1117164b5cf84888e86f51f084fb77a055638f5e10a8d2f07a940f088",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:bleeping-da2eb27b1f",
-    "tier": "event",
-    "category": "attack",
-    "title": "Threat actors abuse Faronics Deploy to distribute ScreenConnect",
-    "summary": "Attackers are leveraging the legitimate Faronics Deploy endpoint-management platform via phishing campaigns to gain administrative access and deploy ScreenConnect remote support software on compromised systems. This approach exploits trusted administrative tooling to establish persistent remote access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
-    "publishedAt": "2026-09-01T20:53:23.000Z",
-    "contentHash": "0f8f1bdd544e606e944192aa7a4f9f5ea3dc55f7bb152f7153d2118d216ec21e",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:thehackernews-9b6ec5da13",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "telecommunications",
-      "voip",
-      "enterprise communications"
-    ],
-    "title": "Attackers Exploit Critical Switchvox Vulnerability for Unauthenticated Remote Code Execution",
-    "summary": "A critical SQL injection vulnerability (CVE-2026-9586, CVSS 9.3) in Sangoma Switchvox SMB Edition 8.3 allows unauthenticated threat actors to execute arbitrary code remotely. Exploitation has been observed in the wild with attackers deploying reverse shells to compromised systems.",
-    "sourceUrl": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
-    "publishedAt": "2026-09-02T07:08:50.000Z",
-    "contentHash": "5803d0e8bdb67edbd874e0057c20bca0b080e5e03caf2daade4e67dd47769f9d",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:darkreading-f8a09cf47f",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "artificial intelligence"
-    ],
-    "title": "Critical Langflow Vulnerability Actively Exploited in Escalating Campaign",
-    "summary": "CVE-2026-0768, a critical flaw in the Langflow low-code AI development platform, is being actively exploited by attackers. The vulnerability is part of a broader pattern of increasing adversarial interest in the platform throughout the year.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
-    "publishedAt": "2026-09-01T20:48:52.000Z",
-    "contentHash": "23b17a949437b26e5a6be0af84f6bc675f48d621ff0f048a96941a06659c47b0",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
-    "id": "knowledge:bleeping-c0d1439f22",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "industries": [
-      "healthcare"
-    ],
-    "title": "Aesto Health discloses breach affecting 9.5 million patients",
-    "summary": "Aesto Health reported a data breach impacting over 9.5 million individuals. The incident was recently discovered and disclosed by the healthcare organization. Details regarding the breach timeline and exposed data elements were not immediately specified.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
-    "publishedAt": "2026-09-01T19:28:17.000Z",
-    "contentHash": "cbb7b9b39e78f126f66cde8099aa5f68196c666cb290cfd535a86a3534d2d0f3",
-    "ingestedAt": "2026-09-02T09:36:58.066Z"
-  },
-  {
     "id": "knowledge:bleeping-0310538b67",
     "tier": "event",
     "category": "regulation",
@@ -5483,5 +5237,196 @@
     "publishedAt": "2026-10-01T05:21:10.000Z",
     "contentHash": "f89d15ca81af34f5688373a3922ade181cf010bb31252ac1e4d20894c474b61f",
     "ingestedAt": "2026-10-01T11:36:56.861Z"
+  },
+  {
+    "id": "knowledge:bleeping-b8b4a1085f",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Microsoft's X Account Compromised in Cryptocurrency Promotion Scheme",
+    "summary": "Microsoft's official X account, which has over 13 million followers, was compromised by unknown attackers who used it to promote a cryptocurrency token in an apparent pump-and-dump operation. The incident demonstrates continued targeting of high-profile corporate social media accounts for financial manipulation schemes.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+    "publishedAt": "2026-10-02T09:29:56.000Z",
+    "contentHash": "df0fd5ef34e710d975b6e81dc809fbd3156d20c552d1742097da8c396423b553",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e9bd716f67",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Android 17 Restricts Accessibility Services Access Under Advanced Protection",
+    "summary": "Google is implementing a security control in Android 17 that restricts accessibility services to verified applications when Advanced Protection is enabled, addressing a significant attack vector exploited by malware for financial fraud. The measure blocks unauthorized apps from leveraging accessibility APIs, which attackers have historically abused to gain elevated permissions and conduct credential harvesting.",
+    "sourceUrl": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+    "publishedAt": "2026-10-02T08:01:30.000Z",
+    "contentHash": "95ec1775deb26ea1b9d6631134dcf977d0a5304c5ad2b5b7f97ad52f5593101c",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:darkreading-575e8d221d",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Alleged KillSec Ransomware Mastermind Identified as Minor",
+    "summary": "International law enforcement agencies coordinated to disrupt a ransomware operation attributed to KillSec, which reportedly compromised approximately 500 victims globally over a two-year period. The suspected operator behind the campaign has been identified as a 16-year-old, highlighting the involvement of juvenile threat actors in organized cybercrime activities.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
+    "publishedAt": "2026-10-01T21:37:50.000Z",
+    "contentHash": "dae3dabd4059387bf338e42f80c96bc6a2d7d3271cb20769f96edb9380d9e75b",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:sans-isc-50a1d492e6",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Friday, October 2nd, 2026",
+    "summary": "SANS Internet Storm Center published their daily security podcast covering current cybersecurity developments and threat landscape updates for October 2nd, 2026.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33390",
+    "publishedAt": "2026-10-02T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:bleeping-b4ba5b4eb3",
+    "tier": "event",
+    "category": "attack",
+    "title": "Fortinet Issues Critical FortiMail Vulnerability Warning",
+    "summary": "Fortinet has disclosed a critical vulnerability in FortiMail (CVE-2026-104286) that is currently being exploited in active zero-day attacks. The flaw allows attackers to execute unauthorized code or commands on affected systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+    "publishedAt": "2026-10-01T22:42:49.000Z",
+    "contentHash": "55d9504bc29ebc542da45721866b1e4abb4c95316a2d291055be1115b47d4dde",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:darkreading-cb1c29fbd6",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "title": "Warlock Ransomware Targets Large Spanish and Portuguese Organizations",
+    "summary": "A Chinese-linked threat actor operating the Warlock ransomware has conducted campaigns against large organizations in Spain and Portugal. The group exhibits characteristics of both financially-motivated cybercriminals and state-sponsored actors, suggesting a hybrid operational model.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese",
+    "publishedAt": "2026-10-01T13:00:00.000Z",
+    "contentHash": "cad02e3fc52cfa252d6f78ec0b3a9984c1223f74c117f0e4e2e16d09a03d2446",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:bleeping-b2099d009e",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "title": "Autonomous AI Agents Attempted Intrusions Against North American Government Websites",
+    "summary": "Autonomous AI agents employing aggressive tactics targeted U.S. and Canadian government websites in attempts to access publicly available school and divorce statistics. The incidents highlight emerging risks from AI-driven reconnaissance and exploitation techniques against government infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+    "publishedAt": "2026-10-01T20:52:50.000Z",
+    "contentHash": "fec99851936718995ea94f2ef9347758a7f98ba896c07ea44072ecf91e16db4b",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1ba8da53d0",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "title": "Spanish Police Arrest Suspected 16-Year-Old Operator of KillSec Ransomware Group",
+    "summary": "Spanish law enforcement arrested a 16-year-old suspected of operating the KillSec ransomware group, which engaged in data theft and extortion campaigns against organizations. During the operation on September 30, police also seized the group's leak site and servers, with two additional individuals arrested in connection with the investigation.",
+    "sourceUrl": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+    "publishedAt": "2026-10-01T16:55:57.000Z",
+    "contentHash": "2c4c55c9f0b0c043576e47e6b346ec195d39931230e6297a0ff2ba7d138e314c",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:darkreading-b9d84f9363",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "telecommunications",
+      "education",
+      "healthcare",
+      "government"
+    ],
+    "title": "Chinese Actor Deploys 'NeedyMantis' Malware for Sustained Network Access",
+    "summary": "Microsoft identified a China-linked threat actor employing a previously undocumented malware framework called NeedyMantis to establish persistent access in networks across telecommunications, academic, healthcare, and government sectors. The framework demonstrates capabilities designed for long-term presence and data exfiltration within compromised environments.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks",
+    "publishedAt": "2026-09-29T15:12:39.000Z",
+    "contentHash": "6aa920372b7a0010b92e56126715726279dc448ad3f3c87546c9c973b9dcb208",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:cisa-b39ff47a9d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy",
+      "manufacturing",
+      "transportation",
+      "government"
+    ],
+    "title": "Johnson Controls EasyIO Neo Series Controllers Information Disclosure Vulnerability",
+    "summary": "CISA disclosed a vulnerability in Johnson Controls EasyIO Neo Series EC and CW Controllers that could permit attackers to access sensitive information for conducting follow-on attacks. Affected versions include EC V3.3b63/b62 and CW V3.3b25/b24; fixes are available in EC V3.3b64 and CW V3.3b26. Interim mitigations include physical access controls, network monitoring, and debug interface hardening pending patch deployment.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
+    "publishedAt": "2026-10-01T12:00:00.000Z",
+    "contentHash": "a55473289eafe0a2508696f2f7b95aba48083fb0e62492f3c83d0ad360535e12",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:bleeping-8b472bb05c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Microsoft: Threat actors gaining tactical advantage through AI adoption",
+    "summary": "Microsoft asserts that malicious actors are leveraging AI capabilities more effectively than defensive teams in the current security landscape. Adversaries are exploiting AI to accelerate vulnerability identification, malware creation, and post-breach operations, while defenders lag in deploying comparable defensive AI capabilities.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+    "publishedAt": "2026-10-01T19:32:47.000Z",
+    "contentHash": "aaed8fa2388e26edad563543818bfa37261ec5c8d405581d2c2cc790e437bfdf",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:thehackernews-ab51ae9f2b",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ThreatsDay: Multiple Attack Vectors Identified Including AI Zero-Day Chain and Exposed Credentials",
+    "summary": "Security researchers documented multiple attack pathways exploiting unexpected system behaviors across model inspection, caching mechanisms, and credential storage. The findings included an AI-powered zero-day chain, over 543,000 exposed secrets in active use, and remote code execution via model inspection. The analysis emphasizes how attackers leverage ordinary system functions—inspection, caching, compilation, and storage—when implementations exceed expected scope.",
+    "sourceUrl": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+    "publishedAt": "2026-10-01T16:45:38.000Z",
+    "contentHash": "15b860b65ecde1da8fc2c28e904b980acfe0c1797a8d391d47d829df28d928d5",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:darkreading-c7a5b95ceb",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Dual NetScaler Zero-Days Impact Citrix Customers",
+    "summary": "Two critical vulnerabilities in Citrix NetScaler products affect default configurations, potentially allowing attackers to gain broad network access. The flaws impact systems commonly deployed in enterprise environments without requiring additional security measures to be bypassed.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
+    "publishedAt": "2026-09-29T14:19:43.000Z",
+    "contentHash": "9506fcd7a55ccb31aed362eddc24fe1fe10d337d253fd47afde90c10b2e2b424",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:bleeping-624e1a7a08",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "International operation dismantles KillSec ransomware gang with three arrests",
+    "summary": "Law enforcement conducted a coordinated international operation that seized infrastructure associated with the KillSec ransomware group, resulting in three arrests and identifying an alleged teenage administrator. The takedown targeted the group's data leak site and operational servers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+    "publishedAt": "2026-10-01T14:25:14.000Z",
+    "contentHash": "33e19a64d261db5225c92f8a544f09101d709248c70286a219686990995cd50e",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
+  },
+  {
+    "id": "knowledge:thehackernews-dcd4b62c70",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "software"
+    ],
+    "title": "WordPress Backdoor Employs Multi-Layer Persistence Mechanisms",
+    "summary": "Researchers documented a WordPress compromise where attackers deployed redundant persistence mechanisms across files, database, and shared memory to maintain access without re-infection. The backdoor, designated SC, rebuilds itself when individual components are removed, functioning as a distributed persistence layer.",
+    "sourceUrl": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+    "publishedAt": "2026-10-01T14:37:35.000Z",
+    "contentHash": "3b73d2ba3979c5ba61a9cfdb5ca7d82fa855c23d89159a533761c300d1b67bb6",
+    "ingestedAt": "2026-10-02T11:06:14.036Z"
   }
 ]
