@@ -2333,5 +2333,95 @@
     ],
     "category": "threat-intel",
     "publishedAt": "2026-10-01T14:37:35.000Z"
+  },
+  "knowledge/cisa-0ed309bdb2.md": {
+    "region": "us",
+    "category": "threat-intel",
+    "publishedAt": "2026-10-02T12:00:00.000Z"
+  },
+  "knowledge/darkreading-5a09c5ac00.md": {
+    "category": "product-release",
+    "publishedAt": "2026-10-02T20:18:37.000Z"
+  },
+  "knowledge/bleeping-e611cb20ae.md": {
+    "industries": [
+      "water",
+      "telecommunications",
+      "government",
+      "education"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-02T18:33:01.000Z"
+  },
+  "knowledge/thehackernews-2fb0abb39d.md": {
+    "region": "apac",
+    "industries": [
+      "government"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-02T17:33:16.000Z"
+  },
+  "knowledge/darkreading-c85075d09d.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-02T16:56:30.000Z"
+  },
+  "knowledge/bleeping-9814dffcb6.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-02T16:20:05.000Z"
+  },
+  "knowledge/thehackernews-5f13530361.md": {
+    "industries": [
+      "cloud-services",
+      "infrastructure",
+      "containers"
+    ],
+    "category": "product-release",
+    "publishedAt": "2026-10-02T17:02:12.000Z"
+  },
+  "knowledge/darkreading-f071bbafdb.md": {
+    "region": "global",
+    "industries": [
+      "banking",
+      "government"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-02T16:27:54.000Z"
+  },
+  "knowledge/bleeping-5098f8e142.md": {
+    "region": "us",
+    "industries": [
+      "financial services"
+    ],
+    "category": "news",
+    "publishedAt": "2026-10-02T15:20:53.000Z"
+  },
+  "knowledge/thehackernews-e5ad3ab89f.md": {
+    "region": "us",
+    "category": "news",
+    "publishedAt": "2026-10-02T12:23:15.000Z"
+  },
+  "knowledge/darkreading-04957202ca.md": {
+    "category": "analyst",
+    "publishedAt": "2026-10-02T16:01:22.000Z"
+  },
+  "knowledge/bleeping-f4b6d95f5f.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-02T14:00:10.000Z"
+  },
+  "knowledge/thehackernews-43a11e7cfe.md": {
+    "category": "strategy",
+    "publishedAt": "2026-10-02T11:30:00.000Z"
+  },
+  "knowledge/darkreading-32720f1735.md": {
+    "category": "strategy",
+    "publishedAt": "2026-10-02T15:51:33.000Z"
+  },
+  "knowledge/bleeping-778774296a.md": {
+    "industries": [
+      "technology",
+      "infrastructure"
+    ],
+    "category": "product-release",
+    "publishedAt": "2026-10-02T12:37:40.000Z"
   }
 }
