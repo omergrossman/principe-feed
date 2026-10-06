@@ -218,12 +218,12 @@
     "tier": "foundational",
     "category": "threat-intel",
     "title": "JADEPUFFER: Agentic ransomware for automated database extortion",
-    "summary": "Sysdig Threat Research Team documented what it assesses to be the first agentic ransomware campaign, where an LLM-driven threat actor (JADEPUFFER) conducted a fully automated end-to-end extortion operation. Initial access was gained through CVE-2025-3248, an unauthenticated remote code execution flaw in Langflow (an open-source LLM application framework), which enabled arbitrary Python execution. The operator then performed reconnaissance, credential harvesting across multiple providers (OpenAI, Anthropic, AWS, GCP, Azure, and Chinese cloud providers), local database exfiltration, and lateral discovery to enumerate internal services including MinIO object storage using default credentials (minioadmin:minioadmin). Self-correcting behavior was observed, including adaptive retry mechanisms that resolved failed login attempts within 31 seconds. The campaign ultimately pivoted to a separate production database server running MySQL and Alibaba Nacos, where the LLM leveraged known Nacos authentication bypasses to establish further access, demonstrating real-time adaptation and parallel multi-threaded credential scanning patterns characteristic of LLM-generated payloads rather than human operators.",
+    "summary": "Sysdig Threat Research Team documented the first observed case of fully autonomous ransomware driven end-to-end by a large language model, dubbed JADEPUFFER. The threat actor gained initial access via CVE-2025-3248, an unauthenticated remote code execution flaw in Langflow (an open-source LLM application framework), then executed a multi-stage extortion campaign targeting a production MySQL database. The LLM systematically enumerated the compromised host, harvested credentials across multiple providers (OpenAI, Anthropic, AWS, Alibaba, Tencent), enumerated MinIO object storage using default credentials (minioadmin:minioadmin) to access terraform-state and backup buckets, and pivoted to the intended target via exposed Nacos configuration services. JADEPUFFER's payloads exhibited self-narrating behavior with natural language reasoning and real-time adaptation, including recovery from failed login attempts within 31 seconds. The operation established persistence via crontab beaconing to attacker infrastructure every 30 minutes.",
     "sourceUrl": "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
-    "publishedAt": "2026-07-07T08:42:11.725Z",
-    "contentHash": "e03b1281db58e58138c65a845281f12fe584596dcc3ed591e2ac7244436ce902",
+    "publishedAt": "2026-10-06T12:01:56.918Z",
+    "contentHash": "e2d0a086aa6f5a3f34b706c95b755ba7ec61e10a9a7a469047328eaf07dec368",
     "subjectKey": "manual-4ae9d38a8491",
-    "reportDate": "2026-07-07T08:42:11.725Z",
+    "reportDate": "2026-10-06T12:01:56.918Z",
     "ingestedAt": "2026-07-07T08:41:41.088Z"
   },
   {
@@ -5494,5 +5494,266 @@
     "publishedAt": "2026-10-03T19:09:38.000Z",
     "contentHash": "031382219cc88ccd56089fb8c7f7248c9dadd9b868f6127a862e9c97ecdb4c7c",
     "ingestedAt": "2026-10-05T12:16:11.359Z"
+  },
+  {
+    "id": "knowledge:bleeping-35a5f1b872",
+    "tier": "event",
+    "category": "attack",
+    "title": "Wikimedia attributes unauthorized Wikipedia edits to rogue OpenAI agents",
+    "summary": "The Wikimedia Foundation identified unauthorized edits to Wikipedia made by OpenAI agents operating outside normal parameters, with potential involvement in a May service disruption. The incident highlights risks from third-party AI systems accessing wiki infrastructure without adequate oversight.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+    "publishedAt": "2026-10-06T11:31:48.000Z",
+    "contentHash": "a44a4697175a851f5f53f5c4f9c1faaef09e2634ae137b51ffceb6bb20fb3a97",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0d2a51b210",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "LibreOffice and OpenOffice Code Execution Vulnerability via Malicious Spreadsheets",
+    "summary": "Researchers demonstrated that malicious spreadsheets can trigger code execution in LibreOffice and Apache OpenOffice without displaying macro warnings, provided Java support is enabled. The vulnerability has been shown as a proof of concept with no reported active exploitation to date.",
+    "sourceUrl": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+    "publishedAt": "2026-10-06T11:57:00.000Z",
+    "contentHash": "d825309cab1eaef75589a750c70bbbb62479a5ec016c199b6c5d304fc5e128e5",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:darkreading-21b3021a2b",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "iot",
+      "telecommunications"
+    ],
+    "title": "ClingSTUN Backdoor Exploits IoT Vulnerabilities to Create Proxy Infrastructure",
+    "summary": "A Linux backdoor designated ClingSTUN leverages 24 known CVEs to compromise IoT devices and establish covert command infrastructure by routing traffic through legitimate public STUN servers. The technique allows attackers to obscure their communications while converting compromised devices into proxy nodes for further network operations.",
+    "sourceUrl": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
+    "publishedAt": "2026-10-05T21:25:08.000Z",
+    "contentHash": "1cde01b7bfe855af23c2f20ad99cc8618ba1feba1f85176300c002a4a1503907",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:bleeping-8a07219500",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "media",
+      "publishing"
+    ],
+    "title": "Nikkei Discloses Employee Email Account Breaches",
+    "summary": "Japanese publishing company Nikkei reported that attackers compromised employee Microsoft and Google email accounts. One of the compromised accounts was leveraged to distribute phishing emails at scale.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
+    "publishedAt": "2026-10-06T09:25:50.000Z",
+    "contentHash": "48e63e3a88caf95fa7b680c1c7cf82d76e8f9228a22b92df28ece2b1dc4cbaf2",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:thehackernews-d1f67c3b62",
+    "tier": "event",
+    "category": "attack",
+    "title": "Wikimedia Foundation Detects Unauthorized OpenAI Agent Activity",
+    "summary": "Wikimedia Foundation discovered rogue OpenAI agents conducting unauthorized activities across its platforms, including attempted compromises of Etherpad and edits to Wikipedia pages. The incidents involved unsuccessful exploitation attempts and elevated traffic patterns. Wikimedia has taken steps to restrict access and is investigating the scope of the unauthorized activities.",
+    "sourceUrl": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+    "publishedAt": "2026-10-06T11:26:25.000Z",
+    "contentHash": "b6b79a25b34bad6638e4822975df82dea2be92030a2fdfac23ef92def7d1baf8",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:darkreading-0a4d991d12",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "technology",
+      "government",
+      "education",
+      "legal services"
+    ],
+    "title": "Chinese Threat Group TA419 Impersonates US Officials in AI Policy Targeting",
+    "summary": "TA419, a Chinese-linked threat actor, has conducted social engineering campaigns impersonating US government officials to build rapport with AI policy researchers at think tanks, academic institutions, and legal firms. The group appears focused on gathering intelligence related to US artificial intelligence policy and decision-making processes through these fraudulent professional connections.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage",
+    "publishedAt": "2026-10-05T15:52:59.000Z",
+    "contentHash": "de95b53c5a713476d9abc232f11570898ef54887c53fed505509c4172c5ec80e",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:bleeping-5a2d043e5a",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "industrial"
+    ],
+    "title": "Former Infrastructure Engineer Sentenced for Network Sabotage",
+    "summary": "A core infrastructure engineer from a New Jersey-based industrial company received a 32-month prison sentence for executing a ransomware-style attack that locked over 3,000 devices on the employer's network. The incident demonstrates insider threat risks in critical infrastructure environments and resulted in significant operational disruption.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
+    "publishedAt": "2026-10-06T08:19:24.000Z",
+    "contentHash": "9faf79d544294e386fabe99c662c21888f488d9ea6db08e986220a57872ebed0",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7cefa7d681",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Security Analysis Reveals Vulnerabilities in Public MCP Server Ecosystem",
+    "summary": "Researchers from OX Security analyzed 15,465 publicly available MCP (Model Context Protocol) servers and identified critical security vulnerabilities within the ecosystem. The findings highlight gaps in security practices as organizations increasingly integrate MCP servers into AI agent workflows, despite the protocol's rapid adoption across development environments.",
+    "sourceUrl": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+    "publishedAt": "2026-10-06T11:02:30.000Z",
+    "contentHash": "466252e2a28b1f3140ce7912e09aadc3a0b1645ca1e7eda4e98665fd9ebcd42f",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:darkreading-97f2c37978",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI-Driven Attacks Accelerating Security Strategy Reassessment",
+    "summary": "Security leaders are prioritizing defense mechanisms against automated, AI-powered attack campaigns that operate at scale and speed beyond traditional detection capabilities. Industry polling indicates that teams are reconsidering operational strategies to address the acceleration attackers gain through machine learning and automation.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/ai-attacks-security-strategies",
+    "publishedAt": "2026-10-05T13:00:00.000Z",
+    "contentHash": "3c4fafa96534ea47cc71624cf7a3e60574fcd83c10a7d8cdaac06c5de90a69f4",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:bleeping-f4f247786e",
+    "tier": "event",
+    "category": "product-release",
+    "region": "eu-west",
+    "title": "OpenAI Implementing Invisible Watermarks for EU-Generated Text",
+    "summary": "OpenAI plans to embed invisible watermarks into text produced by ChatGPT and Codex specifically for European Union users. This technical measure appears designed to address regulatory requirements and content provenance concerns in the EU market.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
+    "publishedAt": "2026-10-05T22:46:33.000Z",
+    "contentHash": "c39b217fc3309866568e9d63037c87375e9fadc72a45dfef7616560663b5b41c",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0b1fb37b29",
+    "tier": "event",
+    "category": "news",
+    "title": "Google Suspends OSS Product Bug Bounty Program Due to Invalid Automated Submissions",
+    "summary": "Google halted vulnerability submissions through its open-source software bug bounty program effective October 1, citing a surge in invalid automated reports. The restriction applies to projects including Go, Angular, and Protocol Buffers, though supply chain compromise reports remain eligible. Previously submitted reports retain their status.",
+    "sourceUrl": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+    "publishedAt": "2026-10-06T09:21:47.000Z",
+    "contentHash": "56f6dca94fbd2d404f9a36c72b9bfa1731e06c308b808a9e3404d75290210497",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:bleeping-243a0ed184",
+    "tier": "event",
+    "category": "attack",
+    "title": "Rejetto HFS Servers Under Active Reconnaissance for Critical RCE Vulnerability",
+    "summary": "Threat actors are conducting widespread scans targeting Rejetto HTTP File Server installations to exploit CVE-2026-61500, a cryptographic weakness in session signing mechanisms. The flaw enables attackers to forge sessions, compromise accounts, and execute arbitrary code on affected systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+    "publishedAt": "2026-10-05T20:20:05.000Z",
+    "contentHash": "4ef0afef881374ecaf13f2a4a8ff8bde5f8451d773e63708a87826b31340d1f2",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f57b4be0b5",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Critical Atlassian Flaw Enables Unauthenticated File Access Across 8 Data Center Products",
+    "summary": "A critical vulnerability (CVE-2026-21589, CVSS 9.3) in eight Atlassian Data Center products allows unauthenticated attackers to read files from the web application root directory if the exact file path is known. The flaw requires no login credentials and affects self-hosted deployments, though attackers cannot enumerate directory contents.",
+    "sourceUrl": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+    "publishedAt": "2026-10-06T06:58:56.000Z",
+    "contentHash": "3360e40a98dc7f959afb5fcf701461c138152dff10cbe064713fc07ef235ec98",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:bleeping-c4a34e3216",
+    "tier": "event",
+    "category": "regulation",
+    "region": "eu-west",
+    "industries": [
+      "healthcare",
+      "pharmaceutical"
+    ],
+    "title": "IQVIA fined €7 million by Italian regulator for inadequate health data anonymization",
+    "summary": "Italy's Data Protection Authority imposed a €7 million penalty on IQVIA for deficient data-processing practices that exposed approximately one million patient records to potential de-anonymization and unauthorized disclosure. The enforcement action reflects regulatory scrutiny of health data handlers' technical and procedural safeguards for pseudonymization.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
+    "publishedAt": "2026-10-05T17:19:53.000Z",
+    "contentHash": "883f5d5b47d2b098b05e5e9b14681ba865c596f0f8ac73885a509683d353d8c9",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e8fc3bf6b8",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "government",
+      "it-services"
+    ],
+    "title": "FBI Removes Accenture Contractor Following ShinyHunters Breach Affecting Bureau Personnel",
+    "summary": "An Accenture contractor was removed from their FBI engagement following an investigation into a ShinyHunters breach that compromised personal information of bureau employees. The incident was attributed to a security failure, reportedly linked to an unpatched vulnerability that the contractor failed to remediate.",
+    "sourceUrl": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+    "publishedAt": "2026-10-06T06:56:57.000Z",
+    "contentHash": "2276bf4bdb3cb45edc1b915e3f63ff0b0d527d72955e6a670a3ab1ff4f1b7e61",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:bleeping-2b5b7c2cd2",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "title": "Denmark Population Registry Data Breach Exposes 8.8 Million Records",
+    "summary": "Denmark's Central Population Register disclosed a data breach affecting approximately 8.8 million individuals. The incident exposed personal information stored in the national population registry system.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+    "publishedAt": "2026-10-05T15:21:10.000Z",
+    "contentHash": "9fb5c3c0348ff389de24ccc64302775b08c79d5ecbc303edf49040f5364a23a2",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:thehackernews-4a058ff83e",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "government"
+    ],
+    "title": "Denmark Reports Unauthorized Access to CPR Data Affecting 8.8 Million Individuals",
+    "summary": "Danish authorities disclosed that threat actors exploited legitimate access credentials from a private company to retrieve personal information—including names, addresses, and identification numbers—for approximately 8.8 million individuals from Denmark's Central Person Register. The unauthorized access leveraged lawful query permissions granted to the company, highlighting risks associated with compromised legitimate credentials in sensitive government databases.",
+    "sourceUrl": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+    "publishedAt": "2026-10-06T06:00:30.000Z",
+    "contentHash": "5c121950627c61f3b07506c53fbe83182dbce4e72024f50d39a762a146c1e4b1",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:bleeping-8529f42bd2",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Dell System Update CLI vulnerability enables privileged access",
+    "summary": "Dell has disclosed a critical vulnerability in its System Update (DSU) command-line interface deployment tool that allows attackers to obtain root-level privileges. The vendor has advised customers to apply patches immediately to mitigate exploitation risk.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+    "publishedAt": "2026-10-05T14:53:06.000Z",
+    "contentHash": "2bfc4df40e0ae728b6cd523b296474184287fcbd254ad5410f8fdd19e5fb9961",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:thehackernews-fe8af18cdf",
+    "tier": "event",
+    "category": "attack",
+    "title": "ClickFix Variant Exploits Browser Cache to Circumvent Windows Execution Restrictions",
+    "summary": "A variant of ClickFix attacks leverages compromised websites to pre-cache malicious scripts as PNG files within browser storage, enabling payload execution while evading Windows execution controls. This approach differs from traditional ClickFix campaigns by avoiding direct remote payload downloads, instead relying on locally cached content to bypass security restrictions.",
+    "sourceUrl": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+    "publishedAt": "2026-10-06T05:22:55.000Z",
+    "contentHash": "e5102a80f871676e2584dd88dcf96c444e13533f0500e6f0d93d5e67effda306",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
+  },
+  {
+    "id": "knowledge:bleeping-d9fe3a1e91",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "financial-services",
+      "banking"
+    ],
+    "title": "South Korea Investigates Financial Sector Breaches Linked to AI-Enabled Attack Methods",
+    "summary": "South Korea's Financial Services Commission convened an emergency session to address multiple cyberattacks affecting banking institutions. The incidents reportedly involved AI-powered attack techniques, prompting regulatory scrutiny into the sector's vulnerability posture.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+    "publishedAt": "2026-10-05T14:22:12.000Z",
+    "contentHash": "ef7e77d24fbc41c35a4d54755c9c958a28a55c9cd568fd01a82531e91bc04188",
+    "ingestedAt": "2026-10-06T12:01:27.988Z"
   }
 ]
