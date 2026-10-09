@@ -1,10 +1,6 @@
 {
-  "at": "2026-10-06T12:01:27.988Z",
+  "at": "2026-10-09T11:53:43.193Z",
   "failures": [
-    {
-      "key": "sans-isc",
-      "reason": "Invalid character entity\nLine: 16\nColumn: 50\nChar: ;"
-    },
     {
       "key": "acsc-anz",
       "reason": "Request timed out after 20000ms"
