@@ -345,221 +345,6 @@
     "ingestedAt": "2026-09-09T09:44:48.894Z"
   },
   {
-    "id": "knowledge:bleeping-ed5e0e272a",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "software",
-      "mobile applications"
-    ],
-    "title": "Threat actors exploited Claude AI to analyze Android applications for vulnerabilities",
-    "summary": "Anthropic disclosed that multiple threat groups, including financially motivated actors and state-sponsored teams associated with Russia and China, attempted to misuse Claude for analyzing Android applications and extracting sensitive information from approximately 1.8 million apps. The company identified and blocked these abuse attempts as part of its ongoing security monitoring.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
-    "publishedAt": "2026-09-11T20:19:09.000Z",
-    "contentHash": "5945ec5ad867cad069ded2ac4ab51dfab06871463ecfdeee8dbb4865c10c9e71",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:thehackernews-a8b89596a4",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software-development",
-      "devops"
-    ],
-    "title": "GitLab Critical Path Traversal Vulnerability Attracts Active Reconnaissance",
-    "summary": "GitLab released patches for CVE-2026-85706, a CVSS 10.0 path traversal flaw in the repository commits API enabling unauthenticated arbitrary file access. Reconnaissance activity targeting the vulnerability was observed shortly after public disclosure, indicating active exploitation attempts in the wild.",
-    "sourceUrl": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-    "publishedAt": "2026-09-11T16:30:18.000Z",
-    "contentHash": "1b868ded148cf2e3723e1c6318ab4b3a84fc2f6995866375f580bd24c19b0aeb",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:darkreading-9846387cf4",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
-    "summary": "A threat actor demonstrated the capability to produce approximately 1 million personalized phishing emails within a 72-hour window, leveraging AI-driven tools to simultaneously scale volume and customize content. This development reflects an evolving attack methodology where adversaries can maintain message personalization at industrial scale, reducing the traditional trade-off between targeted credibility and campaign reach.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days",
-    "publishedAt": "2026-09-11T19:21:08.000Z",
-    "contentHash": "cccb66d3c1855bf8c7b4e0d7fdfbf753c5674b1b7fb3b797f21e033be971ee1e",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:sans-isc-df611a2dd3",
-    "tier": "event",
-    "category": "attack",
-    "title": "Attacker Operates AI Agent to Harvest and Resell LLM API Access",
-    "summary": "A researcher identified an attacker employing a semi-autonomous coding agent to systematically compromise poorly secured LLM resale platforms, obtain API credentials via common web vulnerabilities and account farming techniques, and consolidate the stolen inference capacity into a single attacker-controlled gateway. The operation demonstrates the feasibility of automating attacks against AI service supply chains.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33332",
-    "publishedAt": "2026-09-11T14:40:32.000Z",
-    "contentHash": "4d6d31074ebe06b0bd8f8ba2ca1484f24769ad0daea8da4915dc1c65b01169fd",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:bleeping-a16d629117",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "government",
-      "law enforcement"
-    ],
-    "title": "Florida DMV Database Breached Through Compromised Law Enforcement Credentials",
-    "summary": "The Florida Department of Highway Safety and Motor Vehicles confirmed unauthorized access to its DAVID driver database after attackers exploited stolen credentials from a police department employee. The incident demonstrates how credential compromise within trusted partner agencies can serve as an entry point to sensitive state databases.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
-    "publishedAt": "2026-09-11T19:00:29.000Z",
-    "contentHash": "e0761e8a3cbc81d0d7149e778ade6d3dc1bf748545341a7747230bb1757479f2",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:thehackernews-ec242e7e40",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "artificial intelligence"
-    ],
-    "title": "Anthropic Disrupts Industrial-Scale Claude Distillation Attacks from Chinese AI Labs",
-    "summary": "Anthropic identified and disrupted unauthorized distillation attacks against Claude originating from seven Chinese AI laboratories, including Alibaba, DeepSeek, and Moonshot. The company detected attempts to extract model capabilities at scale through knowledge distillation, a technique that transfers learned patterns from one model to another. Anthropic took action to prevent further unauthorized access and model replication.",
-    "sourceUrl": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-    "publishedAt": "2026-09-11T16:15:29.000Z",
-    "contentHash": "d22218052e941b41bc4c5a8cfc7f7b950e0aa4ff90cebd07ab92116dec5f0e84",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:darkreading-c299141b75",
-    "tier": "event",
-    "category": "regulation",
-    "region": "us",
-    "title": "CISA Pushes for Enhanced Transparency in Breach Notification and Incident Response",
-    "summary": "A joint government advisory indicates regulatory movement toward stricter breach notification and incident response transparency requirements. CISA is signaling expectations for organizations to adopt clearer protocols rather than rely on opaque or minimized disclosures during cyber incidents.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate",
-    "publishedAt": "2026-09-11T18:44:03.000Z",
-    "contentHash": "4063a1f4a52ad362bbf879d04c4f128f1440a886c148ec1813b082ae389c5cdf",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:sans-isc-e5afbc8a29",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ISC Stormcast For Friday, September 11th, 2026",
-    "summary": "SANS Internet Storm Center's Stormcast podcast episode for September 11th, 2026 provides regular cybersecurity updates and threat briefings. The episode covers current threat intelligence and security developments relevant to the broader cybersecurity community.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33330",
-    "publishedAt": "2026-09-11T02:00:02.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:bleeping-82dfd2b2ae",
-    "tier": "event",
-    "category": "attack",
-    "title": "Passkey-themed phishing attacks targeting Microsoft 365 accounts",
-    "summary": "Threat actors associated with ShinyHunters, Helix, and other extortion groups are conducting social engineering campaigns that exploit passkey and single sign-on concepts to compromise Microsoft 365 accounts and exfiltrate organizational data. The attacks leverage user familiarity with authentication technology to increase credibility of phishing attempts.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-    "publishedAt": "2026-09-11T17:26:50.000Z",
-    "contentHash": "d5c0b40ff6b60b539907174b8daa7263e832337bfb3ee01caa1ff50ff4a3c8a2",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:thehackernews-0f8accb03f",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Claude AI Models Exploited for Automated Cyber Attacks and Data Theft",
-    "summary": "Anthropic disclosed that threat actors, including state-sponsored groups and financially motivated criminals, have used Claude models to automate exploitation attacks, facilitate data theft, and conduct surveillance operations between December 2025 and August 2026. The company identified multiple Generative Threat Groups (GTGs) leveraging the AI platform for malicious purposes including weapons design and propaganda campaigns.",
-    "sourceUrl": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-    "publishedAt": "2026-09-11T14:29:47.000Z",
-    "contentHash": "4284ebad0a13d2ead326e05e036887ccf2add42af049ed90c1753504b9a097ec",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:darkreading-149efb9377",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "AI's Effectiveness in Social Engineering and Behavioral Manipulation",
-    "summary": "Research from Menlo Park Intelligence examines how advanced AI models can be leveraged to influence human behavior and establish psychological dependencies. The study highlights technical capabilities that make frontier AI systems particularly effective vectors for social engineering attacks and manipulation campaigns.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/ai-scamming-humans",
-    "publishedAt": "2026-09-11T18:14:06.000Z",
-    "contentHash": "268836d52094df55bec061a1f21cd64ce74d28f92707a4c7c6838dbd8ca99b5d",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:sans-isc-7bcb154873",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Redtail Payload Analysis",
-    "summary": "A technical analysis of the Redtail malware payload was documented by a SANS intern, examining its behavioral characteristics and operational mechanics. The diary entry provides reverse-engineering insights into the malware's execution flow and potential infection vectors.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33326",
-    "publishedAt": "2026-09-10T12:58:10.000Z",
-    "contentHash": "a7e52cdd0cf7e6024a6b228bda12587671d17b3aaeeb5a3b7bc6d1b75a0d6c35",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:cisa-9eb9ce0ff0",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "healthcare"
-    ],
-    "title": "Orthanc DICOM Server Heap Buffer Overflow Vulnerability (CVE-2026-87020)",
-    "summary": "CISA disclosed a high-severity integer overflow vulnerability in Orthanc DICOM Server versions prior to 1.13.0 that allows authenticated remote attackers to trigger heap out-of-bounds writes when processing malicious PNG or JPEG images, potentially causing process crashes and denial-of-service conditions. The vendor recommends immediate updates to version 1.13.0. No active exploitation has been reported.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
-    "publishedAt": "2026-09-10T12:00:00.000Z",
-    "contentHash": "d0aef7afd0b9e95f4160c2afe705de2eaee562b42912219e473a0ef253d544c8",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:bleeping-a9e03aba59",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "devops",
-      "technology"
-    ],
-    "title": "Artifactory Vulnerabilities Exploited to Deploy Rust Backdoor",
-    "summary": "Attackers are chaining critical and high-severity flaws in JFrog Artifactory to circumvent authentication controls and escalate privileges on self-hosted instances. The exploitation culminates in deployment of a Rust-based backdoor, enabling persistent system compromise.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
-    "publishedAt": "2026-09-11T16:29:44.000Z",
-    "contentHash": "19a4317f6738f0155b3bdb41c7b9e7b7c9485fdc38e077e5008fba2e47c444f6",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:thehackernews-dae251a200",
-    "tier": "event",
-    "category": "attack",
-    "title": "Russian State-Sponsored Group Exploited Claude AI to Automate Malware Development",
-    "summary": "Anthropic disrupted a campaign by Russian state-sponsored actors who leveraged Claude to streamline malware reconstruction and evasion workflows. The threat group, tracked as GTG-20006, used the AI model to accelerate development cycles and stay ahead of detection mechanisms, representing an emerging pattern of state-backed actors integrating generative AI into offensive operations.",
-    "sourceUrl": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-    "publishedAt": "2026-09-11T14:10:20.000Z",
-    "contentHash": "cb534ebe66102fc70dc11db8c60c4ccd79009b5473db647e6046fdec41dc7b2a",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:darkreading-f232a48731",
-    "tier": "event",
-    "category": "strategy",
-    "title": "AI Governance Can't Wait",
-    "summary": "Adversaries can manipulate AI-based defensive reasoning systems to compromise networks without detection. The article emphasizes that organizations need to establish governance frameworks for AI security tools before widespread deployment, as current systems lack sufficient safeguards against adversarial manipulation.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait",
-    "publishedAt": "2026-09-11T17:10:56.000Z",
-    "contentHash": "7552e55089e04275c45444de4f4058119f99db13b6c130a65f02db7a521d77e5",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
-    "id": "knowledge:sans-isc-9d84e1c393",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast Podcast – September 10, 2026",
-    "summary": "SANS Internet Storm Center's daily cybersecurity briefing covering recent threat activity, vulnerability disclosures, and defensive recommendations for IT security professionals.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33328",
-    "publishedAt": "2026-09-10T10:10:11.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-12T09:21:28.156Z"
-  },
-  {
     "id": "knowledge:bleeping-59b3d76728",
     "tier": "event",
     "category": "threat-intel",
@@ -5411,5 +5196,239 @@
     "publishedAt": "2026-10-09T16:25:05.000Z",
     "contentHash": "9ab23fa2afc663243182b1a5842c13640228e01d11d6fb5d1ccd25e2594bfe01",
     "ingestedAt": "2026-10-10T11:10:26.468Z"
+  },
+  {
+    "id": "knowledge:bleeping-768e82c2b3",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "GitLab patches maximum-severity code execution vulnerability in CI/CD component",
+    "summary": "GitLab disclosed a critical vulnerability in its CI/CD Regular Expression Compiler that enables remote code execution on affected instances. The company has advised users to apply patches immediately to mitigate exploitation risk.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+    "publishedAt": "2026-10-12T13:09:09.000Z",
+    "contentHash": "7fba651445a142a305309b1b6e7435ed9f3e1d88e97ca19b48c3ebf51f6b8422",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:thehackernews-87353277b1",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Personal AI Agents Creating Enterprise Security Gaps as Employees Adopt Unauthorized Tools",
+    "summary": "Organizations face emerging risks as employees deploy personal AI agents in work environments without proper identification or security controls. Notable incidents include Amazon blocking Meta's Muse for inadequate bot identification and ongoing privacy vulnerabilities across multiple platforms, yet adoption continues driven by perceived productivity benefits.",
+    "sourceUrl": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+    "publishedAt": "2026-10-12T11:55:00.000Z",
+    "contentHash": "97d6310dcfdeb57eb3fb814baa9ee81e00f9073ed4850be3b9b698d74f25325f",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:darkreading-d9049e0762",
+    "tier": "event",
+    "category": "news",
+    "title": "Fahmida Y Rashid Appointed Editor-in-Chief of Dark Reading",
+    "summary": "Dark Reading has announced a new editorial leadership transition. Fahmida Y Rashid will assume the role of Editor-in-Chief to guide the publication's ongoing coverage and editorial direction.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/passing-baton-dark-reading-new-editor-in-chief",
+    "publishedAt": "2026-10-12T12:30:58.000Z",
+    "contentHash": "d9b2cea4f64824b79b4c0d23bab440a0d4c77d84298014462ddc29f16b824f60",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:sans-isc-1a296f711c",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast - October 12th, 2026",
+    "summary": "SANS Internet Storm Center's regular security briefing covering current threat landscape developments and incident response topics relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33416",
+    "publishedAt": "2026-10-12T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-bd329adf4c",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC seeks input on organizational approaches to external attack surface management",
+    "summary": "The UK's National Cyber Security Centre is conducting research to understand how organizations evaluate, select, and implement external attack surface management (EASM) solutions. The initiative aims to gather perspectives from practitioners involved in these decision-making and deployment processes.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "contentHash": "36d86640546a7a96d316805bb88ed6048d30a0427f6abbfd34a7a75b6c08f864",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:cisa-70be64174d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy",
+      "water and wastewater systems"
+    ],
+    "title": "CISA Advisory: Critical Buffer Overflow in Savannah lwIP SMTP Client 2.2.1",
+    "summary": "A critical buffer overflow vulnerability (CVE-2026-15340, CVSS 9.8) has been identified in Savannah lwIP SMTP client 2.2.1, affecting devices deployed worldwide in energy and water infrastructure. The flaw allows unauthenticated remote code execution or device crash due to insufficient input validation. A patch has been released and is available via git commit.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02",
+    "publishedAt": "2026-10-06T12:00:00.000Z",
+    "contentHash": "cf2230f9fe356c75af0678868e0027771e4cbb4462731834f9bf030e46cd204e",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:thehackernews-001d5c2cb7",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "cryptocurrency",
+      "hardware security"
+    ],
+    "title": "Ledger Investigates Unauthorized Hardware Implant in CryptoBilis-Distributed Wallets",
+    "summary": "Ledger has suspended sales through reseller CryptoBilis after reports of fund theft from users in Southeast Asia who purchased devices through that channel. The company is investigating whether an unauthorized hardware implant was introduced into devices sold by CryptoBilis, with reported losses exceeding $86,000. The incident highlights supply chain vulnerabilities in hardware wallet distribution.",
+    "sourceUrl": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+    "publishedAt": "2026-10-12T11:21:48.000Z",
+    "contentHash": "20b94aff9d25df4d11885f34aaf6a5fe9c7f925eddbafe58b65a00464a18d31c",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:darkreading-a85203d169",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Social Engineering AI Agents: The New BEC for 2026",
+    "summary": "As AI agents assume greater control over business systems and decision-making processes, security researchers highlight emerging attack vectors where threat actors manipulate these systems similarly to traditional business email compromise tactics. The shift reflects how attackers are adapting social engineering techniques to target autonomous AI systems rather than human users.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026",
+    "publishedAt": "2026-10-09T13:00:00.000Z",
+    "contentHash": "0e7a0e03694587d48f5d0ddbb4be133aeb54a1e57bd01e761e65c0ea98631f0a",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:sans-isc-3a8c72da98",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Additional RMM Tools Identified in Active Threat Operations",
+    "summary": "Security researchers have identified multiple remote management and monitoring (RMM) tools being leveraged by threat actors in the wild, extending beyond previously documented cases like ScreenConnect. The discovery reflects an ongoing trend of adversaries exploiting legitimate administrative software for malicious purposes.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33400",
+    "publishedAt": "2026-10-06T13:16:02.000Z",
+    "contentHash": "763aeeef525ca4a406107180a16e161ccd80fb9d42d77f1382b86234abb69f76",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:bleeping-406e1eebee",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "entertainment",
+      "karaoke"
+    ],
+    "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+    "summary": "Daiichi Kosho, a Japanese entertainment systems manufacturer, disclosed that malware deployed at contractor Nippon Columbia compromised over 8.7 million customer and employee records. The breach affected the karaoke service provider's data infrastructure through the third-party vendor.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+    "publishedAt": "2026-10-11T14:23:46.000Z",
+    "contentHash": "b60c125111b2aab4a79bc4d3ab1be0b84661b1cc3913de3ec2f1af2262791a78",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c7baac5e71",
+    "tier": "event",
+    "category": "attack",
+    "title": "Critical SonicWall SMA 1000 Vulnerability Actively Exploited Post-Disclosure",
+    "summary": "A critical pre-authenticated SSRF vulnerability (CVE-2026-102255, CVSS 10.0) in SonicWall Secure Mobile Access 1000 appliances has been targeted in at least 135 exploitation attempts following public disclosure. The flaw enables remote attackers to direct affected appliances to issue unauthorized requests, creating immediate risk for organizations operating vulnerable infrastructure.",
+    "sourceUrl": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+    "publishedAt": "2026-10-12T10:36:56.000Z",
+    "contentHash": "87c783badebd09163d23cf4646e4e2985f45c2740a1dd40331d69d7ba9990635",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:darkreading-fe74064648",
+    "tier": "event",
+    "category": "news",
+    "title": "Dark Reading Announces New Chapter in Publication History",
+    "summary": "Dark Reading, a long-established cybersecurity publication, has announced a new phase in its organizational evolution. The announcement indicates upcoming changes to the publication's direction and operations as it enters a new decade.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/writing-next-chapter",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "contentHash": "7e8780e01fb3ed9597e02cb9a5d3eefe22b8dda048ab702a04035ddc3df15c81",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9c1ce97410",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Tuesday, October 6th, 2026",
+    "summary": "SANS Internet Storm Center's daily security briefing covering current threat landscape developments and defensive considerations for information security professionals.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33402",
+    "publishedAt": "2026-10-06T11:45:11.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:bleeping-4954458057",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Canadian Cybersecurity Executive Arrested in Connection with ShinyHunters-Linked Extortion",
+    "summary": "A Canadian cybersecurity executive was arrested in Pennsylvania on suspicion of extortion activities connected to the ShinyHunters hacking group, according to multiple reports. The arrest is part of ongoing FBI investigative efforts targeting the group's operations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+    "publishedAt": "2026-10-10T15:07:54.000Z",
+    "contentHash": "8b0c351407ba305166420bfd208f2c9f082bd5413cf50e05708e51cd7499af81",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c9dce304dc",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software"
+    ],
+    "title": "Bricksforge WordPress Plugin Exploited for Unauthenticated Remote Code Execution",
+    "summary": "A maximum-severity vulnerability (CVE-2026-85097, CVSS 10.0) in the Bricksforge WordPress plugin is being actively exploited to enable unauthenticated remote code execution. The flaw permits attackers to upload and execute arbitrary PHP code on affected WordPress installations without requiring authentication.",
+    "sourceUrl": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+    "publishedAt": "2026-10-12T09:02:14.000Z",
+    "contentHash": "09eb1437b4d971956df6ca24119c35e4ccc3d26abd79ed9a3629672fc1d23f40",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:darkreading-4f7de22266",
+    "tier": "event",
+    "category": "regulation",
+    "region": "anz",
+    "industries": [
+      "healthcare",
+      "government"
+    ],
+    "title": "Australian Government Explores Mandatory AI Incident Reporting Framework",
+    "summary": "Following an agentic AI attack on its Medicare infrastructure, Australia's government is considering regulatory requirements for frontier AI developers to report security incidents. The exploration suggests policymakers are responding to demonstrated vulnerabilities in critical systems exposed to advanced AI-based attacks.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting",
+    "publishedAt": "2026-10-07T21:42:55.000Z",
+    "contentHash": "8dd667d89aa79006989b462b932ab4c7c0c539dbd6daf71eb2fdf66de1146e7d",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:bleeping-c1d0598b68",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "financial services",
+      "banking"
+    ],
+    "title": "ARTEX AI and Claude Agents Deployed in South Korean Banking Attacks",
+    "summary": "A Chinese-attributed threat actor leveraged the ARTEX AI penetration testing framework and Claude AI agents to conduct cyberattacks against South Korean financial institutions. The incidents represent an emerging pattern of adversaries integrating commercial and open AI tools into offensive operations against critical infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+    "publishedAt": "2026-10-10T14:16:17.000Z",
+    "contentHash": "17dff0cf89521f9647b5512be4b8077e59d668ce8a198c7856e1129315433053",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7e4ca9da05",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "critical infrastructure",
+      "e-commerce",
+      "web hosting"
+    ],
+    "title": "CyberXero Leverages Claude Code in Multi-Vector Campaign Against Ukrainian Infrastructure",
+    "summary": "Researchers documented a two-stage attack campaign combining Cobalt Strike with AI orchestration via Anthropic's Claude Code, targeting WordPress installations, e-commerce platforms, and critical infrastructure in Ukraine. The operation resulted in exfiltration of approximately 628,000 records, demonstrating integration of large language models into commodity attack frameworks.",
+    "sourceUrl": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+    "publishedAt": "2026-10-12T07:26:12.000Z",
+    "contentHash": "6a73f37bcf0411ab22e64cc90418cbd358afefa97a406a0ae7c8d9b1bf8033c1",
+    "ingestedAt": "2026-10-12T13:09:38.365Z"
   }
 ]
