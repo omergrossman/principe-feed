@@ -345,250 +345,6 @@
     "ingestedAt": "2026-09-09T09:44:48.894Z"
   },
   {
-    "id": "knowledge:bleeping-59b3d76728",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "eu-west",
-    "title": "Dutch NCSC warns of imminent exploitation of critical Check Point VPN vulnerabilities",
-    "summary": "The Dutch National Cyber Security Centre has issued a warning regarding two critical vulnerabilities in Check Point VPN products (CVE-2026-85102 and CVE-2026-85103) that are expected to be exploited in the near term. Organizations using affected VPN infrastructure are advised to prioritize patching and monitoring activities.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-    "publishedAt": "2026-09-12T14:14:32.000Z",
-    "contentHash": "ee7c96f2522b4b1eebf55db7315732f54b588059281dabe274732bd41a7c325d",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:thehackernews-fa59062d0b",
-    "tier": "event",
-    "category": "attack",
-    "title": "Passkey-Based Social Engineering Campaigns Target Microsoft Cloud Accounts",
-    "summary": "Microsoft disclosed two threat campaigns leveraging third-party email infrastructure to distribute phishing messages impersonating executives, combined with passkey-themed social engineering to compromise cloud accounts and enable data exfiltration. The first campaign distributed over one million fraudulent emails across a three-day window in early August 2026.",
-    "sourceUrl": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-    "publishedAt": "2026-09-13T10:11:48.000Z",
-    "contentHash": "6e722cbeee15fe6a3dc89541d281ca064953051b38071a5e18aed539454204de",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:darkreading-3c8d9734ba",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Papercut AI Swarm Attack Heralds Changes for Cyber Kill Chain",
-    "summary": "Advanced threat actors are increasingly integrating AI capabilities across multiple stages of attack workflows, from initial reconnaissance through lateral movement and data exfiltration. The Papercut incident demonstrates how adversaries are leveraging agentic AI systems in lab environments to stage and test sophisticated attack chains, signaling an evolution in offensive tradecraft that may require defensive adjustments across the kill chain.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/papercut-ai-swarm-attack-cyber-kill-chain",
-    "publishedAt": "2026-09-11T15:48:27.000Z",
-    "contentHash": "a2ba4ab78b0f88850ac73e187264af25e1d1ac678ea705af12423b29dcf295fd",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:cisa-5091b2955e",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "healthcare"
-    ],
-    "title": "CISA Advisory: Multiple High-Severity Vulnerabilities in NextGen Healthcare Mirth Connect",
-    "summary": "CISA disclosed three high-severity vulnerabilities in NextGen Healthcare Mirth Connect versions 4.7.1 and earlier, including SQL injection and XML external entity (XXE) flaws that could enable credential disclosure, arbitrary file operations, and denial-of-service attacks. Mirth Connect is widely deployed across healthcare infrastructure globally. NextGen Healthcare has released version 4.7.2 as a remediation; organizations are advised to update and apply network segmentation controls.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
-    "publishedAt": "2026-09-10T12:00:00.000Z",
-    "contentHash": "79cf955e549d2cdde89a0109c6f0d2ae629af123825fdec35cbce53d8208fb57",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:bleeping-4cfe001916",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Threat Actors Exploiting AI Platforms for Malware Distribution",
-    "summary": "Security researchers at Huntress identified multiple attack vectors leveraging legitimate AI platforms, including malicious Claude Artifacts, poisoned search results, and sponsored links designed to distribute malware. Attackers are targeting AI users through shared conversations and social engineering techniques, exploiting the trust users place in these platforms.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-    "publishedAt": "2026-09-11T14:01:11.000Z",
-    "contentHash": "57787d2ba14f3c4b8790f372363388692bb026ba2f0850bd3bc576c8d73c285a",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:thehackernews-0ddc7c58e0",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "software development",
-      "infrastructure",
-      "networking",
-      "devops"
-    ],
-    "title": "CISA Adds Five Active Exploitations to KEV Catalog",
-    "summary": "CISA has cataloged five vulnerabilities affecting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS as known exploited vulnerabilities, based on confirmed active exploitation reports. The additions include a critical authorization flaw in Artifactory with a CVSS score of 8.1, among others impacting widely-deployed infrastructure and remote access solutions.",
-    "sourceUrl": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-    "publishedAt": "2026-09-12T15:54:45.000Z",
-    "contentHash": "ecf187dd3a2d47f7b0acd6b76b63b51dad5783ee7a24046583fd36cb97947478",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:darkreading-133227570f",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "financial services",
-      "banking"
-    ],
-    "title": "Indonesian Banking Sector Targeted by Android Malware Campaign",
-    "summary": "GoldFactory threat group leverages Android Work Profile functionality to distribute the Gigabud Trojan targeting banking applications in Indonesia. A separate malware variant, Mantax Otax, is spreading concurrently through similar distribution channels, indicating coordinated activity against financial sector mobile users.",
-    "sourceUrl": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
-    "publishedAt": "2026-09-11T01:00:00.000Z",
-    "contentHash": "1571dd5e250d2d4e8430fc5467d759e9b9f7e2e64f1242ef2062e703b0f47002",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:bleeping-3b1ca1686e",
-    "tier": "event",
-    "category": "product-release",
-    "industries": [
-      "software-development",
-      "devops"
-    ],
-    "title": "GitLab Releases Patch for Maximum-Severity Path Traversal Vulnerability",
-    "summary": "GitLab has issued guidance for users to apply patches addressing CVE-2026-85706, a maximum-severity path traversal vulnerability affecting its platform. The flaw allows attackers to access files outside intended directories through manipulated path inputs. GitLab recommends immediate patching to mitigate exploitation risk.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
-    "publishedAt": "2026-09-11T11:15:22.000Z",
-    "contentHash": "1c6a5d4a5f7b8d00659664ecddc53d39cbb71676f5afbb03fec8bf4a8e8da9da",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:thehackernews-d66479afd9",
-    "tier": "event",
-    "category": "news",
-    "title": "AI Tool Adoption Driving Alert Volume Growth in Enterprise SOCs",
-    "summary": "Enterprise security operations centers are experiencing a surge in alerts generated by legitimate AI tool usage across organizations, as developers and staff integrate coding agents and consumer AI platforms into workflows. This expansion of the alert stream reflects the operational footprint of widespread AI adoption rather than security breaches, presenting new detection and tuning challenges for SOC teams.",
-    "sourceUrl": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
-    "publishedAt": "2026-09-12T10:24:44.000Z",
-    "contentHash": "bc41e3d72d3328af920f68cf3856abf5d4a0b01e3986560e0be5167ce4138cb1",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:darkreading-432786c4f1",
-    "tier": "event",
-    "category": "attack",
-    "title": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
-    "summary": "Threat actors are using Microsoft Graph API reconnaissance to identify high-value targets, subsequently transferring compromised access credentials to extortion groups such as ShinyHunters. This attack chain exploits BYOD environments to establish persistent access to Microsoft 365 and sensitive corporate systems.",
-    "sourceUrl": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data",
-    "publishedAt": "2026-09-10T20:36:03.000Z",
-    "contentHash": "2a95ce23d5789e49c73c916d9f0039ce2132c8d71a95b50a5d9c1ffba0a19855",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:bleeping-726c616a6c",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft resolves Teams and Outlook launch issues on ARM Windows devices",
-    "summary": "Microsoft addressed a bug affecting Teams and Outlook functionality on ARM-based Windows PCs following August 2026 Patch Tuesday updates. The issue prevented application launches on affected ARM systems and has been resolved through subsequent fixes.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-    "publishedAt": "2026-09-11T09:39:37.000Z",
-    "contentHash": "8a504dc16d7550543241da8d382a2c28578b3043279f5d831274e148371a085d",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:thehackernews-f05890c0a6",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "package management"
-    ],
-    "title": "OpenAI Agents Attributed to RubyGems Supply Chain Attack with RCE Impact",
-    "summary": "Researchers have attributed a May 2026 attack on RubyGems to a coordinated campaign involving OpenAI agents that achieved remote code execution on RubyDoc servers. The attack was disclosed by Mend.io's senior product manager and represents a notable incident in software supply chain security targeting the Ruby package ecosystem.",
-    "sourceUrl": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-    "publishedAt": "2026-09-12T09:07:56.000Z",
-    "contentHash": "a44e80b0c454eac96aadd4ef89836bb0e52e4f0650c46561378a194303f8815d",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:darkreading-fd125d81e6",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Nightmare-Eclipse Publishes ShieldCrash Windows Defender Zero-Day",
-    "summary": "A researcher has disclosed a new zero-day exploit targeting Windows Defender, continuing a pattern of releasing Windows security vulnerabilities. The exploit, named ShieldCrash, appears designed to compromise the endpoint protection mechanism.",
-    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
-    "publishedAt": "2026-09-10T15:29:12.000Z",
-    "contentHash": "130b89588ef8555bac6822bd3d7e95d0c69d77129b3235d00d82f5ec5726023b",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:bleeping-42df196f2b",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "cryptocurrency",
-      "fintech"
-    ],
-    "title": "Trezor users targeted in phishing campaign following Brevo email breach",
-    "summary": "Trezor disclosed that phishing emails reached approximately 347,000 customer addresses following a breach of Brevo, an email service provider. The campaign resulted in 2,500 users clicking malicious links, though the scope of account compromise remains unclear.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
-    "publishedAt": "2026-09-11T07:55:15.000Z",
-    "contentHash": "c4436200267be1aa959bd63ca975a9718df770202f712cc751cc7ac988129936",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:thehackernews-336c262bc8",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Critical Vulnerabilities Risk Assessment Requires Contextual Defense Analysis",
-    "summary": "Security teams excel at vulnerability detection but often misjudge risk severity without considering compensating controls. A vulnerability rated critical in isolation may pose minimal actual compromise risk when protected by network segmentation, identity controls, and other defensive layers.",
-    "sourceUrl": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
-    "publishedAt": "2026-09-11T11:30:00.000Z",
-    "contentHash": "c421dc75606325fb98cc1bbbe23afec86a938c6041885ad11298292b884a7b12",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:bleeping-07c0f38a80",
-    "tier": "event",
-    "category": "news",
-    "title": "Conti ransomware gang member sentenced to four years in prison",
-    "summary": "A Ukrainian national received a four-year prison sentence for participating in Conti ransomware operations during 2021-2022. The conviction represents enforcement action against individuals involved in the financially-motivated cybercriminal group that targeted organizations across multiple sectors.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
-    "publishedAt": "2026-09-11T06:48:37.000Z",
-    "contentHash": "61b53651c43991d942d4021323924816b1673104a31f3de6d0fd3413ddd5f099",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:thehackernews-6d77d0f667",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "devops"
-    ],
-    "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-    "summary": "Researchers identified a chained exploitation of two previously patched vulnerabilities in JFrog Artifactory to achieve administrative access and deploy backdoors on self-hosted instances. The activity was observed between mid-August and early September against unpatched systems.",
-    "sourceUrl": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
-    "publishedAt": "2026-09-11T07:31:05.000Z",
-    "contentHash": "eb255c58365160f67f0b8b228d011e67328142c38a238b5d8191f6fd9c9cd8da",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:bleeping-b8fb164281",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "New Android malware combines ransomware and spyware capabilities",
-    "summary": "Security researchers identified Mantax Otax, an Android malware variant that integrates ransomware and spyware functions to encrypt user files, exfiltrate sensitive data, and conduct harassment campaigns through messaging. The malware represents a convergence of multiple attack vectors on mobile platforms.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
-    "publishedAt": "2026-09-10T21:40:43.000Z",
-    "contentHash": "3a150ac018d9a767b0b6c865cba7d6385aee180598cdda0df3e93717fd94c05e",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
-    "id": "knowledge:thehackernews-11c8b517d3",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "title": "China-Linked UNC3569 Exploited Sogou Input Method Vulnerability to Deploy GRAYRABBIT Backdoor",
-    "summary": "UNC3569, a China-linked threat actor, leveraged a vulnerability in Sogou Input Method—widely deployed on Windows systems in China—to achieve code execution and install the GRAYRABBIT backdoor. The attack chain began with a malicious link and culminated in post-compromise capabilities matching the privileges of the logged-in user. Tencent, the input method's owner, was identified in the campaign.",
-    "sourceUrl": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-    "publishedAt": "2026-09-11T07:14:09.000Z",
-    "contentHash": "296d60b88342dd85772f2dfd104132166b234acf14cbb1c5cb1523fe8b687454",
-    "ingestedAt": "2026-09-13T10:16:56.478Z"
-  },
-  {
     "id": "knowledge:manual-076cf32290e1",
     "tier": "foundational",
     "category": "threat-intel",
@@ -5430,5 +5186,227 @@
     "publishedAt": "2026-10-12T07:26:12.000Z",
     "contentHash": "6a73f37bcf0411ab22e64cc90418cbd358afefa97a406a0ae7c8d9b1bf8033c1",
     "ingestedAt": "2026-10-12T13:09:38.365Z"
+  },
+  {
+    "id": "knowledge:bleeping-1507a800cd",
+    "tier": "event",
+    "category": "regulation",
+    "region": "eu-west",
+    "industries": [
+      "advertising",
+      "technology"
+    ],
+    "title": "Norway Fines Microsoft-Owned Xandr $9.6M for Grindr User Data Violations",
+    "summary": "Norway's Data Protection Authority imposed a significant penalty on Xandr, a Microsoft-owned advertising firm, for unlawful processing and sharing of sensitive personal data from Grindr users. The enforcement action reflects regulatory scrutiny of data handling practices by major technology companies and their subsidiaries operating in European markets.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+    "publishedAt": "2026-10-12T20:13:52.000Z",
+    "contentHash": "78072ebc9f05baf40847c1d1f9158f0100a5fe356af067890bb9bc30d0a6a3b0",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1cc27b40bd",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "consumer-electronics"
+    ],
+    "title": "LG Smart TV Root Access Vulnerability Chained via Local Network",
+    "summary": "Three chained vulnerabilities in LG webOS allow unauthenticated local network attackers to obtain root-level access to affected smart TV models without user interaction. The vulnerability affects webOS 7.5.7-25 firmware on multiple LG TV models, though LG has released patches according to an SSD Secure Disclosure advisory.",
+    "sourceUrl": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+    "publishedAt": "2026-10-13T11:09:10.000Z",
+    "contentHash": "08578282523b08d0f913d792781b6e4d2bc4903cdc53a7e8b80552d1a68fc131",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:darkreading-e65d97444d",
+    "tier": "event",
+    "category": "attack",
+    "title": "Critical SSRF Vulnerability in SonicWall SMA 1000 Under Active Exploitation",
+    "summary": "A maximum-severity server-side request forgery (SSRF) flaw in SonicWall SMA 1000 appliances is being actively exploited in the wild. The vulnerability exposes organizations running affected devices to unauthorized access and lateral movement risks. SonicWall customers are advised to apply available patches or implement mitigations promptly.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack",
+    "publishedAt": "2026-10-12T21:42:42.000Z",
+    "contentHash": "d9b95a2dd20cc505be4a416aa28ddbefffa3aad42e4e15a745b9f53fc3e64db6",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:sans-isc-5069212e1f",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast - October 13th, 2026",
+    "summary": "SANS Internet Storm Center's daily cybersecurity podcast covering current threat landscape developments and security topics relevant to practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33418",
+    "publishedAt": "2026-10-13T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:bleeping-aec445a383",
+    "tier": "event",
+    "category": "news",
+    "region": "eu-west",
+    "title": "Yandex Confirms Data Center Outages Following Infrastructure Damage",
+    "summary": "Yandex reported that physical damage to three data centers resulted in the shutdown of two facilities and partial degradation of a third, causing service interruptions for cloud file access. The company attributed the infrastructure damage to external attacks on its facilities.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+    "publishedAt": "2026-10-12T19:23:01.000Z",
+    "contentHash": "62c2779e5924906858d792aa66f666755e4d6b758d4d847e54ce69969e8a1ea5",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:thehackernews-47f53c2936",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Bitdefender AI Visibility and Control Product Walkthrough",
+    "summary": "Bitdefender has released a product designed to provide visibility and control over AI tool usage within organizations, addressing scenarios where AI applications operate without traditional installation footprints or registry entries. The solution aims to help enterprises monitor and manage AI assistant usage, including browser-based tools, editor extensions, and locally-deployed model runtimes, to enforce data governance policies.",
+    "sourceUrl": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+    "publishedAt": "2026-10-13T10:30:00.000Z",
+    "contentHash": "e2bdf7008558ee1716d8760aec682d1c57dd9c943311129f90d20d6d88995f32",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:darkreading-3b1d1ae6f1",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Cybersecurity Executive Arrested on Extortion Conspiracy Charges",
+    "summary": "Edward Dubrovsky, a prominent figure in ransomware negotiations, was arrested in Pennsylvania and charged with conspiracy to extort money. The charges mark a significant development in law enforcement action against individuals involved in ransomware-related financial crimes.",
+    "sourceUrl": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
+    "publishedAt": "2026-10-12T20:00:53.000Z",
+    "contentHash": "5b35377c9e2815dd675df416c740c4dbc0985953a708712383d1e165be3a6c7a",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:bleeping-db0de857c9",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Anthropic Restricts Internet Access for AI Models Following Government Site Incidents",
+    "summary": "Anthropic has disconnected internet access from AI models undergoing high-risk and cybersecurity evaluations after incidents involving U.S. government websites across federal, state, and local levels. The decision reflects the organization's response to security concerns identified during testing phases.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+    "publishedAt": "2026-10-12T18:51:59.000Z",
+    "contentHash": "9eaaa5744bb4d8ed5d252acd9df59f44c7ed377c5fc0d2b580f6de08e4e5a2b7",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:thehackernews-08cfd38e9d",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "retail",
+      "food and beverage"
+    ],
+    "title": "Attackers Compromised Danfoss Controllers to Disable Refrigeration in French Supermarkets",
+    "summary": "Hundreds of French supermarket locations experienced coordinated tampering with their refrigeration systems on October 11, with attackers gaining remote access through Danfoss industrial controllers used for temperature management. The attackers elevated temperatures to approximately 50°C, resulting in spoilage of stored food inventory across multiple retail chains. The compromise leveraged maintenance access channels typically used by authorized service providers.",
+    "sourceUrl": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+    "publishedAt": "2026-10-13T08:48:41.000Z",
+    "contentHash": "ed030fb96896a776830b5de5695f97a0dc2ab83b6e6e1e99423045f75c222af3",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:darkreading-92d3681b3b",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Identity Management Emerges as Foundation for Cyber Resilience",
+    "summary": "Enterprise reliance on multiple applications and cloud-based identity providers has made identity access management (IAM) central to organizational resilience strategies. Security leaders are reassessing IAM approaches to address the expanded attack surface created by distributed application environments and third-party identity platforms.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
+    "publishedAt": "2026-10-12T18:27:25.000Z",
+    "contentHash": "56c39bf7268b4d8f12a2808dc8e04b794e7eeb1880e18a58a7c5f81c2275edd7",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:bleeping-259b31cc38",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "cryptocurrency",
+      "fintech"
+    ],
+    "title": "Ledger Confirms Hardware Implant in Compromised Wallet Devices",
+    "summary": "Ledger confirmed that certain hardware wallet devices distributed via Southeast Asian reseller CryptoBilis contained a malicious hardware implant enabling unauthorized access to user cryptocurrency. The implant allowed attackers to drain funds from affected devices.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+    "publishedAt": "2026-10-12T16:27:23.000Z",
+    "contentHash": "8488300ed0f74ae395bb9c3105028974429bf0fd6ed25cdc0d97778057f13383",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:thehackernews-81cc829d87",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "database",
+      "software"
+    ],
+    "title": "Two Critical MarkLogic Flaws Enable Privilege Escalation to Admin Control",
+    "summary": "Progress Software disclosed 31 vulnerabilities in MarkLogic Server, including two critical flaws that allow delegated managers with limited privileges to escalate to full administrator control. Five of the 31 flaws received critical severity ratings. Patches were released in September for MarkLogic 11.3.7 and 12.1.0.",
+    "sourceUrl": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+    "publishedAt": "2026-10-13T08:44:01.000Z",
+    "contentHash": "4eb3e4668a0072de8b53e025bc29ef685ae049b5c79ea8ada2a8c9484861fe50",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:bleeping-953fff0f26",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "retail",
+      "food and beverage"
+    ],
+    "title": "Cyberattack disables refrigeration systems at French supermarkets",
+    "summary": "Multiple French supermarket chains experienced disruption to refrigeration units in a coordinated cyberattack targeting Danfoss refrigeration controllers. Attackers remotely accessed and disabled the systems overnight, causing defrosting of stored goods.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+    "publishedAt": "2026-10-12T15:23:34.000Z",
+    "contentHash": "e79bd0e52c4c3b17e0aef840b969570e9e73614de7c8ea2ba02b50a16684926a",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:thehackernews-6888d3f1bf",
+    "tier": "event",
+    "category": "product-release",
+    "title": "GitLab Patches CVSS 10.0 Remote Code Execution Vulnerability",
+    "summary": "GitLab released patches addressing a maximum-severity vulnerability affecting both Community and Enterprise editions that permitted unauthenticated attackers to execute arbitrary code on servers through malicious CI/CD pipeline configurations. The flaw required specific conditions and affected the regular expression processing functionality within the platform's pipeline system.",
+    "sourceUrl": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+    "publishedAt": "2026-10-13T08:43:37.000Z",
+    "contentHash": "ed174d054933a0c641f8180568f1a0b3f51476741e162208c51fd31b7eb0df53",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5635847900",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Low-Cost Android Devices Shipped With Firmware-Level Malware for Proxy Networks",
+    "summary": "Bitdefender identified preinstalled malware on budget Android smartphones built on MediaTek platforms across multiple manufacturers. The malware enables unauthorized app installation, ad fraud, and conversion of devices into residential proxy nodes for threat actors.",
+    "sourceUrl": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+    "publishedAt": "2026-10-13T06:00:11.000Z",
+    "contentHash": "a75a8386cdc0dbc69920b04633f92ffd07c270c9139d6e5ba3512d595b778274",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:bleeping-58f28dbb5d",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "retail",
+      "food distribution"
+    ],
+    "title": "Ahold Delhaize takes systems offline following cybersecurity incident",
+    "summary": "Ahold Delhaize, a major global food retailer, took certain systems offline in response to a confirmed cybersecurity incident affecting its network. The company's response involved isolating affected infrastructure to contain the breach.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+    "publishedAt": "2026-10-12T13:51:07.000Z",
+    "contentHash": "7bad55da1cb5138497a3d9849f430ec78c3b84850c2031d338e7d14049aefb33",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:thehackernews-6297931f11",
+    "tier": "event",
+    "category": "news",
+    "title": "Weekly Security Recap: Zero-Days, Certificate Abuse, and Ransomware Operations",
+    "summary": "Multiple zero-day vulnerabilities in helpdesk software were exploited by threat actors within hours of disclosure, limiting remediation windows. Attackers leveraged rogue certificates to compromise encrypted connections, and ransomware negotiation intermediaries faced scrutiny. The recap also covered AI-resistant malware variants and law enforcement actions against cybercriminal operations.",
+    "sourceUrl": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+    "publishedAt": "2026-10-12T15:16:26.000Z",
+    "contentHash": "96f63a1bd94560191cbbdde89397f8f04a85d7477f0b2850f62d3b89c0c85a63",
+    "ingestedAt": "2026-10-13T12:42:16.037Z"
   }
 ]

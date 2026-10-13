@@ -128,117 +128,6 @@
     "category": "strategy",
     "publishedAt": "2026-09-09T09:45:20.512Z"
   },
-  "knowledge/bleeping-59b3d76728.md": {
-    "region": "eu-west",
-    "category": "threat-intel",
-    "publishedAt": "2026-09-12T14:14:32.000Z"
-  },
-  "knowledge/thehackernews-fa59062d0b.md": {
-    "category": "attack",
-    "publishedAt": "2026-09-13T10:11:48.000Z"
-  },
-  "knowledge/darkreading-3c8d9734ba.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-09-11T15:48:27.000Z"
-  },
-  "knowledge/cisa-5091b2955e.md": {
-    "region": "global",
-    "industries": [
-      "healthcare"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-09-10T12:00:00.000Z"
-  },
-  "knowledge/bleeping-4cfe001916.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-09-11T14:01:11.000Z"
-  },
-  "knowledge/thehackernews-0ddc7c58e0.md": {
-    "region": "us",
-    "industries": [
-      "software development",
-      "infrastructure",
-      "networking",
-      "devops"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-09-12T15:54:45.000Z"
-  },
-  "knowledge/darkreading-133227570f.md": {
-    "region": "apac",
-    "industries": [
-      "financial services",
-      "banking"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-09-11T01:00:00.000Z"
-  },
-  "knowledge/bleeping-3b1ca1686e.md": {
-    "industries": [
-      "software-development",
-      "devops"
-    ],
-    "category": "product-release",
-    "publishedAt": "2026-09-11T11:15:22.000Z"
-  },
-  "knowledge/thehackernews-d66479afd9.md": {
-    "category": "news",
-    "publishedAt": "2026-09-12T10:24:44.000Z"
-  },
-  "knowledge/darkreading-432786c4f1.md": {
-    "category": "attack",
-    "publishedAt": "2026-09-10T20:36:03.000Z"
-  },
-  "knowledge/bleeping-726c616a6c.md": {
-    "category": "product-release",
-    "publishedAt": "2026-09-11T09:39:37.000Z"
-  },
-  "knowledge/thehackernews-f05890c0a6.md": {
-    "industries": [
-      "software development",
-      "package management"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-09-12T09:07:56.000Z"
-  },
-  "knowledge/darkreading-fd125d81e6.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-09-10T15:29:12.000Z"
-  },
-  "knowledge/bleeping-42df196f2b.md": {
-    "region": "global",
-    "industries": [
-      "cryptocurrency",
-      "fintech"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-09-11T07:55:15.000Z"
-  },
-  "knowledge/thehackernews-336c262bc8.md": {
-    "category": "strategy",
-    "publishedAt": "2026-09-11T11:30:00.000Z"
-  },
-  "knowledge/bleeping-07c0f38a80.md": {
-    "category": "news",
-    "publishedAt": "2026-09-11T06:48:37.000Z"
-  },
-  "knowledge/thehackernews-6d77d0f667.md": {
-    "industries": [
-      "software development",
-      "devops"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-09-11T07:31:05.000Z"
-  },
-  "knowledge/bleeping-b8fb164281.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-09-10T21:40:43.000Z"
-  },
-  "knowledge/thehackernews-11c8b517d3.md": {
-    "region": "apac",
-    "category": "attack",
-    "publishedAt": "2026-09-11T07:14:09.000Z"
-  },
   "knowledge/manual-076cf32290e1.md": {
     "category": "threat-intel",
     "publishedAt": "2026-06-11T06:00:50.000Z"
@@ -2363,5 +2252,108 @@
     ],
     "category": "attack",
     "publishedAt": "2026-10-12T07:26:12.000Z"
+  },
+  "knowledge/bleeping-1507a800cd.md": {
+    "region": "eu-west",
+    "industries": [
+      "advertising",
+      "technology"
+    ],
+    "category": "regulation",
+    "publishedAt": "2026-10-12T20:13:52.000Z"
+  },
+  "knowledge/thehackernews-1cc27b40bd.md": {
+    "industries": [
+      "consumer-electronics"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-13T11:09:10.000Z"
+  },
+  "knowledge/darkreading-e65d97444d.md": {
+    "category": "attack",
+    "publishedAt": "2026-10-12T21:42:42.000Z"
+  },
+  "knowledge/sans-isc-5069212e1f.md": {
+    "category": "news",
+    "publishedAt": "2026-10-13T02:00:02.000Z"
+  },
+  "knowledge/bleeping-aec445a383.md": {
+    "region": "eu-west",
+    "category": "news",
+    "publishedAt": "2026-10-12T19:23:01.000Z"
+  },
+  "knowledge/thehackernews-47f53c2936.md": {
+    "category": "product-release",
+    "publishedAt": "2026-10-13T10:30:00.000Z"
+  },
+  "knowledge/darkreading-3b1d1ae6f1.md": {
+    "region": "us",
+    "category": "news",
+    "publishedAt": "2026-10-12T20:00:53.000Z"
+  },
+  "knowledge/bleeping-db0de857c9.md": {
+    "region": "us",
+    "category": "news",
+    "publishedAt": "2026-10-12T18:51:59.000Z"
+  },
+  "knowledge/thehackernews-08cfd38e9d.md": {
+    "region": "eu-west",
+    "industries": [
+      "retail",
+      "food and beverage"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-13T08:48:41.000Z"
+  },
+  "knowledge/darkreading-92d3681b3b.md": {
+    "category": "strategy",
+    "publishedAt": "2026-10-12T18:27:25.000Z"
+  },
+  "knowledge/bleeping-259b31cc38.md": {
+    "region": "apac",
+    "industries": [
+      "cryptocurrency",
+      "fintech"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-12T16:27:23.000Z"
+  },
+  "knowledge/thehackernews-81cc829d87.md": {
+    "industries": [
+      "database",
+      "software"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-13T08:44:01.000Z"
+  },
+  "knowledge/bleeping-953fff0f26.md": {
+    "region": "eu-west",
+    "industries": [
+      "retail",
+      "food and beverage"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-12T15:23:34.000Z"
+  },
+  "knowledge/thehackernews-6888d3f1bf.md": {
+    "category": "product-release",
+    "publishedAt": "2026-10-13T08:43:37.000Z"
+  },
+  "knowledge/thehackernews-5635847900.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-13T06:00:11.000Z"
+  },
+  "knowledge/bleeping-58f28dbb5d.md": {
+    "region": "global",
+    "industries": [
+      "retail",
+      "food distribution"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-12T13:51:07.000Z"
+  },
+  "knowledge/thehackernews-6297931f11.md": {
+    "category": "news",
+    "publishedAt": "2026-10-12T15:16:26.000Z"
   }
 }
