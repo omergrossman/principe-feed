@@ -1,0 +1,3 @@
+CISA Adds Ivanti Connect Secure Authentication Bypass to Known Exploited Vulnerabilities
+
+CISA has cataloged CVE-2026-104935, an unauthenticated remote code execution vulnerability in Ivanti Connect Secure affecting versions 25.1.1.1, 25.1.2.2, and 22.8R2.4 and prior, which is actively being exploited for credential theft and data exfiltration. Organizations should apply available patches immediately and conduct forensic analysis to detect in-memory exploitation, as standard integrity checking tools may not identify successful attacks. CISA provides detailed recovery procedures including factory reset, credential rotation, and certificate revocation for potentially compromised appl

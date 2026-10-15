@@ -132,47 +132,6 @@
     "category": "threat-intel",
     "publishedAt": "2026-06-11T06:00:50.000Z"
   },
-  "knowledge/bleeping-d736f387a9.md": {
-    "category": "news",
-    "publishedAt": "2026-09-14T09:50:25.000Z"
-  },
-  "knowledge/thehackernews-69430c4b5f.md": {
-    "industries": [
-      "streaming"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-09-14T07:24:39.000Z"
-  },
-  "knowledge/sans-isc-8d446cdbf8.md": {
-    "category": "news",
-    "publishedAt": "2026-09-14T02:00:03.000Z"
-  },
-  "knowledge/bleeping-9c68dabef8.md": {
-    "region": "global",
-    "industries": [
-      "fintech",
-      "financial services"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-09-14T08:48:24.000Z"
-  },
-  "knowledge/bleeping-2843574c9b.md": {
-    "category": "product-release",
-    "publishedAt": "2026-09-14T08:08:16.000Z"
-  },
-  "knowledge/bleeping-31d7ea4cc1.md": {
-    "region": "us",
-    "category": "threat-intel",
-    "publishedAt": "2026-09-14T07:06:27.000Z"
-  },
-  "knowledge/bleeping-b2a9722658.md": {
-    "region": "apac",
-    "industries": [
-      "software"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-09-13T14:26:32.000Z"
-  },
   "knowledge/thehackernews-7c09d00af3.md": {
     "industries": [
       "hosting",
@@ -2355,5 +2314,123 @@
   "knowledge/thehackernews-6297931f11.md": {
     "category": "news",
     "publishedAt": "2026-10-12T15:16:26.000Z"
+  },
+  "knowledge/krebs-679425e2c5.md": {
+    "region": "uk",
+    "industries": [
+      "financial-services",
+      "cryptocurrency"
+    ],
+    "category": "regulation",
+    "publishedAt": "2026-10-14T14:22:49.000Z"
+  },
+  "knowledge/bleeping-56b4605d9a.md": {
+    "category": "product-release",
+    "publishedAt": "2026-10-15T09:10:20.000Z"
+  },
+  "knowledge/darkreading-a87219e382.md": {
+    "region": "eu-west",
+    "industries": [
+      "retail",
+      "food & beverage"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-15T07:00:00.000Z"
+  },
+  "knowledge/sans-isc-41c55f17cc.md": {
+    "category": "news",
+    "publishedAt": "2026-10-15T02:00:03.000Z"
+  },
+  "knowledge/ncsc-uk-e1bfd0abf2.md": {
+    "region": "uk",
+    "category": "strategy",
+    "publishedAt": "2026-10-15T12:00:00.000Z"
+  },
+  "knowledge/krebs-0fbd64ca10.md": {
+    "category": "product-release",
+    "publishedAt": "2026-10-13T23:24:53.000Z"
+  },
+  "knowledge/bleeping-cfef32934f.md": {
+    "region": "uk",
+    "industries": [
+      "government",
+      "legal services"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-15T08:06:47.000Z"
+  },
+  "knowledge/thehackernews-43828a09ca.md": {
+    "industries": [
+      "software development",
+      "artificial intelligence"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-15T07:07:05.000Z"
+  },
+  "knowledge/darkreading-788400810f.md": {
+    "industries": [
+      "industrial-control-systems",
+      "critical-infrastructure"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-14T21:20:13.000Z"
+  },
+  "knowledge/sans-isc-f71fb556fb.md": {
+    "category": "news",
+    "publishedAt": "2026-10-15T01:10:57.000Z"
+  },
+  "knowledge/ncsc-uk-cd8ef8034f.md": {
+    "region": "uk",
+    "category": "strategy",
+    "publishedAt": "2026-10-15T12:00:00.000Z"
+  },
+  "knowledge/cisa-9a5d4539ca.md": {
+    "region": "us",
+    "industries": [
+      "industrial-control-systems",
+      "manufacturing",
+      "critical-infrastructure"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-13T12:00:00.000Z"
+  },
+  "knowledge/bleeping-10dada637c.md": {
+    "category": "attack",
+    "publishedAt": "2026-10-14T22:56:47.000Z"
+  },
+  "knowledge/thehackernews-ab68bb7b68.md": {
+    "region": "apac",
+    "industries": [
+      "backup and recovery",
+      "software"
+    ],
+    "category": "product-release",
+    "publishedAt": "2026-10-15T06:43:08.000Z"
+  },
+  "knowledge/darkreading-203b618871.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-14T20:57:16.000Z"
+  },
+  "knowledge/sans-isc-ec26e3c9fb.md": {
+    "industries": [
+      "engineering",
+      "architecture",
+      "manufacturing",
+      "construction"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-14T06:49:46.000Z"
+  },
+  "knowledge/cisa-0b5b8a5c77.md": {
+    "region": "global",
+    "industries": [
+      "information technology",
+      "telecommunications",
+      "financial services",
+      "government",
+      "healthcare"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-13T12:00:00.000Z"
   }
 }

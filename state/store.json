@@ -358,96 +358,6 @@
     "ingestedAt": "2026-09-13T10:16:56.478Z"
   },
   {
-    "id": "knowledge:bleeping-d736f387a9",
-    "tier": "event",
-    "category": "news",
-    "title": "Microsoft September 2026 Updates Trigger RDS Failures on Windows Server",
-    "summary": "Microsoft acknowledged that its September 2026 security patches introduce compatibility issues affecting Remote Desktop Services on Windows Server deployments. The company is investigating the root cause and working on a resolution for affected administrators.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
-    "publishedAt": "2026-09-14T09:50:25.000Z",
-    "contentHash": "6dd6540ef88b0618a16b1af2a3bd29a4e6e7dfa70488d4c6b72dda20d0c49f3e",
-    "ingestedAt": "2026-09-14T10:38:03.989Z"
-  },
-  {
-    "id": "knowledge:thehackernews-69430c4b5f",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "streaming"
-    ],
-    "title": "Malicious Twitch Browser Extension Compromised 31,000 User OAuth Tokens",
-    "summary": "A cross-platform browser extension marketed as a Twitch enhancement tool exfiltrated OAuth credentials from approximately 31,000 users to infrastructure associated with a Russian commercial bot service. The extension, distributed across Chrome and Firefox stores under the name 'Twitch Enhanced Viewer | JeetBot,' has been identified as malicious and likely removed from official marketplaces.",
-    "sourceUrl": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-    "publishedAt": "2026-09-14T07:24:39.000Z",
-    "contentHash": "05bd6564ac175bc27b4df8a0a7c8d742bdb539aafe6bdc19d13e176ed82317ad",
-    "ingestedAt": "2026-09-14T10:38:03.989Z"
-  },
-  {
-    "id": "knowledge:sans-isc-8d446cdbf8",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast Monday September 14th 2026",
-    "summary": "SANS Internet Storm Center's daily security podcast covering current threat landscape developments and defensive practices for information security professionals.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33334",
-    "publishedAt": "2026-09-14T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-14T10:38:03.989Z"
-  },
-  {
-    "id": "knowledge:bleeping-9c68dabef8",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "fintech",
-      "financial services"
-    ],
-    "title": "Revolut Discloses Data Breach Exposing Customer Financial Information and Passport Data",
-    "summary": "Fintech platform Revolut confirmed a data breach in which an undisclosed number of customers had their financial information and passport details compromised. The breach occurred after a threat actor successfully impersonated a government agency to gain access to customer data.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
-    "publishedAt": "2026-09-14T08:48:24.000Z",
-    "contentHash": "5b724b26e1d6b0da9c306cc756d0574e44dcf3439ae882a759d35ca94cc2c4d8",
-    "ingestedAt": "2026-09-14T10:38:03.989Z"
-  },
-  {
-    "id": "knowledge:bleeping-2843574c9b",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft September 2024 Updates Cause USB Audio Failures on Windows Systems",
-    "summary": "Microsoft acknowledged that its September 2024 security updates KB5124008 and KB5124012 introduced a regression affecting USB audio device functionality on certain Windows installations. The company is investigating the scope and cause of the audio failures reported by affected users.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
-    "publishedAt": "2026-09-14T08:08:16.000Z",
-    "contentHash": "dffdcd7b40550b873bd22d00c62756dd296ab7cb6db073eb9579ce13c8043d5d",
-    "ingestedAt": "2026-09-14T10:38:03.989Z"
-  },
-  {
-    "id": "knowledge:bleeping-31d7ea4cc1",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "CISA Reports Active Exploitation of Critical GitLab Vulnerability",
-    "summary": "CISA has documented threat actors actively exploiting a maximum-severity vulnerability in GitLab. The flaw is being leveraged in ongoing attacks against organizations using affected GitLab instances.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
-    "publishedAt": "2026-09-14T07:06:27.000Z",
-    "contentHash": "33cb5151ae046577bc88c9855dcdd380be7c76cda6896a19528eb92a740b47de",
-    "ingestedAt": "2026-09-14T10:38:03.989Z"
-  },
-  {
-    "id": "knowledge:bleeping-b2a9722658",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "software"
-    ],
-    "title": "Tencent Sogou Input Method vulnerability exploited for GrayRabbit malware deployment",
-    "summary": "Threat actors associated with a China-aligned espionage group are leveraging a critical flaw in Tencent's Sogou Input Method for Windows to distribute the GrayRabbit backdoor malware. The vulnerability (CVE-2026-51990) enables attackers to establish persistent system access and conduct surveillance operations.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-    "publishedAt": "2026-09-13T14:26:32.000Z",
-    "contentHash": "27265de8995d83eb0782c38896d5e61b8e99b82da98ff54d055f6503c163325f",
-    "ingestedAt": "2026-09-14T10:38:03.989Z"
-  },
-  {
     "id": "knowledge:thehackernews-7c09d00af3",
     "tier": "event",
     "category": "threat-intel",
@@ -5408,5 +5318,242 @@
     "publishedAt": "2026-10-12T15:16:26.000Z",
     "contentHash": "96f63a1bd94560191cbbdde89397f8f04a85d7477f0b2850f62d3b89c0c85a63",
     "ingestedAt": "2026-10-13T12:42:16.037Z"
+  },
+  {
+    "id": "knowledge:krebs-679425e2c5",
+    "tier": "event",
+    "category": "regulation",
+    "region": "uk",
+    "industries": [
+      "financial-services",
+      "cryptocurrency"
+    ],
+    "title": "U.K. Sanctions Cryptomus for Facilitating Russian Cybercriminal Finances",
+    "summary": "The United Kingdom has imposed economic sanctions on Cryptomus, a cryptocurrency platform assessed by experts as a primary payment channel for ransomware operations, drug trafficking, and other cybercriminal activities that enable Russia to evade financial controls. The action targets infrastructure used to launder proceeds from organized cybercrime and support malicious actors operating under sanctions regimes.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+    "publishedAt": "2026-10-14T14:22:49.000Z",
+    "contentHash": "8185540c5f2deec1fb89b1b823a70f7cfd9c33bc696db2bf859c6fc09922b60c",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:bleeping-56b4605d9a",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Resolves Windows 11 Display and Explorer Issues",
+    "summary": "Microsoft addressed a bug affecting Windows 11 systems following updates released from August onwards, which triggered black screens, delayed desktop initialization, and File Explorer crashes. The fix has been deployed to resolve the stability problems users experienced post-update.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+    "publishedAt": "2026-10-15T09:10:20.000Z",
+    "contentHash": "de102a4463cf465c7d9f2bf7923d1e5a908acba439ea0b912515678fd486ce8a",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:darkreading-a87219e382",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "retail",
+      "food & beverage"
+    ],
+    "title": "EU Grocers Suffer Financial Losses from Unpatched Refrigeration System Firmware",
+    "summary": "Multiple European grocery retailers experienced significant operational disruptions and financial losses after relying on third-party vendors to manage outdated firmware in their refrigeration equipment. The incidents highlight risks associated with legacy operational technology systems and outsourced maintenance practices in critical retail infrastructure.",
+    "sourceUrl": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware",
+    "publishedAt": "2026-10-15T07:00:00.000Z",
+    "contentHash": "c7083c728771a04ea2b43295640db81f80d30183082232a7239fbadd27bdc8f8",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:sans-isc-41c55f17cc",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast - October 15, 2026",
+    "summary": "SANS Internet Storm Center released its daily Stormcast podcast episode covering current cybersecurity developments and threat landscape updates. The episode provides analysis of recent security events and emerging threats relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33428",
+    "publishedAt": "2026-10-15T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-e1bfd0abf2",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Publishes TLS Configuration Guidance",
+    "summary": "The UK National Cyber Security Centre has released recommended TLS profiles for secure configuration across common versions and deployment scenarios. The guidance includes recommendations for managing legacy TLS implementations alongside current standards.",
+    "sourceUrl": "https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "contentHash": "9f3dae2b3c6a1f9a1efed94cb0f189ee6fb5437ef90feb74ec77c78c289ae01d",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:krebs-0fbd64ca10",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Releases Patches for Over 1,400 Security Vulnerabilities",
+    "summary": "Microsoft released updates addressing more than 1,400 security flaws across Windows and other software products. The patch volume significantly exceeds the previous month's 1,000 fixes and represents a substantial increase from typical monthly remediation rates.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+    "publishedAt": "2026-10-13T23:24:53.000Z",
+    "contentHash": "27b5fdb23d9f8b0325072c50c95f5945d2b3353c1b54dcea125eff4bcbe7eab3",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:bleeping-cfef32934f",
+    "tier": "event",
+    "category": "attack",
+    "region": "uk",
+    "industries": [
+      "government",
+      "legal services"
+    ],
+    "title": "UK Legal Aid Agency Discloses Data Breach Affecting 47 Years of Records",
+    "summary": "The UK Legal Aid Agency, part of the Ministry of Justice, confirmed that a breach of its IT systems in April 2025 resulted in the theft of client records spanning from 1978 onwards. The incident exposed historical data maintained by the agency responsible for administering public defence services across the country.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+    "publishedAt": "2026-10-15T08:06:47.000Z",
+    "contentHash": "4b607015a063e6a863a51995c8a17c81d84689fb48dc8869a988a97a759546d0",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:thehackernews-43828a09ca",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "artificial intelligence"
+    ],
+    "title": "Langflow Critical RCE Vulnerability Actively Exploited in Honeypot Campaign",
+    "summary": "Threat actors are conducting exploitation attempts against CVE-2026-105740, a critical authenticated remote code execution flaw in Langflow, an open-source AI application development platform. Previdian telemetry detected 1,423 honeypot exploit attempts targeting the vulnerability, which carries a CVSS score of 9.9. The platform, now under IBM ownership following DataStax's acquisition in February 2025, requires immediate patching attention.",
+    "sourceUrl": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+    "publishedAt": "2026-10-15T07:07:05.000Z",
+    "contentHash": "7747b5ded82c82805af48e752ecbc651a68c02cbec70b90fd3bb41b1da6023de",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:darkreading-788400810f",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "industrial-control-systems",
+      "critical-infrastructure"
+    ],
+    "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+    "summary": "A high-severity authentication bypass and remote code execution vulnerability in Ivanti ICS products remained exploitable following an incomplete patch in July, enabling continued threat actor activity. The incident underscores challenges in coordinated vulnerability disclosure and remediation timelines for critical industrial control systems.",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+    "publishedAt": "2026-10-14T21:20:13.000Z",
+    "contentHash": "26c7f401d958f8ffe5b35ca91f94713e3b61103464ec03f07bd1b4a6419e91bf",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:sans-isc-f71fb556fb",
+    "tier": "event",
+    "category": "news",
+    "title": "Panchan's Mining Island Guest Diary",
+    "summary": "A SANS ISC guest diary entry documents observations related to a mining-themed environment or case study. The entry is contributed by Zachary Norwood, an intern in the SANS.edu BACS program, as part of the ISC's educational content series.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33426",
+    "publishedAt": "2026-10-15T01:10:57.000Z",
+    "contentHash": "a9370e3b9e40fd5d463e50c7f7c93839ffef5f2085d36e4440bacd383970638e",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-cd8ef8034f",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "title": "NCSC Updates TLS Guidance for Post-Quantum Cryptography",
+    "summary": "The UK National Cyber Security Centre has released updated recommendations for implementing post-quantum cryptographic algorithms in TLS configurations. Organizations are advised to begin migration planning to ensure readiness as quantum computing threats evolve.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "contentHash": "cd0f31ab27124764e2415da92322d552b40dbd3b485a98b5f3dfeb63b6268100",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:cisa-9a5d4539ca",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "industrial-control-systems",
+      "manufacturing",
+      "critical-infrastructure"
+    ],
+    "title": "Inductive Automation Ignition Privilege Escalation Vulnerability",
+    "summary": "A privilege escalation vulnerability in Inductive Automation Ignition software (versions 8.1.0–8.3.8) allows authenticated low-level users to elevate their access rights, rated HIGH severity (CVSS 8.8). Inductive Automation released patched versions 8.3.9 and 8.1.55 in August and September 2025; users should update immediately. No active exploitation has been reported.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "contentHash": "da6adf89122d925bb55b6214b64bedef98a5cbd1d1a55cef5c913b058df36c50",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:bleeping-10dada637c",
+    "tier": "event",
+    "category": "attack",
+    "title": "Palo Alto Networks Addresses PAN-OS Remote Code Execution Vulnerability",
+    "summary": "Palo Alto Networks has released patches for CVE-2026-0322, a high-severity remote code execution flaw in PAN-OS that has been actively exploited against firewall deployments. The vulnerability affects the company's core network security appliances and requires immediate patching to mitigate exposure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+    "publishedAt": "2026-10-14T22:56:47.000Z",
+    "contentHash": "27fde138d2b68e6e522a8fe46fac71c4bb99b01b842492f72addc50a46b9d0f7",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:thehackernews-ab68bb7b68",
+    "tier": "event",
+    "category": "product-release",
+    "region": "apac",
+    "industries": [
+      "backup and recovery",
+      "software"
+    ],
+    "title": "Ahsay Releases Updated Patches for AhsayCBS Authentication and Command Execution Flaws",
+    "summary": "Ahsay Backup has issued security updates addressing two chained vulnerabilities in AhsayCBS (CVE-2026-105133 and CVE-2026-105134) that bypass authentication and enable arbitrary command execution. These flaws have been actively exploited to deploy web shells and XMRig miners, with previous patches proving incomplete.",
+    "sourceUrl": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+    "publishedAt": "2026-10-15T06:43:08.000Z",
+    "contentHash": "2bbb2605199804a54c723476e1d270df6e02dd6dedce7a8a123b18fa4fda1d12",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:darkreading-203b618871",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Yam Store: Large-Scale Phishing Infrastructure Marketplace Disrupted",
+    "summary": "Researchers identified Yam Store, a cybercrime marketplace that provisioned cloud infrastructure and phishing toolkits enabling the distribution of over 1 billion phishing messages globally. The operation represented a significant supply-chain element within the phishing ecosystem, centralizing access to attack resources for threat actors.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages",
+    "publishedAt": "2026-10-14T20:57:16.000Z",
+    "contentHash": "51b7a2b8e733d26abb9c4671f0a4c722fbaa344ec2ed1452d46bdcf734a6d6cb",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:sans-isc-ec26e3c9fb",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "engineering",
+      "architecture",
+      "manufacturing",
+      "construction"
+    ],
+    "title": "VBA Code Execution Risk in AutoCAD Drawing Files",
+    "summary": "AutoCAD .dwg files can contain embedded VBA projects that may execute without user awareness, presenting a potential attack vector. The issue has persisted for years, with VBA code potentially remaining active in orphaned projects within drawing files.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33420",
+    "publishedAt": "2026-10-14T06:49:46.000Z",
+    "contentHash": "9e467395f605ec6c210ca4cc82196b4ec7b450cb83e9211043136ae22976e4a2",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:cisa-0b5b8a5c77",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "information technology",
+      "telecommunications",
+      "financial services",
+      "government",
+      "healthcare"
+    ],
+    "title": "CISA Adds Ivanti Connect Secure Authentication Bypass to Known Exploited Vulnerabilities",
+    "summary": "CISA has cataloged CVE-2026-104935, an unauthenticated remote code execution vulnerability in Ivanti Connect Secure affecting versions 25.1.1.1, 25.1.2.2, and 22.8R2.4 and prior, which is actively being exploited for credential theft and data exfiltration. Organizations should apply available patches immediately and conduct forensic analysis to detect in-memory exploitation, as standard integrity checking tools may not identify successful attacks. CISA provides detailed recovery procedures including factory reset, credential rotation, and certificate revocation for potentially compromised appl",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "contentHash": "790a6d85c29e67394f60fcf063d457a2ee8f18cb35bb94aa48448f8cbb4b1668",
+    "ingestedAt": "2026-10-15T09:53:42.766Z"
   }
 ]
