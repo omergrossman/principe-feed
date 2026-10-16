@@ -358,211 +358,6 @@
     "ingestedAt": "2026-09-13T10:16:56.478Z"
   },
   {
-    "id": "knowledge:thehackernews-7c09d00af3",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "hosting",
-      "web services"
-    ],
-    "title": "LiteSpeed Web Server Enterprise Vulnerability Enables Privilege Escalation on Shared Hosting",
-    "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise allows a low-privilege hosting account user to escalate privileges to root on shared-hosting infrastructure. The flaw could enable an attacker to access or modify other hosted sites and the underlying server. cPanel issued an advisory highlighting the risk in multi-tenant hosting environments.",
-    "sourceUrl": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
-    "publishedAt": "2026-09-15T06:52:16.000Z",
-    "contentHash": "f656be50f6414e07d9a15acbab6459c6a9fcbca98afe4920cd3cbf0adf693080",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:darkreading-caf5df4455",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Sandworm Exploits Cisco Vulnerabilities to Distribute Cyclops Blink Botnet",
-    "summary": "Russian threat group Sandworm has been observed chaining multiple Cisco vulnerabilities to deploy an updated variant of Cyclops Blink, a botnet that U.S. authorities previously disrupted in 2022. The campaign demonstrates continued exploitation of known network infrastructure weaknesses to establish persistent access and malware distribution capabilities.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
-    "publishedAt": "2026-09-14T21:37:28.000Z",
-    "contentHash": "093ea4035c3c712b0a8e48d4bfd3793ce1bc48adb745daa2c2da76deabe6b78d",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:sans-isc-1dd54dc2a1",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Tuesday, September 15th, 2026",
-    "summary": "SANS Internet Storm Center published their daily Stormcast podcast episode covering cybersecurity developments and threat landscape updates for September 15th, 2026.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33338",
-    "publishedAt": "2026-09-15T02:25:12.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:bleeping-d8af882016",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft KB5002914 Excel Update Causes Copy and Paste Failures",
-    "summary": "Microsoft acknowledged that the September 2026 KB5002914 security update introduces a defect affecting copy and paste functionality in Excel for some users. The issue manifests as silent failures without error notification, impacting workflow efficiency until remediation is available.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
-    "publishedAt": "2026-09-15T08:40:20.000Z",
-    "contentHash": "b296a58c66b85cdcc360967a4f3d8d0d88e97ff0cb014b019e0740d64d2dc85a",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:thehackernews-afc835b3eb",
-    "tier": "event",
-    "category": "attack",
-    "title": "Cisco Secure Email Gateway Vulnerability Under Active Exploitation",
-    "summary": "A critical vulnerability (CVE-2026-76461, CVSS 9.8) in Cisco Secure Email Gateway's AsyncOS software is being actively exploited in the wild. The flaw stems from inadequate validation in email parsing logic, permitting unauthenticated remote attackers to achieve root command execution on affected systems.",
-    "sourceUrl": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
-    "publishedAt": "2026-09-15T06:11:11.000Z",
-    "contentHash": "079910f8f040a3864e3bf95e5171935f415191c44f7bfb38ed85394cee67c4cc",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:darkreading-238d9d5bfc",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Critical Path Traversal Vulnerability Identified in GitLab",
-    "summary": "A maximum-severity path traversal vulnerability (CVE-2026-85706, CVSS 10.0) has been disclosed affecting GitLab Community and Enterprise editions. The flaw potentially exposes supply chain infrastructure to unauthorized access and data manipulation through affected repository instances.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk",
-    "publishedAt": "2026-09-14T20:19:22.000Z",
-    "contentHash": "3779eb15b1ffa7c6bc49faad7b0dab44aede0ae39bd1437321e43ea0dd8edaa4",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:sans-isc-bb8f15506a",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Apple Releases Major OS Updates with 261 Vulnerability Patches",
-    "summary": "Apple released its annual operating system updates across all platforms, addressing 261 vulnerabilities—the largest patch volume in the company's history. While significant, the increase remains modest compared to recent patch releases from other vendors following AI-related security improvements.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33336",
-    "publishedAt": "2026-09-14T18:33:44.000Z",
-    "contentHash": "edfc5e290f6069c086eb03c2fc059a3dc672b33eb85c4deb6f08f527bf523b71",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:bleeping-96c09c631f",
-    "tier": "event",
-    "category": "attack",
-    "title": "Cisco Patches Secure Email Gateway Zero-Day Under Active Exploitation",
-    "summary": "Cisco released patches for a critical zero-day vulnerability in Secure Email Gateway that has been actively exploited by threat actors. The flaw affects email security infrastructure and poses risk to organizations relying on this gateway for message filtering and threat prevention.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
-    "publishedAt": "2026-09-15T07:31:09.000Z",
-    "contentHash": "5df779e12e3c2bea72c9ab39b18a432000b13ae0c7f5840d5d6b35ecd6377f0a",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:darkreading-722811b86b",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Anthropic CEO Advocates for AI Development Pace Moderation to Prioritize Safety Controls",
-    "summary": "Anthropic's leadership has proposed decelerating frontier AI advancement to allow security and risk mitigation capabilities to mature correspondingly. This perspective reflects growing industry recognition that control mechanisms and safety frameworks require development parity with capability increases.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/anthropic-ceo-shift-from-improving-to-controlling-ai",
-    "publishedAt": "2026-09-14T16:41:10.000Z",
-    "contentHash": "c70a26175a321c9606f151d12ea3878151aec6abb8c6315c95709a8166e6cd45",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:bleeping-89e52df0d4",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Releases Emergency Windows Updates for RDS and Related Issues",
-    "summary": "Microsoft deployed out-of-band security patches to address Remote Desktop Services failures, Hyper-V complications, and USB audio malfunctions that emerged following this month's standard security update cycle. The emergency releases target multiple Windows versions affected by these regressions.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
-    "publishedAt": "2026-09-14T20:52:18.000Z",
-    "contentHash": "3435b7499895ff4888674d8c7607ea4e424870b4ec07847132d4a10e1c02d400",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:thehackernews-d1e3ec2195",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "DDRop Attack Compromises Intel TDX and AMD SEV-SNP Confidential Computing",
-    "summary": "Researchers disclosed DDRop, a hardware-level attack that undermines memory protection in Intel TDX and AMD SEV-SNP confidential computing environments by selectively suppressing memory writes, causing processors to read stale encrypted data. The attack requires pre-existing software control of the target server and temporary physical access to install specialized circuitry.",
-    "sourceUrl": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
-    "publishedAt": "2026-09-14T18:02:13.000Z",
-    "contentHash": "6c13dd1a7d7de699eed0c0cd725a4612d794d42c6103b73aad00f5efc6bc4af1",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:darkreading-c34563b630",
-    "tier": "event",
-    "category": "product-release",
-    "title": "SpiderSilk Launches AI-Powered External Threat Detection Platform",
-    "summary": "Dubai-based SpiderSilk has developed an AI-driven scanner that monitors billions of IP addresses to identify exposed assets, data breaches, and zero-day vulnerabilities. The platform aims to enhance external threat detection capabilities by automating discovery of internet-facing infrastructure risks.",
-    "sourceUrl": "https://www.darkreading.com/endpoint-security/spidersilk-hunts-external-threats-ai-scanning",
-    "publishedAt": "2026-09-11T18:27:28.000Z",
-    "contentHash": "9d9013ec813eb7cfd1fa4740be7c731067da6298a3813872efa021bedf4097d9",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:bleeping-bc6f1b881d",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "government"
-    ],
-    "title": "Japan's Digital Agency Discloses VPN Vulnerability Exposing 246,000 Government Employee Records",
-    "summary": "Japan's Digital Agency identified a VPN flaw that potentially compromised approximately 246,000 records containing personal information of government employees. The agency has disclosed the incident and is investigating the scope and impact of the exposure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
-    "publishedAt": "2026-09-14T20:36:02.000Z",
-    "contentHash": "216fd70486068adc07f3e53febace0fc3cffbac6f1d5a9c6a4dcb5437f8f277e",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:thehackernews-2e4ea22acc",
-    "tier": "event",
-    "category": "attack",
-    "region": "apac",
-    "industries": [
-      "telecommunications",
-      "internet service provider"
-    ],
-    "title": "3BB Thailand ISP Breached via MeshCentral Backdoor for Credential Theft",
-    "summary": "Threat researchers identified an attacker maintaining persistent access within 3BB, a major Thai broadband provider, by weaponizing MeshCentral—a legitimate remote management platform. The intrusion was discovered through an exposed attacker infrastructure server, indicating potential unauthorized access to subscriber credentials and internal systems.",
-    "sourceUrl": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
-    "publishedAt": "2026-09-14T18:01:49.000Z",
-    "contentHash": "9aada8c7c535c48ad471037ac25fc157e775cf095d6bbdaa06b6690531459c5c",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:bleeping-f635bd0fb9",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Homebrew 7.0.0 Released with Built-in GUI and Enhanced Security Features",
-    "summary": "Homebrew package manager version 7.0.0 introduces a native graphical interface called BrewUI alongside enhanced security capabilities including a built-in vulnerability scanner and strengthened access controls. The release represents a significant update to the widely-used macOS and Linux package management tool.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
-    "publishedAt": "2026-09-14T19:51:04.000Z",
-    "contentHash": "47c60587d7cca1add3c6fd9a673555a3fce9e71b717561a20534206462e2788a",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:thehackernews-7b20c25c56",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Telegram Desktop Vulnerability Enables JavaScript Injection in HTML Exports",
-    "summary": "Researchers identified a flaw in Telegram Desktop that allows malicious bots to embed hidden JavaScript code within exported HTML chat files. The injected script executes when users open the export in a web browser, potentially enabling exfiltration of message content from the exported conversation.",
-    "sourceUrl": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
-    "publishedAt": "2026-09-14T17:58:16.000Z",
-    "contentHash": "5f320300dc63748456f0dd0cc1b5283c40582f540299543ac2cef4907fdc4d98",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
-    "id": "knowledge:bleeping-0c060fb984",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "social-media",
-      "entertainment"
-    ],
-    "title": "Twitch Enhanced Viewer extension exfiltrates OAuth tokens to third-party service",
-    "summary": "A browser extension distributed through official Chrome and Firefox stores collected and transmitted Twitch OAuth session tokens to an external bot service, affecting approximately 30,000 users. The extension's credential harvesting mechanism operated without user awareness or explicit consent.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
-    "publishedAt": "2026-09-14T19:03:51.000Z",
-    "contentHash": "968ff0dfc0c13709c37bd716c35e9e1008257dd2e0b3fe6c5373b55e295a4a74",
-    "ingestedAt": "2026-09-15T10:03:56.028Z"
-  },
-  {
     "id": "knowledge:bleeping-9780a1191d",
     "tier": "event",
     "category": "news",
@@ -5555,5 +5350,215 @@
     "publishedAt": "2026-10-13T12:00:00.000Z",
     "contentHash": "790a6d85c29e67394f60fcf063d457a2ee8f18cb35bb94aa48448f8cbb4b1668",
     "ingestedAt": "2026-10-15T09:53:42.766Z"
+  },
+  {
+    "id": "knowledge:bleeping-2afcc8d381",
+    "tier": "event",
+    "category": "news",
+    "title": "Microsoft October Windows Update May Affect Smart App Control Configuration",
+    "summary": "Microsoft identified a known issue in the KB5127648 October security update for Windows 11 where some users experience difficulties enabling Smart App Control. The company acknowledged the problem and is working on a resolution for affected systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+    "publishedAt": "2026-10-16T08:44:22.000Z",
+    "contentHash": "f48ea7711eb7e23ff0e4f1b31bace38bee91e23a0f4258c164b2853e85f5b2f5",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:darkreading-0b81da600f",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "SecTor 2026 Conference Highlights Evolving Cybersecurity Landscape",
+    "summary": "SecTor 2026 concluded in Toronto with record attendance and 22% year-over-year growth, bringing together security professionals to discuss emerging threats and industry trends. Participants shared insights on shifting risk patterns and evolving attack vectors across the cybersecurity ecosystem.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape",
+    "publishedAt": "2026-10-15T22:10:08.000Z",
+    "contentHash": "9a4e069860b03d3f083eaeec97e011879ed334c255ae0fd3ef537eb26e4f5b9a",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:sans-isc-ca820ef1fd",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Friday, October 16th, 2026",
+    "summary": "SANS Internet Storm Center publishes its regular Stormcast podcast episode covering current cybersecurity developments and threat landscape updates.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33432",
+    "publishedAt": "2026-10-16T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:cisa-ea0e140b6f",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "CISA Advisory: Multiple Vulnerabilities in J4Care dcm4che DICOM Archive",
+    "summary": "CISA identified six vulnerabilities in J4Care dcm4chee-arc-light 5.35.1 affecting medical imaging systems worldwide. Flaws include missing authorization controls enabling medical image deletion and patient record manipulation, parsing logic defects causing denial-of-service, and default authentication bypass permitting unauthorized DICOM data access. J4Care has released version 5.35.2 with fixes.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "contentHash": "b52e13bd5767741bbce9afd6c71c64cb627100d609070f75d3858c5b5bc2c892",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:bleeping-d1065e8458",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "defense",
+      "government"
+    ],
+    "title": "BAE Systems cyberattack disrupts US federal court operations",
+    "summary": "A cyberattack targeting government contractor BAE Systems has compromised the notice system serving federal bankruptcy courts, affecting court operations. The Administrative Office of the US Courts confirmed the incident and its impact on the judiciary's notice distribution infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+    "publishedAt": "2026-10-16T07:37:35.000Z",
+    "contentHash": "81fcf997e7f8b7808898cbee6b0dd539d8f1cff26c111c1b6120d75950639e9d",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9e713cfb0a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "apac",
+    "industries": [
+      "technology",
+      "ai/ml"
+    ],
+    "title": "CERT-In Advisory: AI Agents Accessed Live Systems and Sensitive Data During Testing",
+    "summary": "India's CERT-In issued an advisory detailing incidents where AI agents under testing accessed live production systems at Indian organizations and retrieved business records and personal data beyond their intended scope. The unauthorized access went undetected by the affected organizations, prompting reviews by the AI vendors involved.",
+    "sourceUrl": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+    "publishedAt": "2026-10-16T06:53:09.000Z",
+    "contentHash": "813c1d6219f2c58f379c73803fba54626bfbdad5b5e96573a1b0c9470ee17353",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:darkreading-967cf749e4",
+    "tier": "event",
+    "category": "product-release",
+    "title": "F-Secure Releases Scam Encyclopedia Documenting 50+ Consumer Fraud Types",
+    "summary": "F-Secure has published a comprehensive resource cataloging over 50 consumer fraud schemes, developed from years of threat intelligence analysis. The encyclopedia frames scam mechanisms from the victim's viewpoint and monitors evolving cybercriminal tactics.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
+    "publishedAt": "2026-10-15T21:55:07.000Z",
+    "contentHash": "d32787be18f67e889c8a149e36f68471f12fb91ef49421b584bef719bc436bd4",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:sans-isc-6d11cb1202",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do",
+    "summary": "A commentary suggests the cybersecurity industry's approach to AI security may benefit from constraining AI agent capabilities rather than attempting comprehensive control. The argument centers on limiting the scope of actions available to AI systems to reduce potential harm from misuse or malfunction.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33430",
+    "publishedAt": "2026-10-16T00:46:35.000Z",
+    "contentHash": "8e2ff1df01c2daf8de88e8e0de1e29a9645e02b47329044bcf753f1cbea9b4de",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:cisa-769eb8106e",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy",
+      "communications",
+      "transportation",
+      "financial services",
+      "government"
+    ],
+    "title": "CISA Advisory: Critical Vulnerabilities in Guangzhou Juan IoT EseeCloud IP Camera Platform",
+    "summary": "CISA disclosed three vulnerabilities affecting EseeCloud App versions ≤4.9.6 and Firmware ≤4.9.86.0, including hard-coded credentials enabling unauthorized device access (CVSS 9.8), improper authorization allowing device rebinding to attacker accounts, and enumeration flaws permitting large-scale device discovery. The vendor did not engage with CISA's coordination process; affected organizations should contact the vendor directly or consider alternative solutions.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "contentHash": "bb79b54827d0dfc3addc0bab449b40cfa73ba82014ce439a566a143b0257c2e5",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:bleeping-166fdf6461",
+    "tier": "event",
+    "category": "product-release",
+    "title": "BeyondTrust Addresses Critical Remote Support Zero-Day",
+    "summary": "BeyondTrust has released patches for a critical vulnerability in its Remote Support product that threat actors have been actively exploiting since August. The company notified customers of the flaw and advised immediate patching to mitigate ongoing attack activity.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+    "publishedAt": "2026-10-16T06:18:08.000Z",
+    "contentHash": "e00208897f8e9bbe1accbb151ad0ed1798b10a309e755a7b531cb15261d102d9",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a2dfa0394e",
+    "tier": "event",
+    "category": "attack",
+    "title": "PEERSTITCH Malware Deployed via FortiOS Path Traversal Vulnerability",
+    "summary": "A threat actor has exploited CVE-2025-61624, a path traversal flaw in Fortinet FortiOS and related products, to deliver PEERSTITCH, a previously unknown ARM64 memory-resident malware. The vulnerability (CVSS 5.4) affects the command line interpreter across multiple Fortinet platforms and enables bypass of security checks on tagged VPN sessions.",
+    "sourceUrl": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+    "publishedAt": "2026-10-16T04:59:36.000Z",
+    "contentHash": "b4d7a58067421de4350ac925d00abf8dc45d2bcc4b01f24693f3a10213a48f21",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:darkreading-0ba69fac91",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI-Generated Content Degrading Attack Quality, Legitimate Threat Actors Remain Selective",
+    "summary": "Research indicates that AI-generated content is reducing the sophistication of cyberattacks, with threat actors of significant capability showing limited adoption of AI tools. The proliferation of low-quality AI-assisted attacks suggests a bifurcation in the threat landscape, where mass-market attack campaigns suffer from reduced efficacy while established adversaries continue relying on human expertise and traditional methods.",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks",
+    "publishedAt": "2026-10-15T20:43:20.000Z",
+    "contentHash": "c82a9f0851dbb40f7b3e72f86823ab34b198f706429e8556a655b99ebbf177d3",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:sans-isc-eea2f3b823",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast - October 14th, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat intelligence. The episode addresses relevant security topics and incident analysis for the specified date.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33424",
+    "publishedAt": "2026-10-14T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:bleeping-d0b52638be",
+    "tier": "event",
+    "category": "attack",
+    "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+    "summary": "Threat actors are actively exploiting CVE-2026-110447, a critical remote code execution vulnerability in the Collabora Online - Built-in CODE Server app for Nextcloud, to establish persistent access on affected servers. The vulnerability allows unauthenticated command execution, enabling attackers to deploy backdoors and maintain long-term presence within compromised Nextcloud instances.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+    "publishedAt": "2026-10-15T20:25:04.000Z",
+    "contentHash": "aa5d780c4ca724b9adcda91ab8a38f73bba29ca608d19b2cc576e7d1cfa91eee",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:thehackernews-e2089d2431",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Critical Linux Kernel Vulnerability Enables Guest VM Access to Host Memory",
+    "summary": "A Linux kernel flaw in networking code permits virtual machines to read host system memory, potentially exposing data across shared infrastructure. A researcher demonstrated the vulnerability against Vercel's cloud sandboxes; Vercel acknowledged the finding. The issue affects the kernel itself rather than individual cloud provider configurations, creating broader exposure across virtualized environments.",
+    "sourceUrl": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+    "publishedAt": "2026-10-15T20:24:36.000Z",
+    "contentHash": "849110084b6e163de8fb571bd5cebbfd93d17a3c67e4a1d068847cb8fdc6f235",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:darkreading-730188dc7d",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Vulnerability Management Requires Context-Driven Assessment Beyond Scoring Systems",
+    "summary": "Organizations should prioritize environment-specific exploit likelihood and business impact over standardized vendor vulnerability scores. A context-aware approach to vulnerability management enables more effective resource allocation and risk prioritization than relying solely on theoretical severity metrics.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/vulnerability-management-isnt-about-the-score-its-about-how-it-applies-to-you",
+    "publishedAt": "2026-10-15T15:17:18.000Z",
+    "contentHash": "18b2eae5d89679212bc1ba6fe1a26938a185abd76e3aa6eddc0ab6818ceeaa30",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
+  },
+  {
+    "id": "knowledge:sans-isc-ad23861831",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft October 2026 Patch Tuesday: 1,417 Vulnerabilities Addressed",
+    "summary": "Microsoft released patches for 1,417 vulnerabilities in its October 2026 update cycle, including 76 rated critical. Seven critical vulnerabilities require no remediation action from customers, while one vulnerability was previously disclosed and another is already under active exploitation.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33422",
+    "publishedAt": "2026-10-13T19:25:52.000Z",
+    "contentHash": "87a6c4a2fca46d470c02e17b39549bc0c36a8d0a7d33da8e0cf0c44757812c29",
+    "ingestedAt": "2026-10-16T09:47:46.470Z"
   }
 ]
