@@ -5125,5 +5125,241 @@
     "publishedAt": "2026-10-19T14:00:00.000Z",
     "contentHash": "ca8a9eb93e84d14c42f0c3b57f4109b62b63d3ce319d9f85a0282b6c51bef405",
     "ingestedAt": "2026-10-20T10:03:18.644Z"
+  },
+  {
+    "id": "knowledge:bleeping-cdb08ddee2",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical infrastructure"
+    ],
+    "title": "CISA reports SafePay ransomware campaign affecting 600+ critical infrastructure organizations",
+    "summary": "CISA has disclosed that the SafePay ransomware group has successfully compromised more than 600 critical infrastructure entities globally since 2024. The campaign demonstrates sustained targeting of sectors essential to national and international operations, warranting heightened monitoring and defensive posture across affected industries.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+    "publishedAt": "2026-10-21T08:36:24.000Z",
+    "contentHash": "9ddaf8cbc3d40605c483884b8cd7864f116507223259f5939decc815ac714bdd",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8231b6f9ea",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "PHP Releases Out-of-Cycle Security Update for Two Critical RCE Vulnerabilities",
+    "summary": "PHP's security team announced an unscheduled release addressing two critical remote code execution flaws rated 9.2 CVSS. Details on affected versions and mitigations were to be disclosed upon the official advisory publication on October 21.",
+    "sourceUrl": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+    "publishedAt": "2026-10-21T09:05:17.000Z",
+    "contentHash": "659cfe39ac13981711274af00a40df53bf1ce887ff68d96af2cca1928fe0cc52",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:darkreading-b3264bf1c3",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+    "summary": "Multiple technology companies including Google, Mozilla, Apple, and the Go project have revoked certificates issued by Indian certificate authority eMudhra following the compromise of eight cryptographic keys. The incident prompted coordinated blocking action across major platforms, though the root cause of the key compromise remains undetermined.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+    "publishedAt": "2026-10-20T21:45:47.000Z",
+    "contentHash": "68f18a0ba7a451bcdaee8d6b7bd5d0e7da2c1aeb7ebc7240c526e9eecedad65e",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:sans-isc-95b6b6e7dc",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast for October 21st, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape observations. The episode addresses emerging security concerns and defensive strategies relevant to practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33438",
+    "publishedAt": "2026-10-21T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-03ee9f0b2a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "uk",
+    "title": "NCSC advises UK organizations to prepare for PHP security updates",
+    "summary": "The UK National Cyber Security Centre has notified organizations to ready systems for expedited patching of a critical PHP vulnerability. The advisory emphasizes preparation and timely deployment of patches across affected infrastructure.",
+    "sourceUrl": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "contentHash": "f382626bff60fe974819722db3a04ef3302cb4d9ffc6f9d6880987f60353e58d",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:bleeping-4c1ba1c175",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software",
+      "web hosting"
+    ],
+    "title": "Stolen UpdraftCentral Keys Used to Backdoor WordPress Sites",
+    "summary": "A threat actor obtained UpdraftCentral connection keys following a breach of TeamUpdraft's website, potentially enabling remote command execution on connected WordPress installations. UpdraftCentral is a management platform integrated with the company's widely-deployed backup and security plugins.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+    "publishedAt": "2026-10-21T01:01:50.000Z",
+    "contentHash": "639ec5f3148cdc1a09c5483051096557436a0142d03e6363b77ed5f9b374de41",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f0182a53b4",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "saas",
+      "wordpress",
+      "web hosting"
+    ],
+    "title": "Threat Actors Exploit Compromised UpdraftCentral Keys to Deploy WordPress Backdoors",
+    "summary": "Attackers obtained connection keys for UpdraftCentral following a breach of TeamUpdraft's infrastructure, potentially affecting customers of the widely-deployed UpdraftPlus backup plugin. The compromised credentials were leveraged to install backdoors on WordPress installations, granting unauthorized remote access to affected sites.",
+    "sourceUrl": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+    "publishedAt": "2026-10-21T09:01:12.000Z",
+    "contentHash": "006089d8e51be8765e0254c7288d587afddbefd4c15af2a788b7124c2fab30f2",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:darkreading-05bf6004ba",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "industries": [
+      "technology"
+    ],
+    "title": "Former OpenAI Engineer Detained Over Alleged Surveillance Device Placement",
+    "summary": "A former OpenAI employee with reported Saudi connections was arrested for allegedly installing a concealed recording device in a conference room at the company's headquarters. The incident underscores the continued relevance of insider threat detection and physical security controls in high-value technology environments.",
+    "sourceUrl": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
+    "publishedAt": "2026-10-20T19:16:49.000Z",
+    "contentHash": "97aa0ff47678f0d8c8e3e61cb30af7dda904d305dd135f18b78ea20778e1d21a",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:cisa-8d626ff9f1",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy"
+    ],
+    "title": "Hitachi Energy MicroSCADA X SYS600 Multiple Vulnerabilities",
+    "summary": "CISA disclosed four vulnerabilities affecting Hitachi Energy MicroSCADA X SYS600 versions 10.7 and prior, including CSV injection, authentication bypass, and privilege escalation flaws with CVSS scores ranging from 5.0 to 8.5. Affected deployments span critical infrastructure globally; vendor remediation involves upgrading to version 10.8 with additional mitigation strategies documented in administrative guides.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+    "publishedAt": "2026-10-20T12:00:00.000Z",
+    "contentHash": "aad54b64bbcf361f1aeff24561e9a578ebb73435bc021c4de3b23f4424eb727c",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:bleeping-c75006974e",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+    "summary": "eMudhra, a certificate authority, revoked eight intermediate certificates after security researchers demonstrated that the private keys were sufficiently weak to be recovered quickly, enabling potential certificate forgery for legitimate domains. Major browsers including Mozilla, Google, and Apple implemented blocks for the compromised certificates.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+    "publishedAt": "2026-10-21T00:46:42.000Z",
+    "contentHash": "1aa6e600697539e6e8bad35faa06303751f431e57601b42c5ff0acdf5b2c286c",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:darkreading-72a27704b2",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Close Identity Gaps in Software Development Before Unleashing AI",
+    "summary": "AI adoption in software development introduces new security complexities across the SDLC. Industry experts identified that enhanced cross-functional collaboration, improved identity visibility, and more efficient testing approaches can help security leaders manage these challenges while maintaining development velocity.",
+    "sourceUrl": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
+    "publishedAt": "2026-10-20T15:35:45.000Z",
+    "contentHash": "becc485e6bca1363f90f88dbea2452111c837e48b9744e7705772b4468418c6a",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:cisa-1af654b0c9",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy",
+      "healthcare",
+      "transportation",
+      "critical manufacturing"
+    ],
+    "title": "HMS Networks PEAK-System PCAN Windows Driver Vulnerabilities",
+    "summary": "CISA published a vulnerability advisory covering six flaws in HMS Networks PEAK-System PCAN Windows drivers (versions ≤5.1.2.1151 for setup, ≤5.1.2 for device drivers) affecting critical infrastructure sectors globally. The vulnerabilities stem from improper input validation and buffer handling, potentially permitting local privilege escalation and kernel crashes; HMS Networks has released patched version 5.1.4.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-01",
+    "publishedAt": "2026-10-20T12:00:00.000Z",
+    "contentHash": "4774ad713e8b96cf281f0301d44ab4e3cb55fd767ed3e553df1a2d3cd05657fd",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:bleeping-c16b7dbd63",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "PHP Security Team Issues Emergency Patch Advisory for Critical Vulnerabilities",
+    "summary": "The PHP security team announced forthcoming emergency updates to address two critical vulnerabilities, following premature disclosure of vulnerability details. Administrators are advised to prepare for deployment of patches scheduled for release tomorrow.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+    "publishedAt": "2026-10-20T20:56:43.000Z",
+    "contentHash": "eda38fa6eac52c696dadeb39f325062722441c2db2f7bee3c15ec04ebe5140a6",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:thehackernews-2f30cd1c0a",
+    "tier": "event",
+    "category": "news",
+    "region": "apac",
+    "industries": [
+      "financial-services"
+    ],
+    "title": "State Bank of India Confirms Data Exposure of 3,897 Customer Records",
+    "summary": "India's largest state-owned bank identified approximately 3,897 customer records containing personal information among a larger dataset of 375,000 records discovered on the dark web. The bank disclosed the incident via stock-exchange filing but has not yet determined the source or root cause of the data loss.",
+    "sourceUrl": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+    "publishedAt": "2026-10-21T07:44:22.000Z",
+    "contentHash": "5f3bea551dbac04e65ef11ded2daf0e8600f58af9609ead229fbd6af38047a80",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:darkreading-f9bcb21e36",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "manufacturing",
+      "agriculture",
+      "consumer goods"
+    ],
+    "title": "Hackers Exploit AI Pen-Testing Tool Cairn in Widespread Compromise Campaign",
+    "summary": "A Chinese-speaking threat actor has leveraged the Cairn AI-powered penetration testing tool to compromise hundreds of websites globally, including notable targets such as John Deere, SharkNinja, and Cummins. The attacker appears to have weaponized the legitimate security tool to automate reconnaissance and exploitation at scale across multiple sectors.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
+    "publishedAt": "2026-10-20T14:36:05.000Z",
+    "contentHash": "d41a73bf3d9e85dd15927589e7de75ef8a8084c74bc9f23da7ae7777970f78ed",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:cisa-42e627a087",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "industries": [
+      "industrial control systems",
+      "manufacturing",
+      "critical infrastructure"
+    ],
+    "title": "Moxa AIG-302 ThingsPro Edge Vulnerabilities Patched",
+    "summary": "CISA disclosed two vulnerabilities in Moxa AIG-302 ThingsPro Edge industrial computing devices: a missing authorization flaw (CVSS 6.8–6.9) and a hard-coded cryptographic key vulnerability (CVSS 8.1–8.6). Both require adjacent network access and do not support remote exploitation. Moxa released patch v1.4.1 to remediate the issues.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03",
+    "publishedAt": "2026-10-20T12:00:00.000Z",
+    "contentHash": "929823482e49f4ab625e63c49da925853cba9bb513c1fb7b8292e832f2dbaa67",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:bleeping-3c30069909",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "cloud services"
+    ],
+    "title": "Zeabur Platform Shuts Down Following Second Security Breach",
+    "summary": "Development platform Zeabur disclosed a security incident where an attacker exploited plaintext-stored internal credentials to access infrastructure, resulting in the theft of 3.2 million environment variable records and data from approximately 322,000 user accounts. The breach represents the second significant security event for the platform within two months, leading to its operational shutdown.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+    "publishedAt": "2026-10-20T19:33:02.000Z",
+    "contentHash": "f69dde4167206509660c1dcaa691a45b882443650c4067205b534f5577246924",
+    "ingestedAt": "2026-10-21T10:07:15.246Z"
   }
 ]

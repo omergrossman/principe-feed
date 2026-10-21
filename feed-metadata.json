@@ -2282,5 +2282,122 @@
   "knowledge/darkreading-a48af4bd39.md": {
     "category": "strategy",
     "publishedAt": "2026-10-19T14:00:00.000Z"
+  },
+  "knowledge/bleeping-cdb08ddee2.md": {
+    "region": "global",
+    "industries": [
+      "critical infrastructure"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-21T08:36:24.000Z"
+  },
+  "knowledge/thehackernews-8231b6f9ea.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-21T09:05:17.000Z"
+  },
+  "knowledge/darkreading-b3264bf1c3.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-20T21:45:47.000Z"
+  },
+  "knowledge/sans-isc-95b6b6e7dc.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-21T02:00:03.000Z"
+  },
+  "knowledge/ncsc-uk-03ee9f0b2a.md": {
+    "region": "uk",
+    "category": "threat-intel",
+    "publishedAt": "2026-10-21T12:00:00.000Z"
+  },
+  "knowledge/bleeping-4c1ba1c175.md": {
+    "industries": [
+      "software",
+      "web hosting"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-21T01:01:50.000Z"
+  },
+  "knowledge/thehackernews-f0182a53b4.md": {
+    "industries": [
+      "saas",
+      "wordpress",
+      "web hosting"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-21T09:01:12.000Z"
+  },
+  "knowledge/darkreading-05bf6004ba.md": {
+    "region": "us",
+    "industries": [
+      "technology"
+    ],
+    "category": "news",
+    "publishedAt": "2026-10-20T19:16:49.000Z"
+  },
+  "knowledge/cisa-8d626ff9f1.md": {
+    "region": "global",
+    "industries": [
+      "energy"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-20T12:00:00.000Z"
+  },
+  "knowledge/bleeping-c75006974e.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-21T00:46:42.000Z"
+  },
+  "knowledge/darkreading-72a27704b2.md": {
+    "category": "strategy",
+    "publishedAt": "2026-10-20T15:35:45.000Z"
+  },
+  "knowledge/cisa-1af654b0c9.md": {
+    "region": "global",
+    "industries": [
+      "energy",
+      "healthcare",
+      "transportation",
+      "critical manufacturing"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-20T12:00:00.000Z"
+  },
+  "knowledge/bleeping-c16b7dbd63.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-20T20:56:43.000Z"
+  },
+  "knowledge/thehackernews-2f30cd1c0a.md": {
+    "region": "apac",
+    "industries": [
+      "financial-services"
+    ],
+    "category": "news",
+    "publishedAt": "2026-10-21T07:44:22.000Z"
+  },
+  "knowledge/darkreading-f9bcb21e36.md": {
+    "region": "global",
+    "industries": [
+      "manufacturing",
+      "agriculture",
+      "consumer goods"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-20T14:36:05.000Z"
+  },
+  "knowledge/cisa-42e627a087.md": {
+    "region": "us",
+    "industries": [
+      "industrial control systems",
+      "manufacturing",
+      "critical infrastructure"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-20T12:00:00.000Z"
+  },
+  "knowledge/bleeping-3c30069909.md": {
+    "industries": [
+      "software development",
+      "cloud services"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-20T19:33:02.000Z"
   }
 }
