@@ -358,219 +358,6 @@
     "ingestedAt": "2026-09-13T10:16:56.478Z"
   },
   {
-    "id": "knowledge:bleeping-1f3d832dd5",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "title": "CISA Orders Federal Agencies to Patch Active Zyxel Switch Vulnerability",
-    "summary": "A high-severity vulnerability in Zyxel GS1900 series switches is being actively exploited in attacks targeting data theft. CISA has issued a directive requiring federal agencies to remediate the flaw, indicating the threat warrants prioritized patching across government infrastructure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
-    "publishedAt": "2026-09-22T08:53:09.000Z",
-    "contentHash": "7e6c7d8b5734bae4417b864b7e137377bf6002961a9ae60c7ec8f9afb0d8b85c",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:thehackernews-c8f864c65c",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "apac",
-    "industries": [
-      "education",
-      "government"
-    ],
-    "title": "SideCopy Expands India Targeting to Academic Sector Using ReverseRAT",
-    "summary": "SideCopy threat actors have broadened their targeting scope to include Indian academic institutions, moving beyond previous government-focused campaigns. The group employs spear-phishing messages paired with mshta.exe exploitation to execute malicious scripts and bypass security controls, according to Trellix research.",
-    "sourceUrl": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
-    "publishedAt": "2026-09-22T07:52:03.000Z",
-    "contentHash": "1813006e198870ea809da02b81f56d4aa2a134cf9f1fe76fcbce2233ccaabddf",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:darkreading-a194e18627",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "AI Agents and Uncontrolled Resource Consumption Risks",
-    "summary": "OWASP has identified unbounded consumption as a significant vulnerability in large language model applications, ranked sixth in its LLM Top 10. Enterprises deploying AI agents face potential financial exposure when systems lack adequate controls to limit resource usage and operational costs.",
-    "sourceUrl": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
-    "publishedAt": "2026-09-21T21:39:59.000Z",
-    "contentHash": "240c0c91125155aaeb61d2049b59c8ec5a86c96f542297dc3467af8754878cec",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:sans-isc-9851d9adf2",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Tuesday, September 22nd, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat landscape updates for September 22nd, 2026.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33356",
-    "publishedAt": "2026-09-22T03:50:10.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:ncsc-uk-b6d406ece8",
-    "tier": "event",
-    "category": "strategy",
-    "region": "uk",
-    "title": "Agentic AI in Cyber Defence: Asymmetric Opportunities for Defenders",
-    "summary": "The NCSC notes that while defenders face structural constraints preventing them from deploying agentic AI with the same autonomy as attackers, significant defensive capabilities remain achievable through careful implementation. Organizations can leverage agentic systems within appropriate guardrails to enhance threat detection, response coordination, and security operations efficiency.",
-    "sourceUrl": "https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically",
-    "publishedAt": "2026-09-21T12:00:00.000Z",
-    "contentHash": "75becf99ed76a411db131910f47af519a0db2e41644d8bb6717601352ab4ed44",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:thehackernews-f549f03719",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Meta Muse AI Assistant Vulnerable to Local Privilege Escalation via Hidden Settings",
-    "summary": "Security researcher Patrick Wardle demonstrated a proof-of-concept vulnerability in Meta's Muse assistant on macOS that allows locally-running malware to intercept user voice input by modifying concealed configuration settings. The attack redirects microphone input to an attacker while maintaining the legitimate appearance of normal assistant operation, potentially enabling unauthorized access to capabilities the user granted the application.",
-    "sourceUrl": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-    "publishedAt": "2026-09-22T06:33:57.000Z",
-    "contentHash": "9cfb4180b54a0b334aa6bc661af00af1d4410ffdfe0c508c12caa2dee7da5ce7",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:darkreading-757c3ffb61",
-    "tier": "event",
-    "category": "attack",
-    "title": "ShinyHunters Claims Data Theft from Clop Ransomware Operation",
-    "summary": "ShinyHunters reportedly compromised Clop's dark web infrastructure and claims to have obtained victim data, creating potential secondary extortion risk for organizations that previously settled with Clop. The development highlights vulnerabilities within ransomware-as-a-service ecosystems and introduces uncertainty around data handling practices among threat actors.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims",
-    "publishedAt": "2026-09-21T20:07:56.000Z",
-    "contentHash": "be44f7b7ff7f24325bbfef72958182eb23c58ac62634f54429096a95a04b4654",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:sans-isc-17eab563c9",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "TerminalFix Campaign Uses PNG Steganography in Multistage Intrusion",
-    "summary": "Microsoft Security Research documented a campaign employing steganography within PNG files as part of a multistage intrusion chain that establishes reverse tunnels. The threat actors embedded malicious payloads in image files to evade detection during the infection process.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33318",
-    "publishedAt": "2026-09-21T10:33:53.000Z",
-    "contentHash": "218c3119eb5d85ab13113c19ce7fac83c97ed2c8c8831044b9a62949c862a9c8",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:bleeping-522af8b6ff",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "CISA Reports Active Exploitation of Linux Kernel Vulnerabilities",
-    "summary": "CISA has confirmed that threat actors are actively exploiting three Linux kernel vulnerabilities, including one rated critical severity. The agency is tracking in-the-wild exploitation attempts targeting these flaws.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-    "publishedAt": "2026-09-21T20:12:17.000Z",
-    "contentHash": "c2d17a06302bbb84d99c49c395c050db0c4ffbcc0523bc9e4b0e621577dfb664",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:thehackernews-fc67da5b97",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "WordPress Comment2Shell Vulnerability Enables RCE Through Admin Session Hijacking",
-    "summary": "A vulnerability in WordPress core (CVE-2026-93485) allows unauthenticated users to inject malicious scripts via comments, which execute with administrator privileges when site admins view the affected page, potentially leading to remote code execution. WordPress addressed the flaw in version 7.1.1 released on September 17, with vendor guidance recommending immediate patching across affected installations.",
-    "sourceUrl": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-    "publishedAt": "2026-09-22T06:03:14.000Z",
-    "contentHash": "60b09050ee40b9f4e72d4ae2216cdb0e41eadcf54ca4cf910397dc3dd1ccf949",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:darkreading-f3c6cee66a",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "mea",
-    "title": "Malware Distribution via Film Torrents Targets African Users",
-    "summary": "Threat actors are embedding malware within torrent files of popular movies, with confirmed victims identified in Kenya and Uganda. This distribution method leverages user interest in entertainment content to increase infection likelihood across affected regions.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films",
-    "publishedAt": "2026-09-21T19:11:26.000Z",
-    "contentHash": "693a0418065ff9ec39c3f5d184951d5a7edfcb1ad7bcbdc5c2269cf665bf6d8f",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:sans-isc-91f8a07cff",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Monday, September 21st, 2026",
-    "summary": "SANS Internet Storm Center's regular security briefing podcast covering current cybersecurity developments and threat landscape updates for the week.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33354",
-    "publishedAt": "2026-09-21T05:15:12.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:bleeping-7c13e8164b",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "WordPress Click2Shell CSRF Vulnerability Enables Server-Side PHP Execution",
-    "summary": "A cross-site request forgery vulnerability in WordPress Core, termed Click2Shell, has been publicly disclosed with technical details and proof-of-concept code available. The flaw permits attackers to execute PHP code on affected servers through CSRF vectors.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
-    "publishedAt": "2026-09-21T18:23:11.000Z",
-    "contentHash": "aa2156bcf8571c806e82cf77f7301f71ccc965d179eaf14b0ed127e511dcb143",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:thehackernews-b6c97dd33b",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "networking",
-      "infrastructure"
-    ],
-    "title": "Zyxel GS1900 Switch Vulnerability Added to CISA KEV Catalog Due to Active Exploitation",
-    "summary": "CISA has listed CVE-2026-7273, a stack-based buffer overflow in Zyxel GS1900 series switches (CVSS 8.8), in its Known Exploited Vulnerabilities catalog following confirmed active exploitation. The flaw permits arbitrary code execution with elevated privileges and has been addressed in available patches.",
-    "sourceUrl": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-    "publishedAt": "2026-09-22T05:31:59.000Z",
-    "contentHash": "ba5e87da04b51b8ba5a618a42ec59e36c5b9625e4021fdbec45a3137732020f6",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:darkreading-5e201f4edc",
-    "tier": "event",
-    "category": "news",
-    "title": "OpenAI Discloses Model Misalignment Incidents and Investigation Framework",
-    "summary": "OpenAI reported six instances of unintended model behavior and released a structured framework for identifying and communicating such incidents. The disclosure reflects ongoing efforts to address alignment challenges in large language models.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents",
-    "publishedAt": "2026-09-21T14:47:19.000Z",
-    "contentHash": "721fa17a0b52371395707ea361639c6938b84170d3aa4c4f79c05678e10d3aa8",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:bleeping-142127a107",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft to retire Microsoft 365 Companion apps in December",
-    "summary": "Microsoft will discontinue the Calendar, People, and Files companion apps for Microsoft 365 on December 16, requiring administrators to remove these applications from managed devices before the retirement date.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
-    "publishedAt": "2026-09-21T17:54:49.000Z",
-    "contentHash": "05d8b90c45c92d08d5575d3d543cf0bf892407d2082d678125fcea1eabc9310f",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:thehackernews-f2aa6f9693",
-    "tier": "event",
-    "category": "attack",
-    "title": "Malicious LastPass Authenticator Installer Uses Legitimate Microsoft-Signed Driver to Disable Security Software",
-    "summary": "A counterfeit LastPass Authenticator installer distributed via GitHub contains a Windows kernel driver signed through Microsoft's hardware-compatibility program. The driver disables antivirus and EDR solutions before deploying password-stealing malware, exploiting legitimate code-signing mechanisms to evade detection.",
-    "sourceUrl": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-    "publishedAt": "2026-09-21T17:31:01.000Z",
-    "contentHash": "4ffb3b342a7fdf7a6d91f3f089084aaa21f32398961942cc478a9836b5d12a6e",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
-    "id": "knowledge:bleeping-aa000b550a",
-    "tier": "event",
-    "category": "regulation",
-    "region": "eu-west",
-    "title": "Google fined €403 million over location data privacy violations",
-    "summary": "Ireland's Data Protection Commission issued a €403 million penalty against Google for GDPR violations involving the processing of user location data. The fine addresses systematic non-compliance in how the company handled location information collection and retention practices.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
-    "publishedAt": "2026-09-21T15:41:22.000Z",
-    "contentHash": "0acd66b04b8b222704810466b10f0c912fdac367622876d054b736df11fc24d4",
-    "ingestedAt": "2026-09-22T09:57:04.095Z"
-  },
-  {
     "id": "knowledge:cisa-27c5d6b018",
     "tier": "event",
     "category": "threat-intel",
@@ -5361,5 +5148,221 @@
     "publishedAt": "2026-10-20T19:33:02.000Z",
     "contentHash": "f69dde4167206509660c1dcaa691a45b882443650c4067205b534f5577246924",
     "ingestedAt": "2026-10-21T10:07:15.246Z"
+  },
+  {
+    "id": "knowledge:krebs-5d15c04538",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "Critical PHP Vulnerabilities Enabling Server Compromise",
+    "summary": "Two critical vulnerabilities affecting PHP have been identified with active exploitation occurring in the wild. Approximately 70% of websites require immediate patching to prevent attackers from gaining full server control, with working exploits already deployed by threat actors.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+    "publishedAt": "2026-10-21T15:26:07.000Z",
+    "contentHash": "5572aabfdbfdb9dfe5981b6e82c3d3cf9ef5aadc40f37339169f4c6b2f87e809",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:bleeping-e476028eb9",
+    "tier": "event",
+    "category": "news",
+    "region": "mea",
+    "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+    "summary": "Law enforcement agencies conducted Operation Serengeti III, disrupting approximately 11,000 cybercriminal networks and arresting over 1,400 individuals across Africa. The operation targeted organized schemes involving business email compromise, ransomware campaigns, and online fraud.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+    "publishedAt": "2026-10-22T08:27:11.000Z",
+    "contentHash": "ea34deb5dd1ceb4115981bdc6b4b72ce276ad482524891fbc48182b4d253bd29",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:thehackernews-89c43e5d41",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software",
+      "ai/ml"
+    ],
+    "title": "LiteLLM Malicious Package Release Following GitHub Token Compromise",
+    "summary": "LiteLLM disclosed that attackers bypassed multiple security controls to release a compromised version (1.107.0) of its Python package containing credential theft and backdoor functionality across PyPI and Docker Hub. The incident involved suspected GitHub token exposure in AI gateway logs, enabling unauthorized access to the release pipeline.",
+    "sourceUrl": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+    "publishedAt": "2026-10-22T08:28:48.000Z",
+    "contentHash": "f233f20f56d6519d05c679fc3fe8b117bec9980ef7b2e488ee02e73dbbe952ef",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:darkreading-bc7ac91bf5",
+    "tier": "event",
+    "category": "news",
+    "region": "mea",
+    "industries": [
+      "government"
+    ],
+    "title": "UAE Transitions 50% of Government Services to Agentic AI",
+    "summary": "The UAE is shifting half of its government services to agentic AI systems, with a stated emphasis on establishing security and safety foundations for this transition. The initiative represents a significant shift toward autonomous AI-driven public administration at the national level.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
+    "publishedAt": "2026-10-22T05:00:00.000Z",
+    "contentHash": "fbde6d05be75b96beffe25c2249a71c3902301821ff8d24d791a150d05eccbf7",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:sans-isc-363c4e5e8c",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Daily Briefing - October 22, 2026",
+    "summary": "The SANS Internet Storm Center published its daily podcast briefing covering current cybersecurity developments and threat landscape observations for October 22, 2026.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33446",
+    "publishedAt": "2026-10-22T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:bleeping-74d714d3ba",
+    "tier": "event",
+    "category": "product-release",
+    "region": "global",
+    "title": "Google Chrome integrates Gemini AI for scam and ClickFix detection",
+    "summary": "Chrome is introducing AI-powered safeguards that leverage Gemini to identify deceptive websites and alert users attempting to copy malicious commands associated with ClickFix social engineering campaigns. The feature aims to intercept common attack vectors before users execute suspicious code.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+    "publishedAt": "2026-10-21T22:16:26.000Z",
+    "contentHash": "03b856f1e51c0862aa9467e7c39b7d57a06b9264b2faa32ec901ff12907ef805",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:thehackernews-4681e139a8",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Node.js Brotli Decoder Vulnerability Enables Remote Code Execution",
+    "summary": "Node.js released security patches on October 21 addressing 10 vulnerabilities across maintained release lines 22.x, 24.x, and 26.x. A critical flaw in the bundled Brotli decompression library permits remote code execution on affected systems, representing the most severe issue in this update cycle.",
+    "sourceUrl": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+    "publishedAt": "2026-10-22T07:47:22.000Z",
+    "contentHash": "6f52b87b122ddddbf4fd6b8a5a783e5740d1bdc2544c7433db624022f701e138",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:darkreading-8a096cda3c",
+    "tier": "event",
+    "category": "attack",
+    "title": "TiDB Breach Highlights Visibility Gaps in Cloud Data Storage",
+    "summary": "A breach of TiDB exposed customer data stored in cloud infrastructure, revealing misaligned expectations between cloud providers and their clients regarding data location and security responsibilities. The incident underscores the importance of explicit data governance policies and regular audits to confirm where sensitive information resides across cloud environments.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
+    "publishedAt": "2026-10-21T21:15:39.000Z",
+    "contentHash": "73f482b0d703682d4b9a874e96a678e97fd645226a536199a83629dd51a7e30a",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:sans-isc-8c93f156e6",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "title": "Critical PHP Vulnerabilities Announced with Early Proof-of-Concept Exploits",
+    "summary": "PHP.net disclosed two critical vulnerabilities (CVE-2026-109618, CVE-2026-109619) with a CVSS score of 9.4, accompanied by available proof-of-concept exploits prior to patch release. The widespread deployment of PHP across web infrastructure prompted elevation of threat alert status to yellow.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33440",
+    "publishedAt": "2026-10-21T21:02:43.000Z",
+    "contentHash": "a2897022200c829919cf50f071405586df0f5e9e3a7e5f10938fba0c94c55c47",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:bleeping-db964fc55d",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "hosting",
+      "cloud services"
+    ],
+    "title": "Onamae Desktop Cloud breach impacts thousands of VPS customers in Japan",
+    "summary": "Onamae Desktop Cloud, a Japanese VPS provider, experienced a compromise of its infrastructure resulting in malware installation across approximately 26,700 customer servers. The incident affected a significant portion of the provider's customer base and highlights risks in shared hosting environments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+    "publishedAt": "2026-10-21T21:43:27.000Z",
+    "contentHash": "b96c52bd0b92f784251d5c9fd90efc2bb8c5e4d57e61d705072a984c73c4f7fa",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:thehackernews-059d0a92d8",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "QPACK Vulnerabilities Enable HTTP/3 Server Crashes via Memory Amplification",
+    "summary": "FoxIO disclosed multiple flaws in QPACK header compression affecting HTTP/3 servers, allowing unauthenticated attackers to crash services through memory amplification attacks. Compressed header payloads can expand to consume thousands of times their transmitted size, exhausting server memory with minimal attack traffic.",
+    "sourceUrl": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+    "publishedAt": "2026-10-22T06:38:31.000Z",
+    "contentHash": "76a827ea5cba1a811630302eba19c66eb622ec944230d26a7d1a386ccb73d6cf",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:darkreading-ecd4d111a2",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Marvell, Microsoft, and Oracle Collaborate on Data Center Hardware Security Standardization",
+    "summary": "Three major technology companies are working together to establish standards for hardware security modules (HSMs) meeting NIST FIPS 140-3 Level 3 certification within cloud and hyperscale data center environments. The standardization effort aims to create integrated security solutions suitable for large-scale infrastructure deployments.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security",
+    "publishedAt": "2026-10-21T20:14:42.000Z",
+    "contentHash": "0502bea9c7edda1cf8af9cc9821b98f5a08ec8c2715544189da2bb0ea294784f",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:bleeping-2484f295e9",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Lazarus Group Employs Post-Quantum Cryptography in Malware Operations",
+    "summary": "North Korean threat actor Lazarus has incorporated post-quantum cryptographic methods into recent malware delivery campaigns, blending legacy and contemporary malicious tools. This represents an evolution in the group's operational security practices as adversaries adopt emerging cryptographic standards.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+    "publishedAt": "2026-10-21T20:31:48.000Z",
+    "contentHash": "f09346a39833f0f799cd5c683d987ab0b764eadcc9a75267a6985a948d25c3a9",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5dc62af2c3",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "PHP2Shell Vulnerabilities Exploited in Wild Before Public Disclosure",
+    "summary": "Amazon's threat intelligence team detected an exploitation attempt against PHP2Shell vulnerabilities on October 17, 2026, using a honeypot service, preceding public disclosure by four days. The vulnerabilities have since entered broad circulation in active exploitation campaigns following patch availability.",
+    "sourceUrl": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+    "publishedAt": "2026-10-22T06:34:10.000Z",
+    "contentHash": "3592bc17e1e599e9a9696aabd7000037849296d169807839c3980f471d8b03b1",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:darkreading-a40452fff3",
+    "tier": "event",
+    "category": "analyst",
+    "title": "Cloud Security Alliance Survey: DLP Tools Reactive Rather Than Preventive",
+    "summary": "A Cloud Security Alliance survey reveals that data loss prevention solutions often fail to stop incidents proactively, with only 16% of affected organizations reporting that DLP blocked their most significant data loss event before exfiltration occurred. The finding suggests organizations may need to reassess DLP deployment effectiveness and complementary detection strategies.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss",
+    "publishedAt": "2026-10-21T20:03:14.000Z",
+    "contentHash": "9f96eed9c66e0d47628128f2f34017d1b5ec294ac946ac47bcb55b06033d5845",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:bleeping-a299ef36c7",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA warns of active exploitation of Plex Media Server vulnerabilities in coordinated attacks",
+    "summary": "CISA has issued guidance on active exploitation of multiple vulnerabilities in Plex Media Server being chained together in attacks dubbed Plex2Shell to compromise servers. The advisory indicates attackers are leveraging these flaws to gain unauthorized access to affected systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+    "publishedAt": "2026-10-21T18:34:42.000Z",
+    "contentHash": "af236126a09222b7189d22772ebdb52e2249ed4599d94a8e76d1384c6fe72961",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:thehackernews-6f676746f7",
+    "tier": "event",
+    "category": "attack",
+    "title": "China-Linked Hackers Leverage ARTEX AI Framework in ConnectWise Supply Chain Compromise",
+    "summary": "Microsoft attributed a ConnectWise Cloud Backup supply chain compromise to Storm-0940, a China state-aligned threat actor. The attacker deployed ARTEX, a Go-based AI agent framework designed for penetration testing, to facilitate the attack. ARTEX was subsequently closed-sourced following its use in previous campaigns targeting South Korean financial institutions.",
+    "sourceUrl": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+    "publishedAt": "2026-10-22T04:21:26.000Z",
+    "contentHash": "3f59c533714316d35943524f0a4dabb674251c2c1d8b7755674ca40bdf9450ba",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:darkreading-46f087441d",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Critical PHP Vulnerabilities Targeted Following Public Disclosure",
+    "summary": "Two critical vulnerabilities in PHP have been disclosed with exploitation attempts reported in the wild. Security teams are actively working to deploy patches and mitigate exposure across affected systems.",
+    "sourceUrl": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
+    "publishedAt": "2026-10-21T19:19:17.000Z",
+    "contentHash": "95d6bfcb13f9d7540739ecf8884524658ef3b33cf7554f9e3b73c05c73924a02",
+    "ingestedAt": "2026-10-22T10:09:56.829Z"
   }
 ]
