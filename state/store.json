@@ -358,239 +358,6 @@
     "ingestedAt": "2026-09-13T10:16:56.478Z"
   },
   {
-    "id": "knowledge:cisa-27c5d6b018",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "manufacturing",
-      "industrial control systems"
-    ],
-    "title": "Siemens Industrial Edge Management Authentication Bypass Vulnerability",
-    "summary": "A critical authentication bypass vulnerability in Siemens Industrial Edge Management allows unauthenticated attackers to reset user credentials and perform account takeovers by circumventing email verification. The flaw affects Industrial Edge Management Cloud (all versions), Pro V1 (versions 1.14.9, 2.2.0, 2.6.0), and other variants. Siemens has released patched versions (V1.15.20, V2.2.2, V2.9.1) and recommends immediate updates; affected organizations can temporarily disable the password reset function as a mitigation.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
-    "publishedAt": "2026-09-22T12:00:00.000Z",
-    "contentHash": "79b687f78586ccf46b3d4d648ed5458b7c02971da09eb851758bbccad1f1b977",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:bleeping-a1294697a9",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "title": "Ryuk Ransomware Operator Sentenced to Two Years in Prison",
-    "summary": "An Armenian national received a 24-month prison sentence for participating in Ryuk ransomware attacks targeting U.S. companies. The sentence includes three years of supervised release following incarceration.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
-    "publishedAt": "2026-09-23T08:20:05.000Z",
-    "contentHash": "0f1c461c44b8c3294648386dd2bedb9fa7b328db981d35d96cd63c05ef564901",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:thehackernews-54af9eeed9",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "F5 Patches Critical BIG-IP APM Zero-Day Enabling Unauthenticated Remote Code Execution",
-    "summary": "F5 disclosed a critical vulnerability in BIG-IP Access Policy Manager affecting systems configured as OAuth authorization servers, allowing unauthenticated remote code execution. The flaw, tracked as CVE-2026-94127, is actively exploited in the wild. Engineering hotfixes have been released to remediate the issue.",
-    "sourceUrl": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
-    "publishedAt": "2026-09-23T08:29:48.000Z",
-    "contentHash": "4836f677e3653ab2c984992b562b676ea953cfbef726355e1c9c18319dd4d938",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:darkreading-723fd7190d",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "industries": [
-      "artificial intelligence",
-      "software"
-    ],
-    "title": "Chinese Users Leveraging Relay Infrastructure to Access US Frontier AI Models",
-    "summary": "Over 80,000 AI relay servers are being used to mask the identities of Chinese users accessing advanced large language models hosted in the US, potentially to facilitate model replication. The infrastructure allows circumvention of geographic restrictions and attribution controls designed to protect frontier AI development.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
-    "publishedAt": "2026-09-22T21:12:37.000Z",
-    "contentHash": "258459e6eaf8839b3608e58478669158b3781ffad6ff8225aba4dec6d591b325",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:sans-isc-d331675d39",
-    "tier": "event",
-    "category": "news",
-    "title": "ISC Stormcast For Wednesday, September 23rd, 2026",
-    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments, threat landscape updates, and defensive security topics relevant to security practitioners.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33362",
-    "publishedAt": "2026-09-23T02:40:13.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:cisa-e3c7e0e08a",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "critical manufacturing",
-      "energy",
-      "transportation",
-      "water and wastewater"
-    ],
-    "title": "Cross-Site Scripting Vulnerability in OpenPLC Runtime v3",
-    "summary": "CISA disclosed a reflected XSS vulnerability (CVE-2026-88020, CVSS 6.1) in OpenPLC Runtime v3 affecting critical infrastructure sectors globally. An attacker could hijack operator sessions and manipulate programmable logic controllers. Autonomy Logic recommends upgrading to OpenPLC v4, as v3 is end-of-life and no longer patched.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
-    "publishedAt": "2026-09-22T12:00:00.000Z",
-    "contentHash": "7c2459aafe6c0e2e41a9ea4451ed96de94daee89aef4e0ea69e41479a045eeb3",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:bleeping-e1f16ad60e",
-    "tier": "event",
-    "category": "attack",
-    "title": "F5 Releases Patches for BIG-IP APM Zero-Day Vulnerability",
-    "summary": "F5 has released security updates addressing a critical zero-day vulnerability in BIG-IP APM that has been actively exploited in remote code execution attacks. The vulnerability allows unauthenticated attackers to execute arbitrary code on affected systems. Organizations running vulnerable BIG-IP APM instances should prioritize applying the available patches.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-    "publishedAt": "2026-09-23T07:17:23.000Z",
-    "contentHash": "7ad39c0ad3b489cc7082bfe500ef78e81c87b252fd9a3272b93c7a01b9ceafc5",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:thehackernews-47e5a40f39",
-    "tier": "event",
-    "category": "attack",
-    "title": "Chinese Threat Actor Exploits Chrome-Windows Zero-Day Chain for CLEANGULP Malware Deployment",
-    "summary": "Chinese-linked threat actor UTA0565 has been observed exploiting a chain of zero-day vulnerabilities spanning Google Chrome and Microsoft Windows through fraudulent websites. The attacks, detected in early September 2026, leveraged multiple CVEs to achieve privilege escalation and deploy CLEANGULP malware.",
-    "sourceUrl": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-    "publishedAt": "2026-09-23T08:29:24.000Z",
-    "contentHash": "de134569f95142a56aeda7fbabcb988eef1552e4bb3b874f5d7d85922742208b",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:darkreading-c75e5a1826",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
-    "summary": "Microsoft executed a coordinated takedown operation against a phishing-as-a-service platform, seizing 50 websites and disabling over 150 domains used to target Microsoft 365 accounts. The action reflects law enforcement and platform security efforts to degrade infrastructure supporting credential theft campaigns.",
-    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
-    "publishedAt": "2026-09-22T20:02:02.000Z",
-    "contentHash": "c2a340cda8a2830ed24deb7aa61be1f80e9111155bc30656c88e1eee9236e62b",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:sans-isc-04580046f1",
-    "tier": "event",
-    "category": "attack",
-    "title": "Macfinger ClickFix Campaign Targets macOS Users",
-    "summary": "A campaign dubbed Macfinger leverages ClickFix-style social engineering to compromise macOS systems. The attack uses deceptive prompts mimicking legitimate system notifications to trick users into executing malicious commands, establishing unauthorized access on affected devices.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33360",
-    "publishedAt": "2026-09-23T00:55:11.000Z",
-    "contentHash": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:bleeping-907c082edb",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Rogue External MFA Providers Enable Password Theft During Login",
-    "summary": "Security researchers demonstrated an attack where adversaries with privileged access can register malicious external MFA providers to intercept and steal user credentials during authentication. The attack exploits trust in external MFA integrations to capture passwords at the point of login.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-    "publishedAt": "2026-09-22T21:45:45.000Z",
-    "contentHash": "04c93df030c8a8e9ca890895950246dc82f03d348ce76ccd0994b5eac9e5c070",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:thehackernews-cda8fee278",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Critical Next.js ImageResponse Vulnerability Enables Server Code Execution",
-    "summary": "A vulnerability in Next.js ImageResponse feature, used for generating social preview images, allows remote code execution when untrusted user-controlled input is passed into image generation. The flaw affects applications that incorporate attacker-controllable data, such as URL parameters, into ImageResponse calls. Vercel patched the issue in September 2024.",
-    "sourceUrl": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
-    "publishedAt": "2026-09-23T07:04:40.000Z",
-    "contentHash": "dd11514c7287a9c6ad792020cbc542cecca09d84534213dafeeeb2f460d7e3d1",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:darkreading-5778eb9fbb",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "cybersecurity",
-      "software development"
-    ],
-    "title": "Shai-Hulud Attack Compromises CrowdSec GitHub Repositories via Stolen OAuth Token",
-    "summary": "Threat actors accessed 170 private repositories on CrowdSec's GitHub account by leveraging an OAuth token compromised during the TanStack npm supply chain incident. The token was stolen from a former employee's system, allowing unauthorized access to the cybersecurity firm's source code repositories.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
-    "publishedAt": "2026-09-22T17:32:49.000Z",
-    "contentHash": "ec0a4f47a890adbcf2c5802a95074dc5f5b661d780b089a9284f14d7c3ba0c72",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:sans-isc-35be19f206",
-    "tier": "event",
-    "category": "news",
-    "title": "HTTP QUERY Method Introduction for GET Requests with Body",
-    "summary": "A new HTTP QUERY method has been introduced to accommodate GET requests that include a message body, addressing a gap in HTTP standards where GET requests traditionally lack body content. The development aims to clarify handling of edge cases where GET requests need to transport additional data beyond URL parameters.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33358",
-    "publishedAt": "2026-09-22T19:06:15.000Z",
-    "contentHash": "7bb93df58fd0f440ab29da81c5581fabfc2ddcbfc32ea7118a415e9021a32d8c",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:bleeping-9a8c2d680a",
-    "tier": "event",
-    "category": "regulation",
-    "region": "eu-west",
-    "industries": [
-      "it services"
-    ],
-    "title": "Sweden Imposes Fine on Miljödata for Security Breach Affecting 2.2 Million",
-    "summary": "Sweden's data protection authority (IMY) levied a SEK 1.8 million fine against IT systems provider Miljödata following a breach in August 2025 that exposed personal data of 2.2 million individuals. The regulator cited inadequate security controls as the underlying cause of the incident.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
-    "publishedAt": "2026-09-22T21:40:37.000Z",
-    "contentHash": "f4235f3c682f496a9be2fcf64280d36bc67c2370ee95c78d21af6ca37662740a",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:thehackernews-c2b107c39a",
-    "tier": "event",
-    "category": "attack",
-    "region": "us",
-    "industries": [
-      "government"
-    ],
-    "title": "ShinyHunters Claims FBI Data Breach Affecting Agents and Applicants",
-    "summary": "Cyber extortion group ShinyHunters has claimed responsibility for a breach of FBI systems, asserting they obtained sensitive data on current and former FBI agents as well as job applicants. The group disclosed the alleged compromise through a statement on dark web channels, though independent verification of the breach claim remains pending.",
-    "sourceUrl": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-    "publishedAt": "2026-09-23T05:30:09.000Z",
-    "contentHash": "3f5f5d824a5ad3bd4e7cea0f7e410ebc05436a55e46e9bec7d8ab94c90ea21b4",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:darkreading-7abddb0279",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "AI Safety Concerns Drive Industry-Wide Control and Security Reassessment",
-    "summary": "Rising incidents of AI misalignment are prompting organizations across sectors and governments to reassess their AI governance and security frameworks. The debate around AI safety mechanisms is shifting from theoretical concerns to practical implementation as enterprises seek greater oversight and control measures.",
-    "sourceUrl": "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real",
-    "publishedAt": "2026-09-22T17:12:26.000Z",
-    "contentHash": "4223d23345b8c757a0717e41582467385882c50dee7aee03f1fa9434912de1bf",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
-    "id": "knowledge:cisa-2e43af6896",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "energy"
-    ],
-    "title": "Siemens WTV676 and WTV776 Denial of Service Vulnerability",
-    "summary": "Siemens WTV676 and WTV776 devices contain an input validation flaw (CVE-2026-89207) that allows unauthenticated remote attackers to trigger protection mode, disabling web-based remote access. CVSS score is 6.5 (medium). Siemens has released patched versions (3.94 for WTV676, 4.17 for WTV776) and recommends immediate updates alongside network segmentation controls.",
-    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
-    "publishedAt": "2026-09-22T12:00:00.000Z",
-    "contentHash": "361e3949abe08ea73cf67afa4952d3b9ac1b2e512aa2fd7727aaf509bb2abcbd",
-    "ingestedAt": "2026-09-23T09:58:52.981Z"
-  },
-  {
     "id": "knowledge:bleeping-7e0f816f37",
     "tier": "event",
     "category": "news",
@@ -5364,5 +5131,248 @@
     "publishedAt": "2026-10-21T19:19:17.000Z",
     "contentHash": "95d6bfcb13f9d7540739ecf8884524658ef3b33cf7554f9e3b73c05c73924a02",
     "ingestedAt": "2026-10-22T10:09:56.829Z"
+  },
+  {
+    "id": "knowledge:cisa-082a52fbef",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "energy",
+      "transportation",
+      "healthcare",
+      "financial services",
+      "government"
+    ],
+    "title": "Siemens SIMATIC S7 Webserver API .NET Client Library Vulnerabilities",
+    "summary": "Two vulnerabilities in Siemens .NET Client Library for SIMATIC S7 Webserver API (CVE-2026-85114, CVE-2026-85115) permit path traversal attacks enabling arbitrary file writes and exposure of plaintext restore passwords through error messages. Siemens has issued patched versions 3.3.61 and 3.3.62 and recommends immediate updating. The vulnerabilities affect critical infrastructure sectors globally, including manufacturing, energy, transportation, and healthcare.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10",
+    "publishedAt": "2026-10-22T12:00:00.000Z",
+    "contentHash": "4da3895bbc354c3462dbb3bc3e1e00b757966cbc74140a9debd8cd9c05d294a0",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:bleeping-ea40ccd76a",
+    "tier": "event",
+    "category": "attack",
+    "title": "Railway alerts users to rotate secrets following suspicious platform activity",
+    "summary": "Railway, a cloud deployment platform, detected suspicious activity affecting systems that store customer environment variables and advised users to rotate their secrets. The company identified unauthorized access patterns on its infrastructure earlier in the week.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+    "publishedAt": "2026-10-22T21:25:31.000Z",
+    "contentHash": "43165f80a1373c5feac0c0c70c44747a9521f2fc5815dd476364dfa0e2d336f2",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5119cb5ec0",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Node2Shell RCE Vulnerability Demonstrated in Node.js Brotli Decoder",
+    "summary": "Imperva researchers demonstrated a remote code execution vulnerability in Node.js by crafting malicious Brotli-compressed data that exploits the bundled Brotli decoder. The proof-of-concept successfully executed arbitrary code on Node.js 24.22.0 (Linux arm64) without requiring debugging tools or custom builds. The vulnerability (CVE-2026-111497) affects the standard Node.js distribution.",
+    "sourceUrl": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+    "publishedAt": "2026-10-23T08:40:43.000Z",
+    "contentHash": "392e785b3a1bb7a2aac0662b4f337edd49c2878e033a6406b1be3313d93953f6",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:darkreading-b9a0556345",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "financial services"
+    ],
+    "title": "State Bank of India Experiences Customer PII Data Breach",
+    "summary": "State Bank of India has suffered a data breach exposing customer personally identifiable information. The incident highlights the maturity of India's underground market for PII trading, where relatively modest breaches can have significant consequences due to established resale infrastructure.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
+    "publishedAt": "2026-10-23T03:30:00.000Z",
+    "contentHash": "827f6421919eba0a394659299bf62d42b5f4d8b63c231a6eef83219cb6b9d080",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:bleeping-1e6095c6e8",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "gaming"
+    ],
+    "title": "Capcom confirms data breach affecting 11.7 million accounts",
+    "summary": "Capcom disclosed a breach of its CAPCOM ID membership service that exposed email addresses and associated data for over 11.7 million customers. The incident affected the Japanese gaming publisher's account infrastructure and customer database.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+    "publishedAt": "2026-10-22T20:22:45.000Z",
+    "contentHash": "18c590bec27d9c09e55eb34ff7ce013cf71d704aaa822955f3e3ed542429e3fb",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:thehackernews-43513002b0",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "ai",
+      "software-development"
+    ],
+    "title": "x402 SDK Vulnerability Exposes AI Agents to Token Drainage via Malicious APIs",
+    "summary": "Security researchers identified a flaw in x402 SDKs that allowed malicious API endpoints to request full token balance payments from AI agents lacking spending controls. The vulnerability affected implementations using the default client configuration, with mitigation available through SDK updates released in August.",
+    "sourceUrl": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+    "publishedAt": "2026-10-23T08:35:45.000Z",
+    "contentHash": "478330c09bfe15bba66d03764d180f71e8f9d8b1100b166afb86e43ecd47611d",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:darkreading-c8b85a5049",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "software",
+      "it services",
+      "managed services"
+    ],
+    "title": "Microsoft Attributes ConnectWise Supply Chain Attack to China-Linked Storm-0940",
+    "summary": "Microsoft has connected Storm-0940, a Chinese state-sponsored actor, to a supply chain compromise affecting ConnectWise products that impacted over 2,200 organizations. The threat actor leveraged an AI-enhanced penetration-testing tool to automate attack procedures and expand their reach across affected tenants.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+    "publishedAt": "2026-10-22T20:42:17.000Z",
+    "contentHash": "a415bcf8d727ba0a7816596cbf90e1cbf287d3c672416c262b7a8914b13afcaa",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:bleeping-37f56369e2",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "cloud services"
+    ],
+    "title": "LiteLLM Supply Chain Compromise Distributes Credential-Stealing Malware",
+    "summary": "Attackers gained unauthorized access to the LiteLLM project's PyPI repository and released malicious versions containing an information-stealer payload designed to exfiltrate credentials, secrets, and environment variables. The compromise affected both package distribution channels and associated Docker images.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+    "publishedAt": "2026-10-22T19:12:51.000Z",
+    "contentHash": "b634d2f6af218efcbf5290a8cc3a03efc3e32af6386609caed2eb4bc5833d505",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9d0cfa945b",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "PHP2Shell Exploit Attempts Target Millions; Mirai Botnet Campaign Largely Unsuccessful",
+    "summary": "Threat actors have launched widespread exploitation attempts against PHP2Shell vulnerabilities (CVE-2026-109618 and CVE-2026-109619, CVSS 9.2) to recruit systems into a Mirai botnet variant called Potassium. Early indications suggest these attacks have been largely unsuccessful, with exploitation proving more challenging than initially anticipated.",
+    "sourceUrl": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+    "publishedAt": "2026-10-23T07:40:45.000Z",
+    "contentHash": "5edbd8128b9c9b004261c23cfb985c2225178e57089cf42512a555df95d7b987",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:darkreading-714df2670e",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "Federal Operation Disrupts North Korean Laptop Farm Infrastructure in Texas",
+    "summary": "U.S. federal authorities conducted Operation Lonestar Justice to dismantle North Korean-operated infrastructure used for illicit computational activities within Texas. The operation represents enforcement action against state-sponsored cyber resource operations operating domestically.",
+    "sourceUrl": "https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers",
+    "publishedAt": "2026-10-22T20:33:10.000Z",
+    "contentHash": "3985794ee60b07dca5cbd06fbe471231333b1879aef85ee8cb738fd1752ed633",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:bleeping-1ed4b6e940",
+    "tier": "event",
+    "category": "attack",
+    "title": "Arista Patches Actively Exploited VeloCloud Orchestrator Zero-Day",
+    "summary": "Arista Networks released security updates addressing a zero-day vulnerability in VeloCloud Orchestrator on-premises deployments that is being actively exploited in attacks. The patch addresses a critical issue specific to on-prem VCO instances.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+    "publishedAt": "2026-10-22T17:18:22.000Z",
+    "contentHash": "7fe1a9b4367641b015cd258240f4b56483c77885c09877474e8bb60edd56a1f4",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:thehackernews-63d6bc3687",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Unmanaged AI Agents Present Insider Threat Risks in Enterprise Networks",
+    "summary": "Autonomous AI agents deployed on employee devices often operate without proper governance, access controls, or ownership assignment, creating insider threat vectors comparable to unmonitored human accounts. These agents can access credentials, internal systems, and sensitive data while operating outside standard security review processes. Organizations may be underestimating the governance and monitoring requirements needed for AI tool deployments.",
+    "sourceUrl": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+    "publishedAt": "2026-10-22T19:05:35.000Z",
+    "contentHash": "fedccd549144d94062d070eef1e12293c794c35f26dcdfb215114daa1035150c",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:darkreading-507bd11e20",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "retail"
+    ],
+    "title": "EU Supermarkets Face Significant Losses Due to Unpatched Refrigeration Firmware",
+    "summary": "Hundreds of European supermarkets experienced multimillion-euro losses after third-party vendors failed to update firmware controlling their climate control systems. The incident highlights risks associated with outdated operational technology and inadequate supply chain management for critical infrastructure components.",
+    "sourceUrl": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware-french",
+    "publishedAt": "2026-10-22T19:30:20.000Z",
+    "contentHash": "74c0783589cc6b70bb294ea85b87d0978c771b57f4408746ce7028e48d3f8f93",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:cisa-e80b70f161",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "transportation systems",
+      "energy",
+      "healthcare",
+      "financial services",
+      "government"
+    ],
+    "title": "Siemens Industrial Edge App Publisher Vulnerabilities Allow Remote Code Execution",
+    "summary": "Siemens Industrial Edge App Publisher versions prior to 1.27.9 contain two chained vulnerabilities: improper TLS certificate validation enabling man-in-the-middle attacks, and insufficient input sanitization in Node.js-integrated components permitting arbitrary code execution. Siemens has released version 1.27.9 as a remediation for affected deployments across critical infrastructure sectors globally.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02",
+    "publishedAt": "2026-10-22T12:00:00.000Z",
+    "contentHash": "c6a25407080f7e5dbebb9a5083cee12a6863b5987adae2caeeccce840eb0f653",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:bleeping-665c4ee64a",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Provides Remediation Path for Broken Exchange Online EWS Applications",
+    "summary": "Microsoft has issued guidance enabling IT administrators to restore functionality to Exchange Online applications affected by the retirement of the Exchange Web Services (EWS) API. The advisory outlines steps for re-enabling the deprecated API to maintain compatibility with legacy EWS-dependent applications.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+    "publishedAt": "2026-10-22T15:49:32.000Z",
+    "contentHash": "fac9dc0e3f5a2ea3b0ea93520ffe7c0aba455b0132ea0c5aef8df80a33ae2d6c",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:thehackernews-5a34460990",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "networking",
+      "telecommunications",
+      "enterprise infrastructure"
+    ],
+    "title": "Arista VeloCloud SQL Injection Zero-Day Under Active Exploitation",
+    "summary": "Arista disclosed a SQL injection vulnerability in VeloCloud Orchestrator that allows authenticated users with read-only access to escalate privileges to operator level. The flaw is being actively exploited in the wild, affecting the central management platform for SD-WAN deployments.",
+    "sourceUrl": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+    "publishedAt": "2026-10-22T19:05:17.000Z",
+    "contentHash": "9c7e688fe034e962dd4512d58f3855a3259d3d6fe4c6d4e6dce5a029a73a5072",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:darkreading-53a274b47a",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "cloud-services",
+      "software-development"
+    ],
+    "title": "OVHcloud GitHub Compromise Attributed to GlassWorm Threat Actors",
+    "summary": "Threat actors associated with GlassWorm exploited a previously compromised developer GitHub account to inject malicious code into repositories over an extended period. The attack targeted OVHcloud users who unknowingly downloaded the poisoned code, demonstrating supply chain risks through developer account compromise.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors",
+    "publishedAt": "2026-10-21T16:50:15.000Z",
+    "contentHash": "da38e71d1e322cc1d655e44163eb1236e21ff1c2a4acbbd18501828a060fe3da",
+    "ingestedAt": "2026-10-23T10:02:36.866Z"
   }
 ]

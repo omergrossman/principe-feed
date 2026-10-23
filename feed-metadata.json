@@ -132,113 +132,6 @@
     "category": "threat-intel",
     "publishedAt": "2026-06-11T06:00:50.000Z"
   },
-  "knowledge/cisa-27c5d6b018.md": {
-    "region": "us",
-    "industries": [
-      "manufacturing",
-      "industrial control systems"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-09-22T12:00:00.000Z"
-  },
-  "knowledge/bleeping-a1294697a9.md": {
-    "region": "us",
-    "category": "news",
-    "publishedAt": "2026-09-23T08:20:05.000Z"
-  },
-  "knowledge/thehackernews-54af9eeed9.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-09-23T08:29:48.000Z"
-  },
-  "knowledge/darkreading-723fd7190d.md": {
-    "region": "us",
-    "industries": [
-      "artificial intelligence",
-      "software"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-09-22T21:12:37.000Z"
-  },
-  "knowledge/sans-isc-d331675d39.md": {
-    "category": "news",
-    "publishedAt": "2026-09-23T02:40:13.000Z"
-  },
-  "knowledge/cisa-e3c7e0e08a.md": {
-    "region": "global",
-    "industries": [
-      "critical manufacturing",
-      "energy",
-      "transportation",
-      "water and wastewater"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-09-22T12:00:00.000Z"
-  },
-  "knowledge/bleeping-e1f16ad60e.md": {
-    "category": "attack",
-    "publishedAt": "2026-09-23T07:17:23.000Z"
-  },
-  "knowledge/thehackernews-47e5a40f39.md": {
-    "category": "attack",
-    "publishedAt": "2026-09-23T08:29:24.000Z"
-  },
-  "knowledge/darkreading-c75e5a1826.md": {
-    "region": "global",
-    "category": "attack",
-    "publishedAt": "2026-09-22T20:02:02.000Z"
-  },
-  "knowledge/sans-isc-04580046f1.md": {
-    "category": "attack",
-    "publishedAt": "2026-09-23T00:55:11.000Z"
-  },
-  "knowledge/bleeping-907c082edb.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-09-22T21:45:45.000Z"
-  },
-  "knowledge/thehackernews-cda8fee278.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-09-23T07:04:40.000Z"
-  },
-  "knowledge/darkreading-5778eb9fbb.md": {
-    "industries": [
-      "cybersecurity",
-      "software development"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-09-22T17:32:49.000Z"
-  },
-  "knowledge/sans-isc-35be19f206.md": {
-    "category": "news",
-    "publishedAt": "2026-09-22T19:06:15.000Z"
-  },
-  "knowledge/bleeping-9a8c2d680a.md": {
-    "region": "eu-west",
-    "industries": [
-      "it services"
-    ],
-    "category": "regulation",
-    "publishedAt": "2026-09-22T21:40:37.000Z"
-  },
-  "knowledge/thehackernews-c2b107c39a.md": {
-    "region": "us",
-    "industries": [
-      "government"
-    ],
-    "category": "attack",
-    "publishedAt": "2026-09-23T05:30:09.000Z"
-  },
-  "knowledge/darkreading-7abddb0279.md": {
-    "category": "threat-intel",
-    "publishedAt": "2026-09-22T17:12:26.000Z"
-  },
-  "knowledge/cisa-2e43af6896.md": {
-    "region": "global",
-    "industries": [
-      "energy"
-    ],
-    "category": "threat-intel",
-    "publishedAt": "2026-09-22T12:00:00.000Z"
-  },
   "knowledge/bleeping-7e0f816f37.md": {
     "region": "anz",
     "industries": [
@@ -2402,5 +2295,129 @@
   "knowledge/darkreading-46f087441d.md": {
     "category": "threat-intel",
     "publishedAt": "2026-10-21T19:19:17.000Z"
+  },
+  "knowledge/cisa-082a52fbef.md": {
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "energy",
+      "transportation",
+      "healthcare",
+      "financial services",
+      "government"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-22T12:00:00.000Z"
+  },
+  "knowledge/bleeping-ea40ccd76a.md": {
+    "category": "attack",
+    "publishedAt": "2026-10-22T21:25:31.000Z"
+  },
+  "knowledge/thehackernews-5119cb5ec0.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-23T08:40:43.000Z"
+  },
+  "knowledge/darkreading-b9a0556345.md": {
+    "region": "apac",
+    "industries": [
+      "financial services"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-23T03:30:00.000Z"
+  },
+  "knowledge/bleeping-1e6095c6e8.md": {
+    "industries": [
+      "gaming"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-22T20:22:45.000Z"
+  },
+  "knowledge/thehackernews-43513002b0.md": {
+    "industries": [
+      "ai",
+      "software-development"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-23T08:35:45.000Z"
+  },
+  "knowledge/darkreading-c8b85a5049.md": {
+    "region": "global",
+    "industries": [
+      "software",
+      "it services",
+      "managed services"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-22T20:42:17.000Z"
+  },
+  "knowledge/bleeping-37f56369e2.md": {
+    "industries": [
+      "software development",
+      "cloud services"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-22T19:12:51.000Z"
+  },
+  "knowledge/thehackernews-9d0cfa945b.md": {
+    "region": "global",
+    "category": "attack",
+    "publishedAt": "2026-10-23T07:40:45.000Z"
+  },
+  "knowledge/darkreading-714df2670e.md": {
+    "region": "us",
+    "category": "news",
+    "publishedAt": "2026-10-22T20:33:10.000Z"
+  },
+  "knowledge/bleeping-1ed4b6e940.md": {
+    "category": "attack",
+    "publishedAt": "2026-10-22T17:18:22.000Z"
+  },
+  "knowledge/thehackernews-63d6bc3687.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-22T19:05:35.000Z"
+  },
+  "knowledge/darkreading-507bd11e20.md": {
+    "region": "eu-west",
+    "industries": [
+      "retail"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-22T19:30:20.000Z"
+  },
+  "knowledge/cisa-e80b70f161.md": {
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "transportation systems",
+      "energy",
+      "healthcare",
+      "financial services",
+      "government"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-22T12:00:00.000Z"
+  },
+  "knowledge/bleeping-665c4ee64a.md": {
+    "category": "product-release",
+    "publishedAt": "2026-10-22T15:49:32.000Z"
+  },
+  "knowledge/thehackernews-5a34460990.md": {
+    "region": "global",
+    "industries": [
+      "networking",
+      "telecommunications",
+      "enterprise infrastructure"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-22T19:05:17.000Z"
+  },
+  "knowledge/darkreading-53a274b47a.md": {
+    "region": "eu-west",
+    "industries": [
+      "cloud-services",
+      "software-development"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-21T16:50:15.000Z"
   }
 }
