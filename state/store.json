@@ -5374,5 +5374,200 @@
     "publishedAt": "2026-10-21T16:50:15.000Z",
     "contentHash": "da38e71d1e322cc1d655e44163eb1236e21ff1c2a4acbbd18501828a060fe3da",
     "ingestedAt": "2026-10-23T10:02:36.866Z"
+  },
+  {
+    "id": "knowledge:bleeping-a5d4387518",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Abandoned Popcorn Time App Vulnerability Allowed Remote Code Execution",
+    "summary": "Researchers identified a critical vulnerability in the Time4Popcorn application, a fork of the Popcorn Time BitTorrent client, that could enable remote code execution with elevated privileges across millions of devices. The vulnerability existed within the app's updater mechanism. Researchers took defensive action by remotely disabling the vulnerable updater to mitigate exposure while the application remains unmaintained.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+    "publishedAt": "2026-10-23T20:55:05.000Z",
+    "contentHash": "7736a7411f3af4b9833bd15d82079750368e0eb254d591e5e6d3dfa89621c272",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:thehackernews-ad73964630",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds Two Critical Vulnerabilities to Known Exploited List",
+    "summary": "CISA has cataloged two critical vulnerabilities affecting Collabora Online and Arista VeloCloud Orchestrator as actively exploited in the wild. The flaws carry CVSS scores indicating severe risk and have prompted inclusion on the agency's Known Exploited Vulnerabilities catalog.",
+    "sourceUrl": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+    "publishedAt": "2026-10-24T06:25:57.000Z",
+    "contentHash": "ad943337775b8f6573805ac6100f86bdd23096481b38287780c83d102da526f7",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:darkreading-ba4956958d",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Social Engineering and AI Enable Access Without Malware",
+    "summary": "Threat actors are increasingly exploiting help desk and support channels through social engineering tactics, often augmented by AI tools, to gain organizational access without deploying traditional malware. This shift reflects a change in attack methodology where human-centric vulnerabilities are prioritized over technical exploits.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+    "publishedAt": "2026-10-23T20:57:56.000Z",
+    "contentHash": "cc8da068542191d2b4461c92703611aba3ce3beca6e4d4d04e6d2ba6b7ee93eb",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:sans-isc-9abacdc577",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "PHP2Shell Vulnerability Exploitability Assessment",
+    "summary": "A PHP2Shell vulnerability generated significant attention in the security community regarding its practical exploitability. Initial assessments indicate the threat warrants careful evaluation of affected systems and patch deployment timelines.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33452",
+    "publishedAt": "2026-10-23T20:04:47.000Z",
+    "contentHash": "0cb7e02d0d57e1e69eb0dc5f58f6a79ff9bffe1a204b0f40cc4b04a88c93df8a",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:bleeping-e3ceabcd0c",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Teams to integrate AI-powered phishing detection",
+    "summary": "Microsoft plans to deploy AI-driven phishing detection capabilities within Teams, leveraging contextual analysis of messages to identify suspicious content. The feature is scheduled for rollout beginning November 2026 and represents an expansion of security tooling within the collaboration platform.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+    "publishedAt": "2026-10-23T18:54:41.000Z",
+    "contentHash": "a9d472a806724daf7709e933eab61aa872f744786ff3915e270ad997d868cf38",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:thehackernews-68f2c8a7a2",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-central",
+    "industries": [
+      "government"
+    ],
+    "title": "BlackX UEFI Bootkit Targets Central Asian Diplomatic Entities",
+    "summary": "A newly identified UEFI bootkit named BlackX has been deployed against diplomatic organizations in Tajikistan, Uzbekistan, and Turkmenistan, exploiting gaps in Secure Boot revocation mechanisms on patched Windows systems. Kaspersky attributes the campaign to APT41, a state-sponsored group with suspected Chinese nexus, indicating a sophisticated supply-chain or firmware-level attack capability.",
+    "sourceUrl": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+    "publishedAt": "2026-10-23T18:50:13.000Z",
+    "contentHash": "4e1623c6e2cbcfb587b275bbc4711d72e455d75b21409156b0e9c159275c1963",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:darkreading-f32271df15",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "PHP2Shell Vulnerability: Assessment and Remediation Guidance",
+    "summary": "Critical PHP vulnerabilities addressed in recent updates require careful risk assessment beyond standard patching procedures. Organizations should evaluate their specific PHP deployments and implementation contexts to determine appropriate mitigation strategies.",
+    "sourceUrl": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+    "publishedAt": "2026-10-23T19:41:23.000Z",
+    "contentHash": "d1334d743ad85cbab573a01cc154c240f6abf96e11980f9fec3a6bd80ec0d754",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:sans-isc-cadd6afdda",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "PHP Vulnerability Wrap-Up",
+    "summary": "A PHP vulnerability prompted a temporary elevation in threat status before returning to baseline conditions. The incident appears to have run its course, with organizations either already aware or unlikely to be materially impacted by delayed response.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33450",
+    "publishedAt": "2026-10-23T13:43:20.000Z",
+    "contentHash": "66127d102dc4f0e93724928866d0eeaacc9c11a8834e83e2c45992bd44bdb804",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:bleeping-0d09c5ddef",
+    "tier": "event",
+    "category": "news",
+    "title": "Microsoft Windows Server 2016 End of Support Timeline",
+    "summary": "Microsoft has announced that Windows Server 2016 will reach end of support in January 2027, at which point the operating system will no longer receive security updates. Organizations running this version should plan migration strategies to supported platforms.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+    "publishedAt": "2026-10-23T17:05:07.000Z",
+    "contentHash": "105a6856f7d93359c75cec70766a54aa5538db01c0eb25f0f86fb17148fce0d0",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:thehackernews-14b4c9cf95",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Ruby Patches Regex Engine Vulnerabilities Affecting GitLab RCE Flaws",
+    "summary": "Ruby released patched versions addressing three bugs in the Onigmo regex engine that underlay four critical remote code execution vulnerabilities in GitLab. Maliciously crafted regex patterns could corrupt memory during compilation, enabling arbitrary code execution. The fixes span Ruby versions 3.3.13, 3.4.12, and 4.0.9.",
+    "sourceUrl": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+    "publishedAt": "2026-10-23T17:54:08.000Z",
+    "contentHash": "14954c4ed19f90efb3ef8edad79a81b87377611817c3cab482c8ecd7765ad89b",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:darkreading-2355d4d8f6",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "AI-Generated Attack Campaigns Demonstrate Scale and Cost Efficiency",
+    "summary": "Recent threat campaigns have leveraged open-weight and publicly available AI models to target over 100 websites and achieve domain control for minimal financial investment. The accessibility and effectiveness of these AI-assisted attack methods suggest that defensive strategies will require significant adaptation to address the changing threat landscape.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+    "publishedAt": "2026-10-23T17:26:59.000Z",
+    "contentHash": "b1f9203f32c01b9cff8b98c3fdb1cec59437c8879b6b60703bff81b3b030fd56",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:sans-isc-64561d782a",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast - October 23rd, 2026",
+    "summary": "SANS Internet Storm Center's daily Stormcast podcast episode covering current cybersecurity developments and threat landscape updates relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33448",
+    "publishedAt": "2026-10-23T10:25:11.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:bleeping-5d9f1f66a4",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "Quest Diagnostics confirms patient data breach via Quanum LSM system compromise",
+    "summary": "Quest Diagnostics disclosed unauthorized access to its Quanum LSM system resulting in exposure of patient records. The breach affected the clinical laboratory company's internal systems, prompting notification of affected individuals.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+    "publishedAt": "2026-10-23T16:40:07.000Z",
+    "contentHash": "75d83511fbe1d36a1d3895f3634b3539d3018f4d42dfaa0400d82e3bd8bc12ac",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:thehackernews-6fb95eceef",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Ransomware Affiliates Operationalize AI-Driven Intrusion Framework",
+    "summary": "Researchers identified an AI-powered intrusion ecosystem operated by affiliates of INC and The Gentlemen ransomware groups, featuring an automated attack framework called Phantom. The Russian-speaking threat actors leverage this capability to conduct both intrusion and data-extortion operations at scale.",
+    "sourceUrl": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+    "publishedAt": "2026-10-23T17:50:47.000Z",
+    "contentHash": "882445d1dd99e4f9dc2eee8404068c1a5a406d67f44897068780e79e8992dec7",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:darkreading-11a81d41fc",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "mea",
+    "title": "Caribbean Cyber-Risk Cascades Globally Due to Uneven Security Maturity",
+    "summary": "The Caribbean region faces accelerating cyber threats while security capabilities lag, creating potential spillover risks for global organizations. The disparity between exploit velocity and defensive infrastructure maturity in the region reflects broader challenges in establishing consistent cybersecurity standards across interconnected jurisdictions.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
+    "publishedAt": "2026-10-23T14:00:00.000Z",
+    "contentHash": "0a09de0a6d20ba720139fc023bc23f80ce1ff0e13ab217477cc8fba34baafc83",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
+  },
+  {
+    "id": "knowledge:cisa-d35c6743d6",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "transportation",
+      "energy",
+      "healthcare",
+      "financial services",
+      "government"
+    ],
+    "title": "Siemens Industrial Edge Device Kit Path Traversal Vulnerabilities",
+    "summary": "Multiple path traversal vulnerabilities in Siemens Industrial Edge Device Kit across versions 1.5–1.28 (both arm64 and x86-64 architectures) could allow authenticated attackers to access sensitive internal information and potentially escalate privileges. Siemens has released patches for recent versions (1.26.2.1, 1.27.1.1, 1.28.0.6) while recommending network segmentation for products without available fixes.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09",
+    "publishedAt": "2026-10-22T12:00:00.000Z",
+    "contentHash": "7a63dfa5a28588fb7ae6f64f6617af8bf4384cb049666d37b400bdd975ac0c61",
+    "ingestedAt": "2026-10-24T09:31:27.238Z"
   }
 ]

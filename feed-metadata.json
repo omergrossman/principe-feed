@@ -2419,5 +2419,88 @@
     ],
     "category": "attack",
     "publishedAt": "2026-10-21T16:50:15.000Z"
+  },
+  "knowledge/bleeping-a5d4387518.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-23T20:55:05.000Z"
+  },
+  "knowledge/thehackernews-ad73964630.md": {
+    "region": "us",
+    "category": "threat-intel",
+    "publishedAt": "2026-10-24T06:25:57.000Z"
+  },
+  "knowledge/darkreading-ba4956958d.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-23T20:57:56.000Z"
+  },
+  "knowledge/sans-isc-9abacdc577.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-23T20:04:47.000Z"
+  },
+  "knowledge/bleeping-e3ceabcd0c.md": {
+    "category": "product-release",
+    "publishedAt": "2026-10-23T18:54:41.000Z"
+  },
+  "knowledge/thehackernews-68f2c8a7a2.md": {
+    "region": "eu-central",
+    "industries": [
+      "government"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-23T18:50:13.000Z"
+  },
+  "knowledge/darkreading-f32271df15.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-23T19:41:23.000Z"
+  },
+  "knowledge/sans-isc-cadd6afdda.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-23T13:43:20.000Z"
+  },
+  "knowledge/bleeping-0d09c5ddef.md": {
+    "category": "news",
+    "publishedAt": "2026-10-23T17:05:07.000Z"
+  },
+  "knowledge/thehackernews-14b4c9cf95.md": {
+    "category": "product-release",
+    "publishedAt": "2026-10-23T17:54:08.000Z"
+  },
+  "knowledge/darkreading-2355d4d8f6.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-23T17:26:59.000Z"
+  },
+  "knowledge/sans-isc-64561d782a.md": {
+    "category": "news",
+    "publishedAt": "2026-10-23T10:25:11.000Z"
+  },
+  "knowledge/bleeping-5d9f1f66a4.md": {
+    "region": "us",
+    "industries": [
+      "healthcare"
+    ],
+    "category": "attack",
+    "publishedAt": "2026-10-23T16:40:07.000Z"
+  },
+  "knowledge/thehackernews-6fb95eceef.md": {
+    "category": "threat-intel",
+    "publishedAt": "2026-10-23T17:50:47.000Z"
+  },
+  "knowledge/darkreading-11a81d41fc.md": {
+    "region": "mea",
+    "category": "threat-intel",
+    "publishedAt": "2026-10-23T14:00:00.000Z"
+  },
+  "knowledge/cisa-d35c6743d6.md": {
+    "region": "global",
+    "industries": [
+      "critical manufacturing",
+      "transportation",
+      "energy",
+      "healthcare",
+      "financial services",
+      "government"
+    ],
+    "category": "threat-intel",
+    "publishedAt": "2026-10-22T12:00:00.000Z"
   }
 }
