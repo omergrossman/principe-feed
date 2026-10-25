@@ -1,7 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/": "2026-07-27T08:47:17.530Z",
-  "https://isc.sans.edu/diary/rss/33186": "2026-07-27T08:47:17.530Z",
-  "https://isc.sans.edu/diary/rss/33184": "2026-07-27T08:47:17.530Z",
   "https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog": "2026-07-28T07:47:07.259Z",
   "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/": "2026-07-28T07:47:07.259Z",
   "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html": "2026-07-28T07:47:07.259Z",
@@ -1298,5 +1295,23 @@
   "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/": "2026-10-24T09:31:27.238Z",
   "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html": "2026-10-24T09:31:27.238Z",
   "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk": "2026-10-24T09:31:27.238Z",
-  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09": "2026-10-24T09:31:27.238Z"
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09": "2026-10-24T09:31:27.238Z",
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04": "2026-10-25T09:47:57.545Z",
+  "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/": "2026-10-25T09:47:57.545Z",
+  "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html": "2026-10-25T09:47:57.545Z",
+  "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough": "2026-10-25T09:47:57.545Z",
+  "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-295-01": "2026-10-25T09:47:57.545Z",
+  "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/": "2026-10-25T09:47:57.545Z",
+  "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html": "2026-10-25T09:47:57.545Z",
+  "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack": "2026-10-25T09:47:57.545Z",
+  "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/": "2026-10-25T09:47:57.545Z",
+  "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html": "2026-10-25T09:47:57.545Z",
+  "https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage": "2026-10-25T09:47:57.545Z",
+  "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/": "2026-10-25T09:47:57.545Z",
+  "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html": "2026-10-25T09:47:57.545Z",
+  "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html": "2026-10-25T09:47:57.545Z",
+  "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html": "2026-10-25T09:47:57.545Z",
+  "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html": "2026-10-25T09:47:57.545Z",
+  "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html": "2026-10-25T09:47:57.545Z",
+  "https://www.philvenables.com/post/control-reliability-engineering-cre-applying-sre-principles-to-cybersecurity-controls": "2026-10-25T09:47:57.545Z"
 }
