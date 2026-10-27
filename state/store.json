@@ -5228,5 +5228,243 @@
     "publishedAt": "2026-10-25T17:19:46.000Z",
     "contentHash": "1ac0d36d468a8c149134be3bd1b99ea7b7b24e588d299230b8cdbe302cf83aab",
     "ingestedAt": "2026-10-26T11:06:02.496Z"
+  },
+  {
+    "id": "knowledge:bleeping-92e4740105",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "energy"
+    ],
+    "title": "ENGIE data breach exposes customer information via partner platform",
+    "summary": "French energy company ENGIE disclosed a data breach affecting customers through compromise of a marketing platform operated by business partners. The incident resulted in unauthorized access to customer data stored on the third-party system.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+    "publishedAt": "2026-10-27T09:25:50.000Z",
+    "contentHash": "c059d82d400c2872696e517b4e68f48210add4947f9e007d5b5e12cdea71b5b9",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:thehackernews-eae2a3c7c6",
+    "tier": "event",
+    "category": "attack",
+    "region": "anz",
+    "title": "Australian Authorities Disrupt Amadey Malware Infrastructure, Isolating 180,000 Infected Hosts",
+    "summary": "The Australian Signals Directorate successfully gained access to the backend infrastructure of the Amadey malware operation and severed command-and-control communications with approximately 180,000 compromised devices globally. The disruption prevents operators from exfiltrating data or executing further commands on affected systems. This action represents a coordinated takedown of a widely distributed botnet affecting multiple jurisdictions.",
+    "sourceUrl": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+    "publishedAt": "2026-10-27T09:33:06.000Z",
+    "contentHash": "7de32cbe2dc7bf7deeb1c54f6eae650c5600043a3b9aa6620b92c31d9ada410b",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:darkreading-12bf292283",
+    "tier": "event",
+    "category": "analyst",
+    "title": "Fragmented AI Security Benchmarking Landscape Lacks Comprehensive Coverage",
+    "summary": "Multiple AI security benchmarks have emerged to evaluate model robustness, yet each addresses distinct threat vectors without providing unified assessment criteria. Organizations cannot rely on benchmark results alone and must conduct testing against their specific codebases and operational environments to validate security posture.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+    "publishedAt": "2026-10-27T00:26:50.000Z",
+    "contentHash": "52f7a03e997ab555d7e3b9bbaf8759637915b49ec8f6f39f7f332730d916b5e1",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:sans-isc-b8af17c4e8",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast Podcast - October 27th, 2026",
+    "summary": "SANS Internet Storm Center released its daily Stormcast podcast episode covering current cybersecurity developments and threat landscape updates relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33462",
+    "publishedAt": "2026-10-27T02:55:13.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-dc5c27b683",
+    "tier": "event",
+    "category": "strategy",
+    "region": "uk",
+    "industries": [
+      "financial services"
+    ],
+    "title": "NCSC and FCA Collaboration on Industry Information Sharing",
+    "summary": "The UK's National Cyber Security Centre and Financial Conduct Authority have partnered with industry to establish mechanisms for sharing cybersecurity information while maintaining market integrity. The initiative demonstrates how regulatory bodies and private sector actors can coordinate to balance transparency needs with competitive and financial stability concerns.",
+    "sourceUrl": "https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators",
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "contentHash": "2d55fa994187d3aa0438b42ce5d5be88a6be44503d1439a85c6389b598594d20",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:bleeping-c79b9055e5",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "CISA Adds PHP2Shell Vulnerabilities to Actively Exploited Catalog",
+    "summary": "CISA has confirmed that PHP2Shell vulnerabilities are being actively exploited in the wild and added them to its catalog of known exploited flaws. Federal agencies have been directed to remediate affected systems by the specified deadline.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+    "publishedAt": "2026-10-27T08:20:54.000Z",
+    "contentHash": "f3559ba1e4f38a5f0978a0a5083c5ae254a7e9ff1d0902b959657f4489eb559c",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c6fd9c70af",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "OpenAI Compaction Feature Enables Extraction of Hidden Reasoning Content",
+    "summary": "Researchers at Xint demonstrated that OpenAI's conversation compaction feature, designed to optimize storage, could be exploited to extract and expose hidden reasoning data that is normally encrypted and inaccessible to users. The technique bypasses protections intended to keep intermediate reasoning steps private during model inference.",
+    "sourceUrl": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+    "publishedAt": "2026-10-27T08:22:43.000Z",
+    "contentHash": "1114ca6e2f11a5ccd7e2f19e01bcf4ceeb16b79ff83a8d967868576d2ca5eeb1",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:darkreading-711b61639b",
+    "tier": "event",
+    "category": "strategy",
+    "title": "AI's Impact on CISO Responsibilities and Risk Ownership",
+    "summary": "Nvidia's security leadership argues that CISOs should facilitate informed decision-making among business stakeholders regarding AI adoption, ensuring deployment teams maintain accountability for associated risks. The evolving role emphasizes balancing innovation benefits against security considerations.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
+    "publishedAt": "2026-10-26T21:44:33.000Z",
+    "contentHash": "ce96d23b0ab19b472ccf76b747fd28da4bf9ab40c7a0bfbaa2f0542fa163b9f7",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:sans-isc-344bdc9286",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Apple Releases October 2026 Security Updates Addressing 304 Vulnerabilities",
+    "summary": "Apple released patches for 304 vulnerabilities in October 2026, maintaining consistency with historical update volumes. The release follows the regular monthly patching cycle established by the vendor.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33458",
+    "publishedAt": "2026-10-27T02:09:55.000Z",
+    "contentHash": "dab0bb6ec68833538ad099b6ba9feb36b6838b449e96d78a40ac664cfff76c0f",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:bleeping-6d9d5e5887",
+    "tier": "event",
+    "category": "news",
+    "region": "eu-west",
+    "industries": [
+      "education"
+    ],
+    "title": "University of Copenhagen confirms data breach affecting 525,000 individuals",
+    "summary": "The University of Copenhagen disclosed unauthorized access to a test environment containing personal information of approximately 525,000 people. The institution is investigating the incident and has notified affected parties of the exposure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+    "publishedAt": "2026-10-26T22:20:36.000Z",
+    "contentHash": "9a79197fd14c5471d2a619cbcb7ca6ab0e30d62a0d68e3031739a95ad102c63e",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a2da896f11",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "critical-infrastructure",
+      "government"
+    ],
+    "title": "Dahua IP Cameras Compromised in Ukraine via P2P and Authentication Vulnerabilities",
+    "summary": "Ukrainian authorities reported unauthorized remote access to Dahua surveillance devices, with attackers modifying configurations and creating unauthorized accounts. The incidents exploited P2P connectivity features and authentication weaknesses in IP cameras and DVRs. CERT-UA and the State Special Communications Service issued alerts regarding the compromises affecting video stream access.",
+    "sourceUrl": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+    "publishedAt": "2026-10-27T06:34:47.000Z",
+    "contentHash": "7df9251db146b153ecf1cfb437f3f4addad6b0faca9ab680b88c9fe149d75e28",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:darkreading-631b090256",
+    "tier": "event",
+    "category": "attack",
+    "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
+    "summary": "Threat actors are exploiting how AI coding assistants parse local instruction files through a prompt injection technique that conflates text documents with executable commands. The attack leverages the trust relationship between AI agents and markdown-formatted content to manipulate assistant behavior without explicit user authorization.",
+    "sourceUrl": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
+    "publishedAt": "2026-10-26T20:59:26.000Z",
+    "contentHash": "e8b44d4d985b63c19cafd0cb067d2bb124e8acc55fd4dff47498a8dcf0d08c6e",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:bleeping-cb6e7d403c",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "title": "Former pentester leveraged ARTEX AI framework in South Korean data breach campaign",
+    "summary": "South Korean law enforcement identified seven suspects operating a coordinated campaign that compromised over 90 organizations and exfiltrated 8.2 million records. The attackers primarily deployed ARTEX AI, a pentesting framework, to conduct the breaches, suggesting repurposing of security tools for malicious intent.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+    "publishedAt": "2026-10-26T21:08:28.000Z",
+    "contentHash": "a3ecbc51e79eb9c2ab11fa35b52d5f71d540eab8853b42932657144b82bd2c29",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:thehackernews-dc98d41511",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds PHP2Shell Vulnerabilities to KEV Catalog Following Active Exploitation",
+    "summary": "CISA has listed two critical PHP2Shell flaws (CVSS 9.2) in its Known Exploited Vulnerabilities catalog after confirming active exploitation in the wild. These vulnerabilities enable unauthenticated remote code execution on vulnerable PHP installations and have been recently patched by vendors.",
+    "sourceUrl": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+    "publishedAt": "2026-10-27T04:37:59.000Z",
+    "contentHash": "84f0d1e29dac9425962a1808e7d6f735f990539243690391342a3a4a60964a99",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:darkreading-9954d1a67a",
+    "tier": "event",
+    "category": "attack",
+    "title": "'Gheist' Supply Chain Attack Exploits GitHub Tokens to Access Cloud Credentials",
+    "summary": "A campaign tracked as 'Gheist' is systematically compromising developer repositories by weaponizing GitHub tokens to extract credentials and sensitive data at scale. The attack targets the supply chain through developer environments, enabling threat actors to access downstream cloud infrastructure and secrets stored within affected repositories.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
+    "publishedAt": "2026-10-26T18:01:40.000Z",
+    "contentHash": "81a935067ba564df9554687fb5b5b6d0c190c98d7da1371d04c178f0ae356904",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:bleeping-77ef2d30d3",
+    "tier": "event",
+    "category": "product-release",
+    "title": "OpenAI launches GPT-6.1 Terra with improved performance and reduced pricing",
+    "summary": "OpenAI released GPT-6.1 Terra, a model optimized for computer vision tasks, code generation, and practical workflows. The offering delivers threefold performance improvements in agent execution speeds while reducing operational costs by half relative to prior flagship models.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+    "publishedAt": "2026-10-26T20:46:49.000Z",
+    "contentHash": "2c265a9780d531261e7d6c287d99fe63fb9b8ee9b71bab8316c4db7f59f98e30",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:thehackernews-4764a54732",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "ecommerce",
+      "retail"
+    ],
+    "title": "953 E-commerce Stores Compromised via Magento CMS Blocks in Long-Running Campaign",
+    "summary": "An unknown threat actor has compromised approximately 953 online stores, predominantly running Magento, since July 2025. The campaign deploys obfuscated JavaScript through CMS blocks to inject malicious loader code into store pages, affecting customers during checkout and payment processes. Sansec identified the activity as part of a sustained operation targeting e-commerce infrastructure.",
+    "sourceUrl": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+    "publishedAt": "2026-10-26T18:12:22.000Z",
+    "contentHash": "222b674fc3364b2b117d2d7fff57130e016cc35334da3bb91608c10fe1dd198f",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:darkreading-9d30cfebb9",
+    "tier": "event",
+    "category": "strategy",
+    "title": "10 Software Security Practices Built for the Next 250 Years",
+    "summary": "An analysis of long-term software security approaches aligns with Cybersecurity Awareness Month's focus on generational resilience. The framework emphasizes practices designed to sustain digital system integrity beyond immediate vulnerability management.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years",
+    "publishedAt": "2026-10-26T14:00:00.000Z",
+    "contentHash": "42bc606583dbee4e0f5c1c7b75cfc6791c96794b8a5efd947dc3aaf9772fdbe2",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:bleeping-e83553d746",
+    "tier": "event",
+    "category": "news",
+    "industries": [
+      "hosting",
+      "web services"
+    ],
+    "title": "DreamHost Implements Forced Password Resets Following Service Incident",
+    "summary": "DreamHost has mandated password resets for email and FTP/SFTP users after an incident disrupted File Manager connectivity. The hosting provider took this precautionary measure to secure user accounts during the investigation and remediation period.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+    "publishedAt": "2026-10-26T19:26:20.000Z",
+    "contentHash": "e32707741091877f6325a2671cc4cffc75bb0509ab878f9a495279fa44ad0bc3",
+    "ingestedAt": "2026-10-27T10:32:26.469Z"
   }
 ]
