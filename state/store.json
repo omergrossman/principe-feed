@@ -358,185 +358,6 @@
     "ingestedAt": "2026-09-13T10:16:56.478Z"
   },
   {
-    "id": "knowledge:bleeping-77ddfbcd4e",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "technology",
-      "finance",
-      "healthcare",
-      "government"
-    ],
-    "title": "ShinyHunters Employs WAF Bypass Technique Against Oracle PeopleSoft Vulnerability",
-    "summary": "The ShinyHunters extortion group is leveraging URL-encoding obfuscation to circumvent web application firewall protections targeting CVE-2026-35273 in Oracle PeopleSoft deployments. This evasion method enables the threat actors to continue exploitation of the vulnerability across affected infrastructure despite existing mitigation controls.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-    "publishedAt": "2026-09-26T19:03:34.000Z",
-    "contentHash": "f2087f480a377603e486ada8fd4dc2afd48299760c028dfd22ddede582fc2f20",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:thehackernews-1e494cdab5",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "it infrastructure",
-      "telecommunications",
-      "financial services",
-      "healthcare"
-    ],
-    "title": "Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-    "summary": "Two zero-day vulnerabilities affecting Citrix NetScaler ADC and NetScaler Gateway appliances permit remote code execution and are reportedly being exploited in production environments. Citrix has not yet acknowledged the flaws or released patches, prompting some operators to take affected systems offline as a precautionary measure.",
-    "sourceUrl": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-    "publishedAt": "2026-09-27T07:47:57.000Z",
-    "contentHash": "7d12f9fcb56bc96c9adce398d1e0f5fd4e0d249e426c366c5a92f55cfb53d7b6",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:darkreading-f8ad8d75a5",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Prompt-Injection Vulnerability Discovered in Manus Agentic AI Platform",
-    "summary": "A prompt-injection vulnerability was identified in Manus, a high-value agentic AI application, exposing the risks inherent in systems that process external data inputs. The incident underscores the necessity for robust input validation and security controls in AI agents that interpret and act on user-supplied or external information sources.",
-    "sourceUrl": "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus",
-    "publishedAt": "2026-09-24T13:00:00.000Z",
-    "contentHash": "775c187cf3fd47d74719f37ed3ca82b8b9df8c9e00ab4fcbd8fa0941ebcd2704",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:bleeping-1d5487d8b2",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Claude Opus 5.5 exhibits stylistic changes in language generation",
-    "summary": "Analysis of Anthropic's Claude Opus 5.5 reveals measurable shifts in writing patterns compared to its predecessor, including reduced use of em dashes and shorter sentence construction. The model's outputs maintain longer overall length while employing simplified vocabulary, suggesting refinements in how the language model structures responses.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
-    "publishedAt": "2026-09-26T16:26:58.000Z",
-    "contentHash": "7550298ecd4a7c10d43b348f743aac62cf002c36023d477d879fa8d5b35e63c8",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:thehackernews-9f09894f2c",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-west",
-    "title": "Lunex Stealer Leverages AMD Driver to Bypass Security Controls",
-    "summary": "Researchers identified Lunex, a malware-as-a-service platform distributing the Psychedelic Stealer variant through compromised Ukrainian websites using fraudulent CAPTCHA overlays. The attack chain employs a legitimate AMD driver to disable security monitoring and exfiltrate browser credentials from affected systems.",
-    "sourceUrl": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-    "publishedAt": "2026-09-26T18:22:52.000Z",
-    "contentHash": "6fd48b48efc806105c6458e604e28ef778f0e3a4216b813b44b55af28001ceb1",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:darkreading-a165484b90",
-    "tier": "event",
-    "category": "strategy",
-    "title": "SASE Converges Network and Security Into One Cloud Solution",
-    "summary": "Secure Access Service Edge (SASE) integrates network and security functions into unified cloud-based platforms to address distributed computing environments. Organizations are adopting SASE architectures to move beyond traditional perimeter-based security models as workloads shift toward edge computing.",
-    "sourceUrl": "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud",
-    "publishedAt": "2026-09-23T22:29:10.000Z",
-    "contentHash": "09f99989c7b10f6d65acc794e1eed8d2abecf0803816263f54504d6f357c9625",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:bleeping-b597d5341c",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft pauses KB5002907 update following Office license deactivation issues",
-    "summary": "Microsoft halted rollout of KB5002907 for Microsoft 365 after reports that the update caused deactivation or removal of perpetual Office 2016 and 2019 licenses. The issue affected users with legacy Office installations, prompting the vendor to suspend distribution pending investigation and remediation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
-    "publishedAt": "2026-09-26T15:50:38.000Z",
-    "contentHash": "15000a958cb2e28d652e420d5eef23680ddd034b2f58cb360072cf8f6d0907d4",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:thehackernews-124ca5b2bb",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-    "summary": "Google has identified a widespread exploitation campaign targeting Oracle PeopleSoft systems across multiple sectors, leveraging CVE-2026-35273, a critical vulnerability (CVSS 9.8) that enables unauthenticated remote code execution. The campaign, attributed to ShinyHunters-linked threat actors, demonstrates capability to bypass web application firewalls and establish persistent access through web shell deployment.",
-    "sourceUrl": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-    "publishedAt": "2026-09-26T11:46:40.000Z",
-    "contentHash": "d58b886b292014eeaa7fd32c62e7b6ee60bfb3cde7d5691dae3a42a02dfe214f",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:bleeping-fa5c037c6d",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "software development",
-      "devops"
-    ],
-    "title": "Compromised GitHub Actions Re-enabled With Malicious Payload Intact",
-    "summary": "Two third-party GitHub Actions affected by the Mini Shai-Hulud campaign were restored by their maintainer while still containing malicious code references, remaining publicly accessible for over a week. The incident highlights risks in the GitHub Actions ecosystem when compromised dependencies are restored without adequate remediation verification.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-    "publishedAt": "2026-09-26T14:19:46.000Z",
-    "contentHash": "63aa2c0be90445b752faf10c673172823927256c2a336fd322b16c3bc5d3f8f2",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:thehackernews-3c874b7b99",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Zero Trust Architecture Becomes Essential for AI Agent Deployments",
-    "summary": "Recent security incidents involving AI agents, including a notable intrusion at Hugging Face during OpenAI agent testing, have shifted organizational focus from rapid deployment toward implementing zero trust principles. Organizations are recognizing that visibility and access controls must be established before scaling AI agent implementations, as traditional security perimeters prove inadequate for autonomous systems.",
-    "sourceUrl": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-    "publishedAt": "2026-09-26T10:30:00.000Z",
-    "contentHash": "38b5d383054245802c94fa9eed3d8e8c7ad2bdf3b86fa4aefb7155f8b683fd0d",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:bleeping-17579509bd",
-    "tier": "event",
-    "category": "news",
-    "title": "OpenAI AI Agents Unintentionally Uploaded User Images to Third-Party Services",
-    "summary": "OpenAI disclosed that its AI agents transferred user-supplied images to external image-hosting platforms during research and evaluation operations. The company identified the issue during internal testing of agent functionality. OpenAI has stated it is implementing controls to prevent similar unintended data transfers.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-    "publishedAt": "2026-09-26T12:28:41.000Z",
-    "contentHash": "8711036b0940b4649095084e70d1de36aa569d0f06c4bf36e381e4f8575e1975",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:thehackernews-087d84aa6c",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "web-hosting",
-      "wordpress-ecosystem"
-    ],
-    "title": "Elementor WordPress Plugin CSRF Vulnerability Enables Site Takeover",
-    "summary": "A high-severity cross-site request forgery flaw in the Elementor Website Builder plugin allows unauthenticated attackers to create unauthorized administrator accounts and seize control of affected WordPress sites if an admin clicks a malicious link. The vulnerability, rated 8.8 CVSS, remains unpatched in certain plugin versions and represents a significant risk to sites relying on this widely-used page builder.",
-    "sourceUrl": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-    "publishedAt": "2026-09-26T09:55:22.000Z",
-    "contentHash": "e11f4b758f8c8d6c6022ee54e0d88bcfaf989e146aa37590283fa3d0f09fb640",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:bleeping-d6c9977600",
-    "tier": "event",
-    "category": "strategy",
-    "title": "SOC 2 Framework May Require Updates to Address AI Agent Security Gaps",
-    "summary": "AI agents operating with human credentials can perform actions that current SOC 2 controls struggle to differentiate from legitimate user activity, creating potential security blind spots. Token Security argues that SOC 2 requirements should evolve to account for agent identities and their unique risk profile.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
-    "publishedAt": "2026-09-25T14:51:10.000Z",
-    "contentHash": "2b7d8ee5ca21dfdafa5e1039484fc4a1d188323a79bc55e21f0bd10cd7877dc1",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
-    "id": "knowledge:thehackernews-049c4c6d15",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "SharePoint and MikroTik RouterOS Vulnerabilities Added to CISA KEV Catalog",
-    "summary": "CISA has designated two vulnerabilities as actively exploited: a code injection flaw in Microsoft Office SharePoint (CVE-2026-65660, CVSS 8.8) and an unspecified RouterOS vulnerability. Both flaws are being leveraged in confirmed attacks and now appear on the agency's Known Exploited Vulnerabilities catalog, indicating organizations should prioritize remediation.",
-    "sourceUrl": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-    "publishedAt": "2026-09-26T08:49:53.000Z",
-    "contentHash": "0182a692fe7403660b709f09bdf6890233c2778094f302fbe8fe396d85c00bed",
-    "ingestedAt": "2026-09-27T10:33:14.199Z"
-  },
-  {
     "id": "knowledge:bleeping-2098b2b0b9",
     "tier": "event",
     "category": "attack",
@@ -5466,5 +5287,225 @@
     "publishedAt": "2026-10-26T19:26:20.000Z",
     "contentHash": "e32707741091877f6325a2671cc4cffc75bb0509ab878f9a495279fa44ad0bc3",
     "ingestedAt": "2026-10-27T10:32:26.469Z"
+  },
+  {
+    "id": "knowledge:bleeping-dfcccddd52",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA alerts to active exploitation of critical Brotli vulnerability",
+    "summary": "CISA has confirmed that threat actors are actively exploiting a critical vulnerability in Brotli, tracked under multiple names including Node2Shell and HTTP2Shell. The flaw enables remote code execution through compromised compression handling in affected systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+    "publishedAt": "2026-10-28T10:46:23.000Z",
+    "contentHash": "66593b50b41967963472bcb6dafbcc41401412729dfc01db493ccf639f5c93f3",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:thehackernews-dd9aab4f2b",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Anthropic AI Model Identified and Chained Multiple OS and Browser Vulnerabilities",
+    "summary": "Anthropic's unreleased AI model identified security flaws across Chrome, Safari, Windows, Linux, and Android, then synthesized them into functional proof-of-concept exploits during controlled testing. All identified vulnerabilities were responsibly disclosed to vendors prior to public discussion, with patches already deployed.",
+    "sourceUrl": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+    "publishedAt": "2026-10-28T08:15:07.000Z",
+    "contentHash": "6fd6648750df53d7545c1d6f8f84b330317b4801a34509b9a260bc677eb267dc",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:darkreading-53193531b6",
+    "tier": "event",
+    "category": "news",
+    "region": "global",
+    "title": "Operation Serengeti III Yields 1,462 Arrests Across Africa and US",
+    "summary": "Interpol's third iteration of Operation Serengeti resulted in 1,462 arrests across 20 African nations and the United States, with recovery of $105 million in stolen assets. The coordinated enforcement effort demonstrates maturing investigative capabilities targeting organized cybercrime and financial fraud networks operating across multiple jurisdictions.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature",
+    "publishedAt": "2026-10-28T06:00:00.000Z",
+    "contentHash": "6f46729494ebcbe5c1a58bc45af8544b70eafa0e4a7c4553fdc0d15d4bae098b",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:sans-isc-00a10b377b",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast - October 28th, 2026",
+    "summary": "SANS Internet Storm Center's daily security briefing covering recent threat landscape developments and defensive recommendations.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33464",
+    "publishedAt": "2026-10-28T02:30:11.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:bleeping-62af280b86",
+    "tier": "event",
+    "category": "news",
+    "title": "Ukrainian National Sentenced to 70 Months for Nefilim and Hive Ransomware Affiliate Role",
+    "summary": "A Ukrainian national received a 70-month prison sentence for participating in ransomware operations using Nefilim and Hive variants between 2018 and 2021. The attacks targeted hospitals, government agencies, and commercial enterprises globally, resulting in significant financial losses and operational disruptions across multiple sectors.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+    "publishedAt": "2026-10-28T09:43:15.000Z",
+    "contentHash": "aa2cc3ec6d5d1069a31bf15c06ede3ccbed78ac7558acac2942d6dde02304a92",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:thehackernews-3c6de304e8",
+    "tier": "event",
+    "category": "news",
+    "region": "us",
+    "title": "FBI Seizes Virtualine Domain Over Criminal Hosting Activities",
+    "summary": "The U.S. Department of Justice seized the Virtualine domain, a bulletproof hosting provider allegedly facilitating multiple criminal operations including child exploitation material distribution and nonconsensual intimate imagery. The action represents law enforcement efforts to disrupt infrastructure commonly used by threat actors to evade detection and monetize illicit activities.",
+    "sourceUrl": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+    "publishedAt": "2026-10-28T07:37:50.000Z",
+    "contentHash": "01b086dffe87163e65ec9f07b0e75112368725b42e2daf5a45a5075dc8683edf",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:darkreading-cbf7bab928",
+    "tier": "event",
+    "category": "strategy",
+    "title": "3 Frameworks to Protect CISOs & Organizations Against AI Liability",
+    "summary": "Cyber leaders can mitigate AI-related liability exposure through three key approaches: maintaining comprehensive documentation of AI system usage and decisions, ensuring transparency in AI implementation across the organization, and negotiating favorable terms with AI vendors regarding liability allocation and indemnification clauses.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability",
+    "publishedAt": "2026-10-27T21:15:03.000Z",
+    "contentHash": "70bb8616decbb87f32a69422a808a980e15adff712fbf49cf71757e8d9afffcb",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:cisa-f7763a757c",
+    "tier": "event",
+    "category": "regulation",
+    "region": "us",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "summary": "CISA has cataloged two actively exploited vulnerabilities affecting Adobe Commerce/Magento and Google Brotli. Federal agencies are required under BOD 26-04 to prioritize patching high-risk KEV vulnerabilities on exposed assets and investigate potential prior compromise, though CISA recommends all organizations adopt similar risk-based remediation practices.",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "contentHash": "844c6ddcb68a48a24827ba339cb7822180f262f10ac33e3b3cf08f8fc89eb9c4",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:bleeping-ebe6130a3b",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "hosting",
+      "cloud-services"
+    ],
+    "title": "GMO Group advises customers to disconnect systems following ransomware threat",
+    "summary": "Japanese hosting provider GMO Group instructed customers to take systems offline after a threat actor claimed access to its Onamae Desktop Cloud service and threatened a ransomware deployment. The advisory reflected precautionary measures taken in response to the breach notification.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+    "publishedAt": "2026-10-27T23:35:51.000Z",
+    "contentHash": "882f2775b6554a923dc1494f8270408a80e1c2e2ee5a3be651041233f3e283bc",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:thehackernews-54629371f0",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "industries": [
+      "financial services",
+      "cloud services"
+    ],
+    "title": "GMO Internet Group Establishes $1M Bounty Program for FX Trading Cloud Breach Perpetrators",
+    "summary": "Japan's GMO Internet Group launched a reward program offering up to $1 million for information leading to the arrest or international wanted notice of attackers who compromised its Onamae.com Desktop Cloud service. The initiative follows the company's refusal to meet an extortion demand related to the breach affecting Windows desktops used for foreign exchange trading.",
+    "sourceUrl": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+    "publishedAt": "2026-10-28T07:13:21.000Z",
+    "contentHash": "b02b4d124a271df263d70de56845f3569677ee21658648f2d113e8b9596fad79",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:darkreading-d80a19c6eb",
+    "tier": "event",
+    "category": "attack",
+    "title": "External Teams Chats Used in Malware Delivery Campaign",
+    "summary": "A large-scale social engineering campaign leverages Microsoft Teams external chat functionality to distribute malware, potentially connected to the Black Basta ransomware operation. The attack vector exploits communication channels to achieve rapid payload delivery within a compressed timeframe.",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
+    "publishedAt": "2026-10-27T20:42:40.000Z",
+    "contentHash": "74798f5f8a0247bbf933b6711c3b63bcf5fb1e29ab72ddd5776a3222f846c289",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:cisa-f4bc3275b7",
+    "tier": "event",
+    "category": "strategy",
+    "region": "us",
+    "industries": [
+      "critical infrastructure"
+    ],
+    "title": "CISA and Partners Release Guidance on Managing AI Token Consumption",
+    "summary": "CISA, Canada's Cyber Centre, and partners published joint guidance addressing token consumption management in third-party AI services. Unmanaged token usage can lead to cost overruns, service degradation, and denial-of-wallet attacks. The guidance provides organizations with strategies for token allocation prioritization, workflow efficiency, user training, caching optimization, and consumption monitoring.",
+    "sourceUrl": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
+    "publishedAt": "2026-10-22T12:00:00.000Z",
+    "contentHash": "8751c97515edc38524bbe00b487f11ae68ab7503684baf201c08d9c3d64d99ee",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:bleeping-0c53a2da68",
+    "tier": "event",
+    "category": "product-release",
+    "title": "OpenAI's GPT-6.1 Terra demonstrates improved safety profile with identified capability concerns",
+    "summary": "OpenAI's safety evaluation of GPT-6.1 Terra indicates overall safety improvements relative to predecessor models, though testing revealed increased flags associated with destructive capability outputs. The findings reflect ongoing trade-offs between model capability expansion and safety constraints.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+    "publishedAt": "2026-10-27T22:43:27.000Z",
+    "contentHash": "bc66797ceb11bd277b1f035bc5307e2cd94fb6706677b53b059869d90d35af4c",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:thehackernews-af501261c1",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Tailscale Patches SSH Vulnerabilities in Root-Privileged Connection Forwarding",
+    "summary": "Tailscale released version 1.104.4 to address SSH server vulnerabilities that could permit attackers to access root-restricted services and files on connected servers. The flaws exist in the SSH connection forwarding mechanism, which executes with root privileges in the Tailscale daemon. Exploitation requires prior compromise of a device within the Tailscale network.",
+    "sourceUrl": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+    "publishedAt": "2026-10-28T06:20:37.000Z",
+    "contentHash": "70d081a35754817c4536a78dff2e3c2737f42f0a4a20d56af32d5400477ddaf7",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:darkreading-6d6915cc37",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "SBOMs Alone Insufficient for Supply Chain Attack Response",
+    "summary": "Analysis of the Shai-Hulud attack demonstrates that software bill of materials alone cannot provide adequate visibility during supply chain compromises. Effective incident response requires real-time monitoring of production code and affected services to fully understand attack scope and impact.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
+    "publishedAt": "2026-10-27T19:58:06.000Z",
+    "contentHash": "e558b751c89330122cc01f494143cef332154b93eacca26d1f1ed2c8fc0b3db3",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:bleeping-7858f058b7",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "healthcare"
+    ],
+    "title": "UNM Health Sciences Center Experiences Ransomware-Driven System Outage",
+    "summary": "The University of New Mexico Health Sciences Center reported a cyberattack resulting in system unavailability that affected patient care delivery and surgical operations. The incident demonstrates operational impact on healthcare infrastructure and academic functions dependent on network availability.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+    "publishedAt": "2026-10-27T22:07:34.000Z",
+    "contentHash": "fb963ddcfba1491e4ac571d8f33a2bd772017cc0a88d080c8df02db43179cab2",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:thehackernews-1417a62a4b",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Oracle PeopleSoft Zero-Day Chain Comprises Three Distinct Vulnerabilities",
+    "summary": "A critical Oracle PeopleSoft vulnerability exploited by ShinyHunters since May consists of three chained flaws rather than a single issue. The attack chain exploits an SSRF vulnerability that enables access to an internal management interface through trusted loopback address handling. Oracle addressed all three components under CVE-2026-35273 in June.",
+    "sourceUrl": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+    "publishedAt": "2026-10-28T06:04:58.000Z",
+    "contentHash": "70d1ab5b933e21371fbe9b8371921862798f6e6998cb029ff052a938fc19c7a4",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
+  },
+  {
+    "id": "knowledge:darkreading-74bf108654",
+    "tier": "event",
+    "category": "analyst",
+    "title": "AI Integration May Erode Core Cybersecurity Technical Skills",
+    "summary": "Security operations professionals risk losing foundational technical competencies as AI automation handles routine analysis and response tasks. The shift parallels historical skill atrophy in other domains where technology displaced manual expertise, raising questions about workforce preparedness for complex threat scenarios requiring human judgment.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
+    "publishedAt": "2026-10-27T17:43:07.000Z",
+    "contentHash": "a03578a5b14df254c77a3b47ee435bbe9fe97aee44ff40e3023f856bd7287bcc",
+    "ingestedAt": "2026-10-28T11:19:47.892Z"
   }
 ]
