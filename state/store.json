@@ -358,194 +358,6 @@
     "ingestedAt": "2026-09-13T10:16:56.478Z"
   },
   {
-    "id": "knowledge:bleeping-3b6b222f8b",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Microsoft Extends WSL with General Availability of Linux Container Support",
-    "summary": "Microsoft has made WSL Containers generally available, expanding Windows Subsystem for Linux capabilities beyond running Linux distributions to include container workloads. This development allows Windows users to run containerized applications natively within WSL.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
-    "publishedAt": "2026-09-30T00:40:57.000Z",
-    "contentHash": "d1183c5afcf1067c9230c0630e945258164a6bec233cb0c8c154c2441f475702",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:thehackernews-7595f834fb",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "industries": [
-      "government",
-      "financial services",
-      "technology",
-      "education",
-      "legal and professional services"
-    ],
-    "title": "NetScaler ADC/Gateway Flaw Exploited for Root Access with WHIPSHOT/SLAPSHOT Malware",
-    "summary": "Threat actors have exploited a patched vulnerability in Citrix NetScaler ADC and Gateway appliances to achieve root-level access across multiple sectors in North America and Europe. The campaign, documented by Mandiant and Google Threat Intelligence, deployed custom malware variants against government, financial services, technology, education, and legal organizations.",
-    "sourceUrl": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
-    "publishedAt": "2026-09-30T08:24:35.000Z",
-    "contentHash": "2deef93634356a8dec6d56915d9d4620047bd6f84b18403f083ac8ad50b31f66",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:darkreading-22d143dd8f",
-    "tier": "event",
-    "category": "attack",
-    "region": "mea",
-    "industries": [
-      "aviation",
-      "critical infrastructure"
-    ],
-    "title": "South Africa's Air Traffic Control Systems Targeted in Cyberattack",
-    "summary": "South African air traffic control infrastructure has been compromised by attackers who deployed ransomware toolkits on operational networks. The incident reflects an emerging pattern of adversaries targeting critical aviation systems globally, prompting South Africa to seek external assistance in response and remediation efforts.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control",
-    "publishedAt": "2026-09-30T07:00:00.000Z",
-    "contentHash": "2c729dfe37f244996612fe6d40a07f82d3b826684de2a833acdd0e088031731d",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:sans-isc-136e6b866c",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "ISC Stormcast Podcast - September 30th, 2026",
-    "summary": "SANS Internet Storm Center's daily security briefing covering current threat landscape developments and security advisories. The podcast provides analysis of emerging security incidents and vulnerabilities relevant to defenders.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33384",
-    "publishedAt": "2026-09-30T02:00:03.000Z",
-    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:bleeping-1e9b704f29",
-    "tier": "event",
-    "category": "product-release",
-    "title": "Signal Completes Encrypted Local Backup Rollout Across Platforms",
-    "summary": "Signal has released version 8.30, finalizing deployment of its encrypted backup functionality across all supported operating systems including iOS and desktop applications. This feature enables users to securely back up conversation history locally with end-to-end encryption, complementing existing Android support.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
-    "publishedAt": "2026-09-29T21:30:08.000Z",
-    "contentHash": "5d2d74efca2718cb7d6e0f4517cd8677570e70b87e77a5d74d9c84ad0206b426",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:thehackernews-1b25f217f4",
-    "tier": "event",
-    "category": "product-release",
-    "title": "OpenSSL Patches High-Severity DTLS Memory Leak Vulnerability",
-    "summary": "OpenSSL released fixes for a high-severity flaw in DTLS (Datagram TLS) that can expose heap memory to remote endpoints or trigger application crashes. The vulnerability occurs when handshake message retransmission is initiated while a larger message is partially processed, creating conditions for memory disclosure or denial of service.",
-    "sourceUrl": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
-    "publishedAt": "2026-09-30T08:09:28.000Z",
-    "contentHash": "5d56e3f21caf3b5b20d70b7d0f828e570179d7d6b82a33666ca6bff29fb198f0",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:darkreading-d49e053169",
-    "tier": "event",
-    "category": "attack",
-    "title": "Apple Zero-Day Vulnerability Exploited in Targeted Attacks",
-    "summary": "Apple disclosed CVE-2026-86950, an out-of-bounds write vulnerability, which is being actively exploited in targeted attack campaigns. The flaw affects Apple systems and is being leveraged by threat actors in sophisticated operations.",
-    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
-    "publishedAt": "2026-09-29T21:31:29.000Z",
-    "contentHash": "ac33eadec961b5f617399f47d030829d48b7b01e0396bbd2fcd24fcfc2f71fb5",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:sans-isc-4c7ab8070a",
-    "tier": "event",
-    "category": "threat-intel",
-    "industries": [
-      "software",
-      "web hosting"
-    ],
-    "title": "Reconnaissance Scans Targeting Wordfence-Protected WordPress Sites",
-    "summary": "Automated scans have been detected probing for the wordfence-waf.php file, which is deployed in WordPress site root directories as part of Wordfence WAF installations. The activity appears limited in volume and represents standard reconnaissance behavior targeting a known security solution marker.",
-    "sourceUrl": "https://isc.sans.edu/diary/rss/33382",
-    "publishedAt": "2026-09-29T13:29:33.000Z",
-    "contentHash": "70c7f4bd709854cc92587b72be0d9b18bb8bac5af72d812021efaec9058a5332",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:bleeping-aafd86b072",
-    "tier": "event",
-    "category": "attack",
-    "title": "Custom ChatGPT Variants in Google Ads Redirect Users to ClickFix Malware Distribution",
-    "summary": "Threat actors are leveraging fraudulent ChatGPT clones advertised through sponsored Google search results to redirect users toward malicious domains. These sites employ ClickFix social engineering techniques to trick visitors into executing commands that deploy remote access trojans.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
-    "publishedAt": "2026-09-29T20:59:39.000Z",
-    "contentHash": "057cfbb35efb0f79e90a0ba7c6a700740aced3ee1822e544670999169280c38d",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:thehackernews-a2c9b41769",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Citrix NetScaler CVE-2026-88772 Exploitation Details Disclosed",
-    "summary": "Researchers have published technical details on a critical memory overflow vulnerability in Citrix NetScaler ADC and Gateway's DTLS protocol handling. The flaw (CVE-2026-88772, CVSS 9.5) enables unauthenticated remote code execution and is reportedly being exploited in active attacks; patches are available.",
-    "sourceUrl": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
-    "publishedAt": "2026-09-30T05:30:30.000Z",
-    "contentHash": "035b4e05251065aee2330342c7b75c8572630b40ae19d27fafe416b27f5b0e51",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:darkreading-b9ebd84c7b",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Unsloth Studio Vulnerability Enables Code Execution via Malicious AI Models",
-    "summary": "A vulnerability in Unsloth Studio permitted arbitrary Python code execution when users inspected AI models, exploiting the trust_remote_code setting. The flaw has been patched; it highlights risks inherent in loading and inspecting untrusted model artifacts without proper isolation controls.",
-    "sourceUrl": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
-    "publishedAt": "2026-09-29T21:08:42.000Z",
-    "contentHash": "4092fcefd02de0e51236502776a14bb3c7641fe3b1857d589b9fac373892d3d2",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:bleeping-156dd54c40",
-    "tier": "event",
-    "category": "attack",
-    "region": "global",
-    "title": "FBI urges ShinyHunters members to surrender following leadership arrest",
-    "summary": "Dutch law enforcement arrested an individual identified by the FBI as a ShinyHunters leader, prompting the bureau to issue a surrender appeal to other group members. ShinyHunters has been linked to extortion operations targeting multiple organizations.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
-    "publishedAt": "2026-09-29T20:09:55.000Z",
-    "contentHash": "b5dbe8d9dadef4caefb7e8dcf57a25417f3e9b57604a30f1c069bd5b62d449ab",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:thehackernews-d45bad10f5",
-    "tier": "event",
-    "category": "attack",
-    "region": "eu-west",
-    "industries": [
-      "government"
-    ],
-    "title": "French Tax Administration Data Breach via Compromised Staff Credentials",
-    "summary": "An attacker leveraged stolen credentials of French tax administration employees to exfiltrate tax records affecting hundreds of thousands of individuals and businesses over a seven-week period in mid-2024. The intrusion remained undetected by both the tax authority and France's national cybersecurity agency (ANSSI), which attributed the success to inadequate access controls rather than sophisticated attack techniques.",
-    "sourceUrl": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
-    "publishedAt": "2026-09-29T17:47:01.000Z",
-    "contentHash": "b17661d4b70dd1afae05c3ca682c936c58271eb60bc76ea537e009fea1e53492",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:darkreading-b153e6d843",
-    "tier": "event",
-    "category": "product-release",
-    "region": "global",
-    "title": "Cloudflare Launches Public Certificate Authority Supporting Post-Quantum Cryptography",
-    "summary": "Cloudflare has introduced a public certificate authority designed to issue automated SSL/TLS certificates with post-quantum cryptographic algorithms embedded alongside classical ones. The offering enables organizations to begin transitioning their infrastructure ahead of widespread quantum computing threats without requiring immediate full replacement of existing systems.",
-    "sourceUrl": "https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web",
-    "publishedAt": "2026-09-29T17:02:16.000Z",
-    "contentHash": "1dead2f5a7bb43d2bae2c6803a8f52d3ca8e8d1bc5b3ddc878dc0a72573a9d1f",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
-    "id": "knowledge:bleeping-3cb734ba29",
-    "tier": "event",
-    "category": "attack",
-    "title": "Citrix NetScaler Zero-Day Exploited for Web Shell Deployment",
-    "summary": "Threat actors are actively exploiting an unpatched zero-day vulnerability in Citrix NetScaler (CVE-2026-88772) to install web shells and tunneling malware on compromised systems. Successful exploitation grants root-level access, enabling attackers to harvest credentials and pivot into internal networks.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-    "publishedAt": "2026-09-29T18:37:12.000Z",
-    "contentHash": "d19c4aecf6bdf38d0b57176008cadfd147e19d36994aa948aafa87a3f1c8cf81",
-    "ingestedAt": "2026-09-30T11:09:56.491Z"
-  },
-  {
     "id": "knowledge:bleeping-52279358df",
     "tier": "event",
     "category": "product-release",
@@ -5351,5 +5163,220 @@
     "publishedAt": "2026-10-28T14:48:32.000Z",
     "contentHash": "7c46c5ab96de8ff4c95cbaef8dbc18d46e01c8b29d592eba7a25410b4532b88b",
     "ingestedAt": "2026-10-29T11:30:53.333Z"
+  },
+  {
+    "id": "knowledge:bleeping-aef9e5e4ac",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Microsoft Resolves Always On VPN Connectivity Issues from September 2026 Updates",
+    "summary": "Microsoft has addressed connection failures in Always On VPN that occurred following installation of September 2026 Windows 11 security patches. The vendor released a fix to restore functionality for affected deployments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+    "publishedAt": "2026-10-30T11:20:26.000Z",
+    "contentHash": "9948b07ae4883f1d83397f267f209271b3ca8176cf27333e5a3b0d738bda14d4",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:thehackernews-4b53227f9f",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software development",
+      "security tools"
+    ],
+    "title": "Official Claude Code VS Code Extension Compromised with SSH Backdoor",
+    "summary": "The official Anthropic Claude Code extension on the Open VSX registry was compromised to deploy a persistent SSH backdoor on affected systems. The incident originated from a breach of the Cursor Marketplace, leading Cursor to temporarily suspend its service to remediate the malware.",
+    "sourceUrl": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+    "publishedAt": "2026-10-30T08:55:47.000Z",
+    "contentHash": "7aa0cf124643f45e8ae3bafb8a09f6573959c0655f490a9f6bd689b7380f363e",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:darkreading-aef9dd93ed",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "eu-central",
+    "title": "FrostyNeighbor APT Linked to Russian Cyber Operations in Ukraine",
+    "summary": "The FrostyNeighbor APT has conducted destructive attacks in Ukraine, prompting analysis of potential coordination with Russian cyber objectives. The activity suggests evolving operational patterns within the broader regional cyber conflict.",
+    "sourceUrl": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
+    "publishedAt": "2026-10-30T08:00:00.000Z",
+    "contentHash": "d582145db42292edc570c679aa7bbff2b73cecb0d24e7c15193faf381e6e9ad0",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:sans-isc-57b3e4d86d",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Friday, October 30th, 2026",
+    "summary": "SANS Internet Storm Center's regular podcast episode covering current cybersecurity events and threat landscape updates.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33472",
+    "publishedAt": "2026-10-30T03:30:17.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:thehackernews-bc4258f967",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "software",
+      "ecommerce",
+      "saas"
+    ],
+    "title": "Active Exploitation of Drupal Commerce Core Authorization Bypass Vulnerability",
+    "summary": "Threat actors are actively exploiting a missing authorization vulnerability in Drupal Commerce Core (CVE-2026-118539) affecting multiple version ranges up to 2.41 and 3.3.13. The flaw allows unauthorized access to sensitive commerce functions. Drupal has issued warnings and guidance for affected deployments.",
+    "sourceUrl": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+    "publishedAt": "2026-10-30T07:45:30.000Z",
+    "contentHash": "06a259e11b761dc53d9e128609b76d6c6eb4e5b9bae208935567f59ef858e941",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:darkreading-512f3d6346",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Anthropic-Themed Phishing Emails Bypass Leading Secure Email Gateways",
+    "summary": "Phishing emails impersonating Anthropic are successfully evading detection by several major secure email gateway products despite containing typical phishing indicators. The campaign highlights gaps in email security tool effectiveness against socially-engineered threats targeting organizations familiar with AI companies.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
+    "publishedAt": "2026-10-29T21:21:56.000Z",
+    "contentHash": "36464bbb2817ef67648def842472a5e4bd6676d6202df6a59b9af20ffac0008d",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:cisa-550e95ef6a",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy"
+    ],
+    "title": "Hitachi Energy TRO600 Series Multiple Vulnerabilities Enable Remote Code Execution and File Disclosure",
+    "summary": "Hitachi Energy disclosed two vulnerabilities affecting TRO600 series products (versions 9.2.1.6 and prior for CVE-2026-10756; 9.1.1.0 and prior for CVE-2026-106087). CVE-2026-10756 allows authenticated attackers to bypass network restrictions via port forwarding, while CVE-2026-106087 permits unauthenticated arbitrary file read access. Both vulnerabilities carry CVSS 7.5-8.7 severity; remediation involves updating to versions 9.2.2.1 or 9.1.2.0.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+    "publishedAt": "2026-10-29T12:00:00.000Z",
+    "contentHash": "e915aedf99346c5fcf4d8afaaad849b566ffc16171a7c20c6f396c7c0c63f784",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:bleeping-a173c74293",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "financial services"
+    ],
+    "title": "Binance attributes $6.3 billion cryptocurrency theft to compromised DevOps infrastructure",
+    "summary": "Binance has identified a compromised DevOps engineer's laptop as the source of a $6.3 billion cryptocurrency theft. The incident highlights the critical security risks posed by inadequately protected administrative infrastructure within large financial platforms.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+    "publishedAt": "2026-10-30T09:18:13.000Z",
+    "contentHash": "9e08adce060473d10e018a6f7d7ce7187c350a882f491fcbbcdd0efd740aeaa9",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:thehackernews-8927f234f5",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "us",
+    "title": "CISA Adds GitLab RCE and Cisco Firewall Flaws to Known Exploited Vulnerabilities Catalog",
+    "summary": "CISA has catalogued two vulnerabilities as actively exploited: a critical remote code execution flaw in GitLab (CVE-2026-97229, CVSS 10.0) resulting from integer overflow, and a denial-of-service vulnerability in Cisco firewall products. Inclusion in the KEV catalog signals widespread exploitation and compliance requirements for federal agencies and critical infrastructure operators.",
+    "sourceUrl": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+    "publishedAt": "2026-10-30T07:27:05.000Z",
+    "contentHash": "95e3dc322f449f580abac3aec438f01bab0591a079f235b2b6a4c358861944cb",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:darkreading-1a817c851d",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Rethinking Cybersecurity Awareness in the AI Era",
+    "summary": "Recent discussions on Cybersecurity Awareness Month highlight evolving training approaches that incorporate AI tools and address emerging threats. Organizations are focusing on workforce education strategies tailored to modern risk landscapes and next-generation security challenges.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
+    "publishedAt": "2026-10-29T20:15:37.000Z",
+    "contentHash": "b975076b992d330fbdc23016eeeea1aaba465980e9e4541072a88a5f9d18289b",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:bleeping-c3c936b327",
+    "tier": "event",
+    "category": "product-release",
+    "title": "OpenAI Reverses ChatGPT Pro Usage Limit Reduction Plans",
+    "summary": "OpenAI announced it will not implement previously planned reductions to usage limits across its $100, $200, and $500 ChatGPT Pro subscription tiers and Business Premium offerings. The company also committed to maintaining separate usage accounting for its Dots feature, responding to customer feedback regarding the proposed changes.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+    "publishedAt": "2026-10-29T23:35:52.000Z",
+    "contentHash": "4ad83a94764c211a4c1214d0772e09ba77493a20c37c103a211a48a19d1fd58c",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:thehackernews-d563e9e1aa",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "fintech"
+    ],
+    "title": "Binance Security Incident Results in $6.3 Billion in Affected Assets",
+    "summary": "Binance disclosed a security incident impacting approximately $6.3 billion in assets, with nearly $3 billion frozen on-chain. Stablecoin issuers Tether and Circle have frozen over 1.5 billion USDT and 800 million USDC respectively in response to the breach.",
+    "sourceUrl": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+    "publishedAt": "2026-10-30T04:14:59.000Z",
+    "contentHash": "8d0990275bfab038aaca0630aa9e24673f825a20d22bd8c433288ba20f143049",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:darkreading-17e237259c",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Claude AI Model Demonstrates Multi-Platform Vulnerability Chaining Across Major Browsers and Operating Systems",
+    "summary": "Anthropic reported that an unreleased version of Claude identified and chained multiple vulnerabilities spanning Chrome, Safari, Android, Windows, and Linux. The capability demonstrates the model's ability to discover and correlate security flaws across diverse platforms, raising questions about both offensive AI capabilities and their defensive applications.",
+    "sourceUrl": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
+    "publishedAt": "2026-10-29T18:15:59.000Z",
+    "contentHash": "ee160a545ef3faa2611f2aa44ec683a2e5f2e7d62802dab347c156ad308e0e96",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:cisa-e3c026fb2d",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "energy",
+      "critical manufacturing",
+      "transportation",
+      "healthcare",
+      "financial services",
+      "government"
+    ],
+    "title": "Siemens PSS(R)SINCAL WibuKey Out-of-Bounds Write Vulnerability",
+    "summary": "Siemens PSS(R)SINCAL contains an out-of-bounds write flaw in the WibuKey third-party licensing driver affecting versions 21.5, 22.0, and 22.5 (prior to update 5). Exploitation could crash affected systems or potentially modify adjacent kernel memory. Patches are available for v22.5.5+; earlier versions require manual installation of WibuKey Runtime 6.72 or later, with vendors recommending network segmentation and validated deployment procedures.",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-06",
+    "publishedAt": "2026-10-22T12:00:00.000Z",
+    "contentHash": "fc7f1dcd4800cd76b13b2dca719b5e1e29974367dba1c0e1bec0b331a199301d",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:bleeping-84f3cbb977",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "financial services"
+    ],
+    "title": "Binance investigates potential $5.8 billion cryptocurrency theft",
+    "summary": "Binance is examining a possible security incident affecting up to $5.8 billion in digital assets. If confirmed, this would represent the largest cryptocurrency exchange breach on record. The investigation is ongoing with details remaining limited.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+    "publishedAt": "2026-10-29T22:45:23.000Z",
+    "contentHash": "ab9063661104e79e3255578962a2105cc4585604af34202dd4eee07713d0cc82",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
+  },
+  {
+    "id": "knowledge:thehackernews-7f056f665b",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ThreatsDay: Multiple Active Threats Including Firewall Vulnerabilities, Banking Trojans, and Supply Chain Risks",
+    "summary": "A weekly threat roundup identified critical firewall flaws, rental markets for banking trojans, weaponized PDF delivery mechanisms, and token theft campaigns alongside 26 additional incidents. Threats combined both sophisticated techniques and exploitation of basic operational failures, with adversaries leveraging trusted applications and AI tooling for acceleration.",
+    "sourceUrl": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+    "publishedAt": "2026-10-29T19:11:58.000Z",
+    "contentHash": "270295348d089828b85058a3a00e97d2ea6a8850b5ac3a575ef52ef69094ed88",
+    "ingestedAt": "2026-10-30T11:23:10.359Z"
   }
 ]
