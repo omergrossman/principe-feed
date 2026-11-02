@@ -358,201 +358,6 @@
     "ingestedAt": "2026-09-13T10:16:56.478Z"
   },
   {
-    "id": "knowledge:cisa-0ed309bdb2",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "us",
-    "title": "CISA Adds Two Zammad Vulnerabilities to Known Exploited Vulnerabilities Catalog",
-    "summary": "CISA has catalogued two actively exploited vulnerabilities in Zammad software: a session fixation flaw (CVE-2026-102489) and an improper privilege management issue (CVE-2026-102490). Federal agencies are required under BOD 26-04 to prioritize patching KEV-listed vulnerabilities on exposed assets, with CISA encouraging all organizations to adopt similar risk-based remediation practices.",
-    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "publishedAt": "2026-10-02T12:00:00.000Z",
-    "contentHash": "c63b965bc241617370ed141f8614d862a4def1f3473d716b9b0a23b79b1994a2",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:darkreading-5a09c5ac00",
-    "tier": "event",
-    "category": "product-release",
-    "title": "RemoteThreat Advances Red Team Simulation Beyond Traditional Approaches",
-    "summary": "RemoteThreat, an offensive cyber operations firm, is positioning red teaming to extend beyond conventional attack simulations by modeling more sophisticated post-breach adversary behaviors. The approach emphasizes testing organizational response when initial security controls fail rather than focusing solely on perimeter penetration.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail",
-    "publishedAt": "2026-10-02T20:18:37.000Z",
-    "contentHash": "ab45d70f9d5815114c7010b303992ac440c9948de2edec7077f0c24a86d67e67",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:bleeping-e611cb20ae",
-    "tier": "event",
-    "category": "attack",
-    "industries": [
-      "water",
-      "telecommunications",
-      "government",
-      "education"
-    ],
-    "title": "Warlock Ransomware Exploits SharePoint Vulnerabilities Across Critical Infrastructure",
-    "summary": "A China-linked ransomware group named Warlock has conducted attacks against water utilities, telecommunications providers, regional government entities, and educational institutions by leveraging SharePoint vulnerabilities for initial compromise. The campaign demonstrates continued targeting of critical infrastructure sectors through web application exploitation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
-    "publishedAt": "2026-10-02T18:33:01.000Z",
-    "contentHash": "3f087185b2d19b63c563182686e24102a74e420046ffb910d7344a54e1f99326",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:thehackernews-2fb0abb39d",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "apac",
-    "industries": [
-      "government"
-    ],
-    "title": "Antino Backdoor Targets Asian Government Organizations via Outlook and OneDrive",
-    "summary": "A China-linked threat actor has deployed a previously undocumented backdoor named Antino against government and policy organizations across seven Asian countries, including Taiwan, India, and the Philippines. The backdoor leverages Outlook and OneDrive as command-and-control channels, exploiting legitimate cloud services to evade detection. Cisco Talos is tracking the campaign and the associated threat cluster.",
-    "sourceUrl": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
-    "publishedAt": "2026-10-02T17:33:16.000Z",
-    "contentHash": "51228a3bd80d4cdba2559473cf31f1e1814736f08cd6a2faef648d2b09b082c0",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:darkreading-c85075d09d",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Kiteworks and Citrix Zero-Day Response Approaches Highlight Incident Management Variations",
-    "summary": "Recent zero-day vulnerabilities affecting Kiteworks and Citrix revealed divergent response strategies: one vendor instructed customers to temporarily disable its data-protection platform, while the other delayed public disclosure of reported exploitation before releasing a patch. These cases underscore the operational and communication trade-offs organizations face when managing critical security incidents.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
-    "publishedAt": "2026-10-02T16:56:30.000Z",
-    "contentHash": "6d3ba81791304f450aaecd23960e4fe2444147a18866447274dac4f782bdd4b4",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:bleeping-9814dffcb6",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "GitLab Issues Critical RCE Warning for AI Gateway Service",
-    "summary": "GitLab has disclosed a critical remote code execution vulnerability in its AI Gateway service that permits attackers to execute arbitrary commands on affected instances. The company has advised customers to apply patches without delay to mitigate exploitation risk.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
-    "publishedAt": "2026-10-02T16:20:05.000Z",
-    "contentHash": "916047e476b476ad8715e3ddb8fc10548d089c4000c924c0e01b479f2c868b11",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:thehackernews-5f13530361",
-    "tier": "event",
-    "category": "product-release",
-    "industries": [
-      "cloud-services",
-      "infrastructure",
-      "containers"
-    ],
-    "title": "Dell Container Storage Module Vulnerabilities Enable Unauthorized Admin Access",
-    "summary": "Dell has addressed multiple critical vulnerabilities in its Container Storage Modules (CSM) that could permit unauthenticated attackers to gain administrative access and root-level control on Kubernetes nodes. The most severe flaw carries a CVSS score of 10.0 and involves missing authentication controls in the csm-authorization-storage gRPC server.",
-    "sourceUrl": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-    "publishedAt": "2026-10-02T17:02:12.000Z",
-    "contentHash": "0d171906636ba2ea68eec54d0f2d9bf61cf431c1db632e10e4610a32c26f4275",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:darkreading-f071bbafdb",
-    "tier": "event",
-    "category": "threat-intel",
-    "region": "global",
-    "industries": [
-      "banking",
-      "government"
-    ],
-    "title": "SWIFT Banking and Government Middleware Vulnerabilities Enable Remote Code Execution",
-    "summary": "Unpatched middleware vulnerabilities in SWIFT banking and government systems can be exploited to achieve remote code execution and bypass hardware-based multi-factor authentication protections. Organizations operating in these critical sectors are advised to prioritize patching to mitigate risks in high-sensitivity environments.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
-    "publishedAt": "2026-10-02T16:27:54.000Z",
-    "contentHash": "c4b0d23a5174e761709c7f48dc8579d6e3c040608f7b43781ae7cc61dc977b3c",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:bleeping-5098f8e142",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "industries": [
-      "financial services"
-    ],
-    "title": "US Treasury Sanctions Tren de Aragua Members for ATM Jackpotting Campaign",
-    "summary": "The U.S. Treasury Department imposed sanctions against eight members of the Venezuelan gang Tren de Aragua for conducting ATM jackpotting attacks that resulted in millions of dollars in theft across the United States. The action reflects coordinated law enforcement efforts to disrupt organized financial crime involving physical ATM exploitation techniques.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
-    "publishedAt": "2026-10-02T15:20:53.000Z",
-    "contentHash": "84b086556a595dd04efd26712a5cd2135a263091e9e24d61864210808717971a",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:thehackernews-e5ad3ab89f",
-    "tier": "event",
-    "category": "news",
-    "region": "us",
-    "title": "OpenAI Separates From Three Safety Researchers Over Information Policy Violations",
-    "summary": "OpenAI terminated three safety team members for breaching internal policies related to access and handling of sensitive company information. The departures followed an internal investigation that confirmed policy violations by the individuals involved.",
-    "sourceUrl": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
-    "publishedAt": "2026-10-02T12:23:15.000Z",
-    "contentHash": "59a973818df2897b661e95756eb9eba5703383aece58a458ad28e7743f88b4b6",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:darkreading-04957202ca",
-    "tier": "event",
-    "category": "analyst",
-    "title": "Is Your Organization Ready for 2027's AI Accountability Era?",
-    "summary": "Industry analysts from Omdia and Gartner project that organizations will encounter increased accountability pressures surrounding AI implementations through 2027. The anticipated shift centers on governance frameworks, security posture, and demonstrable business value delivery in AI deployments.",
-    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/is-your-organization-ready-for-2027-s-ai-accountability-era-",
-    "publishedAt": "2026-10-02T16:01:22.000Z",
-    "contentHash": "9afb96c7e0452f3e01e8f94d2f48e1d95f5c3eeeaffbd8902b591e1268dd640c",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:bleeping-f4b6d95f5f",
-    "tier": "event",
-    "category": "threat-intel",
-    "title": "Browser-based attacks evade endpoint detection and response systems",
-    "summary": "Endpoint detection and response (EDR) solutions may fail to identify browser-based attacks that steal sessions, exploit extensions, or execute social engineering without generating traditional endpoint artifacts. Browser-level security controls can complement EDR deployments to address this detection gap.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
-    "publishedAt": "2026-10-02T14:00:10.000Z",
-    "contentHash": "75b3b939ea0d917bd3c025e3269b6c20981a89537f28f7d39c7e221bfad47100",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:thehackernews-43a11e7cfe",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Addressing Board-Level Security Reporting Challenges for CISOs",
-    "summary": "CISOs face difficulty synthesizing security data from multiple tools into coherent board narratives, particularly when answering questions about overall organizational security posture, risk prioritization, and resource allocation. The fragmented approach of manually reconciling data from identity, cloud, vulnerability, and endpoint management systems creates inefficiencies that obscure actionable insights needed for executive decision-making.",
-    "sourceUrl": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
-    "publishedAt": "2026-10-02T11:30:00.000Z",
-    "contentHash": "f8731d6158567e72ea29d851b3ed156e4fb8e84ee104e729fe2b2f2eb2fdf4bf",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:darkreading-32720f1735",
-    "tier": "event",
-    "category": "strategy",
-    "title": "Rogue AI Terminology Misattributes Security Risk",
-    "summary": "Industry discourse around 'rogue AI' inappropriately frames LLM failures as intentional misconduct, obscuring vendor accountability. Security practitioners should approach AI agents as inherently unpredictable software tools requiring defensive controls, rather than adopting language that implies autonomous malice.",
-    "sourceUrl": "https://www.darkreading.com/insider-threats/blame-rogue-ai-security-failures",
-    "publishedAt": "2026-10-02T15:51:33.000Z",
-    "contentHash": "b28a1fb31ede43a92231d46f64a6529a74f0a5379d694204927308eee7a2c982",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
-    "id": "knowledge:bleeping-778774296a",
-    "tier": "event",
-    "category": "product-release",
-    "industries": [
-      "technology",
-      "infrastructure"
-    ],
-    "title": "Dell Releases Critical Patches for Container Storage Module Vulnerabilities",
-    "summary": "Dell has addressed two maximum severity vulnerabilities in its Container Storage Modules that facilitate integration between Dell enterprise storage systems and Kubernetes environments. The company recommends timely patching to mitigate potential exploitation risks in containerized storage deployments.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
-    "publishedAt": "2026-10-02T12:37:40.000Z",
-    "contentHash": "f0d298200ec6b92287cdd9270f04eec5c6970c926ad460a2d09f3143441bdc3b",
-    "ingestedAt": "2026-10-03T10:24:36.875Z"
-  },
-  {
     "id": "knowledge:bleeping-56efa4232e",
     "tier": "event",
     "category": "product-release",
@@ -5187,5 +4992,197 @@
     "publishedAt": "2026-10-29T19:56:44.000Z",
     "contentHash": "86f607aca3cb97add9476e9eb05d2e523a7c2e0959659cb83eef2d3bfc3700ca",
     "ingestedAt": "2026-11-01T11:49:46.114Z"
+  },
+  {
+    "id": "knowledge:bleeping-ce0102be3f",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "software development",
+      "technology"
+    ],
+    "title": "Over 1,000 GitLab servers remain vulnerable to active RCE exploitation",
+    "summary": "More than 1,000 publicly accessible GitLab instances have not been patched against a critical remote code execution vulnerability that is currently being exploited in the wild. The flaw carries maximum severity ratings and continues to pose active risk to unpatched deployments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+    "publishedAt": "2026-11-02T12:47:00.000Z",
+    "contentHash": "35f8cd63b2b1c969ca46da142889323ad934fac61a5d255bd0c63557c9e1df9e",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:thehackernews-0bed561f10",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "software",
+      "ai"
+    ],
+    "title": "Critical Authentication Bypass and RCE Vulnerabilities in Langflow AI Platform",
+    "summary": "Two critical vulnerabilities affecting Langflow versions 1.0.0 through 1.12.8 allow unauthenticated remote attackers to bypass authentication and execute arbitrary code on affected servers. IBM disclosed the flaws, with remediation available in version 1.13.0 or later.",
+    "sourceUrl": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+    "publishedAt": "2026-11-02T11:50:00.000Z",
+    "contentHash": "92c67cb570006dbe836d3822cd3bf61c7413d835ee6ee4a5929f9cb5cf36a03f",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:darkreading-2533c82e00",
+    "tier": "event",
+    "category": "strategy",
+    "title": "Threat Modeling With 4 Simple Questions on a White Board",
+    "summary": "Dark Reading presents a lightweight threat modeling approach using four guiding questions that security leaders can apply with minimal resource investment. The method emphasizes practical, whiteboard-based exercises to identify and prioritize organizational risks without requiring extensive tooling or budget allocation.",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions",
+    "publishedAt": "2026-10-29T15:44:04.000Z",
+    "contentHash": "be4871172bce3e143a3bf05e7640846109aad67526040404b32f3e7987a8a77a",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:sans-isc-ba013b14a8",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ISC Stormcast For Monday, November 2nd, 2026",
+    "summary": "SANS Internet Storm Center's daily podcast briefing covering current cybersecurity developments and threat intelligence. The episode discusses recent security incidents, vulnerabilities, and defensive recommendations relevant to network defenders.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33480",
+    "publishedAt": "2026-11-02T02:00:03.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:bleeping-0f81648bf5",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "global",
+    "industries": [
+      "storage",
+      "it infrastructure"
+    ],
+    "title": "Synology Issues Update Advisory for C3RB3R Ransomware Campaign",
+    "summary": "Synology has alerted customers to widespread C3RB3R ransomware activity targeting NAS devices. The vendor is recommending immediate firmware updates to mitigate exploitation risks associated with this campaign.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+    "publishedAt": "2026-11-02T11:28:42.000Z",
+    "contentHash": "352e46c4606d00efed13013165fd134bba8ab2b83490d88b390a569253f2e6e3",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:thehackernews-bfff44c21c",
+    "tier": "event",
+    "category": "analyst",
+    "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+    "summary": "Prophet Security's survey of over 250 security leaders reveals that 40% of SOCs have integrated AI into daily operations, with 56% currently piloting implementations and only 4% showing no adoption plans. The research emphasizes that deploying AI agents requires organizations to assess SOC maturity across critical dimensions before proceeding with deployments.",
+    "sourceUrl": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+    "publishedAt": "2026-11-02T11:30:00.000Z",
+    "contentHash": "f5291b60cdfbbfa85182eb659b1071f91603da987c01260f86acb05a05ec8bc0",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:bleeping-5ff3e4930a",
+    "tier": "event",
+    "category": "attack",
+    "title": "Ivanti Patches Two Additional Connect Secure Zero-Day Vulnerabilities Exploited in Chains",
+    "summary": "Ivanti released patches for two previously unpatched vulnerabilities in Connect Secure that have been actively exploited in coordinated attacks since early October. The flaws were leveraged together by threat actors to compromise the remote access gateway. This follows Ivanti's earlier disclosure and patching of related ICS vulnerabilities.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+    "publishedAt": "2026-11-02T09:33:26.000Z",
+    "contentHash": "387a07fba689364aebce520840595f33b60ca11701fa4dc2f5b39af511b4df03",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:thehackernews-f801cd5cca",
+    "tier": "event",
+    "category": "attack",
+    "title": "Attackers Impersonate IT Support via Microsoft Teams to Exploit AD CS Misconfigurations",
+    "summary": "Attackers impersonated IT support personnel on Microsoft Teams to gain remote access to employee workstations through social engineering. Once inside, they exploited insecure Active Directory Certificate Services configurations to issue login certificates for privileged accounts, including domain controller credentials. Microsoft documented two confirmed intrusions using this attack chain.",
+    "sourceUrl": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+    "publishedAt": "2026-11-02T11:08:45.000Z",
+    "contentHash": "cb161d0fbba949973229a73110c0795df42a9aefb4f38c762f8b8e330e336d49",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:bleeping-5d7adb06ae",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "financial services"
+    ],
+    "title": "FBI Attributes $6.3 Billion Binance Cryptocurrency Theft to North Korean State Actors",
+    "summary": "The FBI has identified North Korean state-sponsored hackers designated as TraderTraitor as responsible for a $6.3 billion cryptocurrency theft from Binance, representing the largest recorded crypto heist to date. The attribution confirms involvement of a foreign adversary in a significant financial services compromise.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+    "publishedAt": "2026-11-01T19:57:53.000Z",
+    "contentHash": "3bb2abb4da66548bfd573134c7823f1e103d11b6f551f8e85d9c922aa42c95ed",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:thehackernews-6aca75eb89",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "government"
+    ],
+    "title": "Government Linux Infrastructure Targeted in Espionage Campaign with Custom Malware",
+    "summary": "Palo Alto Networks Unit 42 identified a cyber espionage campaign between October 2025 and April 2026 targeting Linux systems across government and state-affiliated entities. The operation, tracked as CL-UNK-1211, deployed custom malware including SysGoRAT alongside potentially AI-generated tooling to establish persistence and exfiltrate data.",
+    "sourceUrl": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+    "publishedAt": "2026-11-02T10:49:59.000Z",
+    "contentHash": "5df914201e722d7d08cd9533f0e675ccb0af95ced5bc836099be2576b2e706fc",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:bleeping-d6448e6ee7",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "open source software"
+    ],
+    "title": "Alpine Linux rebuilds GitLab infrastructure following attempted exploitation",
+    "summary": "Alpine Linux detected an exploitation attempt targeting a critical GitLab vulnerability in its development infrastructure on October 20-21. The project responded by rebuilding its GitLab server and resetting all credentials as a precautionary measure against potential system compromise.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+    "publishedAt": "2026-11-01T15:11:21.000Z",
+    "contentHash": "da0b1bd3982670483c266bb49acc49e6da0a58353e306a7036785bc198a54d7f",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b1c1d30dd8",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "VOLTA Infostealer Leverages LLMs to Prioritize High-Value Victims",
+    "summary": "Researchers identified VOLTA-AUTODOXER, a Windows infostealer that integrates large language models including Claude and Gemini to assess and rank stolen victim data by financial worth. The malware harvests credentials, browser data, and communications from email and collaboration platforms, using AI-driven victim profiling to optimize monetization targets.",
+    "sourceUrl": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+    "publishedAt": "2026-11-02T05:51:07.000Z",
+    "contentHash": "f857e1836a4be861bfd48f54afd377ac16aa167026b6b2ba9dad7198ff73a1e0",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:bleeping-a45c5035f5",
+    "tier": "event",
+    "category": "product-release",
+    "title": "OpenAI Expands ChatGPT Capabilities and Consolidates Usage Limits",
+    "summary": "OpenAI is integrating Work features into its standard Chat interface and combining usage allowances across ChatGPT and Codex products. The move aims to streamline access to enterprise-grade functionality for a broader user base while doubling Pro subscription limits.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+    "publishedAt": "2026-11-01T13:53:11.000Z",
+    "contentHash": "b628741700c54327bcf743e6b552d90518071e441b9dcaf7c24974c80ca03424",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:thehackernews-c305d693e1",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "title": "Attackers Chain Ivanti Connect Secure Flaws for Unauthenticated Root Access",
+    "summary": "CISA added two vulnerabilities affecting Ivanti Connect Secure to its Known Exploited Vulnerabilities catalog following active exploitation. Attackers are chaining these flaws to achieve unauthenticated root access, with one vulnerability (CVE-2026-111357, CVSS 8.8) involving missing authentication controls on critical functions.",
+    "sourceUrl": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+    "publishedAt": "2026-10-31T08:27:43.000Z",
+    "contentHash": "db101c43acee30318f25f360474afd7e6315618b17de9ec6b6e1aa5d9970d549",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:thehackernews-09f142bd26",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "ChatGPT Share Links Vulnerable to Session Hijacking and Chat Data Exposure",
+    "summary": "Researchers identified a vulnerability in ChatGPT's share link functionality that allowed attackers to execute arbitrary code within a victim's authenticated session, potentially exposing private conversation history. OpenAI addressed the flaw within eight days of the October 18 report through its bug bounty program and assigned it the highest severity rating.",
+    "sourceUrl": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+    "publishedAt": "2026-10-31T05:33:41.000Z",
+    "contentHash": "20f175a8d29f2a34e0ea8c076172fa194867f902a0d1f30f2d26d35a7aea60f1",
+    "ingestedAt": "2026-11-02T13:29:18.219Z"
   }
 ]
