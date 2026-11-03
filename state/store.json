@@ -5184,5 +5184,259 @@
     "publishedAt": "2026-10-31T05:33:41.000Z",
     "contentHash": "20f175a8d29f2a34e0ea8c076172fa194867f902a0d1f30f2d26d35a7aea60f1",
     "ingestedAt": "2026-11-02T13:29:18.219Z"
+  },
+  {
+    "id": "knowledge:krebs-ee5bbf6202",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "title": "Tech Firms Dismantle Botnet Leveraging 1.3M Compromised TV Boxes",
+    "summary": "Google and industry partners dismantled a botnet comprising over 1.3 million Android TV set-top boxes pre-installed with malicious software that hijacked user internet connections for proxy services and ad fraud schemes. The takedown is expected to disrupt the botnet's command infrastructure across an estimated 10 million additional compromised IoT devices, including healthcare equipment and entertainment systems running Android-based platforms.",
+    "sourceUrl": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+    "publishedAt": "2026-11-03T02:24:31.000Z",
+    "contentHash": "4ec8303641646c939d1518b54999028837a9f63ef292772bbe657c2a7e3ce6b6",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:bleeping-1358dd463e",
+    "tier": "event",
+    "category": "product-release",
+    "title": "Google Expands Cloud VRP with $250,000 Maximum Reward",
+    "summary": "Google has introduced a new top-tier reward tier of $250,000 in its Cloud Vulnerability Reward Program, targeting high-impact architectural security flaws affecting cloud infrastructure. This expansion reflects increased focus on incentivizing disclosure of critical vulnerabilities in cloud environments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+    "publishedAt": "2026-11-03T12:05:52.000Z",
+    "contentHash": "d166f5cdfb0ba60e0ef74f9804e0ecba56bf71e74de70aaddc2f64f2ba17628d",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:thehackernews-cdcba13e8b",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "fintech"
+    ],
+    "title": "BTCPay Server Vulnerability Leads to Hot Wallet Cryptocurrency Theft",
+    "summary": "BTCPay Server, an open-source self-hosted payment processor, identified a vulnerability affecting versions 2.4.1 and earlier that enabled attackers to steal Bitcoin and Litecoin from hot wallets. The organization has advised users to upgrade to patched versions to mitigate exposure.",
+    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+    "publishedAt": "2026-11-03T08:31:48.000Z",
+    "contentHash": "5671f6d6009e29ad9c38aab2c563a37a7162b96c73fc5ac2161e00e4884c90d1",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:darkreading-7687771085",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "cryptocurrency",
+      "financial services"
+    ],
+    "title": "Binance Incident Illustrates Systemic Risk From Insufficient Segmentation and Controls",
+    "summary": "A compromised laptop at a major cryptocurrency exchange exposed critical gaps in system isolation and access controls, allowing attackers to escalate privileges across infrastructure. The incident demonstrates how inadequate compartmentalization and untested security assumptions can enable localized breaches to propagate into large-scale compromise affecting customer assets.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+    "publishedAt": "2026-11-02T22:27:24.000Z",
+    "contentHash": "67c0d13b91e55aee0e26a2aff68ce1fd3c367ed699b8c8f6c48b12e8c6b95a1d",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:sans-isc-3ece3407c2",
+    "tier": "event",
+    "category": "news",
+    "title": "ISC Stormcast For Tuesday, November 3rd, 2026",
+    "summary": "SANS Internet Storm Center published their daily Stormcast podcast episode covering current cybersecurity developments and threat landscape updates relevant to security practitioners.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33484",
+    "publishedAt": "2026-11-03T02:00:02.000Z",
+    "contentHash": "cbaef7ec6676c92e698c8a92032df53ac0db910c1b4b4c9d0898cd3356851f32",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-4b940fe58e",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "uk",
+    "industries": [
+      "critical-infrastructure"
+    ],
+    "title": "NCSC warns of AI-powered attacks on UK critical infrastructure within two years",
+    "summary": "The UK National Cyber Security Centre has cautioned that inadequate cybersecurity investment and cost-cutting measures may enable adversaries to leverage AI systems to identify and exploit existing vulnerabilities in critical infrastructure. The warning emphasizes the need for enhanced resilience across UK organisations.",
+    "sourceUrl": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+    "publishedAt": "2026-11-03T12:00:00.000Z",
+    "contentHash": "2ac4196002915716c8cea0518b1706d12a3199317df3f5b53d5545808466d431",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:thehackernews-9c59a38943",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "technology",
+      "storage"
+    ],
+    "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+    "summary": "Synology has identified ransomware campaigns exploiting a vulnerability in DiskStation Manager (DSM) software that was patched in December 2024. The attacks target NAS devices running unpatched DSM versions, with threat actors attempting data encryption and extortion. The vendor recommends customers apply available updates to mitigate exposure.",
+    "sourceUrl": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+    "publishedAt": "2026-11-03T07:43:07.000Z",
+    "contentHash": "d5bbbf60d620448d8f42159ff729f1a4b96d70ee2b6f103f6727c645085f3096",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:darkreading-dabbcc2d78",
+    "tier": "event",
+    "category": "analyst",
+    "region": "us",
+    "industries": [
+      "government"
+    ],
+    "title": "Microsoft's Digital Defense Report Omits Microsoft Vulnerability Context",
+    "summary": "Microsoft's latest Digital Defense Report highlights government agencies as priority targets for AI-driven attacks. The analysis does not address concurrent threat vectors involving Microsoft product vulnerabilities affecting the same agencies, potentially limiting the completeness of risk assessment for defenders.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
+    "publishedAt": "2026-11-02T15:00:00.000Z",
+    "contentHash": "49cc26b4bbfab96d67bcd781599851e34e70f2fd3618173dbc6e5df87ad32bb2",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:sans-isc-ab6c034f84",
+    "tier": "event",
+    "category": "threat-intel",
+    "title": "Multipath TCP: Use and Detection",
+    "summary": "A TCP option standardized in 2020 has drawn attention following disclosure of a vulnerability in Linux's implementation. The flaw affects RFC 8684 and has been assigned CVE-2026-98432, highlighting detection and monitoring considerations for this less commonly observed protocol feature.",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/33482",
+    "publishedAt": "2026-11-02T14:52:05.000Z",
+    "contentHash": "229145c6226686c6d27b657964bfcf5f1c371222391caa6d5b42e5f08cb1f7a0",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:ncsc-uk-aa724a9a8e",
+    "tier": "event",
+    "category": "threat-intel",
+    "region": "uk",
+    "title": "NCSC Assessment: AI-Enabled Cyber Intrusion Threats Through 2028",
+    "summary": "The UK's National Cyber Security Centre has published an assessment of current threat trends leveraging artificial intelligence and provided projections for the cyber threat landscape through 2028. The analysis examines how AI capabilities are being integrated into intrusion techniques and their expected evolution over the coming years.",
+    "sourceUrl": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
+    "publishedAt": "2026-11-03T12:00:00.000Z",
+    "contentHash": "c79225c0d58e57ddff1e862ef2ebbd536e0644fdd1df23627463b65be69ed122",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:thehackernews-a8dc2b16ab",
+    "tier": "event",
+    "category": "attack",
+    "region": "eu-west",
+    "industries": [
+      "retail",
+      "food & beverage",
+      "critical infrastructure"
+    ],
+    "title": "Refrigeration System Compromises Affect European Supermarkets",
+    "summary": "Attackers remotely manipulated refrigeration controls at supermarket locations across Belgium, Sweden, Estonia, and other European nations, causing temperature deviations that resulted in food spoilage and removal from shelves. The incident impacted multiple chains with dozens of stores each experiencing disruptions. Danfoss, a Danish refrigeration control manufacturer, was identified in connection with the affected systems.",
+    "sourceUrl": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+    "publishedAt": "2026-11-03T07:27:07.000Z",
+    "contentHash": "84c83e766ef47f1e461cac3ba96c02e3f4d3759e29a0d53d9ca40f47bbc6fbb6",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:darkreading-e6aaea8189",
+    "tier": "event",
+    "category": "attack",
+    "region": "apac",
+    "title": "PapRAT Cyber-Espionage Campaign Targets South Asian Organizations",
+    "summary": "A suspected India-linked threat group is conducting targeted cyber-espionage operations against organizations in South Asia using three distinct attack chains that exploit legitimate Windows functionality. The campaign demonstrates operational maturity through abuse of built-in system tools to evade detection.",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
+    "publishedAt": "2026-11-02T14:00:00.000Z",
+    "contentHash": "d11aafee591aa3ed94d711282172220fa15d916b0022833b2a08c73f5fd386d5",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:bleeping-b728804dc9",
+    "tier": "event",
+    "category": "attack",
+    "region": "us",
+    "industries": [
+      "fintech",
+      "financial services"
+    ],
+    "title": "Abrigo's Sageworks Fintech Platform Restored After Suspected Cyberattack",
+    "summary": "Abrigo restored its Sageworks risk management platform following an outage caused by irregular activity detected in its environment, though borrower-facing features remain offline. The incident affected a fintech application used by financial institutions for risk assessment and management.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+    "publishedAt": "2026-11-02T19:00:45.000Z",
+    "contentHash": "e7185300cacb333143edcc278d8c1df7ea6e4694a509742b3d5c61b51dabedba",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:thehackernews-b9ba4e436f",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "industrial-control-systems",
+      "manufacturing",
+      "critical-infrastructure"
+    ],
+    "title": "Siemens SIMATIC IoT2050 Critical Authentication Flaw Under Active Exploitation",
+    "summary": "A maximum-severity vulnerability (CVE-2026-58115, CVSS 10.0) in Siemens SIMATIC IoT2050 Advanced devices lacks authentication controls on critical functions, enabling unauthenticated remote code execution. Active exploitation has been documented, allowing attackers to establish persistent backdoor access on affected devices.",
+    "sourceUrl": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+    "publishedAt": "2026-11-03T05:34:41.000Z",
+    "contentHash": "a39695cadb3648bfa8e8e49c234b7f515b19ca0053efee133d2f492ab65cb208",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:darkreading-5a56d0ae4a",
+    "tier": "event",
+    "category": "analyst",
+    "title": "Investor Perspectives on Emerging Cybersecurity Startups",
+    "summary": "The DataTribe Challenge provides insight into current investment trends within the cybersecurity sector. Investor preferences reveal which startup focus areas are attracting capital and which segments remain underserved or saturated.",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/investors-dish-new-startsup-what-back-next",
+    "publishedAt": "2026-10-30T21:08:25.000Z",
+    "contentHash": "f31d6841c09dc269c6982aee518e6cae51e51c43df3c5fe3db4f2c13d0187c84",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:bleeping-540fcda805",
+    "tier": "event",
+    "category": "attack",
+    "region": "global",
+    "industries": [
+      "consumer electronics",
+      "streaming media"
+    ],
+    "title": "Google Dismantles XCPE Android Malware Botnet Across 1.3 Million TV Boxes",
+    "summary": "Google and industry partners have taken down the XCPE botnet, which compromised over 1.3 million Android TV streaming devices. The malware was intentionally distributed by the device manufacturer to monetize criminal activities, resulting in the manufacturer's ban from Google's ecosystem.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+    "publishedAt": "2026-11-02T18:16:34.000Z",
+    "contentHash": "4d8b93c2692dffaebf4eab54e0c75da63be56fc9ef5990131ae4f84d2137a6fb",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:thehackernews-d80473442c",
+    "tier": "event",
+    "category": "attack",
+    "industries": [
+      "financial services",
+      "cryptocurrency"
+    ],
+    "title": "Attackers Exploiting Critical CryptoPayment Gateway WordPress Plugin Vulnerability",
+    "summary": "Threat actors are actively attempting to exploit CVE-2026-81648, a maximum-severity flaw (CVSS 10.0) in the CryptoPayment Gateway WordPress plugin that remains unpatched. The vulnerability permits unauthenticated exploitation to delete arbitrary files and access sensitive data including wallet credentials stored on affected servers.",
+    "sourceUrl": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+    "publishedAt": "2026-11-03T05:34:37.000Z",
+    "contentHash": "73dca85239697c518247e7694fdcc2c736147f6cf0f7ad5541070eba19244733",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
+  },
+  {
+    "id": "knowledge:bleeping-8c4edece9b",
+    "tier": "event",
+    "category": "threat-intel",
+    "industries": [
+      "financial services",
+      "cryptocurrency"
+    ],
+    "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
+    "summary": "BTCPay Server maintainers have identified active exploitation targeting cryptocurrency hot wallets on systems running outdated versions of the open-source payment processor. Users are advised to upgrade to the latest release to mitigate the vulnerability being actively abused by threat actors.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+    "publishedAt": "2026-11-02T15:03:07.000Z",
+    "contentHash": "82e0a49f222fd0fd80854ad6969eebacd6cc3583c71dadd2a187b728ded31859",
+    "ingestedAt": "2026-11-03T12:46:38.548Z"
   }
 ]
